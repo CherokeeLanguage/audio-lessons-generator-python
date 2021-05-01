@@ -1,0 +1,3 @@
+[submodule "leitner-cards-python"]
+	path = leitner-cards-python
+	url = ../leitner-cards-python
