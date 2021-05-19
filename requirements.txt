@@ -1,3 +1,4 @@
 -e ./leitner-cards-python
 pydub~=0.25.1
 setuptools~=52.0.0
+dataclasses-json

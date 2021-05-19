@@ -28,17 +28,17 @@ class Config:
     output_dir: str = "output"
     sort_deck_by_size: bool = False
 
-    @classmethod
-    def load(cls, file: TextIO):
+    @staticmethod
+    def load(file: TextIO):
         return Config.from_json(file)
 
-    @classmethod
-    def save(cls, config, file: TextIO) -> None:
+    @staticmethod
+    def save(file: TextIO, config: "Config") -> None:
         file.write(config.to_json(indent=4, sort_keys=True))
         file.write("\n")
 
 
 if __name__ == "__main__":
     cfg: Config = Config()
-    with open("text-config.json", "w") as f:
-        Config.save(cfg, f)
+    with open("test-config.json", "w") as f:
+        Config.save(f, cfg)
