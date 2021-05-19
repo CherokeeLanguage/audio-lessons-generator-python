@@ -2,3 +2,5 @@
 pydub~=0.25.1
 setuptools~=52.0.0
 dataclasses-json
+boto3
+boto3_type_annotations_with_docs

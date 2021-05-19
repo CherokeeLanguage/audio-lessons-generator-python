@@ -30,7 +30,7 @@ class Config:
 
     @staticmethod
     def load(file: TextIO):
-        return Config.from_json(file)
+        return Config.from_json(file.read())
 
     @staticmethod
     def save(file: TextIO, config: "Config") -> None:
