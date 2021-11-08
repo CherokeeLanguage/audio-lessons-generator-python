@@ -2,8 +2,8 @@ import os
 
 import boto3
 from boto3_type_annotations.polly import Client as Polly
-# from leitner_cards.LeitnerDeck import LeitnerDeck
-# from leitner_cards.LeitnerCard import LeitnerCard
+from leitner_cards.Leitner import LeitnerDeck
+
 from pydub import AudioSegment
 
 from config import Config
@@ -13,10 +13,10 @@ if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
     print(os.getcwd())
 
-    #main_deck: LeitnerDeck = LeitnerDeck()
-    #discards_deck: LeitnerDeck = LeitnerDeck()
-    #finished_deck: LeitnerDeck = LeitnerDeck()
-    #active_deck: LeitnerDeck = LeitnerDeck()
+    main_deck: LeitnerDeck = LeitnerDeck()
+    discards_deck: LeitnerDeck = LeitnerDeck()
+    finished_deck: LeitnerDeck = LeitnerDeck()
+    active_deck: LeitnerDeck = LeitnerDeck()
 
     hz: int = 22050
     cfg: Config

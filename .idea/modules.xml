@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/audio-lessons-generator-python.iml" filepath="$PROJECT_DIR$/.idea/audio-lessons-generator-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leitner-cards-python/.idea/leitner-cards-python.iml" filepath="$PROJECT_DIR$/leitner-cards-python/.idea/leitner-cards-python.iml" />
     </modules>
   </component>
 </project>
