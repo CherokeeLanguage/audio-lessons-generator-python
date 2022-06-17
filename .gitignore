@@ -131,3 +131,4 @@ dmypy.json
 # Projects files
 /text-config.json
 /test.mp3
+review-sheet-*.txt

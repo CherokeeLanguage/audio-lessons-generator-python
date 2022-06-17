@@ -1,0 +1,71 @@
+ID|PSET|DIALOG|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|AUDIO FILE
+|||||||Anǐ:táɂli|two living things|
+|||||||ani:sgaya|men|
+|||||||à:ni:no:halǐ:dô:he|they were hunting|
+|||||||Anǐ:táɂli ani:sgaya|two men|
+|||||||Anǐ:táɂli ani:sgaya à:ni:no:halǐ:dô:he|Two men were hunting|
+#
+|||||||ahwi|a deer. deer.|
+|||||||dù:ni:hyohe|they were hunting them|
+|||||||ani:sgaya ahwi dù:ni:hyohe.|Men were hunting deer.|
+#
+|||||||Sà:gwű|one|
+|||||||Sà:gwű:hno|And one|
+|||||||asgaya|a man|
+|||||||galò:gwé|a gun|
+|||||||ga:ne:he|he had something rod shaped|
+#
+|||||||galò:gwé ga:ne:he|he had a gun.|
+|||||||asgaya galò:gwé ga:ne:he|A man had a gun.|
+|||||||sóɂí|another one|
+|||||||sóɂíhnv́|and the other one|
+|||||||hlā|no. not.|
+|||||||sóɂíhnv́ hlā.|And the other not.|
+#
+|||||||Ná|That one. Those.|
+|||||||Ná:hnv́|And that one|
+|||||||ga:ne̋:hi|one who has a rod shaped thing|
+|||||||u:dlv̌:kwsati|one who brags|
+|||||||gè:sé|was being|
+#|||||||Ná:hnv́ galò:gwé ga:ne̋:hi u:dlv̌:kwsati gè:sé,||
+#
+|||||||ale|and, or|
+|||||||go:hű:sdi|something|
+|||||||yǔ:dv̂:ne̋:la|when he did it|
+|||||||à:dlv̌:kwsgé|he would be bragging|
+#|||||||ale go:hű:sdi yǔ:dv̂:ne̋:la à:dlv̌:kwsgé.||
+#
+#|||||||À:ná:ɂi:sv̋:hnv go:hű:sdi wǔ:ní:go:he do:juwáɂihlv,||
+#
+#||||||| ná:hnv́ galò:gwé ga:ne̋:hi kilagwu||
+#
+#||||||| iyv̋:da widǔ:sdáyo:hlé ǒ:sdagwu||
+#
+#||||||| nǔ:ksestanv̋:na iyú:sdi dà:sdayo:hihv̋.||
+#
+#|||||||U:do:hiyű:hnv́ wǔ:yó:hlé||
+#
+#||||||| ale ù:ni:go:hé ganv́:gv̋.||
+#
+#|||||||Ná:hnv́ galò:gwé nigǎ:né:hv̋:na||
+#
+#||||||| "Ahwi è:ni:yó:ɂa!",||
+#
+#|||||||  ù:dv:hne.||
+#
+#|||||||"Ji:yó:ɂê:ga",||
+#
+#||||||| ù:dv:hne ná galò:gwé ga:ne̋:hi,||
+#
+#|||||||  à:dlv̌:kwsgv́.||
+#
+#|||||||Ù:ná:ne:lǔ:gî:se do:juwáɂihlv́ dí:dla,||
+#
+#||||||| naɂv̌:hníge̋:hnv wǔ:ní:luhja ù:ni:go:hé sǒ:gwíli gáɂnv̋.||
+#
+#|||||||"Sǒ:gwílílê ì:nada:hísi",||
+#
+#||||||| ù:dv:hné ná u:yo:hlv̋.||
+#
+#||||||| "Hada:hísê:gá", à:gò:sě:lé.||
+

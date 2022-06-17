@@ -1,0 +1,256 @@
+ID|PSET|DIALOG|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|AUDIO FILE
+0130|70||||female||gado hadisgo hia|How do you say this?|mp3/0132-Chapter_3-3.1-3.1.1-000000.mp3
+0131|71||||female||hiahno|This is a...|mp3/0133-Chapter_3-3.1-3.1.10-000000.mp3
+0132|72||||female||hiinahv|What about this?|mp3/0134-Chapter_3-3.1-3.1.2-000122.mp3
+0133|73||||female||sigwu jinihiwi|Say it again.|mp3/0135-Chapter_3-3.1-3.1.3-000262.mp3
+0134|74||||female||gado hada|How would you say... ?|mp3/0136-Chapter_3-3.1-3.1.4-000000.mp3
+0135|75||||female||gajanulige hniwi|Say it faster.|mp3/0137-Chapter_3-3.1-3.1.5-000482.mp3
+0136|76||||female||gado uyelv hia|What does this mean?|mp3/0138-Chapter_3-3.1-3.1.6-000282.mp3
+0137|76||||female||gado usdi|What is it?|mp3/0139-Chapter_3-3.1-3.1.7-000352.mp3
+0138|77||||female||usganolige hniwi|Say it slower.|mp3/0140-Chapter_3-3.1-3.1.8-000512.mp3
+0139|78||||female||dogi|What again?|mp3/0141-Chapter_3-3.1-3.1.9-000142.mp3
+#0140|79||||female||osiyo|Hello.|mp3/0142-Chapter_3-3.2-3.2.1-000452.mp3
+#*0141|79||||female||siyo|Hello.|mp3/0143-Chapter_3-3.2-3.2.1-002372.mp3
+0142|80||||female||hadlv disdegvi|Where are you two from?|mp3/0144-Chapter_3-3.2-3.2.10-000000.mp3
+0143|80||||female||digegvi|...is where I am from|mp3/0145-Chapter_3-3.2-3.2.11-000000.mp3
+0144|81||||female||hila yijadetiyvda|How old are you?|mp3/0146-Chapter_3-3.2-3.2.12-000000.mp3
+0145|81||||female||iyagwadetiyvda|years I am old.|mp3/0147-Chapter_3-3.2-3.2.13-000262.mp3
+0146|82||||female||hadlv hinela|Where do you live?|mp3/0148-Chapter_3-3.2-3.2.14-000000.mp3
+0147|82||||female||jinela|...is where I live.|mp3/0149-Chapter_3-3.2-3.2.15-000000.mp3
+0148|83||||female||donadagohvi|Let both you and me see each other again.|mp3/0150-Chapter_3-3.2-3.2.16-000000.mp3
+0149|83||||female||dodadagohvi|Let us all see each other again.|mp3/0151-Chapter_3-3.2-3.2.17-000000.mp3
+0150|83||||female||taline donadagohvi|I will see you next time.|mp3/0152-Chapter_3-3.2-3.2.18-000000.mp3
+0151|84||||female||howagwu|Let it be true.|mp3/0153-Chapter_3-3.2-3.2.19-000000.mp3
+0152|85||||female||tohiju|Things are peaceful, aren't they?|mp3/0154-Chapter_3-3.2-3.2.2-000000.mp3
+0153a|86||||female||osiju|It is well, isn't it?|mp3/0155-Chapter_3-3.2-3.2.2-002122.mp3
+0153b|86||||female||osiju nijadvhnadega|You are doing well, aren't you?|mp3/0155-Chapter_3-3.2-3.2.2-002122.mp3
+0154|87||||female||howa|True. OK.|mp3/0156-Chapter_3-3.2-3.2.20-000212.mp3
+0155|87||||female||hawa|OK. Alright.|mp3/0157-Chapter_3-3.2-3.2.21-000192.mp3
+0156|88||||female||osda nagwadvhnadega|I am doing well.|mp3/0158-Chapter_3-3.2-3.2.3-000812.mp3
+0157|89||||female||gado dejadoa|What is your name?|mp3/0159-Chapter_3-3.2-3.2.4-000242.mp3
+0158|89||||female||dagwadoa|... is my name.|mp3/0160-Chapter_3-3.2-3.2.5-000652.mp3
+0159|90||||female||osda|Good.|mp3/0161-Chapter_3-3.2-3.2.6-000000.mp3
+0160|90||||female||osigwu|Well. Just fine.|mp3/0162-Chapter_3-3.2-3.2.7-000000.mp3
+0161|91||||female||hadlv tegvi|Where are you from?|mp3/0163-Chapter_3-3.2-3.2.8-000222.mp3
+0162|91||||female||hadlv dijegvi|Where are you all from?|mp3/0164-Chapter_3-3.2-3.2.9-000000.mp3
+0163|92||||female||gado usdi idinohe kohi iga|What are we all talking about today?|mp3/0165-Chapter_3-3.3-3.3.1-000000.mp3
+0164|93||||female||hia ijigoliya|Let you all read this.|mp3/0166-Chapter_3-3.3-3.3.10-000132.mp3
+0165|94||||female||gado usdi adi hia|What does this say?|mp3/0167-Chapter_3-3.3-3.3.11-000122.mp3
+0166|95||||female||osda nijadvga|You did well, just now.|mp3/0169-Chapter_3-3.3-3.3.13-000402.mp3
+0167|96||||female||ahidaju gohlisdi|Is it easy to understand?|mp3/0170-Chapter_3-3.3-3.3.14-000000.mp3
+0168|97||||female||ijohlgaju|You all understand, don't y'all?|mp3/0171-Chapter_3-3.3-3.3.15-000000.mp3
+0169|98||||female||gado usdi ijanhta|What do you all know?|mp3/0172-Chapter_3-3.3-3.3.16-000182.mp3
+0170|99||||female||ase gohusdi gvyatvtdi|I have to ask you something.|mp3/0173-Chapter_3-3.3-3.3.2-000000.mp3
+0171|100||||female||eligwus yigvyatvdvhvga|Can I ask you?|mp3/0174-Chapter_3-3.3-3.3.3-000000.mp3
+0172|101||||female||ahani|Here.|mp3/0175-Chapter_3-3.3-3.3.4-000612.mp3
+0173|102||||female||sgweyohvga|Teach me something.|mp3/0176-Chapter_3-3.3-3.3.5-000222.mp3
+0174|102||||female||disgweyohvga|Teach me things.|mp3/0177-Chapter_3-3.3-3.3.5-002712.mp3
+0175|103||||female||gado usdi adelogwasdi kohi iga|What is the lesson today?|mp3/0178-Chapter_3-3.3-3.3.6-000482.mp3
+0176|104||||female||ugandadvi idihili|... is the page we all are on.|mp3/0179-Chapter_3-3.3-3.3.7-000132.mp3
+0177|105||||female||hohlgiju|You understand, don't you?|mp3/0180-Chapter_3-3.3-3.3.8-000182.mp3
+0178|106||||female||vtla ahani yedoha|He is not around here.|mp3/0181-Chapter_3-3.3-3.3.9-000000.mp3
+0179|107||||female||nihina|And you?|mp3/0182-Chapter_3-3.4-3.4.1-000000.mp3
+0180|108||||female||hadlv|Where?|mp3/0183-Chapter_3-3.4-3.4.10-000192.mp3
+0181|109||||female||hilaya|When?|mp3/0184-Chapter_3-3.4-3.4.11-000152.mp3
+0182|110||||female||gado galistanvsga|What is happening?|mp3/0185-Chapter_3-3.4-3.4.12-000000.mp3
+0183|111||||female||gago unvta|Who knows it?|mp3/0186-Chapter_3-3.4-3.4.13-000000.mp3
+0184|111||||female||gago sdalinoheha|Who are you two talking to?|mp3/0187-Chapter_3-3.4-3.4.14-000000.mp3
+0185|112||||female||gado usdi jaduliha|What do you want?|mp3/0188-Chapter_3-3.4-3.4.15-000192.mp3
+0186|112||||female||gado usdi dejaksesdi|What are you studying?|mp3/0189-Chapter_3-3.4-3.4.16-000000.mp3
+0187|113||||female||hilayv wigvwahtvhidasdi jaduliha|When do you want me to come and visit you?|mp3/0190-Chapter_3-3.4-3.4.17-000362.mp3
+0188|114||||female||gado advneha|What is he doing?|mp3/0191-Chapter_3-3.4-3.4.18-000202.mp3
+0189|114||||female||gado adiha|What is he saying?|mp3/0192-Chapter_3-3.4-3.4.19-000372.mp3
+0190|115||||female||nihinahv|But how about you?|mp3/0193-Chapter_3-3.4-3.4.2-000682.mp3
+0191|116||||female||hadlv hega|Where are you going?|mp3/0194-Chapter_3-3.4-3.4.20-000322.mp3
+0192|116||||female||hadlv danadelogwaa|Where are they learning?|mp3/0195-Chapter_3-3.4-3.4.21-000000.mp3
+0193|116||||female||hadlv dejalvwisdaneha|Where are you working?|mp3/0196-Chapter_3-3.4-3.4.22-000122.mp3
+0194|117||||female||gawonisgohv|But does he usually speak?|mp3/0197-Chapter_3-3.4-3.4.3-000000.mp3
+0195|118||||female||agasgaju|It is raining, isn't it?|mp3/0198-Chapter_3-3.4-3.4.4-000502.mp3
+0196|119||||female||kahwis jaduliha|Do you want coffee?|mp3/0199-Chapter_3-3.4-3.4.5-000532.mp3
+0197|120||||female||gawonihaju dekanogike|Is he speaking or singing?|mp3/0200-Chapter_3-3.4-3.4.6-000000.mp3
+0198|121||||female||gado|What|mp3/0201-Chapter_3-3.4-3.4.7-000252.mp3
+#0199|121||||female||gado usdi|What is it?|mp3/0202-Chapter_3-3.4-3.4.8-000000.mp3
+0200|122||||female||gago|Who?|mp3/0203-Chapter_3-3.4-3.4.9-000000.mp3
+#0201|123||||female||osiyo|hello|mp3/0204-Chapter_3-3.5-3.5.1-000132.mp3
+0202|124||||female||jalagi gvhdi meli dagwadoa|In Cherokee, I'm called May-Lee.|mp3/0205-Chapter_3-3.5-3.5.1-002162.mp3
+0203|124||||female||dagwado|is what I'm called.|mp3/0207-Chapter_3-3.5-3.5.1-008202.mp3
+#0204|125||||female||yonega gvhdi talisgohi||mp3/0208-Chapter_3-3.5-3.5.1-009722.mp3
+#0205|126||||female||galgwogi iyagwadetiyvda nagwu na jigi tvlsi jinela asehno igodi ganvhida||mp3/0209-Chapter_3-3.5-3.5.1-013222.mp3
+0206|127||||female||ogalahoma digegvi|I'm from Oklahoma.|mp3/0210-Chapter_3-3.5-3.5.1-022582.mp3
+#0207|128||||female||jalagi degadelogwaa alesgwu dijalagi degadelogwaa digigoliyedi||mp3/0211-Chapter_3-3.5-3.5.1-026682.mp3
+#0208|128||||female||digwowelodihno jalagi digwadeyodi yagwadula||mp3/0212-Chapter_3-3.5-3.5.1-036032.mp3
+#0209|129||||female||degadelogwaohnvi|When I finish learning.|mp3/0213-Chapter_3-3.5-3.5.1-044562.mp3
+0210|129||||female||degadelogwaohnvi|When I finish learning.|mp3/0214-Chapter_3-3.5-3.5.2-000492.mp3
+0211|130||||female||dijalagi|Cherokee things. Cherokee writing.|mp3/0215-Chapter_3-3.5-3.5.3-000000.mp3
+0212|131||||female||alesgwu|And also.|mp3/0216-Chapter_3-3.5-3.5.4-000402.mp3
+#0213|132||||female||siyo|Hello.|mp3/0218-Chapter_3-3.6-3.6.1-003282.mp3
+#0214|133||||female||gawonisgi tali osda jidenadolhgi||mp3/0219-Chapter_3-3.6-3.6.10-000000.mp3
+0215|134||||female||utloyigwu|Just the same.|mp3/0220-Chapter_3-3.6-3.6.11-000142.mp3
+0216|135||||female||nihihno|And you?|mp3/0221-Chapter_3-3.6-3.6.12-000000.mp3
+0217|136||||female||daligwa|Tahlequah.|mp3/0222-Chapter_3-3.6-3.6.13-000142.mp3
+0218|137||||female||dlayigoi|Jay Oklahoma|mp3/0223-Chapter_3-3.6-3.6.14-000000.mp3
+0219|138||||female||osda jidenadolhgi|It is nice to know you.|mp3/0224-Chapter_3-3.6-3.6.15-000000.mp3
+#0220|139||||female||gawonisgi tali osiyo tohiju||mp3/0225-Chapter_3-3.6-3.6.2-000000.mp3
+#0221|140||||female||nagwadvhnadega nihinahv||mp3/0227-Chapter_3-3.6-3.6.3-005062.mp3
+#0222|141||||female||gawonisgi tali liwi dagwado nihihna||mp3/0230-Chapter_3-3.6-3.6.6-000000.mp3
+#0223|142||||female||meli dagwadoa hadlv tegvi||mp3/0232-Chapter_3-3.6-3.6.7-003292.mp3
+#0224|143||||female||gawonisgi tali daligwa digegvi nihinahv||mp3/0233-Chapter_3-3.6-3.6.8-000000.mp3
+0001|1||||female||aholi|His mouth.|mp3/0001-Chapter_1-1.1-1.1.1-000000.mp3
+0002|1||||female||jioli|My mouth.|mp3/0002-Chapter_1-1.1-1.1.2-000362.mp3
+0003|1||||female||hiholi|Your mouth.|mp3/0003-Chapter_1-1.1-1.1.3-000512.mp3
+#0004|1||||female||aholi|His mouth.|mp3/0004-Chapter_1-1.1-1.1.4-000492.mp3
+0005|2||||female||osiyo|Hello.|mp3/0005-Chapter_1-1.1-1.2.1-000000.mp3
+*0006|2||||female||siyo|Hello|mp3/0006-Chapter_1-1.1-1.2.1-001702.mp3
+0007|3||||female||jigoliyea|I am reading or examining it.|mp3/0008-Chapter_1-1.1-Set_A_01_I_am_reading-000332.mp3
+0008|3||||female||higoliyea|You are reading or examining it.|mp3/0009-Chapter_1-1.1-Set_A_02_You_are_reading-000412.mp3
+0009|3||||female||agoliyea|He is reading or examining it.|mp3/0010-Chapter_1-1.1-Set_A_03_He-She_is_reading-000000.mp3
+0010|3||||female||anigoliyea|They are reading or examining it.|mp3/0011-Chapter_1-1.1-Set_A_04_They_are_reading-000382.mp3
+0011|3||||female||inigoliyea|You one and I are reading or examining it.|mp3/0012-Chapter_1-1.1-Set_A_05_You_and_I_are_reading-000752.mp3
+0012|3||||female||osdigoliyea|He and I are reading or examining it.|mp3/0013-Chapter_1-1.1-Set_A_06_He-She_and_I_are_reading-000252.mp3
+0013|3||||female||sdigoliyea|You two are reading or examining it.|mp3/0014-Chapter_1-1.1-Set_A_07_You_two_are_reading-000652.mp3
+0014|3||||female||idigoliyea|All of us are reading or examining it.|mp3/0015-Chapter_1-1.1-Set_A_08_All_of_us_are_reading-000562.mp3
+0015|3||||female||ojigoliyea|They and I are reading or examining it.|mp3/0016-Chapter_1-1.1-Set_A_09_They_and_I_are_reading-000432.mp3
+0016|3||||female||ijigoliyea|You all are reading or examining it.|mp3/0017-Chapter_1-1.1-Set_A_10_You_all_are_reading-000492.mp3
+0017|4||||female||gadedvsga|I am diving.|mp3/0018-Chapter_1-1.1-Set_A_11_I_am_diving-000000.mp3
+#0018|4||||female||hadetvsga|You are diving.|mp3/0019-Chapter_1-1.1-Set_A_12_You_are_diving-000722.mp3
+0019|4||||female||adetvsga|He is diving.|mp3/0020-Chapter_1-1.1-Set_A_13_He-She_is_diving-000532.mp3
+0020|4||||female||anadetvsga|They are diving.|mp3/0021-Chapter_1-1.1-Set_A_14_They_are_diving-000522.mp3
+0021|4||||female||inadetvsga|You one and I are diving.|mp3/0022-Chapter_1-1.1-Set_A_15_You_and_I_are_diving-000000.mp3
+0022|4||||female||osdadetvsga|He and I are diving.|mp3/0023-Chapter_1-1.1-Set_A_16_He-She_and_I_are_diving-000000.mp3
+0023|4||||female||sdadetvsga|You two are diving.|mp3/0024-Chapter_1-1.1-Set_A_17_You_two_are_diving-000182.mp3
+0024|4||||female||idadetvsga|All of us are diving.|mp3/0025-Chapter_1-1.1-Set_A_18_All_of_us_are_diving-000182.mp3
+0025|4||||female||ojadetvsga|They and I are diving.|mp3/0026-Chapter_1-1.1-Set_A_19_They_and_I_are_diving-000212.mp3
+0026|4||||female||ijadetvsga|You all are diving.|mp3/0027-Chapter_1-1.1-Set_A_20_You_all_are_diving-000262.mp3
+0027|5||||female||goliga|I understand.|mp3/0028-Chapter_1-1.1-Set_A_21_I_understand-000000.mp3
+0028|5||||female||gohliga|He understands.|mp3/0029-Chapter_1-1.1-Set_A_22_He-she_understands-000462.mp3
+0029|6||||female||eji|Mother.|mp3/0030-Chapter_1-1.2-1.2.1-000000.mp3
+0030|7||||female||agiji|My mother.|mp3/0031-Chapter_1-1.2-1.2.2-000000.mp3
+0031|8||||female||jaji|Your mother.|mp3/0032-Chapter_1-1.2-1.2.3-000482.mp3
+0032|9||||female||uji|His mother.|mp3/0033-Chapter_1-1.2-1.2.4-000292.mp3
+#0033|10||||female||svkta duduliha|He wants apples.|mp3/0034-Chapter_1-1.2-1.2.5-000782.mp3
+0034|11||||female||digohweli dejigoliyea|I am reading, examining the papers.|mp3/0035-Chapter_1-1.2-1.2.6-000000.mp3
+0035|12||||female||agiyosiha|I am hungry.|mp3/0036-Chapter_1-1.2-Set_B_01_I_am_hungry-000000.mp3
+0036|12||||female||jayosiha|You are hungry.|mp3/0037-Chapter_1-1.2-Set_B_02_You_are_hungry-000492.mp3
+0037|12||||female||uyosiha|He is hungry.|mp3/0038-Chapter_1-1.2-Set_B_03_He-she_is_hungry-000432.mp3
+0038|12||||female||duniyosiha|They are hungry.|mp3/0039-Chapter_1-1.2-Set_B_04_They_are_hungry-000192.mp3
+0039|12||||female||deginiyosiha|You one and I are hungry.|mp3/0040-Chapter_1-1.2-Set_B_05_You_and_I_are_hungry-000000.mp3
+0040|12||||female||doginiyosiha|He and I are hungry.|mp3/0041-Chapter_1-1.2-Set_B_06_He-she_and_I_are_hungry-000662.mp3
+0041|12||||female||desdiyosiha|You two are hungry.|mp3/0042-Chapter_1-1.2-Set_B_07_You_two_are_hungry-000512.mp3
+0042|12||||female||degiyosiha|All of us are hungry.|mp3/0043-Chapter_1-1.2-Set_B_08_All_of_us_are_hungry-000000.mp3
+0043|12||||female||dogiyosiha|They and I are hungry.|mp3/0044-Chapter_1-1.2-Set_B_09_They_and_I_are_hungry-000492.mp3
+0044|12||||female||dejiyosiha|You all are hungry.|mp3/0045-Chapter_1-1.2-Set_B_10_You_all_are_hungry-000000.mp3
+0045|13||||female||agwaduliha|I want it. Or. He wants me.|mp3/0046-Chapter_1-1.2-Set_B_11_I_want-000000.mp3
+0046|13||||female||jaduliha|You want it. Or. He wants you.|mp3/0047-Chapter_1-1.2-Set_B_12_You_want-000000.mp3
+0047|13||||female||uduliha|He wants him or it.|mp3/0048-Chapter_1-1.2-Set_B_13_He-she_wants-000472.mp3
+0048|13||||female||unaduliha|They want him or it.|mp3/0049-Chapter_1-1.2-Set_B_14_They_want-000402.mp3
+0049|13||||female||ginaduliha|You and I want it. Or. He wants both you and me.|mp3/0050-Chapter_1-1.2-Set_B_15_You_and_I_want-000682.mp3
+0050|13||||female||oginaduliha|He and I want it. Or. He wants him and me.|mp3/0051-Chapter_1-1.2-Set_B_16_He-she_and_I_want-000472.mp3
+0051|13||||female||sdaduliha|You two want it. Or. He wants you both.|mp3/0052-Chapter_1-1.2-Set_B_17_You_two_want-000522.mp3
+0052|13||||female||igaduliha|All of us want it. Or. We two want you both. Or. He wants us all.|mp3/0053-Chapter_1-1.2-Set_B_18_All_of_us_want-000552.mp3
+0053|13||||female||ogaduliha|They and I want it. Or. He wants them and me.|mp3/0054-Chapter_1-1.2-Set_B_19_They_and_I_want-000692.mp3
+0054|13||||female||ijaduliha|You all want it. Or. He wants you all.|mp3/0055-Chapter_1-1.2-Set_B_20_You_all_want-000592.mp3
+0055|14||||male||na asgay gawoniha|The man is speaking.|mp3/0056-Chapter_2-2.1-2.1.1-000662.mp3
+0056|15||||male||wulvgwodvi kanogisdi kanogia|He is singing their favorite song.|mp3/0057-Chapter_2-2.1-2.1.10-000000.mp3
+0057|16||||male||analisdayvhvsga|They are eating a meal.|mp3/0058-Chapter_2-2.1-2.1.2-001382.mp3
+0058|17||||male||uwodujvi dekanogia|He is singing very beautifully.|mp3/0059-Chapter_2-2.1-2.1.3-001222.mp3
+#0059|18||||male||goliga|I understand.|mp3/0060-Chapter_2-2.1-2.1.4-000352.mp3
+0060|19||||male||unvdi gaditasga|I am drinking milk.|mp3/0061-Chapter_2-2.1-2.1.5-000242.mp3
+0061|20||||male||na asgaya sday gawoniha|The man is speaking loudly.|mp3/0062-Chapter_2-2.1-2.1.6-000882.mp3
+0062|21||||male||ijalisdayvhvsga|You all are eating a meal.|mp3/0063-Chapter_2-2.1-2.1.7-000000.mp3
+0063|22||||male||danihnogia|They are singing.|mp3/0064-Chapter_2-2.1-2.1.8-000552.mp3
+0064|23||||male||idadadolisdiha|We all are praying.|mp3/0065-Chapter_2-2.1-2.1.9-000162.mp3
+0065|24||||male||ahnigia|He is leaving.|mp3/0066-Chapter_2-2.2-2.2.1-000472.mp3
+0066|24||||male||ahnigi|He just left.|mp3/0067-Chapter_2-2.2-2.2.1-002362.mp3
+0067a|25||||male||galisdayvhvsga|I am eating a meal.|mp3/0068-Chapter_2-2.2-2.2.2-000722.mp3
+0067b|25||||male||galisdayvhvga|I just ate a meal.|mp3/0068-Chapter_2-2.2-2.2.2-000722.mp3
+0068a|26||||male||aniwoniha|They are speaking.|mp3/0069-Chapter_2-2.2-2.2.3-000142.mp3
+0068b|26||||male||aniwonihi|They just spoke.|mp3/0069-Chapter_2-2.2-2.2.3-000142.mp3
+0069a|27||||male||akihyoha|I am looking for it.|mp3/0070-Chapter_2-2.2-2.2.4-001012.mp3
+0069b|27||||male||agiyhiga|I just looked for it.|mp3/0070-Chapter_2-2.2-2.2.4-001012.mp3
+0070|28||||male||haditasga|You are drinking it.|mp3/0071-Chapter_2-2.2-2.2.5-000512.mp3
+0071|28||||male||hadita|You just drank it.|mp3/0072-Chapter_2-2.2-2.2.5-002442.mp3
+0072a|29||||male||dehigia|You one are eating them.|mp3/0073-Chapter_2-2.3-2.3.1-000592.mp3
+0072b|29||||male||tiga|Let you one eat them!|mp3/0073-Chapter_2-2.3-2.3.1-000592.mp3
+0073|29||||male||dehinogia|You one are singing.|mp3/0074-Chapter_2-2.3-2.3.2-000142.mp3
+0073|29||||male||tinogi|Let you one sing!|mp3/0074-Chapter_2-2.3-2.3.2-000142.mp3
+0074|30||||male||osda nidehvneha|You one are fixing them.|mp3/0075-Chapter_2-2.3-2.3.3-000000.mp3
+0075|30||||male||osda nitvga|Let you one fix them!|mp3/0076-Chapter_2-2.3-2.3.3-003022.mp3
+0076a|31||||male||desdigoliya|You two just red them.|mp3/0077-Chapter_2-2.3-2.3.4-000000.mp3
+0076b|31||||male||disdigoliya|Let you two read them.|mp3/0077-Chapter_2-2.3-2.3.4-000000.mp3
+0077|32||||male||dehiga|You one just ate them.|mp3/0078-Chapter_2-2.3-2.3.5-000000.mp3
+#0078|32||||male||tiga|Let you one eat them.|mp3/0079-Chapter_2-2.3-2.3.5-001922.mp3
+0079a|33||||male||dehatvdasdiha|You one are listening to them.|mp3/0080-Chapter_2-2.3-2.3.6-000000.mp3
+0079b|33||||male||tatvdasda|Let you one listen to them.|mp3/0080-Chapter_2-2.3-2.3.6-000000.mp3
+0080|34||||male||desdinogi|You two are singing.|mp3/0081-Chapter_2-2.3-2.3.7-000000.mp3
+0081|34||||male||disdinogi|Let you two sing!|mp3/0082-Chapter_2-2.3-2.3.7-002112.mp3
+#0082a|35||||male||hatvdasda|Let you listen.|mp3/0083-Chapter_2-2.3-2.3_Listen_Imperative-000000.mp3
+0082b|35||||male||ijatvdasda|Let you all listen.|mp3/0083-Chapter_2-2.3-2.3_Listen_Imperative-000000.mp3
+0082c|35||||male||sdatvdasda|Let you two listen.|mp3/0083-Chapter_2-2.3-2.3_Listen_Imperative-000000.mp3
+0083a|35||||male||hatvdasdiha|You are listening.|mp3/0084-Chapter_2-2.3-2.3_Listen_Present-000122.mp3
+0083b|35||||male||ijatvdasdiha|You all are listening.|mp3/0084-Chapter_2-2.3-2.3_Listen_Present-000122.mp3
+0083c|35||||male||sdatvdasdiha|You two are listening.|mp3/0084-Chapter_2-2.3-2.3_Listen_Present-000122.mp3
+0084a|36||||male||tigoliya|Let you read or examine it.|mp3/0085-Chapter_2-2.3-2.3_Read_Imperative-000000.mp3
+0084b|36||||male||dijigoliya|Let you all read or examine it.|mp3/0085-Chapter_2-2.3-2.3_Read_Imperative-000000.mp3
+#0084c|36||||male||disdigoliya|Let you two read or examine it.|mp3/0085-Chapter_2-2.3-2.3_Read_Imperative-000000.mp3
+0085a|36||||male||dehigoliyea|You are reading or examining it.|mp3/0086-Chapter_2-2.3-2.3_Read_Present-000000.mp3
+0085b|36||||male||dejigoliyea|You all are reading or examining it.|mp3/0086-Chapter_2-2.3-2.3_Read_Present-000000.mp3
+0085c|36||||male||desdigoliyea|You two are reading or examining it.|mp3/0086-Chapter_2-2.3-2.3_Read_Present-000000.mp3
+0086a|37||||male||hiwonihi|Let you speak.|mp3/0087-Chapter_2-2.3-2.3_Speak_Imperative-000000.mp3
+0086b|37||||male||ijiwonihi|Let you all speak.|mp3/0087-Chapter_2-2.3-2.3_Speak_Imperative-000000.mp3
+0086c|37||||male||sdiwonihi|Let you two speak.|mp3/0087-Chapter_2-2.3-2.3_Speak_Imperative-000000.mp3
+0087a|37||||male||hiwoniha|You are speaking.|mp3/0088-Chapter_2-2.3-2.3_Speak_Present-000000.mp3
+0087b|37||||male||ijiwoniha|You all are speaking.|mp3/0088-Chapter_2-2.3-2.3_Speak_Present-000000.mp3
+0087c|37||||male||sdiwoniha|You two are speaking.|mp3/0088-Chapter_2-2.3-2.3_Speak_Present-000000.mp3
+0088a|38||||male||hohwelvga|Let you write.|mp3/0089-Chapter_2-2.3-2.3_Write_Imperative-000000.mp3
+0088b|38||||male||ijohwelvga|Let you all write.|mp3/0089-Chapter_2-2.3-2.3_Write_Imperative-000000.mp3
+0088c|38||||male||sdohwelvga|Let you two write.|mp3/0089-Chapter_2-2.3-2.3_Write_Imperative-000000.mp3
+0089a|38||||male||hohwelia|You are writing.|mp3/0090-Chapter_2-2.3-2.3_Write_Present-000202.mp3
+0089b|38||||male||ijohweli|You all are writing.|mp3/0090-Chapter_2-2.3-2.3_Write_Present-000202.mp3
+0089c|38||||male||sdohwelia|You two are writing.|mp3/0090-Chapter_2-2.3-2.3_Write_Present-000202.mp3
+0090|39||||male||gawoniha|He is speaking.|mp3/0091-Chapter_2-2.4-2.4.1-000000.mp3
+0091|39||||male||gawonisgoi|He usually speaks.|mp3/0092-Chapter_2-2.4-2.4.1-001912.mp3
+0092|40||||male||gadelogwaa|I am learning.|mp3/0093-Chapter_2-2.4-2.4.2-000000.mp3
+0093|40||||male||gadelogwasgoi|I usually learn.|mp3/0094-Chapter_2-2.4-2.4.2-002482.mp3
+#0094|41||||male||anigoliyea|They are looking at it.|mp3/0095-Chapter_2-2.4-2.4.3-000000.mp3
+0095|41||||male||anigoliyesgoi|They usually look at it.|mp3/0096-Chapter_2-2.4-2.4.3-002782.mp3
+#0096|42||||male||ijaduliha|You all are wanting it.|mp3/0097-Chapter_2-2.4-2.4.4-000000.mp3
+0097|42||||male||ijadulisgoi|You all usually want it.|mp3/0098-Chapter_2-2.4-2.4.4-002382.mp3
+0098|43||||male||osdvhnisdiha|He and I are cooking it.|mp3/0099-Chapter_2-2.4-2.4.5-000000.mp3
+0098|43||||male||osdvhnisdisgoi|He and I usually cook it.|mp3/0099-Chapter_2-2.4-2.4.5-000000.mp3
+#0099|43||||male||gawonisgoi|He usually speaks.|mp3/0100-Chapter_2-2.5-2.5.1-000562.mp3
+0100|43||||male||gawonisgesdi|He will be speaking.|mp3/0101-Chapter_2-2.5-2.5.1-003452.mp3
+0101|44||||male||elisi jitaga gvjatlvsgesdi ale|Grandmother will be frying chicken, and|mp3/0102-Chapter_2-2.5-2.5.10-000452.mp3
+0102|45||||male||eji dahyvketsgesdi nuna|Mother will be peeling potatoes.|mp3/0103-Chapter_2-2.5-2.5.10-005752.mp3
+#0103|46||||male||junadalehnvda digawasvgi||mp3/0104-Chapter_2-2.5-2.5.11-000162.mp3
+#0104|47||||male||dasuyvsgesdi elisi||mp3/0105-Chapter_2-2.5-2.5.11-004152.mp3
+0105|48||||male||ganvdadisgesdi yagwadvnedii agwadasdayvhdi|I will be remembering how to cook.|mp3/0106-Chapter_2-2.5-2.5.12-000000.mp3
+#0106|49||||male||gadelogwasgoi|I usually learn.|mp3/0107-Chapter_2-2.5-2.5.2-000000.mp3
+0107|49||||male||gadelogwasgesdi|I will be learning.|mp3/0108-Chapter_2-2.5-2.5.2-002812.mp3
+#0108|50||||male||anigoliyesgoi|They usually read it.|mp3/0109-Chapter_2-2.5-2.5.3-000000.mp3
+0109|50||||male||anigoliyesgesdi|They will be reading it.|mp3/0110-Chapter_2-2.5-2.5.3-003082.mp3
+0110|51||||male||ijanvtoi|You all usually know.|mp3/0111-Chapter_2-2.5-2.5.4-000000.mp3
+0111|51||||male||ijanhtesdi|You all will be knowing.|mp3/0112-Chapter_2-2.5-2.5.4-002262.mp3
+0112|52||||male||osdvnisdisgo|He and I usually cook it.|mp3/0113-Chapter_2-2.5-2.5.5-000152.mp3
+0112|52||||male||osdvnisdisgesdi|He and I will be cooking it.|mp3/0113-Chapter_2-2.5-2.5.5-000152.mp3
+0113|53||||male||kohi svhiyeyi ojadasdayvhvsgesdi|This evening they and I will be cooking.|mp3/0114-Chapter_2-2.5-2.5.6-000000.mp3
+0114|54||||male||igvyihno svgi ale unvguhisdisgi dejigvhalisgesdi|First, I will be chopping up onions and tomatoes.|mp3/0115-Chapter_2-2.5-2.5.7-000000.mp3
+#0115|55||||male||osda|Good. Well.|mp3/0116-Chapter_2-2.5-2.5.8-000452.mp3
+#0116|56||||male||nigvnehesdi sugeda||mp3/0117-Chapter_2-2.5-2.5.8-002102.mp3
+0117|57||||male||ugama ojadvnvisdisgesdi|They and I will be preparing soup.|mp3/0118-Chapter_2-2.5-2.5.9-000000.mp3
+#0118a|58||||male||gawoniha|He is speaking.|mp3/0119-Chapter_2-2.6-2.6.1-000162.mp3
+0118b|58||||male||uwonisvi|He spoke a while ago.|mp3/0119-Chapter_2-2.6-2.6.1-000162.mp3
+#0119a|59||||male||analisdayvhvsga|They are eating a meal.|mp3/0120-Chapter_2-2.6-2.6.2-000000.mp3
+0119b|59||||male||unalisdayvhnvi|They ate a meal a while ago.|mp3/0120-Chapter_2-2.6-2.6.2-000000.mp3
+#0120a|60||||male||sdigoliyea|You two are reading it.|mp3/0121-Chapter_2-2.6-2.6.3-000192.mp3
+0120b|60||||male||sdigoliyevi|You two read it a while ago.|mp3/0121-Chapter_2-2.6-2.6.3-000192.mp3
+0121|61||||male||uwohlijvi|He understood it a while ago.|mp3/0123-Chapter_2-2.6-2.6.4-001602.mp3
+0122a|62||||male||hinoheha|You are talking about it.|mp3/0124-Chapter_2-2.6-2.6.5-000192.mp3
+0122b|62||||male||janohetlvi|You talked about it a while ago.|mp3/0124-Chapter_2-2.6-2.6.5-000192.mp3
+0123|63||||male||wahya uyotlei adisgvi|He shot a wolf, he said.|mp3/0125-Chapter_2-2.6-2.6.6-000000.mp3
+#0124|64||||male||gado usdi||mp3/0126-Chapter_2-2.6-2.6.7-000182.mp3
+#0125|65||||male||jatvganei||mp3/0127-Chapter_2-2.6-2.6.7-002222.mp3
+0126|66||||male||osda dunanelohnv|They played well.|mp3/0128-Chapter_2-2.6-2.6.8-000000.mp3
+0127|67||||male||jadisgvi|He told me.|mp3/0129-Chapter_2-2.6-2.6.8-003482.mp3
+0128|68||||male||ganagatiju wijedolei|Did you go to the doctor?|mp3/0130-Chapter_2-2.6-2.6.9-000392.mp3
+0129|69||||male||kohi sanale ugodi agwalisdayvhnvi|This morning, I ate lot.|mp3/0131-Chapter_2-2.6-2.6_This_morning_I_ate_a_lot-000000.mp3
+

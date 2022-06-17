@@ -1,0 +1,36 @@
+ID|PSET|DIALOG|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH
+|||||||gá:go na:sgí?|Who is that?
+|||||||ja:lí|Charlie.
+|||||||ja:lí taʔlidíhihí.|Charlie Twokiller.
+|||||||ja:n(í)|Johnny
+|||||||u:du:jí.|His uncle.
+|||||||u:há|He has it.
+|||||||u:´taná adladítlaʔ(í).|A big car.
+|||||||geliʔá|I guess.
+|||||||digaduhv́ daye:´s(i) geliʔá.|He will go to town, I guess.
+|||||||hadlv́ ja:ní na:gwú?|Where’s Johnny now?
+|||||||daligwá|Tahlequah
+|||||||we:do:há.|Some distance away. He is about.
+|||||||nahná|That place there.
+|||||||sgwu daye:´si.|Also, he will go.
+|||||||ja:ní taʔlidíhihi|Johnny twokiller.
+|||||||o:´sd(a)|Good
+|||||||ahsgayá.|A man
+|||||||(u)do:h(i)yú.|That's right. Sure enough.
+|||||||ja:lí o:´sda|Charlie is good.
+|||||||na:sgwú.|That also.
+|||||||ja:nísgo u:há adladítla(ʔí) na:sgwú?|Does Johnny have a car too?
+|||||||v:v.|Yes
+|||||||ja:lísgo uwása|Is it Charlie xhimself alone?
+|||||||eha|he is alive
+|||||||ja:n(í) u:du:jí?|Johnny, xhis uncle.
+|||||||uwásagwu.|Just him alone.
+|||||||kohí i:gá joʔi:né i:gá.|Today is Wednesday.
+|||||||aga:sgá|It’s raining
+|||||||alé|and, or
+|||||||uníjatí|many
+|||||||y(v):wí digaduhv́ dvne:sí|people, town, they will go
+|||||||dodidánaʔnv́|stores
+*|||||||alé ja:ní|and Johnny
+|||||||taʔlidíhihi na:sgwú daye:sí|twokiller, he also will go
+*|||||||adláditlaʔíʔi.|car, rubber tired vehicle
