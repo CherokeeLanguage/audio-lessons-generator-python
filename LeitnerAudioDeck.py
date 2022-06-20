@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from functools import total_ordering
+
 from typing import Iterable
 
 from abc import abstractmethod
@@ -105,10 +107,22 @@ class AudioCardStats:
 
 
 @dataclass
+@total_ordering  # Only sorts by show again delay
 class AudioCard:
     data: AudioData = field(default_factory=AudioData)
     my_deck: "LeitnerAudioDeck" = None
     card_stats: AudioCardStats = field(default_factory=AudioCardStats)
+
+    def __eq__(self, other: AudioCard) -> bool:
+        if self.card_stats.show_again_delay != other.card_stats.show_again_delay:
+            return False
+        return self.data.card_id == other.data.card_id
+
+    def __lt__(self, other):
+        return self.card_stats.show_again_delay < other.card_stats.show_again_delay
+
+    def __hash__(self) -> int:
+        return hash(repr(self))
 
     def next_session_threshold(self, max_shows: int) -> int:
         leitner_box: int = self.card_stats.leitner_box
@@ -132,6 +146,10 @@ class AudioCard:
 class LeitnerAudioDeck(MutableSequence):
 
     cards: list[AudioCard] = field(default_factory=list)
+
+    def sort_by_show_again_delay(self) -> None:
+        rand.shuffle(self.cards)
+        self.cards.sort()
 
     def insert(self, index: int, value: AudioCard) -> None:
         self.cards.insert(index, value)

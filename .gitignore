@@ -132,3 +132,4 @@ dmypy.json
 /text-config.json
 /test.mp3
 review-sheet-*.txt
+/cache/
