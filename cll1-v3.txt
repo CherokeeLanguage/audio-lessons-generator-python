@@ -434,7 +434,7 @@ ID|PSET|DIALOG|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|AUDIO FILE
 *|||||||nihiju ù:hna|You're there, aren't you?|
 *|||||||hla yiji:gowhtíha|I don't see him or her!|
 *|||||||ha:dlv nihi. nihis ù:hna.|Where are you? Are you there?|
-*|||||||hiɂa hla ő:sda yi̋:gi|This, it isn't good!|
+*|||||||hiɂa hla ő:sda yi̋:gi|This isn't good!|
 *|||||||wado. ù:hna u:yő gè:sv̌:gi|Thanks! It was bad there!|
 *|||||||agiyő à:gwadu:líha|I want to be bad.|
 *|||||||agiyő à:gwadu:líha. jayő jadu:líha|I want to be bad. Are you wanting to be bad?|

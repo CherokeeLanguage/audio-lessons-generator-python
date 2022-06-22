@@ -147,9 +147,15 @@ class LeitnerAudioDeck(MutableSequence):
 
     cards: list[AudioCard] = field(default_factory=list)
 
-    def sort_by_show_again_delay(self) -> None:
+    def update_time(self, delta_secs: float) -> None:
+        for card in self.cards:
+            show_again_delay: float = card.card_stats.show_again_delay
+            show_again_delay -= delta_secs
+            card.card_stats.show_again_delay = max(show_again_delay, 0.0)
+
+    def sort_by_show_again(self) -> None:
         rand.shuffle(self.cards)
-        self.cards.sort()
+        self.cards.sort(key=lambda card: card.card_stats.show_again_delay)
 
     def insert(self, index: int, value: AudioCard) -> None:
         self.cards.insert(index, value)
@@ -189,3 +195,28 @@ class LeitnerAudioDeck(MutableSequence):
 
     def __len__(self) -> int:
         return len(self.cards)
+
+    def append(self, value: AudioCard) -> None:
+        if value.my_deck:
+            value.my_deck.cards.remove(value)
+        self.cards.append(value)
+        value.my_deck = self
+
+    @property
+    def next_show_time(self) -> float:
+        if not self.cards:
+            return 0.0
+        delay: float = self.top_card.card_stats.show_again_delay
+        return 0.0 if delay < 0.0 else delay
+
+    @property
+    def top_card(self) -> AudioCard | None:
+        if not self.cards:
+            return None
+        return self.cards[0]
+
+    @property
+    def has_cards(self) -> bool:
+        return True if self.cards else False
+
+

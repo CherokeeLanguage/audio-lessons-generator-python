@@ -8,7 +8,7 @@
     "max_session_length": 1800,
     "new_card_max_tries": 7,
     "new_card_tries_decrement": 0,
-    "new_cards_increment": 0,
+    "new_cards_increment": 1,
     "new_cards_per_session": 7,
     "output_dir": "output",
     "prerecorded_audio": true,

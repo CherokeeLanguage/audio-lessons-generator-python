@@ -133,3 +133,5 @@ dmypy.json
 /test.mp3
 review-sheet-*.txt
 /cache/
+/output-*.mp3
+/Models/
