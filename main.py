@@ -689,10 +689,11 @@ main_deck: LeitnerAudioDeck | None = None
 discards_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
 finished_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
 active_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
+max_review_cards_this_session: int = 0
 
 
 def main() -> None:
-    global cfg, max_new_reached, review_count
+    global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
@@ -702,8 +703,9 @@ def main() -> None:
     create_card_audio(main_deck)
     prompts = create_prompts()
 
-    with open("walc1/walc1.json", "r") as f:
-        cfg = Config.load(f)
+    # with open("walc1/walc1.json", "r") as f:
+    #     cfg = Config.load(f)
+    cfg = Config()
 
     temp_dir: str = os.path.join(cfg.data_dir, "temp")
     out_dir: str = os.path.join(cfg.data_dir, "output")
@@ -722,10 +724,10 @@ def main() -> None:
             print()
             print()
 
-        new_vocab_all_sessions.append(f"=== SESSION: {_exercise_set+1:04}")
+        new_vocab_all_sessions.append(f"=== SESSION: {_exercise_set + 1:04}")
         new_vocab_all_sessions.append("")
 
-        print(f"=== SESSION: {_exercise_set+1:04}")
+        print(f"=== SESSION: {_exercise_set + 1:04}")
         print()
 
         lead_in: AudioSegment = AudioSegment.silent(1_000, LESSON_HZ).set_channels(1)
@@ -790,8 +792,14 @@ def main() -> None:
         max_new_cards_this_session: int = min(cfg.new_cards_max_per_session,
                                               cfg.new_cards_per_session + _exercise_set * cfg.new_cards_increment)
         print(f"--- Max new cards: {max_new_cards_this_session:,d}")
+        max_review_cards_this_session = min(cfg.review_cards_max_per_session,
+                                            cfg.review_cards_per_session + _exercise_set * cfg.review_cards_increment)
+        print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
-        while lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration:
+        while lead_in.duration_seconds \
+                + lead_out.duration_seconds \
+                + main_audio.duration_seconds \
+                < cfg.session_max_duration:
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
@@ -955,8 +963,7 @@ def next_card(exercise_set: int, prev_card_id: str) -> AudioCard | None:
         if active_deck.has_cards:
             return next_card(exercise_set, prev_card_id)
 
-    if finished_deck.next_show_time <= 0 and finished_deck.has_cards \
-            and review_count < cfg.review_cards_max_per_session:
+    if finished_deck.next_show_time <= 0 and finished_deck.has_cards and review_count < max_review_cards_this_session:
         review_count += 1
         review_card: AudioCard = finished_deck.top_card
         card_stats = review_card.card_stats
