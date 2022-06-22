@@ -83,18 +83,19 @@ def next_ims_voice(gender: str = "") -> str:
         ims_voices.extend(IMS_VOICES_MALE)
         ims_voices.extend(IMS_VOICES_FEMALE)
         rand.shuffle(ims_voices)
-    voice: str = ims_voices.pop(0)
+    voice: str = ims_voices.pop()
     if gender:
-        gender = gender.strip().lower()[0]
-        if gender == "m" and len(IMS_VOICES_MALE) < 2:
-            previous_voice = ""
-        if gender == "f" and len(IMS_VOICES_FEMALE) < 2:
-            previous_voice = ""
-        if gender == "m" and voice not in IMS_VOICES_MALE:
-            return next_ims_voice(gender)
-        if voice not in IMS_VOICES_FEMALE:
-            return next_ims_voice(gender)
-    if voice == previous_voice:
+        if gender == "m":
+            if len(IMS_VOICES_MALE) < 2:
+                previous_voice = ""
+            if voice not in IMS_VOICES_MALE:
+                return next_ims_voice(gender)
+        if gender == "f":
+            if len(IMS_VOICES_FEMALE) < 2:
+                previous_voice = ""
+            if voice not in IMS_VOICES_FEMALE:
+                return next_ims_voice(gender)
+    if previous_voice and voice == previous_voice:
         return next_ims_voice(gender)
     previous_voice = voice
     return voice
@@ -108,17 +109,18 @@ def next_amz_voice(gender: str = "") -> str:
         amz_voices.extend(AMZ_VOICES_MALE)
         amz_voices.extend(AMZ_VOICES_FEMALE)
         rand.shuffle(amz_voices)
-    voice: str = amz_voices.pop(0)
+    voice: str = amz_voices.pop()
     if gender:
-        gender = gender.strip().lower()[0]
-        if gender == "m" and len(AMZ_VOICES_MALE) < 2:
-            amz_previous_voice = ""
-        if gender == "f" and len(AMZ_VOICES_FEMALE) < 2:
-            amz_previous_voice = ""
-        if gender == "m" and voice not in AMZ_VOICES_MALE:
-            return next_amz_voice(gender)
-        if voice not in IMS_VOICES_FEMALE:
-            return next_amz_voice(gender)
+        if gender == "m":
+            if len(AMZ_VOICES_MALE) < 2:
+                amz_previous_voice = ""
+            if voice not in AMZ_VOICES_MALE:
+                return next_amz_voice(gender)
+        if gender == "f":
+            if len(AMZ_VOICES_FEMALE) < 2:
+                amz_previous_voice = ""
+            if voice not in AMZ_VOICES_FEMALE:
+                return next_amz_voice(gender)
     if voice == amz_previous_voice:
         return next_amz_voice(gender)
     amz_previous_voice = voice
@@ -171,7 +173,13 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             # if check_text in dupe_pronunciation_check:
             #     raise Exception(f"DUPLICATE PRONUNCIATION: ({line_no:,}) {check_text}\n{fields}")
             # dupe_pronunciation_check.add(check_text)
-            sex: str = fields[IX_GENDER].strip()
+            gender: str = fields[IX_GENDER].strip()
+            if gender:
+                gender = gender.strip().lower()[0]
+                if gender.lower() != "m" and gender.lower() != "f":
+                    print(f"BAD GENDER: {fields}")
+                    gender = ""
+
             english_text = fields[IX_ENGLISH].strip()
             if not english_text:
                 continue
@@ -227,7 +235,7 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 to_en_data.answer = english_text
                 to_en_data.challenge = cherokee_text
                 to_en_data.card_id = id_chr2en
-                to_en_data.sex = sex
+                to_en_data.sex = gender
                 if skip_as_new:
                     to_en_data.bound_pronoun = "*"
                     to_en_data.verb_stem = "*"
