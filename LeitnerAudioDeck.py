@@ -35,6 +35,9 @@ class AudioData:
     sex: str = ""
     answer: str = ""
     challenge: str = ""
+    intro_note: str = ""
+    end_note: str = ""
+    challenge_alts: list[str] = field(default_factory=list)
 
     @property
     def sort_key(self) -> str:

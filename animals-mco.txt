@@ -1,81 +1,81 @@
-ID|PSET|DIALOG|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|AUDIO FILE
-||||||ᎠᏂ|áɂni.|A strawberry. Strawberries.|
-||||||ᎠᏥᎸᏍᎩ|aji:lv̋:sgi.|A flower.|
-||||||ᎠᏂᏥᎸᏍᎩ|ani:ji:lv̋:sgi.|Flowers.|
+ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE
+||áɂn||||ᎠᏂ|áɂni.|A strawberry. Strawberries.|
+||aji:lv̋:sg||||ᎠᏥᎸᏍᎩ|aji:lv̋:sgi.|A flower.|
+||ani:ji:lv̋:sg||||ᎠᏂᏥᎸᏍᎩ|ani:ji:lv̋:sgi.|Flowers.|
 ||||||ᎠᏫ|ahwi.|A deer. Deer.|
-||||||ᎠᏬᎭᎵ|awǒ:háɂli.|An eagle. Eagles.|
+||awǒ:háɂli||||ᎠᏬᎭᎵ|awǒ:háɂli.|An eagle. Eagles.|
 ||||||ᎡᎶᏆ|e:logwa.|A snail. Snails.|
 ||||||ᎡᏟ|ehli.|A mink or ferret. Minks or ferrets.|
-||||||ᎢᎾᎨᎢ|ǐ:náge̋:ɂi.|Wilderness.|
-||||||ᎢᎾᏓ|ǐ:náda.|A snake. Snakes.|
-||||||ᎢᏃᎵ|inò:li.|A badger. Badgers.|
-||||||ᎣᎦᎾ|o:gana.|A groundhog. Groundhogs.|
-||||||ᎤᎦᏐᏣᏁᏓ|u:ksò:ja:ne̋:da.|A goat.|
-||||||ᎤᎧᏖᎾ|ukte:na.|A horned serpent. Horned serpents.|
-||||||ᎤᎫᎫ|u:gù:ku.|An owl.|
-||||||ᎤᎾᎦᏐᏣᏁᏓ|u:naksò:jane̋:da.|Goats.|
-||||||ᎤᏤᏥᏍᏗ|u:je̋:tsdi.|An opossum.|
-||||||ᎤᎾᏤᏥᏍᏗ|u:naje̋:tsdi.|Opossums|
-||||||ᎤᏂᎫᎫ|u:ni:gù:ku.|Owls.|
-||||||ᎤᏃᏕᎾ|u:nò:de̋:na.|A sheep.|
-||||||ᎤᏂᏃᏕᎾ|u:ni:nò:de̋:na.|Sheep.|
+||ǐ:náge̋||||ᎢᎾᎨᎢ|ǐ:náge̋:ɂi.|Wilderness.|
+||ǐ:nád||||ᎢᎾᏓ|ǐ:náda.|A snake. Snakes.|
+||inò:l||||ᎢᏃᎵ|inò:li.|A badger. Badgers.|
+||o:gan||||ᎣᎦᎾ|o:gana.|A groundhog. Groundhogs.|
+||u:ksò:ja:ne̋:d||||ᎤᎦᏐᏣᏁᏓ|u:ksò:ja:ne̋:da.|A goat.|
+||ukte:n||||ᎤᎧᏖᎾ|ukte:na.|A horned serpent. Horned serpents.|
+||u:gù:k||||ᎤᎫᎫ|u:gù:ku.|An owl.|
+||u:naksò:jane̋:d||||ᎤᎾᎦᏐᏣᏁᏓ|u:naksò:jane̋:da.|Goats.|
+||u:je̋:tsd||||ᎤᏤᏥᏍᏗ|u:je̋:tsdi.|An opossum.|
+||u:naje̋:tsd||||ᎤᎾᏤᏥᏍᏗ|u:naje̋:tsdi.|Opossums|
+||u:ni:gù:k||||ᎤᏂᎫᎫ|u:ni:gù:ku.|Owls.|
+||u:nò:de̋:n||||ᎤᏃᏕᎾ|u:nò:de̋:na.|A sheep.|
+||u:ni:nò:de̋:n||||ᎤᏂᏃᏕᎾ|u:ni:nò:de̋:na.|Sheep.|
 ||||||ᎤᏂᏥᏯ|u:ni:ji:ya.|Worms.|
 ||||||ᎤᏥᏯ|u:ji:ya.|A worm.|
-||||||ᎤᏪᏥ|uwě:ji.|An egg. An offspring.|
-||||||ᎧᎹᎹ|kama:ma.|A butterfly, or, an elephant. Butterflies. Elephants.|
-||||||ᎧᎾᏁᏍᎩ|kanaɂně:sgi.|A spider. Spiders.|
-||||||ᎧᎾᏥᏍᏕᏥ|kanajì:sdě:ji.|A wasp. Wasps.|
-||||||ᎧᏄᎾ|kanu:na.|A bullfrog. Bullfrogs.|
-||||||ᎧᏬᏄ|kawǒ:nu.|A duck. Ducks.|
-||||||ᎨᎻᎵ|kě:míli.|A camel. Camels.|
+||uwě:j||||ᎤᏪᏥ|uwě:ji.|An egg. An offspring.|
+||kama:m||||ᎧᎹᎹ|kama:ma.|A butterfly, or, an elephant. Butterflies. Elephants.|
+||kanaɂně:sg||||ᎧᎾᏁᏍᎩ|kanaɂně:sgi.|A spider. Spiders.|
+||kanajì:sdě:j||||ᎧᎾᏥᏍᏕᏥ|kanajì:sdě:ji.|A wasp. Wasps.|
+||kanu:n||||ᎧᏄᎾ|kanu:na.|A bullfrog. Bullfrogs.|
+||kawǒ:n||||ᎧᏬᏄ|kawǒ:nu.|A duck. Ducks.|
+||kě:míl||||ᎨᎻᎵ|kě:míli.|A camel. Camels.|
 ||||||ᎩᏟ|gi:hli.|A dog. Dogs.|
-||||||ᎩᏳᎦ|kiyû:ga.|A chipmunk. Chipmunks.|
-||||||ᎪᎦ|kó:ga.|A crow. Crows.|
+||kiyû:g||||ᎩᏳᎦ|kiyû:ga.|A chipmunk. Chipmunks.|
+||kó:g||||ᎪᎦ|kó:ga.|A crow. Crows.|
 ||||||ᎬᎮ|gv:he.|A bobcat. Bobcats.|
-||||||ᎬᎾ|gv́:na.|A turkey. Turkeys.|
+||gv́:n||||ᎬᎾ|gv́:na.|A turkey. Turkeys.|
 ||||||ᎬᏟ|kv̌:hli.|A raccoon. Raccoons.|
-||||||ᏅᏓ|nv:da.|The sun, or, the moon.|
-||||||ᏌᎶᎵ|salǒ:li.|A squirrel. Squirrels|
-||||||ᏌᏌ|sa:sa.|A goose, or, swan. Geese. Swans.|
-||||||ᏏᏆ|sihgwa.|A pig. Pigs.|
-||||||ᏐᏈᎵ|sǒ:gwíli.|A horse. Horses.|
-||||||ᏐᏈᎵ ᏗᎦᎴᏅᎯᏓ|sǒ:gwíli digaɂlě:nv́:hi:da.|A mule. A long eared horse.|
-||||||ᏐᏈᎵ ᏗᏂᎴᏅᎯᏓ|sǒ:gwíli di:niɂlě:nv́:hi:da.|Mules. Long eared horses.|
-||||||ᏑᎵ|su:li.|A turkey vulture. Turkey vultures. |
-||||||ᏓᎩᏏ|daksi.|A terrapin turtle, a padlock, or a door knob. Terrapin turtles, padlocks, or door knobs.|
-||||||ᏓᎳᎳ|dala:la.|A woodpecker. Woodpeckers.|
-||||||ᏔᎳᏚ|tala:du.|A cricket. Crickets.|
-||||||ᏔᏬᏗ|tawǒ:di.|A hawk. Hawks.|
+||nv:d||||ᏅᏓ|nv:da.|The sun, or, the moon.|
+||salǒ:l||||ᏌᎶᎵ|salǒ:li.|A squirrel. Squirrels|
+||sa:s||||ᏌᏌ|sa:sa.|A goose, or, swan. Geese. Swans.|
+||sihgw||||ᏏᏆ|sihgwa.|A pig. Pigs.|
+||sǒ:gwíl||||ᏐᏈᎵ|sǒ:gwíli.|A horse. Horses.|
+||sǒ:gwíl digaɂlě:nv́:hi:d||||ᏐᏈᎵ ᏗᎦᎴᏅᎯᏓ|sǒ:gwíli digaɂlě:nv́:hi:da.|A mule. A long eared horse.|
+||sǒ:gwíl di:niɂlě:nv́:hi:d||||ᏐᏈᎵ ᏗᏂᎴᏅᎯᏓ|sǒ:gwíli di:niɂlě:nv́:hi:da.|Mules. Long eared horses.|
+||su:l||||ᏑᎵ|su:li.|A turkey vulture. Turkey vultures. |
+||daks||||ᏓᎩᏏ|daksi.|A terrapin turtle, a padlock, or a door knob. Terrapin turtles, padlocks, or door knobs.|
+||dala:l||||ᏓᎳᎳ|dala:la.|A woodpecker. Woodpeckers.|
+||tala:d||||ᏔᎳᏚ|tala:du.|A cricket. Crickets.|
+||tawǒ:d||||ᏔᏬᏗ|tawǒ:di.|A hawk. Hawks.|
 ||||||ᏕᏩ|de:wa.|A flying squirrel. Flying squirrels.|
-||||||ᏖᎦ|tehga.|A toad. Toads.|
-||||||ᏗᎵ|di:li.|A skunk. Skunks.|
-||||||ᏘᎾ|tina.|A louse. Lice.|
-||||||ᏘᏁᏆ|tinè:gwa.|A mole. Moles.|
-||||||ᏘᏲᎭᎵ|tiyǒ:háɂli.|A lizard. Lizards.|
-||||||ᏙᏌ|do:sa.|A mosquito. Mosquitoes.|
-||||||ᏙᏒᏓᎵ|do:sv̌:dáɂli.|An ant. Ants.|
-||||||ᏙᏯ|do:ya.|A beaver. Beaver.|
-||||||ᏛᎦ|tvhga.|A fly. Flies.|
+||tehg||||ᏖᎦ|tehga.|A toad. Toads.|
+||di:l||||ᏗᎵ|di:li.|A skunk. Skunks.|
+||tin||||ᏘᎾ|tina.|A louse. Lice.|
+||tinè:gw||||ᏘᏁᏆ|tinè:gwa.|A mole. Moles.|
+||tiyǒ:háɂl||||ᏘᏲᎭᎵ|tiyǒ:háɂli.|A lizard. Lizards.|
+||do:s||||ᏙᏌ|do:sa.|A mosquito. Mosquitoes.|
+||do:sv̌:dáɂl||||ᏙᏒᏓᎵ|do:sv̌:dáɂli.|An ant. Ants.|
+||do:y||||ᏙᏯ|do:ya.|A beaver. Beaver.|
+||tvhg||||ᏛᎦ|tvhga.|A fly. Flies.|
 ||||||ᏜᎺᎭ|dla:me:ha.|A bat. Bats.|
-||||||ᏜᏄᏏ|dla:nú:si.|A leech. Leeches.|
-||||||ᏢᏓᏥ|hlv:daji.|A great cat. Great cats.|
-||||||ᏢᏕᏆ|tlv̌:dé:gwa.|An eel. Eels.|
-||||||ᏥᏍᏚ|ji:sdu.|A rabbit. Rabbits.|
-||||||ᏥᏔᎦ|jitǎ:ga.|A chicken. Chickens.|
+||dla:nú:s||||ᏜᏄᏏ|dla:nú:si.|A leech. Leeches.|
+||hlv:daj||||ᏢᏓᏥ|hlv:daji.|A great cat. Great cats.|
+||tlv̌:dé:gw||||ᏢᏕᏆ|tlv̌:dé:gwa.|An eel. Eels.|
+||ji:sd||||ᏥᏍᏚ|ji:sdu.|A rabbit. Rabbits.|
+||jitǎ:g||||ᏥᏔᎦ|jitǎ:ga.|A chicken. Chickens.|
 ||||||ᏥᏲ|jiyo|An otter. Otters.|
-||||||ᏧᎳ|chu:la.|A fox. Foxes.|
-||||||ᏧᎳᏍᎩ|ju:là:sgi.|An alligator or iron pot. Alligators or iron pots.|
-||||||ᏧᎵᏍᏓᎾᎵ|ju:lì:sdana:li.|A catfish.|
-||||||ᏧᏂᎵᏍᏓᎾᎵ|ju:ni:lì:sdana:li.|Catfish.|
-||||||ᏧᏪᏥ|juwě:ji.|Eggs. Offspring.|
-||||||ᏩᎦ|wahga.|A cow. Cows.|
-||||||ᏩᎴᎳ|wá:le:la.|A hummingbird. Hummingbirds.|
-||||||ᏩᎶᏏ|waló:si.|A frog. Frogs.|
+||chu:l||||ᏧᎳ|chu:la.|A fox. Foxes.|
+||ju:là:sg||||ᏧᎳᏍᎩ|ju:là:sgi.|An alligator or iron pot. Alligators or iron pots.|
+||ju:lì:sdana:l||||ᏧᎵᏍᏓᎾᎵ|ju:lì:sdana:li.|A catfish.|
+||ju:ni:lì:sdana:l||||ᏧᏂᎵᏍᏓᎾᎵ|ju:ni:lì:sdana:li.|Catfish.|
+||juwě:j||||ᏧᏪᏥ|juwě:ji.|Eggs. Offspring.|
+||wahg||||ᏩᎦ|wahga.|A cow. Cows.|
+||wá:le:l||||ᏩᎴᎳ|wá:le:la.|A hummingbird. Hummingbirds.|
+||waló:s||||ᏩᎶᏏ|waló:si.|A frog. Frogs.|
 ||||||ᏩᏐᏝ|wá:so:hla.|A moth. Moths.|
-||||||ᏩᏓᏚᎦ|wǎ:dádǔ:ga.|A dragonfly. Dragonflies.|
-||||||ᏩᏚᎵᏏ|wá:du:lí:si.|A honey bee. Honey bees.|
+||wǎ:dádǔ:g||||ᏩᏓᏚᎦ|wǎ:dádǔ:ga.|A dragonfly. Dragonflies.|
+||wá:du:lí:s||||ᏩᏚᎵᏏ|wá:du:lí:si.|A honey bee. Honey bees.|
 ||||||ᏩᏯ|wahya.|A wolf. Wolves.|
-||||||ᏪᏌ|wě:sa.|A cat. Cats.|
-||||||ᏬᏱ|wo:yi.|A pigeon. Pigeons.|
-||||||ᏯᏂᏌ|yansa.|A buffalo. Buffalo.|
-||||||ᏲᎾ|yǒ:na.|A bear. Bears.|
+||wě:s||||ᏪᏌ|wě:sa.|A cat. Cats.|
+||wo:y||||ᏬᏱ|wo:yi.|A pigeon. Pigeons.|
+||yans||||ᏯᏂᏌ|yansa.|A buffalo. Buffalo.|
+||yǒ:n||||ᏲᎾ|yǒ:na.|A bear. Bears.|

@@ -1,0 +1,28 @@
+ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE
+||síyo|Ꮿ|ᏏᏲ|||o:síyo|Hello.
+||||ᏙᎯ|||tò:hi̋|Healthy or peaceful.
+|||Ꮷ|ᏙᎯ|||tò:hi̋:ju?|Things are well, aren’t they?
+|||Ꮚ|ᏙᎯ|||tò:hi̋:gwu|Just fine, peaceful.
+||gadò de:jadó?; dò de:jadó?|ᏕᏣ|ᎠᏙᎠ|||gadò de:jadó:ɂa?|What is your name?
+||ja:ni dà:gwadó:ɂa; ja:n dà:gwadó; ja:ni dà:gwadó|ᏓᏆ|ᎠᏙᎠ|male||ja:n dà:gwadó:ɂa|My name is John.
+||maga:li dà:gwadó:ɂa; maga:li dà:gwadó; maga:l dà:gwadó|ᏓᏆ|ᎠᏙᎠ|male||maga:l dà:gwadó:ɂa|My name is Mike.
+||lini:d dà:gwadó:ɂa; lini:d dà:gwadó|ᏓᏆ|ᎠᏙᎠ|female||lini:da dà:gwadó:ɂa|My name is Linda.
+||me:li dà:gwadó; me:l dà:gwadó|ᏓᏆ|ᎠᏙᎠ|female||me:li dà:gwadó:ɂa|My name is Mary.
+||gadò de:sdadó?; dò de:sdadó?|ᏕᏍᏗ|ᎠᏙᎠ|||gadò de:sdadó:ɂa?|What are your names you two?
+||gadò dè:jadó?; dò dè:jadó?|ᎢᏥ|ᎠᏙᎠ|||gadò dè:jadó:ɂa?|What are your names you all?
+||||ᏣᎳᎩ|||Jalagi |Cherokee.
+||Jalagi hiwó:ni?; Jalag hiwó:ni?|Ꭿ|ᏬᏂᎭ|||Jalagi hiwó:niha?|Do you one speak Cherokee?
+||Jalagi de:sdawó:ni?; Jalag de:sdawó:ni?|ᏕᏍᏓ|ᏬᏂᎭ|||Jalagi de:sdawó:niha?|Do you both speak Cherokee?
+||Jalagi dè:jiwó:ni?; Jalag dè:jiwó:ni?|ᏕᏥ|ᏬᏂᎭ|||Jalagi dè:jiwó:niha?|Do you all speak Cherokee?
+||Hohlga̋́:s Jalagi?|Ꭿ|ᎣᎵᎦ|||Hohlga̋́:sgo Jalagi?|Do you one understand Cherokee?
+||de:sdohlga̋́:s Jalagi?|ᏕᏍᏓ|ᎣᎵᎦ|||de:sdohlga̋́:sgo Jalagi?|Do you two understand Cherokee?
+||dè:johlga̋́:s Jalagi?|ᏕᏥ|ᎣᎵᎦ|||dè:johlga̋́:sgo Jalagi?|Do you all understand Cherokee?
+||Gadò hadv:ne?; Dò hadv:ne?|Ꭿ|ᎠᏛᏁᎭ|||Gadò hadv:neha?|What are you one doing?
+||Gadò de:sdadv:ne?; dò de:sdadv:ne?|ᏕᏍᏗ|ᎠᏛᏁᎭ|||Gadò de:sdadv:neha?|What are you two doing?
+||Gadò dè:jadv:ne?; Dò dè:jadv:ne?|ᏕᏥ|ᎠᏛᏁᎭ|||Gadò dè:jadv:neha?|What are you all doing?
+||Ha:dlv wije:nv́:sv̌?|Ꮳ|ᎡᏅᏒᎢ|||Ha:dlv wije:nv́:sv̌:ɂi?|Where did you go a while ago?
+||Ha:dlv wisde:nv́:sv̌?|ᏍᏗ|ᎡᏅᏒᎢ|||Ha:dlv wisde:nv́:sv̌:ɂi?|Where did you two go a while ago?
+||Ha:dlv wì:je:nv́:sv̌?|ᎢᏥ|ᎡᏅᏒᎢ|||Ha:dlv wì:je:nv́:sv̌:ɂi?|Where did you all go a while ago?
+|||Ꮳ|ᎡᏅᏒᎢ|||Ha:dlv hwé:ga?|Where are you going?
+|||ᏍᏗ|ᎡᏅᏒᎢ|||Ha:dlv wisdé:ga?|Where are you two going?
+|||ᎢᏥ|ᎡᏅᏒᎢ|||Ha:dlv wi:jé:ga?|Where are you all going?

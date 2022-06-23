@@ -8,19 +8,13 @@ exit $?
 ''"""
 from __future__ import annotations
 
-from datetime import datetime
-
-import textwrap
-import boto3
-import hashlib
 import os
 import re
-import subprocess
+import shutil
 import unicodedata
-from boto3_type_annotations.polly import Client as Polly
+from datetime import date
+from datetime import datetime
 from pydub import AudioSegment
-from pydub import effects
-from pydub.effects import normalize
 from random import Random
 from tqdm import tqdm
 
@@ -28,20 +22,26 @@ from CardUtils import CardUtils
 from LeitnerAudioDeck import AudioCard
 from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
+import Prompts
+import TTS as tts
 from config import Config
 
-DATASET: str = "cll1-v3"
+DATASET: str = "osiyo-tohiju-then-what"
+# DATASET: str = "cll1-v3"
+# DATASET: str = "animals-mco"
+RESORT_BY_LENGTH: bool = False
 
+IX_ALT_PRONOUNCE: int = 2
 IX_PRONOUN: int = 3
 IX_VERB: int = 4
 IX_GENDER: int = 5
 IX_SYLLABARY: int = 6
 IX_PRONOUNCE: int = 7
 IX_ENGLISH: int = 8
+IX_INTRO_NOTE: int = 9
+IX_END_NOTE: int = 10
 
 UNDERDOT: str = "\u0323"
-
-auto_split_cherokee: bool = True
 
 CACHE_CHR = os.path.join("cache", "chr")
 CACHE_EN = os.path.join("cache", "en")
@@ -63,9 +63,7 @@ AMZ_VOICES.extend(AMZ_VOICES_FEMALE)
 AMZ_VOICES.extend(AMZ_VOICES_MALE)
 amz_voices: list[str] = list()
 
-AMZ_VOICE_INSTRUCTOR: str = "Matthew"
 AMZ_HZ: str = "24000"
-
 LESSON_HZ: int = 48_000
 
 rand: Random = Random(1234)
@@ -146,9 +144,9 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if line.startswith("#") or not line:
                 continue
             fields = line.split("|")
-            if len(fields) < IX_ENGLISH + 1 or len(fields) > IX_ENGLISH + 2:
+            if len(fields) < IX_ENGLISH + 1 or len(fields) > IX_END_NOTE + 1:
                 print(f"; {line}")
-                raise Exception(f"Wrong field count of {len(fields)}. Should be {IX_ENGLISH + 1}.")
+                raise Exception(f"Wrong field count of {len(fields)}. Should be {IX_END_NOTE + 1}.")
             skip_as_new = "*" in fields[0]
 
             verb_stem: str = unicodedata.normalize("NFD", fields[IX_VERB])
@@ -159,13 +157,20 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             bound_pronoun = re.sub("[¹²³⁴" + UNDERDOT + "]", "", bound_pronoun)
             bound_pronoun = unicodedata.normalize("NFC", bound_pronoun)
 
+            cherokee_text_alts: list[str] = list()
             cherokee_text = fields[IX_PRONOUNCE].strip()
             if not cherokee_text:
                 continue
             if cherokee_text.startswith("#"):
                 continue
-            if "," in cherokee_text and auto_split_cherokee:
-                cherokee_text = cherokee_text[0:cherokee_text.index(",")]
+
+            if ";" in cherokee_text:
+                for text in cherokee_text.split(";"):
+                    text = text.strip()
+                    if text and text not in cherokee_text_alts:
+                        cherokee_text_alts.append(text)
+                cherokee_text = cherokee_text[0:cherokee_text.index(";")].strip()
+
             cherokee_text = cherokee_text[0].upper() + cherokee_text[1:]
             if cherokee_text[-1] not in ",.?!":
                 cherokee_text += "."
@@ -201,8 +206,16 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 english_text = english_text.replace(" (inanimate)", ", non-living, ")
             if "/" in english_text:
                 english_text = english_text.replace("/", " or ")
-            if re.search("(?i), it\\b", english_text):
-                english_text = re.sub("(?i), it\\b", " or it", english_text)
+
+            if re.search("(?i)\\bhe, it\\b", english_text):
+                english_text = re.sub("(?i)(he), it\\b", "\\1 or it", english_text)
+            if re.search("(?i)\\bhim, it\\b", english_text):
+                english_text = re.sub("(?i)(him), it\\b", "\\1 or it", english_text)
+            if re.search("(?i)\\bshe, it\\b", english_text):
+                english_text = re.sub("(?i)(she), it\\b", "\\1 or it", english_text)
+            if re.search("(?i)\\bher, it\\b", english_text):
+                english_text = re.sub("(?i)(her), it\\b", "\\1 or it", english_text)
+
             if "'s" in english_text:
                 english_text = english_text.replace("he's", "he is")
                 english_text = english_text.replace("she's", "she is")
@@ -219,10 +232,26 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             to_en_card: AudioCard
             to_en_data: AudioData
 
+            intro_note: str
+            if len(fields) > IX_INTRO_NOTE:
+                intro_note = fields[IX_INTRO_NOTE].strip()
+            else:
+                intro_note: str = ""
+
+            end_note: str
+            if len(fields) > IX_END_NOTE:
+                end_note = fields[IX_END_NOTE].strip()
+            else:
+                end_note: str = ""
+
             if cherokee_text in cards_for_english_answers:
                 to_en_card = cards_for_english_answers[cherokee_text]
                 to_en_data = to_en_card.data
                 to_en_data.answer += " Or, " + english_text
+                if intro_note:
+                    to_en_card.data.intro_note = intro_note
+                if end_note:
+                    to_en_card.data.end_note = end_note
             else:
                 id_chr2en += 1
 
@@ -236,6 +265,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 to_en_data.challenge = cherokee_text
                 to_en_data.card_id = id_chr2en
                 to_en_data.sex = gender
+                if intro_note:
+                    to_en_card.data.intro_note = intro_note
+                if end_note:
+                    to_en_card.data.end_note = end_note
                 if skip_as_new:
                     to_en_data.bound_pronoun = "*"
                     to_en_data.verb_stem = "*"
@@ -243,6 +276,21 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 syllabary: str = fields[IX_SYLLABARY]
                 to_en_data.sort_key = syllabary if syllabary else cherokee_text
                 chr2en_deck.append(to_en_card)
+
+            if fields[IX_ALT_PRONOUNCE] or cherokee_text_alts:
+                alts: list[str] = fields[IX_ALT_PRONOUNCE].split(";")
+                if cherokee_text not in to_en_data.challenge_alts:
+                    to_en_data.challenge_alts.append(cherokee_text)
+                for alt in alts:
+                    alt = alt.strip()
+                    if not alt or alt in to_en_data.challenge_alts:
+                        continue
+                    to_en_data.challenge_alts.append(alt)
+                for alt in cherokee_text_alts:
+                    alt = alt.strip()
+                    if not alt or alt in to_en_data.challenge_alts:
+                        continue
+                    to_en_data.challenge_alts.append(alt)
 
     review_sheet_chr2en: str = ""
     review_sheet_en2chr: str = ""
@@ -268,53 +316,6 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
     return chr2en_deck
 
 
-def tts_chr(voice: str | None, text_chr: str):
-    mp3_name_chr: str = get_filename(voice, text_chr)
-    mp3_chr: str = os.path.join(CACHE_CHR, mp3_name_chr)
-    if os.path.exists(mp3_chr):
-        return
-    cmd: list[str] = list()
-    cmd.append(os.path.expanduser("~/git/IMS-Toucan/run_tts.py"))
-    cmd.append("--lang")
-    cmd.append("chr")
-    if voice:
-        cmd.append("--ref")
-        cmd.append(os.path.realpath(os.path.join("ref", f"{voice}.wav")))
-    cmd.append("--mp3")
-    cmd.append(mp3_chr)
-    cmd.append("--text")
-    cmd.append(text_chr)
-    result = subprocess.run(cmd, capture_output=True)
-    if result.returncode:
-        print(result.stdout.decode())
-        print(result.stderr.decode())
-        raise Exception("run_tts.py fail")
-
-
-def get_mp3_chr(voice: str | None, text_chr: str) -> str:
-    text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
-    mp3_name_chr: str = get_filename(voice, text_chr)
-    mp3_chr: str = os.path.join(CACHE_CHR, mp3_name_chr)
-    return mp3_chr
-
-
-def tts_chr_audio(voice: str | None, text_chr: str) -> AudioSegment:
-    mp3_file = get_mp3_chr(voice, text_chr)
-    return effects.normalize(AudioSegment.from_file(mp3_file))
-
-
-def get_mp3_en(voice: str | None, text_en: str) -> str:
-    text_en = re.sub("\\s+", " ", text_en).strip()
-    mp3_name_en: str = get_filename(voice, text_en)
-    mp3_en: str = os.path.join(CACHE_EN, mp3_name_en)
-    return mp3_en
-
-
-def tts_en_audio(voice: str | None, text_en: str) -> AudioSegment:
-    mp3_file = get_mp3_en(voice, text_en)
-    return effects.normalize(AudioSegment.from_file(mp3_file))
-
-
 def fix_english_sex_genders(text_en) -> str:
     tmp: str = re.sub("\\s+", " ", text_en).strip()
     if "brother" in tmp.lower():
@@ -337,315 +338,21 @@ def fix_english_sex_genders(text_en) -> str:
     return tmp
 
 
-def tts_en(voice: str, text_en: str):
-    mp3_en = get_mp3_en(voice, text_en)
-    if os.path.exists(mp3_en):
-        return
-    polly_client: Polly = boto3.Session().client("polly")
-    response = polly_client.synthesize_speech(OutputFormat="mp3",  #
-                                              Text=text_en,  #
-                                              VoiceId=voice,  #
-                                              SampleRate=AMZ_HZ,  #
-                                              LanguageCode="en-US",  #
-                                              Engine="neural")
-    with open(mp3_en, "wb") as w:
-        w.write(response["AudioStream"].read())
-
-
 def create_card_audio(main_deck: LeitnerAudioDeck):
     os.makedirs(CACHE_CHR, exist_ok=True)
     os.makedirs(CACHE_EN, exist_ok=True)
     print("Creating card audio")
     for card in tqdm(main_deck.cards):
-        data = card.data
+        data: AudioData = card.data
         text_chr = data.challenge
+        text_chr_alts = data.challenge_alts
         text_en = data.answer
         for voice in IMS_VOICES:
-            tts_chr(voice, text_chr)
+            tts.tts_chr(voice, text_chr)
+            for alt in text_chr_alts:
+                tts.tts_chr(voice, alt)
         for voice in AMZ_VOICES:
-            tts_en(voice, text_en)
-
-
-def get_filename(voice: str, text_chr: str):
-    if not voice:
-        voice = "-"
-    sha1: str
-    sha1 = hashlib.sha1(text_chr.encode("UTF-8")).hexdigest()
-    _ = unicodedata.normalize("NFD", text_chr).lower().replace(" ", "_")
-    _ = unicodedata.normalize("NFC", re.sub("[^a-z_]", "", _))
-    if len(_) > 32:
-        _ = _[:32]
-    mp3_name_chr: str = f"{_}_{voice}_{sha1}.mp3"
-    return mp3_name_chr
-
-
-def create_prompts() -> dict[str, AudioSegment]:
-    print("Creating instructor prompts")
-    prompts: dict[str, AudioSegment] = dict()
-    voice: str = AMZ_VOICE_INSTRUCTOR
-
-    tag: str = "produced"
-    text: str = f"""
-    This audio file was produced on
-    {datetime.today().strftime("%B %d, %Y")}
-    by Michael Conrad."
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag: str = "first_phrase"
-    text: str = "Here is your first phrase to learn for this session. Listen carefully:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag: str = "language_culture_1"
-    text: str = """
-    Language and culture which are not shared and taught openly and freely will die.
-    If our language and culture die, then, as a people, so do we.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "copy_1"
-    text = f"Production copyright {datetime.utcnow().year} by Michael Conrad."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "copy_by_sa"
-    text = f"""
-    This work is licensed to you under the Creative Commons Attribution Share-Alike license.
-    To obtain a copy of this license please look up Creative Commons online.
-    You are free to share, copy, and distribute this work.
-    If you alter, build upon, or transform this work, you must use the same license on the resulting work.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "copy_by_nc"
-    text = f"""
-    This work is licensed to you under the Creative Commons Attribution Non-Commercial license.
-    To obtain a copy of this license please look up Creative Commons online.
-    You are free to share and adapt this work. If you alter, build upon, or transform this work,
-    you must use the same license on the resulting work.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "is_derived"
-    text = "This is a derived work."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "is_derived_cherokee_nation"
-    text = """
-    This is a derived work. Permission to use the original Cherokee audio and print materials for
-    non-commercial use granted by "The Cherokee Nation of Oklahoma".
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "walc1_attribution"
-    text = """
-    Original audio copyright 2018 by the Cherokee Nation of Oklahoma.
-    The contents of the "We are Learning Cherokee Level 1" textbook were developed by Durbin Feeling,
-    Patrick Rochford, Anna Sixkiller, David Crawler, John Ross, Dennis Sixkiller, Ed Fields, Edna Jones,
-    Lula Elk, Lawrence Panther, Jeff Edwards, Zachary Barnes, Wade Blevins, and Roy Boney, Jr.";
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "intro_1"
-    text = """
-    In these sessions, you will learn Cherokee phrases by responding with each phrase's English
-    translation. Each new phrase will be introduced with it's English translation. You will then be
-    prompted to translate different phrases into English. It is important to respond aloud.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "intro_2"
-    text = """
-    In these sessions, you will learn by responding aloud in English.
-    Each phrase will be introduced with an English translation.
-    As the sessions progress you will be prompted to translate different phrases into English.
-    It is important to respond aloud.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "keep_going"
-    text = """
-    Do not become discouraged while doing these sessions.
-    It is normal to have to repeat them several times.
-    As you progress you will find the later sessions much easier.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "begin"
-    text = "Let us begin."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "learn_sounds_first"
-    text = """
-    Only after you have learned how the words in Cherokee sound and how they are used together will you
-    be able to speak Cherokee. This material is designed to assist with learning these sounds and word
-    combinations. This is the way young children learn their first language or languages.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "new_phrase"
-    text = "Here is a new phrase to learn. Listen carefully:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "new_phrase_short"
-    text = "Here is a new phrase:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "translate"
-    text = "Translate into English:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "translate_short"
-    text = "Translate:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "listen_again"
-    text = "Here is the phrase again:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "listen_again_short"
-    text = "Again:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "its_translation_is"
-    text = "Here it is in English:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "in_english"
-    text = "In English:"
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "concludes_this_exercise"
-    text = "This concludes this audio exercise."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "cll1-v3"
-    text = "Cherokee Language Lessons 1. 3rd Edition."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "bound-pronouns"
-    text = "Bound Pronouns Training."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "ced-mco"
-    text = "Cherokee English Dictionary Vocabulary Cram."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "osiyo-tohiju-then-what-mco"
-    text = "Conversation Starters in Cherokee."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "wwacc"
-    text = "Advanced Conversational Cherokee."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "walc-1"
-    text = "We are learning Cherokee - Book 1."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "animals-mco"
-    text = "Cherokee animal names."
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "cll1-v3-about"
-    text = """
-    These audio excercise sessions complement the book 'Cherokee Language Lessons 1', 3rd Edition, by Michael Conrad.
-    Each chapter indicates which audio excercise sessions
-    should be completed before beginning that chapter.
-    By the time you complete the assigned sessions, you will have
-    little to no difficulty with reading the Cherokee in the chapter text.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "bound-pronouns-about"
-    text = """
-    These sessions closely follow the vocabulary from the Bound Pronouns app.
-    These exercises are designed to assist
-    with learning the different singular
-    and plural bound pronoun combinations.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "two-men-hunting-about"
-    text = """
-    These sessions closely follow the vocabulary from the story entitled, 'Two Hunters',
-    as recorded in the Cherokee English Dictionary, 1st edition.
-    By the time you have completed these exercises you should be able to understand
-    the full spoken story without any difficulty.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "ced-mco-about"
-    text = """
-    These sessions use vocabulary taken from the Cherokee English Dictionary, 1st Edition.
-    The pronunciations are based on the pronunciation markings as found in the dictionary.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "osiyo-tohiju-then-what-mco-about"
-    text = """
-    These sessions closely follow the book entitled, 'Conversation Starters in Cherokee', by Prentice Robinson.
-    The pronunciations are based on the pronunciation markings as found in the official
-    Cherokee English Dictionary - 1st Edition.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "wwacc-about"
-    text = """
-    These sessions closely follow the booklet entitled, 'Advanced Conversational Cherokee', by Willard Walker.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "walc-1-about"
-    text = """
-    These sessions closely follow the lesson material 'We are learning Cherokee - Book 1'.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    tag = "animals-mco-about"
-    text = """
-    These sessions closely follow the vocabulary from the Animals app.
-    """
-    tts_en(voice, text)
-    prompts[tag] = tts_en_audio(voice, text)
-
-    return prompts
+            tts.tts_en(voice, text_en)
 
 
 vstem_counts: dict[str, int] = dict()
@@ -695,29 +402,41 @@ max_review_cards_this_session: int = 0
 def main() -> None:
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
+
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
-    print(os.getcwd())
+    out_dir: str = os.path.join(os.path.realpath("."), "output", DATASET)
+    shutil.rmtree(out_dir, ignore_errors=True)
+    os.makedirs(out_dir)
 
     main_deck = load_main_deck(DATASET + ".txt")
+    if RESORT_BY_LENGTH:
+        main_deck.cards.sort(key=lambda c: c.data.sort_key)
+
     create_card_audio(main_deck)
-    prompts = create_prompts()
+    prompts = Prompts.create_prompts()
 
     # with open("walc1/walc1.json", "r") as f:
     #     cfg = Config.load(f)
     cfg = Config()
 
     temp_dir: str = os.path.join(cfg.data_dir, "temp")
-    out_dir: str = os.path.join(cfg.data_dir, "output")
     challenges_file: str = os.path.join(cfg.data_dir, "challenges.txt")
 
     _exercise_set: int = 0
-    keep_going: bool = cfg.create_all_sessions
+    keep_going: bool = True
     new_vocab_all_sessions: list = []
 
     prev_card_id: str = ""
+    extra_sessions: int = cfg.extra_sessions
 
-    while _exercise_set < cfg.sessions_to_create or keep_going:
+    short_speech_intro: bool = False
+    for card in main_deck:
+        if card.data.challenge_alts:
+            short_speech_intro = True
+            break
+
+    while keep_going and (_exercise_set < cfg.sessions_to_create or cfg.create_all_sessions):
         if _exercise_set > 0:
             new_vocab_all_sessions.append("")
             new_vocab_all_sessions.append("")
@@ -742,6 +461,10 @@ def main() -> None:
                 lead_in = lead_in.append(prompts[DATASET + "-about"])
                 lead_in = lead_in.append(AudioSegment.silent(1_000))
 
+            if DATASET + "-notes" in prompts:
+                lead_in = lead_in.append(prompts[DATASET + "-about"])
+                lead_in = lead_in.append(AudioSegment.silent(1_000))
+
             # Pre-lesson verbiage
             lead_in = lead_in.append(prompts["language_culture_1"])
             lead_in = lead_in.append(AudioSegment.silent(2_000))
@@ -755,13 +478,17 @@ def main() -> None:
             lead_in = lead_in.append(prompts["intro_2"])
             lead_in = lead_in.append(AudioSegment.silent(2_000))
 
+            if short_speech_intro:
+                lead_in = lead_in.append(prompts["short-speech"])
+                lead_in = lead_in.append(AudioSegment.silent(2_000))
+                short_speech_intro = False
+
             # Let us begin
             lead_in = lead_in.append(prompts["begin"])
             lead_in = lead_in.append(AudioSegment.silent(1_000))
 
         session_start: str = f"Session {_exercise_set + 1}."
-        tts_en(AMZ_VOICE_INSTRUCTOR, session_start)
-        lead_in = lead_in.append(tts_en_audio(AMZ_VOICE_INSTRUCTOR, session_start))
+        lead_in = lead_in.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, session_start))
         lead_in = lead_in.append(AudioSegment.silent(1_000))
 
         lead_out: AudioSegment = AudioSegment.silent(3_000, LESSON_HZ).set_channels(1)
@@ -796,16 +523,12 @@ def main() -> None:
                                             cfg.review_cards_per_session + _exercise_set * cfg.review_cards_increment)
         print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
-        while lead_in.duration_seconds \
-                + lead_out.duration_seconds \
-                + main_audio.duration_seconds \
-                < cfg.session_max_duration:
+        end_note: str = ""
+        while lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration:
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
                 break
-            if keep_going:
-                keep_going = main_deck.has_cards  # todo: add 2 extra sessions
             card_id: str = card.data.card_id
             card_stats = card.card_stats
             new_card: bool = card_stats.new_card
@@ -817,6 +540,8 @@ def main() -> None:
                 continue
             prev_card_id = card_id
             if new_card:
+                if data.end_note:
+                    end_note = data.end_note
                 if introduce_card:
                     print(f"Introduced card: {data.challenge} [{card_stats.tries_remaining:,}]")
                 else:
@@ -855,10 +580,15 @@ def main() -> None:
                 else:
                     main_audio = main_audio.append(prompts["translate_short"])
                 main_audio = main_audio.append(AudioSegment.silent(1_000))
-            data_file: AudioSegment = tts_chr_audio(next_ims_voice(data.sex), data.challenge)
+            challenge: str
+            if not data.challenge_alts or (new_card and introduce_card):
+                challenge = data.challenge
+            else:
+                challenge = rand.choice(data.challenge_alts)
+            data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
             main_audio = main_audio.append(data_file)
             if introduce_card:
-                data_file: AudioSegment = tts_chr_audio(next_ims_voice(data.sex), data.challenge)
+                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
                 main_audio = main_audio.append(AudioSegment.silent(2_000))
                 if new_count < 8 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
@@ -878,7 +608,7 @@ def main() -> None:
                 main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
 
             # The answer
-            answer_audio: AudioSegment = tts_en_audio(next_amz_voice(data.sex), data.answer)
+            answer_audio: AudioSegment = tts.en_audio(next_amz_voice(data.sex), data.answer)
             main_audio = main_audio.append(answer_audio)
             if _exercise_set == 0:
                 main_audio = main_audio.append(AudioSegment.silent(3_000))
@@ -916,16 +646,39 @@ def main() -> None:
             raise Exception("Discards Deck should be empty!")
 
         print("---")
-        print(f"New cards: {new_count}. Review cards: {review_count}.")
+        print(f"New cards: {new_count:,}. Review cards: {review_count:,}. Hidden new cards: {hidden_count:,}.")
+
+        # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
+        tags: dict = dict()
+
+        tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
+        tags["composer"] = "Michael Conrad"
+        tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
+        tags["title"] = f"CLL 1 | {_exercise_set + 1}"
+        tags["language"] = "chr"
+        tags["artist"] = "IMS-Toucan"
+        tags["publisher"] = "Michael Conrad"
+        tags["track"] = str(_exercise_set + 1)
+        tags["date"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
+        tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
+        tags["genre"] = "Spoken"
+        tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
+        tags["year"] = date.today().year
 
         # Output exercise audio
         combined_audio: AudioSegment = lead_in.append(main_audio)
+        # Add any special end of session notes.
+        if end_note:
+            combined_audio = combined_audio.append(AudioSegment.silent(3_000))
+            combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
+            print(f"* {end_note}")
         combined_audio = combined_audio.append(lead_out)
-        output_mp3: str = f"output-{_exercise_set + 1:04}.mp3"
+        mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
+        output_mp3: str = os.path.join(out_dir, mp3_name)
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
-        print(f"Creating {output_mp3}. {minutes:02d}:{seconds:02d}.")
-        combined_audio.export(output_mp3, format="mp3")
+        print(f"Creating {mp3_name}. {minutes:02d}:{seconds:02d}.")
+        combined_audio.export(output_mp3, format="mp3", parameters=["-qscale:a", "3"], tags=tags)
 
         # Bump counter
         _exercise_set += 1
@@ -935,6 +688,10 @@ def main() -> None:
         del lead_out
         del main_audio
         del combined_audio
+
+        if not main_deck.has_cards:
+            keep_going = extra_sessions > 0
+            extra_sessions -= 1
 
 
 review_count: int = 0
