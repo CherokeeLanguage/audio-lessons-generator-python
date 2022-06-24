@@ -26,10 +26,13 @@ import Prompts
 import TTS as tts
 from config import Config
 
-DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
-# DATASET: str = "animals-mco"
+# DATASET: str = "osiyo-tohiju-then-what"
+DATASET: str = "cll1-v3"
+# DATASET: str = "animals"
+
 RESORT_BY_LENGTH: bool = False
+if DATASET == "animals":
+    RESORT_BY_LENGTH = True
 
 IX_ALT_PRONOUNCE: int = 2
 IX_PRONOUN: int = 3
@@ -436,6 +439,8 @@ def main() -> None:
             short_speech_intro = True
             break
 
+    end_notes_by_track: dict[int, str] = dict()
+
     while keep_going and (_exercise_set < cfg.sessions_to_create or cfg.create_all_sessions):
         if _exercise_set > 0:
             new_vocab_all_sessions.append("")
@@ -524,6 +529,12 @@ def main() -> None:
         print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
         end_note: str = ""
+
+        first_new_challenge: str = ""
+        last_new_challenge: str = ""
+        first_review_challenge: str = ""
+        last_review_challenge: str = ""
+
         while lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration:
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
@@ -540,6 +551,9 @@ def main() -> None:
                 continue
             prev_card_id = card_id
             if new_card:
+                if not first_new_challenge:
+                    first_new_challenge = data.challenge
+                last_new_challenge = data.challenge
                 if data.end_note:
                     end_note = data.end_note
                 if introduce_card:
@@ -580,6 +594,10 @@ def main() -> None:
                 else:
                     main_audio = main_audio.append(prompts["translate_short"])
                 main_audio = main_audio.append(AudioSegment.silent(1_000))
+                if not card_stats.shown:
+                    if not first_review_challenge:
+                        first_review_challenge = data.challenge
+                    last_review_challenge = data.challenge
             challenge: str
             if not data.challenge_alts or (new_card and introduce_card):
                 challenge = data.challenge
@@ -646,15 +664,39 @@ def main() -> None:
             raise Exception("Discards Deck should be empty!")
 
         print("---")
-        print(f"New cards: {new_count:,}. Review cards: {review_count:,}. Hidden new cards: {hidden_count:,}.")
+        print(f"Introduced cards: {introduced_count:,}. Review cards: {review_count:,}. Hidden new cards: {hidden_count:,}.")
 
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
         tags: dict = dict()
 
-        tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
+        if DATASET == "cll1-v3":
+            tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
+            tags["title"] = f"CLL 1 | {_exercise_set + 1}"
+        elif DATASET == "animals":
+            tags["album"] = "Animals"
+            tags["title"] = f"Animals | {_exercise_set + 1}"
+        elif DATASET == "bound-pronouns":
+            tags["album"] = "Bound Pronouns"
+            tags["title"] = f"BP | {_exercise_set + 1}"
+        elif DATASET == "osiyo-tohiju-then-what":
+            tags["album"] = "Osiyo, Tohiju? ... Then what?"
+            tags["title"] = f"Osiyo | {_exercise_set + 1}"
+        elif DATASET == "osiyo-tohiju-then-what":
+            tags["album"] = "Osiyo, Tohiju? ... Then what?"
+            tags["title"] = f"Osiyo | {_exercise_set + 1}"
+
+        challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
+        challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
+        challenge_start = unicodedata.normalize("NFC", challenge_start)
+
+        challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
+        challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
+        challenge_stop = unicodedata.normalize("NFC", challenge_stop)
+
+        tags["title"] = f"[{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
-        tags["title"] = f"CLL 1 | {_exercise_set + 1}"
         tags["language"] = "chr"
         tags["artist"] = "IMS-Toucan"
         tags["publisher"] = "Michael Conrad"
@@ -672,6 +714,7 @@ def main() -> None:
             combined_audio = combined_audio.append(AudioSegment.silent(3_000))
             combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
             print(f"* {end_note}")
+        end_notes_by_track[_exercise_set] = end_note
         combined_audio = combined_audio.append(lead_out)
         mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
         output_mp3: str = os.path.join(out_dir, mp3_name)
@@ -692,6 +735,13 @@ def main() -> None:
         if not main_deck.has_cards:
             keep_going = extra_sessions > 0
             extra_sessions -= 1
+
+    with open(os.path.join(out_dir, "end-notes.txt"), "w") as w:
+        for _ in range(_exercise_set):
+            if _ not in end_notes_by_track:
+                continue
+            end_note = end_notes_by_track[_]
+            w.write(f"{_ + 1:,03d}: {end_note}\n")
 
 
 review_count: int = 0

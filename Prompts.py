@@ -169,7 +169,7 @@ def create_prompts() -> dict[str, AudioSegment]:
     text = "We are learning Cherokee - Book 1."
     prompts[tag] = en_audio(voice, text)
 
-    tag = "animals-mco"
+    tag = "animals"
     text = "Cherokee animal names."
     prompts[tag] = en_audio(voice, text)
 
@@ -228,7 +228,7 @@ def create_prompts() -> dict[str, AudioSegment]:
     """
     prompts[tag] = en_audio(voice, text)
 
-    tag = "animals-mco-about"
+    tag = "animals-about"
     text = """
     These sessions closely follow the vocabulary from the Animals app.
     """

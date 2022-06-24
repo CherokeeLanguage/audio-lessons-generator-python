@@ -17,7 +17,7 @@ class Config:
     debug_deck_size: int = 20
     sessions_to_create: int = 99
     create_all_sessions: bool = True
-    extra_sessions: int = 2
+    extra_sessions: int = 1
 
     new_card_max_tries: int = 7
     new_card_tries_decrement: int = 0
