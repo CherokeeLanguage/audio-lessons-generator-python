@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import shutil
+
 import boto3
 import hashlib
 import os
@@ -29,7 +31,7 @@ def tts_chr(voice: str | None, text_chr: str):
         cmd.append("--ref")
         cmd.append(os.path.realpath(os.path.join("ref", f"{voice}.wav")))
     cmd.append("--mp3")
-    cmd.append(mp3_chr)
+    cmd.append(mp3_chr+".tmp")
     cmd.append("--text")
     cmd.append(text_chr)
     result = subprocess.run(cmd, capture_output=True)
@@ -37,6 +39,8 @@ def tts_chr(voice: str | None, text_chr: str):
         print(result.stdout.decode())
         print(result.stderr.decode())
         raise Exception("run_tts.py fail")
+    else:
+        shutil.move(mp3_chr+".tmp", mp3_chr)
 
 
 def get_mp3_chr(voice: str | None, text_chr: str) -> str:
@@ -63,8 +67,9 @@ def tts_en(voice: str, text_en: str):
                                               SampleRate=AMZ_HZ,  #
                                               LanguageCode="en-US",  #
                                               Engine="neural")
-    with open(mp3_en, "wb") as w:
+    with open(mp3_en+".tmp", "wb") as w:
         w.write(response["AudioStream"].read())
+    shutil.move(mp3_en+".tmp", mp3_en)
 
 
 def get_mp3_en(voice: str | None, text_en: str) -> str:
