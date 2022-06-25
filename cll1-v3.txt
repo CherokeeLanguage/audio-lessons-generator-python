@@ -2,48 +2,50 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 #Chapters 1-4
 
-|||||||tigo:lǐ:ya.|let you read them.|
-||tatv:dà:sd|||||tatv:dà:sda|let you listen to them.|
-||nitadv̀:g|||||nitadv̀:ga|let you do them.|
+||Síyo|||||o:síyo|Hello.|
 
-||disdà:tv:dà:sd|||||disdà:tv:dà:sda|let you two listen to them.|
-||nidisdadv̀:g|||||nidisdadv̀:ga|let you two do them.|
-|||||||disdigo:lǐ:ya.|let you two read them.|
+||v:|||||v:v.|Yes.|
+||hla; tla|||||vhla.|No. Not.|
+|||||||howa|Okay.|
+|||||||ayo!|Ouch!|
 
-||nidijadv̀:g|||||nidijadv̀:ga|let you all do them.|
-|||||||dijigo:lǐ:ya.|let you all read them.|
-||dijà:tv:dà:sd|||||dijà:tv:dà:sda|let you all listen to them.|
+|||||||tò:hi̋|“Peaceful. Well in health.”|
+|||||||tò:hi̋:ju?|It's well, right?|
+||tò:hi̋:s?|||||tò:hi̋:sgo?|Is it well?|
+||v:ɂ, tò:hi̋:gwu|||||v:v, tò:hi̋:gwu|“Yes, it's just well.”|
+||v:ɂ, ő:sda.|||||v:v, ő:sda.|Yes, it is good.|
+|||||||wado|Thanks.|
+||v̀:sgig?|||||v̀:sgigi?|Really?|
 
-||igv:yi̋ à:de:hlohgwà:sd|||||igv:yi̋:ɂi à:de:hlohgwà:sdi|first lesson.|
-||taɂl dide:hlohgwà:sd|||||taɂli dide:hlohgwà:sdi|two lessons.||
+||go:hű:sd; gő:sdi; gő:sd|||||go:hű:sdi|Something.||
+
+|||||||donada:go:hv:ɂi|let us two see each other again later.|
+|||||||dodada:go:hv:ɂi|let us all see each other again later.|
+
+|||||||u:yő:ɂi ada|Bad wood|
+|||||||ni! a̋ɂda|Look! A young animal.|
+|||||||ayv:wi|A person.|
+||yó:ne:g ayv:wi; yv́:wúne:ga ayv:wi; yv́:wúne:g ayv:wi|||||yó:ne:ga ayv:wi|An English person.|
+||nvhgi:ne̋ ayv:wi|||||nvhgi:ne̋:ɂi ayv:wi|A fourth person.|
+
+||igv:yi̋ à:de:hlohgwà:sdi|||||igv:yi̋:ɂi à:de:hlohgwà:sdi|first lesson.|
+|||||||taɂli dide:hlohgwà:sdi|two lessons.||
 
 ||aya:do:hlv̋|||||aya:do:hlv̋:ɂi|A portion. A chapter.||
 ||gawò:nǐ:hísd|||||gawò:nǐ:hísdi|Speech or language.||
 
 ||taɂli:ne̋ ahwi|||||taɂli:ne̋:ɂi ahwi|A second deer.||
 ||joɂi:ne̋ nohj|||||joɂi:ne̋:ɂi nohji|A third pine tree.||
-||go:hű:sd; gő:sdi; gő:sd|||||go:hű:sdi|Something.||
 
-||jo nǔ:n|||||joɂi nǔ:na|Three potatoes.
+||jo nǔ:na|||||joɂi nǔ:na|Three potatoes.
 
-||Niga̋:d am; Niga̋:dv ama|||||Niga̋:da ama|All of the water.|
-||Niga̋:d á:m; Niga̋:dv á:ma|||||Niga̋:da á:ma|All of the salt.|
+||Áhni ǐ:gá:d ama.|||||Áhani ǐ:gá:da ama.|Here is some water.|
+||Áhni ǐ:gá:d á:ma.|||||Áhani ǐ:gá:da á:ma.|Here is some salt.|
 
-|||||||ayo!|Ouch!|
-||v:. ő:sda.|||||v:v. ő:sda.|Yes, it is good.|
-||Síyo|||||o:síyo|Hello.|
-||u:yő ada|||||u:yő:ɂi ada|Bad wood|
-||v:|||||v:v.|Yes.|
-||v̀:sgig?|||||v̀:sgigi?|Really?|
-||hla; tla|||||vhla.|No. Not.|
-|||||||howa|Okay.|
-||ni! a̋ɂd|||||ni! a̋ɂda|Look! A young animal.|
-||jalag ayv:wi|||||jalagi ayv:wi|A Cherokee person.|
-|||||||wado|Thanks.|
-||yó:ne:g ayv:wi; yv́:wúne:ga ayv:wi; yv́:wúne:g ayv:wi|||||yó:ne:ga ayv:wi|An English person.|
+||u:ne̋:g ada|||||u:ne̋:ga ada|White wood.|
 
-||nvhgi:ne̋ ayv:wi|||||nvhgi:ne̋:ɂi ayv:wi|A fourth person.|
-||ad u:ne̋:g|||||ada u:ne̋:ga|“The wood is white.”||Complete the lesson material through the end of chapter 4.
+|||||||tigo:lǐ:ya.|let you read them.|
+|||||||tatv:dà:sda|let you listen to them.||Complete the lesson material through the end of chapter 4.
 
 #Chapter 5
 ||hisgi:ne̋ agě:hya|||||hisgi:ne̋:ɂi agě:hya|A fifth woman.|
@@ -63,7 +65,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||gahlgwǒ:g ani:ge:hyű:j|||||gahlgwǒ:gi ani:ge:hyű:ja|Seven girls.|
 
 ||sǔ:dáli:ne̋ achű:j|||||sǔ:dáli:ne̋:ɂi achű:ja|A sixth boy.|
-||gahlgwǒ:gi:ne̋ salǒ:l|||||gahlgwǒ:gi:ne̋:ɂi salǒ:li|A seventh squirrel.||Complete the lesson material through the end of chapter 5.
+||gahlgwǒ:gi:ne̋ salǒ:l|||||gahlgwǒ:gi:ne̋:ɂi salǒ:li|A seventh squirrel.|
+
+|||||||nitadv̀:ga|let you do them.|
+|||||||to:hwe:lv̀:ga|Write them.||Complete the lesson material through the end of chapter 5.
 
 #Chapter 6
 ||sadv́:d à:gowhtí|||||sadv́:di à:gowhtíha|He sees a trap.|
@@ -75,7 +80,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||gadō jű:sd nǔ:n?; dō jű:sd nǔ:n?||||ᎦᏙ ᏧᏍᏗ|gadō jű:sdi nǔ:na?|“Which potatoes?”|
 ||gadō jű:sd nv̀:ya?; dō jű:sd nv̀:ya?||||ᎦᏙ ᏧᏍᏗ|gadō jű:sdi nv̀:ya?|“Which rocks?”|
 ||gadō űnsdi ani:gě:hya?; dō űnsdi ani:gě:hya?|||||gadō űnsdi ani:gě:hya?|“Which women?”||
-||gadō űnsd ani:sgaya?; dō űnsd ani:sgaya?|||||gadō űnsdi ani:sgaya?|“Which men?”||Complete the lesson material through the end of chapter 6.
+||gadō űnsd ani:sgaya?; dō űnsd ani:sgaya?|||||gadō űnsdi ani:sgaya?|“Which men?”|
+
+|||||||disdà:tv:dà:sda|let you two listen to them.|
+|||||||nidisdadv̀:ga|let you two do them.||Complete the lesson material through the end of chapter 6.
 
 #Chapter 7
 
@@ -91,12 +99,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||wahya ga:hi:gowhtí|||||wahaya ga:hi:gowhtíha|You see wolves.|
 ||di:sadv́:d de:higowhtí|||||di:sadv́:di de:higowhtíha|You see traps.|
 
-|||||||áhni ale ù:hna̋|Here and there. Or. Here or there.|
+||áhni ale ù:hna̋|||||áhani ale ù:hna̋|Here and there. Or. Here or there.|
 |||||||i̋:na ale naɂv|Far and near. Or. Far or near.|
 
-||to:hwe:lv̀:g|||||to:hwe:lv̀:ga|Write them.||
-||disdo:hwe:lv̀:g|||||disdo:hwe:lv̀:ga|Let you two write them.||
-||dijo:hwe:lv̀:g|||||dijo:hwe:lv̀:ga|Let you all write them.||Complete the lesson material through the end of chapter 7.
+|||||||disdo:hwe:lv̀:ga|Let you two write them.|
+|||||||disdigo:lǐ:ya.|let you two read them.||Complete the lesson material through the end of chapter 7.
 
 #Chapter 8
 ||aya|||||ayv|“I. We.”|
@@ -109,7 +116,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||agě:hya hiɂa à:gowhtí; agě:hya hiɂi à:gowhtíha; agě:hya hiɂi à:gowhtí|||||agě:hya hiɂa à:gowhtíha|A woman sees this.|
 # |||||||na|“The. That.”|
-|||||||nihi|“You.”||Complete the lesson material through the end of chapter 8.
+|||||||nihi|“You.”|
+
+|||||||nidijadv̀:ga|let you all do them.|
+|||||||dì:jo:hwe:lv̀:ga|Let you all write them.||Complete the lesson material through the end of chapter 8.
 
 #Chapter 9
 ||Gawó:ni:sgv́ à:ktahv́|||||Gawó:ni:sgv́:ɂi à:ktahv́:ɂi|“Knowing how to speak.”
@@ -135,20 +145,21 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||hla agě:hya yi̋:g. asgai.|||||hla agě:hya yi̋:gi. asgaya.|It isn't a woman. It's a man.||
 ||hla gi:hli yi̋:g. wě:s.|||||hla gi:hli yi̋:gi. wě:sa.|It isn't a dog. It's a cat.||
 ||hlas ahwi yi̋:g?|||||hlasgo ahawi yi̋:gi|It isn't a deer, is it?||
-||hlaju wahya yi̋:g?|||||hlaju wahaya yi̋:gi|It isn't a wolf. Right?||Complete the lesson material through the end of chapter 9.
+||hlaju wahya yi̋:g?|||||hlaju wahaya yi̋:gi|It isn't a wolf. Right?|
+
+|||||||dì:jigo:lǐ:ya.|let you all read them.|
+|||||||dì:jà:tv:dà:sda|let you all listen to them.||Complete the lesson material through the end of chapter 9.
 
 #Chapter 10 ᏍᎪᎯᏁᎢ ᎠᏕᎶᏆᏍᏗ
-|||||||mé:li, donada:go:hv:ɂi|Mary, let us two see each other again later.”|
-|||||||nihi ale sú:sano, dodada:go:hv:ɂi|You and Susan, let us all see each other again later.|
+*|||||||mé:li, donada:go:hv:ɂi|Mary, let us two see each other again later.”|
+*|||||||nihi ale sú:sano, dodada:go:hv:ɂi|You and Susan, let us all see each other again later.|
 
 ||à:ni:ɂahwi|||||à:ni:ɂahawi|“The deer people.”|
 |||||||à:ni:gi:hli|“The dog people.”|
 ||à:ni:ji:sd|||||à:ni:ji:sdu|“The rabbit people.”|
 ||à:ni:wahya|||||à:ni:wahaya|“The wolf people.”|
 ||à:ni:wě:s|||||à:ni:wě:sa|“The cat people.”|
-|||||||tò:hi̋|“Peaceful. Well in health.”|
-|||||||tò:hi̋:ju?|Isn't it well?|
-||v:ɂ tò:hi̋:gwu|||||v:ɂv, tò:hi̋:gwu|“Yes, it's just well.”|
+
 ||já:n, dv:gv:go:hi|||||já:ni, dv:gv:go:hi|“John, I will see you again.”|
 ||já:n, dv:sgi:go:hi|||||já:ni, dv:sgi:go:hi|“John, You will see me again.”|
 ||lí:nid ale ma:gá:l, dv:sdv:go:hi|||||lí:nida ale ma:gá:li, dv:sdv:go:hi|“Linda and Michael, I will see you two again.”|

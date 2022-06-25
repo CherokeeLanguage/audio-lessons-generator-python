@@ -11,6 +11,14 @@ def create_prompts() -> dict[str, AudioSegment]:
     prompts: dict[str, AudioSegment] = dict()
     voice: str = AMZ_VOICE_INSTRUCTOR
 
+    tag: str = "also_hear"
+    text: str = "You will also hear the following:"
+    prompts[tag] = en_audio(voice, text)
+
+    tag: str = "also_hear_short"
+    text: str = "Also:"
+    prompts[tag] = en_audio(voice, text)
+
     tag: str = "produced"
     text: str = f"""
     This audio file was produced on

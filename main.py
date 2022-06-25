@@ -177,10 +177,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             cherokee_text = cherokee_text[0].upper() + cherokee_text[1:]
             if cherokee_text[-1] not in ",.?!":
                 cherokee_text += "."
-            # check_text = re.sub("(?i)[.,!?;]", "", cherokee_text).strip()
-            # if check_text in dupe_pronunciation_check:
-            #     raise Exception(f"DUPLICATE PRONUNCIATION: ({line_no:,}) {check_text}\n{fields}")
-            # dupe_pronunciation_check.add(check_text)
+            check_text = re.sub("(?i)[.,!?;]", "", cherokee_text).strip()
+            if check_text in dupe_pronunciation_check:
+                print(f"- WARN DUPLICATE PRONUNCIATION: ({line_no:,}) {check_text}\n{fields}")
+            dupe_pronunciation_check.add(check_text)
             gender: str = fields[IX_GENDER].strip()
             if gender:
                 gender = gender.strip().lower()[0]
@@ -529,6 +529,7 @@ def main() -> None:
         print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
         end_note: str = ""
+        prev_end_note: str = ""
 
         first_new_challenge: str = ""
         last_new_challenge: str = ""
@@ -565,6 +566,9 @@ def main() -> None:
                                                    - cfg.review_card_tries_decrement  #
                                                    * _exercise_set))
                     print(f"Hidden new card: {data.challenge} [{card_stats.tries_remaining:,}]")
+                if end_note and end_note != prev_end_note:
+                    prev_end_note = end_note
+                    print(f"- End note: {end_note}")
             if new_card:
                 if introduce_card:
                     introduced_count += 1
@@ -606,6 +610,9 @@ def main() -> None:
             data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
             main_audio = main_audio.append(data_file)
             if introduce_card:
+
+                # introduce Cherokee challenge
+
                 data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
                 main_audio = main_audio.append(AudioSegment.silent(2_000))
                 if new_count < 8 and _exercise_set == 0:
@@ -615,6 +622,22 @@ def main() -> None:
                 main_audio = main_audio.append(AudioSegment.silent(2_000))
                 main_audio = main_audio.append(data_file)
                 main_audio = main_audio.append(AudioSegment.silent(2_000))
+
+                # introduce alt pronunciations
+                if data.challenge_alts:
+                    if new_count < 6 and _exercise_set <= 2:
+                        main_audio = main_audio.append(prompts["also_hear"])
+                    else:
+                        main_audio = main_audio.append(prompts["also_hear_short"])
+                    main_audio = main_audio.append(AudioSegment.silent(1_000))
+                    for alt in data.challenge_alts:
+                        if alt == challenge:
+                            continue
+                        main_audio = main_audio.append(AudioSegment.silent(500))
+                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt))
+                        main_audio = main_audio.append(AudioSegment.silent(1_000))
+
+                # output English gloss
                 if new_count < 10 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["its_translation_is"])
                     main_audio = main_audio.append(AudioSegment.silent(1_000))
@@ -622,7 +645,7 @@ def main() -> None:
                     main_audio = main_audio.append(prompts["in_english"])
                     main_audio = main_audio.append(AudioSegment.silent(1_000))
             else:
-                gap_duration: float = data_file.duration_seconds
+                gap_duration: float = max(data_file.duration_seconds, 1.0)
                 main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
 
             # The answer
@@ -742,7 +765,7 @@ def main() -> None:
             if _ not in end_notes_by_track:
                 continue
             end_note = end_notes_by_track[_]
-            w.write(f"{_ + 1:,03d}: {end_note}\n")
+            w.write(f"{_ + 1:03d}: {end_note}\n")
 
 
 review_count: int = 0
