@@ -419,7 +419,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||ga:sgilo jigowhtí|||||ga:sgilo jigowhtíha|I see a table or a chair.||Complete the lesson material through the end of chapter 21.
 
 #Chapter 22 ᏔᎵᏍᎪ ᏔᎵᏁᎢ ᎠᏕᎶᏆᏍᏗ
-||ka, hla nǔ:na yà:gwadu:lí|||||ka, vhla nǔ:na yà:gwadu:líha|Hey! Enough! I don't want potatoes.|
+||ka! hla nǔ:na yà:gwadu:lí!|||||ka, vhla nǔ:na yà:gwadu:líha|Hey! Enough! I don't want a potato!|
 ||nű:la, sú:sano jadu:lí|||||nű:la, sú:sano jadu:líha|Hurry, Susan wants you.|
 ||a:nitáɂl iyáni ani:ge:hyű:j|||||a:nitáɂli iyáni ani:ge:hyű:ja|Two count girls.|
 ||jo ǐ:ga̋ dě:hlgv̋|||||joɂi ǐ:ga̋ dě:hlgv̋:ɂi|Three count trees.|
