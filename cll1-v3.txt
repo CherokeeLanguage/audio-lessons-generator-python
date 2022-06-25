@@ -413,6 +413,12 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||a:nitáɂl iyáni ani:ge:hyű:j|||||a:nitáɂli iyáni ani:ge:hyű:ja|Two count girls.|
 ||jo ǐ:ga̋ dě:hlgv̋|||||joɂi ǐ:ga̋ dě:hlgv̋:ɂi|Three count trees.|
 ||nǔ:na ga:sgilv̋|||||nǔ:na ga:sgilv̋:ɂi|A potato is on a chair or on a table.|
+
+# gadō u:sdi
+||gadō u:sd ulsǔ:hwid na gi:hli?; dō u:sd ulsǔ:hwid na gi:hli?|||||gadō u:sdi ulsǔ:hwida na gi:hli?|What color is the dog?|
+||gadō u:sd u:nalsǔ:hwid na ji:sd?; dō u:sd u:nalsǔ:hwid na ji:sd?|||||gadō u:sdi u:nalsǔ:hwida na ji:sdu?|What color are the rabbits?|
+||gadō u:sd julsǔ:hwid na nǔ:n?; dō u:sd julsǔ:hwid na nǔ:n?|||||gadō u:sdi julsǔ:hwida na nǔ:na?|What color are the potatoes?|
+
 ||na do:ya ulsǔ:hwid uwǒ:díge̋|||||na do:ya ulsǔ:hwida uwǒ:díge̋:ɂi|That beaver is colored brown.|
 ||na ji:sd u:nalsǔ:hwid u:ni:ne̋:g|||||na ji:sdu u:nalsǔ:hwida u:ni:ne̋:ga|Those rabbits are colored white.|
 ||na gő:sd julsǔ:hwid didaha:lige̋|||||na go:hű:sdi julsǔ:hwida didaha:lige̋:ɂi|Those things are colored purple.|
