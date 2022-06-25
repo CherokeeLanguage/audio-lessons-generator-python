@@ -721,7 +721,8 @@ def main() -> None:
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
         print(f"Creating {mp3_name}. {minutes:02d}:{seconds:02d}.")
-        combined_audio.export(output_mp3, format="mp3", parameters=["-qscale:a", "3"], tags=tags)
+        combined_audio.export(output_mp3+".tmp", format="mp3", parameters=["-qscale:a", "3"], tags=tags)
+        shutil.move(output_mp3+".tmp", output_mp3)
 
         # Bump counter
         _exercise_set += 1
