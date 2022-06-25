@@ -175,11 +175,12 @@ def create_prompts() -> dict[str, AudioSegment]:
 
     tag = "cll1-v3-about"
     text = """
-    These audio excercise sessions complement the book 'Cherokee Language Lessons 1', 3rd Edition, by Michael Conrad.
-    Each chapter indicates which audio excercise sessions
-    should be completed before beginning that chapter.
-    By the time you complete the assigned sessions, you will have
-    little to no difficulty with reading the Cherokee in the chapter text.
+    These audio exercise sessions complement the book 'Cherokee Language Lessons 1', 3rd Edition, by Michael Conrad.
+    Each set of audio exercises are meant to be completed before working through the 
+    corresponding chapters in the book. The audio will indicate when you should
+    switch to the book exercises.
+    By the time you complete the assigned sessions, you should have
+    little to no difficulty with reading the Cherokee in the chapter texts.
     """
     prompts[tag] = en_audio(voice, text)
 
