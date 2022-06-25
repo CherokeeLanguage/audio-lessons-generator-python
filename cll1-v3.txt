@@ -4,7 +4,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||Síyo|||||o:síyo|Hello.|
 
-||v:|||||v:v.|Yes.|
+||v:ɂ|||||v:ɂv.|Yes.|
 ||hla; tla|||||vhla.|No. Not.|
 |||||||howa|Okay.|
 |||||||ayo!|Ouch!|
