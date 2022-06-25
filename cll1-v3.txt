@@ -257,7 +257,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *||na a:nijo yǒ:n ù:hna̋.|||female||na a:nijoɂi yǒ:na ù:hna̋.|The three bears are there.|
 *||Si! na a:nijo yǒ:na áhni|||male||Si! na a:nijoɂi yǒ:na áhani|Wait! The three bears are here!|
 *||ù:hna̋ ga:ji:gowhtí, táɂli wě:s|||male||ù:hna̋ ga:ji:gowhtíha, a:nitáɂli wě:sa|There, I see them, two cats|
-*||wě:sas? hla! v̀:sgi táɂli gi:hli|||male||wě:sasgo? vhla! v̀:sgi a:nitáɂli gi:hli|Cats? No! Those are two dogs!|
+*||wě:sas? hla! v̀:sgina táɂli gi:hli; wě:sas? hla! sgina táɂli gi:hli; wě:sas? hla! nà:sgi táɂli gi:hli|||male||wě:sasgo? vhla! v̀:sgi a:nitáɂli gi:hli|Cats? No! Those are two dogs!|
 *|||||female||yǒ:nana|What about bears?|
 *||hla yǒ:n áhni yi̋:g|||male||vhla yǒ:na áhani yi̋:gi|No bears are here!|
 *||gadō u:sd áhni?; dō u:sd áhni?|||female||gadō u:sdi áhani?|What is here?|
@@ -430,14 +430,14 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *|||||||ha:dlv yv:wi?|Where are people?|
 *|||||||hla áhni yi̋:g|Not here!|
 *|||||||hiɂa u:yő|This is bad!|
-*|||||||hla nà:sgi yiji:gowhtí|I don't see that!|
+*||hla v̀:sgi yiji:gowhtí; hla sgina yiji:gowhtí; hla v̀:sgina yiji:gowhtí|||||hla nà:sgi yiji:gowhtí|I don't see that!|
 *|||||||hla ő:sd yi̋:g|Not good!|
 *|||||||nihiju ù:hna|You're there, right?|
 *|||||||hla yiji:gowhtíha|I don't see him!|
 *|||||||ha:dlv nihi?|Where are you?|
 *|||||||ù:hna u:yő gè:sv̌:g|It was bad there!|
 *|||||||agiyő à:gwadu:lí|I want to be bad.|
-*|||||||agiyő à:gwadu:líha. jayő jadu:lí?|I want to be bad. Are you wanting to be bad?|
+*|||||||agiyő à:gwadu:líha. jayős jadu:lí?|I want to be bad. Are you wanting to be bad?|
 *|||||||ajalag wě:s gè:sé.|There was a Cherokee cat!|
 *|||||||agili:s wě:s gè:sé|There was a English cat!|
 *|||||||ő:sd wě:s gè:sé. u:yő wě:s gè:sé.|There was a good cat! There was a bad cat!|
@@ -447,4 +447,4 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *|||||||yi̋:gi|Maybe.|
 *|||||||gadō u:sdi hiɂa?|What's this!?!?|
 *|||||||na wě:s à:nő:sd.|Those cats are good!|
-*|||||||nà:sgi ga:ji:ya:du:lí|I want them!||Complete the lesson material through the end of chapter 22.
+*||v̀:sgi ga:ji:ya:du:lí; sgina ga:ji:ya:du:lí; v̀:sgina ga:ji:ya:du:lí|||||nà:sgi ga:ji:ya:du:lí|I want them!||Complete the lesson material through the end of chapter 22.
