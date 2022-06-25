@@ -565,6 +565,7 @@ def main() -> None:
                 if introduce_card:
                     print(f"Introduced card: {data.challenge} [{card_stats.tries_remaining:,}]")
                 else:
+                    card_stats.leitner_box += 2  # hidden new cards should be already known vocabulary
                     card_stats.new_card = False
                     card.reset_tries_remaining(max(cfg.review_card_max_tries // 2,  #
                                                    cfg.review_card_max_tries  #
