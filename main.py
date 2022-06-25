@@ -131,6 +131,7 @@ def next_amz_voice(gender: str = "") -> str:
 def load_main_deck(source_file: str) -> LeitnerAudioDeck:
     chr2en_deck: LeitnerAudioDeck = LeitnerAudioDeck()
     dupe_pronunciation_check: set[str] = set()
+    dupe_end_note_check: set[str] = set()
     cards_for_english_answers: dict[str, AudioCard] = dict()
 
     line_no: int = 0
@@ -246,6 +247,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 end_note = fields[IX_END_NOTE].strip()
             else:
                 end_note: str = ""
+            if end_note:
+                if end_note in dupe_end_note_check:
+                    print(f"- WARN DUPLICATE END NOTE: ({line_no:,}) {end_note}\n{fields}")
+                dupe_end_note_check.add(end_note)
 
             if cherokee_text in cards_for_english_answers:
                 to_en_card = cards_for_english_answers[cherokee_text]
