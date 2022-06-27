@@ -88,7 +88,7 @@ def create_prompts() -> dict[str, AudioSegment]:
     """
     prompts[tag] = en_audio(voice, text)
 
-    tag = "intro_2"
+    tag = "intro_3"
     text = """
     In these sessions, you will learn by responding aloud in English.
     Each phrase will be introduced with an English translation.
@@ -97,10 +97,13 @@ def create_prompts() -> dict[str, AudioSegment]:
     """
     prompts[tag] = en_audio(voice, text)
 
-    tag = "intro_3"
+    tag = "intro_2"
     text = """
-        In these sessions, the word "you" assume refers to "a single you" unless followed by
-        "both" or "all".
+        About the pronoun, "you". In English this pronoun can refer to 1 person, 2 people, or more people.
+        Cherokee has three different forms for, "you". A different word when referring to 1 person.
+        Another word when referring to 2 people. And another when referring to 3 or more people.
+        When you hear the word, "you", assume it refers to one person unless it is followed by
+        the word, "both", or the word, "all".
         """
     prompts[tag] = en_audio(voice, text)
 
