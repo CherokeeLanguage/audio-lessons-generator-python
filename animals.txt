@@ -1,8 +1,8 @@
 ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE
-||áɂn||||ᎠᏂ|áɂni.|A strawberry. Strawberries.|
+||||||ᎠᏂ|áɂni.|A strawberry. Strawberries.|
 ||aji:lv̋:sg||||ᎠᏥᎸᏍᎩ|aji:lv̋:sgi.|A flower.|
 ||ani:ji:lv̋:sg||||ᎠᏂᏥᎸᏍᎩ|ani:ji:lv̋:sgi.|Flowers.|
-||||||ᎠᏫ|ahwi.|A deer. Deer.|
+||ahwi.||||ᎠᏫ|ahawi.|A deer. Deer.|
 ||awǒ:háɂli||||ᎠᏬᎭᎵ|awǒ:háɂli.|An eagle. Eagles.|
 ||||||ᎡᎶᏆ|e:logwa.|A snail. Snails.|
 ||||||ᎡᏟ|ehli.|A mink or ferret. Minks or ferrets.|
@@ -57,9 +57,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||do:y||||ᏙᏯ|do:ya.|A beaver. Beaver.|
 ||tvhg||||ᏛᎦ|tvhga.|A fly. Flies.|
 ||||||ᏜᎺᎭ|dla:me:ha.|A bat. Bats.|
-||dla:nú:s||||ᏜᏄᏏ|dla:nú:si.|A leech. Leeches.|
+||||||ᏜᏄᏏ|dla:nú:si.|A leech. Leeches.|
 ||hlv:daj||||ᏢᏓᏥ|hlv:daji.|A great cat. Great cats.|
-||tlv̌:dé:gw||||ᏢᏕᏆ|tlv̌:dé:gwa.|An eel. Eels.|
+||||||ᏢᏕᏆ|tlv̌:dé:gwa.|An eel. Eels.|
 ||ji:sd||||ᏥᏍᏚ|ji:sdu.|A rabbit. Rabbits.|
 ||jitǎ:g||||ᏥᏔᎦ|jitǎ:ga.|A chicken. Chickens.|
 ||||||ᏥᏲ|jiyo|An otter. Otters.|
@@ -74,8 +74,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᏩᏐᏝ|wá:so:hla.|A moth. Moths.|
 ||wǎ:dádǔ:g||||ᏩᏓᏚᎦ|wǎ:dádǔ:ga.|A dragonfly. Dragonflies.|
 ||wá:du:lí:s||||ᏩᏚᎵᏏ|wá:du:lí:si.|A honey bee. Honey bees.|
-||||||ᏩᏯ|wahya.|A wolf. Wolves.|
+||wahya.||||ᏩᏯ|wahaya.|A wolf. Wolves.|
 ||wě:s||||ᏪᏌ|wě:sa.|A cat. Cats.|
 ||wo:y||||ᏬᏱ|wo:yi.|A pigeon. Pigeons.|
-||yans||||ᏯᏂᏌ|yansa.|A buffalo. Buffalo.|
+||||||ᏯᏂᏌ|yansa.|A buffalo. Buffalo.|
 ||yǒ:n||||ᏲᎾ|yǒ:na.|A bear. Bears.|
