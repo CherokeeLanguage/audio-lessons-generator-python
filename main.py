@@ -27,8 +27,9 @@ import TTS as tts
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
+# DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
+DATASET: str = "bound-pronouns"
 
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
@@ -43,6 +44,7 @@ IX_PRONOUNCE: int = 7
 IX_ENGLISH: int = 8
 IX_INTRO_NOTE: int = 9
 IX_END_NOTE: int = 10
+IX_APP_FILE: int = 11
 
 UNDERDOT: str = "\u0323"
 
@@ -148,9 +150,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if line.startswith("#") or not line:
                 continue
             fields = line.split("|")
-            if len(fields) < IX_ENGLISH + 1 or len(fields) > IX_END_NOTE + 1:
+            if len(fields) < IX_ENGLISH + 1 or len(fields) > IX_APP_FILE + 1:
                 print(f"; {line}")
-                raise Exception(f"Wrong field count of {len(fields)}. Should be {IX_END_NOTE + 1}.")
+                raise Exception(f"Wrong field count of {len(fields)}."
+                                f" Should be > {IX_ENGLISH} and < {IX_APP_FILE + 1}.")
             skip_as_new = "*" in fields[0]
 
             verb_stem: str = unicodedata.normalize("NFD", fields[IX_VERB])
@@ -252,10 +255,12 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     print(f"- WARN DUPLICATE END NOTE: ({line_no:,}) {end_note}\n{fields}")
                 dupe_end_note_check.add(end_note)
 
-            if cherokee_text in cards_for_english_answers:
-                to_en_card = cards_for_english_answers[cherokee_text]
+            if check_text in cards_for_english_answers:
+                to_en_card = cards_for_english_answers[check_text]
                 to_en_data = to_en_card.data
+                old_answer: str = to_en_data.answer
                 to_en_data.answer += " Or, " + english_text
+                print(f"- {old_answer} => {to_en_data.answer}")
                 if intro_note:
                     to_en_card.data.intro_note = intro_note
                 if end_note:
@@ -280,7 +285,7 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 if skip_as_new:
                     to_en_data.bound_pronoun = "*"
                     to_en_data.verb_stem = "*"
-                cards_for_english_answers[cherokee_text] = to_en_card
+                cards_for_english_answers[check_text] = to_en_card
                 syllabary: str = fields[IX_SYLLABARY]
                 to_en_data.sort_key = syllabary if syllabary else cherokee_text
                 chr2en_deck.append(to_en_card)
@@ -488,6 +493,9 @@ def main() -> None:
             lead_in = lead_in.append(prompts["intro_2"])
             lead_in = lead_in.append(AudioSegment.silent(2_000))
 
+            lead_in = lead_in.append(prompts["intro_3"])
+            lead_in = lead_in.append(AudioSegment.silent(2_000))
+
             if short_speech_intro:
                 lead_in = lead_in.append(prompts["short-speech"])
                 lead_in = lead_in.append(AudioSegment.silent(2_000))
@@ -541,7 +549,8 @@ def main() -> None:
         first_review_challenge: str = ""
         last_review_challenge: str = ""
 
-        while lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration:
+        while (lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds
+               < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
