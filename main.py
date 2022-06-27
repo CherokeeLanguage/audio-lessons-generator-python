@@ -27,9 +27,9 @@ import TTS as tts
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
+DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
-DATASET: str = "bound-pronouns"
+# DATASET: str = "bound-pronouns"
 
 MP3_QUALITY: int = 4
 MP3_HZ: int = 22050

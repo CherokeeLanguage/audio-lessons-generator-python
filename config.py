@@ -15,22 +15,22 @@ class Config:
 
     debug_deck: bool = False
     debug_deck_size: int = 20
-    sessions_to_create: int = 99
+    sessions_to_create: int = 999
     create_all_sessions: bool = True
-    extra_sessions: int = 1
+    extra_sessions: int = 0
 
     new_card_max_tries: int = 7
     new_card_tries_decrement: int = 0
 
     new_cards_max_per_session: int = 28
-    new_cards_per_session: int = 7
+    new_cards_per_session: int = 14  # 7
     new_cards_increment: int = 1
 
     review_card_max_tries: int = 7
     review_card_tries_decrement: int = 0
 
     review_cards_max_per_session: int = 42
-    review_cards_per_session: int = 7
+    review_cards_per_session: int = 14  # 7
     review_cards_increment: int = 2
 
     temp_dir: str = "tmp"
