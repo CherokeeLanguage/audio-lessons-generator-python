@@ -31,6 +31,9 @@ from config import Config
 # DATASET: str = "animals"
 DATASET: str = "bound-pronouns"
 
+MP3_QUALITY: int = 4
+MP3_HZ: int = 22050
+
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
     RESORT_BY_LENGTH = True
@@ -759,7 +762,8 @@ def main() -> None:
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
         print(f"Creating {mp3_name}. {minutes:02d}:{seconds:02d}.")
-        combined_audio.export(output_mp3+".tmp", format="mp3", parameters=["-qscale:a", "3"], tags=tags)
+        combined_audio.set_frame_rate(MP3_HZ).export(output_mp3+".tmp", format="mp3",
+                              parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
         shutil.move(output_mp3+".tmp", output_mp3)
 
         # Bump counter
