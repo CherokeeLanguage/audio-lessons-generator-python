@@ -97,6 +97,13 @@ def create_prompts() -> dict[str, AudioSegment]:
     """
     prompts[tag] = en_audio(voice, text)
 
+    tag = "intro_3"
+    text = """
+        In these sessions, the word "you" assume refers to "a single you" unless followed by
+        "both" or "all".
+        """
+    prompts[tag] = en_audio(voice, text)
+
     tag = "keep_going"
     text = """
     Do not become discouraged while doing these sessions.
