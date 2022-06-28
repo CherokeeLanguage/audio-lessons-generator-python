@@ -1,0 +1,611 @@
+ᎠᎩᏏ [ạ²gi²³si] “Female.”
+
+ᎠᏂᎩᏏ [ạ²ni²gi²³si] “Females.”
+
+ᎠᏨᏯ [ạ²chv²ya] “Male.”
+
+ᎠᏂᏨᏯ [ạ²ni²chv²ya] “Males.”
+
+ᎡᎿᎢ [e³hnạ²i] “Animals.”
+
+ᎢᏧᎳ [i²³ju³la] “Both.”
+
+ᎤᏬᏝ [u¹wo²³hla] “He or she is sitting.”
+
+ᏧᏃᏝ [ju¹no²³hla] “They are sitting.”
+
+ᎦᎾᏝᎢ [gạ²na¹hlạ³ɂi] “Livestock.”
+
+ᎦᏙᎦ [gạ²do³²ga] “He or she is standing.”
+
+ᎠᏂᏙᎦ [a¹ni²do³²ga] “They are standing.”
+
+ᎧᏂᏈᏌ [kạ²nị²kwsa] “A rat. Rats.”
+
+ᎧᏃᎮᏗ [kạ²hno³heh²di] “Something told. A tale.”
+
+ᏗᎧᏃᎮᏗ [dị²kạ²hno³heh²di] “Things told. Tales.”
+
+ᎧᏃᎮᏓ [kạ²no²he²³da] “News.”
+
+ᏥᏔᎦ [jị²ta²³ga] “A chicken. Chickens.”
+
+ᎤᏭᏯᏘ [ụ²wu²³yạ²ti] “Furry.”
+
+ᏧᏄᏯᏘ [ju²nu²³yạ²ti] “They-furry.”
+
+• I…him
+
+– Set A: Ꮵ-, ᏥᏯ͓- (ji-, ji²y-)
+
+– Set B: Ꮵ-, ᏥᏯ͓- (ji-, ji²y-)
+
+• I…it.
+
+– Set A: Ꮵ̣-, Ꭶ͓- (jị-, g-)
+
+– Set B: ᎠᎩ̣-, ᎠᏆ͓- (a¹gị-, a¹gw-)
+
+• I…them (animate).
+
+– Set A: ᎦᏥ-, ᎦᏥᏯ͓- (ga²ji-, ga²ji²y-)
+
+– Set B: ᎦᏥ-, ᎦᏥᏯ͓- (ga²ji-, ga²ji²y-)
+
+• I…them (inanimate).
+
+– Set A: ᏕᏥ-, ᏕᎦ͓- (de²ji-, g-)
+
+– Set B: Ꮣ̣Ꭹ̣-, Ꮣ̣Ꮖ͓- (da¹gị-, da¹gw-)
+
+• He…me.
+
+– Set A: Ꭰ̣Ꭹ̣-, Ꭰ̣Ꮖ͓- (a¹gị-, a¹gw-)
+
+– Set B: Ꭰ̣Ꭹ̣-, Ꭰ̣Ꮖ͓- (a¹gị-, a¹gw-)
+
+• They…me.
+
+– ᎬᎩ̣-, ᎬᏆ͓- (gv²gị-, gv²gw-)
+
+• He…he or it.
+
+– Set A: Ꭰ̣-, Ꭶ̣- (ạ-, gạ-)
+
+– Set B: Ꭴ-, Ꭴ̣Ꮹ͓- (u-, ụw-)
+
+• He…them.
+
+– Set A: Ꮣ̣-, ᏕᎦ̣- (dạ-, de²gạ-)
+
+– Set B: Ꮪ-, Ꮪ̣Ꮹ͓- (du-, dụ²w-)
+
+\columnbreak{}
+
+• You…him.
+
+– Set A: Ꭿ-, ᎯᏯ͓- (hi-, hi²y-)
+
+– Set B: Ꭿ-, ᎯᏯ͓- (hi-, hi²y-)
+
+• You…it.
+
+– Set A: Ꭿ̣- (hị-)
+
+– Set B: Ꮳ̣- (jạ-)
+
+• You…them (animate).
+
+– Set A: ᎦᎯ-, ᎦᎯᏯ͓- (ga²hi-, ga²hiy-)
+
+– Set B: ᎦᎯ-, ᎦᎯᏯ͓- (ga²hi-, ga²hiy-)
+
+• You…them (inanimate).
+
+– Set A: ᏕᎯ̣- (de²hị-)
+
+– Set B: ᏕᏣ̣- (de²jạ-)
+
+• He…you.
+
+– Set A: Ꮳ̣ (jạ-)
+
+– Set B: Ꮳ̣ (jạ-)
+
+• They…you.
+
+– ᎨᏣ̣- (ge²jạ-)
+
+• They…him or it.
+
+– Set A: Ꭰ̣Ꮒ- (ạ²ni-)
+
+– Set B: ᎤᏂ- (u¹ni-)
+
+• They…them.
+
+– Set A: Ꮣ̣Ꮒ- (dạ²ni-)
+
+– Set B: ᏚᏂ- (du¹ni-)
+
+
+ᎠᏍᎪᎵ [ạ²sko⁴li] “His head.”
+
+ᏥᏍᎪᎵ [jị²sko⁴li] “My head.”
+
+ᎯᏍᎪᎵ [hị²sko⁴li] “Your one's head.”
+
+ᎠᏯᏄᎵ [a²yạ²nu⁴li] “Fast.”
+
+ᏗᏂᏯᏄᎵ [di²ni²yạ²nu⁴li] “Fast. (Them.)”
+
+ᎠᏲᏓᏝᎲᎢ [a¹yo²da²³hlạ²hv⁴ɂi] “A floor.”
+
+ᏓᏲᏓᏝᎲᎢ [da¹yo²da²³hlạ²hv⁴ɂi] “Floors.”
+
+ᎤᏍᎦᏃᎵ [u²sgạ²no⁴li] “Slow.”
+
+ᎤᏂᏍᎦᏃᎵ, ᏧᏍᎦᏃᎵ [u²ni²sgạ²no⁴li, ju²sgạ²no⁴li] “Slow. (Them.)”
+
+ᎤᏍᎧ [ụ²ska] (n) “A detached head or skull.”
+
+ᏧᏍᎧ [jụ²ska] “Detached heads or skulls.”
+
+ᎤᏍᏉᏟᎢ [u²sgwo²hli⁴ɂi] “His stomach. His abdomen.”
+
+ᎠᎩᏍᏉᏟᎢ [ạ²gị²sgwo²hli⁴ɂi] “My stomach.”
+
+ᏣᏍᏉᏟᎢ [ja²sgwo²hli⁴ɂi] “Your one's stomach.”
+
+ᎤᏯᏖᎾ [u¹hyah²te²³na] “A board.”
+
+ᏧᏯᏖᎾ [ju²hyah²te²³na] “Boards.”
+
+\columnbreak
+
+ᎦᎶᎯᏍᏗᎢ [gạ²lo²hị²sdi⁴ɂi] “A doorway. A door.”
+
+ᏗᎦᎶᎯᏍᏗᎢ [dị²gạ²lo²hị²sdi⁴ɂi] “Doorways. Doors.”
+
+ᎦᏣᏄᎵ [ga²jạ²nu⁴li] “Fast.”
+
+  ☞ This is a common variation for ᎠᏯᏄᎵ.
+
+ᏗᎪᏪᎶᏗ [dị²go²hwe²³lo¹di] “A tool for writing.”
+
+ᏯᏖᎾ [hyah²te²³na] “A board.”
+
+ᏗᏯᏖᎾ [di²hyah²te²³na] “Boards.”
+
+  ☞ This is a common variation for ᎤᏯᏖᎾ.
+
+ᏔᎵ ᎢᎦ [tạɂ³li i²³ga⁴] “Twice. Two count (inanimate).”
+
+ᏯᏖᎾ ᏗᎪᏪᎶᏗ [hyah²te²³na dị²go²hwe²³lo¹di] “A writing board. A chalkboard. A whiteboard.”
+
+ᏗᏯᏖᎾ ᏗᎪᏪᎶᏗ [di²hyah²te²³na dị²go²hwe²³lo¹di] “Writing boards.”
+
+\end{multicols}
+
+ᎭᎢᏎᏍᏗ [ha³ɂi²se³sdi] “You will be walking.”
+
+ᎭᎦᏔᎲᎾ [hạ²ktạ²hv²³na] “Turn around.”
+
+ᎭᎴᏫᏍᏓ [hạ²le²hwị²sda] “Stop.”
+
+ᎭᏒᏂᎦ [hạ²svnh²ga] “Touch it.”
+
+ᎯᏙᎨᏍᏗ [hị²do³²ge³sdi] “Stand.”
+
+ᎯᏯᏒᏂᎦ [hi²ya¹svnh²ga] “Touch him.”
+
+ᏦᏞᏍᏗ [jo²³hle³²sdi] “Sit.”
+
+ᎮᏍᏗ, ᏞᏍᏗ [he¹sdi, hle¹sdi] “Don't”
+
+Ꮭ ᏯᎢᏎᏍᏗ [hla hya³ɂi²se³sdi] “No, you will not be walking.”
+
+ᏞᏍᏗ ᏥᎭᎦᏔᎲᎾ [hle¹sdi ji²hạ²ktạ²hv²³na] “Don't turn around.”
+
+ᏞᏍᏗ ᏥᎭᎴᏫᏍᏓ [hle¹sdi ji²hạ²le²hwị²sda] “Don't stop.”
+
+ᏞᏍᏗ ᏥᎭᏒᏂᎦ [hle¹sdi ji²hạ²svnh²ga] “Don't touch it.”
+
+Ꮭ ᏱᏙᎨᏍᏗ [hla hyị²do³²ge³sdi] “No, you will not be standing.”
+
+ᏞᏍᏗ ᏥᎯᏯᏒᏂᎦ [hle¹sdi ji²hi²ya¹svnh²ga] “Don't touch him.”
+
+Ꮭ ᏱᏦᏞᏍᏗ [hla yi²jo²³hle³²sdi] “No, you will not be sitting.”
+
+• ᏍᏗ- (sdi-)
+
+– You two…it.
+
+– He…you two.
+
+• ᎢᏥ- (i²ji-)
+
+– You all…it.
+
+– He…you all.
+
+The bound pronouns “ᏍᏗ-” and “ᎢᏥ-” have special “Ꭱ-” forms:
+
+• ᎡᏍᏗ- (e²sdi-)
+
+– You two…him.
+
+– You two…being.
+
+• ᎡᏥ- (e²ji-)
+
+– You all…him.
+
+– You all…being.
+
+ᎡᏍᏓᏒᏂᎦ [e²sdạ²svnh²ga] “Touch him you two.”
+
+ᏍᏓᎢᏎᏍᏗ [sda³ɂi²se³sdi] “You two will be walking.”
+
+ᏍᏓᎦᏔᎲᎾ [sdạ²ktạ²hv²³na] “Turn around you two.”
+
+ᏍᏓᎴᏫᏍᏓ [sdạ²le²hwị²sda] “Stop you two.”
+
+ᏍᏓᏒᏂᎦ [sdạ²svnh²ga] “Touch it you two.”
+
+ᏕᏍᏗᏙᎨᏍᏗ [de²sdị²do³²ge³sdi] “You two will be standing.”
+
+ᏕᏍᏙᏞᏍᏗ [de²sdo²³hle³²sdi] “You two will be sitting.”
+
+ᏞᏍᏗ ᏥᎡᏍᏓᏒᏂᎦ [hle¹sdi ji²e²sdạ²svnh²ga] “Don't touch him you two.”
+
+Ꮭ ᏱᏍᏓᎢᏎᏍᏗ [hla yi²sda³ɂi²se³sdi] “No, you two will not be walking.”
+
+ᏞᏍᏗ ᏥᏍᏓᎦᏔᎲᎾ [hle¹sdi ji²sdạ²ktạ²hv²³na] “Don't turn around you two.”
+
+ᏞᏍᏗ ᏥᏍᏓᎴᏫᏍᏓ [hle¹sdi ji²sdạ²le²hwị²sda] “Don't stop you two.”
+
+ᏞᏍᏗ ᏥᏍᏓᏒᏂᎦ [hle¹sdi ji²sdạ²svnh²ga] “Don't touch it you two.”
+
+Ꮭ ᏱᏗᏍᏗᏙᎨᏍᏗ [hla yị²di²sdi²do³²ge³sdi] “No, you two will not be standing.”
+
+Ꮭ ᏱᏗᏍᏙᏞᏍᏗ [hla yị²di²sdo²³hle³²sdi] “No, you two will not be sitting.”
+
+ᎡᏣᏒᏂᎦ [e²jạ²svnh²ga] “Touch him you all.”
+
+ᎢᏣᎢᏎᏍᏗ [i²ja³ɂi²se³sdi] “You all will be walking.”
+
+ᎢᏣᎦᏔᎲᎾ [i²jạ²ktạ²hv²³na] “Turn around you all.”
+
+ᎢᏣᎴᏫᏍᏓ [i²jạ²le²hwị²sda] “Stop you all.”
+
+ᎢᏣᏒᏂᎦ [i²jạ²svnh²ga] “Touch it you all.”
+
+ᏕᏥᏙᎨᏍᏗ [de³ji²do³²ge³sdi] “You all will be standing.”
+
+ᏕᏦᏞᏍᏗ [de³jo²³hle³²sdi] “You all will be sitting.”
+
+ᏞᏍᏗ ᏥᎡᏣᏒᏂᎦ [hle¹sdi ji²e²jạ²svnh²ga] “Don't touch him you all.”
+
+Ꮭ ᏱᏣᎢᏎᏍᏗ [hla yi¹ja³ɂi²se³sdi] “No, you all will not be walking.”
+
+ᏞᏍᏗ ᏥᎢᏣᎦᏔᎲᎾ [hle¹sdi ji²i²jạ²ktạ²hv²³na] “Don't turn around you all.”
+
+ᏞᏍᏗ ᏥᎢᏣᎴᏫᏍᏓ [hle¹sdi ji²i²jạ²le²hwị²sda] “Don't stop you all.”
+
+ᏞᏍᏗ ᏥᎢᏣᏒᏂᎦ [hle¹sdi ji²i²jạ²svnh²ga] “Don't touch it you all.”
+
+Ꮭ ᏱᏗᏥᏙᎨᏍᏗ [hla yị²di³ji²do³²ge³sdi] “Don't stand you all.”
+
+Ꮭ ᏱᏗᏦᏞᏍᏗ [hla yị²di³jo²³hle³²sdi] “Don't sit you all.”
+
+ᎠᏓᎾᏅᎢ [a¹da²nạɂ³nv⁴ɂi] “A store.”
+
+ᏓᏓᎾᏅᎢ [da¹da²nạɂ³nv⁴ɂi]
+
+ᎤᎦᎾᏍᏓ [u²gạ²na⁴sda] “Sweet.”
+
+ᎤᏂᎦᎾᏍᏓ [u²ni²gạ²na⁴sda]
+
+ᎤᏁᎩᎸᏗ [u²ne³gihl²di] “Ugly.”
+
+ᎤᏂᏁᎩᎸᏗ, ᏧᏁᎩᎸᏗ [u²ni²ne³gihl²di, ju²ne³gihl²di]
+
+ᎤᏬᏚᎯ [ụ²wo²du⁴hi] “Pretty.”
+
+ᏧᏃᏚᎯ, ᏧᏬᏚᎯ [ju²no²du⁴hi, jụ²wo²du⁴hi]
+
+ᎦᏚ [ga⁴du] “Bread.”
+
+ᎦᏚ [gạ²du³] “On top.”
+
+ᎦᏚ ᎤᎦᎾᏍᏓ [ga³du² u²gạ²na⁴sda] “Cake.” Literally: Bread, Sweet.
+
+ᎦᏘᏲᎢ [ga²³ti³yo⁴ɂi] “A stompground. Stompgrounds.”
+
+ᎪᎯ ᎢᎦ [ko¹hi i²ga] “Today.”
+
+ᎭᏫᏯ [hạ²wi²ya] “Meat.”
+
+ᎫᎫ [gu¹gu] “A bottle. Bottles”
+
+ᏎᎷ [se²³lu] “Corn.”
+
+ᏏᎾᎴᎢ, ᏑᎾᎴᎢ, [sị²na³le⁴ɂi, sụ²na³le⁴ɂi] “Tomorrow.”
+
+ᏏᏆ [sih²gwa] “A pig. Pigs.”
+
+ᏐᎢ [sọ³ɂi] “Another. An additional one. The next one.”
+
+ᏗᏐᎢ [di²³sọ²i]
+
+ᏐᎢᏱ [sọ²ɂi²³yi] “In the next room.” Literally: “The next place.”
+
+ᏒᎯ [sv²hi] “Yesterday.”
+
+ᎠᎪᏩᏘᎭ [a¹gowh²tị³ha] “He is seeing it.”
+
+ᏥᎪᏩᏘᎭ [ji²gowh¹tị³ha] “I am…”
+
+ᎤᎪᎲᎢ [u¹go²hv²³ɂi] “He did…a while ago.”
+
+ᎠᎪᏩᏘᏍᎪᎢ [a¹gowh²ti²³sgọ³ɂi] “He often…”
+
+ᎯᎪᏩᏔ [hi²go¹wah²ta] “Let you…”
+
+ᎤᎪᏩᏛᏗ [u²gowh²tvh³di] “For him…”
+
+ᎤᏚᎵᎭ [u¹du²lị³ha] “He wants it.”
+
+ᎠᏆᏚᎵᎭ [a¹gwạ²du²lị³ha] “I am…”
+
+ᎤᏚᎸᎲᎢ [u¹du²lv²hv²³ɂi] “He did…a while ago.”
+
+ᎤᏚᎵᏍᎪᎢ [u¹du²li²³sgọ³ɂi] “He often…”
+
+ᏣᏚᎳ [jạ²du²³la] “Let you…”
+
+ᎤᏚᎸᏗ [u²duhl²di] “For him…”
+
+ᎠᎪᏩᏘᎭ [a¹gowh²tị³ha] “He sees him or it.”
+
+ᏥᎪᏩᏘᎭ [ji²gowh¹tị³ha] “I am…”
+
+ᎤᎪᎲᎢ [u¹go²hv²³ɂi] “He did…a while ago.”
+
+ᎠᎪᏩᏘᏍᎪᎢ [a¹gowh²ti²³sgọ³ɂi] “He often…”
+
+ᎯᎪᏩᏔ [hi²go¹wah²ta] “Let you…”
+
+ᎤᎪᏩᏛᏗ [u²gowh²tvh³di] “For him…”
+
+ᎠᏗᎭ [a¹dị²ha] “He is saying it.”
+
+ᎦᏗᎠ [gạ²di³ɂa] “I am…”
+
+ᎤᏛᏅᎢ [u¹dv²hnv²³ɂi] “He did…a while ago.”
+
+ᎠᏗᏍᎪᎢ [a¹di²³sgo³ɂi] “He often…”
+
+ᎭᏓ [hạ²da] “Let you…”
+
+ᎤᏘᏗ [ut²di] “For him…”
+
+\columnbreak{}%
+
+ᎤᏚᎵᎭ [u¹du²lị³ha] “He wants him or it.”
+
+ᎠᏆᏚᎵᎭ [a¹gwạ²du²lị³ha] “I am…”
+
+ᎤᏚᎸᎲᎢ [u¹du²lv²hv²³ɂi] “He did…a while ago.”
+
+ᎤᏚᎵᏍᎪᎢ [u¹du²li²³sgọ³ɂi] “He often…”
+
+ᏣᏚᎳ [jạ²du²³la] “Let you…”
+
+ᎤᏚᎸᏗ [u²duhl²di] “For him…”
+
+ᎠᎩᎠ [a¹gị³ɂa] “He is eating a solid food.” Eating a potato.
+
+ᏥᎩᎠ [jị²gị³ɂa] “I am…”
+
+ᎤᎬᎢ [u¹gv²³ɂi] “He did…a while ago.”
+
+ᎠᎩᏍᎪᎢ [a¹gi³sgo³ɂi] “He often…”
+
+ᎯᎦ [hị²ga] “Let you…”
+
+ᎤᎩᏍᏗ [u²gi¹sdi] “For him…”
+
+ᎠᏓᎾᏁᏒᎲᏍᎦ [a¹da²nạ²ne³sv²hṿ³sga] “He is shopping.” Pushing a shopping cart.
+
+ᎦᏓᎾᏁᏒᎲᏍᎦ [gạ²da²nạ²ne³sv²hṿ³sga] “I am…”
+
+ᎤᏓᎾᏁᏒᏅᎢ [u¹da²nạ²ne³sv²hnv²³ɂi] “He did…a while ago.”
+
+ᎠᏓᎾᏁᏒᎲᏍᎪᎢ [a¹da²nạ²ne³sv²hṿ³sgo³ɂi] “He often…”
+
+ᎭᏓᎾᏁᏒᎲᎦ [hạ²da²nạ²ne¹sv²hv¹ga] “Let you…”
+
+ᎤᏓᎾᏁᏒᎲᏍᏗ [u²da²nạ²ne¹sv²³hṿ³sdi] “For him…”
+
+ᎤᏅᏔ [unh¹ta] “He knows it.” A light bulb in a thought balloon on “Al”.
+
+ᎠᏆᏅᏔ [a¹gwanh²ta] “I am…”
+
+ᎤᏅᏛᎢ [unh¹tv²³ɂi] “He did…a while ago.”
+
+ᎤᏅᏙᎢ [unh¹to³ɂi] “He often…”
+
+ᏣᏅᏖᏍᏗ [janh²te³sdi] “Let you…”
+
+☞ ᎤᏅᏔ only refers to information and not people. In Cherokee you recognize people, not know them.
+
+☞ Not all Cherokee verbs have five core forms. Some have fewer forms.
+
+\columnbreak{}%
+
+ᎦᏚᎲᏍᎦ [ga³du²hṿ³sga] “He is baking it.” An oven.
+
+ᏥᏚᎲᏍᎦ [ji³du²hṿ³sga] “I am…”
+
+ᎤᏩᏚᏅᎢ [u¹wa³du²hnv²³ɂi] “He did…a while ago.”
+
+ᎦᏚᎲᏍᎪᎢ [ga³du²hṿ²sgo³ɂi] “He often…”
+
+ᎯᏚᎲᎦ [hi¹du²hv¹ga] “Let you…”
+
+ᎤᏩᏘᏗ [u²wa¹tdi] “For him…”
+
+ᎦᏬᏂᎭ [gạ²wo³nị²ha] “He is speaking.” Two talking balloons on “Al”.
+
+ᏥᏬᏂᎭ [jị²wo³nị²ha] “I am…”
+
+ᎤᏬᏂᏒᎢ [u¹wo³ni²sv²³ɂi] “He did…a while ago.”
+
+ᎦᏬᏂᏍᎪᎢ [gạ²wo³ni²sgo³ɂi] “He often…”
+
+ᎯᏬᏂᎯ [hị²wo¹ni²³hi] “Let you…”
+
+ᎤᏬᏂᎯᏍᏗ [u²wo¹ni²³hị³sdi] “For him…”
+
+☞ In some communities the combination sound of “-nihi-”, when in the middle of a word, is pronounced as “-hni-”.
+
+• I…them (inanimate). (“Ꮥ-” pronunciation.)
+
+– Set A: ᏕᏥ-, ᏕᎦ͓- (de²ji-, g-)
+
+– Set B: Ꮣ̣Ꭹ̣-, Ꮣ̣Ꮖ͓- (dạ²gị-, dạ²gw-)
+
+• I…them (inanimate). (“Ꮧ̣-” pronunciation.)
+
+– Set A: Ꮧ̣Ꮵ-, ᏗᎦ͓- (dị²ji-, dị²g-)
+
+– Set B: ᏗᎩ̣-, ᏗᏆ͓- (di²gị-, di²gw-)
+
+• He…them. (“Ꮥ-” pronunciation.)
+
+– Set A: Ꮣ̣-, ᏕᎦ̣- (dạ-, de²gạ-)
+
+– Set B: Ꮪ-, Ꮪ̣Ꮹ͓- (du-, dụ²w-)
+
+• He…them. (“Ꮧ̣-” pronunciation.)
+
+– Set A: Ꮧ-, Ꮧ̣Ꭶ̣- (di-, dị²gạ-)
+
+– Set B: Ꮷ-, ᏧᏩ͓- (ju-, ju²w-)
+
+• You two…them. (“Ꮥ-” pronunciation.)
+
+– ᏕᏍᏗ- (de²sdi-)
+
+• You two…them. (“Ꮧ̣-” pronunciation.)
+
+– ᏗᏍᏗ- (dị²sdi-)
+
+\columnbreak{}
+
+• You…them (inanimate). (“Ꮥ-” pronunciation.)
+
+– Set A: ᏕᎯ̣- (de²hị-)
+
+– Set B: ᏕᏣ̣- (de²jạ-)
+
+• You…them (inanimate). (“Ꮧ̣-” pronunciation.)
+
+– Set A: Ꮨ̣- (²tị-) ☞ Ꮧ-̣ + a following Ꭿ̣- combine and become Ꮨ̣-.
+
+– Set B: Ꮧ̣Ꮳ̣- (dị²jạ-)
+
+• They…them. (“Ꮥ-” pronunciation.)
+
+– Set A: Ꮣ̣Ꮒ- (dạ²ni-)
+
+– Set B: ᏚᏂ- (du¹ni-)
+
+• They…them. (“Ꮧ̣-” pronunciation.)
+
+– Set A: ᏗᏂ- (di²ni-)
+
+– Set B: ᏧᏂ- (ju¹ni-)
+
+• You all…them. (“Ꮥ-” pronunciation.)
+
+– ᏕᏥ- (de³ji-) ☞ Ꮥ- + a following ᎢᏥ- combine and become Ꮥ³Ꮵ-.
+
+• You all…them. (“Ꮧ̣-” pronunciation.)
+
+– ᏗᏥ- (di²ji-)
+
+ᎠᎵᏌᏇᏘ [A²li³sa²gwe²ti] “Elizabeth”
+
+ᎡᏅᏙᏂ [En³to²ni] “Anthony”
+
+ᎵᏂᏓ [Li³nị²da] “Linda”
+
+ᎹᎦᎵ [Ma²ga³li] “Michael”
+
+ᎹᎦᏰᏘ [Ma³gạ²ye²tị] “Margaret”
+
+ᎹᏫᎠ [Mạ²wi³a] “Maria”
+
+ᎺᎵ [Me³li] “Mary”
+
+ᏆᏆ [Gwa³gwa] “Robert”
+
+ᏆᏆᎠ [Gwa³gwạ²ɂa] “Barbara”
+
+ᏆᏘᏏ [Gwạ²ti³si] “Patricia”
+
+ᏈᎭᏗ [Gwi³hạ²di] “Richard”
+
+ᏑᏌᏃ [Su³san²] “Susan”
+
+ᏕᏫᏗ [De³wị²di] “David”
+
+ᏙᎹᏏ [To³mạ²si] “Thomas”
+
+ᏙᏉᏘ [Do³gwọ²ti] “Dorothy”
+
+ᏣᎵ [Cha³li] “Charles”
+
+ᏣᏂ [Ja³ni] “John”
+
+ᏤᎻ [Je³mi] “James”
+
+ᏥᏂᏫ [Ji³nị²wi] “Jennifer”
+
+ᏦᏎᏫ [Jo³sẹ²wi] “Joseph”
+
+ᏫᎵᎭᎹ [Wi³lị²ha²mạ] “William”
+
+ᎡᎵᏊ [e²li⁴gwu]
+
+ᎠᏣᏗ [ạ²jạ²di] “Fish”.
+
+ᎢᎦᏓ [i²³ga³da] “Some” - Only used when referring to more than one of something.
+
+ᏃᏊ [no²³gwu] “Now”
+
+ᎤᏍᏗ [ụ²sdi⁴] “Little” This is the same as “baby”, except the leading “Ꭴ” is short.
+
+ᏧᎾᏍᏗ [jun²sdi] “Little.” Animate.
+
+ᏧᏍᏗ [jụ²sdi⁴] “Little.” Inanimate.
+
+ᎤᏍᏗ [u²sdi⁴] “A baby.” This is the same as “little”, except the leading “Ꭴ” is long.
+
+ᏧᎾᏍᏗ [jun²sdi] “Babies.”
+
+ᎤᏪᏥ [ụ²we²³ji] “Offspring”, “Egg”
+
+ᏧᏪᏥ [jụ²we²³ji] “Offspring”, “Eggs”
+
+ᎤᎵᎮᎵᏍᏗ ᏂᏣᏕᏘᏯ [u²li²he²lị³sdi nị²jạ²de²tị²ya] “Have a Happy Birthday” (to 1 person)
+
+ᎤᏅᏗ [u²nv²³di] “Milk”
+
+ᏩᏚᎵᏏ (wa³du²li³si) “Syrup”, “Sorghum”, “Honey”, “Honey Bee”
+
+ᏴᎻ [yv²mi] “Yumee”, “Yum”
+

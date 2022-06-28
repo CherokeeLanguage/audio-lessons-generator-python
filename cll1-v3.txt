@@ -12,20 +12,22 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||tò:hi̋|“Peaceful. Well in health.”|
 |||||||tò:hi̋:ju?|It's well, right?|
 ||tò:hi̋:s?|||||tò:hi̋:sgo?|Is it well?|
-||v:ɂ, tò:hi̋:gwu|||||v:v, tò:hi̋:gwu|“Yes, it's just well.”|
-||v:ɂ, ő:sda.|||||v:v, ő:sda.|Yes, it is good.|
+||v::ɂ. tò:hi̋:gwu.|||||v::v. tò:hi̋:gwu.|Yes, it's just well.|
+||v::ɂ. ő:sda.|||||v::v. ő:sda.|Yes, it is good.|
+||vhl ő:sd yi̋gi.; vhl ő:sd yi̋g.|||||vhla ő:sda yi̋gi.|It's not good.|
+||hla tò:hi̋ yi̋gi.; hla tò:hi̋ yi̋g.|||||vhla tò:hi̋ yi̋gi.|It's not well.|
 |||||||wado|Thanks.|
-||v̀:sgig?|||||v̀:sgigi?|Really?|
+|||||||v̀:sgigi?|Really?|
 
 ||go:hű:sd; gő:sdi; gő:sd|||||go:hű:sdi|Something.||
 
 |||||||donada:go:hv:ɂi|let us two see each other again later.|
 |||||||dodada:go:hv:ɂi|let us all see each other again later.|
 
-|||||||u:yő:ɂi ada|Bad wood|
+||u:yő ada|||||u:yő:ɂi ada|Bad wood|
 |||||||ni! a̋ɂda|Look! A young animal.|
 |||||||ayv:wi|A person.|
-||yó:ne:g ayv:wi; yv́:wúne:ga ayv:wi; yv́:wúne:g ayv:wi|||||yó:ne:ga ayv:wi|An English person.|
+||yó:ne:g; yv́:wúne:ga; yv́:wúne:g|||||yó:ne:ga|An English or White person.|
 ||nvhgi:ne̋ ayv:wi|||||nvhgi:ne̋:ɂi ayv:wi|A fourth person.|
 
 ||igv:yi̋ à:de:hlohgwà:sdi|||||igv:yi̋:ɂi à:de:hlohgwà:sdi|first lesson.|

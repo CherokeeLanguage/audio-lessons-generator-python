@@ -23,10 +23,10 @@ class Config:
     new_card_tries_decrement: int = 0
 
     new_cards_max_per_session: int = 28
-    new_cards_per_session: int = 14  # 7
+    new_cards_per_session: int = 7  # 14  # 7
     new_cards_increment: int = 1
 
-    review_card_max_tries: int = 7
+    review_card_max_tries: int = 6
     review_card_tries_decrement: int = 0
 
     review_cards_max_per_session: int = 42

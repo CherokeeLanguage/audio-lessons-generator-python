@@ -24,6 +24,7 @@ from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
 import TTS as tts
+from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
@@ -31,8 +32,8 @@ DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 
-MP3_QUALITY: int = 4
-MP3_HZ: int = 22050
+MP3_QUALITY: int = 3
+MP3_HZ: int = 48_000
 
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
@@ -432,16 +433,18 @@ def main() -> None:
     create_card_audio(main_deck)
     prompts = Prompts.create_prompts()
 
-    # with open("walc1/walc1.json", "r") as f:
-    #     cfg = Config.load(f)
-    cfg = Config()
-
-    temp_dir: str = os.path.join(cfg.data_dir, "temp")
-    challenges_file: str = os.path.join(cfg.data_dir, "challenges.txt")
+    os.makedirs("configs", exist_ok=True)
+    cfg_file: str = f"configs/{DATASET}-cfg.json"
+    if os.path.exists(cfg_file):
+        with open(cfg_file, "r") as f:
+            cfg = Config.load(f)
+    else:
+        cfg = Config()
+        with open(cfg_file, "w") as w:
+            Config.save(w, cfg)
 
     _exercise_set: int = 0
     keep_going: bool = True
-    new_vocab_all_sessions: list = []
 
     prev_card_id: str = ""
     extra_sessions: int = cfg.extra_sessions
@@ -455,20 +458,15 @@ def main() -> None:
     end_notes_by_track: dict[int, str] = dict()
 
     while keep_going and (_exercise_set < cfg.sessions_to_create or cfg.create_all_sessions):
-        if _exercise_set > 0:
-            new_vocab_all_sessions.append("")
-            new_vocab_all_sessions.append("")
-            print()
-            print()
 
-        new_vocab_all_sessions.append(f"=== SESSION: {_exercise_set + 1:04}")
-        new_vocab_all_sessions.append("")
+        if _exercise_set > 0:
+            print()
+            print()
 
         print(f"=== SESSION: {_exercise_set + 1:04}")
         print()
 
         lead_in: AudioSegment = AudioSegment.silent(1_000, LESSON_HZ).set_channels(1)
-
         # Exercise set title
         lead_in = lead_in.append(prompts[DATASET])
         lead_in = lead_in.append(AudioSegment.silent(1_000))
@@ -628,11 +626,9 @@ def main() -> None:
             data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
             main_audio = main_audio.append(data_file)
             if introduce_card:
-
                 # introduce Cherokee challenge
-
-                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
                 main_audio = main_audio.append(AudioSegment.silent(2_000))
+                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
                 if new_count < 8 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
                 else:
@@ -862,6 +858,15 @@ def bump_completed() -> None:
             card_stats.show_again_delay = next_session_delay
             card_stats.leitner_box_inc()
             finished_deck.append(card)
+
+
+def srt_ts(position: float) -> str:
+    """Returns SRT formatted timestamp string where position is in seconds."""
+    ms = int(position * 1000) % 1000
+    seconds = int(position) % 60
+    minutes = (position//60) % 60
+    hours = position//(60*60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d},{ms:03d}"
 
 
 if __name__ == "__main__":
