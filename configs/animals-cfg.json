@@ -1,0 +1,23 @@
+{
+    "create_all_sessions": true,
+    "data_dir": "walc1",
+    "debug_deck": false,
+    "debug_deck_size": 20,
+    "extra_sessions": 0,
+    "final_review_session_count": 0,
+    "new_card_max_tries": 5,
+    "new_card_tries_decrement": 0,
+    "new_cards_increment": 2,
+    "new_cards_max_per_session": 28,
+    "new_cards_per_session": 7,
+    "output_dir": "output",
+    "review_card_max_tries": 5,
+    "review_card_tries_decrement": 0,
+    "review_cards_increment": 3,
+    "review_cards_max_per_session": 42,
+    "review_cards_per_session": 14,
+    "session_max_duration": 1785,
+    "sessions_to_create": 999,
+    "sort_deck_by_size": false,
+    "temp_dir": "tmp"
+}

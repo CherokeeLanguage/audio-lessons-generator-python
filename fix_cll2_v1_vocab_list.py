@@ -14,8 +14,8 @@ from chrutils import ced2mco
 
 
 def main() -> None:
-    in_file: str = "cll2-v1-vocab-list-ced.txt"
-    out_file: str = "cll2-v1-vocab-list-mco.txt"
+    in_file: str = "data/cll2-v1-vocab-list-ced.txt"
+    out_file: str = "data/cll2-v1-vocab-list-mco.txt"
     with open(in_file, "r") as r:
         with open(out_file, "w") as w:
             for line in r:

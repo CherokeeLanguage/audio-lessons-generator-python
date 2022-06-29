@@ -27,8 +27,8 @@ import TTS as tts
 from SrtEntry import SrtEntry
 from config import Config
 
-# DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
+DATASET: str = "osiyo-tohiju-then-what"
+# DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 
@@ -426,7 +426,7 @@ def main() -> None:
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir)
 
-    main_deck = load_main_deck(DATASET + ".txt")
+    main_deck = load_main_deck(os.path.join("data",  DATASET + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
 
