@@ -10,6 +10,8 @@ from dataclasses_json import dataclass_json
 class Config:
     session_max_duration: float = 30 * 60 - 15
 
+    break_on_end_note: bool = True
+
     final_review_session_count: int = 0
     data_dir: str = "walc1"
 
@@ -17,7 +19,7 @@ class Config:
     debug_deck_size: int = 20
     sessions_to_create: int = 999
     create_all_sessions: bool = True
-    extra_sessions: int = 0
+    extra_sessions: int = 2
 
     new_card_max_tries: int = 7
     new_card_tries_decrement: int = 0

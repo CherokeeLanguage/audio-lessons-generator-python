@@ -4,7 +4,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||Síyo|||||o:síyo|Hello.|
 
-||v:ɂ|||||v:ɂv.|Yes.|
+||v:.|||||v:. v.|Yes.|
 ||hla; tla|||||vhla.|No. Not.|
 |||||||howa|Okay.|
 |||||||ayo!|Ouch!|
@@ -12,8 +12,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||tò:hi̋|“Peaceful. Well in health.”|
 |||||||tò:hi̋:ju?|It's well, right?|
 ||tò:hi̋:s?|||||tò:hi̋:sgo?|Is it well?|
-||v::ɂ. tò:hi̋:gwu.|||||v::v. tò:hi̋:gwu.|Yes, it's just well.|
-||v::ɂ. ő:sda.|||||v::v. ő:sda.|Yes, it is good.|
+||v:. tò:hi̋:gwu.|||||v::v. tò:hi̋:gwu.|Yes, it's just well.|
+||v:. ő:sda.|||||v::v. ő:sda.|Yes, it is good.|
 ||vhl ő:sd yi̋gi.; vhl ő:sd yi̋g.|||||vhla ő:sda yi̋gi.|It's not good.|
 ||hla tò:hi̋ yi̋gi.; hla tò:hi̋ yi̋g.|||||vhla tò:hi̋ yi̋gi.|It's not well.|
 |||||||wado|Thanks.|

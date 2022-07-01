@@ -76,6 +76,6 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||wá:du:lí:s||||ᏩᏚᎵᏏ|wá:du:lí:si.|A honey bee. Honey bees.|
 ||wahya.||||ᏩᏯ|wahaya.|A wolf. Wolves.|
 ||wě:s||||ᏪᏌ|wě:sa.|A cat. Cats.|
-||wo:y||||ᏬᏱ|wo:yi.|A pigeon. Pigeons.|
+||wo:i||||ᏬᏱ|wo:yi.|A pigeon. Pigeons.|
 ||||||ᏯᏂᏌ|yansa.|A buffalo. Buffalo.|
 ||yǒ:n||||ᏲᎾ|yǒ:na.|A bear. Bears.|
