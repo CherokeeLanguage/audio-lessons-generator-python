@@ -24,16 +24,15 @@ from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
 import TTS as tts
-from SrtEntry import SrtEntry
 from config import Config
 
-DATASET: str = "osiyo-tohiju-then-what"
+# DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
-# DATASET: str = "animals"
+DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 
-MP3_QUALITY: int = 3
-MP3_HZ: int = 48_000
+MP3_QUALITY: int = 5
+MP3_HZ: int = 22_050
 
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
@@ -466,59 +465,59 @@ def main() -> None:
         print(f"=== SESSION: {_exercise_set + 1:04}")
         print()
 
-        lead_in: AudioSegment = AudioSegment.silent(1_000, LESSON_HZ).set_channels(1)
+        lead_in: AudioSegment = AudioSegment.silent(750, LESSON_HZ).set_channels(1)
         # Exercise set title
         lead_in = lead_in.append(prompts[DATASET])
-        lead_in = lead_in.append(AudioSegment.silent(1_000))
+        lead_in = lead_in.append(AudioSegment.silent(750))
 
         if _exercise_set == 0:
             # Description of exercise set
             if DATASET + "-about" in prompts:
                 lead_in = lead_in.append(prompts[DATASET + "-about"])
-                lead_in = lead_in.append(AudioSegment.silent(1_000))
+                lead_in = lead_in.append(AudioSegment.silent(750))
 
             if DATASET + "-notes" in prompts:
                 lead_in = lead_in.append(prompts[DATASET + "-about"])
-                lead_in = lead_in.append(AudioSegment.silent(1_000))
+                lead_in = lead_in.append(AudioSegment.silent(750))
 
             # Pre-lesson verbiage
             lead_in = lead_in.append(prompts["language_culture_1"])
-            lead_in = lead_in.append(AudioSegment.silent(2_000))
+            lead_in = lead_in.append(AudioSegment.silent(1_500))
 
             lead_in = lead_in.append(prompts["keep_going"])
-            lead_in = lead_in.append(AudioSegment.silent(2_000))
+            lead_in = lead_in.append(AudioSegment.silent(1_500))
 
             lead_in = lead_in.append(prompts["learn_sounds_first"])
-            lead_in = lead_in.append(AudioSegment.silent(3_000))
+            lead_in = lead_in.append(AudioSegment.silent(2_250))
 
             lead_in = lead_in.append(prompts["intro_2"])
-            lead_in = lead_in.append(AudioSegment.silent(2_000))
+            lead_in = lead_in.append(AudioSegment.silent(1_500))
 
             lead_in = lead_in.append(prompts["intro_3"])
-            lead_in = lead_in.append(AudioSegment.silent(2_000))
+            lead_in = lead_in.append(AudioSegment.silent(1_500))
 
             if short_speech_intro:
                 lead_in = lead_in.append(prompts["short-speech"])
-                lead_in = lead_in.append(AudioSegment.silent(2_000))
+                lead_in = lead_in.append(AudioSegment.silent(1_500))
                 short_speech_intro = False
 
             # Let us begin
             lead_in = lead_in.append(prompts["begin"])
-            lead_in = lead_in.append(AudioSegment.silent(1_000))
+            lead_in = lead_in.append(AudioSegment.silent(750))
 
         session_start: str = f"Session {_exercise_set + 1}."
         lead_in = lead_in.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, session_start))
-        lead_in = lead_in.append(AudioSegment.silent(1_000))
+        lead_in = lead_in.append(AudioSegment.silent(750))
 
-        lead_out: AudioSegment = AudioSegment.silent(3_000, LESSON_HZ).set_channels(1)
+        lead_out: AudioSegment = AudioSegment.silent(2_250, LESSON_HZ).set_channels(1)
         lead_out = lead_out.append(prompts["concludes_this_exercise"])
-        lead_out = lead_out.append(AudioSegment.silent(3_000))
+        lead_out = lead_out.append(AudioSegment.silent(2_250))
         lead_out = lead_out.append(prompts["copy_1"])
-        lead_out = lead_out.append(AudioSegment.silent(2_000))
+        lead_out = lead_out.append(AudioSegment.silent(1_500))
         lead_out = lead_out.append(prompts["copy_by_sa"])
-        lead_out = lead_out.append(AudioSegment.silent(3_000))
+        lead_out = lead_out.append(AudioSegment.silent(2_250))
         lead_out = lead_out.append(prompts["produced"])
-        lead_out = lead_out.append(AudioSegment.silent(3_000))
+        lead_out = lead_out.append(AudioSegment.silent(2_250))
 
         main_audio: AudioSegment = AudioSegment.silent(100, LESSON_HZ).set_channels(1)
 
@@ -585,6 +584,9 @@ def main() -> None:
                 if end_note and end_note != prev_end_note:
                     prev_end_note = end_note
                     print(f"- End note: {end_note}")
+                    if cfg.break_on_end_note:
+                        max_new_reached = True
+                        print(f"- No more new cards this session.")
             if new_card:
                 if introduce_card:
                     introduced_count += 1
@@ -593,7 +595,7 @@ def main() -> None:
                 new_count += 1
                 if new_count >= max_new_cards_this_session:
                     max_new_reached = True
-                main_audio = main_audio.append(AudioSegment.silent(2_000))
+                main_audio = main_audio.append(AudioSegment.silent(1_500))
                 card_stats.new_card = False
                 if new_count < 6 and _exercise_set == 0:
                     if new_count == 1:
@@ -603,7 +605,7 @@ def main() -> None:
                         main_audio = main_audio.append(prompts["new_phrase"])
                 else:
                     main_audio = main_audio.append(prompts["new_phrase_short"])
-                main_audio = main_audio.append(AudioSegment.silent(1_000))
+                main_audio = main_audio.append(AudioSegment.silent(750))
             else:
                 challenge_count += 1
                 if extra_delay > 0:
@@ -627,15 +629,15 @@ def main() -> None:
             main_audio = main_audio.append(data_file)
             if introduce_card:
                 # introduce Cherokee challenge
-                main_audio = main_audio.append(AudioSegment.silent(2_000))
+                main_audio = main_audio.append(AudioSegment.silent(1_500))
                 data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
                 if new_count < 8 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
                 else:
                     main_audio = main_audio.append(prompts["listen_again_short"])
-                main_audio = main_audio.append(AudioSegment.silent(2_000))
+                main_audio = main_audio.append(AudioSegment.silent(1_500))
                 main_audio = main_audio.append(data_file)
-                main_audio = main_audio.append(AudioSegment.silent(2_000))
+                main_audio = main_audio.append(AudioSegment.silent(1_500))
 
                 # introduce alt pronunciations
                 if data.challenge_alts:
@@ -654,23 +656,28 @@ def main() -> None:
                 # output English gloss
                 if new_count < 10 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["its_translation_is"])
-                    main_audio = main_audio.append(AudioSegment.silent(1_000))
+                    main_audio = main_audio.append(AudioSegment.silent(750))
                 else:
                     main_audio = main_audio.append(prompts["in_english"])
-                    main_audio = main_audio.append(AudioSegment.silent(1_000))
+                    main_audio = main_audio.append(AudioSegment.silent(750))
             else:
                 gap_duration: float = max(data_file.duration_seconds, 1.0)
                 main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
 
             # The answer
             answer_audio: AudioSegment = tts.en_audio(next_amz_voice(data.sex), data.answer)
+            # Silence gap for user to respond during. Only if the card was not introduced.
+            if not introduce_card:
+                _ = AudioSegment.silent(int((2+1.1*answer_audio.duration_seconds)*1_000))
+                main_audio = main_audio.append(_)
+            # Provide answer.
             main_audio = main_audio.append(answer_audio)
             if _exercise_set == 0:
-                main_audio = main_audio.append(AudioSegment.silent(3_000))
+                main_audio = main_audio.append(AudioSegment.silent(2_250))
             elif _exercise_set < 5:
-                main_audio = main_audio.append(AudioSegment.silent(2_000))
+                main_audio = main_audio.append(AudioSegment.silent(1_500))
             else:
-                main_audio = main_audio.append(AudioSegment.silent(1_000))
+                main_audio = main_audio.append(AudioSegment.silent(750))
 
             delta_tick: float = main_audio.duration_seconds - start_length
             active_deck.update_time(delta_tick)
@@ -748,7 +755,7 @@ def main() -> None:
         combined_audio: AudioSegment = lead_in.append(main_audio)
         # Add any special end of session notes.
         if end_note:
-            combined_audio = combined_audio.append(AudioSegment.silent(3_000))
+            combined_audio = combined_audio.append(AudioSegment.silent(2_250))
             combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
             print(f"* {end_note}")
         end_notes_by_track[_exercise_set] = end_note

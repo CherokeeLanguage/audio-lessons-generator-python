@@ -1,9 +1,10 @@
 {
+    "break_on_end_note": false,
     "create_all_sessions": true,
     "data_dir": "walc1",
     "debug_deck": false,
     "debug_deck_size": 20,
-    "extra_sessions": 0,
+    "extra_sessions": 2,
     "final_review_session_count": 0,
     "new_card_max_tries": 5,
     "new_card_tries_decrement": 0,
