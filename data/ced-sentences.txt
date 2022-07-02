@@ -1,0 +1,26 @@
+ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE
+||Hiɂi digwě:ji.|||||Hiɂa digwě:ji.|These are my children.||
+|||||||Dǒ:yi da:galó:hi.|He came from outside.||
+||Gane̋:lis sda:li̋:ɂi?|||||Gane̋:lisgo sda:li̋:ɂi?|Is your friend married?||
+||Gohlgas jalagi?|||||Gohlgasgo jalagi?|Does he understand Cherokee?||
+|||||||I̋:na gé:ga.|I am going far away.||
+||Go:hlv:hnv̋ e:ksdě:la.|||||Go:hlv:hnv̋:ɂi e:ksdě:la.|Pass me some butter.||
+||Ù:hna̋:s te:si?|||||Ù:hna̋:sgo te:si?|Are you going there?||
+|||||||Kilő dv̀:tli.|Someone is running in this direction.||
+|||||||Ale nù:lô:sv̌:ɂi.|He almost fell.||
+|||||||E:hè:na hle̋:ga.|Come here a while.||
+||Jě:dô:lv̌:ɂs wá:sv:dáɂnő:ɂi?|||||Jě:dô:lv̌:ɂsgo wá:sv:dáɂnő:ɂi?|Have you been to Washington?||
+|||||||O:hni ù:lúhjv̌:ɂi.|He came afterwards.||
+|||||||Tí:yohi ji:sdu.|Let the rabbit go.||
+|||||||Udli hwilǒ:hi.|Go away.||
+|||||||Asú:sdi gà:sú:ɂa.|I am sopping gravy.||
+|||||||A:yanű:li á:ɂi:sv̌:ɂi.|He was walking fast.||
+||Síyo. Tò:hi̋:ju?|||||O:síyo. Tò:hi̋:ju?|Hello. Are you well?||
+|||||||Ama à:ktade:gí:ɂa.|I am thirsty for water.||
+|||||||E:hlawe̋:ɂi  à:níɂnv̌:ɂi.|They sat quietly.||
+||hè:sdi yijaně:gû:jé:sdi.|||||hlè:sdi yijaně:gû:jé:sdi.|Don't be mean.||
+||Jě:dô:lv̌:ɂis gù:gu?|||||Jě:dô:lv̌:ɂisgo gù:gu?|Have you been to Bartlesville?||
+|||||||Ganǔ:lv á:gà:lsdi.|He is mowing the grass.||
+|||||||Waló:si nà:niweɂa.|The frogs are croaking.||
+||Wě:sas hi:gòwhtí?|||||Wě:sasgo hi:gòwhtí?|Did you see a cat?||
+|||||||Amǎ:yi à:gwadúha.|I am standing in the water.||

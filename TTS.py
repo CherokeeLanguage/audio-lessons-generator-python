@@ -19,8 +19,7 @@ from main import CACHE_EN
 
 
 def tts_chr(voice: str | None, text_chr: str):
-    mp3_name_chr: str = get_filename(voice, text_chr)
-    mp3_chr: str = os.path.join(CACHE_CHR, mp3_name_chr)
+    mp3_chr: str = get_mp3_chr(voice, text_chr)
     if os.path.exists(mp3_chr):
         return
     cmd: list[str] = list()
@@ -44,7 +43,7 @@ def tts_chr(voice: str | None, text_chr: str):
 
 
 def get_mp3_chr(voice: str | None, text_chr: str) -> str:
-    text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
+    # text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
     mp3_name_chr: str = get_filename(voice, text_chr)
     mp3_chr: str = os.path.join(CACHE_CHR, mp3_name_chr)
     return mp3_chr
@@ -86,6 +85,7 @@ def en_audio(voice: str | None, text_en: str) -> AudioSegment:
 
 
 def get_filename(voice: str, text_chr: str):
+    text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
     if not voice:
         voice = "-"
     sha1: str

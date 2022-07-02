@@ -8,7 +8,7 @@ from dataclasses_json import dataclass_json
 @dataclass_json
 @dataclass
 class Config:
-    session_max_duration: float = 30 * 60 - 15
+    session_max_duration: float = 60 * 60 - 15  # Max ~ 1 hour per session.
 
     break_on_end_note: bool = True
 

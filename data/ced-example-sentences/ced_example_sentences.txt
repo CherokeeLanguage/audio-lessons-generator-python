@@ -1,29 +1,29 @@
 valid|entry|cnt_words|pronounce|syllabary|english|mco
-*|ᎯᎠ|2|Hia digweji.|ᎯᎠ ᏗᏇᏥ.|These are my children.|Hiɂa digwě:ji.
+*|ᎯᎠ|2|Hia digweji.|ᎯᎠ ᏗᏇᏥ.|These are my children.|Hiɂa digwě:ji.;Hiɂi digwě:ji.
 *|ᏙᏱ|2|Doyi dagalohi.|ᏙᏱ ᏓᎦᎶᎯ.|He came from outside.|Dǒ:yi da:galó:hi.
-*|ᎦᏁᎵ|2|Ganelis sdalii?|ᎦᏁᎵᏍ ᏍᏓᎵᎢ?|Is your friend married?|Gane̋:lisgo sda:li̋:ɂi?
-*|ᎪᎵᎦ|2|Gohlgas Jalagi?|ᎪᎵᎦᏍ ᏣᎳᎩ?|Does he understand Cherokee?|Gohlgasgo jalagi?
+*|ᎦᏁᎵ|2|Ganelis sdalii?|ᎦᏁᎵᏍ ᏍᏓᎵᎢ?|Is your friend married?|Gane̋:lisgo sda:li̋:ɂi?;Gane̋:lis sda:li̋:ɂi?
+*|ᎪᎵᎦ|2|Gohlgas Jalagi?|ᎪᎵᎦᏍ ᏣᎳᎩ?|Does he understand Cherokee?|Gohlgasgo jalagi?;Gohlgas jalagi?
 *|ᎡᎦ|2|Ina gega.|ᎢᎾ ᎨᎦ.|I am going far away.|I̋:na gé:ga.
-*|ᎪᏢᏅᎢ|2|Gohlvhnv eksdela.|ᎪᏢᏅ ᎡᏍᎩᏍᏕᎳ|Pass me some butter.|Go:hlv:hnv̋:ɂi e:ksdě:la.
-*|ᎤᎿ|2|Uhnas tesi?|ᎤᎿᏍ ᏖᏏ?|Are you going there?|Ù:hna̋:sgo te:si?
+*|ᎪᏢᏅᎢ|2|Gohlvhnv eksdela.|ᎪᏢᏅ ᎡᏍᎩᏍᏕᎳ|Pass me some butter.|Go:hlv:hnv̋:ɂi e:ksdě:la.;Go:hlv:hnv̋ e:ksdě:la.
+*|ᎤᎿ|2|Uhnas tesi?|ᎤᎿᏍ ᏖᏏ?|Are you going there?|Ù:hna̋:sgo te:si?;Ù:hna̋:s te:si?
 *|ᎠᏟ|2|Kilo dvtli.|ᎩᎶ ᏛᏟ.|Someone is running in this direction.|Kilő dv̀:tli.
 *|ᎦᎶᏍᎦ|2|Ale nulosvi.|ᎠᎴ ᏄᎶᏒᎢ.|He almost fell.|Ale nù:lô:sv̌:ɂi.
 *|ᏞᎦ|2|Ehena hlega.|ᎡᎮᎾ ᏞᎦ.|Come here a while.|E:hè:na hle̋:ga.
-*|ᏩᏒᏓᏃᎢ|2|Jedolvis Wasvdanoi?|ᏤᏙᎸᎢᏍ ᏩᏒᏓᏃᎢ?|Have you been to Washington?|Jě:dô:lv̌:ɂsgo wá:sv:dáɂnő:ɂi?
+*|ᏩᏒᏓᏃᎢ|2|Jedolvis Wasvdanoi?|ᏤᏙᎸᎢᏍ ᏩᏒᏓᏃᎢ?|Have you been to Washington?|Jě:dô:lv̌:ɂsgo wá:sv:dáɂnő:ɂi?;Jě:dô:lv̌:ɂs wá:sv:dáɂnő:ɂi?
 *|ᎣᏂ|2|Ohni uluhjvi.|ᎣᏂ ᎤᎷᏨᎢ.|He came afterwards.|O:hni ù:lúhjv̌:ɂi.
 *|ᏓᏲᏍᎦ|2|Tiyohi jisdu.|ᏘᏲᎯ ᏥᏍᏚ.|Let the rabbit go.|Tí:yohi ji:sdu.
 *|ᎤᏟ|2|Udli hwilohi.|ᎤᏟ ᏫᎶᎯ.|Go away.|Udli hwilǒ:hi.
 *|ᎠᏑᎠ|2|Asusdi gasua.|ᎠᏑᏍᏗ ᎦᏑᎠ.|I am sopping gravy.|Asú:sdi gà:sú:ɂa.
 *|ᎠᏯᏄᎵ|2|Ayanuli aisvi.|ᎠᏯᏄᎵ ᎠᎢᏒᎢ.|He was walking fast.|A:yanű:li á:ɂi:sv̌:ɂi.
-|ᎣᏏᏲ|2|Osiyo. Tohiju?|ᎣᏏᏲ. ᏙᎯᏧ?|Hello. Are you well?|
-|ᎤᏔᏕᎩᎠ|2|Ama aktadegia.|ᎠᎹ ᎠᎩᏔᏕᎩᎠ.|I am thirsty for water.|
-|ᎠᏂᎾ|2|Ehlawe aninvi.|ᎡᏝᏪ ᎠᏂᏅᎢ.|They sat quietly.|
-|ᏞᏍᏗ|2|Hlesdi yijanegujesdi.|ᏞᏍᏗ ᏱᏣᏁᎫᏤᏍᏗ.|Don't be mean.|
-|ᎫᎫᎢ|2|Jedolvis Gugu?|ᏤᏙᎸᎢᏍ ᎫᎫ?|Have you been to Bartlesville?|
-|ᎦᏄᎸ|2|Ganulv agalsga.|ᎦᏄᎸ ᎠᎦᎵᏍᎦ.|He is mowing the grass.|
-|ᏩᎶᏏ|2|Walosi naniwea.|ᏩᎶᏏ ᎾᏂᏪᎠ.|The frogs are croaking.|
-|ᏪᏌ|2|Wesas higowhti?|ᏪᏌᏍ ᎯᎪᏩᏘ?|Did you see a cat?|
-|ᎤᏚᎭ|2|Amayi agwaduha.|ᎠᎹᏱ ᎠᏆᏚᎭ.|I am standing in the water.|
+*|ᎣᏏᏲ|2|Osiyo. Tohiju?|ᎣᏏᏲ. ᏙᎯᏧ?|Hello. Are you well?|O:síyo. Tò:hi̋:ju?; Síyo. Tò:hi̋:ju?
+*|ᎤᏔᏕᎩᎠ|2|Ama aktadegia.|ᎠᎹ ᎠᎩᏔᏕᎩᎠ.|I am thirsty for water.|Ama à:ktade:gí:ɂa.
+*|ᎠᏂᎾ|2|Ehlawe aninvi.|ᎡᏝᏪ ᎠᏂᏅᎢ.|They sat quietly.|E:hlawe̋:ɂi à:níɂnv̌:ɂi.
+*|ᏞᏍᏗ|2|Hlesdi yijanegujesdi.|ᏞᏍᏗ ᏱᏣᏁᎫᏤᏍᏗ.|Don't be mean.|hlè:sdi yijaně:gû:jé:sdi.;hè:sdi yijaně:gû:jé:sdi.
+*|ᎫᎫᎢ|2|Jedolvis Gugu?|ᏤᏙᎸᎢᏍ ᎫᎫ?|Have you been to Bartlesville?|Jě:dô:lv̌:ɂisgo gù:gu?; Jě:dô:lv̌:ɂis gù:gu?
+*|ᎦᏄᎸ|2|Ganulv agalsga.|ᎦᏄᎸ ᎠᎦᎵᏍᎦ.|He is mowing the grass.|Ganǔ:lv á:gà:lsdi.
+*|ᏩᎶᏏ|2|Walosi naniwea.|ᏩᎶᏏ ᎾᏂᏪᎠ.|The frogs are croaking.|Waló:si nà:niweɂa.
+*|ᏪᏌ|2|Wesas higowhti?|ᏪᏌᏍ ᎯᎪᏩᏘ?|Did you see a cat?|Wě:sasgo hi:gòwhtí?; Wě:sas hi:gòwhtí?
+*|ᎤᏚᎭ|2|Amayi agwaduha.|ᎠᎹᏱ ᎠᏆᏚᎭ.|I am standing in the water.|Amǎ:yi à:gwadúha.
 |ᎤᎯᏌᏔ|2|Gadohi uhisata.|ᎦᏙᎯ ᎤᎯᏌᏔ.|There's dew on the ground|
 |ᎠᎪᏩᏘᎭ|2|Hlas hyigowhti?|ᏝᏍ ᏱᎪᏩᏘ?|Don't you see it?|
 |ᎪᎳ|2|Jalvkwdis gola?|ᏣᎸᏉᏗᏍ ᎪᎳ?|Do you like winter?|

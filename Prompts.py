@@ -167,6 +167,10 @@ def create_prompts() -> dict[str, AudioSegment]:
     text = "Cherokee Language Lessons 1. 3rd Edition."
     prompts[tag] = en_audio(voice, text)
 
+    tag = "ced-sentences"
+    text = "Example sentences. Cherokee English Dictionary, 1st edition."
+    prompts[tag] = en_audio(voice, text)
+
     tag = "bound-pronouns"
     text = "Bound Pronouns Training."
     prompts[tag] = en_audio(voice, text)
@@ -200,6 +204,13 @@ def create_prompts() -> dict[str, AudioSegment]:
     By the time you complete the assigned sessions, you should have
     little to no difficulty with reading the Cherokee in the chapter texts.
     """
+    prompts[tag] = en_audio(voice, text)
+
+    tag = "ced-sentences-about"
+    text = """
+        These audio exercise sessions complement the 'Cherokee English Dictionary', 1st Edition.
+        Vocabulary is based on the example sentences from each dictionary entry.
+        """
     prompts[tag] = en_audio(voice, text)
 
     tag = "bound-pronouns-about"

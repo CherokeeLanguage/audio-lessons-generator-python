@@ -28,8 +28,9 @@ from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
-DATASET: str = "animals"
+# DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
+DATASET: str = "ced-sentences"
 
 MP3_QUALITY: int = 5
 MP3_HZ: int = 22_050
@@ -710,25 +711,6 @@ def main() -> None:
         print("---")
         print(f"Introduced cards: {introduced_count:,}. Review cards: {review_count:,}. Hidden new cards: {hidden_count:,}.")
 
-        # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
-        tags: dict = dict()
-
-        if DATASET == "cll1-v3":
-            tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 | {_exercise_set + 1}"
-        elif DATASET == "animals":
-            tags["album"] = "Animals"
-            tags["title"] = f"Animals | {_exercise_set + 1}"
-        elif DATASET == "bound-pronouns":
-            tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP | {_exercise_set + 1}"
-        elif DATASET == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo | {_exercise_set + 1}"
-        elif DATASET == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo | {_exercise_set + 1}"
-
         challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
         challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
         challenge_start = unicodedata.normalize("NFC", challenge_start)
@@ -737,7 +719,30 @@ def main() -> None:
         challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
         challenge_stop = unicodedata.normalize("NFC", challenge_stop)
 
-        tags["title"] = f"[{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
+        tags: dict = dict()
+
+        if DATASET == "cll1-v3":
+            tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
+            tags["title"] = f"CLL 1 [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "animals":
+            tags["album"] = "Animals"
+            tags["title"] = f"Animals [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "bound-pronouns":
+            tags["album"] = "Bound Pronouns"
+            tags["title"] = f"BP [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "osiyo-tohiju-then-what":
+            tags["album"] = "Osiyo, Tohiju? ... Then what?"
+            tags["title"] = f"Osiyo [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "osiyo-tohiju-then-what":
+            tags["album"] = "Osiyo, Tohiju? ... Then what?"
+            tags["title"] = f"Osiyo [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "ced-sentences":
+            tags["album"] = "Examples. Cherokee English Dictionary, 1st Edition."
+            tags["title"] = f"C.E.D. Examples [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+        else:
+            tags["album"] = DATASET
+            tags["title"] = f"{DATASET} | [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
