@@ -24,31 +24,31 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᏩᎶᏏ|2|Walosi naniwea.|ᏩᎶᏏ ᎾᏂᏪᎠ.|The frogs are croaking.|Waló:si nà:niweɂa.
 *|ᏪᏌ|2|Wesas higowhti?|ᏪᏌᏍ ᎯᎪᏩᏘ?|Did you see a cat?|Wě:sasgo hi:gòwhtí?; Wě:sas hi:gòwhtí?
 *|ᎤᏚᎭ|2|Amayi agwaduha.|ᎠᎹᏱ ᎠᏆᏚᎭ.|I am standing in the water.|Amǎ:yi à:gwadúha.
-|ᎤᎯᏌᏔ|2|Gadohi uhisata.|ᎦᏙᎯ ᎤᎯᏌᏔ.|There's dew on the ground|
-|ᎠᎪᏩᏘᎭ|2|Hlas hyigowhti?|ᏝᏍ ᏱᎪᏩᏘ?|Don't you see it?|
-|ᎪᎳ|2|Jalvkwdis gola?|ᏣᎸᏉᏗᏍ ᎪᎳ?|Do you like winter?|
-|Ꮭ|2|Jayosihas? Hla.|ᏣᏲᏏᎭᏍ? Ꮭ.|Are you hungry? No.|
-|ᎠᎵᏟᎭ|2|Kahwi alidliha.|ᎧᏫ ᎠᎵᏟᎭ.|The coffee is boiling.|
-|ᎠᏐᏅᏍᏗᎭ|2|Sdaya hasonsda.|ᏍᏓᏯ ᎭᏐᏅᏍᏓ.|Press down on it hard.|
-|ᎠᏛᏍᎦ|2|Udohiyu atvsga.|ᎤᏙᎯᏳ ᎠᏛᏍᎦ.|He is really growing.|
-|ᎠᎪᎾ|2|Agonas jalosvhi?|ᎠᎪᎾᏍ ᏣᎶᏒᎯ?|Have you gone through famine?|
-|ᏥᏳᎪᏗ|2|Jiyukdi hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go straight ahead.|
-|ᎧᏃᎯᏯᎭ|2|Aseis hinohiyei?|ᎠᏎᎢᏍ ᎯᏃᎯᏰᎢ?|Did you omit him on purpose?|
-|ᎤᏰᏘᏍᎦ|2|Gado jijayetsga?|ᎦᏙ ᏥᏣᏰᏘᏍᎦ?|Why are you laughing?|
-|ᎤᎵᏰᏗᎭ|2|Gado juliyediha?|ᎦᏙ ᏧᎵᏰᏗᎭ?|Why is he moaning?|
-|ᎤᏂᎭ|2|Gayulas jahniha?|ᎦᏳᎳᏍ ᏣᏂᎭ?|Are you already in bed?|
-|ᎤᏗᏍᎦᏝ|2|Hadlv udisgahla?|ᎭᏢ ᎤᏗᏍᎦᏝ?|Where is he hiding?|
-|ᎦᎸᎶᎢ|2|Galvlo sakonigei.|ᎦᎸᎶ ᏌᎪᏂᎨᎢ.|The Sky is blue.|
-|ᎩᏄᏘᏗ|2|Ginutdi ksdolsda.|ᎩᏄᏘᏗ ᏍᎩᏙᎵᏍᏓ.|Lend me a quarter.|
-|ᎣᏏᏊ|2|Osigwus jadanhta?|ᎣᏏᏊᏍ ᏣᏓᏅᏔ?|Do you feel all right?|
-|ᎤᏴᏜ|2|Uhyvdlas hihnegi?|ᎤᏴᏜᏍ ᎯᏁᎩ?|Do you vote Republican?|
-|ᎤᏦᏍᏗ|2|Ujosdi duwohwela.|ᎤᏦᏍᏗ ᏚᏬᏪᎳ.|His handwriting is confusing.|
-|ᎤᏪᎳ|2|Uwela gvhnisdiha.|ᎤᏪᎳ ᎬᏂᏍᏗᎭ.|She's cooking liver.|
-|ᎥᏓᎵ|2|Vdali inasuhnuga.|ᎥᏓᎵ ᎢᎾᏑᏄᎦ.|Let's go fishing at the pond.|
-|ᎠᏕᏲᎭ|2|Adanelv gadeyoha.|ᎠᏓᏁᎸ ᎦᏕᏲᎭ.|I am circling a building.|
-|ᎠᏍᎪᏍᎦ|2|Amahldi gasgosga.|ᎠᎹᏢᏗ ᎦᏍᎪᏍᎦ.|I am digging a water well.|
-|ᎠᏤᎸᏍᎦ|2|Ayvwiya ajelvsga.|ᎠᏴᏫᏯ ᎠᏤᎸᏍᎦ.|He is acting like an Indian.|
-|ᎠᏑᎲᏍᎦ|2|Hadlvyv asuhvsga?|ᎭᏢᏴ ᎠᏑᎲᏍᎦ?|Where is he fishing?|
+*|ᎤᎯᏌᏔ|2|Gadohi uhisata.|ᎦᏙᎯ ᎤᎯᏌᏔ.|There's dew on the ground|Ga:dő:hi ù:hí:sata.
+*|ᎠᎪᏩᏘᎭ|2|Hlas hyigowhti?|ᏝᏍ ᏱᎪᏩᏘ?|Don't you see it?|Vtlasgo hyigowhtíha?; Hlas hyigowhtí?
+*|ᎪᎳ|2|Jalvkwdis gola?|ᏣᎸᏉᏗᏍ ᎪᎳ?|Do you like winter?|Jalv̌:kwdisgo gő:la?; Jalv̌:kwdis gő:la?
+*|Ꮭ|2|Jayosihas? Hla.|ᏣᏲᏏᎭᏍ? Ꮭ.|Are you hungry? No.|Jayó:sihasgo? Tla.; Jayó:sihas? Hla.
+*|ᎠᎵᏟᎭ|2|Kahwi alidliha.|ᎧᏫ ᎠᎵᏟᎭ.|The coffee is boiling.|Kǎ:hwi à:lidlíha.
+*|ᎠᏐᏅᏍᏗᎭ|2|Sdaya hasonsda.|ᏍᏓᏯ ᎭᏐᏅᏍᏓ.|Press down on it hard.|Sda̋:ya ha:sò:nsda.; Sda̋:yi ha:sò:nsda.; Sda̋:i ha:sò:nsda.
+*|ᎠᏛᏍᎦ|2|Udohiyu atvsga.|ᎤᏙᎯᏳ ᎠᏛᏍᎦ.|He is really growing.|U:do:hiyű à:tvsga.; Do:hiyu à:tvsga.; Do:yű à:tvsga.
+*|ᎠᎪᎾ|2|Agonas jalosvhi?|ᎠᎪᎾᏍ ᏣᎶᏒᎯ?|Have you gone through famine?|Ago:nasgo jalo:sv̌:hi?; Ago:nas jalo:sv̌:hi?
+*|ᏥᏳᎪᏗ|2|Jiyukdi hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go straight ahead.|Ji:yű:kdi hwilǒ:hi.
+*|ᎧᏃᎯᏯᎭ|2|Aseis hinohiyei?|ᎠᏎᎢᏍ ᎯᏃᎯᏰᎢ?|Did you omit him on purpose?|A:sé:ɂisgo hihnǒ:hí:yé:ɂi?; A:sé:ɂis hihnǒ:hí:yé:ɂi?
+*|ᎤᏰᏘᏍᎦ|2|Gado jijayetsga?|ᎦᏙ ᏥᏣᏰᏘᏍᎦ?|Why are you laughing?|Gadò jijaye:tsga?; Dò jijaye:tsga?
+*|ᎤᎵᏰᏗᎭ|2|Gado juliyediha?|ᎦᏙ ᏧᎵᏰᏗᎭ?|Why is he moaning?|Gadò ù:lǐ:yê:di:ha?; Dò ù:lǐ:yê:di:ha?; Gadò ù:lǐ:yê:di?; Dò ù:lǐ:yê:di?
+*|ᎤᏂᎭ|2|Gayulas jahniha?|ᎦᏳᎳᏍ ᏣᏂᎭ?|Are you already in bed?|Gá:yu:la jǎ:hníha?
+*|ᎤᏗᏍᎦᏝ|2|Hadlv udisgahla?|ᎭᏢ ᎤᏗᏍᎦᏝ?|Where is he hiding?|Ha:dlv ù:di:sgáhla?
+*|ᎦᎸᎶᎢ|2|Galvlo sakonigei.|ᎦᎸᎶ ᏌᎪᏂᎨᎢ.|The Sky is blue.|Galv:lő:ɂi sakǒ:níge̋:ɂi.; Galv:lő sakǒ:níge̋:ɂi.
+*|ᎩᏄᏘᏗ|2|Ginutdi ksdolsda.|ᎩᏄᏘᏗ ᏍᎩᏙᎵᏍᏓ.|Lend me a quarter.|Gi:nű:tdi ksdolsda.
+*|ᎣᏏᏊ|2|Osigwus jadanhta?|ᎣᏏᏊᏍ ᏣᏓᏅᏔ?|Do you feel all right?|O:sǐ:gwusgo jadanhta?; O:sǐ:gwus jadanhta?
+*|ᎤᏴᏜ|2|Uhyvdlas hihnegi?|ᎤᏴᏜᏍ ᎯᏁᎩ?|Do you vote Republican?|U:hyv̋:dla hihné:gi?
+*|ᎤᏦᏍᏗ|2|Ujosdi duwohwela.|ᎤᏦᏍᏗ ᏚᏬᏪᎳ.|His handwriting is confusing.|U:jő:sdi dù:wo:hwě:la̋.
+*|ᎤᏪᎳ|2|Uwela gvhnisdiha.|ᎤᏪᎳ ᎬᏂᏍᏗᎭ.|She's cooking liver.|Uwe:la gv:hnisdíha.; Uwe:la gv:hnisdí.
+*|ᎥᏓᎵ|2|Vdali inasuhnuga.|ᎥᏓᎵ ᎢᎾᏑᏄᎦ.|Let's go fishing at the pond.|V:dali ì:nasǔ:hnú:ga.
+*|ᎠᏕᏲᎭ|2|Adanelv gadeyoha.|ᎠᏓᏁᎸ ᎦᏕᏲᎭ.|I am circling a building.|À:da:ně:lv̋:ɂi ga:de:yoha.; À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.
+*|ᎠᏍᎪᏍᎦ|2|Amahldi gasgosga.|ᎠᎹᏢᏗ ᎦᏍᎪᏍᎦ.|I am digging a water well.|Amáhldi̋:ɂi gà:sgǒ:sga.; Amáhldi̋ gà:sgǒ:sga.
+*|ᎠᏤᎸᏍᎦ|2|Ayvwiya ajelvsga.|ᎠᏴᏫᏯ ᎠᏤᎸᏍᎦ.|He is acting like an Indian.|Ayv:wi:ya̋:ɂi à:je:lv:sga.; Ayv:wi:ya̋ à:je:lv:sga.
+*|ᎠᏑᎲᏍᎦ|2|Hadlvyv asuhvsga?|ᎭᏢᏴ ᎠᏑᎲᏍᎦ?|Where is he fishing?|Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?; Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?
 |ᎦᏃᎯᎵ|2|Jiyu ganohilvsda.|ᏥᏳ ᎦᏃᎯᎸᏍᏓ.|An airplane just flew by.|
 |ᎠᏯᎨᏗᏍᎦ|2|Nuna tihyahketsa.|ᏄᎾ ᏘᏯᎨᏗᏌ.|Peel some potatoes.|
 |ᎠᏓᎨᏳᏗ|2|Adageyhdi ulsgeda.|ᎠᏓᎨᏴᏗ ᎤᎵᏍᎨᏓ.|Love is important.|

@@ -17,10 +17,35 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||A:yanű:li á:ɂi:sv̌:ɂi.|He was walking fast.||
 ||Síyo. Tò:hi̋:ju?|||||O:síyo. Tò:hi̋:ju?|Hello. Are you well?||
 |||||||Ama à:ktade:gí:ɂa.|I am thirsty for water.||
-|||||||E:hlawe̋:ɂi  à:níɂnv̌:ɂi.|They sat quietly.||
+|||||||E:hlawe̋:ɂi à:níɂnv̌:ɂi.|They sat quietly.||
 ||hè:sdi yijaně:gû:jé:sdi.|||||hlè:sdi yijaně:gû:jé:sdi.|Don't be mean.||
 ||Jě:dô:lv̌:ɂis gù:gu?|||||Jě:dô:lv̌:ɂisgo gù:gu?|Have you been to Bartlesville?||
 |||||||Ganǔ:lv á:gà:lsdi.|He is mowing the grass.||
 |||||||Waló:si nà:niweɂa.|The frogs are croaking.||
 ||Wě:sas hi:gòwhtí?|||||Wě:sasgo hi:gòwhtí?|Did you see a cat?||
 |||||||Amǎ:yi à:gwadúha.|I am standing in the water.||
+|||||||Ga:dő:hi ù:hí:sata.|There's dew on the ground||
+||Hlas hyigowhtí?|||||Vtlasgo hyigowhtíha?|Don't you see it?||
+||Jalv̌:kwdis gő:la?|||||Jalv̌:kwdisgo gő:la?|Do you like winter?||
+||Jayó:sihas? Hla.|||||Jayó:sihasgo? Tla.|Are you hungry? No.||
+|||||||Kǎ:hwi à:lidlíha.|The coffee is boiling.||
+||Sda̋:yi ha:sò:nsda.; Sda̋:i ha:sò:nsda.|||||Sda̋:ya ha:sò:nsda.|Press down on it hard.||
+||Do:hiyu à:tvsga.; Do:yű à:tvsga.|||||U:do:hiyű à:tvsga.|He is really growing.||
+||Ago:nas jalo:sv̌:hi?|||||Ago:nasgo jalo:sv̌:hi?|Have you gone through famine?||
+|||||||Ji:yű:kdi hwilǒ:hi.|Go straight ahead.||
+||A:sé:ɂis hihnǒ:hí:yé:ɂi?|||||A:sé:ɂisgo hihnǒ:hí:yé:ɂi?|Did you omit him on purpose?||
+||Dò jijaye:tsga?|||||Gadò jijaye:tsga?|Why are you laughing?||
+||Dò ù:lǐ:yê:di:ha?; Gadò ù:lǐ:yê:di?; Dò ù:lǐ:yê:di?|||||Gadò ù:lǐ:yê:di:ha?|Why is he moaning?||
+|||||||Gá:yu:la jǎ:hníha?|Are you already in bed?||
+|||||||Ha:dlv ù:di:sgáhla?|Where is he hiding?||
+||Galv:lő sakǒ:níge̋:ɂi.|||||Galv:lő:ɂi sakǒ:níge̋:ɂi.|The Sky is blue.||
+|||||||Gi:nű:tdi ksdolsda.|Lend me a quarter.||
+||O:sǐ:gwus jadanhta?|||||O:sǐ:gwusgo jadanhta?|Do you feel all right?||
+|||||||U:hyv̋:dla hihné:gi?|Do you vote Republican?||
+|||||||U:jő:sdi dù:wo:hwě:la̋.|His handwriting is confusing.||
+||Uwe:la gv:hnisdí.|||||Uwe:la gv:hnisdíha.|She's cooking liver.||
+|||||||V:dali ì:nasǔ:hnú:ga.|Let's go fishing at the pond.||
+||À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.|||||À:da:ně:lv̋:ɂi ga:de:yoha.|I am circling a building.||
+||Amáhldi̋ gà:sgǒ:sga.|||||Amáhldi̋:ɂi gà:sgǒ:sga.|I am digging a water well.||
+||Ayv:wi:ya̋ à:je:lv:sga.|||||Ayv:wi:ya̋:ɂi à:je:lv:sga.|He is acting like an Indian.||
+||Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?|||||Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?|Where is he fishing?||

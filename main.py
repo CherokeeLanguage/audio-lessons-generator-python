@@ -8,12 +8,17 @@ exit $?
 ''"""
 from __future__ import annotations
 
+import json
 import os
 import re
 import shutil
+import subprocess
 import unicodedata
 from datetime import date
 from datetime import datetime
+
+import cairosvg
+import svglue
 from pydub import AudioSegment
 from random import Random
 from tqdm import tqdm
@@ -27,10 +32,10 @@ import TTS as tts
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
+DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-DATASET: str = "ced-sentences"
+# DATASET: str = "ced-sentences"
 
 MP3_QUALITY: int = 5
 MP3_HZ: int = 22_050
@@ -456,6 +461,7 @@ def main() -> None:
             break
 
     end_notes_by_track: dict[int, str] = dict()
+    metadata_by_track: dict[int, dict[str, str]] = dict()
 
     while keep_going and (_exercise_set < cfg.sessions_to_create or cfg.create_all_sessions):
 
@@ -709,7 +715,9 @@ def main() -> None:
             raise Exception("Discards Deck should be empty!")
 
         print("---")
-        print(f"Introduced cards: {introduced_count:,}. Review cards: {review_count:,}. Hidden new cards: {hidden_count:,}.")
+        print(f"Introduced cards: {introduced_count:,}."
+              f" Review cards: {review_count:,}."
+              f" Hidden new cards: {hidden_count:,}.")
 
         challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
         challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
@@ -720,7 +728,7 @@ def main() -> None:
         challenge_stop = unicodedata.normalize("NFC", challenge_stop)
 
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
-        tags: dict = dict()
+        tags: dict[str, str] = dict()
 
         if DATASET == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
@@ -754,7 +762,21 @@ def main() -> None:
         tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
         tags["genre"] = "Spoken"
         tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
-        tags["year"] = date.today().year
+        tags["year"] = str(date.today().year)
+
+        metadata_by_track[_exercise_set] = tags
+
+        # Put mp3 for website related stuff in subfolder
+        mp3_out_dir: str = os.path.join(out_dir, "mp3")
+        os.makedirs(mp3_out_dir)
+
+        # Put graphic related stuff in subfolder
+        img_out_dir: str = os.path.join(out_dir, "img")
+        os.makedirs(img_out_dir)
+
+        # Put MP4 related stuff in subfolder
+        mp4_out_dir: str = os.path.join(out_dir, "mp4")
+        os.makedirs(mp4_out_dir)
 
         # Output exercise audio
         combined_audio: AudioSegment = lead_in.append(main_audio)
@@ -766,13 +788,79 @@ def main() -> None:
         end_notes_by_track[_exercise_set] = end_note
         combined_audio = combined_audio.append(lead_out)
         mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
-        output_mp3: str = os.path.join(out_dir, mp3_name)
+        output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
-        print(f"Creating {mp3_name}. {minutes:02d}:{seconds:02d}.")
+        tags["duration"] = f"{minutes:02d}:{seconds:02d}"
+        print(f"Creating {mp3_name}. {tags['duration']}.")
         combined_audio.set_frame_rate(MP3_HZ).export(output_mp3+".tmp", format="mp3",
                               parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
         shutil.move(output_mp3+".tmp", output_mp3)
+
+        # Generate graphic for MP4
+        svg_title: str
+        with open("data/svg/title_template.svg", "r") as r:
+            svg_title = r.read()
+        svg_title = svg_title.replace("_album_", tags["album"])
+        title = tags["title"]
+        if "]" in title:
+            svg_title = svg_title.replace("_title1_", title[:title.index("]")+1].strip())
+            svg_title = svg_title.replace("_title2_", title[title.index("]")+1:].strip())
+        else:
+            svg_title = svg_title.replace("_title1_", tags["title"])
+            svg_title = svg_title.replace("_title2_", " ")
+        svg_title = svg_title.replace("_artist_", tags["artist"])
+        svg_name: str = f"{DATASET}-{_exercise_set + 1:04}.svg"
+        print(f"Creating {svg_name}.")
+        output_svg: str = os.path.join(img_out_dir, svg_name)
+        with open(output_svg, "w") as w:
+            w.write(svg_title)
+        png_name: str = f"{DATASET}-{_exercise_set + 1:04}.png"
+        output_png: str = os.path.join(img_out_dir, png_name)
+        cmd: list[str] = list()
+        cmd.append("inkscape")
+        cmd.append("-o")
+        cmd.append(output_png)
+        cmd.append("-C")
+        cmd.append("--export-background=white")
+        cmd.append("--export-background-opacity=1.0")
+        cmd.append("--export-png-color-mode=RGB_16")
+        cmd.append(output_svg)
+        print(f"Creating {png_name}.")
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+
+        mp4_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp4"
+        output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
+
+        cmd: list[str] = list()
+        cmd.append("ffmpeg")
+        cmd.append("-nostdin")  # non-interactive
+        cmd.append("-y")  # overwrite
+        cmd.append("-r")  # input frame rate
+        cmd.append("1")
+        cmd.append("-loop")
+        cmd.append("1")
+        cmd.append("-i")
+        cmd.append(output_png)
+        cmd.append("-i")
+        cmd.append(output_mp3)
+        cmd.append("-q:a")
+        cmd.append("3")
+        cmd.append("-pix_fmt")
+        cmd.append("yuv420p")
+        cmd.append("-shortest")
+        cmd.append("-r")  # output frame rate
+        cmd.append("1")
+        cmd.append("-tune")
+        cmd.append("stillimage")
+        for k, v in tags.items():
+            cmd.append("-metadata")
+            cmd.append(f"{k}={v}")
+        cmd.append("-movflags")
+        cmd.append("+faststart")
+        cmd.append(output_mp4)
+        print(f"Creating {mp4_name}.")
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         # Bump counter
         _exercise_set += 1
@@ -782,17 +870,32 @@ def main() -> None:
         del lead_out
         del main_audio
         del combined_audio
+        del svg_title
 
         if not main_deck.has_cards:
             keep_going = extra_sessions > 0
             extra_sessions -= 1
 
-    with open(os.path.join(out_dir, "end-notes.txt"), "w") as w:
+    info_out_dir: str = os.path.join(out_dir, "info")
+    os.makedirs(info_out_dir)
+
+    with open(os.path.join(info_out_dir, "end-notes.txt"), "w") as w:
         for _ in range(_exercise_set):
             if _ not in end_notes_by_track:
                 continue
             end_note = end_notes_by_track[_]
-            w.write(f"{_ + 1:03d}: {end_note}\n")
+            w.write(f"{_ + 1:04d}: {end_note}\n")
+
+    with open(os.path.join(info_out_dir, "track-info.txt"), "w") as w:
+        for _ in range(_exercise_set):
+            if _ not in metadata_by_track:
+                continue
+            metadata = metadata_by_track[_]
+            w.write(f"{_ + 1:04d}|{metadata['date']}|{metadata['title']}|{metadata['album']}|{metadata['duration']}\n")
+
+    with open(os.path.join(info_out_dir, "track-info.json"), "w") as w:
+        json.dump(metadata_by_track, w, indent=2, sort_keys=True)
+        w.write("\n")
 
 
 review_count: int = 0
