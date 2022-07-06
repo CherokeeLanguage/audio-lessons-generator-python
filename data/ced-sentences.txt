@@ -49,3 +49,14 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Amáhldi̋ gà:sgǒ:sga.|||||Amáhldi̋:ɂi gà:sgǒ:sga.|I am digging a water well.||
 ||Ayv:wi:ya̋ à:je:lv:sga.|||||Ayv:wi:ya̋:ɂi à:je:lv:sga.|He is acting like an Indian.||
 ||Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?|||||Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?|Where is he fishing?||
+|||||||Jǐ:yu gano:hǐ:lv̂:sda.|An airplane just flew by.||
+|||||||Nǔ:na tihyahkě:tsa.|Peel some potatoes.||
+|||||||Ada:geyhdi ulsge̋:da.|Love is important.||
+|||||||Ahli:lő:sdi e:sgi:dì:si.|Hand me a ruler.||
+|||||||Halsaladv̀:ga hle̋:ga.|Raise up awhile.||
+||Ì:na:liɂǐ:da ahyelsdi.|||||Ì:na:liɂǐ:da hayelsdi.|Let's trade knives.||
+||Jalagis hiwó:ni:sgi?|||||Jalagisgo hiwó:ni:sgi?|Do you speak Cherokee?||
+||U:ka:hyő:dv̋ há:ɂi:sésdi.|||||U:ka:hyő:dv̋:ɂi há:ɂi:sésdi.|Walk on a dry place.||
+||U:nǐ:si ù:tvhistanv́.|||||U:nǐ:si ù:tvhistanv́:ɂi.|His grandfather raised him.||
+||Dagwalé:la hajaɂv̀:ga.|||||Dagwalé:lu hajaɂv̀:ga.|Get in the car||
+||Diga:dú:hv̋ wijigâ:ti.|||||Diga:dú:hv̋:ɂi wijigâ:ti.|I'm heading for town.||

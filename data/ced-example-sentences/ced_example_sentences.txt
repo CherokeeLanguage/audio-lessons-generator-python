@@ -52,17 +52,15 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎦᏃᎯᎵ|2|Jiyu ganohilvsda.|ᏥᏳ ᎦᏃᎯᎸᏍᏓ.|An airplane just flew by.|Jǐ:yu gano:hǐ:lv̂:sda.
 *|ᎠᏯᎨᏗᏍᎦ|2|Nuna tihyahketsa.|ᏄᎾ ᏘᏯᎨᏗᏌ.|Peel some potatoes.|Nǔ:na tihyahkě:tsa.
 *|ᎠᏓᎨᏳᏗ|2|Adageyhdi ulsgeda.|ᎠᏓᎨᏴᏗ ᎤᎵᏍᎨᏓ.|Love is important.|Ada:geyhdi ulsge̋:da.
-*|ᎠᏟᎶᏍᏗ|2|Ahlilosdi esgidisi|ᎠᏟᎶᏍᏗ ᎡᏍᎩᏗᏏ|Hand me a ruler.|Ahli:lő:sdi esgi:dì:si.
+*|ᎠᏟᎶᏍᏗ|2|Ahlilosdi esgidisi|ᎠᏟᎶᏍᏗ ᎡᏍᎩᏗᏏ|Hand me a ruler.|Ahli:lő:sdi e:sgi:dì:si.
 *|ᎠᎵᏌᎳᏗᎠ|2|Halsaladvga hlega.|ᎭᎵᏌᎳᏛᎦ ᏞᎦ.|Raise up awhile.|Halsaladv̀:ga hle̋:ga.
 *|ᎠᎵᎢᏗᎠ|2|Inaliida hayelsdi.|ᎢᎾᎵᎢᏓ ᎭᏰᎵᏍᏗ.|Let's trade knives.|Ì:na:liɂǐ:da hayelsdi.; Ì:na:liɂǐ:da ahyelsdi.
 *|ᏣᎳᎩ|2|Jalagis hiwonisgi?|ᏣᎳᎩᏍ ᎯᏬᏂᏍᎩ?|Do you speak Cherokee?|Jalagisgo hiwó:ni:sgi?; Jalagis hiwó:ni:sgi?
--|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|Ù:hi:sohdv̌:ɂi
 *|ᎤᎧᏲᏛᎢ|2|Ukahyodv haisesdi.|ᎤᎧᏲᏛ ᎭᎢᏎᏍᏗ.|Walk on a dry place.|U:ka:hyő:dv̋:ɂi há:ɂi:sésdi.; U:ka:hyő:dv̋ há:ɂi:sésdi.
 *|ᎤᏂᏏ|2|Unisi utvhistanvi.|ᎤᏂᏏ ᎤᏛᎯᏍᏔᏅᎢ.|His grandfather raised him.|U:nǐ:si ù:tvhistanv́:ɂi.; U:nǐ:si ù:tvhistanv́.
--|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|Yansa
 *|ᎠᏣᎥᏍᎦ|2|Dagwalelu hajavga.|ᏓᏆᎴᎷ ᎭᏣᎥᎦ.|Get in the car|Dagwalé:lu hajaɂv̀:ga.;Dagwalé:la hajaɂv̀:ga.
 *|ᏩᎦᏘ|2|Digaduhv wijigati.|ᏗᎦᏚᎲ ᏫᏥᎦᏘ.|I'm heading for town.|Diga:dú:hv̋:ɂi wijigâ:ti.; Diga:dú:hv̋ wijigâ:ti.
--|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|Do:yű
+
 |ᎠᏌᎳᏗᎠ|2|Jolani hisaladvga.|ᏦᎳᏂ ᎯᏌᎳᏛᎦ.|Raise the window.|
 |ᎤᎬᏫᏳᎯ|2|Jolhgis Ugvwiyuhi?|ᏦᎵᎩᏍ ᎤᎬᏫᏳᎯ?|Does the chief know you?|
 |ᏓᏟᎶᏍᏗᎭ|2|Yona duhlilostanvi|ᏲᎾ ᏚᏟᎶᏍᏔᏅᎢ?|He drew a picture of a bear.|
@@ -1774,3 +1772,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏙ|11|Gado hadvneha? Hla udli iga gohusd. Digohweligwu dejigoliyea. Gado jalsdahneha? Jilvsga.|ᎦᏙ ᎭᏛᏁᎭ? Ꮭ ᎤᏟ ᎢᎦ ᎪᎱᏍᏗ. ᏗᎪᏪᎵᏊ ᏕᏥᎪᎵᏰᎠ. ᎦᏙ ᏣᎵᏍᏓᏁᎭ? ᏥᎸᏍᎦ.|What are you doing? Nothing much. I'm just reading a book. What's wrong with you? I'm sleepy.|
 |ᏧᏂᏒᏍᏗᎢ|11|Sohneladu isgohitsgwa gahlgwasgo nvhgi udetiyvsadisv ije junisvsdi unahnesgehv Anijalagi Daligwa navi.|ᏐᏁᎳᏚ ᎢᏍᎪᎯᏥᏆ ᎦᎵᏆᏍᎪ ᏅᎩ ᎤᏕᏘᏴᏌᏗᏒ ᎢᏤ ᏧᏂᏒᏍᏗ ᎤᎾᏁᏍᎨᎲ ᎠᏂᏣᎳᎩ ᏓliᏆ ᏅᎥᎢ.|In the year 1974, the Cherokees built a new motel near Tahlequah.|
 |ᎫᏓᎴᎠ|11|Hiyudalagi sogwili unelagi walsdayvhnida. Uhnigisa dawalela uwudalesv unadadesvda. Adayvlatvsgi gudalesgo yanagalia.|ᎯᏳᏓᎳᎩ ᏐᏈᎵ ᎤᏁᎳᎩ ᏩᎵᏍᏓᏴᏂᏓ. ᎤᏂᎩᏌ ᏓᏆᎴᎳ ᎤᏭᏓᎴᏒ ᎤᎾᏓᏕᏒᏓ. ᎠᏓᏴᎳᏛᏍᎩ ᎫᏓᎴᏍᎪ ᏯᎾᎦᎵᎠ.|Unhitch the horse and let him graze. He unhooked the chain when the car started. He unplugs the television when it's lightening.|
+
+-|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|Ù:hi:sohdv̌:ɂi
+-|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|Yansa
+-|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|Do:yű
