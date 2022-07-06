@@ -9,7 +9,7 @@ from dataclasses_json import dataclass_json
 @dataclass
 class Config:
     session_max_duration: float = 60 * 60 - 15  # Max 1 hour - 15 seconds per session.
-
+    create_mp4: bool = True
     break_on_end_note: bool = True
 
     final_review_session_count: int = 0

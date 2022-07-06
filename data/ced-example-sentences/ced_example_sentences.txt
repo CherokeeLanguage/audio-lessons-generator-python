@@ -49,20 +49,20 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᏍᎪᏍᎦ|2|Amahldi gasgosga.|ᎠᎹᏢᏗ ᎦᏍᎪᏍᎦ.|I am digging a water well.|Amáhldi̋:ɂi gà:sgǒ:sga.; Amáhldi̋ gà:sgǒ:sga.
 *|ᎠᏤᎸᏍᎦ|2|Ayvwiya ajelvsga.|ᎠᏴᏫᏯ ᎠᏤᎸᏍᎦ.|He is acting like an Indian.|Ayv:wi:ya̋:ɂi à:je:lv:sga.; Ayv:wi:ya̋ à:je:lv:sga.
 *|ᎠᏑᎲᏍᎦ|2|Hadlvyv asuhvsga?|ᎭᏢᏴ ᎠᏑᎲᏍᎦ?|Where is he fishing?|Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?; Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?
-|ᎦᏃᎯᎵ|2|Jiyu ganohilvsda.|ᏥᏳ ᎦᏃᎯᎸᏍᏓ.|An airplane just flew by.|
-|ᎠᏯᎨᏗᏍᎦ|2|Nuna tihyahketsa.|ᏄᎾ ᏘᏯᎨᏗᏌ.|Peel some potatoes.|
-|ᎠᏓᎨᏳᏗ|2|Adageyhdi ulsgeda.|ᎠᏓᎨᏴᏗ ᎤᎵᏍᎨᏓ.|Love is important.|
-|ᎠᏟᎶᏍᏗ|2|Ahlilosdi esgidisi|ᎠᏟᎶᏍᏗ ᎡᏍᎩᏗᏏ|Hand me a ruler.|
-|ᎠᎵᏌᎳᏗᎠ|2|Halsaladvga hlega.|ᎭᎵᏌᎳᏛᎦ ᏞᎦ.|Raise up awhile.|
-|ᎠᎵᎢᏗᎠ|2|Inaliida hayelsdi.|ᎢᎾᎵᎢᏓ ᎭᏰᎵᏍᏗ.|Let's trade knives.|
-|ᏣᎳᎩ|2|Jalagis hiwonisgi?|ᏣᎳᎩᏍ ᎯᏬᏂᏍᎩ?|Do you speak Cherokee?|
-|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|
-|ᎤᎧᏲᏛᎢ|2|Ukahyodv haisesdi.|ᎤᎧᏲᏛ ᎭᎢᏎᏍᏗ.|Walk on a dry place.|
-|ᎤᏂᏏ|2|Unisi utvhistanvi.|ᎤᏂᏏ ᎤᏛᎯᏍᏔᏅᎢ.|His grandfather raised him.|
-|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|
-|ᎠᏣᎥᏍᎦ|2|Dagwalelu hajavga.|ᏓᏆᎴᎷ ᎭᏣᎥᎦ.|Get in the car|
-|ᏩᎦᏘ|2|Digaduhv wijigati.|ᏗᎦᏚᎲ ᏫᏥᎦᏘ.|I'm heading for town.|
-|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|
+*|ᎦᏃᎯᎵ|2|Jiyu ganohilvsda.|ᏥᏳ ᎦᏃᎯᎸᏍᏓ.|An airplane just flew by.|Jǐ:yu gano:hǐ:lv̂:sda.
+*|ᎠᏯᎨᏗᏍᎦ|2|Nuna tihyahketsa.|ᏄᎾ ᏘᏯᎨᏗᏌ.|Peel some potatoes.|Nǔ:na tihyahkě:tsa.
+*|ᎠᏓᎨᏳᏗ|2|Adageyhdi ulsgeda.|ᎠᏓᎨᏴᏗ ᎤᎵᏍᎨᏓ.|Love is important.|Ada:geyhdi ulsge̋:da.
+*|ᎠᏟᎶᏍᏗ|2|Ahlilosdi esgidisi|ᎠᏟᎶᏍᏗ ᎡᏍᎩᏗᏏ|Hand me a ruler.|Ahli:lő:sdi esgi:dì:si.
+*|ᎠᎵᏌᎳᏗᎠ|2|Halsaladvga hlega.|ᎭᎵᏌᎳᏛᎦ ᏞᎦ.|Raise up awhile.|Halsaladv̀:ga hle̋:ga.
+*|ᎠᎵᎢᏗᎠ|2|Inaliida hayelsdi.|ᎢᎾᎵᎢᏓ ᎭᏰᎵᏍᏗ.|Let's trade knives.|Ì:na:liɂǐ:da hayelsdi.; Ì:na:liɂǐ:da ahyelsdi.
+*|ᏣᎳᎩ|2|Jalagis hiwonisgi?|ᏣᎳᎩᏍ ᎯᏬᏂᏍᎩ?|Do you speak Cherokee?|Jalagisgo hiwó:ni:sgi?; Jalagis hiwó:ni:sgi?
+-|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|Ù:hi:sohdv̌:ɂi
+*|ᎤᎧᏲᏛᎢ|2|Ukahyodv haisesdi.|ᎤᎧᏲᏛ ᎭᎢᏎᏍᏗ.|Walk on a dry place.|U:ka:hyő:dv̋:ɂi há:ɂi:sésdi.; U:ka:hyő:dv̋ há:ɂi:sésdi.
+*|ᎤᏂᏏ|2|Unisi utvhistanvi.|ᎤᏂᏏ ᎤᏛᎯᏍᏔᏅᎢ.|His grandfather raised him.|U:nǐ:si ù:tvhistanv́:ɂi.; U:nǐ:si ù:tvhistanv́.
+-|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|Yansa
+*|ᎠᏣᎥᏍᎦ|2|Dagwalelu hajavga.|ᏓᏆᎴᎷ ᎭᏣᎥᎦ.|Get in the car|Dagwalé:lu hajaɂv̀:ga.;Dagwalé:la hajaɂv̀:ga.
+*|ᏩᎦᏘ|2|Digaduhv wijigati.|ᏗᎦᏚᎲ ᏫᏥᎦᏘ.|I'm heading for town.|Diga:dú:hv̋:ɂi wijigâ:ti.; Diga:dú:hv̋ wijigâ:ti.
+-|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|Do:yű
 |ᎠᏌᎳᏗᎠ|2|Jolani hisaladvga.|ᏦᎳᏂ ᎯᏌᎳᏛᎦ.|Raise the window.|
 |ᎤᎬᏫᏳᎯ|2|Jolhgis Ugvwiyuhi?|ᏦᎵᎩᏍ ᎤᎬᏫᏳᎯ?|Does the chief know you?|
 |ᏓᏟᎶᏍᏗᎭ|2|Yona duhlilostanvi|ᏲᎾ ᏚᏟᎶᏍᏔᏅᎢ?|He drew a picture of a bear.|

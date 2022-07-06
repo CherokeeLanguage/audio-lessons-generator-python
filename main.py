@@ -32,10 +32,10 @@ import TTS as tts
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
+# DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-# DATASET: str = "ced-sentences"
+DATASET: str = "ced-sentences"
 
 MP3_QUALITY: int = 5
 MP3_HZ: int = 22_050
@@ -429,7 +429,7 @@ def main() -> None:
     os.chdir(os.path.dirname(__file__))
     out_dir: str = os.path.join(os.path.realpath("."), "output", DATASET)
     shutil.rmtree(out_dir, ignore_errors=True)
-    os.makedirs(out_dir)
+    os.makedirs(out_dir, exist_ok=True)
 
     main_deck = load_main_deck(os.path.join("data",  DATASET + ".txt"))
     if RESORT_BY_LENGTH:
@@ -768,15 +768,15 @@ def main() -> None:
 
         # Put mp3 for website related stuff in subfolder
         mp3_out_dir: str = os.path.join(out_dir, "mp3")
-        os.makedirs(mp3_out_dir)
+        os.makedirs(mp3_out_dir, exist_ok=True)
 
         # Put graphic related stuff in subfolder
         img_out_dir: str = os.path.join(out_dir, "img")
-        os.makedirs(img_out_dir)
+        os.makedirs(img_out_dir, exist_ok=True)
 
         # Put MP4 related stuff in subfolder
         mp4_out_dir: str = os.path.join(out_dir, "mp4")
-        os.makedirs(mp4_out_dir)
+        os.makedirs(mp4_out_dir, exist_ok=True)
 
         # Output exercise audio
         combined_audio: AudioSegment = lead_in.append(main_audio)
@@ -860,7 +860,8 @@ def main() -> None:
         cmd.append("+faststart")
         cmd.append(output_mp4)
         print(f"Creating {mp4_name}.")
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        if cfg.create_mp4:
+            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         # Bump counter
         _exercise_set += 1
@@ -877,7 +878,7 @@ def main() -> None:
             extra_sessions -= 1
 
     info_out_dir: str = os.path.join(out_dir, "info")
-    os.makedirs(info_out_dir)
+    os.makedirs(info_out_dir, exist_ok=True)
 
     with open(os.path.join(info_out_dir, "end-notes.txt"), "w") as w:
         for _ in range(_exercise_set):
