@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 from builtins import dict
 from builtins import list
 from builtins import str
@@ -199,6 +200,14 @@ def ascii_ced2mco(text: str):
     text = text.replace("3", "³")
     text = text.replace("4", "⁴")
     text = text.replace("?", "ɂ")
+    return ced2mco(text)
+
+
+def rrd2mco(text: str):
+    import unicodedata as ud
+    text: str = ud.normalize('NFD', text)
+    text = re.sub("(?i)([aeiouv]\u0323)([^\\s¹²³⁴])", "\\1²\\2", text)
+    text = re.sub("(?i)([aeiouv])([^\\s\u0323¹²³⁴])", "\\1²\\2", text)
     return ced2mco(text)
 
 
