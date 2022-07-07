@@ -60,3 +60,32 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||U:nǐ:si ù:tvhistanv́.|||||U:nǐ:si ù:tvhistanv́:ɂi.|His grandfather raised him.||
 ||Dagwalé:la hajaɂv̀:ga.|||||Dagwalé:lu hajaɂv̀:ga.|Get in the car||
 ||Diga:dú:hv̋ wijigâ:ti.|||||Diga:dú:hv̋:ɂi wijigâ:ti.|I'm heading for town.||
+|||||||Jǒ:lani hì:saladv̀:ga.|Raise the window.||
+||Jőhlgis u:gv:wiyu:hi?|||||Jőhlgisgo u:gv:wiyu:hi?|Does the chief know you?||
+||Yǒ:na dù:hli:ló:stanv̌.|||||Yǒ:na dù:hli:ló:stanv̌:ɂi.|He drew a picture of a bear.||
+|||||||Amǎ:yi witáhltadù:ga.|Jump into the water.||
+||Atǔ:gi̋:sdi ù:ne:hně:lv́.|||||Atǔ:gi̋:sdi ù:ne:hně:lv́:ɂi.|He gave him an alcoholic drink.||
+||Di:te:lǐ:do de:gv́:dǐ:yé.|||||Di:te:lǐ:do de:gv́:dǐ:yéɂa.|She is washing plates.||
+||Do:dv:dani:lv́:jisgo he:lí?; Do:dv:dani:lv́:jis he:lí?|||||Do:dv:dani:lv́:jisgo he:líɂa?|Do you think he is going to accept?||
+||Galò:gwe ganv:galí.|||||Galò:gwe ganv:galíha.|He is cleaning a gun.||
+||Galv̌:ládige̋ hwiɂlò:ga.|||||Galv̌:ládige̋:ɂi hwiɂlò:ga.|Climb up higher.||
+||Ù:hnv́:si:yv̋ hale:hv̀:ga.|||||Ù:hnv́:si:yv̋:ɂi hale:hv̀:ga.|Go stand in the corner.||
+|||||||U:naksú:ti anǐ:nayè:gi.|Diamondback rattlers are dangerous.||
+||U:nalà:sgáhldi̋ ì:dè:na.|||||U:nalà:sgáhldi̋:ɂi ì:dè:na.|Let's go to the ball field.||
+|||||||U:ni:hnà:sǔ:ga de:gadé:ɂa.|She's picking some possum grapes.||
+||U:sgwo:hli̋ à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yé.|||||U:sgwo:hli̋:ɂi à:sgo:lǐ:yéɂa.|He's rubbing his stomach.||
+||De:hiktahas di:sésdi?|||||De:hiktahasgo di:sésdi?|Do you know your numbers?||
+|||||||E:ladigwu jinv́:gé:sdi.|I'll just lie on the floor.||
+||Ga̋:duɂi ù:sdv̌:háhlanv̌.|||||Ga̋:duɂi ù:sdv̌:háhlanv̌:ɂi.|He sandwiched it between the bread.||
+||Gá:gō ù:hyv̌:sdé:lu:hné?|||||Gá:gō ù:hyv̌:sdé:lu:hné:ɂi?|Who hit him on the nose?||
+||Gá:gwatv jině:dlí:yvɂa.|||||Gá:gwatdi jině:dlí:yvɂa.|I am changing the wheel.||
+||Hè:sdi jadlo:hyílv:ɂi.|||||Hlè:sdi jadlo:hyílv:ɂi.|Don't cry.||
+||Ù:hlǐ:sdi̋ dù:wu:ktánv́.|||||Ù:hlǐ:sdi̋ dù:wu:ktánv́:ɂi.|He decided too quickly.||
+|||||||Dakwsáni dijalv̌:kwdi?|Do you like turnips?||
+||Galo:hisdi̋ wù:ktv́:le:sv̌.|||||Galo:hisdi̋:ɂi wù:ktv́:le:sv̌:ɂi.|He went through the doorway.||
+|||||||Jí:sdv:na dì:gihyalú:ga.|Let's go look for crawdads.||
+|||||||Kilágwu wida:dilúhji.|We'll get there pretty soon.||
+||Gadò:hv́ dù:nagale:nv:hé?|||||Gadò:hv́ dù:nagale:nv:hé:ɂi?|Why did they separate?||
+||Jalv̌:kwdis jadawò:sdi?|||||Jalv̌:kwdisgo jadawò:sdi?|Do you like to swim?||
+|||||||Ù:di:hlehgigwu ù:katv̋:ɂhi.|His face is just hot.||
+||Ù:gohnv̌:gwu Ù:né:gaɂlv̋.|||||Ù:gohnv̌:ɂigwu Ù:né:gaɂlv̋:ɂi.|His skin is just burned||

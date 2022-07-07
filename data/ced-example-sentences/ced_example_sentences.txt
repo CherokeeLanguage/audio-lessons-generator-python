@@ -60,40 +60,36 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏂᏏ|2|Unisi utvhistanvi.|ᎤᏂᏏ ᎤᏛᎯᏍᏔᏅᎢ.|His grandfather raised him.|U:nǐ:si ù:tvhistanv́:ɂi.; U:nǐ:si ù:tvhistanv́.
 *|ᎠᏣᎥᏍᎦ|2|Dagwalelu hajavga.|ᏓᏆᎴᎷ ᎭᏣᎥᎦ.|Get in the car|Dagwalé:lu hajaɂv̀:ga.;Dagwalé:la hajaɂv̀:ga.
 *|ᏩᎦᏘ|2|Digaduhv wijigati.|ᏗᎦᏚᎲ ᏫᏥᎦᏘ.|I'm heading for town.|Diga:dú:hv̋:ɂi wijigâ:ti.; Diga:dú:hv̋ wijigâ:ti.
+*|ᎠᏌᎳᏗᎠ|2|Jolani hisaladvga.|ᏦᎳᏂ ᎯᏌᎳᏛᎦ.|Raise the window.|Jǒ:lani hì:saladv̀:ga.
+*|ᎤᎬᏫᏳᎯ|2|Jolhgis Ugvwiyuhi?|ᏦᎵᎩᏍ ᎤᎬᏫᏳᎯ?|Does the chief know you?|Jőhlgisgo u:gv:wiyu:hi?; Jőhlgis u:gv:wiyu:hi?
+*|ᏓᏟᎶᏍᏗᎭ|2|Yona duhlilostanvi|ᏲᎾ ᏚᏟᎶᏍᏔᏅᎢ?|He drew a picture of a bear.|Yǒ:na dù:hli:ló:stanv̌:ɂi.; Yǒ:na dù:hli:ló:stanv̌.
+*|ᎠᎹᏱ|2|Amayi witahltaduga.|ᎠᎹᏱ ᏫᏔᎵᏔᏚᎦ.|Jump into the water.|Amǎ:yi witáhltadù:ga.
+*|ᎠᏚᎩᏍᏗ|2|Atugisdi unehnelvi.|ᎠᏚᎩᏍᏗ ᎤᏁᏁᎸᎢ.|He gave him an alcoholic drink.|Atǔ:gi̋:sdi ù:ne:hně:lv́:ɂi.; Atǔ:gi̋:sdi ù:ne:hně:lv́.
+*|ᎠᏖᎵᏙ|2|Ditelido degvdiyea.|ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|She is washing plates.|Di:te:lǐ:do de:gv́:dǐ:yéɂa.; Di:te:lǐ:do de:gv́:dǐ:yé.
+*|ᏓᏓᏂᎸᎦ|2|Dodvdanilvjis heli?|ᏚᏛᏓᏂᎸᏥᏍ ᎮᎵ?|Do you think he is going to accept?|Do:dv:dani:lv́:jisgo he:líɂa?; Do:dv:dani:lv́:jisgo he:lí?; Do:dv:dani:lv́:jis he:lí?;
+*|ᎦᎶᏇ|2|Galogwe ganvgaliha.|ᎦᎶᏇ ᎦᏅᎦᎵᎭ.|He is cleaning a gun.|Galò:gwe ganv:galíha.; Galò:gwe ganv:galí.
+*|ᎦᎸᎳᏗᎨᎢ|2|Galvladige hwiloga.|ᎦᎸᎳᏗᎨ ᏫᎶᎦ.|Climb up higher.|Galv̌:ládige̋:ɂi hwiɂlò:ga.; Galv̌:ládige̋ hwiɂlò:ga.
+*|ᎤᏅᏏᏴᎢ|2|Uhnvsiyv hwalehvga.|ᎤᏅᏏᏴ ᏩᎴᎲᎦ.|Go stand in the corner.|Ù:hnv́:si:yv̋:ɂi hale:hv̀:ga.; Ù:hnv́:si:yv̋ hale:hv̀:ga.
+*|ᎤᎦᏑᏘ|2|Unaksuti aninayegi.|ᎤᎾᎦᏑᏘ ᎠᏂᎾᏰᎩ.|Diamondback rattlers are dangerous.|U:naksú:ti anǐ:nayè:gi.
+*|ᎤᎾᎳᏍᎦᎵᏗᎢ|2|Unalasgahldi idena.|ᎤᎾᎳᏍᎦᎸᏗ ᎢᏕᎾ.|Let's go to the ball field.|U:nalà:sgáhldi̋:ɂi ì:dè:na.; U:nalà:sgáhldi̋ ì:dè:na.
+*|ᎤᎿᏑᎦ|2|Unihnasuga degadea.|ᎤᏂᎿᏑᎦ ᏕᎦᏕᎠ.|She's picking some possum grapes.|U:ni:hnà:sǔ:ga de:gadé:ɂa.
+*|ᎤᏍᏉᏟᎢ|2|Usgwohli asgoliyea.|ᎤᏍᏉᏟ ᎠᏍᎪᎵᏰᎠ.|He's rubbing his stomach.|U:sgwo:hli̋:ɂi à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yé.
+*|ᏗᏎᏍᏗ|2|Dehiktahas disesdi?|ᏕᎯᎦᏔᎭᏍ ᏗᏎᏍᏗ?|Do you know your numbers?|De:hiktahasgo di:sésdi?; De:hiktahas di:sésdi?
+*|ᎦᏅᎦ|2|Eladigwu jinvgesdi.|ᎡᎳᏗᏊ ᏥᏅᎨᏍᏗ.|I'll just lie on the floor.|E:ladigwu jinv́:gé:sdi.
+*|ᎠᏍᏛᎭᏢᏍᎦ|2|Gadui usdvhahlanvi.|ᎦᏚᎢ ᎤᏍᏛᎭᏝᏅᎢ.|He sandwiched it between the bread.|Ga̋:duɂi ù:sdv̌:háhlanv̌:ɂi.; Ga̋:duɂi ù:sdv̌:háhlanv̌.
+*|ᎠᏴᏍᏕᎷᎲᏍᎦ|2|Gago uhyvsdeluhnei?|ᎦᎪ ᎤᏴᏍᏕᎷᏁᎢ?|Who hit him on the nose?|Gá:gō ù:hyv̌:sdé:lu:hné:ɂi?; Gá:gō ù:hyv̌:sdé:lu:hné?
+*|ᎦᏁᏟᏴᎠ|2|Gagwatv jinedliyva.|ᎦᏆᏛ ᏥᏁᏟᏴᎠ.|I am changing the wheel.|Gá:gwatdi jině:dlí:yvɂa.; Gá:gwatv jině:dlí:yvɂa.
+*|ᎠᏠᏱᎭ|2|Hlesdi jadlohyilvi.|ᏞᏍᏗ ᏣᏠᏱᎸᎢ.|Don't cry.|Hlè:sdi jadlo:hyílv:ɂi.; Hè:sdi jadlo:hyílv:ɂi.
+*|ᏕᎫᎪᏗᎭ|2|Uhlisdi duwuktanvi.|ᎤᏟᏍᏗ ᏚᏭᎪᏔᏅᎢ.|He decided too quickly.|Ù:hlǐ:sdi̋ dù:wu:ktánv́:ɂi.; Ù:hlǐ:sdi̋ dù:wu:ktánv́.
+*|ᏓᏈᏌᏂ|2|Dakwsani dijalvkwdi?|ᏓᏈᏌᏂᏍ ᏗᏣᎸᏉᏗ?|Do you like turnips?|Dakwsáni dijalv̌:kwdi?
+*|ᎦᎶᎯᏍᏗᎢ|2|Galohisdi wuktvlesv.|ᎦᎶᎯᏍᏗ ᏭᎦᏛᎴᏒ.|He went through the doorway.|Galo:hisdi̋:ɂi wù:ktv́:le:sv̌:ɂi.; Galo:hisdi̋ wù:ktv́:le:sv̌.
+*|ᏥᏍᏛᎾ|2|Jisdvna digihyaluga.|ᏥᏍᏛᎾ ᏗᎩᏯᎷᎦ.|Let's go look for crawdads.|Jí:sdv:na dì:gihyalú:ga.
+*|ᎩᎳᏊ|2|Kilagwu widadiluhji.|ᎩᎳᏊ ᏫᏓᏗᎷᏥ.|We'll get there pretty soon.|Kilágwu wida:dilúhji.
+*|ᏓᎾᎦᎴᏂᎭ|2|Gadohv dunagalenvhe?|ᎦᏙᎲ ᏚᎾᎦᎴᏅᎮᎢ?|Why did they separate?|Gadò:hv́ dù:nagale:nv:hé:ɂi?; Gadò:hv́ dù:nagale:nv:hé?
+*|ᎠᏓᏬᎠ|2|Jalvkwdis jadawosdi?|ᏣᎸᏉᏗᏍ ᏣᏓᏬᏍᏗ?|Do you like to swim?|Jalv̌:kwdisgo jadawò:sdi?; Jalv̌:kwdis jadawò:sdi?
+*|ᎤᎧᏛᎯ|2|Udihlehgigwu ukatvi.|ᎤᏗᎴᎩᏊ ᎤᎧᏛᎢ.|His face is just hot.|Ù:di:hlehgigwu ù:katv̋:ɂhi.
+*|ᎤᏁᎦᎸᎢ|2|Ugohnvigwu unegalvi.|ᎤᎪᏅᎢᏊ ᎤᏁᎦᎸᎢ.|His skin is just burned|Ù:gohnv̌:ɂigwu Ù:né:gaɂlv̋:ɂi.; Ù:gohnv̌:gwu Ù:né:gaɂlv̋.
 
-|ᎠᏌᎳᏗᎠ|2|Jolani hisaladvga.|ᏦᎳᏂ ᎯᏌᎳᏛᎦ.|Raise the window.|
-|ᎤᎬᏫᏳᎯ|2|Jolhgis Ugvwiyuhi?|ᏦᎵᎩᏍ ᎤᎬᏫᏳᎯ?|Does the chief know you?|
-|ᏓᏟᎶᏍᏗᎭ|2|Yona duhlilostanvi|ᏲᎾ ᏚᏟᎶᏍᏔᏅᎢ?|He drew a picture of a bear.|
-|ᎠᎹᏱ|2|Amayi witahltaduga.|ᎠᎹᏱ ᏫᏔᎵᏔᏚᎦ.|Jump into the water.|
-|ᎠᏚᎩᏍᏗ|2|Atugisdi unehnelvi.|ᎠᏚᎩᏍᏗ ᎤᏁᏁᎸᎢ.|He gave him a drink.|
-|ᎠᏖᎵᏙ|2|Ditelido degvdiyea.|ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|She is washing dishes.|
-|ᏓᏓᏂᎸᎦ|2|Dodvdanilvjis heli?|ᏚᏛᏓᏂᎸᏥᏍ ᎮᎵ?|Do you think he is going to accept?|
-|ᏚᏳᎪᏛᎢ|2|Duyukdv gvnohiseha.|ᏚᏳᎪᏛ ᎬᏃᎯᏎᎭ.|I am telling you the truth.|
-|ᎦᎶᏇ|2|Galogwe ganvgaliha.|ᎦᎶᏇ ᎦᏅᎦᎵᎭ.|He is cleaning a gun.|
-|ᎦᎸᎳᏗᎨᎢ|2|Galvladige hwiloga.|ᎦᎸᎳᏗᎨ ᏫᎶᎦ.|Climb up higher.|
-|ᎣᏏ|2|Osi nagwadvhnadega.|ᎣᏏ ᎾᏆᏛᎿᏕᎦ.|I'm doing fairly well.|
-|ᎤᏅᏏᏴᎢ|2|Uhnvsiyv hwalehvga.|ᎤᏅᏏᏴ ᏩᎴᎲᎦ.|Go stand in the corner.|
-|ᎤᎦᏑᏘ|2|Unaksuti aninayegi.|ᎤᎾᎦᏑᏘ ᎠᏂᎾᏰᎩ.|Diamondback rattlers are dangerous.|
-|ᎤᎾᎳᏍᎦᎵᏗᎢ|2|Unalasgahldi idena.|ᎤᎾᎳᏍᎦᎸᏗ ᎢᏕᎾ.|Let's go to the ball field.|
-|ᎤᎿᏑᎦ|2|Unihnasuga degadea.|ᎤᏂᎿᏑᎦ ᏕᎦᏕᎠ.|She's picking some possum grapes.|
-|ᎤᏍᏉᏟᎢ|2|Usgwohli asgoliyea.|ᎤᏍᏉᏟ ᎠᏍᎪᎵᏰᎠ.|He's rubbing his stomach.|
-|ᏗᏎᏍᏗ|2|Dehiktahas disesdi?|ᏕᎯᎦᏔᎭᏍ ᏗᏎᏍᏗ?|Do you know your numbers?|
-|ᎦᏅᎦ|2|Eladigwu jinvgesdi.|ᎡᎳᏗᏊ ᏥᏅᎨᏍᏗ.|I'll just lie on the floor.|
-|ᎠᏍᏛᎭᏢᏍᎦ|2|Gadui usdvhahlanvi.|ᎦᏚᎢ ᎤᏍᏛᎭᏝᏅᎢ.|He sandwiched it between the bread.|
-|ᎠᏴᏍᏕᎷᎲᏍᎦ|2|Gago uhyvsdeluhnei?|ᎦᎪ ᎤᏴᏍᏕᎷᏁᎢ?|Who hit him on the nose?|
-|ᎦᏁᏟᏴᎠ|2|Gagwatv jinedliyva.|ᎦᏆᏛ ᏥᏁᏟᏴᎠ.|I am changing the wheel.|
-|ᎠᏠᏱᎭ|2|Hlesdi jadlohyilvi.|ᏞᏍᏗ ᏣᏠᏱᎸᎢ.|Don't cry.|
-|ᏕᎫᎪᏗᎭ|2|Uhlisdi duwuktanvi.|ᎤᏟᏍᏗ ᏚᏭᎪᏔᏅᎢ.|He decided too quickly.|
-|ᎠᎹᏢᏙᏗ|2|Amahldohdi hikalija.|ᎠᎹᏢᏙᏗ ᎯᎧᎵᏣ.|Fill the water bucket.|
-|ᏓᏈᏌᏂ|2|Dakwsani dijalvkwdi?|ᏓᏈᏌᏂᏍ ᏗᏣᎸᏉᏗ?|Do you like turnips?|
-|ᎦᎶᎯᏍᏗᎢ|2|Galohisdi wuktvlesv.|ᎦᎶᎯᏍᏗ ᏭᎦᏛᎴᏒ.|He went through the doorway.|
-|ᏥᏍᏛᎾ|2|Jisdvna digihyaluga.|ᏥᏍᏛᎾ ᏗᎩᏯᎷᎦ.|Let's go hunt crawdads.|
-|ᎩᎳᏊ|2|Kilagwu widadiluhji.|ᎩᎳᏊ ᏫᏓᏗᎷᏥ.|We'll get there pretty soon.|
-|ᎤᏞᎦ|2|Udelejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|
-|ᏓᎾᎦᎴᏂᎭ|2|Gadohv dunagalenvhe?|ᎦᏙᎲ ᏚᎾᎦᎴᏅᎮᎢ?|Why did they separate?|
-|ᎠᏓᏬᎠ|2|Jalvkwdis jadawosdi?|ᏣᎸᏉᏗᏍ ᏣᏓᏬᏍᏗ?|Do you like to swim?|
-|ᎤᎧᏛᎯ|2|Udihlehgigwu ukatvi.|ᎤᏗᎴᎩᏊ ᎤᎧᏛᎢ.|His face is just hot.|
-|ᎤᏁᎦᎸᎢ|2|Ugohnvigwu unegalvi.|ᎤᎪᏅᎢᏊ ᎤᏁᎦᎸᎢ.|His skin is just burned|
 |ᎦᎵᏦᏕ|2|Gahljode daganesgehi.|ᎦᎵᏦᏕ ᏓᎦᏁᏍᎨᎯ.|I am going to build a house.|
 |ᎧᏁᎢᏍᏗᎭ|2|Jakineistanv gelisgv.|ᏣᎩᎢᏁᎢᏍᏔᏅ ᎨᎵᏍᎬ.|I thought I mentioned it.|
 |ᎤᏍᏗᏁᎦᎸᎢ|2|Usdinegalv adlagosga.|ᎤᏍᏗᏁᎦᎸ ᎠᏜᎪᏍᎦ.|He's scratching his scalp.|
@@ -1776,3 +1772,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|Ù:hi:sohdv̌:ɂi
 -|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|Yansa
 -|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|Do:yű
+-|ᏚᏳᎪᏛᎢ|2|Duyukdv gvnohiseha.|ᏚᏳᎪᏛ ᎬᏃᎯᏎᎭ.|I am telling you the truth.|Dù:yu:kdv̋:ɂi
+-|ᎣᏏ|2|Osi nagwadvhnadega.|ᎣᏏ ᎾᏆᏛᎿᏕᎦ.|I'm doing fairly well.|O:sí
+-|ᎠᎹᏢᏙᏗ|2|Amahldohdi hikalija.|ᎠᎹᏢᏙᏗ ᎯᎧᎵᏣ.|Fill the water bucket.|Amáhldohdi
+-|ᎤᏞᎦ|2|Udelejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|
