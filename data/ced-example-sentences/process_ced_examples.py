@@ -41,10 +41,12 @@ def main() -> None:
                     continue
                 alt_pronounce: str = ""
                 pronounce: str = ""
+                item: str
                 for item in pronunciations:
                     item = item.strip()
                     if not item:
                         continue
+                    item = item[0].upper() + item[1:]
                     if not pronounce:
                         pronounce = item
                         continue
