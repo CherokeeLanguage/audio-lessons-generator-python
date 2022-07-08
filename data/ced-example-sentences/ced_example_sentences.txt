@@ -98,17 +98,15 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᎵᏰᏑᎶ|2|Diliyesulo dagiyohusi.|ᏗᎵᏰᏑᎶ ᏓᎩᏲᎱᏏ.|I lost some gloves.|di:liyè:su:lo dà:giyo:hǔ:sī.
 *|ᏅᏩᏙᎯᏯᏓ|2|Nvwhtohiyada idehesdi.|ᏅᏩᏙᎯᏯᏓ ᎢᏕᎮᏍᏘ.|Let's live in peace.|nvwhto:hi:yada ì:dihé:sdi.
 *|ᎤᏬᏘᏓ|2|Uwotida agitsgwalvtvi.|ᎤᏬᏘᏓ ᎠᎩᏥᏆᎸᏛᎢ.|My ankle is swollen.|uwǒ:tida à:gitsgwalv:tv̋:ɂi.; uwǒ:tida à:gitsgwalv:tv̋.
-|ᏓᎧᏃᏩᏗᏙᎭ|2|Gago dejakanowadidoha?|ᎦᎪ ᏕᏣᎧᏃᏩᏗᏙᎭ?|Who is looking after you?|
-|ᏧᎦᏃᏥ|2|Gahisgahos juniganoji?|ᎦᎯᏍᎦᎰᏍ ᏧᏂᎦᏃᏥ?|Are you afraid of centipedes?|
-|ᎤᏪᎵᎯᎠ|2|Hlesdi yijelihisgesdi.|ᏞᏍᏗ ᏱᏤᎵᎯᏍᎨᏍᏗ.|Don't worry.|
-|ᏗᏓᏍᏚᏗᎢ, ᏧᎾᏓᏍᏚᏗᎢ|2|Jayvhlvis junadasdudi?|ᏣᏴᏢᎢᏍ ᏧᎾᏓᏍᏚᏗ?|Have you been in jail?|
-|ᏗᎦᏄᎳᏥ|2|Diganulaji juhyvgisati.|ᏗᎦᏄᎳᏥ ᏧᏴᎩᏌᏘ.|He's ticklish in his ribs.|
-|ᎠᎵᏍᏇᏚᎩᎠ|2|Halsgwetuhgi. Jigoliya.|ᎭᎵᏍᏇᏚᎩ. ᏥᎪᎵᏯ.|Take your hat off. Let me look at it.|
-|ᎤᎳᏑᎶ|2|Julasulo dekalvsadvsga.|ᏧᎳᏑᎶ ᏕᎧᎸᏌᏛᏍᎦ.|He's lacing up his shoes.|
-|ᎧᎾᏁᏍᎩ|2|Kananesgi kaniladewsga.|ᎧᎾᏁᏍᎩ ᎧᏂᎳᏕᏫᏍᎦ.|A spider is making a web.|
-|ᏄᎳ|2|Nula, daginigohniyojis.|ᏄᎳ, ᏓᎩᏂᎪᏂᏲᏥᏍ.|Hurry or we'll be late.|
-|ᎤᏓᏅᏙ|2|Udanhdo ulehwisdanelvi.|ᎤᏓᏅᏙ ᎤᎴᏫᏍᏓᏁᎸᎢ.|His heart stopped on him.|
-|ᎠᏕᎶᎰᏍᎦ|2|Udelohosv ajilonuesgvi.|ᎤᏕᎶᎰᏒ ᎠᏥᎶᏄᎡᏍᎬᎢ.|He found out that he was being cheated.|
+*|ᏓᎧᏃᏩᏗᏙᎭ|2|Gago dejakanowadidoha?|ᎦᎪ ᏕᏣᎧᏃᏩᏗᏙᎭ?|Who is looking after you?|gá:gō de:jakà:no:wadǐ:dô:ha?
+*|ᏧᎦᏃᏥ|2|Gahisgahos juniganoji?|ᎦᎯᏍᎦᎰᏍ ᏧᏂᎦᏃᏥ?|Are you afraid of centipedes?|gà:hi:sgaɂihó:ɂisgo ju:ganò:ji?; gà:hi:sgaɂihó:ɂis ju:ganò:ji?; gà:hi:sgaɂihó:sgo ju:ganò:ji?; gà:hi:sgaɂihó:s ju:ganò:ji?
+*|ᎤᏪᎵᎯᎠ|2|Hlesdi yijelihisgesdi.|ᏞᏍᏗ ᏱᏤᎵᎯᏍᎨᏍᏗ.|Don't worry.|hlè:sdi yije:lǐ:hî:sgé:sdi.; hè:sdi yije:lǐ:hî:sgé:sdi.
+*|ᏗᏓᏍᏚᏗᎢ, ᏧᎾᏓᏍᏚᏗᎢ|2|Jayvhlvis junadasdudi?|ᏣᏴᏢᎢᏍ ᏧᎾᏓᏍᏚᏗ?|Have you been in jail?|Jayv:hlv̌:ɂisgo ju:nada:sdù:diɂi?; Jayv:hlv̌:ɂis ju:nada:sdù:diɂi?; Jayv:hlv̌:ɂis ju:nada:sdù:di?
+*|ᎠᎵᏍᏇᏚᎩᎠ|2|Halsgwetuhgi. Jigoliya.|ᎭᎵᏍᏇᏚᎩ. ᏥᎪᎵᏯ.|Take your hat off. Let me look at it.|halsgwè:tuhgi. jigo:lǐ:ya.
+*|ᎤᏞᎦ|2|Udlejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.; ù:dlé:jv̌ à:jilo:nu:hě:hla.
+*|ᏄᎳ|2|Nula, daginigohniyojis.|ᏄᎳ, ᏓᎩᏂᎪᏂᏲᏥᏍ.|Hurry. Will we be late?|nű:la. da:ginigo:hnǐ:yô:jisgo?; nű:la. da:ginigo:hnǐ:yô:jis?
+*|ᎠᏕᎶᎰᏍᎦ|2|Udelohosv ajilonuesgvi.|ᎤᏕᎶᎰᏒ ᎠᏥᎶᏄᎡᏍᎬᎢ.|He found out that he was being cheated.|ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.
+
 |ᎦᏛᏍᎦ|2|Didahlilostanv gatvsga.|ᏗᏓᏟᎶᏍᏔᏅ ᎦᏛᏍᎦ.|She's hanging up a picture.|
 |ᎤᏴᏥᏅᏗᎦ|2|Hlesdi jichayvhjinvtsi.|ᏞᏍᏗ ᏥᏣᏴᏥᏅᏘᏏ.|Don't choke on it.|
 |ᏓᎿᏬᎠ|2|Judanvgalvda tahnawoja.|ᏧᏓᏅᎦᎸᏓ ᏔᎿᏬᏣ.|Put on some clean clothes.|
@@ -1772,6 +1770,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᏚᏳᎪᏛᎢ|2|Duyukdv gvnohiseha.|ᏚᏳᎪᏛ ᎬᏃᎯᏎᎭ.|I am telling you the truth.|Dù:yu:kdv̋:ɂi
 -|ᎣᏏ|2|Osi nagwadvhnadega.|ᎣᏏ ᎾᏆᏛᎿᏕᎦ.|I'm doing fairly well.|O:sí
 -|ᎠᎹᏢᏙᏗ|2|Amahldohdi hikalija.|ᎠᎹᏢᏙᏗ ᎯᎧᎵᏣ.|Fill the water bucket.|Amáhldohdi
--|ᎤᏞᎦ|2|Udelejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|
 -|ᎦᎸᏂᎭ|2|hilvnileis jisdahlilv?|ᎯᎸᏂᎴᎢᏍ ᏥᏍᏓᏟᎸ?|Did you beat him up when you two fought?|
 -|ᎤᏔᏃᎸᏓ|2|Utanolvda duleyhtanvi.|ᎤᏔᏃᎸᏓ ᏚᎴᏴᏔᏅᎢ.|He got burned by steam.|u:tanǒ:lv̋:da
+-|ᏗᎦᏄᎳᏥ|2|Diganulaji juhyvgisati.|ᏗᎦᏄᎳᏥ ᏧᏴᎩᏌᏘ.|He's ticklish in his ribs.|diganu:laji
+-|ᎤᎳᏑᎶ|2|Julasulo dekalvsadvsga.|ᏧᎳᏑᎶ ᏕᎧᎸᏌᏛᏍᎦ.|He's lacing up his shoes.|ju:là:sǔ:lo
+-|ᎧᎾᏁᏍᎩ|2|Kananesgi kaniladewsga.|ᎧᎾᏁᏍᎩ ᎧᏂᎳᏕᏫᏍᎦ.|A spider is making a web.|kanaɂně:sgi
+-|ᎤᏓᏅᏙ|2|Udanhdo ulehwisdanelvi.|ᎤᏓᏅᏙ ᎤᎴᏫᏍᏓᏁᎸᎢ.|His heart stopped on him.|u:danhdo

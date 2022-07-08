@@ -98,3 +98,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||di:liyè:su:lo dà:giyo:hǔ:sī.|I lost some gloves.||
 |||||||nvwhto:hi:yada ì:dihé:sdi.|Let's live in peace.||
 ||uwǒ:tida à:gitsgwalv:tv̋.|||||uwǒ:tida à:gitsgwalv:tv̋:ɂi.|My ankle is swollen.||
+|||||||gá:gō de:jakà:no:wadǐ:dô:ha?|Who is looking after you?||
+||gà:hi:sgaɂihó:ɂis ju:ganò:ji?; gà:hi:sgaɂihó:sgo ju:ganò:ji?; gà:hi:sgaɂihó:s ju:ganò:ji?|||||gà:hi:sgaɂihó:ɂisgo ju:ganò:ji?|Are you afraid of centipedes?||
+||hè:sdi yije:lǐ:hî:sgé:sdi.|||||hlè:sdi yije:lǐ:hî:sgé:sdi.|Don't worry.||
+||Jayv:hlv̌:ɂis ju:nada:sdù:diɂi?; Jayv:hlv̌:ɂis ju:nada:sdù:di?|||||Jayv:hlv̌:ɂisgo ju:nada:sdù:diɂi?|Have you been in jail?||
+|||||||halsgwè:tuhgi. jigo:lǐ:ya.|Take your hat off. Let me look at it.||
+||ù:dlé:jv̌ à:jilo:nu:hě:hla.|||||ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.|He took revenge when he was cheated.||
+||nű:la. da:ginigo:hnǐ:yô:jis?|||||nű:la. da:ginigo:hnǐ:yô:jisgo?|Hurry. Will we be late?||
+||ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.|||||ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.|He found out that he was being cheated.||

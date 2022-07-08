@@ -97,7 +97,7 @@ def main() -> None:
                 if item:
                     translit: str = unicodedata.normalize("NFD", item)
                     translit = re.sub("(?i)[^a-z ]", "", translit)
-                    text += item + f"[{translit}]"
+                    text += item + f" [{translit}]"
 
             for item in syll:
                 text += "|"
@@ -105,12 +105,12 @@ def main() -> None:
                     continue
                 text += item
 
-            lines.append(f"{text[1:]}|{definition}|{record_id}|{source}")
+            lines.append(f"{definition}\n{text[1:]}|{record_id}|{source}")
 
     with open(out_file, "w") as w:
         for line in lines:
             w.write(line)
-            w.write("\n")
+            w.write("\n\n")
 
 
 if __name__ == '__main__':

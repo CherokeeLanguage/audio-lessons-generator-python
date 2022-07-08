@@ -593,7 +593,7 @@ def main() -> None:
                     print(f"- End note: {end_note}")
                     if cfg.break_on_end_note:
                         max_new_reached = True
-                        print(f"- No more new cards this session.")
+                        print(f" - No more new cards this session.")
             if new_card:
                 if introduce_card:
                     introduced_count += 1
@@ -602,7 +602,7 @@ def main() -> None:
                 new_count += 1
                 if new_count >= max_new_cards_this_session:
                     max_new_reached = True
-                    print(f"- No more new cards this session.")
+                    print(f" - No more new cards this session.")
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
                 card_stats.new_card = False
                 if new_count < 6 and _exercise_set == 0:
