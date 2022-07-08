@@ -89,3 +89,12 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Jalv̌:kwdis jadawò:sdi?|||||Jalv̌:kwdisgo jadawò:sdi?|Do you like to swim?||
 |||||||Ù:di:hlehgigwu ù:katv̋:ɂhi.|His face is just hot.||
 ||Ù:gohnv̌:gwu Ù:né:gaɂlv̋.|||||Ù:gohnv̌:ɂigwu Ù:né:gaɂlv̋:ɂi.|His skin is just burned||
+|||||||Gahljǒ:de da:gà:né:sge:hi.|I am going to build a house.||
+||Jà:kiné:ɂistánv̋́ gè:lî:sgv́.|||||Jà:kiné:ɂistánv̋́:ɂi gè:lî:sgv́.|I thought I mentioned it.||
+||ù:sdiné:gaɂlv̋ à:dlagǒ:sga.|||||ù:sdiné:gaɂlv̋:ɂi à:dlagǒ:sga.|He's scratching his scalp.||
+||ù:wohláɂv̋ da:yù:dě:tínv́:ɂi.; ù:wohláɂv̋ da:yù:dě:tínv́.|||||ù:wohláɂv̋:ɂi da:yù:dě:tínv́:ɂi.|He dived from a bluff.||
+||gà:salě:nis tinâ:wi:dv:hi?|||||gà:salě:nisgo tinâ:wi:dv:hi?|Are you going to take a coat?||
+||digo:hwe:li de:jigo:lǐ:yé.|||||digo:hwe:li de:jigo:lǐ:yéɂa.|I am reading a book.||
+|||||||di:liyè:su:lo dà:giyo:hǔ:sī.|I lost some gloves.||
+|||||||nvwhto:hi:yada ì:dihé:sdi.|Let's live in peace.||
+||uwǒ:tida à:gitsgwalv:tv̋.|||||uwǒ:tida à:gitsgwalv:tv̋:ɂi.|My ankle is swollen.||

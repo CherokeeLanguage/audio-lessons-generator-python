@@ -89,18 +89,15 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᏓᏬᎠ|2|Jalvkwdis jadawosdi?|ᏣᎸᏉᏗᏍ ᏣᏓᏬᏍᏗ?|Do you like to swim?|Jalv̌:kwdisgo jadawò:sdi?; Jalv̌:kwdis jadawò:sdi?
 *|ᎤᎧᏛᎯ|2|Udihlehgigwu ukatvi.|ᎤᏗᎴᎩᏊ ᎤᎧᏛᎢ.|His face is just hot.|Ù:di:hlehgigwu ù:katv̋:ɂhi.
 *|ᎤᏁᎦᎸᎢ|2|Ugohnvigwu unegalvi.|ᎤᎪᏅᎢᏊ ᎤᏁᎦᎸᎢ.|His skin is just burned|Ù:gohnv̌:ɂigwu Ù:né:gaɂlv̋:ɂi.; Ù:gohnv̌:gwu Ù:né:gaɂlv̋.
-
-|ᎦᎵᏦᏕ|2|Gahljode daganesgehi.|ᎦᎵᏦᏕ ᏓᎦᏁᏍᎨᎯ.|I am going to build a house.|
-|ᎧᏁᎢᏍᏗᎭ|2|Jakineistanv gelisgv.|ᏣᎩᎢᏁᎢᏍᏔᏅ ᎨᎵᏍᎬ.|I thought I mentioned it.|
-|ᎤᏍᏗᏁᎦᎸᎢ|2|Usdinegalv adlagosga.|ᎤᏍᏗᏁᎦᎸ ᎠᏜᎪᏍᎦ.|He's scratching his scalp.|
-|ᎤᏬᏝᎥᎢ|2|Uwohlavi dayudetinvi.|ᎤᏬᏝᎥᎢ ᏓᏳᏕᏘᏅᎢ.|He dived from a bluff.|
-|ᎦᎾᏫᏗᎭ|2|Gasalenis tinawidvhi?|ᎦᏌᎴᏂᏍ ᏘᎾᏫᏛᎯ?|Are you going to take a coat?|
-|ᏗᎪᏪᎵ|2|Digohweli dejigoliyea.|ᏗᎪᏪᎵ ᏕᏥᎪᎵᏰᎠ.|I am reading a book.|
-|ᎠᎵᏰᏑᎶ|2|Diliyesulo dagiyohusi.|ᏗᎵᏰᏑᎶ ᏓᎩᏲᎱᏏ.|I lost some gloves.|
-|ᎦᎸᏂᎭ|2|hilvnileis jisdahlilv?|ᎯᎸᏂᎴᎢᏍ ᏥᏍᏓᏟᎸ?|Did you beat him up when you two fought?|
-|ᏅᏩᏙᎯᏯᏓ|2|Nvwhtohiyada idehesdi.|ᏅᏩᏙᎯᏯᏓ ᎢᏕᎮᏍᏘ.|Let's live in peace.|
-|ᎤᏔᏃᎸᏓ|2|Utanolvda duleyhtanvi.|ᎤᏔᏃᎸᏓ ᏚᎴᏴᏔᏅᎢ.|He got burned by steam.|
-|ᎤᏬᏘᏓ|2|Uwotida agitsgwalvtvi.|ᎤᏬᏘᏓ ᎠᎩᏥᏆᎸᏛᎢ.|My ankle is swollen.|
+*|ᎦᎵᏦᏕ|2|Gahljode daganesgehi.|ᎦᎵᏦᏕ ᏓᎦᏁᏍᎨᎯ.|I am going to build a house.|Gahljǒ:de da:gà:né:sge:hi.
+*|ᎧᏁᎢᏍᏗᎭ|2|Jakineistanv gelisgv.|ᏣᎩᎢᏁᎢᏍᏔᏅ ᎨᎵᏍᎬ.|I thought I mentioned it.|Jà:kiné:ɂistánv̋́:ɂi gè:lî:sgv́.; Jà:kiné:ɂistánv̋́ gè:lî:sgv́.
+*|ᎤᏍᏗᏁᎦᎸᎢ|2|Usdinegalv adlagosga.|ᎤᏍᏗᏁᎦᎸ ᎠᏜᎪᏍᎦ.|He's scratching his scalp.|ù:sdiné:gaɂlv̋:ɂi à:dlagǒ:sga.; ù:sdiné:gaɂlv̋ à:dlagǒ:sga.
+*|ᎤᏬᏝᎥᎢ|2|Uwohlavi dayudetinvi.|ᎤᏬᏝᎥᎢ ᏓᏳᏕᏘᏅᎢ.|He dived from a bluff.|ù:wohláɂv̋:ɂi da:yù:dě:tínv́:ɂi.; ù:wohláɂv̋ da:yù:dě:tínv́:ɂi.; ù:wohláɂv̋ da:yù:dě:tínv́.
+*|ᎦᎾᏫᏗᎭ|2|Gasalenis tinawidvhi?|ᎦᏌᎴᏂᏍ ᏘᎾᏫᏛᎯ?|Are you going to take a coat?|gà:salě:nisgo tinâ:wi:dv:hi?; gà:salě:nis tinâ:wi:dv:hi?
+*|ᏗᎪᏪᎵ|2|Digohweli dejigoliyea.|ᏗᎪᏪᎵ ᏕᏥᎪᎵᏰᎠ.|I am reading a book.|digo:hwe:li de:jigo:lǐ:yéɂa.; digo:hwe:li de:jigo:lǐ:yé.
+*|ᎠᎵᏰᏑᎶ|2|Diliyesulo dagiyohusi.|ᏗᎵᏰᏑᎶ ᏓᎩᏲᎱᏏ.|I lost some gloves.|di:liyè:su:lo dà:giyo:hǔ:sī.
+*|ᏅᏩᏙᎯᏯᏓ|2|Nvwhtohiyada idehesdi.|ᏅᏩᏙᎯᏯᏓ ᎢᏕᎮᏍᏘ.|Let's live in peace.|nvwhto:hi:yada ì:dihé:sdi.
+*|ᎤᏬᏘᏓ|2|Uwotida agitsgwalvtvi.|ᎤᏬᏘᏓ ᎠᎩᏥᏆᎸᏛᎢ.|My ankle is swollen.|uwǒ:tida à:gitsgwalv:tv̋:ɂi.; uwǒ:tida à:gitsgwalv:tv̋.
 |ᏓᎧᏃᏩᏗᏙᎭ|2|Gago dejakanowadidoha?|ᎦᎪ ᏕᏣᎧᏃᏩᏗᏙᎭ?|Who is looking after you?|
 |ᏧᎦᏃᏥ|2|Gahisgahos juniganoji?|ᎦᎯᏍᎦᎰᏍ ᏧᏂᎦᏃᏥ?|Are you afraid of centipedes?|
 |ᎤᏪᎵᎯᎠ|2|Hlesdi yijelihisgesdi.|ᏞᏍᏗ ᏱᏤᎵᎯᏍᎨᏍᏗ.|Don't worry.|
@@ -1776,3 +1773,5 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᎣᏏ|2|Osi nagwadvhnadega.|ᎣᏏ ᎾᏆᏛᎿᏕᎦ.|I'm doing fairly well.|O:sí
 -|ᎠᎹᏢᏙᏗ|2|Amahldohdi hikalija.|ᎠᎹᏢᏙᏗ ᎯᎧᎵᏣ.|Fill the water bucket.|Amáhldohdi
 -|ᎤᏞᎦ|2|Udelejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|
+-|ᎦᎸᏂᎭ|2|hilvnileis jisdahlilv?|ᎯᎸᏂᎴᎢᏍ ᏥᏍᏓᏟᎸ?|Did you beat him up when you two fought?|
+-|ᎤᏔᏃᎸᏓ|2|Utanolvda duleyhtanvi.|ᎤᏔᏃᎸᏓ ᏚᎴᏴᏔᏅᎢ.|He got burned by steam.|u:tanǒ:lv̋:da
