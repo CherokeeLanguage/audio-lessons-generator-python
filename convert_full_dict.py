@@ -7,8 +7,9 @@ exec python "$0" "$@"
 exit $?
 ''"""
 import os
+import unicodedata
 from pathlib import Path
-
+import re
 from chrutils import ascii_ced2mco
 from chrutils import rrd2mco
 
@@ -84,6 +85,7 @@ def main() -> None:
             source: str = parts[idx_source]
 
             text: str = ""
+            item: str = ""
             for item in pron:
                 if source == "ced":
                     item = ascii_ced2mco(item).strip()
@@ -92,7 +94,10 @@ def main() -> None:
                 text += "|"
                 if item.startswith("-"):
                     continue
-                text += item
+                if item:
+                    translit: str = unicodedata.normalize("NFD", item)
+                    translit = re.sub("(?i)[^a-z ]", "", translit)
+                    text += item + f"[{translit}]"
 
             for item in syll:
                 text += "|"
