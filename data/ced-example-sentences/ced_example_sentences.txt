@@ -106,18 +106,17 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏞᎦ|2|Udlejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.; ù:dlé:jv̌ à:jilo:nu:hě:hla.
 *|ᏄᎳ|2|Nula, daginigohniyojis.|ᏄᎳ, ᏓᎩᏂᎪᏂᏲᏥᏍ.|Hurry. Will we be late?|nű:la. da:ginigo:hnǐ:yô:jisgo?; nű:la. da:ginigo:hnǐ:yô:jis?
 *|ᎠᏕᎶᎰᏍᎦ|2|Udelohosv ajilonuesgvi.|ᎤᏕᎶᎰᏒ ᎠᏥᎶᏄᎡᏍᎬᎢ.|He found out that he was being cheated.|ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.
+*|ᎦᏛᏍᎦ|2|Didahlilostanv gatvsga.|ᏗᏓᏟᎶᏍᏔᏅ ᎦᏛᏍᎦ.|She's hanging up a picture.|Di:da:hli:lò:stanv̋:ɂi gatv́sga.; Di:da:hli:lò:stanv̋ gatv́sga.
+*|ᎤᏴᏥᏅᏗᎦ|2|Hlesdi jichayvhjinvtsi.|ᏞᏍᏗ ᏥᏣᏴᏥᏅᏘᏏ.|Don't choke on it.|Hlè:sdi ji:chayvhjinv:tgi.; Hè:sdi ji:chayvhjinv:tgi.; Hlè:sdi ji:chayvhjinv:tsi.; Hè:sdi ji:chayvhjinv:tsi.
+*|ᏓᎿᏬᎠ|2|Judanvgalvda tahnawoja.|ᏧᏓᏅᎦᎸᏓ ᏔᎿᏬᏣ.|Put on some clean clothes.|Ju:danv:galv̋:da tahnáwo:ja.
+*|ᎦᏰᎪᎩ|2|Gayhgogi kanohehlidohoi.|ᎦᏴᎪᎩ ᎧᏃᎮᏟᏙᎰᎢ.|He goes around telling lies.|Gayhgò:gi kano:hě:hlǐ:dô:hó:ɂi.
+*|ᎠᎴᏫᏍᏙᏗᎭ|2|Halehwisdohda dagwalela.|ᎭᎴᏫᏍᏙᏓ ᏓᏆᎴᎳ.|Stop the car.|Hale:hwisdohda dagwalé:la.
+*|ᎠᏕᎰᎯᏍᏗᎭ|2|Udehohisdohdi anehldiha.|ᎤᏕᎰᎯᏍᏙᏗ ᎠᏁᏟᏗᎭ.|She's trying to embarrass him.|U:de:hǒ:hísdohdi á:nehldíha.; U:de:hǒ:hísdohdi á:nehldí.
+*|ᎠᏴᏓᏆᎶᎠ|2|Hatvgias ahyvdagwalosgv?|ᎭᏛᎩᎠᏍ ᎠᏴᏓᏆᎶᏍᎬ?|Do you hear it thundering?|À:tv:gí:ɂasgo à:hyv:dagwálô:sgv?; À:tv:gí:ɂas à:hyv:dagwálô:sgv?
+*|ᎠᎵᏥᏈᏍᎦ|2|Hlesdi hyaljikwidohesdi.|ᏞᏍᏗ ᏯᎵᏥᏈᏙᎮᏍᏗ.|Don't go around spitting.|Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.; Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.
+*|ᏚᏴᏍᏙᏯᏍᎦ|2|Kosdu dakiyvsdoysdisgoi.|ᎪᏍᏚ ᏓᎩᏴᏍᏙᏯᏍᏗᏍᎪᎢ.|Dust makes me sneeze.|Kò:sdu dà:kiyv̌:sdô:ysdi:sgó:ɂi.; Kò:sdu dà:kiyv̌:sdô:ysdi:sgó.
+*|ᎤᏚᎵᎭ|2|Udawesolvsdohdi uduliha.|ᎤᏓᏪᏐᎸᏍᏙᏗ ᎤᏚᎵᎭ.|He wants to rest.|U:dawè:sǒ:lv́:sdohdi ù:du:líha.
 
-|ᎦᏛᏍᎦ|2|Didahlilostanv gatvsga.|ᏗᏓᏟᎶᏍᏔᏅ ᎦᏛᏍᎦ.|She's hanging up a picture.|
-|ᎤᏴᏥᏅᏗᎦ|2|Hlesdi jichayvhjinvtsi.|ᏞᏍᏗ ᏥᏣᏴᏥᏅᏘᏏ.|Don't choke on it.|
-|ᏓᎿᏬᎠ|2|Judanvgalvda tahnawoja.|ᏧᏓᏅᎦᎸᏓ ᏔᎿᏬᏣ.|Put on some clean clothes.|
-|ᎤᎭᏁᎦᎸᎢ|2|Duhanegalv dukayohiseha.|ᏚᎭᏁᎦᎸ ᏚᎧᏲᎯᏎᎭ.|His lips are getting dry.|
-|ᎦᏰᎪᎩ|2|Gayhgogi kanohehlidohoi.|ᎦᏴᎪᎩ ᎧᏃᎮᏟᏙᎰᎢ.|He goes around telling lies.|
-|ᎠᎴᏫᏍᏙᏗᎭ|2|Halehwisdohda dagwalela.|ᎭᎴᏫᏍᏙᏓ ᏓᏆᎴᎳ.|Stop the car.|
-|ᎠᏕᎰᎯᏍᏗᎭ|2|Udehohisdohdi anehldiha.|ᎤᏕᎰᎯᏍᏙᏗ ᎠᏁᏟᏗᎭ.|She's trying to embarrass him.|
-|ᎠᏴᏓᏆᎶᎠ|2|Hatvgias ahyvdagwalosgv?|ᎭᏛᎩᎠᏍ ᎠᏴᏓᏆᎶᏍᎬ?|Do you hear it thundering?|
-|ᎠᎵᏥᏈᏍᎦ|2|Hlesdi hyaljikwidohesdi.|ᏞᏍᏗ ᏯᎵᏥᏈᏙᎮᏍᏗ.|Don't go around spitting.|
-|ᏚᏴᏍᏙᏯᏍᎦ|2|Kosdu dakiyvsdoysdisgoi.|ᎪᏍᏚ ᏓᎩᏴᏍᏙᏯᏍᏗᏍᎪᎢ.|Dust makes me sneeze.|
-|ᎤᏚᎵᎭ|2|Udawesolvsdohdi uduliha.|ᎤᏓᏪᏐᎸᏍᏙᏗ ᎤᏚᎵᎭ.|He wants to rest.|
 |ᎦᏅᏥᏙᎭ|2|Uhljvdagwada unvjidolvi.|ᎤᎵᏨᏓᏆᏓ ᎤᏅᏥᏙᎸᎢ.|He tossed about all night.|
 |ᎧᎾᏍᏕᏟᎭ|2|Dekanasdedliha duwaihlvi.|ᏕᎧᎾᏍᏕᏟᎭ ᏚᏩᎢᏢᎢ.|He's rooting out bushes.|
 |ᏓᎵᏰᏑᎴᎠ|2|Dodagaliyesulesi. Nihina?|ᏙᏓᎦᎵᏰᏑᎴᏏ. ᏂᎯᎾ?|I'm going to take my gloves off. What about you?|
@@ -1776,3 +1775,4 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᎤᎳᏑᎶ|2|Julasulo dekalvsadvsga.|ᏧᎳᏑᎶ ᏕᎧᎸᏌᏛᏍᎦ.|He's lacing up his shoes.|ju:là:sǔ:lo
 -|ᎧᎾᏁᏍᎩ|2|Kananesgi kaniladewsga.|ᎧᎾᏁᏍᎩ ᎧᏂᎳᏕᏫᏍᎦ.|A spider is making a web.|kanaɂně:sgi
 -|ᎤᏓᏅᏙ|2|Udanhdo ulehwisdanelvi.|ᎤᏓᏅᏙ ᎤᎴᏫᏍᏓᏁᎸᎢ.|His heart stopped on him.|u:danhdo
+-|ᎤᎭᏁᎦᎸᎢ|2|Duhanegalv dukayohiseha.|ᏚᎭᏁᎦᎸ ᏚᎧᏲᎯᏎᎭ.|His lips are getting dry.|dù:hané:gaɂlv̋:ɂi

@@ -18,7 +18,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Síyo. Tò:hi̋:ju?|||||O:síyo. Tò:hi̋:ju?|Hello. Are you well?||
 |||||||Ama à:ktade:gí:ɂa.|I am thirsty for water.||
 |||||||E:hlawe̋:ɂi à:níɂnv̌:ɂi.|They sat quietly.||
-||hè:sdi yijaně:gû:jé:sdi.|||||hlè:sdi yijaně:gû:jé:sdi.|Don't be mean.||
+||Hè:sdi yijaně:gû:jé:sdi.|||||Hlè:sdi yijaně:gû:jé:sdi.|Don't be mean.||
 ||Jě:dô:lv̌:ɂis gù:gu?|||||Jě:dô:lv̌:ɂisgo gù:gu?|Have you been to Bartlesville?||
 |||||||Ganǔ:lv á:gà:lsdi.|He is mowing the grass.||
 |||||||Waló:si nà:niweɂa.|The frogs are croaking.||
@@ -91,18 +91,28 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Ù:gohnv̌:gwu Ù:né:gaɂlv̋.|||||Ù:gohnv̌:ɂigwu Ù:né:gaɂlv̋:ɂi.|His skin is just burned||
 |||||||Gahljǒ:de da:gà:né:sge:hi.|I am going to build a house.||
 ||Jà:kiné:ɂistánv̋́ gè:lî:sgv́.|||||Jà:kiné:ɂistánv̋́:ɂi gè:lî:sgv́.|I thought I mentioned it.||
-||ù:sdiné:gaɂlv̋ à:dlagǒ:sga.|||||ù:sdiné:gaɂlv̋:ɂi à:dlagǒ:sga.|He's scratching his scalp.||
-||ù:wohláɂv̋ da:yù:dě:tínv́:ɂi.; ù:wohláɂv̋ da:yù:dě:tínv́.|||||ù:wohláɂv̋:ɂi da:yù:dě:tínv́:ɂi.|He dived from a bluff.||
-||gà:salě:nis tinâ:wi:dv:hi?|||||gà:salě:nisgo tinâ:wi:dv:hi?|Are you going to take a coat?||
-||digo:hwe:li de:jigo:lǐ:yé.|||||digo:hwe:li de:jigo:lǐ:yéɂa.|I am reading a book.||
-|||||||di:liyè:su:lo dà:giyo:hǔ:sī.|I lost some gloves.||
-|||||||nvwhto:hi:yada ì:dihé:sdi.|Let's live in peace.||
-||uwǒ:tida à:gitsgwalv:tv̋.|||||uwǒ:tida à:gitsgwalv:tv̋:ɂi.|My ankle is swollen.||
-|||||||gá:gō de:jakà:no:wadǐ:dô:ha?|Who is looking after you?||
-||gà:hi:sgaɂihó:ɂis ju:ganò:ji?; gà:hi:sgaɂihó:sgo ju:ganò:ji?; gà:hi:sgaɂihó:s ju:ganò:ji?|||||gà:hi:sgaɂihó:ɂisgo ju:ganò:ji?|Are you afraid of centipedes?||
-||hè:sdi yije:lǐ:hî:sgé:sdi.|||||hlè:sdi yije:lǐ:hî:sgé:sdi.|Don't worry.||
+||Ù:sdiné:gaɂlv̋ à:dlagǒ:sga.|||||Ù:sdiné:gaɂlv̋:ɂi à:dlagǒ:sga.|He's scratching his scalp.||
+||Ù:wohláɂv̋ da:yù:dě:tínv́:ɂi.; Ù:wohláɂv̋ da:yù:dě:tínv́.|||||Ù:wohláɂv̋:ɂi da:yù:dě:tínv́:ɂi.|He dived from a bluff.||
+||Gà:salě:nis tinâ:wi:dv:hi?|||||Gà:salě:nisgo tinâ:wi:dv:hi?|Are you going to take a coat?||
+||Digo:hwe:li de:jigo:lǐ:yé.|||||Digo:hwe:li de:jigo:lǐ:yéɂa.|I am reading a book.||
+|||||||Di:liyè:su:lo dà:giyo:hǔ:sī.|I lost some gloves.||
+|||||||Nvwhto:hi:yada ì:dihé:sdi.|Let's live in peace.||
+||Uwǒ:tida à:gitsgwalv:tv̋.|||||Uwǒ:tida à:gitsgwalv:tv̋:ɂi.|My ankle is swollen.||
+|||||||Gá:gō de:jakà:no:wadǐ:dô:ha?|Who is looking after you?||
+||Gà:hi:sgaɂihó:ɂis ju:ganò:ji?; Gà:hi:sgaɂihó:sgo ju:ganò:ji?; Gà:hi:sgaɂihó:s ju:ganò:ji?|||||Gà:hi:sgaɂihó:ɂisgo ju:ganò:ji?|Are you afraid of centipedes?||
+||Hè:sdi yije:lǐ:hî:sgé:sdi.|||||Hlè:sdi yije:lǐ:hî:sgé:sdi.|Don't worry.||
 ||Jayv:hlv̌:ɂis ju:nada:sdù:diɂi?; Jayv:hlv̌:ɂis ju:nada:sdù:di?|||||Jayv:hlv̌:ɂisgo ju:nada:sdù:diɂi?|Have you been in jail?||
-|||||||halsgwè:tuhgi. jigo:lǐ:ya.|Take your hat off. Let me look at it.||
-||ù:dlé:jv̌ à:jilo:nu:hě:hla.|||||ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.|He took revenge when he was cheated.||
-||nű:la. da:ginigo:hnǐ:yô:jis?|||||nű:la. da:ginigo:hnǐ:yô:jisgo?|Hurry. Will we be late?||
-||ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.|||||ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.|He found out that he was being cheated.||
+|||||||Halsgwè:tuhgi. jigo:lǐ:ya.|Take your hat off. Let me look at it.||
+||Ù:dlé:jv̌ à:jilo:nu:hě:hla.|||||Ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.|He took revenge when he was cheated.||
+||Nű:la. da:ginigo:hnǐ:yô:jis?|||||Nű:la. da:ginigo:hnǐ:yô:jisgo?|Hurry. Will we be late?||
+||Ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; Ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.|||||Ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.|He found out that he was being cheated.||
+||Di:da:hli:lò:stanv̋ gatv́sga.|||||Di:da:hli:lò:stanv̋:ɂi gatv́sga.|She's hanging up a picture.||
+||Hè:sdi ji:chayvhjinv:tgi.; Hlè:sdi ji:chayvhjinv:tsi.; Hè:sdi ji:chayvhjinv:tsi.|||||Hlè:sdi ji:chayvhjinv:tgi.|Don't choke on it.||
+|||||||Ju:danv:galv̋:da tahnáwo:ja.|Put on some clean clothes.||
+|||||||Gayhgò:gi kano:hě:hlǐ:dô:hó:ɂi.|He goes around telling lies.||
+|||||||Hale:hwisdohda dagwalé:la.|Stop the car.||
+||U:de:hǒ:hísdohdi á:nehldí.|||||U:de:hǒ:hísdohdi á:nehldíha.|She's trying to embarrass him.||
+||À:tv:gí:ɂas à:hyv:dagwálô:sgv?|||||À:tv:gí:ɂasgo à:hyv:dagwálô:sgv?|Do you hear it thundering?||
+||Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.|||||Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.|Don't go around spitting.||
+||Kò:sdu dà:kiyv̌:sdô:ysdi:sgó.|||||Kò:sdu dà:kiyv̌:sdô:ysdi:sgó:ɂi.|Dust makes me sneeze.||
+|||||||U:dawè:sǒ:lv́:sdohdi ù:du:líha.|He wants to rest.||
