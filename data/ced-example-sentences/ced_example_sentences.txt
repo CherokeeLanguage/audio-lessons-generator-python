@@ -116,18 +116,14 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᎵᏥᏈᏍᎦ|2|Hlesdi hyaljikwidohesdi.|ᏞᏍᏗ ᏯᎵᏥᏈᏙᎮᏍᏗ.|Don't go around spitting.|Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.; Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.
 *|ᏚᏴᏍᏙᏯᏍᎦ|2|Kosdu dakiyvsdoysdisgoi.|ᎪᏍᏚ ᏓᎩᏴᏍᏙᏯᏍᏗᏍᎪᎢ.|Dust makes me sneeze.|Kò:sdu dà:kiyv̌:sdô:ysdi:sgó:ɂi.; Kò:sdu dà:kiyv̌:sdô:ysdi:sgó.
 *|ᎤᏚᎵᎭ|2|Udawesolvsdohdi uduliha.|ᎤᏓᏪᏐᎸᏍᏙᏗ ᎤᏚᎵᎭ.|He wants to rest.|U:dawè:sǒ:lv́:sdohdi ù:du:líha.
+*|ᎧᎾᏍᏕᏟᎭ|2|Dekanasdedliha duwaihlvi.|ᏕᎧᎾᏍᏕᏟᎭ ᏚᏩᎢᏢᎢ.|He's rooting out bushes.|De:kanâ:sde:dlíha dù:wá:ɂihlv̋:ɂi.; De:kanâ:sde:dlí dù:wá:ɂihlv̋:ɂi.; De:kanâ:sde:dlí dù:wá:ɂihlv̋.
+*|ᏓᎵᏰᏑᎴᎠ|2|Dodagaliyesulesi. Nihina?|ᏙᏓᎦᎵᏰᏑᎴᏏ. ᏂᎯᎾ?|I'm going to take my gloves off. What about you?|Do:dagaliyê:su:lé:si. Nihina?
+*|ᏐᏈᎵ|2|Sogwili danatohgiyasdiha.|ᏐᏈᎵ ᏓᎾᏙᎩᏯᏍᏗᎭ.|They're racing horses.|Sǒ:gwíli dà:natohgǐ:yâ:sdiha.
+*|ᎠᏴᏓᏆᎶᏍᎩ|2|Hisgahois ahyvdagwalosgi?|ᎯᏍᎦᎰᎢᏍ ᎠᏴᏓᏆᎶᏍᎩ?|Are you afraid of thunder?|Sgá:hó:ɂisgo ahyv:dagwalò:sgi?; Sgá:hó:ɂis ahyv:dagwalò:sgi?
+*|ᎠᎦᎾᏬᏗᎭ|2|Julasihdeni daganawhdiha.|ᏧᎳᏏᏕᏂ ᏓᎦᎾᏬᏗᎭ.|He's warming his feet.|Ju:là:sihde̋:ni dà:ga:nawhdíha.; Ju:là:sihde̋:ni dà:ga:nawhdí.
+*|ᎠᎵᏍᎫᏍᎦ|2|Halsguhya dehadanilvgesdi.|ᎭᎵᏍᎫᏯ ᏕᎭᏓᏂᎸᎨᏍᏗ.|Nod your head if you accept.|Halsgù:hya de:ha:daní:lv:gé:sdi.
+*|ᎤᎾᎵᎢ|2|Oginalii widajiwhtvhidoli.|ᎣᎩᎾᎵᎢ ᏫᏓᏥᏩᏛᎯᏙᎵ.|I am going to go and visit my friend.|Ò:gina:li̋:ɂi wida:jiwhtv:hǐ:dô:li.; Ò:gina:li̋ wida:jiwhtv:hǐ:dô:li.
 
-|ᎦᏅᏥᏙᎭ|2|Uhljvdagwada unvjidolvi.|ᎤᎵᏨᏓᏆᏓ ᎤᏅᏥᏙᎸᎢ.|He tossed about all night.|
-|ᎧᎾᏍᏕᏟᎭ|2|Dekanasdedliha duwaihlvi.|ᏕᎧᎾᏍᏕᏟᎭ ᏚᏩᎢᏢᎢ.|He's rooting out bushes.|
-|ᏓᎵᏰᏑᎴᎠ|2|Dodagaliyesulesi. Nihina?|ᏙᏓᎦᎵᏰᏑᎴᏏ. ᏂᎯᎾ?|I'm going to take my gloves off. What about you?|
-|ᏐᏈᎵ|2|Sogwili danatohgiyasdiha.|ᏐᏈᎵ ᏓᎾᏙᎩᏯᏍᏗᎭ.|They're racing horses.|
-|ᏓᎧᏁᎯᎭ|2|Dakwalvsadv dagikaneheha.|ᏓᏆᎸᏌᏛ ᏓᎩᎧᏁᎮᎭ.|He is tying my shoe laces for me.|
-|ᎦᏁᏍᏓᎳᏗᎠ|2|Deganavhnv deganesdaldia.|ᏕᎦᎾᏅ ᏕᎦᏁᏍᏓᎳᏗᎠ.|The roads are freezing.|
-|ᎠᏴᏓᏆᎶᏍᎩ|2|Hisgahois ahyvdagwalosgi?|ᎯᏍᎦᎰᎢᏍ ᎠᏴᏓᏆᎶᏍᎩ?|Are you afraid of thunder?|
-|ᎠᎦᎾᏬᏗᎭ|2|Julasihdeni daganawhdiha.|ᏧᎳᏏᏕᏂ ᏓᎦᎾᏬᏗᎭ.|He's warming his feet.|
-|ᎠᎵᏍᎫᏍᎦ|2|Halsguhya dehadanilvgesdi.|ᎭᎵᏍᎫᏯ ᏕᎭᏓᏂᎸᎨᏍᏗ.|Nod your head if you accept.|
-|ᎧᏄᏲᎳᏗᎠ|2|Kanuyoladisgvdv jidajiyva.|ᎧᏄᏲᎳᏗᏍᎬᏛ ᏥᏓᏥᏴᎠ.|It was misting when I came in.|
-|ᎤᎾᎵᎢ|2|Oginalii widajiwhtvhidoli.|ᎣᎩᎾᎵᎢ ᏫᏓᏥᏩᏛᎯᏙᎵ.|I am going to go and visit my friend.|
 |ᎦᏅᎦᎵᎭ|2|Dagwasuhgahlv dejinvgalia.|ᏓᏆᏑᎦᏢ ᏕᏥᏅᎦᎵᎠ.|I'm cleaning my fingernails.|
 |ᎠᎵᏰᏑᏍᏘᎩᎠ|2|Yudawoena aliyesustgisgoi.|ᏳᏓᏬᎡᎾ ᎠᎵᏰᏑᏍᏘᎩᏍᎪᎢ.|When he goes swimming, he takes his ring off.|
 |ᎠᏛᏛᎲᏍᎦ|2|Hiyatvdvhvga nididvnelisvi.|ᎯᏯᏛᏛᎲᎦ ᏂᏗᏛᏁᎵᏒᎢ.|Ask him what he's going to do.|
@@ -1776,3 +1772,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᎧᎾᏁᏍᎩ|2|Kananesgi kaniladewsga.|ᎧᎾᏁᏍᎩ ᎧᏂᎳᏕᏫᏍᎦ.|A spider is making a web.|kanaɂně:sgi
 -|ᎤᏓᏅᏙ|2|Udanhdo ulehwisdanelvi.|ᎤᏓᏅᏙ ᎤᎴᏫᏍᏓᏁᎸᎢ.|His heart stopped on him.|u:danhdo
 -|ᎤᎭᏁᎦᎸᎢ|2|Duhanegalv dukayohiseha.|ᏚᎭᏁᎦᎸ ᏚᎧᏲᎯᏎᎭ.|His lips are getting dry.|dù:hané:gaɂlv̋:ɂi
+-|ᎦᏅᏥᏙᎭ|2|Uhljvdagwada unvjidolvi.|ᎤᎵᏨᏓᏆᏓ ᎤᏅᏥᏙᎸᎢ.|He tossed about all night.|xxx ù:nv́:ji:dó:lv̌:ɂi
+-|ᏓᎧᏁᎯᎭ|2|Dakwalvsadv dagikaneheha.|ᏓᏆᎸᏌᏛ ᏓᎩᎧᏁᎮᎭ.|He is tying my shoe laces for me.|
+-|ᎦᏁᏍᏓᎳᏗᎠ|2|Deganavhnv deganesdaldia.|ᏕᎦᎾᏅ ᏕᎦᏁᏍᏓᎳᏗᎠ.|The roads are freezing.|ganě:sdáladiɂa
+-|ᎧᏄᏲᎳᏗᎠ|2|Kanuyoladisgvdv jidajiyva.|ᎧᏄᏲᎳᏗᏍᎬᏛ ᏥᏓᏥᏴᎠ.|It was misting when I came in.|Kanú:yo:ládî:sgv̌:dv

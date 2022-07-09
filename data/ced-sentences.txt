@@ -116,3 +116,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.|||||Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.|Don't go around spitting.||
 ||Kò:sdu dà:kiyv̌:sdô:ysdi:sgó.|||||Kò:sdu dà:kiyv̌:sdô:ysdi:sgó:ɂi.|Dust makes me sneeze.||
 |||||||U:dawè:sǒ:lv́:sdohdi ù:du:líha.|He wants to rest.||
+||De:kanâ:sde:dlí dù:wá:ɂihlv̋:ɂi.; De:kanâ:sde:dlí dù:wá:ɂihlv̋.|||||De:kanâ:sde:dlíha dù:wá:ɂihlv̋:ɂi.|He's rooting out bushes.||
+|||||||Do:dagaliyê:su:lé:si. Nihina?|I'm going to take my gloves off. What about you?||
+|||||||Sǒ:gwíli dà:natohgǐ:yâ:sdiha.|They're racing horses.||
+||Sgá:hó:ɂis ahyv:dagwalò:sgi?|||||Sgá:hó:ɂisgo ahyv:dagwalò:sgi?|Are you afraid of thunder?||
+||Ju:là:sihde̋:ni dà:ga:nawhdí.|||||Ju:là:sihde̋:ni dà:ga:nawhdíha.|He's warming his feet.||
+|||||||Halsgù:hya de:ha:daní:lv:gé:sdi.|Nod your head if you accept.||
+||Ò:gina:li̋ wida:jiwhtv:hǐ:dô:li.|||||Ò:gina:li̋:ɂi wida:jiwhtv:hǐ:dô:li.|I am going to go and visit my friend.||
