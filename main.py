@@ -27,6 +27,7 @@ from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
 import TTS as tts
+from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
@@ -429,7 +430,7 @@ def main() -> None:
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
 
-    main_deck = load_main_deck(os.path.join("data",  DATASET + ".txt"))
+    main_deck = load_main_deck(os.path.join("data", DATASET + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
 
@@ -554,8 +555,11 @@ def main() -> None:
         first_review_challenge: str = ""
         last_review_challenge: str = ""
 
-        while (lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds
-               < cfg.session_max_duration):
+        srt_entries: list[SrtEntry] = list()
+        srt_entry: SrtEntry
+
+        while (
+                lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
@@ -631,8 +635,13 @@ def main() -> None:
                 challenge = data.challenge
             else:
                 challenge = rand.choice(data.challenge_alts)
+            srt_entry: SrtEntry = SrtEntry()
+            srt_entries.append(srt_entry)
+            srt_entry.text = challenge
+            srt_entry.start = main_audio.duration_seconds
             data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
             main_audio = main_audio.append(data_file)
+            srt_entry.end = main_audio.duration_seconds
             if introduce_card:
                 # introduce Cherokee challenge
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
@@ -642,7 +651,12 @@ def main() -> None:
                 else:
                     main_audio = main_audio.append(prompts["listen_again_short"])
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
+                srt_entry: SrtEntry = SrtEntry()
+                srt_entries.append(srt_entry)
+                srt_entry.text = challenge
+                srt_entry.start = main_audio.duration_seconds
                 main_audio = main_audio.append(data_file)
+                srt_entry.end = main_audio.duration_seconds
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
 
                 # introduce alt pronunciations
@@ -656,7 +670,12 @@ def main() -> None:
                         if alt == challenge:
                             continue
                         main_audio = main_audio.append(AudioSegment.silent(500))
+                        srt_entry: SrtEntry = SrtEntry()
+                        srt_entries.append(srt_entry)
+                        srt_entry.text = alt
+                        srt_entry.start=main_audio.duration_seconds
                         main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt))
+                        srt_entry.end=main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
                 # output English gloss
@@ -674,10 +693,15 @@ def main() -> None:
             answer_audio: AudioSegment = tts.en_audio(next_amz_voice(data.sex), data.answer)
             # Silence gap for user to respond during. Only if the card was not introduced.
             if not introduce_card:
-                _ = AudioSegment.silent(int((2+1.1*answer_audio.duration_seconds)*1_000))
+                _ = AudioSegment.silent(int((2 + 1.1 * answer_audio.duration_seconds) * 1_000))
                 main_audio = main_audio.append(_)
             # Provide answer.
+            srt_entry: SrtEntry = SrtEntry()
+            srt_entries.append(srt_entry)
+            srt_entry.text = data.answer
+            srt_entry.start = main_audio.duration_seconds
             main_audio = main_audio.append(answer_audio)
+            srt_entry.end = main_audio.duration_seconds
             if _exercise_set == 0:
                 main_audio = main_audio.append(AudioSegment.silent(2_250))
             elif _exercise_set < 5:
@@ -731,25 +755,25 @@ def main() -> None:
 
         if DATASET == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "animals":
             tags["album"] = "Animals"
-            tags["title"] = f"Animals [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "bound-pronouns":
             tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "osiyo-tohiju-then-what":
             tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "osiyo-tohiju-then-what":
             tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "ced-sentences":
             tags["album"] = "Examples. Cherokee English Dictionary, 1st Edition."
-            tags["title"] = f"C.E.D. Examples [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         else:
             tags["album"] = DATASET
-            tags["title"] = f"{DATASET} | [{_exercise_set+1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"{DATASET} | [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
@@ -769,6 +793,9 @@ def main() -> None:
         mp3_out_dir: str = os.path.join(out_dir, "mp3")
         os.makedirs(mp3_out_dir, exist_ok=True)
 
+        srt_out_dir: str = os.path.join(out_dir, "srt")
+        os.makedirs(srt_out_dir, exist_ok=True)
+
         # Put graphic related stuff in subfolder
         img_out_dir: str = os.path.join(out_dir, "img")
         os.makedirs(img_out_dir, exist_ok=True)
@@ -786,15 +813,32 @@ def main() -> None:
             print(f"* {end_note}")
         end_notes_by_track[_exercise_set] = end_note
         combined_audio = combined_audio.append(lead_out)
+
+        # Add leadin offset to SRT entries and assign sequence numbers.
+        _: int = 0
+        for srt_entry in srt_entries:
+            _ += 1
+            srt_entry.seq = _
+            srt_entry.start += lead_in.duration_seconds - 0.125  # appear slightly early
+            srt_entry.end += lead_in.duration_seconds + 0.125  # disappear slightly late
+
+        # Output SRT file for use by ffmpeg mp4 creation process
+        srt_name: str = f"{DATASET}-{_exercise_set + 1:04}.srt"
+        output_srt: str = os.path.join(srt_out_dir, srt_name)
+        with open(output_srt, "w") as srt:
+            for srt_entry in srt_entries:
+                srt.write(str(srt_entry))
+
+        # Output mp3
         mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
         output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
         tags["duration"] = f"{minutes:02d}:{seconds:02d}"
         print(f"Creating {mp3_name}. {tags['duration']}.")
-        combined_audio.set_frame_rate(MP3_HZ).export(output_mp3+".tmp", format="mp3",
-                              parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
-        shutil.move(output_mp3+".tmp", output_mp3)
+        combined_audio.set_frame_rate(MP3_HZ).export(output_mp3 + ".tmp", format="mp3",
+                                                     parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
+        shutil.move(output_mp3 + ".tmp", output_mp3)
 
         # Generate graphic for MP4
         svg_title: str
@@ -803,8 +847,8 @@ def main() -> None:
         svg_title = svg_title.replace("_album_", tags["album"])
         title = tags["title"]
         if "]" in title:
-            svg_title = svg_title.replace("_title1_", title[:title.index("]")+1].strip())
-            svg_title = svg_title.replace("_title2_", title[title.index("]")+1:].strip())
+            svg_title = svg_title.replace("_title1_", title[:title.index("]") + 1].strip())
+            svg_title = svg_title.replace("_title2_", title[title.index("]") + 1:].strip())
         else:
             svg_title = svg_title.replace("_title1_", tags["title"])
             svg_title = svg_title.replace("_title2_", " ")
@@ -843,13 +887,17 @@ def main() -> None:
         cmd.append(output_png)
         cmd.append("-i")
         cmd.append(output_mp3)
+        cmd.append("-i")
+        cmd.append(output_srt)
+        cmd.append("-c:s")
+        cmd.append("mov_text")
         cmd.append("-q:a")
         cmd.append("3")
         cmd.append("-pix_fmt")
         cmd.append("yuv420p")
         cmd.append("-shortest")
         cmd.append("-r")  # output frame rate
-        cmd.append("1")
+        cmd.append("23.976")
         cmd.append("-tune")
         cmd.append("stillimage")
         for k, v in tags.items():
