@@ -31,8 +31,8 @@ from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
-DATASET: str = "animals"
+DATASET: str = "cll1-v3"
+# DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 # DATASET: str = "ced-sentences"
 
@@ -312,6 +312,19 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
                     to_en_data.challenge_alts.append(alt)
+
+    # Fix casing if needed.
+    for to_en_card in chr2en_deck:
+        to_en_data = to_en_card.data
+        challenge: str = to_en_data.challenge
+        to_en_data.challenge = challenge[0].upper() + challenge[1:]
+        answer: str = to_en_data.answer
+        to_en_data.answer = answer[0].upper() + answer[1:]
+        alts: list[str] = to_en_data.challenge_alts.copy()
+        to_en_data.challenge_alts.clear()
+        for challenge in alts:
+            challenge = challenge[0].upper() + challenge[1:]
+            to_en_data.challenge_alts.append(challenge)
 
     review_sheet_chr2en: str = ""
     review_sheet_en2chr: str = ""
@@ -818,13 +831,14 @@ def main() -> None:
         end_notes_by_track[_exercise_set] = end_note
         combined_audio = combined_audio.append(lead_out)
 
-        # Add leadin offset to SRT entries and assign sequence numbers.
+        # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
         _: int = 0
         for srt_entry in srt_entries:
             _ += 1
             srt_entry.seq = _
             srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
             srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
+            srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
 
         # Output SRT file for use by ffmpeg mp4 creation process
         srt_name: str = f"{DATASET}-{_exercise_set + 1:04}.srt"
