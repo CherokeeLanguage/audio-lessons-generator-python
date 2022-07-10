@@ -819,8 +819,8 @@ def main() -> None:
         for srt_entry in srt_entries:
             _ += 1
             srt_entry.seq = _
-            srt_entry.start += lead_in.duration_seconds - 0.125  # appear slightly early
-            srt_entry.end += lead_in.duration_seconds + 0.125  # disappear slightly late
+            srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
+            srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
 
         # Output SRT file for use by ffmpeg mp4 creation process
         srt_name: str = f"{DATASET}-{_exercise_set + 1:04}.srt"
