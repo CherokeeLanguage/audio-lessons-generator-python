@@ -743,11 +743,11 @@ def main() -> None:
               f" Hidden new cards: {hidden_count:,}.")
 
         challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
-        challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
+        # challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
         challenge_start = unicodedata.normalize("NFC", challenge_start)
 
         challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
-        challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
+        # challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
         challenge_stop = unicodedata.normalize("NFC", challenge_stop)
 
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
@@ -897,7 +897,8 @@ def main() -> None:
         cmd.append("yuv420p")
         cmd.append("-shortest")
         cmd.append("-r")  # output frame rate
-        cmd.append("23.976")
+        cmd.append("1")
+        # cmd.append("23.976")
         cmd.append("-tune")
         cmd.append("stillimage")
         for k, v in tags.items():
