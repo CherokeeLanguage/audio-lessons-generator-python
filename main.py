@@ -32,9 +32,9 @@ from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
-# DATASET: str = "animals"
+DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-DATASET: str = "ced-sentences"
+# DATASET: str = "ced-sentences"
 
 MP3_QUALITY: int = 5
 MP3_HZ: int = 22_050
@@ -673,9 +673,9 @@ def main() -> None:
                         srt_entry: SrtEntry = SrtEntry()
                         srt_entries.append(srt_entry)
                         srt_entry.text = alt
-                        srt_entry.start=main_audio.duration_seconds
+                        srt_entry.start = main_audio.duration_seconds
                         main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt))
-                        srt_entry.end=main_audio.duration_seconds
+                        srt_entry.end = main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
                 # output English gloss
@@ -744,11 +744,15 @@ def main() -> None:
 
         challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
         # challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
-        challenge_start = unicodedata.normalize("NFC", challenge_start)
+        challenge_start = unicodedata.normalize("NFC", challenge_start).strip()
+        while challenge_start[-1] in ".,!?:":
+            challenge_start = challenge_start[:-1]
 
         challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
         # challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
-        challenge_stop = unicodedata.normalize("NFC", challenge_stop)
+        challenge_stop = unicodedata.normalize("NFC", challenge_stop).strip()
+        while challenge_stop[-1] in ".,!?:":
+            challenge_stop = challenge_stop[:-1]
 
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
         tags: dict[str, str] = dict()
