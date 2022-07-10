@@ -84,13 +84,14 @@ def en_audio(voice: str | None, text_en: str) -> AudioSegment:
     return effects.normalize(AudioSegment.from_file(mp3_file))
 
 
-def get_filename(voice: str, text_chr: str):
-    text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
+def get_filename(voice: str, text: str):
+    text = re.sub("\\s+", " ", textwrap.dedent(text)).strip()
+    text = text.lower()
     if not voice:
         voice = "-"
     sha1: str
-    sha1 = hashlib.sha1(text_chr.encode("UTF-8")).hexdigest()
-    _ = unicodedata.normalize("NFD", text_chr).lower().replace(" ", "_")
+    sha1 = hashlib.sha1(text.encode("UTF-8")).hexdigest()
+    _ = unicodedata.normalize("NFD", text).replace(" ", "_")
     _ = unicodedata.normalize("NFC", re.sub("[^a-z_]", "", _))
     if len(_) > 32:
         _ = _[:32]
