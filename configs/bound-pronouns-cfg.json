@@ -1,4 +1,5 @@
 {
+    "create_mp4": true,
     "break_on_end_note": false,
     "create_all_sessions": true,
     "data_dir": "walc1",

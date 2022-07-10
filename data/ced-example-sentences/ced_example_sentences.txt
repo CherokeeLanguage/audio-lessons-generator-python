@@ -148,19 +148,17 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏔᏂ|3|Utani hia ahnawo.|ᎤᏔᏂ ᎯᎠ ᎠᎿᏬ.|This shirt is too big.|U:tani̋ hiɂa ahnawo.; U:tani̋ hiɂi ahnawo.
 *|ᎤᎪᏍᎦ|3|Ada uweti ugosga.|ᎠᏓ ᎤᏪᏘ ᎤᎪᏍᎦ.|The old wood is decaying.|Ada uwe̋:ti ù:go:sga.
 *|ᎤᏚᏥ|3|Gado dudoa uduji?|ᎦᏙ ᏚᏙᎠ ᎤᏚᏥ?|What's his uncle's name?|Gadò dù:do:ɂa u:du:ji?; Gadò dù:do u:du:ji?; Dò dù:do u:du:ji?
+*|ᎤᏛᎯᏍᏗ|3|Gago na utvhisdi?|ᎦᎪ Ꮎ ᎤᏛᎯᏍᏗ?|Who is the old chap?|Gá:gō na u:tvhisdi?
+*|ᎬᎿᎨᎢ|3|Gvhnage dagwalela agiha.|ᎬᎿᎨ ᏓᏆᎴᎳ ᎠᏆᎴᎳ ᎠᎩᎭ.|I have a black car.|Gv̌:hnáge̋:ɂi dagwalé:la à:giha.; Gv̌:hnáge̋ dagwalé:la à:giha.; Gv̌:hnáge̋ dagwalé:l à:giha.
+*|ᏞᎩ|3|Hlekis dagaluhji udvhne?|ᏞᎩᏍ ᏓᎦᎷᏥ ᎤᏛᏁ?|Did he say he was coming soon?|Hle:kísgo dagáɂlúhji ù:dv:hné:ɂi?; Hle:kís dagáɂlúhji ù:dv:hné?
+*|ᎪᎢᎭᎢ|3|Goiha hawiya agia.|ᎪᎢᎭ ᎭᏫᏯ ᎠᎩᎠ.|He is eating greasy meat.|Goɂi̋ha hawi:ya à:gíɂa.; Goɂi̋ha hawi:ya à:gí.
+*|ᎠᏑᏰᎭ|3|Hasuyvla na ugama.|ᎭᏑᏴᎳ Ꮎ ᎤᎦᎹ.|Stir the soup.|Hasu:yv̌:la na ǔ:gáma.
+*|ᎪᏍᏚ|3|Kosdu hilagi osii.|ᎪᏍᏚ ᎯᎳᎩ ᏍᏏᎢ.|Take the ashes out of the stove.|Kò:sdu hilagi ó:si̋:ɂi.
+*|ᏙᏌ|3|Ayo! Dosa aksgala.|ᎠᏲ! ᏙᏌ ᎠᎦᏍᎦᎳ.|Ouch! A mosquito bit me.|Ayo! do:sa à:ksgala.
+*|ᏓᏤᏝ|3|Gado usdi dajehla?|ᎦᏙ ᎤᏍᏗ ᏓᏤᏝ.|Which one is better?|Gadō ű:sdi dà:jě:hla?
+*|ᎠᎨᏯ|3|Gag vsgina agehya?|ᎦᎪ ᎥᏍᎩᎾ ᎠᎨᏯ?|Who is that woman?|Gá:gō v̀:sgina agě:hya?; Gá:g v̀:sgina agě:hya?; Gá:gō v̀:sgi agě:hya?; Gá:g v̀:sgi agě:hya?; Gá:gō sgina agě:hya?; Gá:g sgina agě:hya?; Gá:gō nà:sgi agě:hya?; Gá:g nà:sgi agě:hya?
+*|ᎠᏞᎠ|3|Hadlv iyv udlesei?|ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ?|Where did he turn off?|Ha:dlv iyv̋ ù:dlé:sé:ɂi?; Ha:dlv iyv̋ ù:dlé:sé?
 
-|ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|
-|ᎤᏛᎯᏍᏗ|3|Gago na utvhisdi?|ᎦᎪ Ꮎ ᎤᏛᎯᏍᏗ?|Who is the old chap?|
-|ᎬᎿᎨᎢ|3|Gvhnage dagwalela agiha.|ᎬᎿᎨ ᏓᏆᎴᎳ ᎠᏆᎴᎳ ᎠᎩᎭ.|I have a black car.|
-|ᏞᎩ|3|Hlekis dagaluhji udvhne?|ᏞᎩᏍ ᏓᎦᎷᏥ ᎤᏛᏁ?|Did he say he was coming soon?|
-|ᎪᎢᎭᎢ|3|Goiha hawiya agia.|ᎪᎢᎭ ᎭᏫᏯ ᎠᎩᎠ.|He is eating greasy meat.|
-|ᎠᏑᏰᎭ|3|Hasuyvla na ugama.|ᎭᏑᏴᎳ Ꮎ ᎤᎦᎹ.|Stir the soup.|
-|ᎪᏍᏚ|3|Kosdu hilagi osii.|ᎪᏍᏚ ᎯᎳᎩ ᏍᏏᎢ.|Take the ashes out of the stove.|
-|ᏙᏌ|3|Ayo! Dosa aksgala.|ᎠᏲ! ᏙᏌ ᎠᎦᏍᎦᎳ.|Ouch! A mosquito bit me.|
-|ᏓᏤᏝ|3|Gado usdi dajehla?|ᎦᏙ ᎤᏍᏗ ᏓᏤᏝ.|Which one is better?|
-|ᏧᏓᏘᎿᎢ|3|Gag judatihna ijadahlgvi?|ᎦᎪ ᏧᏓᏘᎿᎢ ᎢᏣᏓᎷᎬᎢ?|Who is the chairman of your group?|
-|ᎠᎨᏯ|3|Gag vsgina agehya?|ᎦᎪ ᎥᏍᎩᎾ ᎠᎨᏯ?|Who is that woman?|
-|ᎠᏞᎠ|3|Hadlv iyv udlesei?|ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ?|Where did he turn off?|
 |ᏗᎨᏫ|3|Hia asgaya dikewi.|ᎯᎠ ᎠᏍᎦᏯ ᏗᎨᏫ.|This man is blind.|
 |ᎤᏒᎯᎭ|3|Hila iyv datsvhli?|ᎯᎳ ᎢᏴ ᏓᏣᏒᏟ?|When are you going to bed?|
 |Ꮟ|3|Hlas si yigaluhga?|ᏝᏍ Ꮟ ᏱᎦᎷᎦ?|Isn't he back yet?|
@@ -1776,3 +1774,6 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᏧᏓᎴᏅᏓ|2|Judalehnvda unisgohldidana.|ᏧᏓᎴᏅᏓ ᎤᏂᏍᎪᎵᏗᏓᎾ.|They have various things on sale.|Ju:dale:hnv̋:da
 -|ᏗᎧᏃᏩᏗᏙᎯ|2|Danohyadas dinikanowadidohi?|ᏓᏃᏯᏓᏍ ᏗᏂᎧᏃᏩᏗᏙᎯ?|Do angels have wings?|di:ni:kano:wadi:dő:hi
 -|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|Ni! Gá:gō
+-|ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|Gadò niga jv:nv́:ga?
+-|ᏧᏓᏘᎿᎢ|3|Gag judatihna ijadahlgvi?|ᎦᎪ ᏧᏓᏘᎿᎢ ᎢᏣᏓᎷᎬᎢ?|Who is the chairman of your group?|Gá:gō ju:dǎ:tihnaɂi
+
