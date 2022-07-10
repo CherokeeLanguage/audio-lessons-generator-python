@@ -123,35 +123,32 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᎦᎾᏬᏗᎭ|2|Julasihdeni daganawhdiha.|ᏧᎳᏏᏕᏂ ᏓᎦᎾᏬᏗᎭ.|He's warming his feet.|Ju:là:sihde̋:ni dà:ga:nawhdíha.; Ju:là:sihde̋:ni dà:ga:nawhdí.
 *|ᎠᎵᏍᎫᏍᎦ|2|Halsguhya dehadanilvgesdi.|ᎭᎵᏍᎫᏯ ᏕᎭᏓᏂᎸᎨᏍᏗ.|Nod your head if you accept.|Halsgù:hya de:ha:daní:lv:gé:sdi.
 *|ᎤᎾᎵᎢ|2|Oginalii widajiwhtvhidoli.|ᎣᎩᎾᎵᎢ ᏫᏓᏥᏩᏛᎯᏙᎵ.|I am going to go and visit my friend.|Ò:gina:li̋:ɂi wida:jiwhtv:hǐ:dô:li.; Ò:gina:li̋ wida:jiwhtv:hǐ:dô:li.
+*|ᎦᏅᎦᎵᎭ|2|Dagwasuhgahlv dejinvgalia.|ᏓᏆᏑᎦᏢ ᏕᏥᏅᎦᎵᎠ.|I'm cleaning my fingernails.|Dà:gwasuhgahlv̋:ɂi de:jinv:galí:ɂa.; Dà:gwasuhgahlv̋ de:jinv:galí:ɂa.; Dà:gwasuhgahlv̋ de:jinv:galí.
+*|ᎠᎵᏰᏑᏍᏘᎩᎠ|2|Yudawoena aliyesustgisgoi.|ᏳᏓᏬᎡᎾ ᎠᎵᏰᏑᏍᏘᎩᏍᎪᎢ.|When he goes swimming, he takes his ring off.|Yù:dawó:ɂé:na à:liyê:su:stgí:sgó:ɂi.; Yù:dawó:ɂé:na à:liyê:su:stgí:sgó.
+*|ᎠᏛᏛᎲᏍᎦ|2|Hiyatvdvhvga nididvnelisvi.|ᎯᏯᏛᏛᎲᎦ ᏂᏗᏛᏁᎵᏒᎢ.|Ask him what he's intending to do.|Hi:yà:tv:dv:hv̀:ga nididv́:ne:lǐ:sv:ɂi.
+*|ᎤᏓᏙᎵᏍᏗ|2|Udadolisdohdi ajitayoselvi.|ᎤᏓᏙᎵᏍᏙᏗ ᎠᏥᏔᏲᏎᎸᎢ.|He was asked to pray.|U:da:do:lì:sdóhdi à:jihtayóseɂlv̌:ɂi.; U:da:do:lì:sdóhdi à:jihtayóseɂlv̌.
+*|ᏓᏟᏃᎮᎭ|2|Dihlinohehdi degalinohesgvi.|ᏗᏟᏃᎮᏗ ᏕᎦᎵᏃᎮᏍᎬᎢ.|I was conversing on the phone.|Di:hlino:hehdi̋:ɂi degálino:hě:sgv̌:ɂi.; Di:hlino:hehdi̋ degálino:hě:sgv̌:ɂi.; Di:hlino:hehdi̋ degálino:hě:sgv̌.
+*|ᎠᏓᏪᏐᎸᏍᏗᎭ|2|Hadawesolvsda. Dotastayesega.|ᎭᏓᏪᏐᎸᏍᏓ. ᏙᏔᏍᏔᏰᏎᎦ.|Rest. You'll get exhausted.|Hadawè:sǒ:lv́:sda. Do:tastaye:sé:ga.
+*|ᎠᎵᏍᎪᎸᏓᏁᎭ|2|Sgwalsgohldasi agiwonihisdii.|ᏍᏆᎵᏍᎪᎸᏓᏏ ᎠᎩᏬᏂᎯᏍᏗᎢ.|Permit me to speak.|Sgwalsgohldà:si à:giwò:nǐ:hísdi̋:ɂi.
+*|ᏧᎵᏏᏅᏓ|2|Julsihnvdas dejalvhwisdanehoi?|ᏧᎵᏏᏅᏓᏍ ᏕᏣᎸᏫᏍᏓᏁᎰᎢ?|Do you work nightly?|Julsihnv̋:dasgo de:jalv̌:hwísdà:ne:hó:ɂi?; Julsihnv̋:das de:jalv̌:hwísdà:ne:hó:ɂi?; Julsihnv̋:das de:jalv̌:hwísdà:ne:hó?
+*|ᏓᎾᏓᎯᎵᏙᎭ|2|Unadodagwohnv danadahilidohesdi.|ᎤᎾᏙᏓᏉᏅ ᏓᎾᏓᎯᎵᏙᎮᏍᏗ.|They will be having a trial on Monday.|U:nadǒ:dágwohnv̋:ɂi dà:nada:híɂlǐ:dô:hé:sdi.; U:nadǒ:dágwohnv̋ dà:nada:híɂlǐ:dô:hé:sdi.; U:dǒ:dágwohnv̋:ɂi dà:nada:híɂlǐ:dô:hé:sdi.; U:dǒ:dágwohnv̋ dà:nada:híɂlǐ:dô:hé:sdi.; Dǒ:dágwohnvɂi dà:nada:híɂlǐ:dô:hé:sdi.; Dǒ:dágwohnv̄ dà:nada:híɂlǐ:dô:hé:sdi.
+*|ᏓᎵᏰᏑᎵᎠ|2|Degaliyesuli dodvgilvhwisdanelihehno.|ᏕᎦᎵᏰᏑᎵ ᏙᏛᎩᎸᏫᏍᏓᏁᎵᎮᏃ|I am putting on gloves because I will be working.|De:gálíyê:su:líɂa do:dv:gilv̌:hwísdà:ne:lihě:hno.; De:gálíyê:su:líɂa do:dv:gilv̌:hwísdà:ne:lihno.
+*|ᏓᎳᎳ|3|Dalala uniyvhv wesa.|ᏓᎳᎳ ᎤᏂᏴᎲ ᏪᏌ.|A cat caught a woodpecker.|Dala:la ù:ní:yv:hv̌:ɂi wě:sa; Dala:la ù:ní:yv:hv̌ wě:sa;
+*|ᎯᎳ|3|Hila iga jugvwahldi?|ᎯᎳ ᎢᎦ ᏧᎬᏩᎶᏗ?|How much does it cost?|Hila̋ ǐ:ga̋ ju:gv̌:wahldi?
+*|ᎪᎵᎩ|3|Hiyoligis hia asgaya?|ᎯᏲᎵᎩᏍ ᎯᎠ ᎠᏍᎦᏯ?|Do you know this man?|Hi:yo:lì:gisgo hiɂa asgaya?; Hi:yo:lì:gis hiɂa asgaya?; Hi:yo:lì:gisgo hiɂi asgaya?; Hi:yo:lì:gis hiɂi asgaya?
+*|ᎪᎴᎯ|3|Golehi udlvga ganakti.|ᎪᎴᎯ ᎤᏢᎦ ᎦᎾᎦᏘ.|The doctor is sick with pneumonia.|Gǒ:lě:hi ù:dlv́:ga agáɂnakti.; Gǒ:lě:hi ù:dlv́:ga gáɂnakti.
+*|ᎪᏛᎢ|3|Gotv nav deginohlesdi.|ᎪᏛ ᎾᎤ ᏕᎩᏃᏞᏍᏗ.|We two will be sitting by the fire.|Gǒ:tv̋:ɂi naɂv dèginǒ:hlê:sdi.; Gǒ:tv̋ naɂv dèginǒ:hlê:sdi.
+*|ᎭᏢ|3|Hadlv wigalohi sdalii?|ᎭᏢ ᏫᎦᎶᎯ ᏍᏓᎵᎢ?|Where did your friend go?|Ha:dlv hilǒ:hi sda:li̋:ɂi?; Ha:dlv hilǒ:hi sda:li̋?
+*|ᎠᏏᏂ|3|Gado asini chai?|ᎦᏙ ᎠᏏᏂ ᏣᎢ?|Why are you walking backwards?|Gadò à:si:ni á:ɂi?; Dò à:si:ni á:ɂi?
+*|ᎠᏗᎭ|3|Gado usdi adiha?|ᎦᏙ ᎤᏍᏗ ᎠᏗᎭ?|What is he saying?|Gadō u:sdi à:diha?; Gadō u:sd à:diha?; Dō u:sd à:diha?; Dō u:sd à:di?
+*|ᎠᏒᎦ|3|Gosdi uyo asvga.|ᎪᏍᏗ ᎤᏲ ᎠᏒᎦ.|Something smells bad.|Go:hű:sdi u:yő:ɂi à:sv̂:ga.; Gő:sdi u:yő:ɂi à:sv̂:ga.; Go:hű:sdi u:yő à:sv̂:ga.; Gő:sdi u:yő à:sv̂:ga.; Go:hű:sd u:yő à:sv̂:ga.; Gő:sd u:yő à:sv̂:ga.
+*|ᎫᎫ|3|Gugu degwayodesdi gihli|ᎫᎫ ᏕᏆᏲᏕᏍᏗ ᎩᏟ.|Ticks are making the dog itch.|Gù:gu dè:gwà:yo:dè:sdi:ha gi:hli.; Gù:gu dè:gwà:yo:dè:sdi gi:hli.
+*|ᎫᎴ|3|Gule danigisgoi saloli.|ᎫᎴ ᏓᏂᎩᏍᎪᎢ ᏌᎶᎵ.|Squirrels eat acorns.|Gu:le dà:nigî:sgó:ɂi salǒ:li.; Gu:le dà:nigî:sgó salǒ:li.
+*|ᏦᎩ|3|Jogi didla inena.|ᏦᎩ ᏗᏜ ᎢᏁᎾ.|Let's go upstream.|Jo:gi dí:dla i:nè:na.
+*|ᎤᏔᏂ|3|Utani hia ahnawo.|ᎤᏔᏂ ᎯᎠ ᎠᎿᏬ.|This shirt is too big.|U:tani̋ hiɂa ahnawo.; U:tani̋ hiɂi ahnawo.
+*|ᎤᎪᏍᎦ|3|Ada uweti ugosga.|ᎠᏓ ᎤᏪᏘ ᎤᎪᏍᎦ.|The old wood is decaying.|Ada uwe̋:ti ù:go:sga.
+*|ᎤᏚᏥ|3|Gado dudoa uduji?|ᎦᏙ ᏚᏙᎠ ᎤᏚᏥ?|What's his uncle's name?|Gadò dù:do:ɂa u:du:ji?; Gadò dù:do u:du:ji?; Dò dù:do u:du:ji?
 
-|ᎦᏅᎦᎵᎭ|2|Dagwasuhgahlv dejinvgalia.|ᏓᏆᏑᎦᏢ ᏕᏥᏅᎦᎵᎠ.|I'm cleaning my fingernails.|
-|ᎠᎵᏰᏑᏍᏘᎩᎠ|2|Yudawoena aliyesustgisgoi.|ᏳᏓᏬᎡᎾ ᎠᎵᏰᏑᏍᏘᎩᏍᎪᎢ.|When he goes swimming, he takes his ring off.|
-|ᎠᏛᏛᎲᏍᎦ|2|Hiyatvdvhvga nididvnelisvi.|ᎯᏯᏛᏛᎲᎦ ᏂᏗᏛᏁᎵᏒᎢ.|Ask him what he's going to do.|
-|ᏧᏓᎴᏅᏓ|2|Judalehnvda unisgohldidana.|ᏧᏓᎴᏅᏓ ᎤᏂᏍᎪᎵᏗᏓᎾ.|They have various things on sale.|
-|ᎤᏓᏙᎵᏍᏗ|2|Udadolisdohdi ajitayoselvi.|ᎤᏓᏙᎵᏍᏙᏗ ᎠᏥᏔᏲᏎᎸᎢ.|He was asked to pray.|
-|ᏗᎧᏃᏩᏗᏙᎯ|2|Danohyadas dinikanowadidohi?|ᏓᏃᏯᏓᏍ ᏗᏂᎧᏃᏩᏗᏙᎯ?|Do angels have wings?|
-|ᏓᏟᏃᎮᎭ|2|Dihlinohehdi degalinohesgvi.|ᏗᏟᏃᎮᏗ ᏕᎦᎵᏃᎮᏍᎬᎢ.|I was conversing on the phone.|
-|ᎠᏓᏪᏐᎸᏍᏗᎭ|2|Hadawesolvsda. Dotastayesega.|ᎭᏓᏪᏐᎸᏍᏓ. ᏙᏔᏍᏔᏰᏎᎦ.|Rest. You'll get exhausted.|
-|ᎠᎵᏍᎪᎸᏓᏁᎭ|2|Sgwalsgohldasi agiwonihisdii.|ᏍᏆᎵᏍᎪᎸᏓᏏ ᎠᎩᏬᏂᎯᏍᏗᎢ.|Permit me to speak.|
-|ᏧᎵᏏᏅᏓ|2|Julsihnvdas dejalvhwisdanehoi?|ᏧᎵᏏᏅᏓᏍ ᏕᏣᎸᏫᏍᏓᏁᎰᎢ?|Do you work nightly?|
-|ᏓᎾᏓᎯᎵᏙᎭ|2|Unadodagwohnv danadahilidohesdi.|ᎤᎾᏙᏓᏉᏅ ᏓᎾᏓᎯᎵᏙᎮᏍᏗ.|They will be having a trial on Monday.|
-|ᏓᎵᏰᏑᎵᎠ|2|Degaliyesuli dodvgilvhwisdanelihehno.|ᏕᎦᎵᏰᏑᎵ ᏙᏛᎩᎸᏫᏍᏓᏁᎵᎮᏃ|I am putting on gloves because I am going to work.|
-|ᏓᎳᎳ|3|Dalala uniyvhv wesa.|ᏓᎳᎳ ᎤᏂᏴᎲ ᏪᏌ.|A cat caught a woodpecker.|
-|ᎯᎳ|3|Hila iga jugvwahldi?|ᎯᎳ ᎢᎦ ᏧᎬᏩᎶᏗ?|How much does it cost?|
-|ᎪᎵᎩ|3|Hiyoligis hia asgaya?|ᎯᏲᎵᎩᏍ ᎯᎠ ᎠᏍᎦᏯ?|Do you know this man?|
-|ᎪᎴᎯ|3|Golehi udlvga ganakti.|ᎪᎴᎯ ᎤᏢᎦ ᎦᎾᎦᏘ.|The doctor has pneumonia.|
-|ᎪᏛᎢ|3|Gotv nav deginohlesdi.|ᎪᏛ ᎾᎤ ᏕᎩᏃᏞᏍᏗ.|Let's sit by the fire.|
-|ᎭᏢ|3|Hadlv wigalohi sdalii?|ᎭᏢ ᏫᎦᎶᎯ ᏍᏓᎵᎢ?|Where did your friend go?|
-|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|
-|ᎠᏏᏂ|3|Gado asini chai?|ᎦᏙ ᎠᏏᏂ ᏣᎢ?|Why are you walking backwards?|
-|ᎠᏗᎭ|3|Gado usdi adiha?|ᎦᏙ ᎤᏍᏗ ᎠᏗᎭ?|What is he saying?|
-|ᎠᏒᎦ|3|Gosdi uyo asvga.|ᎪᏍᏗ ᎤᏲ ᎠᏒᎦ.|Something smells bad.|
-|ᎫᎫ|3|Gugu degwayodesdi gihli|ᎫᎫ ᏕᏆᏲᏕᏍᏗ ᎩᏟ.|Ticks are making the dog itch.|
-|ᎫᎴ|3|Gule danigisgoi saloli.|ᎫᎴ ᏓᏂᎩᏍᎪᎢ ᏌᎶᎵ.|Squirrels eat acorns.|
-|ᏦᎩ|3|Jogi didla inena.|ᏦᎩ ᏗᏜ ᎢᏁᎾ.|Let's go upstream.|
-|ᎤᏔᏂ|3|Utani hia ahnawo.|ᎤᏔᏂ ᎯᎠ ᎠᎿᏬ.|This shirt is too big.|
-|ᎤᎪᏍᎦ|3|Ada uweti ugosga.|ᎠᏓ ᎤᏪᏘ ᎤᎪᏍᎦ.|The old wood is decaying.|
-|ᎤᏚᏥ|3|Gado dudoa uduji?|ᎦᏙ ᏚᏙᎠ ᎤᏚᏥ?|What's his uncle's name?|
 |ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|
 |ᎤᏛᎯᏍᏗ|3|Gago na utvhisdi?|ᎦᎪ Ꮎ ᎤᏛᎯᏍᏗ?|Who is the old chap?|
 |ᎬᎿᎨᎢ|3|Gvhnage dagwalela agiha.|ᎬᎿᎨ ᏓᏆᎴᎳ ᎠᏆᎴᎳ ᎠᎩᎭ.|I have a black car.|
@@ -1776,3 +1773,6 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᏓᎧᏁᎯᎭ|2|Dakwalvsadv dagikaneheha.|ᏓᏆᎸᏌᏛ ᏓᎩᎧᏁᎮᎭ.|He is tying my shoe laces for me.|
 -|ᎦᏁᏍᏓᎳᏗᎠ|2|Deganavhnv deganesdaldia.|ᏕᎦᎾᏅ ᏕᎦᏁᏍᏓᎳᏗᎠ.|The roads are freezing.|ganě:sdáladiɂa
 -|ᎧᏄᏲᎳᏗᎠ|2|Kanuyoladisgvdv jidajiyva.|ᎧᏄᏲᎳᏗᏍᎬᏛ ᏥᏓᏥᏴᎠ.|It was misting when I came in.|Kanú:yo:ládî:sgv̌:dv
+-|ᏧᏓᎴᏅᏓ|2|Judalehnvda unisgohldidana.|ᏧᏓᎴᏅᏓ ᎤᏂᏍᎪᎵᏗᏓᎾ.|They have various things on sale.|Ju:dale:hnv̋:da
+-|ᏗᎧᏃᏩᏗᏙᎯ|2|Danohyadas dinikanowadidohi?|ᏓᏃᏯᏓᏍ ᏗᏂᎧᏃᏩᏗᏙᎯ?|Do angels have wings?|di:ni:kano:wadi:dő:hi
+-|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|Ni! Gá:gō

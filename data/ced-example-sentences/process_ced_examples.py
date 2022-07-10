@@ -7,6 +7,8 @@ conda activate audio-lessons
 exec python "$0" "$@"
 exit $?
 ''"""
+import _csv
+import csv
 import pathlib
 
 IX_VALID: int = 0
@@ -18,11 +20,14 @@ def main() -> None:
     work_dir = pathlib.Path(__file__).resolve().parent
     in_file: pathlib.Path = work_dir.joinpath("ced_example_sentences.txt")
     out_file: pathlib.Path = work_dir.joinpath("../ced-sentences.txt")
-
+    out_csv: pathlib.Path = work_dir.joinpath("../ced-sentences.csv")
+    hdr: str = "ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE"
     with open(in_file, "r") as r:
-        with open(out_file, "w") as w:
-            w.write("ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE")
+        with open(out_file, "w") as w, open(out_csv, "w") as w2:
+            wcsv: _csv.writer = csv.writer(w2)
+            w.write(hdr)
             w.write("\n")
+            wcsv.writerow(hdr.split("|"))
             for line in r:
                 if not line.strip():
                     continue
@@ -54,8 +59,10 @@ def main() -> None:
                         alt_pronounce += "; "
                     alt_pronounce += item
                 gender: str = ""
-                w.write(f"||{alt_pronounce}|||{gender}||{pronounce}|{english}||")
+                data_row: str = f"||{alt_pronounce}|||{gender}||{pronounce}|{english}||"
+                w.write(data_row)
                 w.write("\n")
+                wcsv.writerow(data_row.split("|"))
 
 
 if __name__ == '__main__':

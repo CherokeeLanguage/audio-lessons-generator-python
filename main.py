@@ -17,8 +17,6 @@ import unicodedata
 from datetime import date
 from datetime import datetime
 
-import cairosvg
-import svglue
 from pydub import AudioSegment
 from random import Random
 from tqdm import tqdm
@@ -975,15 +973,6 @@ def bump_completed() -> None:
             card_stats.show_again_delay = next_session_delay
             card_stats.leitner_box_inc()
             finished_deck.append(card)
-
-
-def srt_ts(position: float) -> str:
-    """Returns SRT formatted timestamp string where position is in seconds."""
-    ms = int(position * 1000) % 1000
-    seconds = int(position) % 60
-    minutes = (position//60) % 60
-    hours = position//(60*60)
-    return f"{hours:02d}:{minutes:02d}:{seconds:02d},{ms:03d}"
 
 
 if __name__ == "__main__":

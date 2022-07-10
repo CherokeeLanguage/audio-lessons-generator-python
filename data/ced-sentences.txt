@@ -123,3 +123,28 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Ju:là:sihde̋:ni dà:ga:nawhdí.|||||Ju:là:sihde̋:ni dà:ga:nawhdíha.|He's warming his feet.||
 |||||||Halsgù:hya de:ha:daní:lv:gé:sdi.|Nod your head if you accept.||
 ||Ò:gina:li̋ wida:jiwhtv:hǐ:dô:li.|||||Ò:gina:li̋:ɂi wida:jiwhtv:hǐ:dô:li.|I am going to go and visit my friend.||
+||Dà:gwasuhgahlv̋ de:jinv:galí:ɂa.; Dà:gwasuhgahlv̋ de:jinv:galí.|||||Dà:gwasuhgahlv̋:ɂi de:jinv:galí:ɂa.|I'm cleaning my fingernails.||
+||Yù:dawó:ɂé:na à:liyê:su:stgí:sgó.|||||Yù:dawó:ɂé:na à:liyê:su:stgí:sgó:ɂi.|When he goes swimming, he takes his ring off.||
+|||||||Hi:yà:tv:dv:hv̀:ga nididv́:ne:lǐ:sv:ɂi.|Ask him what he's intending to do.||
+||U:da:do:lì:sdóhdi à:jihtayóseɂlv̌.|||||U:da:do:lì:sdóhdi à:jihtayóseɂlv̌:ɂi.|He was asked to pray.||
+||Di:hlino:hehdi̋ degálino:hě:sgv̌:ɂi.; Di:hlino:hehdi̋ degálino:hě:sgv̌.|||||Di:hlino:hehdi̋:ɂi degálino:hě:sgv̌:ɂi.|I was conversing on the phone.||
+|||||||Hadawè:sǒ:lv́:sda. Do:tastaye:sé:ga.|Rest. You'll get exhausted.||
+|||||||Sgwalsgohldà:si à:giwò:nǐ:hísdi̋:ɂi.|Permit me to speak.||
+||Julsihnv̋:das de:jalv̌:hwísdà:ne:hó:ɂi?; Julsihnv̋:das de:jalv̌:hwísdà:ne:hó?|||||Julsihnv̋:dasgo de:jalv̌:hwísdà:ne:hó:ɂi?|Do you work nightly?||
+||U:nadǒ:dágwohnv̋ dà:nada:híɂlǐ:dô:hé:sdi.; U:dǒ:dágwohnv̋:ɂi dà:nada:híɂlǐ:dô:hé:sdi.; U:dǒ:dágwohnv̋ dà:nada:híɂlǐ:dô:hé:sdi.; Dǒ:dágwohnvɂi dà:nada:híɂlǐ:dô:hé:sdi.; Dǒ:dágwohnv̄ dà:nada:híɂlǐ:dô:hé:sdi.|||||U:nadǒ:dágwohnv̋:ɂi dà:nada:híɂlǐ:dô:hé:sdi.|They will be having a trial on Monday.||
+||De:gálíyê:su:líɂa do:dv:gilv̌:hwísdà:ne:lihno.|||||De:gálíyê:su:líɂa do:dv:gilv̌:hwísdà:ne:lihě:hno.|I am putting on gloves because I will be working.||
+||Dala:la ù:ní:yv:hv̌ wě:sa|||||Dala:la ù:ní:yv:hv̌:ɂi wě:sa|A cat caught a woodpecker.||
+|||||||Hila̋ ǐ:ga̋ ju:gv̌:wahldi?|How much does it cost?||
+||Hi:yo:lì:gis hiɂa asgaya?; Hi:yo:lì:gisgo hiɂi asgaya?; Hi:yo:lì:gis hiɂi asgaya?|||||Hi:yo:lì:gisgo hiɂa asgaya?|Do you know this man?||
+||Gǒ:lě:hi ù:dlv́:ga gáɂnakti.|||||Gǒ:lě:hi ù:dlv́:ga agáɂnakti.|The doctor is sick with pneumonia.||
+||Gǒ:tv̋ naɂv dèginǒ:hlê:sdi.|||||Gǒ:tv̋:ɂi naɂv dèginǒ:hlê:sdi.|We two will be sitting by the fire.||
+||Ha:dlv hilǒ:hi sda:li̋?|||||Ha:dlv hilǒ:hi sda:li̋:ɂi?|Where did your friend go?||
+||Dò à:si:ni á:ɂi?|||||Gadò à:si:ni á:ɂi?|Why are you walking backwards?||
+||Gadō u:sd à:diha?; Dō u:sd à:diha?; Dō u:sd à:di?|||||Gadō u:sdi à:diha?|What is he saying?||
+||Gő:sdi u:yő:ɂi à:sv̂:ga.; Go:hű:sdi u:yő à:sv̂:ga.; Gő:sdi u:yő à:sv̂:ga.; Go:hű:sd u:yő à:sv̂:ga.; Gő:sd u:yő à:sv̂:ga.|||||Go:hű:sdi u:yő:ɂi à:sv̂:ga.|Something smells bad.||
+||Gù:gu dè:gwà:yo:dè:sdi gi:hli.|||||Gù:gu dè:gwà:yo:dè:sdi:ha gi:hli.|Ticks are making the dog itch.||
+||Gu:le dà:nigî:sgó salǒ:li.|||||Gu:le dà:nigî:sgó:ɂi salǒ:li.|Squirrels eat acorns.||
+|||||||Jo:gi dí:dla i:nè:na.|Let's go upstream.||
+||U:tani̋ hiɂi ahnawo.|||||U:tani̋ hiɂa ahnawo.|This shirt is too big.||
+|||||||Ada uwe̋:ti ù:go:sga.|The old wood is decaying.||
+||Gadò dù:do u:du:ji?; Dò dù:do u:du:ji?|||||Gadò dù:do:ɂa u:du:ji?|What's his uncle's name?||
