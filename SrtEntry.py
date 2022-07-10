@@ -15,8 +15,8 @@ def srt_ts(position: float) -> str:
     """Returns SRT formatted timestamp string where position is in seconds."""
     ms = int(position * 1000) % 1000
     seconds = int(position) % 60
-    minutes = (position // 60) % 60
-    hours = position // (60 * 60)
+    minutes = int((position // 60) % 60)
+    hours = int(position // (60 * 60))
     return f"{hours:02d}:{minutes:02d}:{seconds:02d},{ms:03d}"
 
 
