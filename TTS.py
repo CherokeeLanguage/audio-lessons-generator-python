@@ -95,5 +95,5 @@ def get_filename(voice: str, text: str):
     _ = unicodedata.normalize("NFC", re.sub("[^a-z_]", "", _))
     if len(_) > 32:
         _ = _[:32]
-    mp3_name_chr: str = f"{_}_{voice}_{sha1}.mp3"
-    return mp3_name_chr
+    filename: str = f"{_}_{voice}_{sha1}.mp3"
+    return filename

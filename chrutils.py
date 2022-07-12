@@ -1,10 +1,16 @@
-#!/usr/bin/env python3
+#!/usr/bin/env bash
+"""true" '''\'
+set -e
+eval "$(${CONDA_EXE:-conda} shell.bash hook)"
+conda activate audio-lessons
+exec python "$0" "$@"
+exit $?
+''"""
 import re
+import unicodedata
 from builtins import dict
 from builtins import list
 from builtins import str
-
-CRA = "\u030a"  # Combining Ring Above - used to mark potential indeterminate pronunciations
 
 
 def char_range(c1, c2):
@@ -12,82 +18,133 @@ def char_range(c1, c2):
         yield chr(c)
 
 
-syl2latin_dict: dict = dict()
-syl2latin_vowels: list = ["a" + CRA, "e" + CRA, "i" + CRA, "o" + CRA, "u" + CRA, "v" + CRA]
+translit2syl: dict = dict()
+translit2syl_vowels: list = ["a", "e", "i", "o", "u", "v"]
 
-for syl, latin in zip(char_range("Ꭰ", "Ꭵ"), syl2latin_vowels):
-    syl2latin_dict[syl] = latin
+for syl, vowel in zip(char_range("Ꭰ", "Ꭵ"), translit2syl_vowels):
+    translit2syl[vowel] = syl
 
-syl2latin_dict["Ꭶ"] = "ga" + CRA
-syl2latin_dict["Ꭷ"] = "ka" + CRA
+translit2syl["ga"] = "Ꭶ"
+translit2syl["ka"] = "Ꭷ"
 
-for syl, latin in zip(char_range("Ꭸ", "Ꭼ"), syl2latin_vowels[1:]):
-    syl2latin_dict[syl] = "g" + CRA + latin
+for syl, vowel in zip(char_range("Ꭸ", "Ꭼ"), translit2syl_vowels[1:]):
+    translit2syl["g" + vowel] = syl
+    translit2syl["k" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꭽ", "Ꮂ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "h" + latin
+for syl, vowel in zip(char_range("Ꭽ", "Ꮂ"), translit2syl_vowels):
+    translit2syl["h" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꮃ", "Ꮈ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "l" + latin
+for syl, vowel in zip(char_range("Ꮃ", "Ꮈ"), translit2syl_vowels):
+    translit2syl["l" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꮉ", "Ꮍ"), syl2latin_vowels[:-1]):
-    syl2latin_dict[syl] = "m" + latin
+for syl, vowel in zip(char_range("Ꮉ", "Ꮍ"), translit2syl_vowels[:-1]):
+    translit2syl["m" + vowel] = syl
 
-syl2latin_dict["Ꮎ"] = "na" + CRA
-syl2latin_dict["Ꮐ"] = "na" + CRA + "h"
-syl2latin_dict["Ꮏ"] = "hna" + CRA
+translit2syl["na"] = "Ꮎ"
+# translit2syl["nah"] = "Ꮐ"
+translit2syl["hna"] = "Ꮏ"
 
-for syl, latin in zip(char_range("Ꮑ", "Ꮕ"), syl2latin_vowels[1:]):
-    syl2latin_dict[syl] = "h" + CRA + "n" + latin
+for syl, vowel in zip(char_range("Ꮑ", "Ꮕ"), translit2syl_vowels[1:]):
+    translit2syl["n" + vowel] = syl
+    translit2syl["hn" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꮖ", "Ꮛ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "g" + CRA + "w" + latin
+for syl, vowel in zip(char_range("Ꮖ", "Ꮛ"), translit2syl_vowels):
+    translit2syl["gw" + vowel] = syl
+    translit2syl["kw" + vowel] = syl
 
-syl2latin_dict["Ꮜ"] = "sa" + CRA
-syl2latin_dict["Ꮝ"] = "s"
+translit2syl["sa"] = "Ꮜ"
+translit2syl["s"] = "Ꮝ"
 
-for syl, latin in zip(char_range("Ꮞ", "Ꮢ"), syl2latin_vowels[1:]):
-    syl2latin_dict[syl] = "s" + latin
+for syl, vowel in zip(char_range("Ꮞ", "Ꮢ"), translit2syl_vowels[1:]):
+    translit2syl["s" + vowel] = syl
 
-syl2latin_dict["Ꮣ"] = "da" + CRA
-syl2latin_dict["Ꮤ"] = "ta" + CRA
-syl2latin_dict["Ꮥ"] = "de" + CRA
-syl2latin_dict["Ꮦ"] = "te" + CRA
-syl2latin_dict["Ꮧ"] = "di" + CRA
-syl2latin_dict["Ꮨ"] = "ti" + CRA
-syl2latin_dict["Ꮩ"] = "d" + CRA + "o" + CRA
-syl2latin_dict["Ꮪ"] = "d" + CRA + "u" + CRA
-syl2latin_dict["Ꮫ"] = "d" + CRA + "v" + CRA
+translit2syl["da"] = "Ꮣ"
+translit2syl["de"] = "Ꮥ"
+translit2syl["di"] = "Ꮧ"
+translit2syl["do"] = "Ꮩ"
+translit2syl["du"] = "Ꮪ"
+translit2syl["dv"] = "Ꮫ"
 
-syl2latin_dict["Ꮬ"] = "dla" + CRA
-syl2latin_dict["Ꮭ"] = "tla" + CRA
+translit2syl["ta"] = "Ꮤ"
+translit2syl["te"] = "Ꮦ"
+translit2syl["ti"] = "Ꮨ"
+translit2syl["to"] = "Ꮩ"
+translit2syl["tu"] = "Ꮪ"
+translit2syl["tv"] = "Ꮫ"
 
-for syl, latin in zip(char_range("Ꮮ", "Ꮲ"), syl2latin_vowels[1:]):
-    syl2latin_dict[syl] = "d" + CRA + "l" + latin
+translit2syl["dla"] = "Ꮬ"
+translit2syl["tla"] = "Ꮭ"
 
-for syl, latin in zip(char_range("Ꮳ", "Ꮸ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "j" + CRA + latin
+for syl, vowel in zip(char_range("Ꮮ", "Ꮲ"), translit2syl_vowels[1:]):
+    translit2syl["dl" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꮹ", "Ꮾ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "h" + CRA + "w" + latin
+for syl, vowel in zip(char_range("Ꮳ", "Ꮸ"), translit2syl_vowels):
+    translit2syl["j" + vowel] = syl
 
-for syl, latin in zip(char_range("Ꮿ", "Ᏼ"), syl2latin_vowels):
-    syl2latin_dict[syl] = "h" + CRA + "y" + latin
+for syl, vowel in zip(char_range("Ꮹ", "Ꮾ"), translit2syl_vowels):
+    translit2syl["w" + vowel] = syl
+    translit2syl["hw" + vowel] = syl
+
+for syl, vowel in zip(char_range("Ꮿ", "Ᏼ"), translit2syl_vowels):
+    translit2syl["y" + vowel] = syl
+    translit2syl["hy" + vowel] = syl
+
+for c in " !?,.:":
+    translit2syl[c] = c
+
+translit2syl["h"] = ""  # hopefully intrusive 'h' only
 
 
-def syl2latin(text: str) -> str:
-    tmp_latin = ""
-    for c in text:
-        if c in syl2latin_dict:
-            tmp_latin += syl2latin_dict[c]
-        else:
-            tmp_latin += c
-    return tmp_latin
+# specials
+key: str
+for key in [*translit2syl.keys()]:
+    if key.startswith("s"):
+        translit2syl["ak"+key] = "ᎠᎩ" + translit2syl[key]
+
+
+translit_lookup: list[str] = [*translit2syl.keys()]
+translit_lookup.sort(key=lambda key: len(key), reverse=True)
+
+
+def pronounce2syllabary(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub("(?i)[^a-z\\s.,!?]", "", unicodedata.normalize("NFD", text))
+    tmp_syl = ""
+    while text:
+        changed: bool = False
+        for lookup in translit_lookup:
+            if text.startswith(lookup):
+                tmp_syl += translit2syl[lookup]
+                text = text[len(lookup):]
+                changed = True
+                break
+        if not changed:
+            letter = text[0]
+            text = text[1:]
+            if letter == "l":
+                tmp_syl += "Ꮅ"
+            else:
+                tmp_syl += letter
+    return unicodedata.normalize("NFC", tmp_syl)
+
+
+rrd_fix_lookup:dict [str, str] = dict()
+for vowel in translit2syl_vowels:
+    rrd_fix_lookup["ts" + vowel] = "j" + vowel
+
+
+def fix_rrd_pronunciation(pronunciation: str) -> str:
+    pronunciation = unicodedata.normalize("NFD", pronunciation).lower()
+    prev_pronunciation: str = pronunciation
+    for lookup in rrd_fix_lookup:
+        if lookup in pronunciation:
+            pronunciation = pronunciation.replace(lookup, rrd_fix_lookup[lookup])
+    if "ts" in pronunciation and prev_pronunciation == pronunciation:
+        pronunciation = pronunciation.replace("ts", "j")
+    return unicodedata.normalize("NFC", pronunciation).lower()
 
 
 def test():
-    print(syl2latin("ᎣᏏᏲ, ᏙᎯᏧ? ᏙᎯᏊ."))
-
     ced_test = ["U²sgal²sdi ạ²dv¹ne²³li⁴sgi.", "Ụ²wo²³dị³ge⁴ɂi gi²hli a¹ke²³he³²ga na ạ²chu⁴ja.",
                 "Ạ²ni²³tạɂ³li ạ²ni²sgạ²ya a¹ni²no²hạ²li²³do³²he, ạ²hwi du¹ni²hyọ²he.",
                 "Sa¹gwu⁴hno ạ²sgạ²ya gạ²lo¹gwe³ ga²ne²he sọ³ɂị³hnv³ hla².",
@@ -114,60 +171,12 @@ def test():
         print()
         print(a)
         print(ascii_ced2mco(a))
-    return
-
-
-# Converts MCO annotation into pseudo English phonetics for use by the aeneas alignment package
-# lines prefixed with '#' are returned with the '#' removed, but otherwise unchanged.
-def mco2espeak(text: str):
-    import unicodedata as ud
-    import re
-
-    if len(text.strip()) == 0:
-        return ""
-
-    # Handle specially flagged text
-    if text[0].strip() == "#":
-        if text[1] != "!":
-            return text.strip()[1:]
-        else:
-            text = text[2:]
-
-    new_text = ud.normalize('NFD', text.strip()).lower()
-    if new_text[0] == "":
-        new_text = new_text[1:]
-
-    # remove all tone indicators
-    new_text = re.sub("[\u030C\u0302\u0300\u0301\u030b]", "", new_text)
-    new_text = "[[" + new_text.strip() + "]]"
-    new_text = new_text.replace(" ", "]] [[")
-    new_text = new_text.replace("'", "]]'[[")
-    new_text = new_text.replace(".]]", "]].")
-    new_text = new_text.replace(",]]", "]],")
-    new_text = new_text.replace("!]]", "]]!")
-    new_text = new_text.replace("?]]", "]]?")
-    new_text = new_text.replace(":]]", "]]:")
-    new_text = new_text.replace(";]]", "]];")
-    new_text = new_text.replace("\"]]", "]]\"")
-    new_text = new_text.replace("']]", "]]'")
-    new_text = new_text.replace(" ]]", "]] ")
-    new_text = new_text.replace("[[ ", " [[")
-    new_text = re.sub("(?i)([aeiouv]):", "\\1", new_text)
-    # convert all vowels into approximate espeak x-sampa escaped forms
-    new_text = new_text.replace("A", "0")
-    new_text = new_text.replace("a", "0")
-    new_text = new_text.replace("v", "V")
-    new_text = new_text.replace("tl", "tl#")
-    new_text = new_text.replace("hl", "l#")
-    new_text = new_text.replace("J", "dZ")
-    new_text = new_text.replace("j", "dZ")
-    new_text = new_text.replace("Y", "j")
-    new_text = new_text.replace("y", "j")
-    new_text = new_text.replace("Ch", "tS")
-    new_text = new_text.replace("ch", "tS")
-    new_text = new_text.replace("ɂ", "?")
-
-    return new_text
+    print()
+    print("_______________")
+    translit_text: str = "Osiyo, Tohiju? Tohigwu."
+    print(translit_text)
+    print(pronounce2syllabary(translit_text))
+    print()
 
 
 def ced2mco(text: str):
@@ -184,7 +193,7 @@ def ced2mco(text: str):
     text = re.sub("(?i)([aeiouv])([¹²³⁴]+)", "\\1\\2:", text)
     text = text.replace("\u0323", "")
     text = re.sub("(?i)([aeiouv])²$", "\\1\u0304", text)
-    text = re.sub("(?i)([aeiouv])²([^a-zɂ¹²³⁴:])", "\\1\u0304\\2", text)
+    text = re.sub("(?i)([aeiouv])²([^a-zɂʔ¹²³⁴:])", "\\1\u0304\\2", text)
     for ced2mcotone in tones2mco:
         text = text.replace(ced2mcotone[0], ced2mcotone[1])
     #

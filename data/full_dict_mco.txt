@@ -256,12 +256,6 @@ age:hydiha [agehydiha]||tsi:geɂydiha [tsigeydiha]|u:ge:hytanv̌:ɂi [ugehytanvi
 girl
 age:hyű:ja [agehyuja]|ani:ge:hyű:ja [anigehyuja]||||||ᎠᎨᏳᏣ|ᎠᏂᎨᏳᏣ||||||72311|ced
 
-first person, singular subject (see Gram. I, B)
-agi- [agi]|||||||ᎠᎩ-|||||||72312|ced
-
-(see agi-)
-ak- [ak]|||||||ᎠᎩ-|||||||72446|ced
-
 he's eating it (a single solid food)
 à:gíɂa [agia]||jigíɂa [jigia]|ù:gv̌:ɂi [ugvi]|à:gî:sgó:ɂi [agisgoi]|higa [higa]|u:gì:sdi [ugisdi]|ᎠᎩᎠ||ᏥᎩᎠ|ᎤᎬᎢ|ᎠᎩᏍᎪᎢ|ᎯᎦ|ᎤᎩᏍᏗ|72313|ced
 
@@ -3175,9 +3169,6 @@ he's dying, (human)
 He is carving it; he is hewing it.
 ayó:ɂlanvɂv:sga [ayolanvvsga]||tsiyó:ɂlanvɂvɂsga [tsiyolanvvsga]|u:yó:ɂlanvɂnv̌:ɂi [uyolanvnvi]|ayó:ɂlanvɂv:sgó:ɂi [ayolanvvsgoi]|hiyó:ɂlanvɂv:ga [hiyolanvvga]|u:yó:ɂlanv:di [uyolanvdi]|ᎠᏲᎳᏅᎥᏍᎦ||ᏥᏲᎳᏅᎥᏍᎦ|ᎤᏲᎳᏅᏅᎢ|ᎠᏲᎳᏅᎥᏍᎪᎢ|ᎯᏲᎳᏅᎥᎦ|ᎤᏲᎳᏅᏗ|100259|rrd
 
-Carpenter
-|ani:yo:hlanv:ɂv:sgi [aniyohlanvvsgi]||||||ᎠᏲᎳᏅᎥᏍᎩ|ᎠᏂᏲᎳᏅᎥᏍᎩ||||||102318|rrd
-
 Carving, wood or stone
 ayo:hlanv:nv [ayohlanvnv]|||||||ᎠᏲᎳᏅᏅ|||||||100260|rrd
 
@@ -3438,9 +3429,6 @@ e:doɂlí:do:ha [edolidoha]||ge:doɂlí:doɂa [gedolidoa]|u:we:doɂlí:do:ɂlv̌
 
 quiet
 e:hlawe̋:ɂi [ehlawei]|||||||ᎡᏝᏪᎢ|||||||72962|ced
-
-repetitive (see Gram. I, A)
-i- [i]|||||||Ꭲ-|||||||73350|ced
 
 He is going back
 iɂe:ga [iega]||i:ge:ga [igega]|vɂu:we:sv̌:ɂi [vuwesvi]|iɂe:gó:ɂi [iegoi]|tsihe:ɂna [tsihena]|v:ɂu:we:nv́sdi [vuwenvsdi]|ᎢᎡᎦ||ᎢᎨᎦ|ᎥᎤᏪᏒᎢ|ᎢᎡᎪᎢ|ᏥᎮᎾ|ᎥᎤᏪᏅᏍᏗ|100306|rrd
@@ -3753,9 +3741,6 @@ o:hla [ohla]|||||||ᎣᏝ|||||||73600|ced
 
 oneself (see Gram. III, A)
 owǎ:sa [owasa]|||||||ᎣᏩᏌ|||||||73615|ced
-
-third person subject (see Gram. I, B)
-u- [u]|||||||Ꭴ|||||||73712|ced
 
 leaf
 u:galǒ:ga [ugaloga]|ju:galǒ:ga [jugaloga]||||||ᎤᎦᎶᎦ|ᏧᎦᎶᎦ||||||73773|ced
@@ -8806,9 +8791,6 @@ sde:ya:di [sdeyadi]|||||||ᏍᏕᏯᏗ|||||||101235|rrd
 rope
 sde:yída [sdeyida]|||||||ᏍᏕᏱᏓ|||||||73624|ced
 
-instrumental (see Gram. I, D)
-|||||||ᏍᏗ|||||||73625|ced
-
 Just a little
 sdi:kada [sdikada]|||||||ᏍᏗᎧᏓ|||||||101236|rrd
 
@@ -8899,9 +8881,6 @@ se:diyusdi [sediyusdi]|||||||ᏎᏗᏳᏍᏗ|||||||101253|rrd
 Hornet.; biol. <em>Dolichovespula maculata.</em>
 se:hwada [sehwada]|||||||ᏎᏩᏓ|||||||101254|rrd
 
-or else (see Gram. I, D)
-|||||||Ꮟ|||||||73645|ced
-
 wait
 si [si]|||||||Ꮟ|||||||73646|ced
 
@@ -8952,9 +8931,6 @@ sǐ:gwu [sigwu]|||||||ᏏᏊ|||||||73650|ced
 
 Wait a while
 sise:ga [sisega]|||||||ᏏᏎᎦ|||||||101263|rrd
-
-duplicative (see Gram. I, C)
-|||||||ᏏᏏ|||||||73654|ced
 
 Hello
 si:yo (osi:yū) [siyo osiyu]|||||||ᏏᏲ (ᎣᏏᏳ)|||||||101264|rrd
@@ -9685,9 +9661,6 @@ ta:ya inage:ɂi [taya inagei]|||||||ᏔᏯ ᎢᎾᎨᎢ|||||||101386|rrd
 Fence lizard.; Pine lizard.; biol. <em>Sceloporus undulatus.</em>
 tayu:ha:li [tayuhali]|||||||ᏔᏳᎭᎵ|||||||101387|rrd
 
-verbal prefix - plural object (see Grammar. I, A)
-de- [de]|||||||Ꮥ-|||||||72818|ced
-
 sack
 dé:gahldi [degahldi]|||||||ᏕᎦᎵᏗ|||||||72819|ced
 
@@ -9810,15 +9783,6 @@ tehga [tehga]|||||||ᏖᎦ|||||||73695|ced
 
 Fox grapes.; Wild grapes.; biol. <em>Vitis labrusca.</em>
 telv́la:di [telvladi]|||||||ᏖᎸᎳᏗ|||||||101412|rrd
-
-noun prefix plural (see Gram. II, A)
-di- [di]|||||||Ꮧ-|||||||72835|ced
-
-(see de-)
-di- [di]|||||||Ꮧ-|||||||72836|ced
-
-verbal prefix - distant position (see Gram. I, A)
-di- [di]|||||||Ꮧ-|||||||72837|ced
 
 A bush
 diɂuda:sga [diudasga]|||||||ᏗᎤᏓᏍᎦ|||||||101413|rrd
@@ -10573,9 +10537,6 @@ hlv:daji, tlv:daji [hlvdaji tlvdaji]|||||||ᏢᏓᏥ, ᏢᏓᏥ|||||||73342|ced
 eel
 tlv̌:dé:gwa [tlvdegwa]|||||||ᏢᏕᏆ|||||||73698|ced
 
-second person singular (see Gram. I, B)
-ja- [ja]|||||||Ꮳ-|||||||73396|ced
-
 Yellow jacket.; biol. <em>Vespula maculifrons.</em>
 tsga:yɂi [tsgayi]|||||||ᏣᎦᏱ|||||||101531|rrd
 
@@ -10632,9 +10593,6 @@ tsa:hyiga [tsahyiga]|||||||ᏣᏱᎦ|||||||101544|rrd
 
 Blue jay.; biol. <em>Cyanocitta cristata.</em>
 tsayga [tsayga]|||||||ᏣᏱᎦ|||||||101545|rrd
-
-first person singular subject (see Gram. I, D)
-ji- [ji]|||||||Ꮵ-|||||||73400|ced
 
 Song sparrow.; biol. <em>Melospiza melodia.</em>
 tsi:gtsa [tsigtsa]|||||||ᏥᎦᏣ|||||||101546|rrd

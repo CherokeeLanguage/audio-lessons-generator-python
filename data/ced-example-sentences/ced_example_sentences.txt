@@ -158,9 +158,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᏓᏤᏝ|3|Gado usdi dajehla?|ᎦᏙ ᎤᏍᏗ ᏓᏤᏝ.|Which one is better?|Gadō ű:sdi dà:jě:hla?
 *|ᎠᎨᏯ|3|Gag vsgina agehya?|ᎦᎪ ᎥᏍᎩᎾ ᎠᎨᏯ?|Who is that woman?|Gá:gō v̀:sgina agě:hya?; Gá:g v̀:sgina agě:hya?; Gá:gō v̀:sgi agě:hya?; Gá:g v̀:sgi agě:hya?; Gá:gō sgina agě:hya?; Gá:g sgina agě:hya?; Gá:gō nà:sgi agě:hya?; Gá:g nà:sgi agě:hya?
 *|ᎠᏞᎠ|3|Hadlv iyv udlesei?|ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ?|Where did he turn off?|Ha:dlv iyv̋ ù:dlé:sé:ɂi?; Ha:dlv iyv̋ ù:dlé:sé?
+*|ᏗᎨᏫ|3|Hia asgaya dikewi.|ᎯᎠ ᎠᏍᎦᏯ ᏗᎨᏫ.|This man is blind.|Hiɂa asgaya di:ke̋:wi.; Hiɂi asgaya di:ke̋:wi.; Hiɂa asgay di:ke̋:wi.; Hiɂi asgay di:ke̋:wi.
+*|ᎤᏒᎯᎭ|3|Hila iyv datsvhli?|ᎯᎳ ᎢᏴ ᏓᏣᏒᏟ?|When are you going to bed?|Hila̋ iyv̋:ɂi da:tsv:hli?; Hila̋ iyv̋ da:tsv:hli?; Hila̋ iyv̋:ɂi da:tsv:hli?; Hilâ:yv̋:ɂi da:tsv:hli?; Hilâ:yv̋ da:tsv:hli?
 
-|ᏗᎨᏫ|3|Hia asgaya dikewi.|ᎯᎠ ᎠᏍᎦᏯ ᏗᎨᏫ.|This man is blind.|
-|ᎤᏒᎯᎭ|3|Hila iyv datsvhli?|ᎯᎳ ᎢᏴ ᏓᏣᏒᏟ?|When are you going to bed?|
 |Ꮟ|3|Hlas si yigaluhga?|ᏝᏍ Ꮟ ᏱᎦᎷᎦ?|Isn't he back yet?|
 |ᎦᏁᎭ|3|Ije ahnawo jineha.|ᎢᏤ ᎠᎿᏬ ᏥᏁᎭ.|I am holding a new shirt.|
 |ᎬᎫᏍᏗᎭ|3|Isa gvgusdiha eji.|ᎢᏌ ᎬᎫᏍᏗᎭ ᎡᏥ.|Mother is sifting flour.|

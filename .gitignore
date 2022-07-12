@@ -136,3 +136,6 @@ review-sheet-*.txt
 /output-*.mp3
 /Models/
 /output/
+
+# Generated output file
+/data/ced-for-tts.txt

@@ -57,6 +57,11 @@ def main() -> None:
             main_entry_syllabary: str = parts[idx_syll_entry].strip()
             if not main_entry_syllabary or main_entry_syllabary == "-":
                 continue
+            main_entry_pronounce: str = parts[idx_pron_entry].strip()
+            if not main_entry_pronounce or main_entry_pronounce == "-":
+                continue
+            if main_entry_pronounce.startswith("-") or main_entry_pronounce.endswith("-"):
+                continue
             record_id: str = parts[idx_id]
             definition: str = parts[idx_definition]
 
@@ -87,12 +92,13 @@ def main() -> None:
             text: str = ""
             item: str = ""
             for item in pron:
+                item = item.strip()
                 if source == "ced":
                     item = ascii_ced2mco(item).strip()
                 if source == "rrd":
                     item = rrd2mco(item).strip()
                 text += "|"
-                if item.startswith("-"):
+                if item.startswith("-") or item.endswith("-"):
                     continue
                 if item:
                     translit: str = unicodedata.normalize("NFD", item)
@@ -100,6 +106,7 @@ def main() -> None:
                     text += item + f" [{translit}]"
 
             for item in syll:
+                item = item.strip()
                 text += "|"
                 if item.startswith("-"):
                     continue

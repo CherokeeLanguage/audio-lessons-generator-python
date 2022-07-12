@@ -5,6 +5,8 @@
       <excludeFolder url="file://$MODULE_DIR$/cache" />
       <excludeFolder url="file://$MODULE_DIR$/audio_lessons_generator.egg-info" />
       <excludeFolder url="file://$MODULE_DIR$/leitner-cards-python/leitner_cards.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Models" />
+      <excludeFolder url="file://$MODULE_DIR$/output" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (audio-lessons)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
