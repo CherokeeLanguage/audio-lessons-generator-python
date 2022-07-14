@@ -15,7 +15,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏟ|2|Udli hwilohi.|ᎤᏟ ᏫᎶᎯ.|Go away.|Udli hwilǒ:hi.
 *|ᎠᏑᎠ|2|Asusdi gasua.|ᎠᏑᏍᏗ ᎦᏑᎠ.|I am sopping gravy.|Asú:sdi gà:sú:ɂa.
 *|ᎠᏯᏄᎵ|2|Ayanuli aisvi.|ᎠᏯᏄᎵ ᎠᎢᏒᎢ.|He was walking fast.|A:yanű:li á:ɂi:sv̌:ɂi.
-*|ᎣᏏᏲ|2|Osiyo. Tohiju?|ᎣᏏᏲ. ᏙᎯᏧ?|Hello. Are you well?|O:síyo. Tò:hi̋:ju?; Síyo. Tò:hi̋:ju?
+*|ᎣᏏᏲ|2|Osiyo. Tohiju?|ᎣᏏᏲ. ᏙᎯᏧ?|Hello. It is well. Right?|O:síyo. Tò:hi̋:ju?; Síyo. Tò:hi̋:ju?
 *|ᎤᏔᏕᎩᎠ|2|Ama aktadegia.|ᎠᎹ ᎠᎩᏔᏕᎩᎠ.|I am thirsty for water.|Ama à:ktade:gí:ɂa.
 *|ᎠᏂᎾ|2|Ehlawe aninvi.|ᎡᏝᏪ ᎠᏂᏅᎢ.|They sat quietly.|E:hlawe̋:ɂi à:níɂnv̌:ɂi.
 *|ᏞᏍᏗ|2|Hlesdi yijanegujesdi.|ᏞᏍᏗ ᏱᏣᏁᎫᏤᏍᏗ.|Don't be mean.|hlè:sdi yijaně:gû:jé:sdi.;hè:sdi yijaně:gû:jé:sdi.
@@ -48,7 +48,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᏕᏲᎭ|2|Adanelv gadeyoha.|ᎠᏓᏁᎸ ᎦᏕᏲᎭ.|I am circling a building.|À:da:ně:lv̋:ɂi ga:de:yoha.; À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.
 *|ᎠᏍᎪᏍᎦ|2|Amahldi gasgosga.|ᎠᎹᏢᏗ ᎦᏍᎪᏍᎦ.|I am digging a water well.|Amáhldi̋:ɂi gà:sgǒ:sga.; Amáhldi̋ gà:sgǒ:sga.
 *|ᎠᏤᎸᏍᎦ|2|Ayvwiya ajelvsga.|ᎠᏴᏫᏯ ᎠᏤᎸᏍᎦ.|He is acting like an Indian.|Ayv:wi:ya̋:ɂi à:je:lv:sga.; Ayv:wi:ya̋ à:je:lv:sga.
-*|ᎠᏑᎲᏍᎦ|2|Hadlvyv asuhvsga?|ᎭᏢᏴ ᎠᏑᎲᏍᎦ?|Where is he fishing?|Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?; Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?
+*|ᎠᏑᎲᏍᎦ|2|Hadlvyv asuhvsga?|ᎭᏢᏴ ᎠᏑᎲᏍᎦ?|Where is he fishing?|Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?; Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv̌:yv̋ à:sǔ:hv́sga?
 *|ᎦᏃᎯᎵ|2|Jiyu ganohilvsda.|ᏥᏳ ᎦᏃᎯᎸᏍᏓ.|An airplane just flew by.|Jǐ:yu gano:hǐ:lv̂:sda.
 *|ᎠᏯᎨᏗᏍᎦ|2|Nuna tihyahketsa.|ᏄᎾ ᏘᏯᎨᏗᏌ.|Peel some potatoes.|Nǔ:na tihyahkě:tsa.
 *|ᎠᏓᎨᏳᏗ|2|Adageyhdi ulsgeda.|ᎠᏓᎨᏴᏗ ᎤᎵᏍᎨᏓ.|Love is important.|Ada:geyhdi ulsge̋:da.
@@ -157,27 +157,28 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᏙᏌ|3|Ayo! Dosa aksgala.|ᎠᏲ! ᏙᏌ ᎠᎦᏍᎦᎳ.|Ouch! A mosquito bit me.|Ayo! do:sa à:ksgala.
 *|ᏓᏤᏝ|3|Gado usdi dajehla?|ᎦᏙ ᎤᏍᏗ ᏓᏤᏝ.|Which one is better?|Gadō ű:sdi dà:jě:hla?
 *|ᎠᎨᏯ|3|Gag vsgina agehya?|ᎦᎪ ᎥᏍᎩᎾ ᎠᎨᏯ?|Who is that woman?|Gá:gō v̀:sgina agě:hya?; Gá:g v̀:sgina agě:hya?; Gá:gō v̀:sgi agě:hya?; Gá:g v̀:sgi agě:hya?; Gá:gō sgina agě:hya?; Gá:g sgina agě:hya?; Gá:gō nà:sgi agě:hya?; Gá:g nà:sgi agě:hya?
-*|ᎠᏞᎠ|3|Hadlv iyv udlesei?|ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ?|Where did he turn off?|Ha:dlv iyv̋ ù:dlé:sé:ɂi?; Ha:dlv iyv̋ ù:dlé:sé?
+*|ᎠᏞᎠ|3|Hadlv iyv udlesei?|ᎭᏢ ᎢᏴ ᎤᏞᏎᎢ?|Where did he turn off?|Ha:dlv iyv̋ ù:dlé:sé:ɂi?; Ha:dlv iyv̋ ù:dlé:sé?; Ha:dlv̌:yv̋ ù:dlé:sé:ɂi?; Ha:dlv̌:yv̋ ù:dlé:sé?
 *|ᏗᎨᏫ|3|Hia asgaya dikewi.|ᎯᎠ ᎠᏍᎦᏯ ᏗᎨᏫ.|This man is blind.|Hiɂa asgaya di:ke̋:wi.; Hiɂi asgaya di:ke̋:wi.; Hiɂa asgay di:ke̋:wi.; Hiɂi asgay di:ke̋:wi.
 *|ᎤᏒᎯᎭ|3|Hila iyv datsvhli?|ᎯᎳ ᎢᏴ ᏓᏣᏒᏟ?|When are you going to bed?|Hila̋ iyv̋:ɂi da:tsv:hli?; Hila̋ iyv̋ da:tsv:hli?; Hila̋ iyv̋:ɂi da:tsv:hli?; Hilâ:yv̋:ɂi da:tsv:hli?; Hilâ:yv̋ da:tsv:hli?
+*|Ꮟ|3|Hlas si yigaluhga?|ᏝᏍ Ꮟ ᏱᎦᎷᎦ?|Isn't he back yet?|Hlasgo si yǐ:gáɂluhga?; Hlas si yǐ:gáɂluhga?
+*|ᎦᏁᎭ|3|Ije ahnawo jineha.|ᎢᏤ ᎠᎿᏬ ᏥᏁᎭ.|I am holding a new shirt.|Ije̋:ɂi ahnawo jiɂnéha.; Ije̋ ahnawo jiɂnéha.; Ije̋ ahnawo jiɂné.
+*|ᎬᎫᏍᏗᎭ|3|Isa gvgusdiha eji.|ᎢᏌ ᎬᎫᏍᏗᎭ ᎡᏥ.|Mother is sifting flour.|I:sa gv:gǔ:sdíha e:ji.; I:sa gv:gǔ:sdí e:ji.
+*|ᏔᏬᏗ|3|Ketv ukila tawodi.|ᎨᏛ ᎤᎩᎳ ᏔᏬᏗ.|A hawk is sitting on a post.|Gé:tvsdi u:kiɂla tawǒ:di.; Ké:tv u:kiɂla tawǒ:di.
+*|ᎠᏥᏍᏕᎠ|3|Selu gadu utsdevi.|ᏎᎷ ᎦᏚ ᎤᏥᏍᏕᎥᎢi.|He took a bite of cornbread.|Sě:lu ga̋:du ù:tsdé:ɂv̌:ɂi.; Sě:lu ga̋:du ù:tsdé:sv̌:ɂi.; Sě:lu ga̋:du ù:tsdé:ɂv̌.; Sě:lu ga̋:du ù:tsdé:sv̌.
+*|ᎠᎫᎩᎠ|3|Svdoni akugia ama.|ᏒᏙᏂ ᎠᎫᎩᎠ ᎠᎹ.|She's dipping water from a bucket.|Sv:do:ni à:kǔ:gíɂa ama.
+*|ᎤᏣᎠ|3|Wesa kanesai ujaa.|ᏪᏌ ᎧᏁᏌᎢ ᎤᏣᎠ.|The cat is inside the box.|Wě:sa kanè:sáɂi ù:jáa.; Wě:sa kanè:sá ù:jáa.; Wě:sa kanè:sá ù:já.
+*|ᏣᏁᎳ, ᏧᏁᎳ|3|Chanel adelv tivsi.|ᏣᏁᎳ ᎠᏕᎸ ᏘᎥᏏ.|Give him eight dollars.|Chaně:la áde:lv̋:ɂi tiɂvsi.; Chaně:l áde:lv̋ tiɂvsi.; Chuně:la áde:lv̋:ɂi tiɂvsi.; Chuně:l áde:lv̋ tiɂvsi.
+*|ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|Gadò niga̋ jv:nv́:ga?
+*|ᎾᎯᏳᎢ|3|Nahiyuis kila tesi?|ᎾᎯᏳᎢᏍ ᎩᎳ ᏖᏏ?|You're not going until then?|Nà:hiyű:ɂisgo kila té:si?; Nà:hiyű:ɂis kila té:si?; Nà:hiyű:s kila té:si?
+*|ᎠᏟᎭ|3|Ama adliha svdonii.|ᎠᎹ ᎠᏟᎭ ᏒᏙᏂᎢ.|He's drawing water from the barrel.|Ama à:dlǐ:ha sv:do:ni.; Ama à:dlǐ sv:do:ni.
+*|ᎤᏙᏓ|3|Gado advnehi udoda?|ᎦᏙ ᎠᏛᏁᎯ ᎤᏙᏓ?|What does her father do?|Gadò a:dvne:hi u:do:da?; Dò a:dvne:hi u:do:da?
+*|ᎠᎯᏙᎭ|3|Gado usdi hihidoha?|ᎦᏙ ᎤᏍᏗ ᎯᎯᏙᎭ?|What do you have in your hand?|Gadō u:sdi hihǐ:dô:ha?; Dō u:sdi hihǐ:dô?
+*|ᎪᏢᏍᎦ|3|Gado usdi hohlvsga?|ᎦᏙ ᎤᏍᏗ ᎰᏢᏍᎦ?|What are you making?|Gadō u:sdi hò:hlv:sga?; Dō u:sd hò:hlv:sga?
+*|ᎬᏂᏍᏗᎭ|3|Gado usdi jvhnisdi?|ᎦᏙ ᎤᏍᏗ ᏨᏂᏍᏗ?|What do you have cooking?|Gadō u:sdi jv:hnisdíha?; Dō u:sdi jv:hnisdíha?; Gadō u:sdi jv:hnisdí?; Dō u:sdi jv:hnisdí?
+*|ᎠᏲᎦ|3|Gugu uyojv uwohosa.|ᎫᎫ ᎤᏲᏨ ᎤᏬᎰᏌ.|The bottle broke when it dropped.|Gù:gu ù:yó:jv̋:ɂi ù:wo:hosa. ; Gù:gu ù:yó:jv̋ ù:wo:hosa.
+|ᏅᏓ ᏗᏎᏍᏗ|3|Hadlv nvda disesdi?|ᎭᏢ ᏅᏓ ᏗᏎᏍᏗ?|Where is a calender?|Ha:dlv nv:da di:sésdi?; Dlv nv:da di:sésdi?
+|ᎠᏛᏥ|3|Hia Advji oganalii.|ᎯᎠ ᎠᏛᏥ ᎣᎦᎾᎵᎢ.|This German is my friend.|Hiɂa Advji o:gina:li̋:ɂi.; Hiɂi Advji o:gina:li̋:ɂi.; Hiɂa Advji o:gina:li̋.; Hiɂi Advji o:gina:li̋.
 
-|Ꮟ|3|Hlas si yigaluhga?|ᏝᏍ Ꮟ ᏱᎦᎷᎦ?|Isn't he back yet?|
-|ᎦᏁᎭ|3|Ije ahnawo jineha.|ᎢᏤ ᎠᎿᏬ ᏥᏁᎭ.|I am holding a new shirt.|
-|ᎬᎫᏍᏗᎭ|3|Isa gvgusdiha eji.|ᎢᏌ ᎬᎫᏍᏗᎭ ᎡᏥ.|Mother is sifting flour.|
-|ᏔᏬᏗ|3|Ketv ukila tawodi.|ᎨᏛ ᎤᎩᎳ ᏔᏬᏗ.|A hawk is sitting on a post.|
-|ᎠᏥᏍᏕᎠ|3|Selu gadu utsdevi.|ᏎᎷ ᎦᏚ ᎤᏥᏍᏕᎥᎢi.|He took a bite of cornbread.|
-|ᎠᎫᎩᎠ|3|Svdoni akugia ama.|ᏒᏙᏂ ᎠᎫᎩᎠ ᎠᎹ.|She's dipping water from a bucket.|
-|ᎤᏣᎠ|3|Wesa kanesai ujaa.|ᏪᏌ ᎧᏁᏌᎢ ᎤᏣᎠ.|The cat is inside the box.|
-|ᏣᏁᎳ, ᏧᏁᎳ|3|Chanel adelv tivsi.|ᏣᏁᎳ ᎠᏕᎸ ᏘᎥᏏ.|Give him eight dollars.|
-|ᎾᎯᏳᎢ|3|Nahiyuis kila tesi?|ᎾᎯᏳᎢᏍ ᎩᎳ ᏖᏏ?|You're not going until then?|
-|ᎠᏟᎭ|3|Ama adliha svdonii.|ᎠᎹ ᎠᏟᎭ ᏒᏙᏂᎢ.|He's drawing water from the barrel.|
-|ᎤᏙᏓ|3|Gado advnehi udoda?|ᎦᏙ ᎠᏛᏁᎯ ᎤᏙᏓ?|What does her father do?|
-|ᎠᎯᏙᎭ|3|Gado usdi hihidoha?|ᎦᏙ ᎤᏍᏗ ᎯᎯᏙᎭ?|What do you have in your hand?|
-|ᎪᏢᏍᎦ|3|Gado usdi hohlvsga?|ᎦᏙ ᎤᏍᏗ ᎰᏢᏍᎦ?|What are you making?|
-|ᎬᏂᏍᏗᎭ|3|Gado usdi jvhnisdi?|ᎦᏙ ᎤᏍᏗ ᏨᏂᏍᏗ?|What do you have cooking?|
-|ᎠᏲᎦ|3|Gugu uyojv uwohosa.|ᎫᎫ ᎤᏲᏨ ᎤᏬᎰᏌ.|The bottle broke when it dropped.|
-|ᏅᏓ ᏗᏎᏍᏗ|3|Hadlv nvda disesdi?|ᎭᏢ ᏅᏓ ᏗᏎᏍᏗ?|Where is a calender?|
-|ᎠᏛᏥ|3|Hia Advji oganalii.|ᎯᎠ ᎠᏛᏥ ᎣᎦᎾᎵᎢ.|This German is my friend.|
 |ᎦᎾᎵ|3|Hia sogwili ganali.|ᎯᎠ ᏐᏈᎵ ᎦᎾᎵ.|This is a gelding.|
 |ᎠᏫᎾ|3|Hiyoligas na awina?|ᎯᏲᎵᎦᏍ Ꮎ ᎠᏫᎾ?|Do you recognize that young man?|
 |ᎠᏌᏃ|3|Ije asano agwaduli.|ᎢᏤ ᎠᏌᏃ ᎠᏆᏚᎵ.|I want a new dress.|
@@ -1774,6 +1775,5 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᏧᏓᎴᏅᏓ|2|Judalehnvda unisgohldidana.|ᏧᏓᎴᏅᏓ ᎤᏂᏍᎪᎵᏗᏓᎾ.|They have various things on sale.|Ju:dale:hnv̋:da
 -|ᏗᎧᏃᏩᏗᏙᎯ|2|Danohyadas dinikanowadidohi?|ᏓᏃᏯᏓᏍ ᏗᏂᎧᏃᏩᏗᏙᎯ?|Do angels have wings?|di:ni:kano:wadi:dő:hi
 -|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|Ni! Gá:gō
--|ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|Gadò niga jv:nv́:ga?
 -|ᏧᏓᏘᎿᎢ|3|Gag judatihna ijadahlgvi?|ᎦᎪ ᏧᏓᏘᎿᎢ ᎢᏣᏓᎷᎬᎢ?|Who is the chairman of your group?|Gá:gō ju:dǎ:tihnaɂi
 
