@@ -209,17 +209,16 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᎭᎷᎩᎭ|3|Hialugi na dagwalela.|ᎯᎠᎷᎩ Ꮎ ᏓᏆᎴᎳ.|Flag that car down.|Hiɂalǔ:gi na dagwalé:la.
 |ᏨᏍᎩᏃ|3|Jvsginois ehi Sedani?|ᏨᏍᎩᏃᎢᏍ ᎡᎯ ᏎᏓᏂ?|Is Satan from hell?|Jv:sgi:noɂisgo e̋:hi Sě:dáni?; Jv:sgi:noɂis e̋:hi Sě:dáni?
 *|ᏅᎩᏁ ᎢᎦ|3|Nvhgine Iga ihedolvi.|ᏅᎩᏁ ᎢᎦ ᎢᎮᏙᎸᎢ.|Come back on Thursday.|Nv:gine i:ga íhě:dô:lv:ɂi.
+*|ᎤᎬᎭᏓ|3|Ukvhada kohi sunalei.|ᎤᎬᎭᏓ ᎪᎯ ᏑᎾᎴᎢ.|It was foggy this morning.|Ù:kvháda kò:hi̋ suná:le̋:ɂi.; Ù:kvháda kò:hi̋ suná:le̋.
+*|ᏩᏁᎢ|3|Wanei hlgvi galuysga.|ᏩᏁᎢ ᏡᎬᎢ ᎦᎷᏯᏍᎪ.|He's chopping on a hickory tree.|Wané:ɂi hlgv̋:ɂi galûysga.; Wané:ɂi hlgv̋ galûysga.
+*|ᎦᏁᏁᎭ|3|Ama uditasdi jinevsi.|ᎠᎹ ᎤᏗᏔᏍᏗ ᏥᏁᎥᏏ.|I just gave him water to drink.|Ama u:di:tasdi ji:neɂvsī.
+*|ᎦᎾᏏᏁᎦ|3|Ayv jinasinuga hlega.|ᎠᏴ ᏥᎾᏏᏄᎦ ᏞᎦ.|Let me drag it for awhile.|Ayv ji:nà:si:nù:ga hle̋:ga.
+*|ᎠᏘᏂ|3|Dikewi asgaya atihni.|ᏗᎨᏫ ᎠᏍᎦᏯ ᎠᏘᏂ.|He's leading a blind man.|Di:ke̋:wi asgaya à:tíhni.
+*|ᎠᏴᏫ, ᏴᏫ|3|Gado anadvne aniyvwi?|ᎦᏙ ᎠᎾᏛᏁ ᎠᏂᏴᏫ?|What are the people doing?|Gadò à:na:dvne:ha ani:yv:wi?; Gadò à:na:dvne ani:yv:wi?; Dò à:na:dvne ani:yv:wi?
+*|ᎠᏍᏙᏍᎩᎢ|3|Gado galsda asdosgii?|ᎦᏙ ᎦᎵᏍᏓ ᎠᏍᏙᏍᎩᎢ?|What happened to the crusher?|Gadò galsdà asdò:sgi̋:ɂi?; Dò galsdà asdò:sgi̋?
+*|ᎤᏍᏛᏗᎠ|3|Gado udvnelv usdvdia?|ᎦᏙ ᎤᏛᏁᎸ ᎤᏍᏛᏗᎠ?|What is he being punished for?|Gadò u:dvnelv̌:ɂi ù:sdv:díɂa?; Gadò u:dvnelv̌ ù:sdv:dí?; Dò u:dvnelv̌ ù:sdv:dí?
+*|ᎠᏓᏅᏖᎭ|3|Gado usdi hadanhteha?|ᎦᏙ ᎤᏍᏗ ᎭᏓᏅᏖᎭ?|What are you thinking about?|Gadō u:sdi hà:danhtéha?; Gadō u:sdi hà:danhté?; Dō u:sdi hà:danhté?
 
-|ᎤᎬᎭᏓ|3|Ukvhada kohi sunalei.|ᎤᎬᎭᏓ ᎪᎯ ᏑᎾᎴᎢ.|It was foggy this morning.|
-|ᏩᏁᎢ|3|Wanei hlgvi galuysga.|ᏩᏁᎢ ᏡᎬᎢ ᎦᎷᏯᏍᎪ.|He's chopping on a hickory tree.|
-|ᎦᏁᏁᎭ|3|Ama uditasdi jinevsi.|ᎠᎹ ᎤᏗᏔᏍᏗ ᏥᏁᎥᏏ.|I just gave him water to drink.|
-|ᎦᎾᏏᏁᎦ|3|Ayv jinasinuga hlega.|ᎠᏴ ᏥᎾᏏᏄᎦ ᏞᎦ.|Let me drag it for awhile.|
-|ᎦᏚ|3|Digatdi wagihla gadu.|ᏗᎦᏘᏗ ᏩᎩᏝ ᎦᏚ.|I have bread in the oven.|
-|ᎠᏘᏂ|3|Dikewi asgaya atihni.|ᏗᎨᏫ ᎠᏍᎦᏯ ᎠᏘᏂ.|He's leading a blind man.|
-|ᎠᏴᏫ, ᏴᏫ|3|Gado anadvne aniyvwi?|ᎦᏙ ᎠᎾᏛᏁ ᎠᏂᏴᏫ?|What are the people doing?|
-|ᎠᏍᏙᏍᎩᎢ|3|Gado galsda asdosgii?|ᎦᏙ ᎦᎵᏍᏓ ᎠᏍᏙᏍᎩᎢ?|What happened to the crusher?|
-|ᎤᏍᏛᏗᎠ|3|Gado udvnelv usdvdia?|ᎦᏙ ᎤᏛᏁᎸ ᎤᏍᏛᏗᎠ?|What is he being punished for?|
-|ᎠᏓᏅᏖᎭ|3|Gado usdi hadanhteha?|ᎦᏙ ᎤᏍᏗ ᎭᏓᏅᏖᎭ?|What are you thinking about?|
 |ᎬᏣᏢᏍᎦ|3|Gado usdi hvjahlvsga?|ᎦᏙ ᎤᏍᏗ ᎲᏣᎸᏍᎦ?|What are you frying?|
 |ᎦᎾᏰᎩ|3|Ganayegi julvhwisdanhdi uha.|ᎦᎾᏰᎩ ᏧᎸᏫᏍᏓᏁᏗ ᎤᎭ.|He has a dangerous job.|
 |ᎦᏅᏍᎨ|3|Gvna ganvsge asdigia.|ᎬᎾ ᎦᏅᏍᎨ ᎠᏍᏗᎩᎠ.|He's eating a turkey leg.|

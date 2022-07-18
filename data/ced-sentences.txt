@@ -208,3 +208,12 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Giɂhla nű:sdi jahnû:wv̋:ɂi.|There's some loose hair on your shirt.||
 |||||||Hiɂalǔ:gi na dagwalé:la.|Flag that car down.||
 |||||||Nv:gine i:ga íhě:dô:lv:ɂi.|Come back on Thursday.||
+||Ù:kvháda kò:hi̋ suná:le̋.|||||Ù:kvháda kò:hi̋ suná:le̋:ɂi.|It was foggy this morning.||
+||Wané:ɂi hlgv̋ galûysga.|||||Wané:ɂi hlgv̋:ɂi galûysga.|He's chopping on a hickory tree.||
+|||||||Ama u:di:tasdi ji:neɂvsī.|I just gave him water to drink.||
+|||||||Ayv ji:nà:si:nù:ga hle̋:ga.|Let me drag it for awhile.||
+|||||||Di:ke̋:wi asgaya à:tíhni.|He's leading a blind man.||
+||Gadò à:na:dvne ani:yv:wi?; Dò à:na:dvne ani:yv:wi?|||||Gadò à:na:dvne:ha ani:yv:wi?|What are the people doing?||
+||Dò galsdà asdò:sgi̋?|||||Gadò galsdà asdò:sgi̋:ɂi?|What happened to the crusher?||
+||Gadò u:dvnelv̌ ù:sdv:dí?; Dò u:dvnelv̌ ù:sdv:dí?|||||Gadò u:dvnelv̌:ɂi ù:sdv:díɂa?|What is he being punished for?||
+||Gadō u:sdi hà:danhté?; Dō u:sdi hà:danhté?|||||Gadō u:sdi hà:danhtéha?|What are you thinking about?||
