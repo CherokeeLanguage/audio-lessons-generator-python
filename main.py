@@ -9,6 +9,9 @@ exit $?
 from __future__ import annotations
 
 import json
+import sys
+
+import jsonpickle
 import os
 import pathlib
 import re
@@ -31,9 +34,9 @@ import TTS as tts
 from SrtEntry import SrtEntry
 from config import Config
 
-# DATASET: str = "osiyo-tohiju-then-what"
+DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
-DATASET: str = "animals"
+# DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 # DATASET: str = "ced-sentences"
 # DATASET: str = "beginning-cherokee"
@@ -441,11 +444,17 @@ active_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
 max_review_cards_this_session: int = 0
 
 
-def save_main_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
+def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
+
+    jsonpickle.load_backend('simplejson', 'dumps', 'loads', ValueError)
+    jsonpickle.set_preferred_backend('simplejson')
+    jsonpickle.set_encoder_options('simplejson', ensure_ascii=False)
+
     if not os.path.exists(destination.parent):
         destination.parent.mkdir(exist_ok=True)
     with open(destination, "w") as w:
-        json.dump(deck, w)
+        w.write(jsonpickle.dumps(deck, indent=2))
+        w.write("\n")
 
 
 def main() -> None:
@@ -468,7 +477,7 @@ def main() -> None:
     main_deck = load_main_deck(os.path.join("data", DATASET + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
-    save_main_deck(main_deck, pathlib.Path("decks", f"{DATASET}.json"))
+    save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
 
     create_card_audio(main_deck)
     prompts = Prompts.create_prompts()
@@ -985,6 +994,8 @@ def main() -> None:
     with open(os.path.join(info_out_dir, "track-info.json"), "w") as w:
         json.dump(metadata_by_track, w, indent=2, sort_keys=True)
         w.write("\n")
+
+    save_deck(finished_deck, pathlib.Path("decks", f"{DATASET}.json"))
 
 
 def load_config():

@@ -18,13 +18,13 @@ from dataclasses import field
 rand: random.Random = random.Random(1234)
 
 
-@dataclass
+@dataclass(slots=True)
 class AudioDataFile:
     file: str = ""
     duration: float = 0.0
 
 
-@dataclass
+@dataclass(slots=True)
 class AudioData:
     _sort_key: str = ""
     bound_pronoun: str = ""
@@ -75,7 +75,7 @@ class AudioData:
         return self.challenge_files[0]
 
 
-@dataclass
+@dataclass(slots=True)
 class AudioCardStats:
     correct: bool = False
     leitner_box: int = 0
@@ -109,7 +109,7 @@ class AudioCardStats:
         self.tries_remaining += 1
 
 
-@dataclass
+@dataclass(slots=True)
 @total_ordering  # Only sorts by show again delay
 class AudioCard:
     data: AudioData = field(default_factory=AudioData)
@@ -145,7 +145,7 @@ class AudioCard:
         self.card_stats.tries_remaining = self.next_session_threshold(max_tries_remaining)
 
 
-@dataclass
+@dataclass(slots=True)
 class LeitnerAudioDeck(MutableSequence):
 
     cards: list[AudioCard] = field(default_factory=list)
