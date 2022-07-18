@@ -15,7 +15,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Udli hwilǒ:hi.|Go away.||
 |||||||Asú:sdi gà:sú:ɂa.|I am sopping gravy.||
 |||||||A:yanű:li á:ɂi:sv̌:ɂi.|He was walking fast.||
-||Síyo. Tò:hi̋:ju?|||||O:síyo. Tò:hi̋:ju?|Hello. Are you well?||
+||Síyo. Tò:hi̋:ju?|||||O:síyo. Tò:hi̋:ju?|Hello. It is well. Right?||
 |||||||Ama à:ktade:gí:ɂa.|I am thirsty for water.||
 |||||||E:hlawe̋:ɂi à:níɂnv̌:ɂi.|They sat quietly.||
 ||Hè:sdi yijaně:gû:jé:sdi.|||||Hlè:sdi yijaně:gû:jé:sdi.|Don't be mean.||
@@ -48,7 +48,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.|||||À:da:ně:lv̋:ɂi ga:de:yoha.|I am circling a building.||
 ||Amáhldi̋ gà:sgǒ:sga.|||||Amáhldi̋:ɂi gà:sgǒ:sga.|I am digging a water well.||
 ||Ayv:wi:ya̋ à:je:lv:sga.|||||Ayv:wi:ya̋:ɂi à:je:lv:sga.|He is acting like an Indian.||
-||Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv:yv̋ à:sǔ:hv́sga?|||||Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?|Where is he fishing?||
+||Ha:dlv iyv̋ à:sǔ:hv́sga?; Ha:dlv̌:yv̋ à:sǔ:hv́sga?|||||Ha:dlv iyv̋:ɂi à:sǔ:hv́sga?|Where is he fishing?||
 |||||||Jǐ:yu gano:hǐ:lv̂:sda.|An airplane just flew by.||
 |||||||Nǔ:na tihyahkě:tsa.|Peel some potatoes.||
 |||||||Ada:geyhdi ulsge̋:da.|Love is important.||
@@ -157,4 +157,54 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ayo! do:sa à:ksgala.|Ouch! A mosquito bit me.||
 |||||||Gadō ű:sdi dà:jě:hla?|Which one is better?||
 ||Gá:g v̀:sgina agě:hya?; Gá:gō v̀:sgi agě:hya?; Gá:g v̀:sgi agě:hya?; Gá:gō sgina agě:hya?; Gá:g sgina agě:hya?; Gá:gō nà:sgi agě:hya?; Gá:g nà:sgi agě:hya?|||||Gá:gō v̀:sgina agě:hya?|Who is that woman?||
-||Ha:dlv iyv̋ ù:dlé:sé?|||||Ha:dlv iyv̋ ù:dlé:sé:ɂi?|Where did he turn off?||
+||Ha:dlv iyv̋ ù:dlé:sé?; Ha:dlv̌:yv̋ ù:dlé:sé:ɂi?; Ha:dlv̌:yv̋ ù:dlé:sé?|||||Ha:dlv iyv̋ ù:dlé:sé:ɂi?|Where did he turn off?||
+||Hiɂi asgaya di:ke̋:wi.; Hiɂa asgay di:ke̋:wi.; Hiɂi asgay di:ke̋:wi.|||||Hiɂa asgaya di:ke̋:wi.|This man is blind.||
+||Hila̋ iyv̋ da:tsv:hli?; Hila̋ iyv̋:ɂi da:tsv:hli?; Hilâ:yv̋:ɂi da:tsv:hli?; Hilâ:yv̋ da:tsv:hli?|||||Hila̋ iyv̋:ɂi da:tsv:hli?|When are you going to bed?||
+||Hlas si yǐ:gáɂluhga?|||||Hlasgo si yǐ:gáɂluhga?|Isn't he back yet?||
+||Ije̋ ahnawo jiɂnéha.; Ije̋ ahnawo jiɂné.|||||Ije̋:ɂi ahnawo jiɂnéha.|I am holding a new shirt.||
+||I:sa gv:gǔ:sdí e:ji.|||||I:sa gv:gǔ:sdíha e:ji.|Mother is sifting flour.||
+||Ké:tv u:kiɂla tawǒ:di.|||||Gé:tvsdi u:kiɂla tawǒ:di.|A hawk is sitting on a post.||
+||Sě:lu ga̋:du ù:tsdé:sv̌:ɂi.; Sě:lu ga̋:du ù:tsdé:ɂv̌.; Sě:lu ga̋:du ù:tsdé:sv̌.|||||Sě:lu ga̋:du ù:tsdé:ɂv̌:ɂi.|He took a bite of cornbread.||
+|||||||Sv:do:ni à:kǔ:gíɂa ama.|She's dipping water from a bucket.||
+||Wě:sa kanè:sá ù:jáa.; Wě:sa kanè:sá ù:já.|||||Wě:sa kanè:sáɂi ù:jáa.|The cat is inside the box.||
+||Chaně:l áde:lv̋ tiɂvsi.; Chuně:la áde:lv̋:ɂi tiɂvsi.; Chuně:l áde:lv̋ tiɂvsi.|||||Chaně:la áde:lv̋:ɂi tiɂvsi.|Give him eight dollars.||
+|||||||Gadò niga̋ jv:nv́:ga?|Why are you in such a hurry?||
+||Nà:hiyű:ɂis kila té:si?; Nà:hiyű:s kila té:si?|||||Nà:hiyű:ɂisgo kila té:si?|You're not going until then?||
+||Ama à:dlǐ sv:do:ni.|||||Ama à:dlǐ:ha sv:do:ni.|He's drawing water from the barrel.||
+||Dò a:dvne:hi u:do:da?|||||Gadò a:dvne:hi u:do:da?|What does her father do?||
+||Dō u:sdi hihǐ:dô?|||||Gadō u:sdi hihǐ:dô:ha?|What do you have in your hand?||
+||Dō u:sd hò:hlv:sga?|||||Gadō u:sdi hò:hlv:sga?|What are you making?||
+||Dō u:sdi chv:hnisdíha?; Gadō u:sd chv:hnisdí?; Dō u:sd chv:hnisdí?|||||Gadō u:sdi chv:hnisdíha?|What do you have cooking?||
+||Gù:gu ù:yó:jv̋ ù:wo:hosa.|||||Gù:gu ù:yó:jv̋:ɂi ù:wo:hosa.|The bottle broke when it dropped.||
+||Dlv nv:da di:sésdi?|||||Ha:dlv nv:da di:sésdi?|Where is a calender?||
+||Hiɂi Advji o:gina:li̋:ɂi.; Hiɂa Advji o:gina:li̋.; Hiɂi Advji o:gina:li̋.|||||Hiɂa Advji o:gina:li̋:ɂi.|This German is my friend.||
+||Hiɂi sǒ:gwíli gà:náɂli.|||||Hiɂa sǒ:gwíli gà:náɂli.|This is a gelding.||
+||Hi:yo:lì:gas na awi̋:na?|||||Hi:yo:lì:gasgo na awi̋:na?|Do you recognize that young man?||
+||Ije̋ à:sano à:gwadu:lí.|||||Ije̋:ɂi à:sano à:gwadu:líha.|I want a new dress.||
+||Ije̋ à:da:ně:lv̋ ganě:la.|||||Ije̋:ɂi à:da:ně:lv̋:ɂi ganě:la.|He lives in a new house.||
+||Ǐ:náge̋ à:nè:hó kiyû:ga.|||||Ǐ:náge̋:ɂi à:nè:hó:ɂi kiyû:ga.|Chipmunks live in the woods.||
+||Do:hiyű ù:hyv:dla dǒ:yi.; Do:yű ù:hyv:dla dǒ:yi.|||||U:do:hiyű ù:hyv:dla dǒ:yi.|It's really cold outside.||
+||I:sa hwigi diga:dú:hv̋.|||||I:sa hwigi diga:dú:hv̋:ɂi.|Pick up some flour from town.||
+||Kò:hi̋ jigè:sv̌ jiji:go:hv̌.|||||Kò:hi̋ jigè:sv̌:ɂi jiji:go:hv̌:ɂi.|I saw him a while ago.||
+|||||||Tò:hi̋:gwu ayv, nihina?|It's just fine, and you?||
+||U:li:hwò:jv̋:s na ǐ:náda?|||||U:li:hwò:jv̋:ɂisgo na ǐ:náda? U:li:hwò:jv̋:ɂis na ǐ:náda?|Is that snake dead?||
+||Uwě:j achű:j à:hyóha.|||||Uwě:ji achű:ja à:hyóha.|He's looking for his son.||
+||Áhni aye̋:hli he:tv̀:ga.|||||Áhani aye̋:hli he:tv̀:ga.|Set the post here in the center.||
+|||||||E:lí:si Asv:nǒ:yi gè:sv̌:ɂi.|My grandmother was a Nighthawk.||
+||A:yanű:li á:ɂi u:lò:gí:li.|||||Ga:janű:li á:ɂi u:lò:gí:li.|The clouds are moving fast.||
+||Gane:ji̋:ɂi ù:wa:hnílv́:ɂi sgwà:tle̋:sdi.; Gane:ji̋ ù:wa:hnílv́ sgwà:hle̋:sdi.; Gane:ji̋ ù:wa:hnílv́ sgwà:tle̋:sdi.|||||Gane:ji̋:ɂi ù:wa:hnílv́:ɂi sgwà:hle̋:sdi.|A ball hit him on his chest.||
+||Gá:yu:las wijě:dô:la diga:dú:hv̋:ɂi?; Gá:yu:las wijě:dô:la diga:dú:hv̋?|||||Gá:yu:lasgo wijě:dô:la diga:dú:hv̋:ɂi?|Have you already been to town?||
+||Ha:dlv któ:ɂó akǔ:gi̋:sdi?|||||Ha:dlv któ:ɂó:ɂi akǔ:gi̋:sdi?|Where does the dipper hang?||
+||Ha:dlv jadé galo:gò:di?|||||Ha:dlv jadé:ɂi galo:gò:di?|Where did you put the hoe?||
+|||||||Hila̋ ǐ:ga̋ de:jadu:líha?|How many do you want?||
+||Hi:yo:ligās na asgaya?|||||Hi:yo:ligāsgo na asgaya?|Did you just now recognize that man?||
+||Hlè:sdi v̀:sgina yihnà:dv́:ne:hé:sdi.; Hè:sdi v̀:sgi yihnà:dv́:ne:hé:sdi.; Hlè:sdi v̀:sgi yihnà:dv́:ne:hé:sdi.; Hè:sdi sgina yihnà:dv́:ne:hé:sdi.; Hlè:sdi sgina yihnà:dv́:ne:hé:sdi.; Hè:sdi nà:sgi yihnà:dv́:ne:hé:sdi.; Hlè:sdi nà:sgi yihnà:dv́:ne:hé:sdi.|||||Hè:sdi v̀:sgina yihnà:dv́:ne:hé:sdi.|Don't be doing that.||
+||Hlè:sdi. Do janě:gû:ja.|||||Hè:sdi. Do janě:gû:ja.|Quit. You're being too mean.||
+||Jǒ:lani à:ktiha kilő.|||||Jǒ:lani à:ktiha kilőɂi.|Someone is peeking through the window.||
+||Uwě:j achű:j à:tawó:ɂa.|||||Uwě:ji achű:ja à:tawó:ɂa.|He's combing his son's hair.||
+|||||||Á:ge̋ widagě:dô:li hle̋:ga.|I will be around over there for a while.||
+||Digà:tdi̋ à:gihla ga̋:du.|||||Digà:tdi̋:ɂi à:gihla ga̋:du.|I have bread in the oven.||
+||Gáɂni ù:wa:hnílv́ ganv:wő:ɂi.; Gáɂni ù:wa:hnílv́ ganv:wő.|||||Gáɂni ù:wa:hnílv́:ɂi ganv:wő:ɂi.|A bullet hit him in his shoulder.||
+|||||||Giɂhla nű:sdi jahnû:wv̋:ɂi.|There's some loose hair on your shirt.||
+|||||||Hiɂalǔ:gi na dagwalé:la.|Flag that car down.||
+|||||||Nv:gine i:ga íhě:dô:lv:ɂi.|Come back on Thursday.||

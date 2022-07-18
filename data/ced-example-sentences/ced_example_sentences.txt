@@ -174,44 +174,42 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏙᏓ|3|Gado advnehi udoda?|ᎦᏙ ᎠᏛᏁᎯ ᎤᏙᏓ?|What does her father do?|Gadò a:dvne:hi u:do:da?; Dò a:dvne:hi u:do:da?
 *|ᎠᎯᏙᎭ|3|Gado usdi hihidoha?|ᎦᏙ ᎤᏍᏗ ᎯᎯᏙᎭ?|What do you have in your hand?|Gadō u:sdi hihǐ:dô:ha?; Dō u:sdi hihǐ:dô?
 *|ᎪᏢᏍᎦ|3|Gado usdi hohlvsga?|ᎦᏙ ᎤᏍᏗ ᎰᏢᏍᎦ?|What are you making?|Gadō u:sdi hò:hlv:sga?; Dō u:sd hò:hlv:sga?
-*|ᎬᏂᏍᏗᎭ|3|Gado usdi jvhnisdi?|ᎦᏙ ᎤᏍᏗ ᏨᏂᏍᏗ?|What do you have cooking?|Gadō u:sdi jv:hnisdíha?; Dō u:sdi jv:hnisdíha?; Gadō u:sdi jv:hnisdí?; Dō u:sdi jv:hnisdí?
+*|ᎬᏂᏍᏗᎭ|3|Gado usdi jvhnisdi?|ᎦᏙ ᎤᏍᏗ ᏨᏂᏍᏗ?|What do you have cooking?|Gadō u:sdi chv:hnisdíha?; Dō u:sdi chv:hnisdíha?; Gadō u:sd chv:hnisdí?; Dō u:sd chv:hnisdí?
 *|ᎠᏲᎦ|3|Gugu uyojv uwohosa.|ᎫᎫ ᎤᏲᏨ ᎤᏬᎰᏌ.|The bottle broke when it dropped.|Gù:gu ù:yó:jv̋:ɂi ù:wo:hosa. ; Gù:gu ù:yó:jv̋ ù:wo:hosa.
-|ᏅᏓ ᏗᏎᏍᏗ|3|Hadlv nvda disesdi?|ᎭᏢ ᏅᏓ ᏗᏎᏍᏗ?|Where is a calender?|Ha:dlv nv:da di:sésdi?; Dlv nv:da di:sésdi?
-|ᎠᏛᏥ|3|Hia Advji oganalii.|ᎯᎠ ᎠᏛᏥ ᎣᎦᎾᎵᎢ.|This German is my friend.|Hiɂa Advji o:gina:li̋:ɂi.; Hiɂi Advji o:gina:li̋:ɂi.; Hiɂa Advji o:gina:li̋.; Hiɂi Advji o:gina:li̋.
+*|ᏅᏓ ᏗᏎᏍᏗ|3|Hadlv nvda disesdi?|ᎭᏢ ᏅᏓ ᏗᏎᏍᏗ?|Where is a calender?|Ha:dlv nv:da di:sésdi?; Dlv nv:da di:sésdi?
+*|ᎠᏛᏥ|3|Hia Advji oganalii.|ᎯᎠ ᎠᏛᏥ ᎣᎦᎾᎵᎢ.|This German is my friend.|Hiɂa Advji o:gina:li̋:ɂi.; Hiɂi Advji o:gina:li̋:ɂi.; Hiɂa Advji o:gina:li̋.; Hiɂi Advji o:gina:li̋.
+*|ᎦᎾᎵ|3|Hia sogwili ganali.|ᎯᎠ ᏐᏈᎵ ᎦᎾᎵ.|This is a gelding.|Hiɂa sǒ:gwíli gà:náɂli.; Hiɂi sǒ:gwíli gà:náɂli.
+*|ᎠᏫᎾ|3|Hiyoligas na awina?|ᎯᏲᎵᎦᏍ Ꮎ ᎠᏫᎾ?|Do you recognize that young man?|Hi:yo:lì:gasgo na awi̋:na?; Hi:yo:lì:gas na awi̋:na?
+*|ᎠᏌᏃ|3|Ije asano agwaduli.|ᎢᏤ ᎠᏌᏃ ᎠᏆᏚᎵ.|I want a new dress.|Ije̋:ɂi à:sano à:gwadu:líha.; Ije̋ à:sano à:gwadu:lí.
+*|ᎦᏁᎳ|3|Ije adanelv ganela.|ᎢᏤ ᎠᏓᏁᎸ ᎦᏁᎳ.|He lives in a new house.|Ije̋:ɂi à:da:ně:lv̋:ɂi ganě:la.; Ije̋ à:da:ně:lv̋ ganě:la.
+*|ᎩᏳᎦ|3|Inage aneho kiyuga.|ᎢᎾᎨ ᎠᏁᎰ ᎩᏳᎦ.|Chipmunks live in the woods.|Ǐ:náge̋:ɂi à:nè:hó:ɂi kiyû:ga.; Ǐ:náge̋ à:nè:hó kiyû:ga.
+*|ᏙᎯᏳ|3|Dohiyu uhyvdla doyi.|ᏙᎯᏳ ᎤᏴᏜ ᏙᏱ.|It's really cold outside.|U:do:hiyű ù:hyv:dla dǒ:yi.; Do:hiyű ù:hyv:dla dǒ:yi.; Do:yű ù:hyv:dla dǒ:yi.
+*|ᎢᏌ|3|Isa hwigi digaduhvi.|ᎢᏌ ᏫᎩ ᏗᎦᏚᎲᎢ.|Pick up some flour from town.|I:sa hwigi diga:dú:hv̋:ɂi.; I:sa hwigi diga:dú:hv̋.
+*|ᎪᎯ|3|Kohi jigesv jijigov.|ᎪᎯ ᏥᎨᏒ ᏥᏥᎪᎥ.|I saw him a while ago.|Kò:hi̋ jigè:sv̌:ɂi jiji:go:hv̌:ɂi.; Kò:hi̋ jigè:sv̌ jiji:go:hv̌.
+*|ᏙᎯᏊ|3|Tohigwu ayv, nihina?|ᏙᎯᏊ ᎠᏴ, ᏂᎯᎾ?|It's just fine, and you?|Tò:hi̋:gwu ayv, nihina?
+*|ᎤᎵᏬᏨᎢ|3|Ulihwojvis na inada?|ᎤᎵᏬᏨᎢᏍ Ꮎ ᎢᎾᏓ?|Is that snake dead?|U:li:hwò:jv̋:ɂisgo na ǐ:náda? U:li:hwò:jv̋:ɂis na ǐ:náda?; U:li:hwò:jv̋:s na ǐ:náda?
+*|ᎤᏪᏥ ᎠᏧᏣ|3|Uweji achuja ahyoha.|ᎤᏪᏥ ᎠᏧᏣ ᎠᏲᎭ.|He's looking for his son.|Uwě:ji achű:ja à:hyóha.; Uwě:j achű:j à:hyóha.
+*|ᎨᏛᏍᎦ|3|Ahani ayehli hetvga.|ᎠᎭᏂ ᎠᏰᏟ ᎮᏛᎦ.|Set the post here in the center.|Áhani aye̋:hli he:tv̀:ga.; Áhni aye̋:hli he:tv̀:ga.
+*|ᎠᏒᏃᏱ|3|Elisi Asvnoyi gesvi.|ᎡᎵᏏ ᎠᏒᏃᏱ ᎨᏒᎢ.|My grandmother was a Nighthawk.|E:lí:si Asv:nǒ:yi gè:sv̌:ɂi.
+*|ᎤᎶᎩᎵ|3|Gajanuli ai ulogili.|ᎦᏣᏄᎵ ᎠᎢ ᎤᎶᎩᎵ.|The clouds are moving fast.|Ga:janű:li á:ɂi u:lò:gí:li.; A:yanű:li á:ɂi u:lò:gí:li.
+*|ᎦᏁᏥᎢ|3|Ganeji uwahnilv sgwahlesdi.|ᎦᏁᏥ ᎤᏩᏂᎸ ᏍᏆᏞᏍᏗ.|A ball hit him on his chest.|Gane:ji̋:ɂi ù:wa:hnílv́:ɂi sgwà:hle̋:sdi.; Gane:ji̋:ɂi ù:wa:hnílv́:ɂi sgwà:tle̋:sdi.; Gane:ji̋ ù:wa:hnílv́ sgwà:hle̋:sdi.; Gane:ji̋ ù:wa:hnílv́ sgwà:tle̋:sdi.
+*|ᎦᏳᎳ|3|Gayulas wijedola digaduhvi?|ᎦᏳᎳᏍ ᏫᏤᏙᎳ ᏗᎦᏚᎲᎢ?|Have you already been to town?|Gá:yu:lasgo wijě:dô:la diga:dú:hv̋:ɂi?; Gá:yu:las wijě:dô:la diga:dú:hv̋:ɂi?; Gá:yu:las wijě:dô:la diga:dú:hv̋?
+*|ᎬᏙᎠ|3|Hadlv ktoo akugisdi?|ᎭᏢ ᎬᏙᎣ ᎠᎫᎩᏍᏗ?|Where does the dipper hang?|Ha:dlv któ:ɂó:ɂi akǔ:gi̋:sdi?; Ha:dlv któ:ɂó akǔ:gi̋:sdi?
+*|ᎦᎶᎪᏗ|3|Hadlv jade galogodi?|ᎭᏢ ᏣᏕ ᎦᎶᎪᏗ?|Where did you put the hoe?|Ha:dlv jadé:ɂi galo:gò:di?; Ha:dlv jadé galo:gò:di?
+*|ᎢᎦ|3|Hila iga dejaduliha?|ᎯᎳ ᎢᎦ ᏕᏣᏚᎵᎭ?|How many do you want?|Hila̋ ǐ:ga̋ de:jadu:líha?
+*|ᎠᏍᎦᏯ|3|Hiyoligas na asgaya?|ᎯᏲᎵᎦᏍ Ꮎ ᎠᏍᎦᏯ?|Did you just now recognize that man?|Hi:yo:ligāsgo na asgaya?; Hi:yo:ligās na asgaya?
+*|ᎮᏍᏗ, ᏞᏍᏗ|3|Hlesdi vsgi yihnadvnehesdi.|ᏞᏍᏗ ᎥᏍᎩ ᏱᎿᏛᏁᎮᏍᏗ.|Don't be doing that.|Hè:sdi v̀:sgina yihnà:dv́:ne:hé:sdi.; Hlè:sdi v̀:sgina yihnà:dv́:ne:hé:sdi.; Hè:sdi v̀:sgi yihnà:dv́:ne:hé:sdi.; Hlè:sdi v̀:sgi yihnà:dv́:ne:hé:sdi.; Hè:sdi sgina yihnà:dv́:ne:hé:sdi.; Hlè:sdi sgina yihnà:dv́:ne:hé:sdi.; Hè:sdi nà:sgi yihnà:dv́:ne:hé:sdi.; Hlè:sdi nà:sgi yihnà:dv́:ne:hé:sdi.
+*|ᎤᏁᎫᏣ|3|Hlesdi. Do janeguja.|ᏞᏍᏗ. Ꮩ ᏣᏁᎫᏣ.|Quit. You're being too mean.|Hè:sdi. Do janě:gû:ja.; Hlè:sdi. Do janě:gû:ja.
+*|ᎠᎦᏘᎭ|3|Jolani aktiha kiloi.|ᏦᎳᏂ ᎠᎦᏘᎭ ᎩᎶᎢ.|Someone is peeking through the window.|Jǒ:lani à:ktiha kilőɂi.; Jǒ:lani à:ktiha kilő.
+*|ᎠᏔᏬᎠ|3|Uweji achuja atawoa.|ᎤᏪᏥ ᎠᏧᏣ ᎠᏔᏬᎠ.|He's combing his son's hair.|Uwě:ji achű:ja à:tawó:ɂa.; Uwě:j achű:j à:tawó:ɂa.
+*|ᎠᎨ|3|Age widagedoli hlega.|ᎠᎨ ᏫᏓᎨᏙᎵ ᏞᎦ.|I will be around over there for a while.|Á:ge̋ widagě:dô:li hle̋:ga.
+*|ᏗᎦᏘᏗᎢ|3|Digatdi wagihla gadu.|ᏗᎦᏘᏗ ᏩᎩᏝ ᎦᏚ.|I have bread in the oven.|Digà:tdi̋:ɂi à:gihla ga̋:du.; Digà:tdi̋ à:gihla ga̋:du.
+*|ᎦᏂ|3|Gani uwahnilv ganvwoi|ᎦᏂ ᎤᏩᏂᎸ ᎦᏅᏬᎢ.|A bullet hit him in his shoulder.|Gáɂni ù:wa:hnílv́:ɂi ganv:wő:ɂi.; Gáɂni ù:wa:hnílv́ ganv:wő:ɂi.; Gáɂni ù:wa:hnílv́ ganv:wő.
+*|ᎩᏝ|3|Gihla nusdi jahnuwvi.|ᎩᏝ ᏄᏍᏗ ᏣᏄᏮᎢ.|There's some loose hair on your shirt.|Giɂhla nű:sdi jahnû:wv̋:ɂi.
+*|ᎠᎭᎷᎩᎭ|3|Hialugi na dagwalela.|ᎯᎠᎷᎩ Ꮎ ᏓᏆᎴᎳ.|Flag that car down.|Hiɂalǔ:gi na dagwalé:la.
+|ᏨᏍᎩᏃ|3|Jvsginois ehi Sedani?|ᏨᏍᎩᏃᎢᏍ ᎡᎯ ᏎᏓᏂ?|Is Satan from hell?|Jv:sgi:noɂisgo e̋:hi Sě:dáni?; Jv:sgi:noɂis e̋:hi Sě:dáni?
+*|ᏅᎩᏁ ᎢᎦ|3|Nvhgine Iga ihedolvi.|ᏅᎩᏁ ᎢᎦ ᎢᎮᏙᎸᎢ.|Come back on Thursday.|Nv:gine i:ga íhě:dô:lv:ɂi.
 
-|ᎦᎾᎵ|3|Hia sogwili ganali.|ᎯᎠ ᏐᏈᎵ ᎦᎾᎵ.|This is a gelding.|
-|ᎠᏫᎾ|3|Hiyoligas na awina?|ᎯᏲᎵᎦᏍ Ꮎ ᎠᏫᎾ?|Do you recognize that young man?|
-|ᎠᏌᏃ|3|Ije asano agwaduli.|ᎢᏤ ᎠᏌᏃ ᎠᏆᏚᎵ.|I want a new dress.|
-|ᎦᏁᎳ|3|Ije adanelv ganela.|ᎢᏤ ᎠᏓᏁᎸ ᎦᏁᎳ.|He lives in a new house.|
-|ᎩᏳᎦ|3|Inage aneho kiyuga.|ᎢᎾᎨ ᎠᏁᎰ ᎩᏳᎦ.|Chipmunks live in the woods.|
-|ᎠᎵ|3|Ali duteesv uhnuwvi.|ᎠᎵ ᏚᏖᎡᏒ ᎤᏄᏮᎢ.|His shirt was soaked with sweat.|
-|ᏙᎯᏳ|3|Dohiyu uhyvdla doyi.|ᏙᎯᏳ ᎤᏴᏜ ᏙᏱ.|It's really cold outside.|
-|ᎢᏌ|3|Isa hwigi digaduhvi.|ᎢᏌ ᏫᎩ ᏗᎦᏚᎲᎢ.|Go get some flour downtown.|
-|ᎪᎯ|3|Kohi jigesv jijigov.|ᎪᎯ ᏥᎨᏒ ᏥᏥᎪᎥ.|I saw him a while ago.|
-|ᏙᎯᏊ|3|Tohigwu ayv, nihina?|ᏙᎯᏊ ᎠᏴ, ᏂᎯᎾ?|I am just fine, and you?|
-|ᎤᎵᏬᏨᎢ|3|Ulihwojvis na inada?|ᎤᎵᏬᏨᎢᏍ Ꮎ ᎢᎾᏓ?|Is that snake dead?|
-|ᎤᏪᏥ ᎠᏧᏣ|3|Uweji achuja ahyoha.|ᎤᏪᏥ ᎠᏧᏣ ᎠᏲᎭ.|He's looking for his son.|
-|ᎨᏛᏍᎦ|3|Ahani ayehli hetvga.|ᎠᎭᏂ ᎠᏰᏟ ᎮᏛᎦ.|Set the post here in the center.|
-|ᎤᏴᏜ|3|Dohiyu uhyvdla doyi.|ᏙᎯᏳ ᎤᏴᏜ ᏙᏱ.|It's really cold outside.|
-|ᎠᏒᏃᏱ|3|Elisi Asvnoyi gesvi.|ᎡᎵᏏ ᎠᏒᏃᏱ ᎨᏒᎢ.|My grandmother was a Nighthawk.|
-|ᎤᎶᎩᎵ|3|Gajanuli ai ulogili.|ᎦᏣᏄᎵ ᎠᎢ ᎤᎶᎩᎵ.|The clouds are moving fast.|
-|ᎦᏁᏥᎢ|3|Ganeji uwahnilv sgwahlesdi.|ᎦᏁᏥ ᎤᏩᏂᎸ ᏍᏆᏞᏍᏗ.|A ball hit him on his chest.|
-|ᎦᏳᎳ|3|Gayulas wijedola digaduhvi?|ᎦᏳᎳᏍ ᏫᏤᏙᎳ ᏗᎦᏚᎲᎢ?|Have you already been to town?|
-|ᎬᏙᎠ|3|Hadlv ktoo akugisdi?|ᎭᏢ ᎬᏙᎣ ᎠᎫᎩᏍᏗ?|Where does the dipper hang?|
-|ᎦᎶᎪᏗ|3|Hadlv jade galogodi?|ᎭᏢ ᏣᏕ ᎦᎶᎪᏗ?|Where did you put the hoe?|
-|ᎢᎦ|3|Hila iga dejaduliha?|ᎯᎳ ᎢᎦ ᏕᏣᏚᎵᎭ?|How many do you want?|
-|ᎠᏍᎦᏯ|3|Hiyoligas na asgaya?|ᎯᏲᎵᎦᏍ Ꮎ ᎠᏍᎦᏯ?|Do you recognize that man?|
-|ᎮᏍᏗ, ᏞᏍᏗ|3|Hlesdi vsgi yihnadvnehesdi.|ᏞᏍᏗ ᎥᏍᎩ ᏱᎿᏛᏁᎮᏍᏗ.|Don't be doing that.|
-|ᎤᏁᎫᏣ|3|Hlesdi. Do janeguja.|ᏞᏍᏗ. Ꮩ ᏣᏁᎫᏣ.|Quit. You're being too mean.|
-|ᎠᎦᏘᎭ|3|Jolani aktiha kiloi.|ᏦᎳᏂ ᎠᎦᏘᎭ ᎩᎶᎢ.|Someone is peeking through the window.|
-|ᎠᏔᏬᎠ|3|Uweji achuja atawoa.|ᎤᏪᏥ ᎠᏧᏣ ᎠᏔᏬᎠ.|She's combing her son's hair.|
-|ᎠᎨ|3|Age widagedoli hlega.|ᎠᎨ ᏫᏓᎨᏙᎵ ᏞᎦ.|I am going over there for a while.|
-|ᏗᎦᏘᏗᎢ|3|Digatdi wagihla gadu.|ᏗᎦᏘᏗ ᏩᎩᏝ ᎦᏚ.|I have bread in the oven.|
-|ᎦᏂ|3|Gani uwahnilv ganvwoi|ᎦᏂ ᎤᏩᏂᎸ ᎦᏅᏬᎢ.|A bullet hit him in his shoulder.|
-|ᎩᏝ|3|Gihla nusdi jahnuwvi.|ᎩᏝ ᏄᏍᏗ ᏣᏄᏮᎢ.|There's some loose hair on your shirt.|
-|ᎠᎭᎷᎩᎭ|3|Hialugi na dagwalela.|ᎯᎠᎷᎩ Ꮎ ᏓᏆᎴᎳ.|Flag that car down.|
-|ᏨᏍᎩᏃ|3|Jvsginois ehi Sedani?|ᏨᏍᎩᏃᎢᏍ ᎡᎯ ᏎᏓᏂ?|Is Satan from hell?|
-|ᏅᎩᏁ ᎢᎦ|3|Nvhgine Iga ihedolvi.|ᏅᎩᏁ ᎢᎦ ᎢᎮᏙᎸᎢ.|Come back on Thursday.|
 |ᎤᎬᎭᏓ|3|Ukvhada kohi sunalei.|ᎤᎬᎭᏓ ᎪᎯ ᏑᎾᎴᎢ.|It was foggy this morning.|
 |ᏩᏁᎢ|3|Wanei hlgvi galuysga.|ᏩᏁᎢ ᏡᎬᎢ ᎦᎷᏯᏍᎪ.|He's chopping on a hickory tree.|
 |ᎦᏁᏁᎭ|3|Ama uditasdi jinevsi.|ᎠᎹ ᎤᏗᏔᏍᏗ ᏥᏁᎥᏏ.|I just gave him water to drink.|
@@ -1776,4 +1774,4 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|ᏗᎧᏃᏩᏗᏙᎯ|2|Danohyadas dinikanowadidohi?|ᏓᏃᏯᏓᏍ ᏗᏂᎧᏃᏩᏗᏙᎯ?|Do angels have wings?|di:ni:kano:wadi:dő:hi
 -|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|Ni! Gá:gō
 -|ᏧᏓᏘᎿᎢ|3|Gag judatihna ijadahlgvi?|ᎦᎪ ᏧᏓᏘᎿᎢ ᎢᏣᏓᎷᎬᎢ?|Who is the chairman of your group?|Gá:gō ju:dǎ:tihnaɂi
-
+-|ᎠᎵ|3|Ali duteesv uhnuwvi.|ᎠᎵ ᏚᏖᎡᏒ ᎤᏄᏮᎢ.|His shirt was soaked with sweat.|A:li
