@@ -25,6 +25,7 @@ dependencies:
   - idna=3.3
   - jmespath=1.0.0
   - jpeg=9e
+  - jsons=1.6.3
   - lcms2=2.12
   - ld_impl_linux-64=2.36.1
   - lerc=3.0
@@ -45,7 +46,7 @@ dependencies:
   - ncurses=6.3
   - olefile=0.46
   - openjpeg=2.4.0
-  - openssl=1.1.1p
+  - openssl=1.1.1q
   - pcre=8.45
   - pip=22.1.2
   - pixman=0.40.0
@@ -65,6 +66,7 @@ dependencies:
   - tinycss2=1.1.1
   - tk=8.6.12
   - tqdm=4.64.0
+  - typish=1.9.3
   - tzdata=2022a
   - urllib3=1.26.9
   - webencodings=0.5.1
