@@ -25,7 +25,7 @@ class Config:
     new_card_tries_decrement: int = 0
 
     new_cards_max_per_session: int = 28
-    new_cards_per_session: int = 7  # 14  # 7
+    new_cards_per_session: int = 14  # 14  # 7
     new_cards_increment: int = 1
 
     review_card_max_tries: int = 6
@@ -38,6 +38,8 @@ class Config:
     temp_dir: str = "tmp"
     output_dir: str = "output"
     sort_deck_by_size: bool = False
+
+    alpha: float = 1.3  # Duration multiplier. Lower = faster speaking, Higher - slower speaking.
 
     @staticmethod
     def load(file: TextIO):
