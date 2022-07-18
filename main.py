@@ -21,6 +21,7 @@ import unicodedata
 from datetime import date
 from datetime import datetime
 
+import simplejson
 from pydub import AudioSegment
 from random import Random
 from tqdm import tqdm
@@ -900,7 +901,7 @@ def main() -> None:
         new_items: str = f"{introduced_count + hidden_count:,}"
         old_items: str = f"{review_count:,}"
         svg_title = svg_title.replace("_new_", new_items)
-        svg_title = svg_title.replace("_old", old_items)
+        svg_title = svg_title.replace("_old_", old_items)
 
         svg_name: str = f"{DATASET}-{_exercise_set + 1:04}.svg"
         print(f"Creating {svg_name}.")
@@ -992,7 +993,7 @@ def main() -> None:
             w.write(f"{_ + 1:04d}|{metadata['date']}|{metadata['title']}|{metadata['album']}|{metadata['duration']}\n")
 
     with open(os.path.join(info_out_dir, "track-info.json"), "w") as w:
-        json.dump(metadata_by_track, w, indent=2, sort_keys=True)
+        simplejson.dump(metadata_by_track, w, indent=2, sort_keys=True, ensure_ascii=False)
         w.write("\n")
 
     save_deck(finished_deck, pathlib.Path("decks", f"{DATASET}.json"))
