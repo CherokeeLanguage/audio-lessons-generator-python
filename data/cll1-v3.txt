@@ -74,7 +74,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 #Chapter 6
 ||sadv́:d à:gowhtí|||||sadv́:di à:gowhtíha|He sees a trap.|
-||sǒ:gwíl à:nigowhtí|||||sǒ:gwíli à:nigowhtíha|They see horses.|
+||sǒ:gwíl à:nigowhtí|||||sǒ:gwíli à:nigowhtíha|They see a horse.|
 ||gi:hli dà:gowhtí asgaya|||||gi:hli dà:gowhtíha asgaya|A man sees dogs.|
 ||ani:sgaya yǒ:na dà:nigowhtí|||||ani:sgaya yǒ:na dà:nigowhtíha|The men see bears.|
 ||gi:hli ale wě:s|||||gi:hli ale wě:sa|A dog and a cat. Or. A dog or a cat.|
