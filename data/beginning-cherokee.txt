@@ -1,0 +1,63 @@
+ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE|APP_FILE
+|||||||O:síyo.; Síyo.|Hello.|||
+|||||||Tò:hi̋:ju?|It's well. Right?|||
+|||||||Ő:sda.|Good.|||
+|||||||Ő:sdadv̀.|Definitely good.|||
+|||||||Wado.|Thanks.|||
+|||||||V:v.; V̄.|.|||
+|||||||V̀:hla.; Hlahv.; Hla.|No. Not.|||
+|||||||Donada:go:hv:ɂi.; Donada:go:hv̄.|We both will see each other again, later.|||
+|||||||Dodada:go:hv:ɂi.; Dodada:go:hv̄.|We'll see each other again, later.|||
+|||||||Igv:yi̋:ɂi Jalagi go:hwe:lvɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
+#||||||| | |||
+|||||||Tlv̀:wasga.|Maple.|||
+|||||||Áhni.; Áhani.|Here.|||
+|||||||U:hyv:dla.; U:hyv:dlv.|Cold.|||
+|||||||Taɂli:né:ɂi Jalagi go:hwe:lvɂi.; Taɂli:né Jalagi go:hwe:lvɂi.|Second Cherokee lesson.||Complete the written material through the end of Lesson 2.|
+#||||||| | |||
+|||||||Di:dihnó:gi.|Let's all sing.|||
+|||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.||Complete the written material through the end of Lesson 3.|
+#||||||| | |||
+|||||||Digo:hwe:la nidi:di:wa.|Let's all say the letters.|||
+|||||||Di:sésdi nidi:di:wa.|Let's all say the numbers.|||
+#||||||| | |||
+|||||||Sà:wű.; Sà:gwű.|One.|||
+|||||||Táɂli.; Táɂl.|Two.|||
+|||||||Joɂi.; Jo.|Three.|||
+|||||||Nvhgi.; Nvhg.|Four.|||
+|||||||Hisgi.; Hisg.|Five.|||
+|||||||Sǔ:dáli.; Sǔ:dál.|Six.|||
+|||||||Galigwǒ:gi.; Galigwǒ:g.|Seven.|||
+|||||||chuně:la; chaně:la; chuně:l; chaně:l|Eight.|||
+|||||||Sóhně:la.; Sóhně:l.|Nine.|||
+|||||||Sgǒ:hi.; Sgǒ.|Ten.|||
+#||||||| | |||
+|||||||Igv:yi̋:ɂi.; Igv:yi̋.|First.|||
+|||||||Taɂli:ne̋:ɂi.; Taɂli:ne̋.|Second. Again.|||
+|||||||Joɂi:ne̋:ɂi.; Joɂi:ne̋.|Third.|||
+|||||||Nvhgi:ne̋:ɂi.; Nvhgi:ne̋.|Fourth.|||
+|||||||Hisgi:ne̋:ɂi.; Hisgi:ne̋.|Fifth.|||
+|||||||Su:dali:ne̋:ɂi.; Su:dali:ne̋.|Sixth.|||
+|||||||Galigwo:gi:ne̋:ɂi.; Galigwo:gi:ne̋.|Seventh.|||
+|||||||Chuně:li:ne̋:ɂi.; Chuně:li:ne̋:ɂi.; Chuně:li:ne̋.; Chuně:li:ne̋.|Eighth.|||
+|||||||Sóhně:li:ne̋:ɂi.; Sóhně:li:ne̋.|Ninth.|||
+|||||||Sgo:hi:ne̋:ɂi.; Sgo:hi:ne̋.|Tenth.|||
+#||||||| | |||
+|||||||Go:hwe:lv.|A letter of the alphabet.|||
+|||||||Dego:hwe:lv.|Letters of the alphabet.|||
+|||||||A:sésdi.|A number. A count.|||
+|||||||Disésdi.|Numbers. Counts.|||
+|||||||Gadíɂa.; Gadíha.|I'm saying.|||
+|||||||Hadíɂa.; Hadíha.|You are saying.|||
+|||||||À:díɂa.; À:díha.|He is saying.|||
+|||||||À:nadíɂa.; À:nadíha.|They are saying.|||
+#||||||| | |||
+|||||||Dù:danv:hnv̋:ɂi digaloɂgwasdohdi.|Rows of the alphabet.|||
+|||||||E:gi.|Maggie.|||
+|||||||Géɂi.|Far off in place or time.|||
+|||||||Goɂi.|Grease. Oil.|||
+|||||||Go:gi.; Go:g.|Summer.|||
+|||||||Gù:gu.|A bottle. Bottles.|||
+|||||||Ayo!|Ouch!|||
+|||||||Nvhgi:né:ɂi Jalagi go:hwe:lvɂi.; Nvhgi:né Jalagi go:hwe:lvɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
+#||||||| | |||

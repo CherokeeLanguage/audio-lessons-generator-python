@@ -206,6 +206,22 @@ def create_prompts() -> dict[str, AudioSegment]:
     """
     prompts[tag] = en_audio(voice, text)
 
+    tag = "beginning-cherokee"
+    text = "Beginning Cherokee. 2nd Edition."
+    prompts[tag] = en_audio(voice, text)
+
+    tag = "beginning-cherokee-about"
+    text = """
+        These audio exercise sessions were createdf to complement
+        the book 'Beginning Cherokee', 2nd Edition, by Ruth Bradley Holmes and Betty Sharp Smith.
+        Each set of audio exercises should be completed before working through the 
+        corresponding lessons in the book.
+        The audio will indicate when you should switch to the book exercises.
+        By the time you complete the assigned audio exercises, you should have
+        little to no difficulty with reading the Cherokee in the chapter texts.
+        """
+    prompts[tag] = en_audio(voice, text)
+
     tag = "ced-sentences-about"
     text = """
         These audio exercise sessions complement the 'Cherokee English Dictionary', 1st Edition.
