@@ -35,11 +35,11 @@ import TTS as tts
 from SrtEntry import SrtEntry
 from config import Config
 
-DATASET: str = "osiyo-tohiju-then-what"
+# DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-# DATASET: str = "ced-sentences"
+DATASET: str = "ced-sentences"
 # DATASET: str = "beginning-cherokee"
 
 MP3_QUALITY: int = 3
@@ -676,7 +676,7 @@ def main() -> None:
             srt_entry.text = challenge
             srt_entry.start = main_audio.duration_seconds
             data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
-            main_audio = main_audio.append(data_file)
+            main_audio = main_audio.append(data_file, crossfade=0)
             srt_entry.end = main_audio.duration_seconds
             if introduce_card:
                 # introduce Cherokee challenge
@@ -691,7 +691,7 @@ def main() -> None:
                 srt_entries.append(srt_entry)
                 srt_entry.text = challenge
                 srt_entry.start = main_audio.duration_seconds
-                main_audio = main_audio.append(data_file)
+                main_audio = main_audio.append(data_file, crossfade=0)
                 srt_entry.end = main_audio.duration_seconds
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
 
@@ -710,7 +710,7 @@ def main() -> None:
                         srt_entries.append(srt_entry)
                         srt_entry.text = alt
                         srt_entry.start = main_audio.duration_seconds
-                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha))
+                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha), crossfade=0)
                         srt_entry.end = main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
