@@ -8,9 +8,6 @@ exit $?
 ''"""
 from __future__ import annotations
 
-import json
-import sys
-
 import jsonpickle
 import os
 import pathlib
@@ -36,10 +33,11 @@ from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
+DATASET: str = "cll1-v3"
+# DATASET: str = "cll1-v3-cram"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-DATASET: str = "ced-sentences"
+# DATASET: str = "ced-sentences"
 # DATASET: str = "beginning-cherokee"
 
 MP3_QUALITY: int = 3
@@ -461,6 +459,7 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
 def main() -> None:
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
+    deck_source: str
 
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
@@ -468,14 +467,21 @@ def main() -> None:
     load_config()
 
     out_dir: str
+
     if cfg.alpha and cfg.alpha != 1.0:
         out_dir = os.path.join(os.path.realpath("."), "output", f"{DATASET}_{cfg.alpha:.2f}")
     else:
         out_dir = os.path.join(os.path.realpath("."), "output", DATASET)
+
+    if cfg.deck_source:
+        deck_source = cfg.deck_source
+    else:
+        deck_source = DATASET
+
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
 
-    main_deck = load_main_deck(os.path.join("data", DATASET + ".txt"))
+    main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
     save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
@@ -594,8 +600,10 @@ def main() -> None:
         srt_entries: list[SrtEntry] = list()
         srt_entry: SrtEntry
 
-        while (
-                lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration):
+        while (lead_in.duration_seconds
+                + lead_out.duration_seconds
+                + main_audio.duration_seconds
+                < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
@@ -710,7 +718,8 @@ def main() -> None:
                         srt_entries.append(srt_entry)
                         srt_entry.text = alt
                         srt_entry.start = main_audio.duration_seconds
-                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha), crossfade=0)
+                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha),
+                                                       crossfade=0)
                         srt_entry.end = main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
