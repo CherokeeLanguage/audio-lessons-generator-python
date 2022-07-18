@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import pathlib
 import re
 import shutil
 import subprocess
@@ -32,12 +33,13 @@ from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
-# DATASET: str = "animals"
+DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
-DATASET: str = "ced-sentences"
+# DATASET: str = "ced-sentences"
+# DATASET: str = "beginning-cherokee"
 
-MP3_QUALITY: int = 5
-MP3_HZ: int = 22_050
+MP3_QUALITY: int = 3
+MP3_HZ: int = 48_000
 
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
@@ -203,10 +205,16 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             english_text = fields[IX_ENGLISH].strip()
             if not english_text:
                 continue
-            if ";" in english_text:
-                english_text = english_text.replace(";", ", Or, ")
-            if english_text[-1] not in ",.?!":
-                english_text += "."
+            texts: list[str] = english_text.split(";")
+            if texts:
+                english_text = ""
+                for text in texts:
+                    text = text.strip()
+                    if text[-1] not in ",.?!":
+                        text += "."
+                    if english_text:
+                        english_text += " Or. "
+                    english_text += text
             if "v.t." in english_text or "v.i." in english_text:
                 english_text = english_text.replace("v.t.", "").replace("v.i.", "")
             if "1." in english_text:
@@ -215,21 +223,21 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 english_text = english_text.replace("3.", ". Or, ")
                 english_text = english_text.replace("4.", ". Or, ")
             if "(" in english_text:
-                # english_text = english_text.replace(" (1)", " one")
                 english_text = english_text.replace(" (1)", "")
+                english_text = english_text.replace(" (one)", "")
                 english_text = english_text.replace(" (animate)", ", living, ")
                 english_text = english_text.replace(" (inanimate)", ", non-living, ")
             if "/" in english_text:
-                english_text = english_text.replace("/", " or ")
+                english_text = english_text.replace("/", ", or, ")
 
             if re.search("(?i)\\bhe, it\\b", english_text):
-                english_text = re.sub("(?i)(he), it\\b", "\\1 or it", english_text)
+                english_text = re.sub("(?i)(he), it\\b", "\\1, or, it", english_text)
             if re.search("(?i)\\bhim, it\\b", english_text):
-                english_text = re.sub("(?i)(him), it\\b", "\\1 or it", english_text)
+                english_text = re.sub("(?i)(him), it\\b", "\\1, or, it", english_text)
             if re.search("(?i)\\bshe, it\\b", english_text):
-                english_text = re.sub("(?i)(she), it\\b", "\\1 or it", english_text)
+                english_text = re.sub("(?i)(she), it\\b", "\\1, or, it", english_text)
             if re.search("(?i)\\bher, it\\b", english_text):
-                english_text = re.sub("(?i)(her), it\\b", "\\1 or it", english_text)
+                english_text = re.sub("(?i)(her), it\\b", "\\1, or, it", english_text)
 
             if "'s" in english_text:
                 english_text = english_text.replace("he's", "he is")
@@ -358,10 +366,10 @@ def fix_english_sex_genders(text_en) -> str:
         return text_en
     if "himself" in tmp:
         tmp = re.sub("(?i)(He )", "\\1 or she ", tmp)
-        tmp = re.sub("(?i)( himself)", "\\1 or herself", tmp)
+        tmp = re.sub("\\bhimself", "themself", tmp)
     if "Himself" in tmp:
         tmp = re.sub("(?i)\\b(He )", "\\1or she ", tmp)
-        tmp = re.sub("(?i)\\b(Himself)", "\\1 or herself", tmp)
+        tmp = re.sub("\\bHimself", "Themself", tmp)
     if re.search(".*\\b[Hh]is\\b.*", tmp):
         tmp = re.sub("(?i)\\b(His)", "\\1 or her", tmp)
     if " or she" not in tmp:
@@ -382,9 +390,9 @@ def create_card_audio(main_deck: LeitnerAudioDeck):
         text_chr_alts = data.challenge_alts
         text_en = data.answer
         for voice in IMS_VOICES:
-            tts.tts_chr(voice, text_chr)
+            tts.tts_chr(voice, text_chr, cfg.alpha)
             for alt in text_chr_alts:
-                tts.tts_chr(voice, alt)
+                tts.tts_chr(voice, alt, cfg.alpha)
         for voice in AMZ_VOICES:
             tts.tts_en(voice, text_en)
 
@@ -433,32 +441,37 @@ active_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
 max_review_cards_this_session: int = 0
 
 
+def save_main_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
+    if not os.path.exists(destination.parent):
+        destination.parent.mkdir(exist_ok=True)
+    with open(destination, "w") as w:
+        json.dump(deck, w)
+
+
 def main() -> None:
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
 
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
-    out_dir: str = os.path.join(os.path.realpath("."), "output", DATASET)
+
+    load_config()
+
+    out_dir: str
+    if cfg.alpha and cfg.alpha != 1.0:
+        out_dir = os.path.join(os.path.realpath("."), "output", f"{DATASET}_{cfg.alpha:.2f}")
+    else:
+        out_dir = os.path.join(os.path.realpath("."), "output", DATASET)
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
 
     main_deck = load_main_deck(os.path.join("data", DATASET + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
+    save_main_deck(main_deck, pathlib.Path("decks", f"{DATASET}.json"))
 
     create_card_audio(main_deck)
     prompts = Prompts.create_prompts()
-
-    os.makedirs("configs", exist_ok=True)
-    cfg_file: str = f"configs/{DATASET}-cfg.json"
-    if os.path.exists(cfg_file):
-        with open(cfg_file, "r") as f:
-            cfg = Config.load(f)
-    else:
-        cfg = Config()
-        with open(cfg_file, "w") as w:
-            Config.save(w, cfg)
 
     _exercise_set: int = 0
     keep_going: bool = True
@@ -652,13 +665,13 @@ def main() -> None:
             srt_entries.append(srt_entry)
             srt_entry.text = challenge
             srt_entry.start = main_audio.duration_seconds
-            data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
+            data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
             main_audio = main_audio.append(data_file)
             srt_entry.end = main_audio.duration_seconds
             if introduce_card:
                 # introduce Cherokee challenge
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
-                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge)
+                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
                 if new_count < 8 and _exercise_set == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
                 else:
@@ -687,7 +700,7 @@ def main() -> None:
                         srt_entries.append(srt_entry)
                         srt_entry.text = alt
                         srt_entry.start = main_audio.duration_seconds
-                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt))
+                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha))
                         srt_entry.end = main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
@@ -773,6 +786,9 @@ def main() -> None:
         if DATASET == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
             tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+        elif DATASET == "beginning-cherokee":
+            tags["album"] = "Beginning Cherokee - 2nd Edition."
+            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "animals":
             tags["album"] = "Animals"
             tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
@@ -871,6 +887,12 @@ def main() -> None:
             svg_title = svg_title.replace("_title1_", tags["title"])
             svg_title = svg_title.replace("_title2_", " ")
         svg_title = svg_title.replace("_artist_", tags["artist"])
+
+        new_items: str = f"{introduced_count + hidden_count:,}"
+        old_items: str = f"{review_count:,}"
+        svg_title = svg_title.replace("_new_", new_items)
+        svg_title = svg_title.replace("_old", old_items)
+
         svg_name: str = f"{DATASET}-{_exercise_set + 1:04}.svg"
         print(f"Creating {svg_name}.")
         output_svg: str = os.path.join(img_out_dir, svg_name)
@@ -963,6 +985,19 @@ def main() -> None:
     with open(os.path.join(info_out_dir, "track-info.json"), "w") as w:
         json.dump(metadata_by_track, w, indent=2, sort_keys=True)
         w.write("\n")
+
+
+def load_config():
+    global cfg, DATASET
+    os.makedirs("configs", exist_ok=True)
+    cfg_file: str = f"configs/{DATASET}-cfg.json"
+    if os.path.exists(cfg_file):
+        with open(cfg_file, "r") as f:
+            cfg = Config.load(f)
+    else:
+        cfg = Config()
+        with open(cfg_file, "w") as w:
+            Config.save(w, cfg)
 
 
 review_count: int = 0

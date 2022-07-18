@@ -1,11 +1,11 @@
 {
+    "alpha": 1.3,
     "create_mp4": true,
     "break_on_end_note": false,
     "create_all_sessions": true,
-    "data_dir": "walc1",
     "debug_deck": false,
     "debug_deck_size": 20,
-    "extra_sessions": 2,
+    "extra_sessions": 0,
     "final_review_session_count": 0,
     "new_card_max_tries": 7,
     "new_card_tries_decrement": 0,
