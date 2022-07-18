@@ -18,8 +18,8 @@ from main import CACHE_CHR
 from main import CACHE_EN
 
 
-def tts_chr(voice: str | None, text_chr: str):
-    mp3_chr: str = get_mp3_chr(voice, text_chr)
+def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> None:
+    mp3_chr: str = get_mp3_chr(voice, text_chr, alpha)
     if os.path.exists(mp3_chr):
         return
     cmd: list[str] = list()
@@ -29,6 +29,9 @@ def tts_chr(voice: str | None, text_chr: str):
     if voice:
         cmd.append("--ref")
         cmd.append(os.path.realpath(os.path.join("ref", f"{voice}.wav")))
+    if alpha:
+        cmd.append("--alpha")
+        cmd.append(str(f"{alpha:.2f}"))
     cmd.append("--mp3")
     cmd.append(mp3_chr+".tmp")
     cmd.append("--text")
@@ -42,16 +45,16 @@ def tts_chr(voice: str | None, text_chr: str):
         shutil.move(mp3_chr+".tmp", mp3_chr)
 
 
-def get_mp3_chr(voice: str | None, text_chr: str) -> str:
+def get_mp3_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> str:
     # text_chr = re.sub("\\s+", " ", textwrap.dedent(text_chr)).strip()
-    mp3_name_chr: str = get_filename(voice, text_chr)
+    mp3_name_chr: str = get_filename(voice, text_chr, alpha)
     mp3_chr: str = os.path.join(CACHE_CHR, mp3_name_chr)
     return mp3_chr
 
 
-def chr_audio(voice: str | None, text_chr: str) -> AudioSegment:
-    tts_chr(voice, text_chr)
-    mp3_file = get_mp3_chr(voice, text_chr)
+def chr_audio(voice: str | None, text_chr: str, alpha: float | None = None) -> AudioSegment:
+    tts_chr(voice, text_chr, alpha)
+    mp3_file = get_mp3_chr(voice, text_chr, alpha)
     return effects.normalize(AudioSegment.from_file(mp3_file))
 
 
@@ -84,11 +87,16 @@ def en_audio(voice: str | None, text_en: str) -> AudioSegment:
     return effects.normalize(AudioSegment.from_file(mp3_file))
 
 
-def get_filename(voice: str, text: str):
+def get_filename(voice: str, text: str, alpha: float | None = None):
     text = re.sub("\\s+", " ", textwrap.dedent(text)).strip()
     text = text.lower()
     if not voice:
         voice = "-"
+    if alpha and alpha != 1.0:
+        if voice == "-":
+            voice = f"a{alpha:.2f}"
+        else:
+            voice = f"{voice}_a{alpha:.2f}"
     sha1: str
     sha1 = hashlib.sha1(text.encode("UTF-8")).hexdigest()
     _ = unicodedata.normalize("NFD", text).replace(" ", "_")
