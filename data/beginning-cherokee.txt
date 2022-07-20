@@ -121,8 +121,59 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gǐ:ga.; Gǐ.|Blood.|||
 |||||||Go:hi̋:gi.; Go:hi̋.|A long time ago.
 |||||||Go:hí.|This position in time.|||
-|||||||Go:hí i:ga.|Today.|||
+|||||||Go:hí i:ga.|This day. Today.|||
 |||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
 |||||||Hiɂa.; Hiɂi.|This. These.|||
-|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.||Complete the lesson material through to the end of chapter five.|
-
+|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
+|||||||Hisgine̋:ɂi Jalagi go:hwe:lv̀:ɂi.|Fifth Cherokee lessons.||Complete the lesson material through to the end of chapter five.|
+#||||||| | |||
+|||||||Di:de:hyǒ:hvsgi.; Di:de:hyǒ:hv.|Teacher.|||
+|||||||Ì:dalě:na.; Ì:dalě:n.|Let's all begin.|||
+|||||||Ì:nalě:na.; Ì:nalě:n.|Let's both begin.|||
+|||||||Ha:dlv hině:la?; Ha:dlv hině:l?|Where do you live?|||
+|||||||Ha:dlv sdině:la?; Ha:dlv sdině:l?|Where do you two live?|||
+|||||||Ha:dlv ì:jině:la?; Ha:dlv ì:jině:l?|Where do you all live?|||
+|||||||Gadò dě:jádo:ɂa?; Dò dě:jádo?|What's your name?|||
+|||||||Gweti dà:wadó:ɂa.; Gweti dà:wadó.|My name is Betty.|||
+|||||||U:sganő:li hiwò:nǐ:hi.; U:sganő hiwò:nǐ.|Speak slowly.|||
+|||||||Tla yigo:lì:ga.|I don't understand.|||
+|||||||Gadò:gi hadí:ɂa?; Dò:gi hadí?|What did you just say?|||
+|||||||Ha:dlv go:hwě:li dijanè:sdi?; Ha:dlv go:hwě:la dijanè:sdi?; Ha:dlv go:hwě:l dijanè:sdi?|What is your address?|||
+|||||||Go:hwě:li diganè:sdíɂi.; Go:hwě:l diganè:sdí.|My address is.|||
+|||||||Gadō u:sdi?; Dō u:sd?|What is it?|||
+|||||||Gadō u:sdi jadu:líɂa?; Dō u:sd jadu:lí?|What do you want?|||
+|||||||Gadō u:sdi sdadu:líɂa?; Dō u:sd sdadu:lí?|What do you two want?|||
+|||||||Gadō u:sdi ì:jadu:líɂa?; Dō u:sd ì:jadu:lí?|What do you all want?|||
+|||||||Nihinahv?; Nihina?|How about you?|||
+|||||||Tla yà:gwanhta.; Tla yà:gwanht.|I don't know.|||
+|||||||Dinǐ:yé:li:hi.; Dinǐ:yé:li.|Let's both adjourn.|||
+|||||||Didǐ:yé:li:hi.; Didǐ:yé:li.|Let's all adjourn.|||
+|||||||Ő:sda.|Good. Well.|||
+|||||||Tò:hi̋.|Healthy. Serene.|||
+|||||||U:sganőli.; U:sganől.|Slowly.|||
+|||||||Di:de:hyǒ:hvsgi.|Teacher.|||
+|||||||Gadō?|What? Which?|||
+|||||||Gadō ű:sdi?; Gadō ű:sd?; Dō ű:sd?|What kind of?|||
+|||||||Ha:dlv?|Where?|||
+|||||||Go:hwe:li.; Go:hwe:la.; Go:hwe:l.|Written material.|||
+|||||||À:gwanhta.; À:gwanht.|I know a fact.|||
+|||||||Janhta.; Janht.|You know a fact.|||
+|||||||Ùnhta.; Ùnht.|He knows a fact.|||
+|||||||Ùnanhta.; Ùnanht.|They know a fact.|||
+|||||||Ahő:li.|His mouth.|||
+|||||||Ahu:li.|A drum.|||
+|||||||Ale.|And. Or.|||
+|||||||V:le.|A locust. Locusts.|||
+|||||||Kaga?; Ka?; Gá:gō?|Who?|||
+|||||||Kilő:ɂi.; Kilő.|Someone.|||
+|||||||Hv:ɂ?|What did you say?|||
+|||||||Lu:ga.; Lu:g.|Luke.|||
+|||||||Galiɂě:lî:ga.; Galiɂě:lî.|I'm happy or grateful.|||
+|||||||Halihě:lî:ga.; Halihě:lî.|You are happy or grateful.|||
+|||||||À:li:hě:lî:ga.; À:li:hě:lî.|He is happy or grateful.|||
+|||||||Anali:hě:lî:ga.; Anali:hě:lî.|They are happy or grateful.|||
+|||||||Go:lì:ga.; Go:lì.|I understand.|||
+|||||||Ho:hlga.|You understand.|||
+|||||||Go:hlga.|He understands.|||
+|||||||À:no:hlga.|They understand.|||
+|||||||Su:dali:né Jalagi go:hwe:lv̀:ɂi.|Sixth Cherokee lessons.||Complete the lesson material through to the end of chapter six.|
