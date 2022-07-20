@@ -19,7 +19,7 @@
     "review_cards_increment": 2,
     "review_cards_max_per_session": 42,
     "review_cards_per_session": 14,
-    "session_max_duration": 3585,
+    "session_max_duration": 3570,
     "sessions_to_create": 999,
     "sort_deck_by_size": false,
     "temp_dir": "tmp"
