@@ -33,12 +33,12 @@ from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
+# DATASET: str = "cll1-v3"
 # DATASET: str = "cll1-v3-cram"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 # DATASET: str = "ced-sentences"
-# DATASET: str = "beginning-cherokee"
+DATASET: str = "beginning-cherokee"
 
 MP3_QUALITY: int = 3
 MP3_HZ: int = 48_000

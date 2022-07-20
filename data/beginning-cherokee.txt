@@ -61,3 +61,68 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ayo!|Ouch!|||
 |||||||Nvhgi:né:ɂi Jalagi go:hwe:lvɂi.; Nvhgi:né Jalagi go:hwe:lvɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
 #||||||| | |||
+|||||||Ahljadő:hvsgi.; Ahljadő:hv.|A minister.|||
+|||||||Dà:ni:lâ:wì:ga.; Dà:ni:lâ:wì.|A church service.|||
+|||||||Ju:ni:là:wisdi.|A church's location.|||
+|||||||Gé:ga.; Gé.|I go.|||
+|||||||Hé:ga.; Hé.|You go.|||
+|||||||É:ga.; É.|He or it goes.|||
+|||||||À:né:ga.; À:né.|They go.|||
+|||||||Ju:ni:là:wisdi gé:ga.; Ju:ni:là:wisdi gé.|I am going to church.|||
+|||||||Digwé:nv̀:sv̋:ɂi gé:ga.; Digwé:nv̀:sv̋ gé:ga.; Digwé:nv̀:sv̋ gé.|I am going home.|||
+|||||||Dijé:nv̀:sv̋:ɂi hé:ga.; Dijé:nv̀:sv̋ hé:ga.; Dijé:nv̀:sv̋ hé.|You are going home.|||
+|||||||Juwé:nv̀:sv̋:ɂi é:ga.; Juwé:nv̀:sv̋ é:ga.; Juwé:nv̀:sv̋ é.|He is going home.|||
+|||||||Juné:nv̀:sv̋:ɂi à:né:ga.; Juné:nv̀:sv̋ à:né:ga.; Juné:nv̀:sv̋ à:né.|They are going home.|||
+|||||||U:nali:he:lísdi à:lsdàyhdi.; U:li:he:lísdi à:lsdàyhdi.|Thanksgiving meal.|||
+|||||||Ga̋:du.|Bread.|||
+|||||||Go:hlv:hnv̋:ɂi; Go:hlv:hnv̋|Butter.|||
+|||||||Sě:lu.|Corn.|||
+|||||||Sě:lu ga̋:du.|Corn bread.|||
+|||||||Gv́:na.; Gv́:n.|A turkey. Turkeys.|||
+|||||||Hawi:ya.|Meat.|||
+|||||||Asǔ:yanaɂi.; Asǔ:yana.|Stuffing.|||
+|||||||Asú:sdi.; Asú.|Gravy.|||
+|||||||Nǔ:na.; Nǔ:ni.; Nǔ:n.|A potato. Potatoes.|||
+|||||||Nǔ:na aninv:hi̋:da.; Nǔ:na aninv:hi̋:d.|A sweet or long potato. Sweet or long potatoes.|||
+|||||||I:ya ge:li̋:sgi.; I:ya ge:li̋.|A pumpkin pie.|||
+|||||||Udadlv̌:da.; Udadlv̌:di.|Cream.|||
+|||||||Gv́:na à:wadu:líɂa.; Gv́:n à:wadu:lí.|I want turkey.|||
+|||||||Asǔ:yanaɂi à:wadu:líɂa.; Asǔ:yana à:wadu:lí.|I want stuffing.|||
+|||||||Asú:sdi à:wadu:líɂa.; Asú:sdi à:wadu:lí.|I want gravy|||
+|||||||Gv́:na dè:skvsi.; Gv́:n dè:skv.|Hand me the turkey.|||
+|||||||Asǔ:yanaɂi dè:skvsi.; Asǔ:yana dè:skv.|Hand me the stuffing.|||
+|||||||Asú:sdi desgi:nehvsi.; Asú:sdi desgi:nehv.|Hand me the gravy.|||
+|||||||U:sdi̋ desgì:kasi.; U:sdi̋ desgì:ka.|Hand me the baby.|||
+|||||||U:sdi̋ hì:kasi.; U:sdi̋ hì:ka.|Hand him the baby.|||
+|||||||U:sdi̋ gahì:kasi.; U:sdi̋ gahì:ka.|Hand them the baby.|||
+|||||||Go:hwe:la desgi:nv̀:si.; Go:hwe:la desgi:nv̀.|Hand me the paper.|||
+|||||||Go:hwe:la hi:nv̀:si.; Go:hwe:la hi:nv̀.|Hand him the paper.|||
+|||||||Go:hwe:la digahi:nv̀:si.; Go:hwe:la digahi:nv̀.|Hand them the paper.|||
+|||||||Gv:no:sásdi desgi:dì:si.|Hand me a broom.|||
+|||||||Gv:no:sásdi hi:dì:si.|Hand him a broom.|||
+|||||||Gv:no:sásdi gahi:dì:si.|Hand them the broom.|||
+|||||||Gv́:na desgvsi.; Gv́:n desgv.|Hand me the turkey.|||
+|||||||Gv́:na hiɂvsi.; Gv́:n hiɂv.|Hand him the turkey.|||
+|||||||Gv́:na gahiɂvsi.; Gv́:n gahiɂv.|Hand them the turkey.|||
+|||||||Udadlv̌da desgi:ne:hvsi.; Udadlv̌ desgi:ne:hv.|Hand me the cream.|||
+|||||||Udadlv̌da hineɂvsi.; Udadlv̌d hineɂv.|Hand him the cream.|||
+|||||||Udadlv̌da gahineɂv̄si.; udadlv̌d gahineɂv̄.|Hand them the cream.|||
+|||||||Galì:sdâ:yv:hv́sga.; Galì:sdâ:yv:hv́.|I am eating a meal.|||
+|||||||Halsdâ:yv:hv́sga.; Halsdâ:yv:hv́.|You are eating a meal.|||
+|||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
+|||||||Analsdâ:yv:hv́sga.; Analsdâ:yv:hv́.|They are eating a meal.|||
+|||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
+|||||||Awadu:líɂa.; Awadu:lí.|I want.|||
+|||||||Jadu:líɂa.; Jadu:lí.|You want.|||
+|||||||U:du:líɂa.; U:du:lí.|He wants.|||
+|||||||Ù:nadu:líɂa.; Ù:nadu:lí.|The want.|||
+|||||||Agǐ:gáge.; Agǐ:ge.|Red.|||
+|||||||U:gù:ku.|An owl. Owls.|||
+|||||||Gǐ:ga.; Gǐ.|Blood.|||
+|||||||Go:hi̋:gi.; Go:hi̋.|A long time ago.
+|||||||Go:hí.|This position in time.|||
+|||||||Go:hí i:ga.|Today.|||
+|||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
+|||||||Hiɂa.; Hiɂi.|This. These.|||
+|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.||Complete the lesson material through to the end of chapter five.|
+
