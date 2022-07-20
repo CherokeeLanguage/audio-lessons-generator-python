@@ -104,22 +104,22 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gv́:na desgvsi.; Gv́:n desgv.|Hand me the turkey.|||
 |||||||Gv́:na hiɂvsi.; Gv́:n hiɂv.|Hand him the turkey.|||
 |||||||Gv́:na gahiɂvsi.; Gv́:n gahiɂv.|Hand them the turkey.|||
-|||||||Udadlv̌da desgi:ne:hvsi.; Udadlv̌ desgi:ne:hv.|Hand me the cream.|||
-|||||||Udadlv̌da hineɂvsi.; Udadlv̌d hineɂv.|Hand him the cream.|||
-|||||||Udadlv̌da gahineɂv̄si.; udadlv̌d gahineɂv̄.|Hand them the cream.|||
+|||||||Udadlv̌:da desgi:ne:hvsi.; Udadlv̌ desgi:ne:hv.|Hand me the cream.|||
+|||||||Udadlv̌:da hineɂvsi.; Udadlv̌:d hineɂv.|Hand him the cream.|||
+|||||||Udadlv̌:da gahineɂv̄si.; Udadlv̌:d gahineɂv̄.|Hand them the cream.|||
 |||||||Galì:sdâ:yv:hv́sga.; Galì:sdâ:yv:hv́.|I am eating a meal.|||
 |||||||Halsdâ:yv:hv́sga.; Halsdâ:yv:hv́.|You are eating a meal.|||
 |||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
 |||||||Analsdâ:yv:hv́sga.; Analsdâ:yv:hv́.|They are eating a meal.|||
 |||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
-|||||||Awadu:líɂa.; Awadu:lí.|I want.|||
+|||||||Awadu:líɂa.; Awadu:lí.; À:gwadu:líɂa.; À:gwadu:lí.|I want.|||
 |||||||Jadu:líɂa.; Jadu:lí.|You want.|||
 |||||||U:du:líɂa.; U:du:lí.|He wants.|||
 |||||||Ù:nadu:líɂa.; Ù:nadu:lí.|The want.|||
 |||||||Agǐ:gáge.; Agǐ:ge.|Red.|||
 |||||||U:gù:ku.|An owl. Owls.|||
 |||||||Gǐ:ga.; Gǐ.|Blood.|||
-|||||||Go:hi̋:gi.; Go:hi̋.|A long time ago.
+|||||||Go:hi̋:gi.; Go:hi̋.|A long time ago.|||
 |||||||Go:hí.|This position in time.|||
 |||||||Go:hí i:ga.|This day. Today.|||
 |||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
