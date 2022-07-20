@@ -218,21 +218,23 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᏍᏙᏍᎩᎢ|3|Gado galsda asdosgii?|ᎦᏙ ᎦᎵᏍᏓ ᎠᏍᏙᏍᎩᎢ?|What happened to the crusher?|Gadò galsdà asdò:sgi̋:ɂi?; Dò galsdà asdò:sgi̋?
 *|ᎤᏍᏛᏗᎠ|3|Gado udvnelv usdvdia?|ᎦᏙ ᎤᏛᏁᎸ ᎤᏍᏛᏗᎠ?|What is he being punished for?|Gadò u:dvnelv̌:ɂi ù:sdv:díɂa?; Gadò u:dvnelv̌ ù:sdv:dí?; Dò u:dvnelv̌ ù:sdv:dí?
 *|ᎠᏓᏅᏖᎭ|3|Gado usdi hadanhteha?|ᎦᏙ ᎤᏍᏗ ᎭᏓᏅᏖᎭ?|What are you thinking about?|Gadō u:sdi hà:danhtéha?; Gadō u:sdi hà:danhté?; Dō u:sdi hà:danhté?
+*|ᎬᏣᏢᏍᎦ|3|Gado usdi hvjahlvsga?|ᎦᏙ ᎤᏍᏗ ᎲᏣᎸᏍᎦ?|What are you frying?|Gadō u:sdi hv:jahlv́sga?; Dō u:sd hv:jahlv́sga?
+*|ᎦᎾᏰᎩ|3|Ganayegi julvhwisdanhdi uha.|ᎦᎾᏰᎩ ᏧᎸᏫᏍᏓᏁᏗ ᎤᎭ.|He has a dangerous job.|Gánayè:gi ju:lv̌:hwísdà:nehdi ǔ:ha.; Gánayè:g ju:lv̌:hwísdà:nehd ǔ:ha.
+*|ᎦᏅᏍᎨ|3|Gvna ganvsge asdigia.|ᎬᎾ ᎦᏅᏍᎨ ᎠᏍᏗᎩᎠ.|He's eating a turkey leg.|Gv́:na ganv̀:sge̋:ni à:sdǐ:gíɂa.; Gv́:na ganv̀:sge̋ à:sdǐ:gíɂa.
+*|ᎬᏃᏌᏍᏗ|3|Hadlv jiya gvnosasdi?|ᎭᏢ ᏥᏯ ᎬᏃᏌᏍᏗ?|Where is the broom?|Ha:dlv jiya gv:no:sásdi?
+*|ᎠᏐᏲᎭ|3|Ije usohyalv dlogesi.|ᎢᏤ ᎤᏐᏯᎸ ᏠᎨᏏ.|He built a new fence around the garden.|Ije̋:ɂi ù:sǒ:hya̋lv̌:ɂi dlo:ge̋:si.; Ije̋ ù:sǒ:hya̋lv̌ dlo:ge̋:si.
+*|ᎦᏅᏁᎭ|3|Ije ahnawo jinvnelvi.|ᎢᏤ ᎠᎿᏬ ᏥᏅᏁᎸᎢ.|I gave him a new shirt.|Ije̋:ɂi ahnawo nv́:ne:lv̌:ɂi.; Ije̋ ahnawo nv́:ne:lv̌.
+*|ᏥᏳ|3|Jiyu ahlawidisgi jigowhtiha.|ᏥᏳ ᎠᏝᏫᏗᏍᎩ ᏥᎪᏩᏘᎭ.|I see an airplane.|Jǐ:yu ahlawi:di̋:sgi jigòwhtiha.; Jǐ:yu ahlawi:di̋:sgi jigòwhti.
+*|ᎠᏍᏛᎭᏟ|3|Joi disdvhahli dugvi.|ᏦᎢ ᏗᏍᏛᎭᏟ ᏚᎬᎢ.|He ate three sandwiches.|Joɂi di:sdv̌:hahli dù:gv̌:ɂi.; Jo di:sdv̌:hahli dù:gv̌.
+*|ᎠᏍᏙᎠ|3|Nvyas usdosdi jaduli?|ᏅᏯᏍ ᎤᏍᏙᏍᏗ ᏣᏚᎵ?|Do you want him to crush some rocks?|Nv̀:yasgo u:sdò:sdi jadu:líha?; Nv̀:yas u:sdò:sdi jadu:lí?
+*|ᎤᏘᏴᏅᎢ|3|Svhi utiyvhnv anigia.|ᏒᎯ ᎤᏘᏴᏅ ᎠᏂᎩᎠ.|They're eating leftovers from yesterday.|Sv:hi u:ti:yv̌:hnv̋:ɂi à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigí.
+*|ᏒᎯ ᎤᏒᎢ|3|Ugahnaneis svhi usvi?|ᎤᎦᎿᏁᎢᏍ ᏒᎯ ᎤᏒᎢ?|Did it rain night before last?|U:gáhnané:ɂisgo sv:hi usv̀:ɂi?; U:gáhnané:ɂis sv:hi usv̀:ɂi?; U:gáhnanés sv:hi usv̀?
+*|ᎦᎷᏯᏍᎦ|3|Utana hlgvi galuysga.|ᎤᏔᎾ ᏡᎬᎢ ᎦᎷᏯᏍᎦ.|He is chopping on a big tree.|Ǔ:tana hlgv̋:ɂi galûysga.; Ǔ:tan hlgv̋ galûysga.
+*|ᎠᏓᏅᏏᏂ|3|Utana inada adansini.|ᎤᏔᎾ ᎢᎾᏓ ᎠᏓᎾᏏᏂ.|A big snake is crawling.|Ǔ:tana ǐ:náda à:dansǐ:ni.
+*|ᏥᏳᎪᏗ|2|Aksgani hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go left.|Aksgani hwilǒ:hi.
+*|ᏥᏳᎪᏗ|2|Aktisi hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go right.|Akti:si hwilǒ:hi.
 
-|ᎬᏣᏢᏍᎦ|3|Gado usdi hvjahlvsga?|ᎦᏙ ᎤᏍᏗ ᎲᏣᎸᏍᎦ?|What are you frying?|
-|ᎦᎾᏰᎩ|3|Ganayegi julvhwisdanhdi uha.|ᎦᎾᏰᎩ ᏧᎸᏫᏍᏓᏁᏗ ᎤᎭ.|He has a dangerous job.|
-|ᎦᏅᏍᎨ|3|Gvna ganvsge asdigia.|ᎬᎾ ᎦᏅᏍᎨ ᎠᏍᏗᎩᎠ.|He's eating a turkey leg.|
-|ᎬᏃᏌᏍᏗ|3|Hadlv jiya gvnosasdi?|ᎭᏢ ᏥᏯ ᎬᏃᏌᏍᏗ?|Where is the broom?|
-|ᎠᏐᏲᎭ|3|Ije usohyalv dlogesi.|ᎢᏤ ᎤᏐᏯᎸ ᏠᎨᏏ.|He built a new fence around the garden.|
-|ᎦᏅᏁᎭ|3|Ije ahnawo jinvnelvi.|ᎢᏤ ᎠᎿᏬ ᏥᏅᏁᎸᎢ.|I gave him a new shirt.|
-|ᏥᏳ|3|Jiyu ahlawidisgi jigowhtiha.|ᏥᏳ ᎠᏝᏫᏗᏍᎩ ᏥᎪᏩᏘᎭ.|I see an airplane.|
-|ᎠᏍᏛᎭᏟ|3|Joi disdvhahli dugvi.|ᏦᎢ ᏗᏍᏛᎭᏟ ᏚᎬᎢ.|He ate three sandwiches.|
-|ᎠᏍᏙᎠ|3|Nvyas usdosdi jaduli?|ᏅᏯᏍ ᎤᏍᏙᏍᏗ ᏣᏚᎵ?|Do you want him to crush some rocks?|
-|ᎤᏘᏴᏅᎢ|3|Svhi utiyvhnv anigia.|ᏒᎯ ᎤᏘᏴᏅ ᎠᏂᎩᎠ.|They're eating leftovers from yesterday.|
-|ᏒᎯ ᎤᏒᎢ|3|Ugahnaneis svhi usvi?|ᎤᎦᎿᏁᎢᏍ ᏒᎯ ᎤᏒᎢ?|Did it rain night before last?|
-|ᎦᎷᏯᏍᎦ|3|Utana hlgvi galuysga.|ᎤᏔᎾ ᏡᎬᎢ ᎦᎷᏯᏍᎦ.|He is chopping on a big tree.|
-|ᎠᏓᏅᏏᏂ|3|Utana inada adansini.|ᎤᏔᎾ ᎢᎾᏓ ᎠᏓᎾᏏᏂ.|A big snake is crawling.|
-|ᎧᎾᎸᎢᏍᏗ|3|Yv nijvga kanalvisdi.|Ᏼ ᏂᏨᎦ ᎧᎾᎸᎢᏍᏗ.|Put anger aside.|
+
 |ᎢᏤᎢ|3|Anije tuya dinadesuga.|ᎠᏂᏤ ᏚᏯ ᏗᎾᏕᏑᎦ.|Let's go pick some green beans.|
 |ᎠᏯ, ᎠᏴ|3|Ayas agwenvsdi jaduli?|ᎠᏯᏍ ᎠᏇᏅᏍᏗ ᏣᏚᎵ?|Do you want me to go?|
 |ᎦᏅᏗᎢ|3|Ganvdi asdvvsga usdii.|ᎦᏅᏗ ᎠᏍᏛᎥᏍᎦ ᎤᏍᏗᎢ.|She's feeding a baby on her breast.|
@@ -1774,3 +1776,4 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 -|Ꮒ|3|Ni! Gago jidaya?|Ꮒ! ᎦᎪ ᏥᏓᏯᎢ?|Look! Who's that coming?|Ni! Gá:gō
 -|ᏧᏓᏘᎿᎢ|3|Gag judatihna ijadahlgvi?|ᎦᎪ ᏧᏓᏘᎿᎢ ᎢᏣᏓᎷᎬᎢ?|Who is the chairman of your group?|Gá:gō ju:dǎ:tihnaɂi
 -|ᎠᎵ|3|Ali duteesv uhnuwvi.|ᎠᎵ ᏚᏖᎡᏒ ᎤᏄᏮᎢ.|His shirt was soaked with sweat.|A:li
+-|ᎧᎾᎸᎢᏍᏗ|3|Yv nijvga kanalvisdi.|Ᏼ ᏂᏨᎦ ᎧᎾᎸᎢᏍᏗ.|Put anger aside.|

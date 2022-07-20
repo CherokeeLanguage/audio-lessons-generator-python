@@ -217,3 +217,18 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Dò galsdà asdò:sgi̋?|||||Gadò galsdà asdò:sgi̋:ɂi?|What happened to the crusher?||
 ||Gadò u:dvnelv̌ ù:sdv:dí?; Dò u:dvnelv̌ ù:sdv:dí?|||||Gadò u:dvnelv̌:ɂi ù:sdv:díɂa?|What is he being punished for?||
 ||Gadō u:sdi hà:danhté?; Dō u:sdi hà:danhté?|||||Gadō u:sdi hà:danhtéha?|What are you thinking about?||
+||Dō u:sd hv:jahlv́sga?|||||Gadō u:sdi hv:jahlv́sga?|What are you frying?||
+||Gánayè:g ju:lv̌:hwísdà:nehd ǔ:ha.|||||Gánayè:gi ju:lv̌:hwísdà:nehdi ǔ:ha.|He has a dangerous job.||
+||Gv́:na ganv̀:sge̋ à:sdǐ:gíɂa.|||||Gv́:na ganv̀:sge̋:ni à:sdǐ:gíɂa.|He's eating a turkey leg.||
+|||||||Ha:dlv jiya gv:no:sásdi?|Where is the broom?||
+||Ije̋ ù:sǒ:hya̋lv̌ dlo:ge̋:si.|||||Ije̋:ɂi ù:sǒ:hya̋lv̌:ɂi dlo:ge̋:si.|He built a new fence around the garden.||
+||Ije̋ ahnawo nv́:ne:lv̌.|||||Ije̋:ɂi ahnawo nv́:ne:lv̌:ɂi.|I gave him a new shirt.||
+||Jǐ:yu ahlawi:di̋:sgi jigòwhti.|||||Jǐ:yu ahlawi:di̋:sgi jigòwhtiha.|I see an airplane.||
+||Jo di:sdv̌:hahli dù:gv̌.|||||Joɂi di:sdv̌:hahli dù:gv̌:ɂi.|He ate three sandwiches.||
+||Nv̀:yas u:sdò:sdi jadu:lí?|||||Nv̀:yasgo u:sdò:sdi jadu:líha?|Do you want him to crush some rocks?||
+||Sv:hi u:ti:yv̌:hnv̋ à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigí.|||||Sv:hi u:ti:yv̌:hnv̋:ɂi à:nigíɂa.|They're eating leftovers from yesterday.||
+||U:gáhnané:ɂis sv:hi usv̀:ɂi?; U:gáhnanés sv:hi usv̀?|||||U:gáhnané:ɂisgo sv:hi usv̀:ɂi?|Did it rain night before last?||
+||Ǔ:tan hlgv̋ galûysga.|||||Ǔ:tana hlgv̋:ɂi galûysga.|He is chopping on a big tree.||
+|||||||Ǔ:tana ǐ:náda à:dansǐ:ni.|A big snake is crawling.||
+|||||||Aksgani hwilǒ:hi.|Go left.||
+|||||||Akti:si hwilǒ:hi.|Go right.||
