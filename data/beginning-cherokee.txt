@@ -148,10 +148,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Tla yà:gwanhta.; Tla yà:gwanht.|I don't know.|||
 |||||||Dinǐ:yé:li:hi.; Dinǐ:yé:li.|Let's both adjourn.|||
 |||||||Didǐ:yé:li:hi.; Didǐ:yé:li.|Let's all adjourn.|||
-|||||||Ő:sda.|Good. Well.|||
+#|||||||Ő:sda.|Good. Well.|||
 |||||||Tò:hi̋.|Healthy. Serene.|||
 |||||||U:sganőli.; U:sganől.|Slowly.|||
-|||||||Di:de:hyǒ:hvsgi.|Teacher.|||
+#|||||||Di:de:hyǒ:hvsgi.|Teacher.|||
 |||||||Gadō?|What? Which?|||
 |||||||Gadō ű:sdi?; Gadō ű:sd?; Dō ű:sd?|What kind of?|||
 |||||||Ha:dlv?|Where?|||
