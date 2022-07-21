@@ -2,24 +2,27 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||O:síyo.; Síyo.|Hello.|||
 |||||||Tò:hi̋:ju?|It's well. Right?|||
 |||||||Ő:sda.|Good.|||
-|||||||Ő:sdadv̀.|Definitely good.|||
+|||||||Ő:sda:dv̀.|Definitely good.|||
 |||||||Wado.|Thanks.|||
-|||||||V:v.; V̄.|.|||
-|||||||V̀:hla.; Hlahv.; Hla.|No. Not.|||
+|||||||V:ɂv.; V:ɂ.|Yes.|||
+|||||||V̀:ɂhla.; Hla:ɂhv.; Hla.|No. Not.|||
 |||||||Donada:go:hv:ɂi.; Donada:go:hv̄.|We both will see each other again, later.|||
 |||||||Dodada:go:hv:ɂi.; Dodada:go:hv̄.|We'll see each other again, later.|||
-|||||||Igv:yi̋:ɂi Jalagi go:hwe:lvɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
+|||||||Igv:yi̋:ɂi Jalagi go:hwe:lvɂi.; Igv:yi̋ Jalagi go:hwe:lvɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
 #||||||| | |||
 |||||||Tlv̀:wasga.|Maple.|||
 |||||||Áhni.; Áhani.|Here.|||
 |||||||U:hyv:dla.; U:hyv:dlv.|Cold.|||
-|||||||Taɂli:né:ɂi Jalagi go:hwe:lvɂi.; Taɂli:né Jalagi go:hwe:lvɂi.|Second Cherokee lesson.||Complete the written material through the end of Lesson 2.|
+|||||||Taɂli:ne̋:ɂi Jalagi go:hwe:lvɂi.; Taɂli:ne̋ Jalagi go:hwe:lvɂi.|Second Cherokee lesson.|||
 #||||||| | |||
 |||||||Di:dihnó:gi.|Let's all sing.|||
-|||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.||Complete the written material through the end of Lesson 3.|
+|||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.|||
+|||||||Joɂi:ne̋:ɂi Jalagi go:hwe:lvɂi.; Joɂi:ne̋ Jalagi go:hwe:lvɂi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
 #||||||| | |||
-|||||||Digo:hwe:la nidi:di:wa.|Let's all say the letters.|||
-|||||||Di:sésdi nidi:di:wa.|Let's all say the numbers.|||
+|||||||Digo:hwe:la nidì:díwi.; Digo:hwe:la nidì:díwa.|Let's all say the letters.|||
+|||||||Di:sésdi nidì:díwi.; Di:sésdi nidì:díwa.|Let's all say the numbers.|||
+|||||||Digo:hwe:la nidì:níwi.; Digo:hwe:la nidì:níwa.|Let's both say the letters.|||
+|||||||Di:sésdi nidì:níwi.; Di:sésdi nidì:níwa.|Let's both say the numbers.|||
 #||||||| | |||
 |||||||Sà:wű.; Sà:gwű.|One.|||
 |||||||Táɂli.; Táɂl.|Two.|||
@@ -28,7 +31,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Hisgi.; Hisg.|Five.|||
 |||||||Sǔ:dáli.; Sǔ:dál.|Six.|||
 |||||||Galigwǒ:gi.; Galigwǒ:g.|Seven.|||
-|||||||chuně:la; chaně:la; chuně:l; chaně:l|Eight.|||
+|||||||Chuně:la; Chaně:la; Chuně:l; Chaně:l|Eight.|||
 |||||||Sóhně:la.; Sóhně:l.|Nine.|||
 |||||||Sgǒ:hi.; Sgǒ.|Ten.|||
 #||||||| | |||
@@ -39,12 +42,12 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Hisgi:ne̋:ɂi.; Hisgi:ne̋.|Fifth.|||
 |||||||Su:dali:ne̋:ɂi.; Su:dali:ne̋.|Sixth.|||
 |||||||Galigwo:gi:ne̋:ɂi.; Galigwo:gi:ne̋.|Seventh.|||
-|||||||Chuně:li:ne̋:ɂi.; Chuně:li:ne̋:ɂi.; Chuně:li:ne̋.; Chuně:li:ne̋.|Eighth.|||
+|||||||Chuně:li:ne̋:ɂi.; Chaně:li:ne̋:ɂi.; Chuně:li:ne̋.; Chaně:li:ne̋.|Eighth.|||
 |||||||Sóhně:li:ne̋:ɂi.; Sóhně:li:ne̋.|Ninth.|||
 |||||||Sgo:hi:ne̋:ɂi.; Sgo:hi:ne̋.|Tenth.|||
 #||||||| | |||
-|||||||Go:hwe:lv.|A letter of the alphabet.|||
-|||||||Dego:hwe:lv.|Letters of the alphabet.|||
+|||||||Go:hwe:lv̋.|A letter of the alphabet.|||
+|||||||Dego:hwe:lv̋.|Letters of the alphabet.|||
 |||||||A:sésdi.|A number. A count.|||
 |||||||Disésdi.|Numbers. Counts.|||
 |||||||Gadíɂa.; Gadíha.|I'm saying.|||
@@ -52,14 +55,14 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||À:díɂa.; À:díha.|He is saying.|||
 |||||||À:nadíɂa.; À:nadíha.|They are saying.|||
 #||||||| | |||
-|||||||Dù:danv:hnv̋:ɂi digaloɂgwasdohdi.|Rows of the alphabet.|||
+|||||||Dù:danv:hnv̋:ɂi digaloɂgwasdohdi.; Dù:danv:hnv̋ digaloɂgwasdohdi.|Rows of the alphabet.|||
 |||||||E:gi.|Maggie.|||
 |||||||Géɂi.|Far off in place or time.|||
 |||||||Goɂi.|Grease. Oil.|||
 |||||||Go:gi.; Go:g.|Summer.|||
 |||||||Gù:gu.|A bottle. Bottles.|||
 |||||||Ayo!|Ouch!|||
-|||||||Nvhgi:né:ɂi Jalagi go:hwe:lvɂi.; Nvhgi:né Jalagi go:hwe:lvɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
+|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lvɂi.; Nvhgi:ne̋ Jalagi go:hwe:lvɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
 #||||||| | |||
 |||||||Ahljadő:hvsgi.; Ahljadő:hv.|A minister.|||
 |||||||Dà:ni:lâ:wì:ga.; Dà:ni:lâ:wì.|A church service.|||
@@ -85,28 +88,28 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Nǔ:na.; Nǔ:ni.; Nǔ:n.|A potato. Potatoes.|||
 |||||||Nǔ:na aninv:hi̋:da.; Nǔ:na aninv:hi̋:d.|A sweet or long potato. Sweet or long potatoes.|||
 |||||||I:ya ge:li̋:sgi.; I:ya ge:li̋.|A pumpkin pie.|||
-|||||||Udadlv̌:da.; Udadlv̌:di.|Cream.|||
-|||||||Gv́:na à:wadu:líɂa.; Gv́:n à:wadu:lí.|I want turkey.|||
-|||||||Asǔ:yanaɂi à:wadu:líɂa.; Asǔ:yana à:wadu:lí.|I want stuffing.|||
-|||||||Asú:sdi à:wadu:líɂa.; Asú:sdi à:wadu:lí.|I want gravy|||
-|||||||Gv́:na dè:skvsi.; Gv́:n dè:skv.|Hand me the turkey.|||
-|||||||Asǔ:yanaɂi dè:skvsi.; Asǔ:yana dè:skv.|Hand me the stuffing.|||
-|||||||Asú:sdi desgi:nehvsi.; Asú:sdi desgi:nehv.|Hand me the gravy.|||
-|||||||U:sdi̋ desgì:kasi.; U:sdi̋ desgì:ka.|Hand me the baby.|||
-|||||||U:sdi̋ hì:kasi.; U:sdi̋ hì:ka.|Hand him the baby.|||
-|||||||U:sdi̋ gahì:kasi.; U:sdi̋ gahì:ka.|Hand them the baby.|||
+|||||||Udadlv̌:da.; Udadlv̌:di.; Udadlv̌:d.|Cream.|||
+|||||||Gv́:na à:wadu:líɂa.; Gv́:n à:wadu:lí.; Gv́:na à:gwadu:líɂa.; Gv́:n à:gwadu:lí.|I want turkey.|||
+|||||||Asǔ:yanaɂi à:wadu:líɂa.; Asǔ:yana à:wadu:lí.; Asǔ:yanaɂi à:gwadu:líɂa.; Asǔ:yana à:gwadu:lí.|I want stuffing.|||
+|||||||Asú:sdi à:wadu:líɂa.; Asú:sdi à:wadu:lí.; Asú:sdi à:gwadu:líɂa.; Asú:sdi à:gwadu:lí.|I want gravy|||
+|||||||Gv́:na dè:skv̀:si.; Gv́:n dè:skv̀.|Hand me the turkey.|||
+|||||||Asǔ:yanaɂi dè:skv̀:si.; Asǔ:yana dè:skv̀.|Hand me the stuffing.|||
+|||||||Asú:sdi desgi:nehv̀:si.; Asú:sdi desgi:nehv̀.|Hand me the gravy.|||
+|||||||U:sdi̋ desgì:kà:si.; U:sdi̋ desgì:kà.|Hand me the baby.|||
+|||||||U:sdi̋ hì:kà:si.; U:sdi̋ hì:kà.|Hand him the baby.|||
+|||||||U:sdi̋ gahì:kà:si.; U:sdi̋ gahì:kà.|Hand them the baby.|||
 |||||||Go:hwe:la desgi:nv̀:si.; Go:hwe:la desgi:nv̀.|Hand me the paper.|||
 |||||||Go:hwe:la hi:nv̀:si.; Go:hwe:la hi:nv̀.|Hand him the paper.|||
 |||||||Go:hwe:la digahi:nv̀:si.; Go:hwe:la digahi:nv̀.|Hand them the paper.|||
 |||||||Gv:no:sásdi desgi:dì:si.|Hand me a broom.|||
 |||||||Gv:no:sásdi hi:dì:si.|Hand him a broom.|||
 |||||||Gv:no:sásdi gahi:dì:si.|Hand them the broom.|||
-|||||||Gv́:na desgvsi.; Gv́:n desgv.|Hand me the turkey.|||
-|||||||Gv́:na hiɂvsi.; Gv́:n hiɂv.|Hand him the turkey.|||
-|||||||Gv́:na gahiɂvsi.; Gv́:n gahiɂv.|Hand them the turkey.|||
-|||||||Udadlv̌:da desgi:ne:hvsi.; Udadlv̌ desgi:ne:hv.|Hand me the cream.|||
-|||||||Udadlv̌:da hineɂvsi.; Udadlv̌:d hineɂv.|Hand him the cream.|||
-|||||||Udadlv̌:da gahineɂv̄si.; Udadlv̌:d gahineɂv̄.|Hand them the cream.|||
+|||||||Gv́:na desgv̀:si.; Gv́:n desgv̀.|Hand me the turkey.|||
+|||||||Gv́:na hiɂv̀:si.; Gv́:n hiɂv̀.|Hand him the turkey.|||
+|||||||Gv́:na gahiɂv̀:si.; Gv́:n gahiɂv̀.|Hand them the turkey.|||
+|||||||Udadlv̌:da desgi:ne:hv̀:si.; Udadlv̌d desgi:ne:hv̀.|Hand me the cream.|||
+|||||||Udadlv̌:da hineɂv̀:si.; Udadlv̌:d hineɂv̀:.|Hand him the cream.|||
+|||||||Udadlv̌:da gahineɂv̀:si.; Udadlv̌:d gahineɂv̀:.|Hand them the cream.|||
 |||||||Galì:sdâ:yv:hv́sga.; Galì:sdâ:yv:hv́.|I am eating a meal.|||
 |||||||Halsdâ:yv:hv́sga.; Halsdâ:yv:hv́.|You are eating a meal.|||
 |||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
@@ -124,8 +127,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Go:hí i:ga.|This day. Today.|||
 |||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
 |||||||Hiɂa.; Hiɂi.|This. These.|||
-|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
-|||||||Hisgine̋:ɂi Jalagi go:hwe:lv̀:ɂi.|Fifth Cherokee lessons.||Complete the lesson material through to the end of chapter five.|
+|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:gi.; Hiɂi kó:gi.;Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
+|||||||Hisgine̋:ɂi Jalagi go:hwe:lv:ɂi.; Hisgine̋ Jalagi go:hwe:lv:ɂi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
 #||||||| | |||
 |||||||Di:de:hyǒ:hvsgi.; Di:de:hyǒ:hv.|Teacher.|||
 |||||||Ì:dalě:na.; Ì:dalě:n.|Let's all begin.|||
@@ -141,9 +144,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ha:dlv go:hwě:li dijanè:sdi?; Ha:dlv go:hwě:la dijanè:sdi?; Ha:dlv go:hwě:l dijanè:sdi?|What is your address?|||
 |||||||Go:hwě:li diganè:sdíɂi.; Go:hwě:l diganè:sdí.|My address is.|||
 |||||||Gadō u:sdi?; Dō u:sd?|What is it?|||
-|||||||Gadō u:sdi jadu:líɂa?; Dō u:sd jadu:lí?|What do you want?|||
-|||||||Gadō u:sdi sdadu:líɂa?; Dō u:sd sdadu:lí?|What do you two want?|||
-|||||||Gadō u:sdi ì:jadu:líɂa?; Dō u:sd ì:jadu:lí?|What do you all want?|||
+|||||||Gadō u:sdi jadu:líɂa?; Gadō u:sdi jadu:líha?; Dō u:sd jadu:lí?|What do you want?|||
+|||||||Gadō u:sdi sdadu:líɂa?; Gadō u:sdi sdadu:líha?; Dō u:sd sdadu:lí?|What do you two want?|||
+|||||||Gadō u:sdi ì:jadu:líɂa?; Gadō u:sdi ì:jadu:líha?; Dō u:sd ì:jadu:lí?|What do you all want?|||
 |||||||Nihinahv?; Nihina?|How about you?|||
 |||||||Tla yà:gwanhta.; Tla yà:gwanht.|I don't know.|||
 |||||||Dinǐ:yé:li:hi.; Dinǐ:yé:li.|Let's both adjourn.|||
@@ -159,7 +162,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||À:gwanhta.; À:gwanht.|I know a fact.|||
 |||||||Janhta.; Janht.|You know a fact.|||
 |||||||Ùnhta.; Ùnht.|He knows a fact.|||
-|||||||Ùnanhta.; Ùnanht.|They know a fact.|||
+|||||||Ù:nanhta.; Ù:nanht.|They know a fact.|||
 |||||||Ahő:li.|His mouth.|||
 |||||||Ahu:li.|A drum.|||
 |||||||Ale.|And. Or.|||
@@ -176,4 +179,4 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ho:hlga.|You understand.|||
 |||||||Go:hlga.|He understands.|||
 |||||||À:no:hlga.|They understand.|||
-|||||||Su:dali:né Jalagi go:hwe:lv̀:ɂi.|Sixth Cherokee lessons.||Complete the lesson material through to the end of chapter six.|
+|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
