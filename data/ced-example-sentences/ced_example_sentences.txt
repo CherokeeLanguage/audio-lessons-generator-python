@@ -41,9 +41,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎦᎸᎶᎢ|2|Galvlo sakonigei.|ᎦᎸᎶ ᏌᎪᏂᎨᎢ.|The Sky is blue.|Galv:lő:ɂi sakǒ:níge̋:ɂi.; Galv:lő sakǒ:níge̋:ɂi.
 *|ᎩᏄᏘᏗ|2|Ginutdi ksdolsda.|ᎩᏄᏘᏗ ᏍᎩᏙᎵᏍᏓ.|Lend me a quarter.|Gi:nű:tdi ksdolsda.
 *|ᎣᏏᏊ|2|Osigwus jadanhta?|ᎣᏏᏊᏍ ᏣᏓᏅᏔ?|Do you feel all right?|O:sǐ:gwusgo jadanhta?; O:sǐ:gwus jadanhta?
-*|ᎤᏴᏜ|2|Uhyvdlas hihnegi?|ᎤᏴᏜᏍ ᎯᏁᎩ?|Do you vote Republican?|U:hyv̋:dla hihné:gi?
+*|ᎤᏴᏜ|2|Uhyvdlas hihnegi?|ᎤᏴᏜᏍ ᎯᏁᎩ?|Do you vote Republican?|U:hyv̋:dlasgo hihné:gi?; U:hyv̋:dlas hihné:gi?
 *|ᎤᏦᏍᏗ|2|Ujosdi duwohwela.|ᎤᏦᏍᏗ ᏚᏬᏪᎳ.|His handwriting is confusing.|U:jő:sdi dù:wo:hwě:la̋.
-*|ᎤᏪᎳ|2|Uwela gvhnisdiha.|ᎤᏪᎳ ᎬᏂᏍᏗᎭ.|She's cooking liver.|Uwe:la gv:hnisdíha.; Uwe:la gv:hnisdí.
+*|ᎤᏪᎳ|2|Uwela gvhnisdiha.|ᎤᏪᎳ ᎬᏂᏍᏗᎭ.|He is cooking liver.|Uwe:la gv:hnisdíha.; Uwe:la gv:hnisdí.
 *|ᎥᏓᎵ|2|Vdali inasuhnuga.|ᎥᏓᎵ ᎢᎾᏑᏄᎦ.|Let's go fishing at the pond.|V:dali ì:nasǔ:hnú:ga.
 *|ᎠᏕᏲᎭ|2|Adanelv gadeyoha.|ᎠᏓᏁᎸ ᎦᏕᏲᎭ.|I am circling a building.|À:da:ně:lv̋:ɂi ga:de:yoha.; À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.
 *|ᎠᏍᎪᏍᎦ|2|Amahldi gasgosga.|ᎠᎹᏢᏗ ᎦᏍᎪᏍᎦ.|I am digging a water well.|Amáhldi̋:ɂi gà:sgǒ:sga.; Amáhldi̋ gà:sgǒ:sga.
@@ -55,7 +55,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎠᏟᎶᏍᏗ|2|Ahlilosdi esgidisi|ᎠᏟᎶᏍᏗ ᎡᏍᎩᏗᏏ|Hand me a ruler.|Ahli:lő:sdi e:sgi:dì:si.
 *|ᎠᎵᏌᎳᏗᎠ|2|Halsaladvga hlega.|ᎭᎵᏌᎳᏛᎦ ᏞᎦ.|Raise up awhile.|Halsaladv̀:ga hle̋:ga.
 *|ᎠᎵᎢᏗᎠ|2|Inaliida hayelsdi.|ᎢᎾᎵᎢᏓ ᎭᏰᎵᏍᏗ.|Let's trade knives.|Ì:na:liɂǐ:da hayelsdi.; Ì:na:liɂǐ:da ahyelsdi.
-*|ᏣᎳᎩ|2|Jalagis hiwonisgi?|ᏣᎳᎩᏍ ᎯᏬᏂᏍᎩ?|Do you speak Cherokee?|Jalagisgo hiwó:ni:sgi?; Jalagis hiwó:ni:sgi?
+*|ᏣᎳᎩ|2|Jalagis hiwonisgi?|ᏣᎳᎩᏍ ᎯᏬᏂᏍᎩ?|Are you a Cherokee speaker?|Jalagisgo hiwó:ni:sgi?; Jalagis hiwó:ni:sgi?
 *|ᎤᎧᏲᏛᎢ|2|Ukahyodv haisesdi.|ᎤᎧᏲᏛ ᎭᎢᏎᏍᏗ.|Walk on a dry place.|U:ka:hyő:dv̋:ɂi há:ɂi:sésdi.; U:ka:hyő:dv̋ há:ɂi:sésdi.
 *|ᎤᏂᏏ|2|Unisi utvhistanvi.|ᎤᏂᏏ ᎤᏛᎯᏍᏔᏅᎢ.|His grandfather raised him.|U:nǐ:si ù:tvhistanv́:ɂi.; U:nǐ:si ù:tvhistanv́.
 *|ᎠᏣᎥᏍᎦ|2|Dagwalelu hajavga.|ᏓᏆᎴᎷ ᎭᏣᎥᎦ.|Get in the car|Dagwalé:lu hajaɂv̀:ga.;Dagwalé:la hajaɂv̀:ga.
@@ -230,7 +230,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏘᏴᏅᎢ|3|Svhi utiyvhnv anigia.|ᏒᎯ ᎤᏘᏴᏅ ᎠᏂᎩᎠ.|They're eating leftovers from yesterday.|Sv:hi u:ti:yv̌:hnv̋:ɂi à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigí.
 *|ᏒᎯ ᎤᏒᎢ|3|Ugahnaneis svhi usvi?|ᎤᎦᎿᏁᎢᏍ ᏒᎯ ᎤᏒᎢ?|Did it rain night before last?|U:gáhnané:ɂisgo sv:hi usv̀:ɂi?; U:gáhnané:ɂis sv:hi usv̀:ɂi?; U:gáhnanés sv:hi usv̀?
 *|ᎦᎷᏯᏍᎦ|3|Utana hlgvi galuysga.|ᎤᏔᎾ ᏡᎬᎢ ᎦᎷᏯᏍᎦ.|He is chopping on a big tree.|Ǔ:tana hlgv̋:ɂi galûysga.; Ǔ:tan hlgv̋ galûysga.
-*|ᎠᏓᏅᏏᏂ|3|Utana inada adansini.|ᎤᏔᎾ ᎢᎾᏓ ᎠᏓᎾᏏᏂ.|A big snake is crawling.|Ǔ:tana ǐ:náda à:dansǐ:ni.
+*|ᎠᏓᏅᏏᏂ|3|Utana inada adansini.|ᎤᏔᎾ ᎢᎾᏓ ᎠᏓᎾᏏᏂ.|A big snake is crawling.|Ǔ:tana ǐ:náda à:dansǐ:ni.; Ǔ:tan ǐ:náda à:dansǐ:ni.
 *|ᏥᏳᎪᏗ|2|Aksgani hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go left.|Aksgani hwilǒ:hi.
 *|ᏥᏳᎪᏗ|2|Aktisi hwilohi.|ᏥᏳᎪᏗ ᏫᎶᎯ.|Go right.|Akti:si hwilǒ:hi.
 
