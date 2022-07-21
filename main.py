@@ -162,7 +162,7 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if line.startswith("#") or not line:
                 continue
             fields = line.split("|")
-            if len(fields) < IX_ENGLISH + 1 or len(fields) > IX_APP_FILE + 1:
+            if len(fields) != IX_APP_FILE + 1:
                 print(f"; {line}")
                 raise Exception(f"Wrong field count of {len(fields)}."
                                 f" Should be > {IX_ENGLISH} and < {IX_APP_FILE + 1}.")
@@ -178,9 +178,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
 
             cherokee_text_alts: list[str] = list()
             cherokee_text = fields[IX_PRONOUNCE].strip()
-            if not cherokee_text:
-                continue
             if cherokee_text.startswith("#"):
+                continue
+            if not re.sub("(?i)[^a-z]", "", unicodedata.normalize("NFD", cherokee_text)):
+                print(f"Warning - no Cherokee text: {line}")
                 continue
 
             if ";" in cherokee_text:
@@ -205,7 +206,8 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     gender = ""
 
             english_text = fields[IX_ENGLISH].strip()
-            if not english_text:
+            if not re.sub("(?i)[^a-z]", "", unicodedata.normalize("NFD", english_text)):
+                print(f"Warning - no English text: {line}")
                 continue
             texts: list[str] = english_text.split(";")
             if texts:
@@ -621,7 +623,8 @@ def main() -> None:
             if new_card:
                 if not first_new_challenge:
                     first_new_challenge = data.challenge
-                last_new_challenge = data.challenge
+                else:
+                    last_new_challenge = data.challenge
                 if data.end_note:
                     end_note = data.end_note
                 if introduce_card:
@@ -673,7 +676,8 @@ def main() -> None:
                 if not card_stats.shown:
                     if not first_review_challenge:
                         first_review_challenge = data.challenge
-                    last_review_challenge = data.challenge
+                    else:
+                        last_review_challenge = data.challenge
             challenge: str
             if not data.challenge_alts or (new_card and introduce_card):
                 challenge = data.challenge
