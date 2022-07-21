@@ -212,7 +212,7 @@ def create_prompts() -> dict[str, AudioSegment]:
 
     tag = "beginning-cherokee-about"
     text = """
-        These audio exercise sessions were createdf to complement
+        These audio exercise sessions were created to complement
         the book 'Beginning Cherokee', 2nd Edition, by Ruth Bradley Holmes and Betty Sharp Smith.
         Each set of audio exercises should be completed before working through the 
         corresponding lessons in the book.
