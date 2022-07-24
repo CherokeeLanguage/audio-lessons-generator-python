@@ -180,3 +180,41 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Go:hlga.|He understands.|||
 |||||||À:no:hlga.|They understand.|||
 |||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+|||||||i:ga|Daytime. Noon.|||
+|||||||Á:ma.; Á:m.|Salt.|||
+|||||||Ama.; Am.x|Water.|||
+|||||||U:hyv:dla.|He is cold.|||
+|||||||U:hyv̋:dla.|A republican. Coldness.|||
+|||||||U:gǎ:nawa.|He is warm.|||
+|||||||U:ga̋:nawa.|A Democrat. Warmth.|||
+|||||||Gadō gadv:neɂa?; Gadō gadv:neha?; Dō gadv:ne?|What am I doing?|||
+|||||||Gadō hadv:neɂa?; Gadō hadv:neha?; Dō hadv:ne?|What are you doing?
+|||||||Gadō adv:neɂa?; Gadō adv:neha?; Dō adv:ne?|What is he or she doing?
+|||||||Gadō anadv:neɂa?; Gadō anadv:neha?; Dō anadv:ne?|What are they doing?
+|||||||Ù:hyv:dla.; Ù:hyv:dl.|It is cold.
+|||||||U:gǎ:nowa; U:gǎ:nowi; U:gǎ:no|It is warm.
+|||||||Ǔ:hyv́:dla.|North.|||
+|||||||U:gǎ:nawa.; Jǔ:gá:nawv̋:ɂi.; Jǔ:gá:nawv̋.|South.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi dò:dalv̋:ɂi.; Jǔ:hyv́:dlv̋ dò:dalv̋.; Ǔ:hyv́:dla dò:dala.;|The mountains are in the North.|||
+|||||||Dò:dalv̋:ɂi jù:hyv:dla.; Dò:dalv̋ jù:hyv:dla.; Dò:dala jù:hyv:dla.|The mountains are cold.|||
+|||||||Jǔ:gá:nawv̋:ɂi dò:dalv̋:ɂi.; Jǔ:gá:nawv̋ dò:dalv̋.; U:gǎ:nawa dò:dalv̋:ɂi.; U:gǎ:nawa dò:dalv̋.; U:gǎ:nawa dò:dala.|The mountains are in the South.|||
+|||||||Dò:dalv̋:ɂi ju:gǎ:nawa.; Dò:dalv̋ ju:gǎ:nawa.; Dò:dala ju:gǎ:nawi.; Dò:dala ju:gǎ:nawa.|The mountains are warm.|||
+|||||||Ù:hyv:dla jǔ:hyv́:dlv̋ɂi.; Ù:hyv:dla jǔ:hyv́:dlv̋.; Ù:hyv:dla ǔ:hyv́:dlv.|It is cold in the North.|||
+|||||||Ù:hyv:dlv̌:ɂi jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌ jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌:ɂi ǔ:hyv́:dla.; Ù:hyv:dlv̌ ǔ:hyv́:dla.|It was cold in the North.
+|||||||Jǔ:gá:nawv̋:ɂi u:gǎ:nawa.; Jǔ:gá:nawv̋ u:gǎ:nawa.; Ǔ:gá:nawv̋ u:gǎ:nawa.|It is warm in the South.
+|||||||Jǔ:gá:nawv̋:ɂi u:gǎ:nawv̌ɂi.; Jǔ:gá:nawv̋ u:gǎ:nawv̌.|It was warm in the South.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi e̋:hi.; Jǔ:hyv́:dlv̋ e̋:hi.; Ǔ:hyv́:dlv̋ e̋:hi.|A Northerner.|||
+|||||||Jǔ:gá:nawv̋:ɂi e̋:hi.; Jǔ:gá:nawv̋ e̋:hi.; Ǔ:gá:nawv̋ e̋:hi.|A Southerner.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi gě:dô:a.; Jǔ:hyv́:dlv̋ gě:dô.; Ǔ:hyv́:dlv̋ gě:dô.|I am in the North.|||
+|||||||Jǔ:gá:nawv̋:ɂi gě:dô:a.; Jǔ:gá:nawv̋ gě:dô.; Ǔ:gá:nawv̋ gě:dô.|I am in the South.|||
+|||||||À:gihyv́:dlv̋:ɂi.; À:gihyv́:dlv̋.|I am a Republican|||
+|||||||À:gigá:nawv̋:ɂi.; À:gigá:nawv̋.|I am a Democrat.|||
+|||||||E:lohi.; E:lo.|The World.|||
+|||||||U:galǒ:ga.; U:galǒ.|A leaf.|||
+|||||||Ju:galǒ:ga.; Ju:galǒ.|Leaves.|||
+|||||||Ǔ:gáma.; Ǔ:gám.|Soup.|||
+|||||||Galv:lő:hi.; Galv:lő.|The sky|||
+|||||||Kama:ma.|A butterfly or an elephant.|||
+|||||||Ma:ga.|Mark.|||
+|||||||Me:li.|Mary.|||
+|||||||Galigwo:gi:ne̋ Jalagi go:hwe:lv̀:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|

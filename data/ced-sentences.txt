@@ -229,6 +229,6 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Sv:hi u:ti:yv̌:hnv̋ à:nigíɂa.; Sv:hi u:ti:yv̌:hnv̋ à:nigí.|||||Sv:hi u:ti:yv̌:hnv̋:ɂi à:nigíɂa.|They're eating leftovers from yesterday.||
 ||U:gáhnané:ɂis sv:hi usv̀:ɂi?; U:gáhnanés sv:hi usv̀?|||||U:gáhnané:ɂisgo sv:hi usv̀:ɂi?|Did it rain night before last?||
 ||Ǔ:tan hlgv̋ galûysga.|||||Ǔ:tana hlgv̋:ɂi galûysga.|He is chopping on a big tree.||
-|||||||Ǔ:tana ǐ:náda à:dansǐ:ni.|A big snake is crawling.||
+||Ǔ:tan ǐ:náda à:dansǐ:ni.|||||Ǔ:tana ǐ:náda à:dansǐ:ni.|A big snake is crawling.||
 |||||||Aksgani hwilǒ:hi.|Go left.||
 |||||||Akti:si hwilǒ:hi.|Go right.||

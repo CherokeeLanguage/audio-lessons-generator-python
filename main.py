@@ -162,10 +162,10 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if line.startswith("#") or not line:
                 continue
             fields = line.split("|")
-            if len(fields) != IX_APP_FILE + 1:
+            if len(fields) > IX_APP_FILE + 1 or len(fields) < IX_APP_FILE:
                 print(f"; {line}")
                 raise Exception(f"Wrong field count of {len(fields)}."
-                                f" Should be > {IX_ENGLISH} and < {IX_APP_FILE + 1}.")
+                                f" Should be {IX_APP_FILE + 1}.")
             skip_as_new = "*" in fields[0]
 
             verb_stem: str = unicodedata.normalize("NFD", fields[IX_VERB])
@@ -806,6 +806,9 @@ def main() -> None:
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
         tags: dict[str, str] = dict()
 
+        challenge_start = unicodedata.normalize("NFC", challenge_start)
+        challenge_stop = unicodedata.normalize("NFC", challenge_stop)
+
         if DATASET == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
             tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
@@ -884,7 +887,8 @@ def main() -> None:
         output_srt: str = os.path.join(srt_out_dir, srt_name)
         with open(output_srt, "w") as srt:
             for srt_entry in srt_entries:
-                srt.write(str(srt_entry))
+                srt_text: str = unicodedata.normalize("NFC", str(srt_entry))
+                srt.write(srt_text)
 
         # Output mp3
         mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
@@ -935,43 +939,44 @@ def main() -> None:
         print(f"Creating {png_name}.")
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
-        mp4_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp4"
-        output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
-
-        cmd: list[str] = list()
-        cmd.append("ffmpeg")
-        cmd.append("-nostdin")  # non-interactive
-        cmd.append("-y")  # overwrite
-        cmd.append("-r")  # input frame rate
-        cmd.append("1")
-        cmd.append("-loop")
-        cmd.append("1")
-        cmd.append("-i")
-        cmd.append(output_png)
-        cmd.append("-i")
-        cmd.append(output_mp3)
-        cmd.append("-i")
-        cmd.append(output_srt)
-        cmd.append("-c:s")
-        cmd.append("mov_text")
-        cmd.append("-q:a")
-        cmd.append("3")
-        cmd.append("-pix_fmt")
-        cmd.append("yuv420p")
-        cmd.append("-shortest")
-        cmd.append("-r")  # output frame rate
-        cmd.append("1")
-        # cmd.append("23.976")
-        cmd.append("-tune")
-        cmd.append("stillimage")
-        for k, v in tags.items():
-            cmd.append("-metadata")
-            cmd.append(f"{k}={v}")
-        cmd.append("-movflags")
-        cmd.append("+faststart")
-        cmd.append(output_mp4)
-        print(f"Creating {mp4_name}.")
         if cfg.create_mp4:
+            mp4_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp4"
+            output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
+
+            cmd: list[str] = list()
+            cmd.append("ffmpeg")
+            cmd.append("-nostdin")  # non-interactive
+            cmd.append("-y")  # overwrite
+            cmd.append("-r")  # input frame rate
+            cmd.append("1")
+            cmd.append("-loop")
+            cmd.append("1")
+            cmd.append("-i")
+            cmd.append(output_png)
+            cmd.append("-i")
+            cmd.append(output_mp3)
+            cmd.append("-i")
+            cmd.append(output_srt)
+            cmd.append("-c:s")
+            cmd.append("mov_text")
+            cmd.append("-q:a")
+            cmd.append("3")
+            cmd.append("-pix_fmt")
+            cmd.append("yuv420p")
+            cmd.append("-shortest")
+            cmd.append("-r")  # output frame rate
+            cmd.append("1")
+            # cmd.append("23.976")
+            cmd.append("-tune")
+            cmd.append("stillimage")
+            for k, v in tags.items():
+                cmd.append("-metadata")
+                cmd.append(f"{k}={v}")
+            cmd.append("-movflags")
+            cmd.append("+faststart")
+            cmd.append(output_mp4)
+
+            print(f"Creating {mp4_name}.")
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         # Bump counter
