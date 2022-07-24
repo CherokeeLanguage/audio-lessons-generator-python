@@ -290,7 +290,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *||dé:wid! yv:wi áhni!|||female||dé:widi! yv:wi áhani!|David! People are here!|
 *||na yǒ:n achű:j já:ni dù:dó|||female||na yǒ:na achű:ja já:ni dù:dó:ɂa|The bear boy is called John.|
 *||gá:gō? gadō dù:dó?; gá:gō? dō dù:dó?|||male||gá:gō? gadō dù:dó:ɂa?|Who? What's he called?|
-*||dě:jádó:ɂas dé:wid ji:sd?; dě:jádós dé:wid ji:sd?|||male||dě:jádó:ɂasgo dé:widi ji:sdu?|You are called David Rabbit?|
+*||dě:jádó:ɂas dé:wid ji:sd?; dě:jádós dé:wid ji:sd?|||male||dě:jádó:ɂasgo dé:widi ji:sdu?|Are you called David Rabbit?|
 *||nihi na u:yő ji:sd!|||male||nihi na u:yő:ɂi ji:sdu!|You are that bad rabbit!||Complete the lesson material through the end of chapter 13.
 
 #Chapter 14 ᏂᎦᏚᏏᏁᎢ ᎠᏕᎶᏆᏍᏗ
