@@ -164,7 +164,7 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             fields = line.split("|")
             if len(fields) > IX_APP_FILE + 1 or len(fields) < IX_APP_FILE:
                 print(f"; {line}")
-                raise Exception(f"Wrong field count of {len(fields)}."
+                raise Exception(f"[Line {line_no:,}] Wrong field count of {len(fields)}."
                                 f" Should be {IX_APP_FILE + 1}.")
             skip_as_new = "*" in fields[0]
 
@@ -196,7 +196,8 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                 cherokee_text += "."
             check_text = re.sub("(?i)[.,!?;]", "", cherokee_text).strip()
             if check_text in dupe_pronunciation_check:
-                print(f"- WARN DUPLICATE PRONUNCIATION: ({line_no:,}) {check_text}\n{fields}")
+                print(f"[Line {line_no:,}] Duplicate pronunciation: {check_text}\n{fields}")
+                raise Exception(f"[Line {line_no:,}] Duplicate pronunciation: {check_text}\n{fields}")
             dupe_pronunciation_check.add(check_text)
             gender: str = fields[IX_GENDER].strip()
             if gender:
