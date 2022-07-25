@@ -28,7 +28,7 @@ from LeitnerAudioDeck import AudioCard
 from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
-import TTS as tts
+import tts
 from SrtEntry import SrtEntry
 from config import Config
 

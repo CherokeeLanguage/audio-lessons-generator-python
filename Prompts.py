@@ -1,7 +1,7 @@
 from datetime import datetime
 from pydub import AudioSegment
 
-from TTS import en_audio
+from tts import en_audio
 
 AMZ_VOICE_INSTRUCTOR: str = "Matthew"
 
