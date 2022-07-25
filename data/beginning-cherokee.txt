@@ -147,7 +147,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gadō u:sdi jadu:líɂa?; Gadō u:sdi jadu:líha?; Dō u:sd jadu:lí?|What do you want?|||
 |||||||Gadō u:sdi sdadu:líɂa?; Gadō u:sdi sdadu:líha?; Dō u:sd sdadu:lí?|What do you two want?|||
 |||||||Gadō u:sdi ì:jadu:líɂa?; Gadō u:sdi ì:jadu:líha?; Dō u:sd ì:jadu:lí?|What do you all want?|||
-|||||||Nihinahv?; Nihina?|How about you?|||
+|||||||Nihinahv?|But what about you?|||
+|||||||Nihina?|What about you?|||
 |||||||Tla yà:gwanhta.; Tla yà:gwanht.|I don't know.|||
 |||||||Dinǐ:yé:li:hi.; Dinǐ:yé:li.|Let's both adjourn.|||
 |||||||Didǐ:yé:li:hi.; Didǐ:yé:li.|Let's all adjourn.|||
@@ -222,16 +223,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Me:li.|Mary.|||
 *|||||||Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
 |||||||Ganaji.; Ganaj.|Kanuche. Hominy hickory nut soup.|||
-|||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas
+|||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas.|||
 |||||||Disdayo:hi.|Santa Claus.|||
-|||||||Adǎ:hnehdi.; Adǎ:hne.;|A gift.
+|||||||Adǎ:hnehdi.; Adǎ:hne.;|A gift.|||
 |||||||Di:dǎ:hnehdi.; Di:dǎ:hne.|Gifts.|||
 |||||||U:htalú:gisgi.; Ujistalù:gísgi.|Silver. Shining.|||
 |||||||Nokwsi.|A star. Stars.|||
 |||||||A:gwe:lu:sdi.; A:gwe:hlu:sdi.|A ribbon.|||
 |||||||Digwe:lu:sdi.; Digwe:hlu:sdi.|Ribbons.|||
 |||||||Gakwe:nvhdodi go:hwe:li.; Gakwe:nvhdo go:hwe:li.|Wrapping paper.|||
-|||||||U:halv:ni.; U:halv:na.; U:halv:n.|A bell.
+|||||||U:halv:ni.; U:halv:na.; U:halv:n.|A bell.|||
 |||||||Ajina.; A:ji:ni.|A cedar tree.|||
 |||||||Adǎ:wé:hi.|An angel or wise-man. A magician. Something magical.|||
 |||||||Ani:dǎ:wé:hi.|Angels or wise-men. Magicians. Magical things.|||
@@ -240,9 +241,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *|||||||Na doyű uwo:dű ajina.; Na doyű uwo:dű ajin.|That cedar tree is very pretty.|||
 |||||||Ni!|Look! Behold!|||
 *|||||||Ni! Ujistalù:gi nokwsi.|Look! A shining star.|||
-|||||||Hila̋ dodajahwasi di:dǎ:hnehdi?; Hala̋ dodajahwasi di:dǎ:hnehdi?|How many gifts are you going to buy?
+|||||||Hila̋ dodajahwasi di:dǎ:hnehdi?; Hala̋ dodajahwasi di:dǎ:hnehdi?|How many gifts are you going to buy?|||
 |||||||Ijéɂiyű:sdi.; Ajéɂiyű:sdi.|Green.|||
-|||||||Ajv̋sdohdi.; Ajv̋sdi.|A light.
+|||||||Ajv̋sdohdi.; Ajv̋sdi.|A light.|||
 |||||||Di:jv̋ysdi.; Dijv̋sdohdi.|Lights.|||
 *|||||||Digǐ:gáge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.; Digǐ:ge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.|I have some red and green lights.|||
 |||||||Astayostohdi.|A firecracker.|||
@@ -252,7 +253,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ù:hwasga.|He is buying it.|||
 |||||||Ù:nihwasga.|They are buying it.|||
 
-|||||||Gv̀:neha.|I am gifting it.|||
+|||||||Jì:neha.|I am gifting it.|||
 |||||||Hì:neha.|You are gifting it.|||
 |||||||À:hneha.|He is gifting it.|||
 |||||||À:nihneha.|They are gifting it.|||
@@ -293,7 +294,5 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Na.|That|||
 |||||||Naɂvɂi.; Naɂv.|Close by. Near.|||
 |||||||Nanaɂi.; Nanā.|Over there.|||
-|||||||Nihinahv?|But what about you?|||
-|||||||Nihina?|What about you?|||
 
 *|||||||Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
