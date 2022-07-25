@@ -8,16 +8,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||V̀:ɂhla.; Hla:ɂhv.; Hla.|No. Not.|||
 |||||||Donada:go:hv:ɂi.; Donada:go:hv̄.|We both will see each other again, later.|||
 |||||||Dodada:go:hv:ɂi.; Dodada:go:hv̄.|We'll see each other again, later.|||
-|||||||Igv:yi̋:ɂi Jalagi go:hwe:lvɂi.; Igv:yi̋ Jalagi go:hwe:lvɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
+|||||||Igv:yi̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Igv:yi̋ Jalagi go:hwe:lv̋:ɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
 #||||||| | |||
 |||||||Tlv̀:wasga.|Maple.|||
 |||||||Áhni.; Áhani.|Here.|||
 |||||||U:hyv:dla.; U:hyv:dlv.|Cold.|||
-|||||||Taɂli:ne̋:ɂi Jalagi go:hwe:lvɂi.; Taɂli:ne̋ Jalagi go:hwe:lvɂi.|Second Cherokee lesson.|||
+|||||||Taɂli:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Taɂli:ne̋ Jalagi go:hwe:lv̋:ɂi.|Second Cherokee lesson.|||
 #||||||| | |||
 |||||||Di:dihnó:gi.|Let's all sing.|||
 |||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.|||
-|||||||Joɂi:ne̋:ɂi Jalagi go:hwe:lvɂi.; Joɂi:ne̋ Jalagi go:hwe:lvɂi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
+|||||||Joɂi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Joɂi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
 #||||||| | |||
 |||||||Digo:hwe:la nidì:díwi.; Digo:hwe:la nidì:díwa.|Let's all say the letters.|||
 |||||||Di:sésdi nidì:díwi.; Di:sésdi nidì:díwa.|Let's all say the numbers.|||
@@ -62,7 +62,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Go:gi.; Go:g.|Summer.|||
 |||||||Gù:gu.|A bottle. Bottles.|||
 |||||||Ayo!|Ouch!|||
-|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lvɂi.; Nvhgi:ne̋ Jalagi go:hwe:lvɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
+*|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Nvhgi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
 #||||||| | |||
 |||||||Ahljadő:hvsgi.; Ahljadő:hv.|A minister.|||
 |||||||Dà:ni:lâ:wì:ga.; Dà:ni:lâ:wì.|A church service.|||
@@ -128,7 +128,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
 |||||||Hiɂa.; Hiɂi.|This. These.|||
 |||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:gi.; Hiɂi kó:gi.;Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
-|||||||Hisgine̋:ɂi Jalagi go:hwe:lv:ɂi.; Hisgine̋ Jalagi go:hwe:lv:ɂi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
+*|||||||Hisgine̋:ɂi Jalagi go:hwe:lv:ɂi.; Hisgine̋ Jalagi go:hwe:lv:ɂi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
 #||||||| | |||
 |||||||Di:de:hyǒ:hvsgi.; Di:de:hyǒ:hv.|Teacher.|||
 |||||||Ì:dalě:na.; Ì:dalě:n.|Let's all begin.|||
@@ -179,7 +179,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ho:hlga.|You understand.|||
 |||||||Go:hlga.|He understands.|||
 |||||||À:no:hlga.|They understand.|||
-|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+*|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
 |||||||i:ga|Daytime. Noon.|||
 |||||||Á:ma.; Á:m.|Salt.|||
 |||||||Ama.; Am.x|Water.|||
@@ -220,4 +220,80 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Kama:ma.|A butterfly or an elephant.|||
 |||||||Ma:ga.|Mark.|||
 |||||||Me:li.|Mary.|||
-|||||||Galigwo:gi:ne̋ Jalagi go:hwe:lv̀:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
+*|||||||Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
+|||||||Ganaji.; Ganaj.|Kanuche. Hominy hickory nut soup.|||
+|||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas
+|||||||Disdayo:hi.|Santa Claus.|||
+|||||||Adǎ:hnehdi.; Adǎ:hne.;|A gift.
+|||||||Di:dǎ:hnehdi.; Di:dǎ:hne.|Gifts.|||
+|||||||U:htalú:gisgi.; Ujistalù:gísgi.|Silver. Shining.|||
+|||||||Nokwsi.|A star. Stars.|||
+|||||||A:gwe:lu:sdi.; A:gwe:hlu:sdi.|A ribbon.|||
+|||||||Digwe:lu:sdi.; Digwe:hlu:sdi.|Ribbons.|||
+|||||||Gakwe:nvhdodi go:hwe:li.; Gakwe:nvhdo go:hwe:li.|Wrapping paper.|||
+|||||||U:halv:ni.; U:halv:na.; U:halv:n.|A bell.
+|||||||Ajina.; A:ji:ni.|A cedar tree.|||
+|||||||Adǎ:wé:hi.|An angel or wise-man. A magician. Something magical.|||
+|||||||Ani:dǎ:wé:hi.|Angels or wise-men. Magicians. Magical things.|||
+|||||||U:do:hiyű.; Do:hiyű.; Do:yű.|Really. Very.|||
+|||||||Uwo:dű:hi.; Uwo:dű.|Pretty.|||
+*|||||||Na doyű uwo:dű ajina.; Na doyű uwo:dű ajin.|That cedar tree is very pretty.|||
+|||||||Ni!|Look! Behold!|||
+*|||||||Ni! Ujistalù:gi nokwsi.|Look! A shining star.|||
+|||||||Hila̋ dodajahwasi di:dǎ:hnehdi?; Hala̋ dodajahwasi di:dǎ:hnehdi?|How many gifts are you going to buy?
+|||||||Ijéɂiyű:sdi.; Ajéɂiyű:sdi.|Green.|||
+|||||||Ajv̋sdohdi.; Ajv̋sdi.|A light.
+|||||||Di:jv̋ysdi.; Dijv̋sdohdi.|Lights.|||
+*|||||||Digǐ:gáge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.; Digǐ:ge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.|I have some red and green lights.|||
+|||||||Astayostohdi.|A firecracker.|||
+
+|||||||À:kiwásga.|I am buying it.|||
+|||||||Jawásga.|You are buying it.|||
+|||||||Ù:hwasga.|He is buying it.|||
+|||||||Ù:nihwasga.|They are buying it.|||
+
+|||||||Gv̀:neha.|I am gifting it.|||
+|||||||Hì:neha.|You are gifting it.|||
+|||||||À:hneha.|He is gifting it.|||
+|||||||À:nihneha.|They are gifting it.|||
+
+|||||||À:gi:káha.|I have something alive.|||
+|||||||Jakáha.|You have something alive.|||
+|||||||Ù:we:káha.|He has something alive.|||
+|||||||Ù:nikáha.|They have something alive.|||
+
+|||||||À:gináɂa.|I have something flexible.|||
+|||||||Janáɂa|You have something flexible.|||
+|||||||Ù:náɂa.|He has something flexible.|||
+|||||||Ù:nináɂa.|They have something flexible.|||
+
+|||||||À:giha.|I have it.|||
+|||||||Jaha.|You have it.|||
+|||||||Ǔ:ha.|He or she has it.|||
+|||||||Ù:niha.|They have it.|||
+
+|||||||À:gwv̌:ya.|I have something long.|||
+|||||||Jv̌:ya.|You have something long.|||
+|||||||Uwv̂:ya.|He has something long.|||
+|||||||Unv̂:ya.|They have something long.|||
+
+|||||||À:ginéha.|I have some liquid.|||
+|||||||Janéɂa.|You have some liquid.|||
+|||||||Ù:néha.|He has some liquid.|||
+|||||||Uninéha.|They have some liquid.|||
+
+|||||||Agv̌:hnáge̋:ɂi.; Agv̌:hnáge̋.|Black.|||
+|||||||Ahala̋:da.; Ahale̋:ni.; Ahale̋:na.|A loudmouth.|||
+|||||||Di:ni:hala̋:da.; Di:ni:hale̋:ni.; Di:ni:hale̋:na.|Loudmouths.|||
+|||||||Áhani.; Áhni.|Here.|||
+
+|||||||U:ne̋:ga.; U:ne̋:g.|White.|||
+|||||||Gő:la.; Gő:li.; Gő:l.|Winter|||
+|||||||Kǒ:la.; Kǒ:li.; Kǒ:l.|A bone.|||
+|||||||Na.|That|||
+|||||||Naɂvɂi.; Naɂv.|Close by. Near.|||
+|||||||Nanaɂi.; Nanā.|Over there.|||
+|||||||Nihinahv?|But what about you?|||
+|||||||Nihina?|What about you?|||
+
+*|||||||Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
