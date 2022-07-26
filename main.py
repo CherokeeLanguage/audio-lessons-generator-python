@@ -33,12 +33,12 @@ from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
+# DATASET: str = "cll1-v3"
 # DATASET: str = "cll1-v3-cram"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 # DATASET: str = "ced-sentences"
-# DATASET: str = "beginning-cherokee"
+DATASET: str = "beginning-cherokee"
 
 MP3_QUALITY: int = 3
 MP3_HZ: int = 48_000
@@ -936,6 +936,7 @@ def main() -> None:
         cmd.append("--export-background=white")
         cmd.append("--export-background-opacity=1.0")
         cmd.append("--export-png-color-mode=RGB_16")
+        cmd.append("--export-area-page")
         cmd.append(output_svg)
         print(f"Creating {png_name}.")
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)

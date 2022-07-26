@@ -10,7 +10,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||ayo!|Ouch!|||
 
 |||||||tò:hi̋|“Peaceful. Well in health.”|||
-|||||||tò:hi̋:ju?|It's well, right?|||
+|||||||tò:hi̋:ju?|It is well. Right?|||
 ||tò:hi̋:s?|||||tò:hi̋:sgo?|Is it well?|||
 ||v:ɂ. tò:hi̋:gwu.|||||v:ɂv. tò:hi̋:gwu.|Yes, it's just well.|||
 ||v:ɂ. ő:sda.|||||v:ɂv. ő:sda.|Yes, it is good.|||
@@ -55,6 +55,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||hila̋ nǔ:na?|||||hila̋ ǐ:ga̋ nǔ:na?|How many potatoes?|||
 ||hila̋ gi:hli?|||||hila̋ iyáni gi:hli?|How many dogs?|||
+
+|||||||A:sésdi.|A number.|||
+|||||||Di:sésdi.|Numbers.|||
 
 |||||||sà:gwű nv̀:ya|One rock.|||
 |||||||táɂli digo:hwe:li|Two pieces of paper.|||
@@ -164,16 +167,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||já:n, dv:gv:go:hi|||||já:ni, dv:gv:go:hi|“John, I will see you again.”|||
 ||já:n, dv:sgi:go:hi|||||já:ni, dv:sgi:go:hi|“John, You will see me again.”|||
-||lí:nid ale ma:gá:l, dv:sdv:go:hi|||||lí:nida ale ma:gá:li, dv:sdv:go:hi|“Linda and Michael, I will see you two again.”|||
 
+||lí:nid ale ma:gá:l, dv:sdv:go:hi|||||lí:nida ale ma:gá:li, dv:sdv:go:hi|“Linda and Michael, I will see you two again.”|||
 ||a:lí:sa:gwe:t, dv:sgini:go:hi, énto:n ale ayv.|||||a:lí:sa:gwe:ti, dv:sgini:go:hi, énto:ni ale ayv.|Elizabeth, you will see us two again, Anthony and me.|||
 ||lí:nid ale ma:gá:l, dv:sgini:go:hi|||||lí:nida ale ma:gá:li, dv:sgini:go:hi|Linda and Michael, You two will see me again|||
 
-||niga̋:d nihi, dv:ɂì:jv:go:hi|||||niga̋:da nihi, dv:ɂì:jv:go:hi|All of you, I will see you all again.|||
-||niga̋:d ayv dv:ɂì:jv:go:hi|||||niga̋:da ayv dv:ɂì:jv:go:hi|“All of us, we will see you again.”|||
+||niga̋:d nihi, dv:ɂì:jv:go:hi|||||niga̋:da nihi, dv:ɂì:jv:go:hi|I will see you all again.|||
+||niga̋:d ayv dv:ɂì:jv:go:hi|||||niga̋:da ayv dv:ɂì:jv:go:hi|“All of us will see you again.”|||
 
-||dv:ɂì:sgi:go:hi, niga̋:d ayv.|||||dv:ɂì:sgi:go:hi, niga̋:da ayv.|You will see all of us again, all of us.|||
-||niga̋:d nihi, dv:ɂì:sgi:go:hi|||||niga̋:da nihi, dv:ɂì:sgi:go:hi|All of you, you all will see me again.||Complete the lesson material through the end of chapter 10.|
+||dv:ɂì:sgi:go:hi, niga̋:d ayv.|||||dv:ɂì:sgi:go:hi, niga̋:da ayv.|You will see all of us again.|||
+||niga̋:d nihi, dv:ɂì:sgi:go:hi|||||niga̋:da nihi, dv:ɂì:sgi:go:hi|You all will see me again.||Complete the lesson material through the end of chapter 10.|
 
 #Chapter 11 ᏌᏚᏏᏁᎢ ᎠᏕᎶᏆᏍᏗ|||
 ||gadō à:dv́:ne age:hyű:j?; dō à:dv́:ne age:hyű:j?||||ᎦᏙ ᎠᏛᏁᎭ|gadō à:dv́:neha age:hyű:ja?|What is the girl doing?|||

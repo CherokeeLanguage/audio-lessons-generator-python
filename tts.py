@@ -38,8 +38,13 @@ def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> Non
     cmd.append(text_chr)
     result = subprocess.run(cmd, capture_output=True)
     if result.returncode:
+        print()
+        print(cmd)
+        print()
         print(result.stdout.decode())
+        print()
         print(result.stderr.decode())
+        print()
         raise Exception("run_tts.py fail")
     else:
         shutil.move(mp3_chr+".tmp", mp3_chr)

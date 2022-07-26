@@ -1547,7 +1547,7 @@ he's amazed
 à:sgwanigǒ:sga [asgwanigosga]||jì:sgwanigǒ:sga [jisgwanigosga]|ù:sgwanigǒ:sv̂:ɂi [usgwanigosvi]|à:sgwanigǒ:sgóɂi [asgwanigosgoi]|hisgwanigǒ:hi [hisgwanigohi]|u:sgwanigǒ:hísdi [usgwanigohisdi]|ᎠᏍᏆᏂᎪᏍᎦ||ᏥᏍᏆᏂᎪᏍᎦ|ᎤᏍᏆᏂᎪᏒᎢ|ᎠᏍᏆᏂᎪᏍᎪᎢ|ᎯᏍᏆᏂᎪᎯ|ᎤᏍᏆᏂᎪᎯᏍᏗ|72619|ced
 
 He is admiring it
-a:hsgwánigo:sga [ahsgwanigosga]||tsīʔsgwánigo:sga [tsisgwanigosga]|u:hsgwánigo:sv̌:ɂi [uhsgwanigosvi]|a:hsgwánigo:sgó:ɂi [ahsgwanigosgoi]|hishgwánigoɂli [hishgwanigoli]|u:hsgwánigo:hisdi [uhsgwanigohisdi]|ᎠᏍᏆᏂᎪᏍᎦ||ᏥᏍᏆᏂᎪᏍᎦ|ᎤᏍᏆᏂᎪᏒᎢ|ᎠᏍᏆᏂᎪᏍᎪᎢ|ᎯᏍᏆᏂᎪᎵ|ᎤᏍᏆᏂᎪᎯᏍᏗ|99996|rrd
+a:hsgwánigo:sga [ahsgwanigosga]||tsiʔsgwánigo:sga [tsisgwanigosga]|u:hsgwánigo:sv̌:ɂi [uhsgwanigosvi]|a:hsgwánigo:sgó:ɂi [ahsgwanigosgoi]|hishgwánigoɂli [hishgwanigoli]|u:hsgwánigo:hisdi [uhsgwanigohisdi]|ᎠᏍᏆᏂᎪᏍᎦ||ᏥᏍᏆᏂᎪᏍᎦ|ᎤᏍᏆᏂᎪᏒᎢ|ᎠᏍᏆᏂᎪᏍᎪᎢ|ᎯᏍᏆᏂᎪᎵ|ᎤᏍᏆᏂᎪᎯᏍᏗ|99996|rrd
 
 He is amusing himself
 asgwa:nigosvɂv:sga [asgwanigosvvsga]||tsisgwa:nigosvɂvɂsga [tsisgwanigosvvsga]|u:sgwa:nigosvɂnv̌:ɂi [usgwanigosvnvi]|asgwa:nigosvɂv:sgó:ɂi [asgwanigosvvsgoi]|hisgwa:nigosvɂv:ga [hisgwanigosvvga]|u:sgwa:nigoshdi [usgwanigoshdi]|ᎠᏍᏆᏂᎪᏒᎥᏍᎦ||ᏥᏍᏆᏂᎪᏒᎥᏍᎦ|ᎤᏍᏆᏂᎪᏒᏅᎢ|ᎠᏍᏆᏂᎪᏒᎥᏍᎪᎢ|ᎯᏍᏆᏂᎪᏒᎥᎦ|ᎤᏍᏆᏂᎪᏍᏗ|99997|rrd
@@ -1625,7 +1625,7 @@ he's eating a long object
 à:sdǐ:gíɂa [asdigia]||jì:sdǐ:gíɂa [jisdigia]|ù:sdí:gv̌:ɂi [usdigvi]|à:sdǐ:gî:sgó:ɂi [asdigisgoi]|hisdǐ:ga [hisdiga]|u:sdǐ:gî:sdi [usdigisdi]|ᎠᏍᏗᎩᎠ||ᏥᏍᏗᎩᎠ|ᎤᏍᏗᎬᎢ|ᎠᏍᏗᎩᏍᎪᎢ|ᎯᏍᏗᎦ|ᎤᏍᏗᎩᏍᏗ|72575|ced
 
 He is eating it (something long)
-a:hsdí:gīʔa [ahsdigia]||tsiɂsdí:giɂa [tsisdigia]|u:hsdí:gɂv̌:ɂi [uhsdigvi]|a:hsdí:gisgó:ɂi [ahsdigisgoi]|hihsdí:ga [hihsdiga]|u:hsdí:gɂi:sdi [uhsdigisdi]|ᎠᏍᏗᎩᎠ||ᏥᏍᏗᎩᎠ|ᎤᏍᏗᎬᎢ|ᎠᏍᏗᎩᏍᎪᎢ|ᎯᏍᏗᎦ|ᎤᏍᏗᎩᏍᏗ|100010|rrd
+a:hsdí:giʔa [ahsdigia]||tsiɂsdí:giɂa [tsisdigia]|u:hsdí:gɂv̌:ɂi [uhsdigvi]|a:hsdí:gisgó:ɂi [ahsdigisgoi]|hihsdí:ga [hihsdiga]|u:hsdí:gɂi:sdi [uhsdigisdi]|ᎠᏍᏗᎩᎠ||ᏥᏍᏗᎩᎠ|ᎤᏍᏗᎬᎢ|ᎠᏍᏗᎩᏍᎪᎢ|ᎯᏍᏗᎦ|ᎤᏍᏗᎩᏍᏗ|100010|rrd
 
 something to eat (long)
 asdǐ:gì:sdi [asdigisdi]|di:sdǐ:gì:sdi [disdigisdi]||||||ᎠᏍᏗᎩᏍᏗ|ᏗᏍᏗᎩᏍᏗ||||||72576|ced
@@ -1703,7 +1703,7 @@ He is showing him.; He is pointing for him
 aséhe:ha [aseheha]||tsi:yaséhe:ha [tsiyaseheha]|u:séhelv̌:ɂi [usehelvi]|aséhe:hó:ɂi [asehehoi]|hiyaséheisi [hiyaseheisi]|u:séhesdi [usehesdi]|ᎠᏎᎮᎭ||ᏥᏯᏎᎮᎭ|ᎤᏎᎮᎸᎢ|ᎠᏎᎮᎰᎢ|ᎯᏯᏎᎮᎢᏏ|ᎤᏎᎮᏍᏗ|100024|rrd
 
 He is counting.; He is pointing at him
-aséhiha [asehiha]||tsi:yaséhihā, gaséhiha [tsiyasehiha gasehiha]|u:waséhlv̌:ɂi [uwasehlvi]|aséhihó:ɂi [asehihoi]|hi:yasékā, haséka [hiyaseka haseka]|u:wasésdi [uwasesdi]|ᎠᏎᎯᎭ||ᏥᏯᏎᎯᎭ, ᎦᏎᎯᎭ|ᎤᏩᏎᎸᎢ|ᎠᏎᎯᎰᎢ|ᎯᏯᏎᎧ, ᎭᏎᎧ|ᎤᏩᏎᏍᏗ|100025|rrd
+aséhiha [asehiha]||tsi:yaséhiha, gaséhiha [tsiyasehiha gasehiha]|u:waséhlv̌:ɂi [uwasehlvi]|aséhihó:ɂi [asehihoi]|hi:yaséka, haséka [hiyaseka haseka]|u:wasésdi [uwasesdi]|ᎠᏎᎯᎭ||ᏥᏯᏎᎯᎭ, ᎦᏎᎯᎭ|ᎤᏩᏎᎸᎢ|ᎠᏎᎯᎰᎢ|ᎯᏯᏎᎧ, ᎭᏎᎧ|ᎤᏩᏎᏍᏗ|100025|rrd
 
 Affadavit
 aselida:nv [aselidanv]|||||||ᎠᏎᎵᏓᏅ|||||||100026|rrd
@@ -1763,10 +1763,10 @@ individual, one person
 asiyv̋:wi [asiyvwi]|ani:siyv:wi:ha [anisiyvwiha]||||||ᎠᏏᏴᏫ|ᎠᏂᏏᏴᏫᎭ||||||72626|ced
 
 He is dropping it (something long)
-a:hsōʔo:hndiha [ahsoohndiha]||tsiɂsoɂo:hndiha [tsisoohndiha]|u:hsoɂo:hntanv̌:ɂi [uhsoohntanvi]|a:hsoɂo:hndisgó:ɂi [ahsoohndisgoi]|hihsoɂo:hnda [hihsoohnda]|u:hsoɂo:hndo:hdi [uhsoohndohdi]|ᎠᏐᎣᏅᏗᎭ||ᏥᏐᎣᏅᏗᎭ|ᎤᏐᎣᏅᏔᏅᎢ|ᎠᏐᎣᏅᏗᏍᎪᎢ|ᎯᏐᎣᏅᏓ|ᎤᏐᎣᏅᏙᏗ|100035|rrd
+a:hsoʔo:hndiha [ahsoohndiha]||tsiɂsoɂo:hndiha [tsisoohndiha]|u:hsoɂo:hntanv̌:ɂi [uhsoohntanvi]|a:hsoɂo:hndisgó:ɂi [ahsoohndisgoi]|hihsoɂo:hnda [hihsoohnda]|u:hsoɂo:hndo:hdi [uhsoohndohdi]|ᎠᏐᎣᏅᏗᎭ||ᏥᏐᎣᏅᏗᎭ|ᎤᏐᎣᏅᏔᏅᎢ|ᎠᏐᎣᏅᏗᏍᎪᎢ|ᎯᏐᎣᏅᏓ|ᎤᏐᎣᏅᏙᏗ|100035|rrd
 
 It (something long) is falling
-a:hsōʔo:sga [ahsoosga]|||u:hsoɂo:sv̌:ɂi [uhsoosvi]|a:hsoɂo:sgó:ɂi [ahsoosgoi]|wa:hsoɂo:hi [wahsoohi]|u:hsoɂo:hisdi [uhsoohisdi]|ᎠᏐᎣᏍᎦ|||ᎤᏐᎣᏒᎢ|ᎠᏐᎣᏍᎪᎢ|ᏩᏐᎣᎯ|ᎤᏐᎣᎯᏍᏗ|100036|rrd
+a:hsoʔo:sga [ahsoosga]|||u:hsoɂo:sv̌:ɂi [uhsoosvi]|a:hsoɂo:sgó:ɂi [ahsoosgoi]|wa:hsoɂo:hi [wahsoohi]|u:hsoɂo:hisdi [uhsoohisdi]|ᎠᏐᎣᏍᎦ|||ᎤᏐᎣᏒᎢ|ᎠᏐᎣᏍᎪᎢ|ᏩᏐᎣᎯ|ᎤᏐᎣᎯᏍᏗ|100036|rrd
 
 he's waving his hand
 à:so:lv:dagí:ɂa [asolvdagia]||gà:so:lv:dagí:ɂa [gasolvdagia]|ù:so:lv:dagí:sv̌:ɂi [usolvdagisvi]|à:so:lv:dagí:sgó:ɂi [asolvdagisgoi]|haso:lv:dagi [hasolvdagi]|u:so:lv:dagì:sdi [usolvdagisdi]|ᎠᏐᎸᏓᎩᎠ||ᎦᏐᎸᏓᎩᎠ|ᎤᏐᎸᏓᎩᏒᎢ|ᎠᏐᎸᏓᎩᏍᎪᎢ|ᎭᏐᎸᏓᎩ|ᎤᏐᎸᏓᎩᏍᏗ|72631|ced
@@ -2411,7 +2411,7 @@ something to drink
 adǐ:tasdi [aditasdi]|dì:dǐ:tasdi [diditasdi]||||||ᎠᏗᏔᏍᏗ|ᏗᏗᏔᏍᏗ||||||72266|ced
 
 He is arising from lying down; he is getting up (from bed)
-ā1dī2dī.3ha [adidiha]||gā.2dī2dī3?a [gadidia]|u:di:dvɂv̌:ɂi [udidvvi]|a:di:di:sgó:ɂi [adidisgoi]|hā2dī23da [hadida]|ū2dī2tdi [uditdi]|ᎠᏗᏗᎠ||ᎦᏗᏗᎠ|ᎤᏗᏛᎥᎢ|ᎠᏗᏗᏍᎪᎢ|ᎭᏗᏓ|ᎤᏗᏘᏗ|100131|rrd
+a1di2di.3ha [adidiha]||ga.2di2di3?a [gadidia]|u:di:dvɂv̌:ɂi [udidvvi]|a:di:di:sgó:ɂi [adidisgoi]|ha2di23da [hadida]|ū2di2tdi [uditdi]|ᎠᏗᏗᎠ||ᎦᏗᏗᎠ|ᎤᏗᏛᎥᎢ|ᎠᏗᏗᏍᎪᎢ|ᎭᏗᏓ|ᎤᏗᏘᏗ|100131|rrd
 
 he's rising from a prone position
 à:di:díha [adidiha]||gadi:dí:ɂa [gadidia]|ù:di:dv:hv̌:ɂi [udidvhvi]|à:di:dǐ:sgóɂi [adidisgoi]|hadǐ:da [hadida]|u:di:tdi [uditdi]|ᎠᏗᏗᎭ||ᎦᏗᏗᎠ|ᎤᏗᏛᎲᎢ|ᎠᏗᏗᏍᎪᎢ|ᎭᏗᏓ|ᎤᏗᏘᏗ|72257|ced
@@ -2450,7 +2450,7 @@ Saucer
 a:hdoɂo:lvsdo:hdi [ahdoolvsdohdi]|||||||ᎠᏙᎣᎸᏍᏙᏗ|||||||100137|rrd
 
 He is dropping it (something alive).; He is dropping it (something flexible)
-a:do:ɂv:hndiha [adovhndiha]||tsi:ya:do:ɂvɂndihā, ga:do:ɂvɂndiha [tsiyadovndiha gadovndiha]|u:do:ɂv:hndanv̌:ɂi [udovhndanvi]|a:do:ɂv:hntsgó:ɂi [adovhntsgoi]|hi:ya:do:ɂv:hndā, ha:do:ɂv:hnda [hiyadovhnda hadovhnda]|u:do:ɂv:hndo:hdi [udovhndohdi]|ᎠᏙᎥᏅᏗᎭ||ᏥᏯᏙᎥᏅᏗᎭ, ᎦᏙᎥᏅᏗᎭ|ᎤᏙᎥᏅᏓᏅᎢ|ᎠᏙᎥᏅᏓᏍᎪᎢ|ᎯᏯᏙᎥᏅᏓ, ᎭᏙᎥᏅᏓ|ᎤᏙᎥᏅᏙᏗ|100138|rrd
+a:do:ɂv:hndiha [adovhndiha]||tsi:ya:do:ɂvɂndiha, ga:do:ɂvɂndiha [tsiyadovndiha gadovndiha]|u:do:ɂv:hndanv̌:ɂi [udovhndanvi]|a:do:ɂv:hntsgó:ɂi [adovhntsgoi]|hi:ya:do:ɂv:hnda, ha:do:ɂv:hnda [hiyadovhnda hadovhnda]|u:do:ɂv:hndo:hdi [udovhndohdi]|ᎠᏙᎥᏅᏗᎭ||ᏥᏯᏙᎥᏅᏗᎭ, ᎦᏙᎥᏅᏗᎭ|ᎤᏙᎥᏅᏓᏅᎢ|ᎠᏙᎥᏅᏓᏍᎪᎢ|ᎯᏯᏙᎥᏅᏓ, ᎭᏙᎥᏅᏓ|ᎤᏙᎥᏅᏙᏗ|100138|rrd
 
 1. he's racing 2. he's running for office
 à:tohgǐ:yáɂa [atohgiyaa]||gà:tohgǐ:yáɂa [gatohgiyaa]|ù:tohgí:yv̌:ɂi [utohgiyvi]|à:tohgǐ:yâ:sgó:ɂi [atohgiyasgoi]|hatohgǐ:ya [hatohgiya]|u:tohgǐ:yâ:sdi [utohgiyasdi]|ᎠᏙᎩᏯᎠ||ᎦᏙᎩᏯᎠ|ᎤᏙᎩᏴᎢ|ᎠᏙᎩᏯᏍᎪᎢ|ᎭᏙᎩᏯ|ᎤᏙᎩᏯᏍᏗ|72675|ced
@@ -5711,7 +5711,7 @@ He is laying down it (a liquid)
 ga:hehv:sga [gahehvsga]||tsiɂehv:sga [tsiehvsga]|u:heɂhnv̌:ɂi [uhehnvi]|ga:hehv:sgó:ɂi [gahehvsgoi]|hihehv:ga [hihehvga]|u:heɂhdi [uhehdi]|ᎦᎮᎲᏍᎦ||ᏥᎡᎲᏍᎦ|ᎤᎮᏅᎢ|ᎦᎮᎲᏍᎪᎢ|ᎯᎮᎲᎦ|ᎤᎮᏗ|100694|rrd
 
 Something.; Anything
-gahusdī, gohusdi [gahusdi gohusdi]|||||||ᎦᎱᏍᏗ, ᎪᎱᏍᏗ|||||||100695|rrd
+gahusdi, gohusdi [gahusdi gohusdi]|||||||ᎦᎱᏍᏗ, ᎪᎱᏍᏗ|||||||100695|rrd
 
 It (something long) is in a container
 gala [gala]|||u:le:sdv̌:ɂi [ulesdvi]|galó:ɂi [galoi]|wigale:sdi [wigalesdi]|u:le:sdi [ulesdi]|ᎦᎳ|||ᎤᎴᏍᏛᎢ|ᎦᎶᎢ|ᏫᎦᎴᏍᏗ|ᎤᎴᏍᏗ|100696|rrd
@@ -6767,7 +6767,7 @@ He is being hanged
 gada:ɂa [gadaa]||gada:ɂa [gadaa]|u:dv:ɂnv̌:ɂi [udvnvi]|gada:ɂó:ɂi [gadaoi]|hada:vɂvga [hadavvga]|u:tdi [utdi]|ᎦᏓᎠ||ᎦᏓᎠ|ᎤᏛᏅᎢ|ᎦᏓᎣᎢ|ᎭᏓᎥᎥᎦ|ᎤᏛᏗ|100889|rrd
 
 He is taking it (something alive) or it (a solid) or it (something flexible) down
-gadagi:ɂa [gadagia]||gadagi:ɂā, ji:yadagi:ɂa [gadagia jiyadagia]|u:dagi:sv̌:ɂi [udagisvi]|gadagi:sgó:ɂi [gadagisgoi]|hadagī, hi:yadagi [hadagi hiyadagi]|u:dagi:sdi [udagisdi]|ᎦᏓᎩᎠ||ᏥᏯᏓᎩᎠ, ᎦᏓᎩᎠ|ᎤᏓᎩᏒᎢ|ᎦᏓᎩᏍᎪᎢ|ᎯᏯᏓᎩ, ᎭᏓᎩ|ᎤᏓᎩᏍᏗ|100890|rrd
+gadagi:ɂa [gadagia]||gadagi:ɂa, ji:yadagi:ɂa [gadagia jiyadagia]|u:dagi:sv̌:ɂi [udagisvi]|gadagi:sgó:ɂi [gadagisgoi]|hadagi, hi:yadagi [hadagi hiyadagi]|u:dagi:sdi [udagisdi]|ᎦᏓᎩᎠ||ᏥᏯᏓᎩᎠ, ᎦᏓᎩᎠ|ᎤᏓᎩᏒᎢ|ᎦᏓᎩᏍᎪᎢ|ᎯᏯᏓᎩ, ᎭᏓᎩ|ᎤᏓᎩᏍᏗ|100890|rrd
 
 A churn
 ga:dagu:ga [gadaguga]|||||||ᎦᏓᎫᎦ|||||||100891|rrd
@@ -6908,7 +6908,7 @@ Bread
 ga:du [gadu]|||||||ᎦᏚ|||||||100909|rrd
 
 cake
-gá:dū u:gana̋:sda [gadu uganasda]|||||||ᎦᏚ ᎤᎦᎾᏍᏓ|||||||73008|ced
+gá:du u:gana̋:sda [gadu uganasda]|||||||ᎦᏚ ᎤᎦᎾᏍᏓ|||||||73008|ced
 
 cooperative labor (involving a community)
 ga:dú:gi [gadugi]|||||||ᎦᏚᎩ|||||||73003|ced
@@ -7406,7 +7406,7 @@ Possum grapes.; biol. <em>Vitis baileyana.</em>
 ke:ladi [keladi]|||||||ᎨᎳᏗ|||||||100981|rrd
 
 He is putting something into a group; he is adding someone to a group.
-géhladīʔa [gehladia]||gēʔladīʔa [geladia]|u:whldv̌ʔi [uwhldvi]|géhladisgóʔi [gehladisgoi]|hě:hlda [hehlda]|u:wehldisdi [uwehldisdi]|ᎨᎳᏗᎠ||ᎨᎳᏗᎠ|ᎤᏪᎳᏛᎢ|ᎨᎳᏗᏍᎪᎢ|ᎮᎳᏓ|ᎤᏪᏗᏍᏗ|100982|rrd
+géhladiʔa [gehladia]||geʔladiʔa [geladia]|u:whldv̌ʔi [uwhldvi]|géhladisgóʔi [gehladisgoi]|hě:hlda [hehlda]|u:wehldisdi [uwehldisdi]|ᎨᎳᏗᎠ||ᎨᎳᏗᎠ|ᎤᏪᎳᏛᎢ|ᎨᎳᏗᏍᎪᎢ|ᎮᎳᏓ|ᎤᏪᏗᏍᏗ|100982|rrd
 
 He's mingling with a group
 keládí:dò:ha [keladidoha]||geladí:dò:ha [geladidoha]|ù:hweladí:dò:lv̌:ɂi [uhweladidolvi]|keládí:dò:hó:ɂi [keladidohoi]|hela:dǐ:da [heladida]|u:hweládí:dà:sdi [uhweladidasdi]|ᎨᎳᏗᏙᎭ||ᎨᎳᏗᏙᎭ|ᎤᏪᎳᏗᏙᎸᎢ|ᎨᎳᏗᏙᎰᎢ|ᎮᎳᏗᏓ|ᎤᏪᎳᏗᏓᏍᏗ|73515|ced
@@ -7685,7 +7685,7 @@ he understands it
 gohlga [gohlga]||go:lì:ga [goliga]|ù:wohljv̌:ɂi [uwohljvi]|gohlgó:ɂi [gohlgoi]|hohlgi [hohlgi]|uwo:hlísdi [uwohlisdi]|ᎪᎵᎦ||ᎪᎵᎦ|ᎤᏬᎵᏨᎢ|ᎪᎵᎪᎢ|ᎰᎵᎩ|ᎤᏬᏟᏍᏗ|73242|ced
 
 He is acquainted with him.; He is understanding it.; He is recognizing it
-go:lhga [golhga]||tsi:yo:liɂgā, go:liɂga [tsiyoliga goliga]|u:wo:lhtsv̌:ɂi [uwolhtsvi]|go:lhgó:ɂi [golhgoi]|hiyo:lhgī, ho:lhgi [hiyolhgi holhgi]|u:wo:li:hsdi [uwolihsdi]|ᎪᎵᎦ||ᏥᏲᎵᎦ, ᎪᎵᎦ|ᎤᏬᎵᏨᎢ|ᎪᎵᎪᎢ|ᎯᏲᎵᎩ, ᎰᎵᎩ|ᎤᏬᎵᏍᏗ|101024|rrd
+go:lhga [golhga]||tsi:yo:liɂga, go:liɂga [tsiyoliga goliga]|u:wo:lhtsv̌:ɂi [uwolhtsvi]|go:lhgó:ɂi [golhgoi]|hiyo:lhgi, ho:lhgi [hiyolhgi holhgi]|u:wo:li:hsdi [uwolihsdi]|ᎪᎵᎦ||ᏥᏲᎵᎦ, ᎪᎵᎦ|ᎤᏬᎵᏨᎢ|ᎪᎵᎪᎢ|ᎯᏲᎵᎩ, ᎰᎵᎩ|ᎤᏬᎵᏍᏗ|101024|rrd
 
 his acqaintance
 gőhlgi [gohlgi]|digőhlgi [digohlgi]||||||ᎪᎵᎩ|ᏗᎪᎵᎩ||||||73243|ced
@@ -8714,7 +8714,7 @@ That's the one
 sgina:hni [sginahni]|||||||ᏍᎩᎾᏂ|||||||101222|rrd
 
 Is that?
-sgiɂnusd(ī) [sginusdi]|||||||ᏍᎩᏄᏍᏗ(Ꭲ)|||||||101223|rrd
+sgiɂnusdi [sginusdi]|||||||ᏍᎩᏄᏍᏗ(Ꭲ)|||||||101223|rrd
 
 It's just like that
 sgigwi:yusdi [sgigwiyusdi]|||||||ᏍᎩᏈᏳᏍᏗ|||||||101224|rrd
@@ -8933,7 +8933,7 @@ Wait a while
 sise:ga [sisega]|||||||ᏏᏎᎦ|||||||101263|rrd
 
 Hello
-si:yo (osi:yū) [siyo osiyu]|||||||ᏏᏲ (ᎣᏏᏳ)|||||||101264|rrd
+si:yo (osi:yu) [siyo osiyu]|||||||ᏏᏲ (ᎣᏏᏳ)|||||||101264|rrd
 
 1. another 2. an additional one (singular form)
 sóɂi [soi]|dǐ:sóɂi [disoi]||||||ᏐᎢ|ᏗᏐᎢ||||||73662|ced
@@ -10226,7 +10226,7 @@ Burlap sack.; Bear nettle
 to:le:da [toleda]|||||||ᏙᎴᏓ|||||||101482|rrd
 
 Why
-dōʔni [doni]|||||||ᏙᏂ|||||||101483|rrd
+doʔni [doni]|||||||ᏙᏂ|||||||101483|rrd
 
 mosquito
 do:sa [dosa]|||||||ᏙᏌ|||||||72925|ced
@@ -10811,7 +10811,7 @@ Florida
 tsuga:nowv:ɂi [tsuganowvi]|||||||ᏧᎦᏃᏮᎢ|||||||101589|rrd
 
 South
-tsu:ga:nowv:ɂī, tsu:ga:nawv:ɂi [tsuganowvi tsuganawvi]|||||||ᏧᎦᏃᏮᎢ, ᏧᎦᎾᏮᎢ|||||||101590|rrd
+tsu:ga:nowv:ɂi, tsu:ga:nawv:ɂi [tsuganowvi tsuganawvi]|||||||ᏧᎦᏃᏮᎢ, ᏧᎦᎾᏮᎢ|||||||101590|rrd
 
 Bull.; Boar
 tsu:ganv:sda:hli [tsuganvsdahli]|||||||ᏧᎦᏅᏍᏓᎵ|||||||101591|rrd
