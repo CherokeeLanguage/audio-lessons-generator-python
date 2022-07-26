@@ -69,6 +69,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gù:gu.|A bottle. Bottles.|||
 |||||||Ayo!|Ouch!|||
 
+# exercise 4
+*|||||||Sà:gwű, táɂli, joɂi.; Sà:wű, táɂli, joɂi.; Sà:wű, táɂl, jo.|One, two, three.|||
+*|||||||Tò:hi̋:ju? È:gi.|Isn't it well? Maggie.|||
+*|||||||Gadí:ɂa sgǒ:hi.|I am saying ten.|||
+*|||||||Hadí:ɂa joɂi.|You are saying three.|||
+*|||||||À:diha hisgi.; À:diɂa hisgi.|He is saying five.|||
+*|||||||À:nadiha sóhně:la gugu.; À:nadiɂa sóhně:la gugu.; À:nadiha sóhně:l gugu.|They are saying nine bottles.|||
+*|||||||Joɂi gugu.; Jo gugu.|Three bottles.|||
+*|||||||Sà:gwű go:hwe:lv̋:ɂi.; Sà:wű go:hwe:lv̋:ɂi.|One lessons.|||
+
 *|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Nvhgi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
 
 # === 5
