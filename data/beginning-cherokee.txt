@@ -227,7 +227,14 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gohlga.|He understands it. He recognizes him.|||
 |||||||À:nohlga.|They understand it. They recognize him.|||
 
-*|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+*|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv̋:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+
+# Exercise 5
+*|||||||Kaga é:ga go:hí i:ga?; Gá:gō é:ga go:hí i:ga?|Who is going today?|||
+*|||||||Lu:ga, È:gi, ale Go:gi à:né:ga.|Luke, Maggie, and Summer are going.|||
+*|||||||Hiɂa ahu:li gǐ:gáge.; Hiɂa ahu:li gǐ:ge.|This drum is red.|||
+*|||||||Kilő hiɂa Jalagi go:hwe:lv̋ gohlga.|Someone understands this Cherokee lesson.|||
+*|||||||Go:lì:ga ahu:li.|I understand the drum.|||
 
 # === 7
 
