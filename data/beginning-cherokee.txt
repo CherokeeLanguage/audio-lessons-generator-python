@@ -9,6 +9,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Donada:go:hv:ɂi.; Donada:go:hv̄.|We both will see each other again, later.|||
 |||||||Dodada:go:hv:ɂi.; Dodada:go:hv̄.|We'll see each other again, later.|||
 |||||||Igv:yi̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Igv:yi̋ Jalagi go:hwe:lv̋:ɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
+
+# === 2
+
 #||||||| | |||
 |||||||Tlv̀:wasga.|Maple.|||
 |||||||Áhni.; Áhani.|Here.|||
@@ -18,6 +21,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Di:dihnó:gi.|Let's all sing.|||
 |||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.|||
 |||||||Joɂi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Joɂi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
+
+# === 4
+
 #||||||| | |||
 |||||||Digo:hwe:la nidì:díwi.; Digo:hwe:la nidì:díwa.|Let's all say the letters.|||
 |||||||Di:sésdi nidì:díwi.; Di:sésdi nidì:díwa.|Let's all say the numbers.|||
@@ -56,13 +62,17 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||À:nadíɂa.; À:nadíha.|They are saying.|||
 #||||||| | |||
 |||||||Dù:danv:hnv̋:ɂi digaloɂgwasdohdi.; Dù:danv:hnv̋ digaloɂgwasdohdi.|Rows of the alphabet.|||
-|||||||E:gi.|Maggie.|||
+|||||||È:gi.|Maggie.|||
 |||||||Géɂi.|Far off in place or time.|||
 |||||||Goɂi.|Grease. Oil.|||
 |||||||Go:gi.; Go:g.|Summer.|||
 |||||||Gù:gu.|A bottle. Bottles.|||
 |||||||Ayo!|Ouch!|||
+
 *|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Nvhgi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
+
+# === 5
+
 #||||||| | |||
 |||||||Ahljadő:hvsgi.; Ahljadő:hv.|A minister.|||
 |||||||Dà:ni:lâ:wì:ga.; Dà:ni:lâ:wì.|A church service.|||
@@ -129,6 +139,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Hiɂa.; Hiɂi.|This. These.|||
 |||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:gi.; Hiɂi kó:gi.;Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
 *|||||||Hisgine̋:ɂi Jalagi go:hwe:lv:ɂi.; Hisgine̋ Jalagi go:hwe:lv:ɂi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
+
+# === 6
+
 #||||||| | |||
 |||||||Di:de:hyǒ:hvsgi.; Di:de:hyǒ:hv.|Teacher.|||
 |||||||Ì:dalě:na.; Ì:dalě:n.|Let's all begin.|||
@@ -160,10 +173,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gadō ű:sdi?; Gadō ű:sd?; Dō ű:sd?|What kind of?|||
 |||||||Ha:dlv?|Where?|||
 |||||||Go:hwe:li.; Go:hwe:la.; Go:hwe:l.|Written material.|||
-|||||||À:gwanhta.; À:gwanht.|I know a fact.|||
-|||||||Janhta.; Janht.|You know a fact.|||
-|||||||Ùnhta.; Ùnht.|He knows a fact.|||
-|||||||Ù:nanhta.; Ù:nanht.|They know a fact.|||
+|||||||À:gwanhta.; À:gwanht.|I know something.|||
+|||||||Janhta.; Janht.|You know something.|||
+|||||||Ùnhta.; Ùnht.|He knows something.|||
+|||||||Ù:nanhta.; Ù:nanht.|They know something.|||
 |||||||Ahő:li.|His mouth.|||
 |||||||Ahu:li.|A drum.|||
 |||||||Ale.|And. Or.|||
@@ -176,11 +189,18 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Halihě:lî:ga.; Halihě:lî.|You are happy or grateful.|||
 |||||||À:li:hě:lî:ga.; À:li:hě:lî.|He is happy or grateful.|||
 |||||||Anali:hě:lî:ga.; Anali:hě:lî.|They are happy or grateful.|||
-|||||||Go:lì:ga.; Go:lì.|I understand.|||
-|||||||Ho:hlga.|You understand.|||
-|||||||Go:hlga.|He understands.|||
-|||||||À:no:hlga.|They understand.|||
+
+|||||||Ji:yo:lì:ga.|I recognize him.|||
+|||||||Go:lì:ga.|I understand it.|||
+|||||||Hi:yo:lì:ga.|You recognize him.|||
+|||||||Ho:lì:ga.|You understand it.|||
+|||||||Gohlga.|He understands it. He recognizes him.|||
+|||||||À:nohlga.|They understand it. They recognize him.|||
+
 *|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+
+# === 7
+
 |||||||i:ga|Daytime. Noon.|||
 |||||||Á:ma.; Á:m.|Salt.|||
 |||||||Ama.; Am.x|Water.|||
@@ -221,7 +241,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Kama:ma.|A butterfly or an elephant.|||
 |||||||Ma:ga.|Mark.|||
 |||||||Me:li.|Mary.|||
-*|||||||Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
+
+*|||||||Galigwo:gi:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
+
+# === 8
+
 |||||||Ganaji.; Ganaj.|Kanuche. Hominy hickory nut soup.|||
 |||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas.|||
 |||||||Disdayo:hi.|Santa Claus.|||
@@ -249,7 +273,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Astayostohdi.|A firecracker.|||
 
 |||||||À:kiwásga.|I am buying it.|||
-|||||||Jawásga.|You are buying it.|||
+|||||||Chawásga.|You are buying it.|||
 |||||||Ù:hwasga.|He is buying it.|||
 |||||||Ù:nihwasga.|They are buying it.|||
 
@@ -275,8 +299,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 |||||||À:gwv̌:ya.|I have something long.|||
 |||||||Jv̌:ya.|You have something long.|||
-|||||||Uwv̂:ya.|He has something long.|||
-|||||||Unv̂:ya.|They have something long.|||
+|||||||Ù:wâ̂:ya.|He has something long.|||
+|||||||Ù:nv̂:ya.|They have something long.|||
 
 |||||||À:ginéha.|I have some liquid.|||
 |||||||Janéɂa.|You have some liquid.|||
@@ -294,5 +318,81 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Na.|That|||
 |||||||Naɂvɂi.; Naɂv.|Close by. Near.|||
 |||||||Nanaɂi.; Nanā.|Over there.|||
+*|||||||Chuně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
 
-*|||||||Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
+# === 9
+
+|||||||À:li:he:lísdi ije̋:ɂi ú:de:tiyv:sa:dǐ:sv̋:ɂi.; À:li:he:lísd ije̋ ú:de:tiyv:sa:dǐ:sv̋.|Happy New Year.|||
+
+|||||||U:no:lv̀:tana kaɂla.; U:no:lv̀:tani kaɂla.; U:no:lv̀:tan kaɂla.|This month is January.|||
+|||||||Ka:gaɂli kaɂla.; Ka:gaɂl kaɂla.|This month is February.|||
+|||||||Anv:hyi kaɂla.|This month is March.|||
+|||||||Kawo:hni kaɂla.; Kawo:hn kaɂla.|This month is April.|||
+|||||||Ànsgv:ti kaɂla.; Ànsgv:t kaɂla.|This month is May.|||
+|||||||De:halǔ:yi kaɂla.; De:halǔ kaɂla.|This month is June.|||
+|||||||Kuye:gwǒ:na kaɂla.; Kuye:gwǒ:ni kaɂla.; Kuye:gwǒ:n kaɂla.|This month is July.|||
+|||||||Gaɂlo:hni kaɂla.; Gaɂlo:hn kaɂla.|This month is August.|||
+|||||||Du:lì:sdi kaɂla.; Du:lì:sd kaɂla.|This month is September.|||
+|||||||Dù:ninhdi kaɂla.; Dù:ninhd kaɂla.; Dù:ninvhdi kaɂla.; Dù:ninvhd kaɂla.|This month is October.|||
+|||||||Nv:dadě:gwa kaɂla.; Nv:dadě:wa kaɂla.|This month is November.|||
+|||||||V̌:sgíyi kaɂla.|This month is December.|||
+|||||||Gadō ű:sdi do:dáhno:gí:si?; Gadō ű:sdi dáhno:gí:si?; Dō ű:sd do:dáhno:gí:si?; Dō ű:sd dáhno:gí:si?|Which one will we sing?|||
+
+|||||||Dì:nihnó:gi.; Ì:nihnó:gi.|Let's both sing it.|||
+|||||||Dì:dihnó:gi.; Ì:dihnó:gi.|Let's all sing it.|||
+|||||||Howa.|OK. Sure. Alright.|||
+
+|||||||Usdi̋.; Usd.|Something little.|||
+|||||||U:sdi̋:ɂi.; U:sdi̋.|A baby.|||
+|||||||Jusdi̋.|Little things.|||
+|||||||Ju:nsdi̋.|Little ones. Babies.|||
+
+|||||||Achű:ja.; Achű:ji.; Achű:j.|A boy.|||
+|||||||Ani:chű:ja.; Ani:chű:ji.; Ani:chű:j.|Boys.|||
+|||||||Age:hyű:ja.; Age:hyű:j.|A girl.|||
+|||||||Ani:ge:hyű:ja.; Ani:ge:hyű:j.|Girls.|||
+|||||||Awi̋:na.; Awi̋:n.|A young man. A teenage boy.|||
+|||||||Ani:wi̋:na.; Ani:wi̋:n.|Young men. Teenage boys.|||
+|||||||A̋:ta.|A young woman. A teenage girl.|||
+|||||||Ana̋:ta.|Young women. Teenage girls.|||
+|||||||Asgaya.; Asgayv.; Asgay.|A man.|||
+|||||||Ani:sgaya.; Ani:sgayv.; Ani:sgay.|Men.|||
+|||||||Agě:hya.; Agě.|Woman|||
+|||||||Ani:gě:hya.; Ani:gě.|Women.|||
+|||||||U:tvhisdv.; U:tvhisd.|An old man.|||
+|||||||Ju:natvhisdv.; Ju:natvhisd.|Old men.|||
+|||||||Agayv̌:líge̋:ɂi.; Agayv̌:líge̋.; Agayv̌:lí.|An old woman.|||
+|||||||Ani:gayv̌:líge̋:ɂi.; Ani:gayv̌:líge̋.; Ani:gayv̌:líg.|Old women.|||
+|||||||Agayv̋:li.|An old living thing.|||
+|||||||Ani:gayv̋:li.|Old living things.|||
+|||||||Uwe̋:ti.|An old or worn out object.|||
+|||||||Juwe̋:ti.|Old or worn out objects.|||
+|||||||Ayő:hli.|A child.|||
+|||||||Di:ni:yő:hli.|Children.|||
+|||||||À:diɂa.; À:di.; À:diha.|He is saying something.|||
+|||||||À:nadiɂa.; À:nadi.; À:nadiha.; À:ndiɂa.; À:ndi.|They are saying something.|||
+|||||||Ù:du:líha.; Ù:du:lí.|He or she wants.|||
+|||||||Ù:nadu:líha.; Ù:nadu:lí.|They want.|||
+
+|||||||Gadò gadv:neha?; Gadò gadv:ne?; Dò gadv:ne?|What I am doing?|||
+|||||||Gadò hadv:neha?; Gadò hadv:ne?; Dò hadv:ne?|What are you are doing?|||
+|||||||Gadò à:dv́:neha?; Gadò à:dv́:ne?; Dò à:dv́:ne?|What is he is doing?|||
+|||||||Gadò à:nadv́:neha?; Gadò à:nadv́:ne?; Dò à:nadv́:ne?|What are they are doing?|||
+
+|||||||Nigadv:neha.; Nigadv:ne.|I am doing it.|||
+|||||||Hnadv:neha.; Hnadv:ne.|You are doing it.|||
+|||||||Nà:dv́:neha.; Nà:dv́:ne.|He is doing it.|||
+|||||||Nà:nadv́:neha.; Nà:nadv́:ne.|They are doing it.|||
+
+*|||||||Uwo:dű:hi age:hyű:ja.; Uwo:dű age:hyű:ja.|A pretty girl.|||
+*|||||||Ju:no:dű:ɂi ani:ge:hyű:ja anili:hě:lî:ga.; Ju:no:dű ani:ge:hyű:j anili:hě:lî:ga.|The pretty little girls are happy.|||
+*|||||||Agv̌:níge̋:ɂi kama:ma à:lsdâ:yv:hv́sga.; Agv̌:níge̋ kama:m à:lsdâ:yv:hv́sga.|The black butterfly is feeding.|||
+|||||||E̋:gwa.; E̋:gwv.; E̋:g.|Big. Huge. Large.|||
+|||||||Nǒ:gwu.|Right now.|||
+|||||||Kwana.; Kwan.|A  peach. Peaches.|||
+|||||||Gwagwu.; Gwag.|Robert.|||
+|||||||Gweni.; Gwen.|Benny.|||
+
+*|||||||Sóhne:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Ninth Cherokee Lesson.||Complete the written material through the end of Lesson 9.|
+
+# === 10
