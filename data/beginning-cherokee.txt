@@ -1,4 +1,5 @@
 ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE|END NOTE|APP_FILE
+
 |||||||O:síyo.; Síyo.|Hello.|||
 |||||||Tò:hi̋:ju?|It's well. Right?|||
 |||||||Ő:sda.|Good.|||
@@ -138,10 +139,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
 |||||||Analsdâ:yv:hv́sga.; Analsdâ:yv:hv́.|They are eating a meal.|||
 |||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
-|||||||Agwadu:líha.; Awadu:líha.; Awadu:líɂa.; Awadu:lí.; À:gwadu:líɂa.; À:gwadu:lí.|I want.|||
+|||||||À:gwadu:líha.; À:wadu:líha.; À:wadu:líɂa.; À:wadu:lí.; À:gwadu:líɂa.; À:gwadu:lí.|I want.|||
 |||||||Jadu:líha.; Jadu:líɂa.; Jadu:lí.|You want.|||
-|||||||U:du:líha.; U:du:líɂa.; U:du:lí.|He wants.|||
-|||||||Ù:nadu:líha.; Ù:nadu:líɂa.; Ù:nadu:lí.|The want.|||
+|||||||Ù:du:líha.; Ù:du:lí.|He or she wants.|||
+|||||||Ù:nadu:líha.; Ù:nadu:lí.|They want.|||
 |||||||Agǐ:gáge.; Agǐ:ge.|Red.|||
 |||||||U:gù:ku.|An owl. Owls.|||
 |||||||Gǐ:ga.; Gǐ.|Blood.|||
@@ -180,7 +181,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ha:dlv sdině:la?; Ha:dlv sdině:l?|Where do you two live?|||
 |||||||Ha:dlv ì:jině:la?; Ha:dlv ì:jině:l?|Where do you all live?|||
 |||||||Gadò dě:jádo:ɂa?; Dò dě:jádo?|What's your name?|||
-|||||||Gweti dà:gwadó:ɂa.; Gweti dà:wadó:ɂa.; Gweti dà:wadó.|My name is Betty.|||
+|||||female||Gweti dà:gwadó:ɂa.; Gweti dà:wadó:ɂa.; Gweti dà:wadó.|My name is Betty.|||
 |||||||U:sganő:li hiwò:nǐ:hi.; U:sganő hiwò:nǐ.|Speak slowly.|||
 |||||||Tla yigo:lì:ga.|I don't understand.|||
 |||||||Gadò:gi hadí:ɂa?; Dò:gi hadí?|What did you just say?|||
@@ -278,6 +279,20 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Kama:ma.|A butterfly or an elephant.|||
 |||||||Ma:ga.|Mark.|||
 |||||||Me:li.|Mary.|||
+
+# Exercise 4
+*|||||female||È:gi dà:gwadó:ɂa.; È:gi dà:wadó:ɂa.|My name is Maggie.|||
+*|||||||Go:gi u:gǎ:nowa.|Summer is warm.|||
+*|||||||Eeè, ù:hyv:dla.|Too bad it's cold.|||
+*|||||||Ő:sda. Ì:dalě:na.|Fine. Let's begin.|||
+*|||||||Iií. Ha:dlv goɂi?|Good heavens. Where is the machine oil?|||
+*|||||||V:ɂv, ő:sda:dv̀.|Yes, it's definitely all-right.|||
+*|||||||O:síyo, È:gi, Gadō hadv:neha?; O:síyo, È:gi, Dō hadv:ne?|Hello, Maggie. What are you doing?|||
+*|||||||Gù:gu géɂi.; Géɂi gù:gu.|Bartlesville is far away.|||
+*|||||male||Go:gi Ǔ:hyv́:dla dà:gwadó:ɂa.; Go:gi Ǔ:hyv́:dla dà:wadó:ɂa.|My name is Summer North.|||
+*|||||||Iií. U:hyv:dla gù:gu.|Oh. The bottle is cold.|||
+*|||||||È:gi é:ga.|Maggie is going.|||
+*|||||||Lu:ga go:hí i:ga à:li:hě:lî:ga.|Luke is happy today.|||
 
 *|||||||Galigwo:gi:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
 
@@ -408,8 +423,6 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Di:ni:yő:hli.|Children.|||
 |||||||À:diɂa.; À:di.; À:diha.|He is saying something.|||
 |||||||À:nadiɂa.; À:nadi.; À:nadiha.; À:ndiɂa.; À:ndi.|They are saying something.|||
-|||||||Ù:du:líha.; Ù:du:lí.|He or she wants.|||
-|||||||Ù:nadu:líha.; Ù:nadu:lí.|They want.|||
 
 |||||||Gadò gadv:neha?; Gadò gadv:ne?; Dò gadv:ne?|What I am doing?|||
 |||||||Gadò hadv:neha?; Gadò hadv:ne?; Dò hadv:ne?|What are you are doing?|||
