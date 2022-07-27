@@ -814,7 +814,7 @@ def main() -> None:
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
             tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "beginning-cherokee":
-            tags["album"] = "Beginning Cherokee - 2nd Edition."
+            tags["album"] = "Beginning Cherokee - 2nd Edition"
             tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "animals":
             tags["album"] = "Animals"
@@ -825,15 +825,12 @@ def main() -> None:
         elif DATASET == "osiyo-tohiju-then-what":
             tags["album"] = "Osiyo, Tohiju? ... Then what?"
             tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "ced-sentences":
-            tags["album"] = "Examples. Cherokee English Dictionary, 1st Edition."
+            tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
             tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         else:
             tags["album"] = DATASET
-            tags["title"] = f"{DATASET} | [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
@@ -898,8 +895,12 @@ def main() -> None:
         seconds: int = int(combined_audio.duration_seconds) % 60
         tags["duration"] = f"{minutes:02d}:{seconds:02d}"
         print(f"Creating {mp3_name}. {tags['duration']}.")
+        save_title = tags["title"]
+        if tags["album"]:
+            tags["title"] = tags["title"] + " (" + tags["album"] + ")"
         combined_audio.set_frame_rate(MP3_HZ).export(output_mp3 + ".tmp", format="mp3",
                                                      parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
+        tags["title"] = save_title
         shutil.move(output_mp3 + ".tmp", output_mp3)
 
         # Generate graphic for MP4
