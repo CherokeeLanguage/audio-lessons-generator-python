@@ -976,9 +976,13 @@ def main() -> None:
             # cmd.append("23.976")
             cmd.append("-tune")
             cmd.append("stillimage")
+            save_title = tags["title"]
+            if tags["album"]:
+                tags["title"] = tags["title"] + " (" + tags["album"]+")"
             for k, v in tags.items():
                 cmd.append("-metadata")
                 cmd.append(f"{k}={v}")
+            tags["title"] = save_title
             cmd.append("-movflags")
             cmd.append("+faststart")
             cmd.append(output_mp4)
