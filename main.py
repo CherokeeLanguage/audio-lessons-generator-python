@@ -916,6 +916,11 @@ def main() -> None:
             svg_title = svg_title.replace("_title2_", " ")
         svg_title = svg_title.replace("_artist_", tags["artist"])
 
+        if end_note:
+            svg_title = svg_title.replace("_end_note_", end_note)
+        else:
+            svg_title = svg_title.replace("_end_note_", " ")
+
         new_items: str = f"{introduced_count + hidden_count:,}"
         old_items: str = f"{review_count:,}"
         svg_title = svg_title.replace("_new_", new_items)
