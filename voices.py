@@ -4,19 +4,19 @@ from shared_rand import rand
 IMS_VOICES_MALE: List[str] = ["en-345-m", "en-360-m"]
 # IMS_VOICES_FEMALE: List[str] = ["en-294-f", "en-330-f", "en-333-f", "en-361-f"]
 IMS_VOICES_FEMALE: List[str] = ["en-333-f", "en-361-f"]
-IMS_VOICES: List[str] = List()
+IMS_VOICES: List[str] = []
 IMS_VOICES.extend(IMS_VOICES_FEMALE)
 IMS_VOICES.extend(IMS_VOICES_MALE)
 IMS_VOICES.sort()
-ims_voices: List[str] = List()
+ims_voices: List[str] = []
 
 AMZ_VOICES_MALE: List[str] = ["Joey"]
 # AMZ_VOICES_FEMALE: List[str] = ["Joanna", "Kendra", "Kimberly", "Salli"]
 AMZ_VOICES_FEMALE: List[str] = ["Kendra"]
-AMZ_VOICES: List[str] = List()
+AMZ_VOICES: List[str] = []
 AMZ_VOICES.extend(AMZ_VOICES_FEMALE)
 AMZ_VOICES.extend(AMZ_VOICES_MALE)
-amz_voices: List[str] = List()
+amz_voices: List[str] = []
 
 previous_voice: str = ""
 amz_previous_voice: str = ""
