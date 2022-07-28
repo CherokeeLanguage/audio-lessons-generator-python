@@ -687,7 +687,7 @@ def pick_challenge(card: AudioCard, *, should_do_long_introduction: bool):
     else:
         return rand.choice(card.data.challenge_alts)
     
-def create_audio_for_new_card(
+def append_audio_for_new_card(
     cfg: Config,
     card: AudioCard,
     *,
@@ -699,7 +699,19 @@ def create_audio_for_new_card(
     first_new_challenge: str,
     max_new_cards_this_session: int
     ):
-    
+    """
+    Append audio for a new card.
+
+    This will be something like:
+    "Here is a new term"
+    <Cherokee term>
+    "Again"
+    <Same term>
+    "Also"
+    <Alternate pronounciation>
+    "In English"
+    <English translation>
+    """
     srt_entries: List[SrtEntry] = []
     main_audio, first_new_challenge, last_new_challenge, max_new_reached = introduce_new_card(
         cfg,
@@ -742,7 +754,16 @@ def create_audio_for_new_card(
 
     return main_audio, srt_entries, first_new_challenge, last_new_challenge, max_new_reached
 
-def create_audio_for_review_card(cfg: Config, card: AudioCard, *, main_audio: AudioSegment, challenge_count: int, prompts: Dict[str, AudioSegment], exercise_no: int, first_review_challenge: str):
+def append_audio_for_review_card(cfg: Config, card: AudioCard, *, main_audio: AudioSegment, challenge_count: int, prompts: Dict[str, AudioSegment], exercise_no: int, first_review_challenge: str):
+    """
+    Append audio for a review card.
+
+    This will be something like:
+    "Translate"
+    <Cherokee term>
+    <Pause>
+    <English translation>
+    """
     srt_entries: List[SrtEntry] = []
     last_review_challenge = ""
     
@@ -934,7 +955,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                     hidden_count += 1
                 new_count += 1
 
-                new_srt_entries, main_audio, first_new_challenge, last_new_challenge, max_new_reached = create_audio_for_new_card(
+                new_srt_entries, main_audio, first_new_challenge, last_new_challenge, max_new_reached = append_audio_for_new_card(
                     cfg, card,
                     main_audio=main_audio,
                     prompts=prompts,
@@ -952,7 +973,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                     extra_delay_time: int = int(1_000 * min(7.0, card.card_stats.show_again_delay))
                     main_audio = main_audio.append(AudioSegment.silent(extra_delay_time), crossfade=0)
 
-                main_audio, new_srt_entries, first_review_challenge, last_review_challenge = create_audio_for_review_card(
+                main_audio, new_srt_entries, first_review_challenge, last_review_challenge = append_audio_for_review_card(
                     cfg,
                     card,
                     main_audio=main_audio,
