@@ -549,6 +549,48 @@ def create_mp4(*,
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
     return output_mp4
 
+def create_audio_lesson_tags(*, exercise_no: int, challenge_start: str, challenge_stop: str) -> dict[str, str]:
+    tags: dict[str, str] = dict()
+
+    challenge_start = unicodedata.normalize("NFC", challenge_start)
+    challenge_stop = unicodedata.normalize("NFC", challenge_stop)
+
+    if DATASET == "cll1-v3":
+        tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
+        tags["title"] = f"CLL 1 [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    elif DATASET == "beginning-cherokee":
+        tags["album"] = "Beginning Cherokee - 2nd Edition"
+        tags["title"] = f"BC [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    elif DATASET == "animals":
+        tags["album"] = "Animals"
+        tags["title"] = f"Animals [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    elif DATASET == "bound-pronouns":
+        tags["album"] = "Bound Pronouns"
+        tags["title"] = f"BP [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    elif DATASET == "osiyo-tohiju-then-what":
+        tags["album"] = "Osiyo, Tohiju? ... Then what?"
+        tags["title"] = f"Osiyo [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    elif DATASET == "ced-sentences":
+        tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
+        tags["title"] = f"C.E.D. Examples [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+    else:
+        tags["album"] = DATASET
+        tags["title"] = f"[{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
+
+    tags["composer"] = "Michael Conrad"
+    tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
+    tags["language"] = "chr"
+    tags["artist"] = "IMS-Toucan"
+    tags["publisher"] = "Michael Conrad"
+    tags["track"] = str(exercise_no + 1)
+    tags["date"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
+    tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
+    tags["genre"] = "Spoken"
+    tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
+    tags["year"] = str(date.today().year)
+
+    return tags
+
 
 def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_deck: LeitnerAudioDeck):
     discards_deck: LeitnerAudioDeck = LeitnerAudioDeck()
@@ -880,45 +922,12 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
             challenge_stop = challenge_stop[:-1]
 
         # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
-        tags: dict[str, str] = dict()
-
-        challenge_start = unicodedata.normalize("NFC", challenge_start)
-        challenge_stop = unicodedata.normalize("NFC", challenge_stop)
-
-        if DATASET == "cll1-v3":
-            tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "beginning-cherokee":
-            tags["album"] = "Beginning Cherokee - 2nd Edition"
-            tags["title"] = f"BC [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "animals":
-            tags["album"] = "Animals"
-            tags["title"] = f"Animals [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "bound-pronouns":
-            tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "ced-sentences":
-            tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
-            tags["title"] = f"C.E.D. Examples [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-        else:
-            tags["album"] = DATASET
-            tags["title"] = f"[{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-
-        tags["composer"] = "Michael Conrad"
-        tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
-        tags["language"] = "chr"
-        tags["artist"] = "IMS-Toucan"
-        tags["publisher"] = "Michael Conrad"
-        tags["track"] = str(exercise_no + 1)
-        tags["date"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
-        tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
-        tags["genre"] = "Spoken"
-        tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
-        tags["year"] = str(date.today().year)
-
+        tags = create_audio_lesson_tags(
+            exercise_no=exercise_no,
+            challenge_start=challenge_start,
+            challenge_stop=challenge_stop
+        )
+        
         metadata_by_track[exercise_no] = tags
 
         # Put mp3 for website related stuff in subfolder
