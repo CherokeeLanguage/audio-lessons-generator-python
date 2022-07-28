@@ -42,16 +42,12 @@ RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
     RESORT_BY_LENGTH = True
 
-CACHE_CHR = os.path.join("cache", "chr")
-CACHE_EN = os.path.join("cache", "en")
-
-AMZ_HZ: str = "24000"
 LESSON_HZ: int = 48_000
 
 
 def create_card_audio(cfg: Config, main_deck: LeitnerAudioDeck):
-    os.makedirs(CACHE_CHR, exist_ok=True)
-    os.makedirs(CACHE_EN, exist_ok=True)
+    os.makedirs(tts.CACHE_CHR, exist_ok=True)
+    os.makedirs(tts.CACHE_EN, exist_ok=True)
     print("Creating card audio")
     for card in tqdm(main_deck.cards):
         data = card.data
@@ -370,7 +366,7 @@ def append_audio_for_review_card(cfg: Config, card: AudioCard, *, main_audio: Au
     challenge = pick_challenge(card,
         should_do_long_introduction=False
     )
-    srt_entry, main_audio, challenge_audio = read_challenge(cfg, main_audio=main_audio, challenge=challenge, sex=card.data.sex,)
+    main_audio, srt_entry, challenge_audio = read_challenge(cfg, main_audio=main_audio, challenge=challenge, sex=card.data.sex)
     srt_entries.append(srt_entry)
 
     
@@ -539,7 +535,7 @@ def create_audio_lessons(cfg: Config, *, dataset:str, util: CardUtils, out_dir: 
                     hidden_count += 1
                 new_count += 1
 
-                new_srt_entries, main_audio, end_note, first_new_challenge, last_new_challenge, max_new_reached = append_audio_for_new_card(
+                main_audio, new_srt_entries, end_note, first_new_challenge, last_new_challenge, max_new_reached = append_audio_for_new_card(
                     cfg, card,
                     main_audio=main_audio,
                     prompts=prompts,

@@ -13,9 +13,10 @@ from boto3_type_annotations.polly import Client as Polly
 from pydub import AudioSegment
 from pydub import effects
 
-from main import AMZ_HZ
-from main import CACHE_CHR
-from main import CACHE_EN
+CACHE_CHR = os.path.join("cache", "chr")
+CACHE_EN = os.path.join("cache", "en")
+
+AMZ_HZ: str = "24000"
 
 
 def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> None:
