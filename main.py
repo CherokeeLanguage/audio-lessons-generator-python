@@ -87,8 +87,6 @@ rand: Random = Random(1234)
 previous_voice: str = ""
 amz_previous_voice: str = ""
 
-cfg: Config | None = None
-
 
 def next_ims_voice(gender: str = "") -> str:
     """Utility function to return a different non-repeated voice name based on gender"""
@@ -385,12 +383,12 @@ def fix_english_sex_genders(text_en) -> str:
     return tmp
 
 
-def create_card_audio(main_deck: LeitnerAudioDeck):
+def create_card_audio(cfg: Config, main_deck: LeitnerAudioDeck):
     os.makedirs(CACHE_CHR, exist_ok=True)
     os.makedirs(CACHE_EN, exist_ok=True)
     print("Creating card audio")
     for card in tqdm(main_deck.cards):
-        data: AudioData = card.data
+        data = card.data
         text_chr = data.challenge
         text_chr_alts = data.challenge_alts
         text_en = data.answer
@@ -406,7 +404,7 @@ vstem_counts: dict[str, int] = dict()
 pbound_counts: dict[str, int] = dict()
 
 
-def save_stem_counts(finished_deck) -> None:
+def save_stem_counts(finished_deck: LeitnerAudioDeck) -> None:
     global vstem_counts, pbound_counts
     vstem_counts.clear()
     pbound_counts.clear()
@@ -439,10 +437,6 @@ def skip_new(card: AudioCard) -> bool:
     return pbound_counts[bp] > 2 and vstem_counts[vs] > 4
 
 
-main_deck: LeitnerAudioDeck | None = None
-discards_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
-finished_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
-active_deck: LeitnerAudioDeck | None = LeitnerAudioDeck()
 max_review_cards_this_session: int = 0
 
 
@@ -458,41 +452,112 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write(jsonpickle.dumps(deck, indent=2))
         w.write("\n")
 
-
-def main() -> None:
-    global cfg, max_new_reached, review_count, max_review_cards_this_session
-    global main_deck, discards_deck, finished_deck, active_deck
-    deck_source: str
-
-    util: CardUtils = CardUtils()
-    os.chdir(os.path.dirname(__file__))
-
-    load_config()
-
-    out_dir: str
-
-    if cfg.alpha and cfg.alpha != 1.0:
-        out_dir = os.path.join(os.path.realpath("."), "output", f"{DATASET}_{cfg.alpha:.2f}")
+def create_mp4_graphic(*, tags: dict[str, str], exercise_no: int, img_out_dir: str, introduced_count: int, hidden_count: int, end_note: str | None, ):
+    svg_title: str
+    with open("data/svg/title_template.svg", "r") as r:
+        svg_title = r.read()
+    svg_title = svg_title.replace("_album_", tags["album"])
+    title = tags["title"]
+    if "]" in title:
+        svg_title = svg_title.replace("_title1_", title[:title.index("]") + 1].strip())
+        svg_title = svg_title.replace("_title2_", title[title.index("]") + 1:].strip())
     else:
-        out_dir = os.path.join(os.path.realpath("."), "output", DATASET)
+        svg_title = svg_title.replace("_title1_", tags["title"])
+        svg_title = svg_title.replace("_title2_", " ")
+    svg_title = svg_title.replace("_artist_", tags["artist"])
 
-    if cfg.deck_source:
-        deck_source = cfg.deck_source
+    if end_note:
+        svg_title = svg_title.replace("_end_note_", end_note)
     else:
-        deck_source = DATASET
+        svg_title = svg_title.replace("_end_note_", " ")
 
-    shutil.rmtree(out_dir, ignore_errors=True)
-    os.makedirs(out_dir, exist_ok=True)
+    new_items: str = f"{introduced_count + hidden_count:,}"
+    old_items: str = f"{review_count:,}"
+    svg_title = svg_title.replace("_new_", new_items)
+    svg_title = svg_title.replace("_old_", old_items)
 
-    main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
-    if RESORT_BY_LENGTH:
-        main_deck.cards.sort(key=lambda c: c.data.sort_key)
-    save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
+    svg_name: str = f"{DATASET}-{exercise_no + 1:04}.svg"
+    print(f"Creating {svg_name}.")
+    output_svg: str = os.path.join(img_out_dir, svg_name)
+    with open(output_svg, "w") as w:
+        w.write(svg_title)
+    png_name: str = f"{DATASET}-{exercise_no + 1:04}.png"
+    output_png: str = os.path.join(img_out_dir, png_name)
+    cmd: list[str] = list()
+    cmd.append("inkscape")
+    cmd.append("-o")
+    cmd.append(output_png)
+    cmd.append("-C")
+    cmd.append("--export-background=white")
+    cmd.append("--export-background-opacity=1.0")
+    cmd.append("--export-png-color-mode=RGB_16")
+    cmd.append("--export-area-page")
+    cmd.append(output_svg)
+    print(f"Creating {png_name}.")
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+    return output_png
 
-    create_card_audio(main_deck)
+def create_mp4(*,
+        tags: dict[str,str],
+        exercise_no: int,
+        mp4_out_dir: str,
+        output_png: str,
+        output_mp3: str,
+        output_srt: str
+    ) -> str:
+    mp4_name: str = f"{DATASET}-{exercise_no + 1:04}.mp4"
+    output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
+
+    cmd: list[str] = list()
+    cmd.append("ffmpeg")
+    cmd.append("-nostdin")  # non-interactive
+    cmd.append("-y")  # overwrite
+    cmd.append("-r")  # input frame rate
+    cmd.append("1")
+    cmd.append("-loop")
+    cmd.append("1")
+    cmd.append("-i")
+    cmd.append(output_png)
+    cmd.append("-i")
+    cmd.append(output_mp3)
+    cmd.append("-i")
+    cmd.append(output_srt)
+    cmd.append("-c:s")
+    cmd.append("mov_text")
+    cmd.append("-q:a")
+    cmd.append("3")
+    cmd.append("-pix_fmt")
+    cmd.append("yuv420p")
+    cmd.append("-shortest")
+    cmd.append("-r")  # output frame rate
+    cmd.append("1")
+    # cmd.append("23.976")
+    cmd.append("-tune")
+    cmd.append("stillimage")
+    save_title = tags["title"]
+    if tags["album"]:
+        tags["title"] = tags["title"] + " (" + tags["album"]+")"
+    for k, v in tags.items():
+        cmd.append("-metadata")
+        cmd.append(f"{k}={v}")
+    tags["title"] = save_title
+    cmd.append("-movflags")
+    cmd.append("+faststart")
+    cmd.append(output_mp4)
+
+    print(f"Creating {mp4_name}.")
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+    return output_mp4
+
+
+def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_deck: LeitnerAudioDeck):
+    discards_deck: LeitnerAudioDeck = LeitnerAudioDeck()
+    finished_deck: LeitnerAudioDeck = LeitnerAudioDeck()
+    active_deck: LeitnerAudioDeck = LeitnerAudioDeck()
+
     prompts = Prompts.create_prompts()
 
-    _exercise_set: int = 0
+    exercise_no: int = 0
     keep_going: bool = True
 
     prev_card_id: str = ""
@@ -507,13 +572,13 @@ def main() -> None:
     end_notes_by_track: dict[int, str] = dict()
     metadata_by_track: dict[int, dict[str, str]] = dict()
 
-    while keep_going and (_exercise_set < cfg.sessions_to_create or cfg.create_all_sessions):
+    while keep_going and (exercise_no < cfg.sessions_to_create or cfg.create_all_sessions):
 
-        if _exercise_set > 0:
+        if exercise_no > 0:
             print()
             print()
 
-        print(f"=== SESSION: {_exercise_set + 1:04}")
+        print(f"=== SESSION: {exercise_no + 1:04}")
         print()
 
         lead_in: AudioSegment = AudioSegment.silent(750, LESSON_HZ).set_channels(1)
@@ -521,7 +586,7 @@ def main() -> None:
         lead_in = lead_in.append(prompts[DATASET])
         lead_in = lead_in.append(AudioSegment.silent(750))
 
-        if _exercise_set == 0:
+        if exercise_no == 0:
             # Description of exercise set
             if DATASET + "-about" in prompts:
                 lead_in = lead_in.append(prompts[DATASET + "-about"])
@@ -556,7 +621,7 @@ def main() -> None:
             lead_in = lead_in.append(prompts["begin"])
             lead_in = lead_in.append(AudioSegment.silent(750))
 
-        session_start: str = f"Session {_exercise_set + 1}."
+        session_start: str = f"Session {exercise_no + 1}."
         lead_in = lead_in.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, session_start))
         lead_in = lead_in.append(AudioSegment.silent(750))
 
@@ -586,10 +651,10 @@ def main() -> None:
             print(f"--- Have {len(finished_deck.cards):,} previously finished cards for possible use.")
 
         max_new_cards_this_session: int = min(cfg.new_cards_max_per_session,
-                                              cfg.new_cards_per_session + _exercise_set * cfg.new_cards_increment)
+                                              cfg.new_cards_per_session + exercise_no * cfg.new_cards_increment)
         print(f"--- Max new cards: {max_new_cards_this_session:,d}")
         max_review_cards_this_session = min(cfg.review_cards_max_per_session,
-                                            cfg.review_cards_per_session + _exercise_set * cfg.review_cards_increment)
+                                            cfg.review_cards_per_session + exercise_no * cfg.review_cards_increment)
         print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
         end_note: str = ""
@@ -608,8 +673,18 @@ def main() -> None:
                 + main_audio.duration_seconds
                 < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
-            card: AudioCard = next_card(_exercise_set, prev_card_id)
+            card = next_card(
+                cfg,
+                exercise_set=exercise_no,
+                main_deck=main_deck,
+                active_deck=active_deck,
+                discards_deck=discards_deck,
+                finished_deck=finished_deck,
+                prev_card_id=prev_card_id,
+                max_new_reached=max_new_reached
+            )
             if not card:
+                # we have done all available cards
                 break
             card_id: str = card.data.card_id
             card_stats = card.card_stats
@@ -636,7 +711,7 @@ def main() -> None:
                     card.reset_tries_remaining(max(cfg.review_card_max_tries // 2,  #
                                                    cfg.review_card_max_tries  #
                                                    - cfg.review_card_tries_decrement  #
-                                                   * _exercise_set))
+                                                   * exercise_no))
                     print(f"Hidden new card: {data.challenge} [{card_stats.tries_remaining:,}]")
                 if end_note and end_note != prev_end_note:
                     prev_end_note = end_note
@@ -655,7 +730,7 @@ def main() -> None:
                     print(f" - No more new cards this session.")
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
                 card_stats.new_card = False
-                if new_count < 6 and _exercise_set == 0:
+                if new_count < 6 and exercise_no == 0:
                     if new_count == 1:
                         first_new_phrase = prompts["first_phrase"]
                         main_audio = main_audio.append(first_new_phrase)
@@ -669,7 +744,7 @@ def main() -> None:
                 if extra_delay > 0:
                     _: int = int(1_000 * min(7.0, extra_delay))
                     main_audio = main_audio.append(AudioSegment.silent(_), crossfade=0)
-                if challenge_count < 16 and _exercise_set == 0:
+                if challenge_count < 16 and exercise_no == 0:
                     main_audio = main_audio.append(prompts["translate"])
                 else:
                     main_audio = main_audio.append(prompts["translate_short"])
@@ -695,7 +770,7 @@ def main() -> None:
                 # introduce Cherokee challenge
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
                 data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
-                if new_count < 8 and _exercise_set == 0:
+                if new_count < 8 and exercise_no == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
                 else:
                     main_audio = main_audio.append(prompts["listen_again_short"])
@@ -710,7 +785,7 @@ def main() -> None:
 
                 # introduce alt pronunciations
                 if data.challenge_alts:
-                    if new_count < 6 and _exercise_set <= 2:
+                    if new_count < 6 and exercise_no <= 2:
                         main_audio = main_audio.append(prompts["also_hear"])
                     else:
                         main_audio = main_audio.append(prompts["also_hear_short"])
@@ -729,7 +804,7 @@ def main() -> None:
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
 
                 # output English gloss
-                if new_count < 10 and _exercise_set == 0:
+                if new_count < 10 and exercise_no == 0:
                     main_audio = main_audio.append(prompts["its_translation_is"])
                     main_audio = main_audio.append(AudioSegment.silent(750))
                 else:
@@ -752,9 +827,9 @@ def main() -> None:
             srt_entry.start = main_audio.duration_seconds
             main_audio = main_audio.append(answer_audio)
             srt_entry.end = main_audio.duration_seconds
-            if _exercise_set == 0:
+            if exercise_no == 0:
                 main_audio = main_audio.append(AudioSegment.silent(2_250))
-            elif _exercise_set < 5:
+            elif exercise_no < 5:
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
             else:
                 main_audio = main_audio.append(AudioSegment.silent(750))
@@ -769,7 +844,7 @@ def main() -> None:
             card_stats.show_again_delay = next_interval
 
         # Prepare decks for next session
-        bump_completed()
+        bump_completed(discards_deck=discards_deck, finished_deck=finished_deck)
         seconds_offset: float = 0.0
         for card in active_deck.cards.copy():
             discards_deck.append(card)
@@ -779,7 +854,7 @@ def main() -> None:
             card_stats = card.card_stats
             if card_stats.shown >= card_stats.tries_remaining:
                 card_stats.tries_remaining = 0
-                bump_completed()
+                bump_completed(discards_deck=discards_deck, finished_deck=finished_deck)
                 continue
             card_stats.show_again_delay = seconds_offset
             seconds_offset += 1
@@ -812,39 +887,39 @@ def main() -> None:
 
         if DATASET == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"CLL 1 [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "beginning-cherokee":
             tags["album"] = "Beginning Cherokee - 2nd Edition"
-            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"BC [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "animals":
             tags["album"] = "Animals"
-            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Animals [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "bound-pronouns":
             tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"BP [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "osiyo-tohiju-then-what":
             tags["album"] = "Osiyo, Tohiju? ... Then what?"
-            tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Osiyo [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif DATASET == "ced-sentences":
             tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
-            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"C.E.D. Examples [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
         else:
             tags["album"] = DATASET
-            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"[{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
         tags["language"] = "chr"
         tags["artist"] = "IMS-Toucan"
         tags["publisher"] = "Michael Conrad"
-        tags["track"] = str(_exercise_set + 1)
+        tags["track"] = str(exercise_no + 1)
         tags["date"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
         tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
         tags["genre"] = "Spoken"
         tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
         tags["year"] = str(date.today().year)
 
-        metadata_by_track[_exercise_set] = tags
+        metadata_by_track[exercise_no] = tags
 
         # Put mp3 for website related stuff in subfolder
         mp3_out_dir: str = os.path.join(out_dir, "mp3")
@@ -868,20 +943,18 @@ def main() -> None:
             combined_audio = combined_audio.append(AudioSegment.silent(2_250))
             combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
             print(f"* {end_note}")
-        end_notes_by_track[_exercise_set] = end_note
+        end_notes_by_track[exercise_no] = end_note
         combined_audio = combined_audio.append(lead_out)
 
         # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
-        _: int = 0
-        for srt_entry in srt_entries:
-            _ += 1
-            srt_entry.seq = _
+        for str_entry_no, srt_entry in enumerate(srt_entries):
+            srt_entry.seq = str_entry_no + 1
             srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
             srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
             srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
 
         # Output SRT file for use by ffmpeg mp4 creation process
-        srt_name: str = f"{DATASET}-{_exercise_set + 1:04}.srt"
+        srt_name: str = f"{DATASET}-{exercise_no + 1:04}.srt"
         output_srt: str = os.path.join(srt_out_dir, srt_name)
         with open(output_srt, "w") as srt:
             for srt_entry in srt_entries:
@@ -889,7 +962,7 @@ def main() -> None:
                 srt.write(srt_text)
 
         # Output mp3
-        mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
+        mp3_name: str = f"{DATASET}-{exercise_no + 1:04}.mp3"
         output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
@@ -904,106 +977,74 @@ def main() -> None:
         shutil.move(output_mp3 + ".tmp", output_mp3)
 
         # Generate graphic for MP4
-        svg_title: str
-        with open("data/svg/title_template.svg", "r") as r:
-            svg_title = r.read()
-        svg_title = svg_title.replace("_album_", tags["album"])
-        title = tags["title"]
-        if "]" in title:
-            svg_title = svg_title.replace("_title1_", title[:title.index("]") + 1].strip())
-            svg_title = svg_title.replace("_title2_", title[title.index("]") + 1:].strip())
-        else:
-            svg_title = svg_title.replace("_title1_", tags["title"])
-            svg_title = svg_title.replace("_title2_", " ")
-        svg_title = svg_title.replace("_artist_", tags["artist"])
-
-        if end_note:
-            svg_title = svg_title.replace("_end_note_", end_note)
-        else:
-            svg_title = svg_title.replace("_end_note_", " ")
-
-        new_items: str = f"{introduced_count + hidden_count:,}"
-        old_items: str = f"{review_count:,}"
-        svg_title = svg_title.replace("_new_", new_items)
-        svg_title = svg_title.replace("_old_", old_items)
-
-        svg_name: str = f"{DATASET}-{_exercise_set + 1:04}.svg"
-        print(f"Creating {svg_name}.")
-        output_svg: str = os.path.join(img_out_dir, svg_name)
-        with open(output_svg, "w") as w:
-            w.write(svg_title)
-        png_name: str = f"{DATASET}-{_exercise_set + 1:04}.png"
-        output_png: str = os.path.join(img_out_dir, png_name)
-        cmd: list[str] = list()
-        cmd.append("inkscape")
-        cmd.append("-o")
-        cmd.append(output_png)
-        cmd.append("-C")
-        cmd.append("--export-background=white")
-        cmd.append("--export-background-opacity=1.0")
-        cmd.append("--export-png-color-mode=RGB_16")
-        cmd.append("--export-area-page")
-        cmd.append(output_svg)
-        print(f"Creating {png_name}.")
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        output_png = create_mp4_graphic(
+            tags=tags,
+            exercise_no=exercise_no,
+            img_out_dir=img_out_dir,
+            introduced_count=introduced_count,
+            hidden_count=hidden_count,
+            end_note=end_note
+        )
 
         if cfg.create_mp4:
-            mp4_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp4"
-            output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
-
-            cmd: list[str] = list()
-            cmd.append("ffmpeg")
-            cmd.append("-nostdin")  # non-interactive
-            cmd.append("-y")  # overwrite
-            cmd.append("-r")  # input frame rate
-            cmd.append("1")
-            cmd.append("-loop")
-            cmd.append("1")
-            cmd.append("-i")
-            cmd.append(output_png)
-            cmd.append("-i")
-            cmd.append(output_mp3)
-            cmd.append("-i")
-            cmd.append(output_srt)
-            cmd.append("-c:s")
-            cmd.append("mov_text")
-            cmd.append("-q:a")
-            cmd.append("3")
-            cmd.append("-pix_fmt")
-            cmd.append("yuv420p")
-            cmd.append("-shortest")
-            cmd.append("-r")  # output frame rate
-            cmd.append("1")
-            # cmd.append("23.976")
-            cmd.append("-tune")
-            cmd.append("stillimage")
-            save_title = tags["title"]
-            if tags["album"]:
-                tags["title"] = tags["title"] + " (" + tags["album"]+")"
-            for k, v in tags.items():
-                cmd.append("-metadata")
-                cmd.append(f"{k}={v}")
-            tags["title"] = save_title
-            cmd.append("-movflags")
-            cmd.append("+faststart")
-            cmd.append(output_mp4)
-
-            print(f"Creating {mp4_name}.")
-            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+            # FIXME: should this be unused?
+            output_mp4 = create_mp4(
+                tags=tags,
+                exercise_no=exercise_no,
+                mp4_out_dir=mp4_out_dir,
+                output_png=output_png,
+                output_mp3=output_mp3,
+                output_srt=output_srt
+            )
 
         # Bump counter
-        _exercise_set += 1
+        exercise_no += 1
 
         # Free up memory
         del lead_in
         del lead_out
         del main_audio
         del combined_audio
-        del svg_title
 
         if not main_deck.has_cards:
             keep_going = extra_sessions > 0
             extra_sessions -= 1
+
+    return exercise_no, end_notes_by_track, metadata_by_track, finished_deck
+
+
+def main() -> None:
+    global review_count, max_review_cards_this_session
+    deck_source: str
+
+    util: CardUtils = CardUtils()
+    os.chdir(os.path.dirname(__file__))
+
+    cfg = load_config(DATASET)
+
+    out_dir: str
+
+    if cfg.alpha and cfg.alpha != 1.0:
+        out_dir = os.path.join(os.path.realpath("."), "output", f"{DATASET}_{cfg.alpha:.2f}")
+    else:
+        out_dir = os.path.join(os.path.realpath("."), "output", DATASET)
+
+    if cfg.deck_source:
+        deck_source = cfg.deck_source
+    else:
+        deck_source = DATASET
+
+    shutil.rmtree(out_dir, ignore_errors=True)
+    os.makedirs(out_dir, exist_ok=True)
+
+    main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
+    if RESORT_BY_LENGTH:
+        main_deck.cards.sort(key=lambda c: c.data.sort_key)
+    save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
+
+    # good abstraction
+    create_card_audio(cfg, main_deck)
+    _exercise_set, end_notes_by_track, metadata_by_track, finished_deck = create_audio_lessons(cfg, util=util, out_dir=out_dir, main_deck=main_deck)
 
     info_out_dir: str = os.path.join(out_dir, "info")
     os.makedirs(info_out_dir, exist_ok=True)
@@ -1029,8 +1070,7 @@ def main() -> None:
     save_deck(finished_deck, pathlib.Path("decks", f"{DATASET}.json"))
 
 
-def load_config():
-    global cfg, DATASET
+def load_config(DATASET: str):
     os.makedirs("configs", exist_ok=True)
     cfg_file: str = f"configs/{DATASET}-cfg.json"
     if os.path.exists(cfg_file):
@@ -1041,12 +1081,16 @@ def load_config():
         with open(cfg_file, "w") as w:
             Config.save(w, cfg)
 
+    return cfg
+
 
 review_count: int = 0
-max_new_reached: bool = False
 
 
-def scan_for_cards_to_show_again() -> None:
+def scan_for_cards_to_show_again(*, discards_deck: LeitnerAudioDeck, active_deck: LeitnerAudioDeck) -> None:
+    """
+    Check for cards in the discard deck that should be shown again.
+    """
     # Scan for cards to show again
     for card in discards_deck.cards.copy():
         if card.card_stats.show_again_delay > 0:
@@ -1054,10 +1098,20 @@ def scan_for_cards_to_show_again() -> None:
         active_deck.append(card)
 
 
-def next_card(exercise_set: int, prev_card_id: str) -> AudioCard | None:
-    global cfg, review_count
-    bump_completed()
-    if active_deck.has_cards:
+def next_card(
+    cfg: Config,
+    *,
+    main_deck: LeitnerAudioDeck,
+    active_deck: LeitnerAudioDeck,
+    discards_deck: LeitnerAudioDeck,
+    finished_deck: LeitnerAudioDeck,
+    exercise_set: int,
+    prev_card_id: str,
+    max_new_reached: bool,
+    ) -> AudioCard | None:
+    global review_count # FIXME: put this state somewhere
+    bump_completed(discards_deck=discards_deck, finished_deck=finished_deck)
+    if active_deck.top_card:
         card = active_deck.top_card
         discards_deck.append(card)
         if card.data.card_id != prev_card_id:
@@ -1066,11 +1120,22 @@ def next_card(exercise_set: int, prev_card_id: str) -> AudioCard | None:
             card_stats.shown += 1
             return card
         if active_deck.has_cards:
-            return next_card(exercise_set, prev_card_id)
+            return next_card(
+                cfg,
+                main_deck=main_deck,
+                active_deck=active_deck,
+                discards_deck=discards_deck,
+                finished_deck=finished_deck,
+                exercise_set=exercise_set,
+                prev_card_id=prev_card_id,
+                max_new_reached=max_new_reached
+            )
 
     if finished_deck.next_show_time <= 0 and finished_deck.has_cards and review_count < max_review_cards_this_session:
         review_count += 1
-        review_card: AudioCard = finished_deck.top_card
+        review_card = finished_deck.top_card
+        if review_card is None:
+            raise ValueError("Finished deck has no top card!")
         card_stats = review_card.card_stats
         card_stats.new_card = False
         review_card.reset_stats()
@@ -1083,9 +1148,9 @@ def next_card(exercise_set: int, prev_card_id: str) -> AudioCard | None:
 
     extra_delay: float = discards_deck.next_show_time
     discards_deck.update_time(extra_delay)
-    scan_for_cards_to_show_again()
+    scan_for_cards_to_show_again(discards_deck=discards_deck, active_deck=active_deck)
 
-    if not max_new_reached and main_deck.has_cards:
+    if not max_new_reached and main_deck.top_card:
         new_card = main_deck.top_card
         new_card.card_stats.new_card = True
         # check to see if "new" state should be ignored
@@ -1094,21 +1159,21 @@ def next_card(exercise_set: int, prev_card_id: str) -> AudioCard | None:
                     cfg.new_card_max_tries - cfg.new_card_tries_decrement * exercise_set))
         discards_deck.append(new_card)
         return new_card
-    if not active_deck.has_cards:
+    if active_deck.top_card:
+        active_deck.sort_by_show_again()
+        card = active_deck.top_card
+        discards_deck.append(card)
+        card.card_stats.show_again_delay = extra_delay
+        card.card_stats.tries_remaining_dec()
+        card.card_stats.shown += 1
+        return card
+    else:
         print(" - Active deck is out of cards.")
         return None
-    active_deck.sort_by_show_again()
-    card = active_deck.top_card
-    discards_deck.append(card)
-    card.card_stats.show_again_delay = extra_delay
-    card.card_stats.tries_remaining_dec()
-    card.card_stats.shown += 1
-    return card
 
 
-def bump_completed() -> None:
-    global discards_deck, finished_deck
-    util: CardUtils = CardUtils()
+def bump_completed(discards_deck: LeitnerAudioDeck, finished_deck: LeitnerAudioDeck) -> None:
+    util: CardUtils = CardUtils() # FIXME: should we pass this in?
     for card in discards_deck.cards.copy():
         card_stats = card.card_stats
         if card_stats.tries_remaining < 1:
