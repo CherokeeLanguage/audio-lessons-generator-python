@@ -3,14 +3,15 @@ import math
 from dataclasses import field
 
 from dataclasses import dataclass
+from typing import List
 
 
 @dataclass
 class CardUtils:
 
-    pimsleur_intervals: list[float] = field(default_factory=list)
-    sm2_intervals: list[float] = field(default_factory=list)
-    sm2_intervals_days: list[int] = field(default_factory=list)
+    pimsleur_intervals: List[float] = field(default_factory=list)
+    sm2_intervals: List[float] = field(default_factory=list)
+    sm2_intervals_days: List[int] = field(default_factory=list)
 
     def __post_init__(self):
         ms: float = 1
