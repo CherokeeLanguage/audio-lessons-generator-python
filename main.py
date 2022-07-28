@@ -351,6 +351,7 @@ def save_stem_counts(finished_deck: LeitnerAudioDeck) -> None:
 
 
 def skip_new(card: AudioCard) -> bool:
+    # TODO: Add docstring - why do we skip some new cards?
     data = card.data
     if "*" in data.card_id:
         return True
@@ -624,8 +625,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                                             cfg.review_cards_per_session + exercise_no * cfg.review_cards_increment)
         print(f"--- Max review cards: {max_review_cards_this_session:,d}")
 
-        end_note: str = ""
-        prev_end_note: str = ""
+        end_note: str | None = None
 
         first_new_challenge: str = ""
         last_new_challenge: str = ""
@@ -654,40 +654,47 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
             if not card:
                 # we have done all available cards
                 break
+            # we do we need these?
             card_id: str = card.data.card_id
-            card_stats = card.card_stats
-            new_card: bool = card_stats.new_card
+            new_card: bool = card.card_stats.new_card
             introduce_card: bool = new_card and not skip_new(card)
-            extra_delay: float = card_stats.show_again_delay
-            data = card.data
+            extra_delay: float = card.card_stats.show_again_delay
+            # if we just saw this card, don't show it again
+            # TODO: should this live in next_card()?
             if card_id == prev_card_id:
-                card_stats.show_again_delay = 32
+                card.card_stats.show_again_delay = 32
                 continue
+            
             prev_card_id = card_id
+            
             if new_card:
                 if not first_new_challenge:
-                    first_new_challenge = data.challenge
+                    first_new_challenge = card.data.challenge
                 else:
-                    last_new_challenge = data.challenge
-                if data.end_note:
-                    end_note = data.end_note
+                    last_new_challenge = card.data.challenge
+
+                end_note = card.data.end_note
+                # empy end note means no end note
+                if end_note == "":
+                    end_note = None
+
                 if introduce_card:
-                    print(f"Introduced card: {data.challenge} [{card_stats.tries_remaining:,}]")
+                    print(f"Introduced card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
                 else:
-                    card_stats.leitner_box += 2  # hidden new cards should be already known vocabulary
-                    card_stats.new_card = False
+                    card.card_stats.leitner_box += 2  # hidden new cards should be already known vocabulary
+                    card.card_stats.new_card = False
                     card.reset_tries_remaining(max(cfg.review_card_max_tries // 2,  #
                                                    cfg.review_card_max_tries  #
                                                    - cfg.review_card_tries_decrement  #
                                                    * exercise_no))
-                    print(f"Hidden new card: {data.challenge} [{card_stats.tries_remaining:,}]")
-                if end_note and end_note != prev_end_note:
-                    prev_end_note = end_note
+                    print(f"Hidden new card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
+
+                if end_note is not None:
                     print(f"- End note: {end_note}")
                     if cfg.break_on_end_note:
                         max_new_reached = True
                         print(f" - No more new cards this session.")
-            if new_card:
+
                 if introduce_card:
                     introduced_count += 1
                 else:
@@ -697,7 +704,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                     max_new_reached = True
                     print(f" - No more new cards this session.")
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
-                card_stats.new_card = False
+                card.card_stats.new_card = False
                 if new_count < 6 and exercise_no == 0:
                     if new_count == 1:
                         first_new_phrase = prompts["first_phrase"]
@@ -717,27 +724,28 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                 else:
                     main_audio = main_audio.append(prompts["translate_short"])
                 main_audio = main_audio.append(AudioSegment.silent(1_000))
-                if not card_stats.shown:
+                if not card.card_stats.shown:
                     if not first_review_challenge:
-                        first_review_challenge = data.challenge
+                        first_review_challenge = card.data.challenge
                     else:
-                        last_review_challenge = data.challenge
+                        last_review_challenge = card.data.challenge
             challenge: str
-            if not data.challenge_alts or (new_card and introduce_card):
-                challenge = data.challenge
+            if not card.data.challenge_alts or (new_card and introduce_card):
+                challenge = card.data.challenge
             else:
-                challenge = rand.choice(data.challenge_alts)
+                challenge = rand.choice(card.data.challenge_alts)
             srt_entry: SrtEntry = SrtEntry()
             srt_entries.append(srt_entry)
             srt_entry.text = challenge
             srt_entry.start = main_audio.duration_seconds
-            data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
+            data_file: AudioSegment = tts.chr_audio(next_ims_voice(card.data.sex), challenge, cfg.alpha)
             main_audio = main_audio.append(data_file, crossfade=0)
             srt_entry.end = main_audio.duration_seconds
+            
             if introduce_card:
                 # introduce Cherokee challenge
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
-                data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
+                data_file: AudioSegment = tts.chr_audio(next_ims_voice(card.data.sex), challenge, cfg.alpha)
                 if new_count < 8 and exercise_no == 0:
                     main_audio = main_audio.append(prompts["listen_again"])
                 else:
@@ -752,13 +760,13 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
 
                 # introduce alt pronunciations
-                if data.challenge_alts:
+                if card.data.challenge_alts:
                     if new_count < 6 and exercise_no <= 2:
                         main_audio = main_audio.append(prompts["also_hear"])
                     else:
                         main_audio = main_audio.append(prompts["also_hear_short"])
                     main_audio = main_audio.append(AudioSegment.silent(1_000))
-                    for alt in data.challenge_alts:
+                    for alt in card.data.challenge_alts:
                         if alt == challenge:
                             continue
                         main_audio = main_audio.append(AudioSegment.silent(500))
@@ -766,7 +774,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                         srt_entries.append(srt_entry)
                         srt_entry.text = alt
                         srt_entry.start = main_audio.duration_seconds
-                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(data.sex), alt, cfg.alpha),
+                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(card.data.sex), alt, cfg.alpha),
                                                        crossfade=0)
                         srt_entry.end = main_audio.duration_seconds
                         main_audio = main_audio.append(AudioSegment.silent(1_000))
@@ -783,7 +791,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                 main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
 
             # The answer
-            answer_audio: AudioSegment = tts.en_audio(next_amz_voice(data.sex), data.answer)
+            answer_audio: AudioSegment = tts.en_audio(next_amz_voice(card.data.sex), card.data.answer)
             # Silence gap for user to respond during. Only if the card was not introduced.
             if not introduce_card:
                 _ = AudioSegment.silent(int((2 + 1.1 * answer_audio.duration_seconds) * 1_000))
@@ -791,7 +799,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
             # Provide answer.
             srt_entry: SrtEntry = SrtEntry()
             srt_entries.append(srt_entry)
-            srt_entry.text = data.answer
+            srt_entry.text = card.data.answer
             srt_entry.start = main_audio.duration_seconds
             main_audio = main_audio.append(answer_audio)
             srt_entry.end = main_audio.duration_seconds
@@ -807,9 +815,9 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
             discards_deck.update_time(delta_tick)
             finished_deck.update_time(delta_tick)
 
-            card_stats.pimsleur_slot_inc()
-            next_interval: float = util.next_pimsleur_interval(card_stats.pimsleur_slot) + 1.0
-            card_stats.show_again_delay = next_interval
+            card.card_stats.pimsleur_slot_inc()
+            next_interval: float = util.next_pimsleur_interval(card.card_stats.pimsleur_slot) + 1.0
+            card.card_stats.show_again_delay = next_interval
 
         # Prepare decks for next session
         bump_completed(discards_deck=discards_deck, finished_deck=finished_deck)
@@ -873,12 +881,14 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
 
         # Output exercise audio
         combined_audio: AudioSegment = lead_in.append(main_audio)
+
         # Add any special end of session notes.
         if end_note:
             combined_audio = combined_audio.append(AudioSegment.silent(2_250))
             combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
             print(f"* {end_note}")
-        end_notes_by_track[exercise_no] = end_note
+
+        end_notes_by_track[exercise_no] = end_note or ""
         combined_audio = combined_audio.append(lead_out)
 
         # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
