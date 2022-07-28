@@ -7,6 +7,7 @@ exec python "$0" "$@"
 exit $?
 ''"""
 from __future__ import annotations
+from typing import Dict, List
 
 import jsonpickle
 import os
@@ -518,6 +519,174 @@ def create_audio_lesson_tags(*, exercise_no: int, challenge_start: str, challeng
     return tags
 
 
+def introduce_new_card(
+    cfg: Config,
+    card: AudioCard,
+    *,
+    main_audio: AudioSegment,
+    prompts: Dict[str, AudioSegment],
+    exercise_no: int,
+    should_do_long_introduction: bool,
+    first_new_challenge: str,
+    new_count: int,
+    max_new_cards_this_session: int
+    ):
+    """
+    Update card state for a new card.
+
+    Inform listener that a new term is about to be introduced.
+    """
+    max_new_reached = False
+    last_new_challenge = "" # FIXME: make this None
+
+    if not first_new_challenge:
+        first_new_challenge = card.data.challenge
+    else:
+        last_new_challenge = card.data.challenge
+
+    end_note = card.data.end_note
+    # empy end note means no end note
+    if end_note == "":
+        end_note = None
+
+    if should_do_long_introduction:
+        print(f"Introduced card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
+    else:
+        card.card_stats.leitner_box += 2  # hidden new cards should be already known vocabulary
+        card.card_stats.new_card = False
+        card.reset_tries_remaining(max(cfg.review_card_max_tries // 2,  #
+                                        cfg.review_card_max_tries  #
+                                        - cfg.review_card_tries_decrement  #
+                                        * exercise_no))
+        print(f"Hidden new card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
+
+    if end_note is not None:
+        print(f"- End note: {end_note}")
+        if cfg.break_on_end_note:
+            max_new_reached = True
+            print(f" - No more new cards this session.")
+
+    if new_count >= max_new_cards_this_session:
+        max_new_reached = True
+        print(f" - No more new cards this session.")
+
+    main_audio = main_audio.append(AudioSegment.silent(1_500))
+
+    card.card_stats.new_card = False
+
+    if new_count < 6 and exercise_no == 0:
+        if new_count == 1:
+            first_new_phrase = prompts["first_phrase"]
+            main_audio = main_audio.append(first_new_phrase)
+        else:
+            main_audio = main_audio.append(prompts["new_phrase"])
+    else:
+        main_audio = main_audio.append(prompts["new_phrase_short"])
+
+    main_audio = main_audio.append(AudioSegment.silent(750))
+
+    return main_audio, first_new_challenge, last_new_challenge, max_new_reached
+
+def repeat_and_provide_translation(
+
+    cfg: Config,
+    card: AudioCard,
+    *,
+    main_audio: AudioSegment,
+    prompts: Dict[str, AudioSegment],
+    exercise_no: int,
+    challenge: str,
+    new_count: int,
+):
+    """
+    Repeat a new phrase, provide alternative pronounciations, and provide a translation.
+    """
+    srt_entries: List[SrtEntry] = []
+    # introduce Cherokee challenge
+    main_audio = main_audio.append(AudioSegment.silent(1_500))
+    data_file: AudioSegment = tts.chr_audio(next_ims_voice(card.data.sex), challenge, cfg.alpha)
+    if new_count < 8 and exercise_no == 0:
+        main_audio = main_audio.append(prompts["listen_again"])
+    else:
+        main_audio = main_audio.append(prompts["listen_again_short"])
+    main_audio = main_audio.append(AudioSegment.silent(1_500))
+    srt_entry: SrtEntry = SrtEntry()
+    srt_entry.text = challenge
+    srt_entry.start = main_audio.duration_seconds
+    main_audio = main_audio.append(data_file, crossfade=0)
+    srt_entry.end = main_audio.duration_seconds
+    srt_entries.append(srt_entry)
+    main_audio = main_audio.append(AudioSegment.silent(1_500))
+
+    # introduce alt pronunciations
+    if card.data.challenge_alts:
+        if new_count < 6 and exercise_no <= 2:
+            main_audio = main_audio.append(prompts["also_hear"])
+        else:
+            main_audio = main_audio.append(prompts["also_hear_short"])
+        main_audio = main_audio.append(AudioSegment.silent(1_000))
+        for alt in card.data.challenge_alts:
+            if alt == challenge:
+                continue
+            main_audio = main_audio.append(AudioSegment.silent(500))
+            srt_entry: SrtEntry = SrtEntry()
+            srt_entries.append(srt_entry)
+            srt_entry.text = alt
+            srt_entry.start = main_audio.duration_seconds
+            main_audio = main_audio.append(tts.chr_audio(next_ims_voice(card.data.sex), alt, cfg.alpha),
+                                            crossfade=0)
+            srt_entry.end = main_audio.duration_seconds
+            main_audio = main_audio.append(AudioSegment.silent(1_000))
+
+    # output English gloss
+    if new_count < 10 and exercise_no == 0:
+        main_audio = main_audio.append(prompts["its_translation_is"])
+        main_audio = main_audio.append(AudioSegment.silent(750))
+    else:
+        main_audio = main_audio.append(prompts["in_english"])
+        main_audio = main_audio.append(AudioSegment.silent(750))
+
+    return srt_entries, main_audio
+
+def provide_answer(*, card: AudioCard, main_audio: AudioSegment, challenge_audio_seconds: float, wait_for_listner_response: bool):
+    """
+    Provide an answer for a challenge, optionally with a gap for the user to respond first.
+    """
+
+    answer_audio = tts.en_audio(next_amz_voice(card.data.sex), card.data.answer)
+    if wait_for_listner_response:
+        gap_duration: float = max(challenge_audio_seconds, 1.0)
+        main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
+        # Silence gap for user to respond during. Only if the card was not introduced.
+        _ = AudioSegment.silent(int((2 + 1.1 * answer_audio.duration_seconds) * 1_000))
+        main_audio = main_audio.append(_)
+
+    # Provide answer.
+    srt_entry: SrtEntry = SrtEntry()
+    srt_entry.text = card.data.answer
+    srt_entry.start = main_audio.duration_seconds
+    main_audio = main_audio.append(answer_audio)
+    srt_entry.end = main_audio.duration_seconds
+
+    return srt_entry, main_audio
+
+def read_challenge(cfg, *, main_audio: AudioSegment, challenge: str, sex: str):
+    challenge_audio: AudioSegment = tts.chr_audio(next_ims_voice(sex), challenge, cfg.alpha)
+
+    srt_entry: SrtEntry = SrtEntry()
+    srt_entry.text = challenge
+    srt_entry.start = main_audio.duration_seconds
+    main_audio = main_audio.append(challenge_audio, crossfade=0)
+    srt_entry.end = main_audio.duration_seconds
+
+    return srt_entry, main_audio, challenge_audio
+
+def pick_challenge(card: AudioCard, *, should_do_long_introduction: bool):
+    if not card.data.challenge_alts or should_do_long_introduction:
+        return card.data.challenge
+    else:
+        return rand.choice(card.data.challenge_alts)
+
 def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_deck: LeitnerAudioDeck):
     discards_deck: LeitnerAudioDeck = LeitnerAudioDeck()
     finished_deck: LeitnerAudioDeck = LeitnerAudioDeck()
@@ -656,8 +825,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                 break
             # we do we need these?
             card_id: str = card.data.card_id
-            new_card: bool = card.card_stats.new_card
-            introduce_card: bool = new_card and not skip_new(card)
+            should_do_long_introduction: bool = card.card_stats.new_card and not skip_new(card)
             extra_delay: float = card.card_stats.show_again_delay
             # if we just saw this card, don't show it again
             # TODO: should this live in next_card()?
@@ -667,142 +835,74 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
             
             prev_card_id = card_id
             
-            if new_card:
-                if not first_new_challenge:
-                    first_new_challenge = card.data.challenge
-                else:
-                    last_new_challenge = card.data.challenge
-
-                end_note = card.data.end_note
-                # empy end note means no end note
-                if end_note == "":
-                    end_note = None
-
-                if introduce_card:
-                    print(f"Introduced card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
-                else:
-                    card.card_stats.leitner_box += 2  # hidden new cards should be already known vocabulary
-                    card.card_stats.new_card = False
-                    card.reset_tries_remaining(max(cfg.review_card_max_tries // 2,  #
-                                                   cfg.review_card_max_tries  #
-                                                   - cfg.review_card_tries_decrement  #
-                                                   * exercise_no))
-                    print(f"Hidden new card: {card.data.challenge} [{card.card_stats.tries_remaining:,}]")
-
-                if end_note is not None:
-                    print(f"- End note: {end_note}")
-                    if cfg.break_on_end_note:
-                        max_new_reached = True
-                        print(f" - No more new cards this session.")
-
-                if introduce_card:
+            if card.card_stats.new_card:
+                if should_do_long_introduction:
                     introduced_count += 1
                 else:
                     hidden_count += 1
                 new_count += 1
-                if new_count >= max_new_cards_this_session:
-                    max_new_reached = True
-                    print(f" - No more new cards this session.")
-                main_audio = main_audio.append(AudioSegment.silent(1_500))
-                card.card_stats.new_card = False
-                if new_count < 6 and exercise_no == 0:
-                    if new_count == 1:
-                        first_new_phrase = prompts["first_phrase"]
-                        main_audio = main_audio.append(first_new_phrase)
-                    else:
-                        main_audio = main_audio.append(prompts["new_phrase"])
-                else:
-                    main_audio = main_audio.append(prompts["new_phrase_short"])
-                main_audio = main_audio.append(AudioSegment.silent(750))
+
+                main_audio, first_new_challenge, last_new_challenge, max_new_reached = introduce_new_card(
+                    cfg,
+                    card,
+                    main_audio=main_audio,
+                    prompts=prompts,
+                    exercise_no=exercise_no,
+                    should_do_long_introduction=should_do_long_introduction,
+                    first_new_challenge=first_new_challenge,
+                    new_count=new_count,
+                    max_new_cards_this_session=max_new_cards_this_session,
+                )
             else:
                 challenge_count += 1
                 if extra_delay > 0:
-                    _: int = int(1_000 * min(7.0, extra_delay))
-                    main_audio = main_audio.append(AudioSegment.silent(_), crossfade=0)
+                    extra_delay_time: int = int(1_000 * min(7.0, extra_delay))
+                    main_audio = main_audio.append(AudioSegment.silent(extra_delay_time), crossfade=0)
+
+                # prompt the listener to translate
+
                 if challenge_count < 16 and exercise_no == 0:
                     main_audio = main_audio.append(prompts["translate"])
                 else:
                     main_audio = main_audio.append(prompts["translate_short"])
                 main_audio = main_audio.append(AudioSegment.silent(1_000))
+                
+                # track review challenges
                 if not card.card_stats.shown:
                     if not first_review_challenge:
                         first_review_challenge = card.data.challenge
                     else:
                         last_review_challenge = card.data.challenge
-            challenge: str
-            if not card.data.challenge_alts or (new_card and introduce_card):
-                challenge = card.data.challenge
-            else:
-                challenge = rand.choice(card.data.challenge_alts)
-            srt_entry: SrtEntry = SrtEntry()
+
+            # pick challenge
+            challenge = pick_challenge(card,
+                should_do_long_introduction=should_do_long_introduction
+            )
+            srt_entry, main_audio, challenge_audio = read_challenge(cfg, main_audio=main_audio, challenge=challenge, sex=card.data.sex,)
             srt_entries.append(srt_entry)
-            srt_entry.text = challenge
-            srt_entry.start = main_audio.duration_seconds
-            data_file: AudioSegment = tts.chr_audio(next_ims_voice(card.data.sex), challenge, cfg.alpha)
-            main_audio = main_audio.append(data_file, crossfade=0)
-            srt_entry.end = main_audio.duration_seconds
-            
-            if introduce_card:
-                # introduce Cherokee challenge
-                main_audio = main_audio.append(AudioSegment.silent(1_500))
-                data_file: AudioSegment = tts.chr_audio(next_ims_voice(card.data.sex), challenge, cfg.alpha)
-                if new_count < 8 and exercise_no == 0:
-                    main_audio = main_audio.append(prompts["listen_again"])
-                else:
-                    main_audio = main_audio.append(prompts["listen_again_short"])
-                main_audio = main_audio.append(AudioSegment.silent(1_500))
-                srt_entry: SrtEntry = SrtEntry()
-                srt_entries.append(srt_entry)
-                srt_entry.text = challenge
-                srt_entry.start = main_audio.duration_seconds
-                main_audio = main_audio.append(data_file, crossfade=0)
-                srt_entry.end = main_audio.duration_seconds
-                main_audio = main_audio.append(AudioSegment.silent(1_500))
 
-                # introduce alt pronunciations
-                if card.data.challenge_alts:
-                    if new_count < 6 and exercise_no <= 2:
-                        main_audio = main_audio.append(prompts["also_hear"])
-                    else:
-                        main_audio = main_audio.append(prompts["also_hear_short"])
-                    main_audio = main_audio.append(AudioSegment.silent(1_000))
-                    for alt in card.data.challenge_alts:
-                        if alt == challenge:
-                            continue
-                        main_audio = main_audio.append(AudioSegment.silent(500))
-                        srt_entry: SrtEntry = SrtEntry()
-                        srt_entries.append(srt_entry)
-                        srt_entry.text = alt
-                        srt_entry.start = main_audio.duration_seconds
-                        main_audio = main_audio.append(tts.chr_audio(next_ims_voice(card.data.sex), alt, cfg.alpha),
-                                                       crossfade=0)
-                        srt_entry.end = main_audio.duration_seconds
-                        main_audio = main_audio.append(AudioSegment.silent(1_000))
+            if should_do_long_introduction:
+                new_srt_entries, main_audio = repeat_and_provide_translation(
+                    cfg,
+                    card,
+                    main_audio=main_audio,
+                    prompts=prompts,
+                    exercise_no=exercise_no,
+                    challenge=challenge,
+                    new_count=new_count
+                )
+                srt_entries.extend(new_srt_entries)
 
-                # output English gloss
-                if new_count < 10 and exercise_no == 0:
-                    main_audio = main_audio.append(prompts["its_translation_is"])
-                    main_audio = main_audio.append(AudioSegment.silent(750))
-                else:
-                    main_audio = main_audio.append(prompts["in_english"])
-                    main_audio = main_audio.append(AudioSegment.silent(750))
-            else:
-                gap_duration: float = max(data_file.duration_seconds, 1.0)
-                main_audio = main_audio.append(AudioSegment.silent(int(1_000 * gap_duration)))
+            srt_entry, main_audio = provide_answer(
+                card=card,
+                main_audio=main_audio,
+                challenge_audio_seconds=challenge_audio.duration_seconds,
+                wait_for_listner_response=not should_do_long_introduction
+            )
 
-            # The answer
-            answer_audio: AudioSegment = tts.en_audio(next_amz_voice(card.data.sex), card.data.answer)
-            # Silence gap for user to respond during. Only if the card was not introduced.
-            if not introduce_card:
-                _ = AudioSegment.silent(int((2 + 1.1 * answer_audio.duration_seconds) * 1_000))
-                main_audio = main_audio.append(_)
-            # Provide answer.
-            srt_entry: SrtEntry = SrtEntry()
             srt_entries.append(srt_entry)
-            srt_entry.text = card.data.answer
-            srt_entry.start = main_audio.duration_seconds
-            main_audio = main_audio.append(answer_audio)
-            srt_entry.end = main_audio.duration_seconds
+
+            # Add a break after the answer
             if exercise_no == 0:
                 main_audio = main_audio.append(AudioSegment.silent(2_250))
             elif exercise_no < 5:
@@ -922,6 +1022,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
         shutil.move(output_mp3 + ".tmp", output_mp3)
 
         # Generate graphic for MP4
+        # FIXME: move into if cfg.create_mp4?
         output_png = create_mp4_graphic(
             tags=tags,
             exercise_no=exercise_no,
