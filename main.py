@@ -379,7 +379,7 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write(jsonpickle.dumps(deck, indent=2))
         w.write("\n")
 
-def create_mp4_graphic(*, tags: dict[str, str], exercise_no: int, img_out_dir: str, introduced_count: int, hidden_count: int, end_note: str | None, ):
+def save_mp4_graphic(*, tags: dict[str, str], exercise_no: int, img_out_dir: str, introduced_count: int, hidden_count: int, end_note: str | None, ):
     svg_title: str
     with open("data/svg/title_template.svg", "r") as r:
         svg_title = r.read()
@@ -424,7 +424,7 @@ def create_mp4_graphic(*, tags: dict[str, str], exercise_no: int, img_out_dir: s
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
     return output_png
 
-def create_mp4(*,
+def save_mp4(*,
         tags: dict[str,str],
         exercise_no: int,
         mp4_out_dir: str,
@@ -518,6 +518,121 @@ def create_audio_lesson_tags(*, exercise_no: int, challenge_start: str, challeng
 
     return tags
 
+def save_mp3_and_srt(*, lead_in: AudioSegment, main_audio: AudioSegment, lead_out: AudioSegment, exercise_no: int,mp3_out_dir:str, srt_out_dir,  first_new_challenge: str, first_review_challenge: str, last_new_challenge: str, last_review_challenge: str, end_note: str, srt_entries: List[SrtEntry]):
+    challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
+    # challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
+    challenge_start = unicodedata.normalize("NFC", challenge_start).strip()
+    while challenge_start[-1] in ".,!?:":
+        challenge_start = challenge_start[:-1]
+
+    challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
+    # challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
+    challenge_stop = unicodedata.normalize("NFC", challenge_stop).strip()
+    while challenge_stop[-1] in ".,!?:":
+        challenge_stop = challenge_stop[:-1]
+
+    # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
+    tags = create_audio_lesson_tags(
+        exercise_no=exercise_no,
+        challenge_start=challenge_start,
+        challenge_stop=challenge_stop
+    )
+
+    # Output exercise audio
+    combined_audio: AudioSegment = lead_in.append(main_audio)
+
+    # Add any special end of session notes.
+    if end_note:
+        combined_audio = combined_audio.append(AudioSegment.silent(2_250))
+        combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
+        print(f"* {end_note}")
+
+    combined_audio = combined_audio.append(lead_out)
+
+    # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
+    for str_entry_no, srt_entry in enumerate(srt_entries):
+        srt_entry.seq = str_entry_no + 1
+        srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
+        srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
+        srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
+
+    # Output SRT file for use by ffmpeg mp4 creation process
+    srt_name: str = f"{DATASET}-{exercise_no + 1:04}.srt"
+    output_srt: str = os.path.join(srt_out_dir, srt_name)
+    with open(output_srt, "w") as srt:
+        for srt_entry in srt_entries:
+            srt_text: str = unicodedata.normalize("NFC", str(srt_entry))
+            srt.write(srt_text)
+
+    # Output mp3
+    mp3_name: str = f"{DATASET}-{exercise_no + 1:04}.mp3"
+    output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
+    minutes: int = int(combined_audio.duration_seconds // 60)
+    seconds: int = int(combined_audio.duration_seconds) % 60
+    tags["duration"] = f"{minutes:02d}:{seconds:02d}"
+    print(f"Creating {mp3_name}. {tags['duration']}.")
+    save_title = tags["title"]
+    if tags["album"]:
+        tags["title"] = tags["title"] + " (" + tags["album"] + ")"
+    combined_audio.set_frame_rate(MP3_HZ).export(output_mp3 + ".tmp", format="mp3",
+                                                    parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
+    tags["title"] = save_title
+    shutil.move(output_mp3 + ".tmp", output_mp3)
+
+    return output_mp3, output_srt, tags
+
+def save_audio_lesson(cfg: Config, *, out_dir: str, lead_in: AudioSegment, main_audio: AudioSegment, lead_out: AudioSegment, exercise_no: int, introduced_count:int, hidden_count: int, first_new_challenge: str, first_review_challenge: str, last_new_challenge: str, last_review_challenge: str, end_note: str, srt_entries: List[SrtEntry]):
+    # Put mp3 for website related stuff in subfolder
+    mp3_out_dir: str = os.path.join(out_dir, "mp3")
+    os.makedirs(mp3_out_dir, exist_ok=True)
+
+    srt_out_dir: str = os.path.join(out_dir, "srt")
+    os.makedirs(srt_out_dir, exist_ok=True)
+
+    output_mp3, output_srt, tags = save_mp3_and_srt(
+        lead_in=lead_in,
+        lead_out=lead_out,
+        main_audio=main_audio,
+        exercise_no=exercise_no,
+        mp3_out_dir=mp3_out_dir,
+        srt_out_dir=srt_out_dir,
+        first_new_challenge=first_new_challenge,
+        first_review_challenge=first_review_challenge,
+        last_new_challenge=last_new_challenge,
+        last_review_challenge=last_review_challenge,
+        srt_entries=srt_entries,
+        end_note=end_note or ""
+    )
+
+    if cfg.create_mp4:
+        # Put graphic related stuff in subfolder
+        img_out_dir: str = os.path.join(out_dir, "img")
+        os.makedirs(img_out_dir, exist_ok=True)
+
+        # Put MP4 related stuff in subfolder
+        mp4_out_dir: str = os.path.join(out_dir, "mp4")
+        os.makedirs(mp4_out_dir, exist_ok=True)
+
+        # Generate graphic for MP4
+        output_png = save_mp4_graphic(
+            tags=tags,
+            exercise_no=exercise_no,
+            img_out_dir=img_out_dir,
+            introduced_count=introduced_count,
+            hidden_count=hidden_count,
+            end_note=end_note
+        )
+        # FIXME: should this be unused?
+        output_mp4 = save_mp4(
+            tags=tags,
+            exercise_no=exercise_no,
+            mp4_out_dir=mp4_out_dir,
+            output_png=output_png,
+            output_mp3=output_mp3,
+            output_srt=output_srt
+        )
+    
+    return tags
 
 def introduce_new_card(
     cfg: Config,
@@ -585,7 +700,7 @@ def introduce_new_card(
 
     main_audio = main_audio.append(AudioSegment.silent(750))
 
-    return main_audio, first_new_challenge, last_new_challenge, max_new_reached
+    return main_audio, end_note, first_new_challenge, last_new_challenge, max_new_reached
 
 def repeat_and_provide_translation(
 
@@ -713,7 +828,7 @@ def append_audio_for_new_card(
     <English translation>
     """
     srt_entries: List[SrtEntry] = []
-    main_audio, first_new_challenge, last_new_challenge, max_new_reached = introduce_new_card(
+    main_audio,end_note, first_new_challenge, last_new_challenge, max_new_reached = introduce_new_card(
         cfg,
         card,
         main_audio=main_audio,
@@ -752,7 +867,7 @@ def append_audio_for_new_card(
 
     srt_entries.append(srt_entry)
 
-    return main_audio, srt_entries, first_new_challenge, last_new_challenge, max_new_reached
+    return main_audio, srt_entries, end_note, first_new_challenge, last_new_challenge, max_new_reached
 
 def append_audio_for_review_card(cfg: Config, card: AudioCard, *, main_audio: AudioSegment, challenge_count: int, prompts: Dict[str, AudioSegment], exercise_no: int, first_review_challenge: str):
     """
@@ -955,7 +1070,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                     hidden_count += 1
                 new_count += 1
 
-                new_srt_entries, main_audio, first_new_challenge, last_new_challenge, max_new_reached = append_audio_for_new_card(
+                new_srt_entries, main_audio, end_note, first_new_challenge, last_new_challenge, max_new_reached = append_audio_for_new_card(
                     cfg, card,
                     main_audio=main_audio,
                     prompts=prompts,
@@ -1026,105 +1141,24 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
               f" Review cards: {review_count:,}."
               f" Hidden new cards: {hidden_count:,}.")
 
-        challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
-        # challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
-        challenge_start = unicodedata.normalize("NFC", challenge_start).strip()
-        while challenge_start[-1] in ".,!?:":
-            challenge_start = challenge_start[:-1]
-
-        challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
-        # challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
-        challenge_stop = unicodedata.normalize("NFC", challenge_stop).strip()
-        while challenge_stop[-1] in ".,!?:":
-            challenge_stop = challenge_stop[:-1]
-
-        # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
-        tags = create_audio_lesson_tags(
+        tags = save_audio_lesson(cfg,
+            out_dir=out_dir,
+            lead_in=lead_in,
+            lead_out=lead_out,
+            main_audio=main_audio,
             exercise_no=exercise_no,
-            challenge_start=challenge_start,
-            challenge_stop=challenge_stop
-        )
-        
-        metadata_by_track[exercise_no] = tags
-
-        # Put mp3 for website related stuff in subfolder
-        mp3_out_dir: str = os.path.join(out_dir, "mp3")
-        os.makedirs(mp3_out_dir, exist_ok=True)
-
-        srt_out_dir: str = os.path.join(out_dir, "srt")
-        os.makedirs(srt_out_dir, exist_ok=True)
-
-        # Put graphic related stuff in subfolder
-        img_out_dir: str = os.path.join(out_dir, "img")
-        os.makedirs(img_out_dir, exist_ok=True)
-
-        # Put MP4 related stuff in subfolder
-        mp4_out_dir: str = os.path.join(out_dir, "mp4")
-        os.makedirs(mp4_out_dir, exist_ok=True)
-
-        # Output exercise audio
-        combined_audio: AudioSegment = lead_in.append(main_audio)
-
-        # Add any special end of session notes.
-        if end_note:
-            combined_audio = combined_audio.append(AudioSegment.silent(2_250))
-            combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
-            print(f"* {end_note}")
-
-        end_notes_by_track[exercise_no] = end_note or ""
-        combined_audio = combined_audio.append(lead_out)
-
-        # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
-        for str_entry_no, srt_entry in enumerate(srt_entries):
-            srt_entry.seq = str_entry_no + 1
-            srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
-            srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
-            srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
-
-        # Output SRT file for use by ffmpeg mp4 creation process
-        srt_name: str = f"{DATASET}-{exercise_no + 1:04}.srt"
-        output_srt: str = os.path.join(srt_out_dir, srt_name)
-        with open(output_srt, "w") as srt:
-            for srt_entry in srt_entries:
-                srt_text: str = unicodedata.normalize("NFC", str(srt_entry))
-                srt.write(srt_text)
-
-        # Output mp3
-        mp3_name: str = f"{DATASET}-{exercise_no + 1:04}.mp3"
-        output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
-        minutes: int = int(combined_audio.duration_seconds // 60)
-        seconds: int = int(combined_audio.duration_seconds) % 60
-        tags["duration"] = f"{minutes:02d}:{seconds:02d}"
-        print(f"Creating {mp3_name}. {tags['duration']}.")
-        save_title = tags["title"]
-        if tags["album"]:
-            tags["title"] = tags["title"] + " (" + tags["album"] + ")"
-        combined_audio.set_frame_rate(MP3_HZ).export(output_mp3 + ".tmp", format="mp3",
-                                                     parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
-        tags["title"] = save_title
-        shutil.move(output_mp3 + ".tmp", output_mp3)
-
-        # Generate graphic for MP4
-        # FIXME: move into if cfg.create_mp4?
-        output_png = create_mp4_graphic(
-            tags=tags,
-            exercise_no=exercise_no,
-            img_out_dir=img_out_dir,
             introduced_count=introduced_count,
             hidden_count=hidden_count,
-            end_note=end_note
+            first_new_challenge=first_new_challenge,
+            first_review_challenge=first_review_challenge,
+            last_new_challenge=last_new_challenge,
+            last_review_challenge=last_review_challenge,
+            srt_entries=srt_entries,
+            end_note=end_note or ""
         )
-
-        if cfg.create_mp4:
-            # FIXME: should this be unused?
-            output_mp4 = create_mp4(
-                tags=tags,
-                exercise_no=exercise_no,
-                mp4_out_dir=mp4_out_dir,
-                output_png=output_png,
-                output_mp3=output_mp3,
-                output_srt=output_srt
-            )
+        
+        end_notes_by_track[exercise_no] = end_note or ""
+        metadata_by_track[exercise_no] = tags
 
         # Bump counter
         exercise_no += 1
@@ -1133,7 +1167,6 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
         del lead_in
         del lead_out
         del main_audio
-        del combined_audio
 
         if not main_deck.has_cards:
             keep_going = extra_sessions > 0
