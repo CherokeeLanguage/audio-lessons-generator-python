@@ -8,16 +8,11 @@ exit $?
 ''"""
 from __future__ import annotations
 from typing import Dict, List
+from artifacts import save_audio_lesson
 
-import jsonpickle
 import os
 import pathlib
-import re
 import shutil
-import subprocess
-import unicodedata
-from datetime import date
-from datetime import datetime
 
 import simplejson
 from pydub import AudioSegment
@@ -25,7 +20,6 @@ from tqdm import tqdm
 
 from CardUtils import CardUtils
 from LeitnerAudioDeck import AudioCard
-from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
 import tts
@@ -33,6 +27,8 @@ from SrtEntry import SrtEntry
 from config import Config
 from shared_rand import rand
 from voices import AMZ_VOICES, IMS_VOICES, next_amz_voice, next_ims_voice
+from deck_utils import load_main_deck, save_deck
+
 
 # DATASET: str = "osiyo-tohiju-then-what"
 # DATASET: str = "cll1-v3"
@@ -42,274 +38,15 @@ from voices import AMZ_VOICES, IMS_VOICES, next_amz_voice, next_ims_voice
 # DATASET: str = "ced-sentences"
 DATASET: str = "beginning-cherokee"
 
-MP3_QUALITY: int = 3
-MP3_HZ: int = 48_000
-
 RESORT_BY_LENGTH: bool = False
 if DATASET == "animals":
     RESORT_BY_LENGTH = True
-
-IX_ALT_PRONOUNCE: int = 2
-IX_PRONOUN: int = 3
-IX_VERB: int = 4
-IX_GENDER: int = 5
-IX_SYLLABARY: int = 6
-IX_PRONOUNCE: int = 7
-IX_ENGLISH: int = 8
-IX_INTRO_NOTE: int = 9
-IX_END_NOTE: int = 10
-IX_APP_FILE: int = 11
-
-UNDERDOT: str = "\u0323"
 
 CACHE_CHR = os.path.join("cache", "chr")
 CACHE_EN = os.path.join("cache", "en")
 
 AMZ_HZ: str = "24000"
 LESSON_HZ: int = 48_000
-
-
-def load_main_deck(source_file: str) -> LeitnerAudioDeck:
-    chr2en_deck: LeitnerAudioDeck = LeitnerAudioDeck()
-    dupe_pronunciation_check: set[str] = set()
-    dupe_end_note_check: set[str] = set()
-    cards_for_english_answers: dict[str, AudioCard] = dict()
-
-    line_no: int = 0
-    with open(source_file, "r") as r:
-        id_chr2en: int = 0
-        for line in r:
-            # skip header line
-            if not line_no:
-                line_no = 1
-                continue
-            line_no += 1
-            line = unicodedata.normalize("NFC", line).strip()
-            # skip comments and blank lines
-            if line.startswith("#") or not line:
-                continue
-            fields = line.split("|")
-            if len(fields) > IX_APP_FILE + 1 or len(fields) < IX_APP_FILE:
-                print(f"; {line}")
-                raise Exception(f"[Line {line_no:,}] Wrong field count of {len(fields)}."
-                                f" Should be {IX_APP_FILE + 1}.")
-            skip_as_new = "*" in fields[0]
-
-            verb_stem: str = unicodedata.normalize("NFD", fields[IX_VERB])
-            verb_stem = re.sub("[¹²³⁴" + UNDERDOT + "]", "", verb_stem)
-            verb_stem = unicodedata.normalize("NFC", verb_stem)
-
-            bound_pronoun: str = unicodedata.normalize("NFD", fields[IX_PRONOUN])
-            bound_pronoun = re.sub("[¹²³⁴" + UNDERDOT + "]", "", bound_pronoun)
-            bound_pronoun = unicodedata.normalize("NFC", bound_pronoun)
-
-            cherokee_text_alts: list[str] = list()
-            cherokee_text = fields[IX_PRONOUNCE].strip()
-            if cherokee_text.startswith("#"):
-                continue
-            if not re.sub("(?i)[^a-z]", "", unicodedata.normalize("NFD", cherokee_text)):
-                print(f"Warning - no Cherokee text: {line}")
-                continue
-
-            if ";" in cherokee_text:
-                for text in cherokee_text.split(";"):
-                    text = text.strip()
-                    if text and text not in cherokee_text_alts:
-                        cherokee_text_alts.append(text)
-                cherokee_text = cherokee_text[0:cherokee_text.index(";")].strip()
-
-            cherokee_text = cherokee_text[0].upper() + cherokee_text[1:]
-            if cherokee_text[-1] not in ",.?!":
-                cherokee_text += "."
-            check_text = re.sub("(?i)[.,!?;]", "", cherokee_text).strip()
-            if check_text in dupe_pronunciation_check:
-                print(f"[Line {line_no:,}] Duplicate pronunciation: {check_text}\n{fields}")
-                raise Exception(f"[Line {line_no:,}] Duplicate pronunciation: {check_text}\n{fields}")
-            dupe_pronunciation_check.add(check_text)
-            gender: str = fields[IX_GENDER].strip()
-            if gender:
-                gender = gender.strip().lower()[0]
-                if gender.lower() != "m" and gender.lower() != "f":
-                    print(f"BAD GENDER: {fields}")
-                    gender = ""
-
-            english_text = fields[IX_ENGLISH].strip()
-            if not re.sub("(?i)[^a-z]", "", unicodedata.normalize("NFD", english_text)):
-                print(f"Warning - no English text: {line}")
-                continue
-            texts: list[str] = english_text.split(";")
-            if texts:
-                english_text = ""
-                for text in texts:
-                    text = text.strip()
-                    if text[-1] not in ",.?!":
-                        text += "."
-                    if english_text:
-                        english_text += " Or. "
-                    english_text += text
-            if "v.t." in english_text or "v.i." in english_text:
-                english_text = english_text.replace("v.t.", "").replace("v.i.", "")
-            if "1." in english_text:
-                english_text = english_text.replace("1.", "")
-                english_text = english_text.replace("2.", ". Or, ")
-                english_text = english_text.replace("3.", ". Or, ")
-                english_text = english_text.replace("4.", ". Or, ")
-            if "(" in english_text:
-                english_text = english_text.replace(" (1)", "")
-                english_text = english_text.replace(" (one)", "")
-                english_text = english_text.replace(" (animate)", ", living, ")
-                english_text = english_text.replace(" (inanimate)", ", non-living, ")
-            if "/" in english_text:
-                english_text = english_text.replace("/", ", or, ")
-
-            if re.search("(?i)\\bhe, it\\b", english_text):
-                english_text = re.sub("(?i)(he), it\\b", "\\1, or, it", english_text)
-            if re.search("(?i)\\bhim, it\\b", english_text):
-                english_text = re.sub("(?i)(him), it\\b", "\\1, or, it", english_text)
-            if re.search("(?i)\\bshe, it\\b", english_text):
-                english_text = re.sub("(?i)(she), it\\b", "\\1, or, it", english_text)
-            if re.search("(?i)\\bher, it\\b", english_text):
-                english_text = re.sub("(?i)(her), it\\b", "\\1, or, it", english_text)
-
-            if "'s" in english_text:
-                english_text = english_text.replace("he's", "he is")
-                english_text = english_text.replace("she's", "she is")
-                english_text = english_text.replace("it's", "it is")
-                english_text = english_text.replace("He's", "He is")
-                english_text = english_text.replace("She's", "She is")
-                english_text = english_text.replace("It's", "It is")
-            if "'re" in english_text:
-                english_text = english_text.replace("'re", " are")
-            english_text = english_text[0].upper() + english_text[1:]
-
-            english_text = fix_english_sex_genders(english_text)
-
-            to_en_card: AudioCard
-            to_en_data: AudioData
-
-            intro_note: str
-            if len(fields) > IX_INTRO_NOTE:
-                intro_note = fields[IX_INTRO_NOTE].strip()
-            else:
-                intro_note: str = ""
-
-            end_note: str
-            if len(fields) > IX_END_NOTE:
-                end_note = fields[IX_END_NOTE].strip()
-            else:
-                end_note: str = ""
-            if end_note:
-                if end_note in dupe_end_note_check:
-                    print(f"- WARN DUPLICATE END NOTE: ({line_no:,}) {end_note}\n{fields}")
-                dupe_end_note_check.add(end_note)
-
-            if check_text in cards_for_english_answers:
-                to_en_card = cards_for_english_answers[check_text]
-                to_en_data = to_en_card.data
-                old_answer: str = to_en_data.answer
-                to_en_data.answer += " Or, " + english_text
-                print(f"- {old_answer} => {to_en_data.answer}")
-                if intro_note:
-                    to_en_card.data.intro_note = intro_note
-                if end_note:
-                    to_en_card.data.end_note = end_note
-            else:
-                id_chr2en += 1
-
-                to_en_card = AudioCard()
-                to_en_data = AudioData()
-                to_en_card.data = to_en_data
-
-                to_en_data.bound_pronoun = bound_pronoun
-                to_en_data.verb_stem = verb_stem
-                to_en_data.answer = english_text
-                to_en_data.challenge = cherokee_text
-                to_en_data.card_id = id_chr2en
-                to_en_data.sex = gender
-                if intro_note:
-                    to_en_card.data.intro_note = intro_note
-                if end_note:
-                    to_en_card.data.end_note = end_note
-                if skip_as_new:
-                    to_en_data.bound_pronoun = "*"
-                    to_en_data.verb_stem = "*"
-                cards_for_english_answers[check_text] = to_en_card
-                syllabary: str = fields[IX_SYLLABARY]
-                to_en_data.sort_key = syllabary if syllabary else cherokee_text
-                chr2en_deck.append(to_en_card)
-
-            if fields[IX_ALT_PRONOUNCE] or cherokee_text_alts:
-                alts: list[str] = fields[IX_ALT_PRONOUNCE].split(";")
-                if cherokee_text not in to_en_data.challenge_alts:
-                    to_en_data.challenge_alts.append(cherokee_text)
-                for alt in alts:
-                    alt = alt.strip()
-                    if not alt or alt in to_en_data.challenge_alts:
-                        continue
-                    to_en_data.challenge_alts.append(alt)
-                for alt in cherokee_text_alts:
-                    alt = alt.strip()
-                    if not alt or alt in to_en_data.challenge_alts:
-                        continue
-                    to_en_data.challenge_alts.append(alt)
-
-    # Fix casing if needed.
-    for to_en_card in chr2en_deck:
-        to_en_data = to_en_card.data
-        challenge: str = to_en_data.challenge
-        to_en_data.challenge = challenge[0].upper() + challenge[1:]
-        answer: str = to_en_data.answer
-        to_en_data.answer = answer[0].upper() + answer[1:]
-        alts: list[str] = to_en_data.challenge_alts.copy()
-        to_en_data.challenge_alts.clear()
-        for challenge in alts:
-            challenge = challenge[0].upper() + challenge[1:]
-            to_en_data.challenge_alts.append(challenge)
-
-    review_sheet_chr2en: str = ""
-    review_sheet_en2chr: str = ""
-    for to_en_card in chr2en_deck:
-        to_en_data = to_en_card.data
-        review_sheet_chr2en += to_en_data.card_id
-        review_sheet_chr2en += "|"
-        review_sheet_chr2en += to_en_data.bound_pronoun
-        review_sheet_chr2en += "|"
-        review_sheet_chr2en += to_en_data.verb_stem
-        review_sheet_chr2en += "|"
-        review_sheet_chr2en += to_en_data.challenge
-        review_sheet_chr2en += "|"
-        review_sheet_chr2en += to_en_data.answer
-        review_sheet_chr2en += "\n"
-
-    with open("review-sheet-chr-en.txt", "w") as w:
-        w.write(review_sheet_chr2en)
-
-    with open("review-sheet-en-chr.txt", "w") as w:
-        w.write(review_sheet_en2chr)
-
-    return chr2en_deck
-
-
-def fix_english_sex_genders(text_en) -> str:
-    tmp: str = re.sub("\\s+", " ", text_en).strip()
-    if "brother" in tmp.lower():
-        return text_en
-    if "sister" in tmp.lower():
-        return text_en
-    if "himself" in tmp:
-        tmp = re.sub("(?i)(He )", "\\1 or she ", tmp)
-        tmp = re.sub("\\bhimself", "themself", tmp)
-    if "Himself" in tmp:
-        tmp = re.sub("(?i)\\b(He )", "\\1or she ", tmp)
-        tmp = re.sub("\\bHimself", "Themself", tmp)
-    if re.search(".*\\b[Hh]is\\b.*", tmp):
-        tmp = re.sub("(?i)\\b(His)", "\\1 or her", tmp)
-    if " or she" not in tmp:
-        tmp = re.sub("(?i)\\b(He )", "\\1or she ", tmp)
-    if " or her" not in tmp:
-        tmp = re.sub("(?i)( him)", "\\1 or her", tmp)
-    tmp = re.sub("(?i)x(he|she|him|her|his)", "\\1", tmp)
-    return tmp
 
 
 def create_card_audio(cfg: Config, main_deck: LeitnerAudioDeck):
@@ -366,273 +103,6 @@ def skip_new(card: AudioCard) -> bool:
         return False
     return pbound_counts[bp] > 2 and vstem_counts[vs] > 4
 
-
-def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
-
-    jsonpickle.load_backend('simplejson', 'dumps', 'loads', ValueError)
-    jsonpickle.set_preferred_backend('simplejson')
-    jsonpickle.set_encoder_options('simplejson', ensure_ascii=False)
-
-    if not os.path.exists(destination.parent):
-        destination.parent.mkdir(exist_ok=True)
-    with open(destination, "w") as w:
-        w.write(jsonpickle.dumps(deck, indent=2))
-        w.write("\n")
-
-def save_mp4_graphic(*, tags: dict[str, str], exercise_no: int, img_out_dir: str, introduced_count: int, hidden_count: int, end_note: str | None, ):
-    svg_title: str
-    with open("data/svg/title_template.svg", "r") as r:
-        svg_title = r.read()
-    svg_title = svg_title.replace("_album_", tags["album"])
-    title = tags["title"]
-    if "]" in title:
-        svg_title = svg_title.replace("_title1_", title[:title.index("]") + 1].strip())
-        svg_title = svg_title.replace("_title2_", title[title.index("]") + 1:].strip())
-    else:
-        svg_title = svg_title.replace("_title1_", tags["title"])
-        svg_title = svg_title.replace("_title2_", " ")
-    svg_title = svg_title.replace("_artist_", tags["artist"])
-
-    if end_note:
-        svg_title = svg_title.replace("_end_note_", end_note)
-    else:
-        svg_title = svg_title.replace("_end_note_", " ")
-
-    new_items: str = f"{introduced_count + hidden_count:,}"
-    old_items: str = f"{review_count:,}"
-    svg_title = svg_title.replace("_new_", new_items)
-    svg_title = svg_title.replace("_old_", old_items)
-
-    svg_name: str = f"{DATASET}-{exercise_no + 1:04}.svg"
-    print(f"Creating {svg_name}.")
-    output_svg: str = os.path.join(img_out_dir, svg_name)
-    with open(output_svg, "w") as w:
-        w.write(svg_title)
-    png_name: str = f"{DATASET}-{exercise_no + 1:04}.png"
-    output_png: str = os.path.join(img_out_dir, png_name)
-    cmd: list[str] = list()
-    cmd.append("inkscape")
-    cmd.append("-o")
-    cmd.append(output_png)
-    cmd.append("-C")
-    cmd.append("--export-background=white")
-    cmd.append("--export-background-opacity=1.0")
-    cmd.append("--export-png-color-mode=RGB_16")
-    cmd.append("--export-area-page")
-    cmd.append(output_svg)
-    print(f"Creating {png_name}.")
-    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-    return output_png
-
-def save_mp4(*,
-        tags: dict[str,str],
-        exercise_no: int,
-        mp4_out_dir: str,
-        output_png: str,
-        output_mp3: str,
-        output_srt: str
-    ) -> str:
-    mp4_name: str = f"{DATASET}-{exercise_no + 1:04}.mp4"
-    output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
-
-    cmd: list[str] = list()
-    cmd.append("ffmpeg")
-    cmd.append("-nostdin")  # non-interactive
-    cmd.append("-y")  # overwrite
-    cmd.append("-r")  # input frame rate
-    cmd.append("1")
-    cmd.append("-loop")
-    cmd.append("1")
-    cmd.append("-i")
-    cmd.append(output_png)
-    cmd.append("-i")
-    cmd.append(output_mp3)
-    cmd.append("-i")
-    cmd.append(output_srt)
-    cmd.append("-c:s")
-    cmd.append("mov_text")
-    cmd.append("-q:a")
-    cmd.append("3")
-    cmd.append("-pix_fmt")
-    cmd.append("yuv420p")
-    cmd.append("-shortest")
-    cmd.append("-r")  # output frame rate
-    cmd.append("1")
-    # cmd.append("23.976")
-    cmd.append("-tune")
-    cmd.append("stillimage")
-    save_title = tags["title"]
-    if tags["album"]:
-        tags["title"] = tags["title"] + " (" + tags["album"]+")"
-    for k, v in tags.items():
-        cmd.append("-metadata")
-        cmd.append(f"{k}={v}")
-    tags["title"] = save_title
-    cmd.append("-movflags")
-    cmd.append("+faststart")
-    cmd.append(output_mp4)
-
-    print(f"Creating {mp4_name}.")
-    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-    return output_mp4
-
-def create_audio_lesson_tags(*, exercise_no: int, challenge_start: str, challenge_stop: str) -> dict[str, str]:
-    tags: dict[str, str] = dict()
-
-    challenge_start = unicodedata.normalize("NFC", challenge_start)
-    challenge_stop = unicodedata.normalize("NFC", challenge_stop)
-
-    if DATASET == "cll1-v3":
-        tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-        tags["title"] = f"CLL 1 [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    elif DATASET == "beginning-cherokee":
-        tags["album"] = "Beginning Cherokee - 2nd Edition"
-        tags["title"] = f"BC [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    elif DATASET == "animals":
-        tags["album"] = "Animals"
-        tags["title"] = f"Animals [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    elif DATASET == "bound-pronouns":
-        tags["album"] = "Bound Pronouns"
-        tags["title"] = f"BP [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    elif DATASET == "osiyo-tohiju-then-what":
-        tags["album"] = "Osiyo, Tohiju? ... Then what?"
-        tags["title"] = f"Osiyo [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    elif DATASET == "ced-sentences":
-        tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
-        tags["title"] = f"C.E.D. Examples [{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-    else:
-        tags["album"] = DATASET
-        tags["title"] = f"[{exercise_no + 1:02d}] {challenge_start} ... {challenge_stop}"
-
-    tags["composer"] = "Michael Conrad"
-    tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
-    tags["language"] = "chr"
-    tags["artist"] = "IMS-Toucan"
-    tags["publisher"] = "Michael Conrad"
-    tags["track"] = str(exercise_no + 1)
-    tags["date"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
-    tags["creation_time"] = str(datetime.utcnow().isoformat(sep="T", timespec="seconds"))
-    tags["genre"] = "Spoken"
-    tags["comments"] = "https://github.com/CherokeeLanguage/IMS-Toucan"
-    tags["year"] = str(date.today().year)
-
-    return tags
-
-def save_mp3_and_srt(*, lead_in: AudioSegment, main_audio: AudioSegment, lead_out: AudioSegment, exercise_no: int,mp3_out_dir:str, srt_out_dir,  first_new_challenge: str, first_review_challenge: str, last_new_challenge: str, last_review_challenge: str, end_note: str, srt_entries: List[SrtEntry]):
-    challenge_start: str = first_new_challenge if first_new_challenge else first_review_challenge
-    # challenge_start = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_start))
-    challenge_start = unicodedata.normalize("NFC", challenge_start).strip()
-    while challenge_start[-1] in ".,!?:":
-        challenge_start = challenge_start[:-1]
-
-    challenge_stop: str = last_new_challenge if last_new_challenge else last_review_challenge
-    # challenge_stop = re.sub("(?i)[^a-z- ]", "", unicodedata.normalize("NFD", challenge_stop))
-    challenge_stop = unicodedata.normalize("NFC", challenge_stop).strip()
-    while challenge_stop[-1] in ".,!?:":
-        challenge_stop = challenge_stop[:-1]
-
-    # https://wiki.multimedia.cx/index.php/FFmpeg_Metadata#MP3
-    tags = create_audio_lesson_tags(
-        exercise_no=exercise_no,
-        challenge_start=challenge_start,
-        challenge_stop=challenge_stop
-    )
-
-    # Output exercise audio
-    combined_audio: AudioSegment = lead_in.append(main_audio)
-
-    # Add any special end of session notes.
-    if end_note:
-        combined_audio = combined_audio.append(AudioSegment.silent(2_250))
-        combined_audio = combined_audio.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, end_note))
-        print(f"* {end_note}")
-
-    combined_audio = combined_audio.append(lead_out)
-
-    # Add leadin offset to SRT entries. Assign sequence numbers. Capitalize first letter.
-    for str_entry_no, srt_entry in enumerate(srt_entries):
-        srt_entry.seq = str_entry_no + 1
-        srt_entry.start += lead_in.duration_seconds  # - 0.125  # appear slightly early
-        srt_entry.end += lead_in.duration_seconds  # + 0.125  # disappear slightly late
-        srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
-
-    # Output SRT file for use by ffmpeg mp4 creation process
-    srt_name: str = f"{DATASET}-{exercise_no + 1:04}.srt"
-    output_srt: str = os.path.join(srt_out_dir, srt_name)
-    with open(output_srt, "w") as srt:
-        for srt_entry in srt_entries:
-            srt_text: str = unicodedata.normalize("NFC", str(srt_entry))
-            srt.write(srt_text)
-
-    # Output mp3
-    mp3_name: str = f"{DATASET}-{exercise_no + 1:04}.mp3"
-    output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
-    minutes: int = int(combined_audio.duration_seconds // 60)
-    seconds: int = int(combined_audio.duration_seconds) % 60
-    tags["duration"] = f"{minutes:02d}:{seconds:02d}"
-    print(f"Creating {mp3_name}. {tags['duration']}.")
-    save_title = tags["title"]
-    if tags["album"]:
-        tags["title"] = tags["title"] + " (" + tags["album"] + ")"
-    combined_audio.set_frame_rate(MP3_HZ).export(output_mp3 + ".tmp", format="mp3",
-                                                    parameters=["-qscale:a", str(MP3_QUALITY)], tags=tags)
-    tags["title"] = save_title
-    shutil.move(output_mp3 + ".tmp", output_mp3)
-
-    return output_mp3, output_srt, tags
-
-def save_audio_lesson(cfg: Config, *, out_dir: str, lead_in: AudioSegment, main_audio: AudioSegment, lead_out: AudioSegment, exercise_no: int, introduced_count:int, hidden_count: int, first_new_challenge: str, first_review_challenge: str, last_new_challenge: str, last_review_challenge: str, end_note: str, srt_entries: List[SrtEntry]):
-    # Put mp3 for website related stuff in subfolder
-    mp3_out_dir: str = os.path.join(out_dir, "mp3")
-    os.makedirs(mp3_out_dir, exist_ok=True)
-
-    srt_out_dir: str = os.path.join(out_dir, "srt")
-    os.makedirs(srt_out_dir, exist_ok=True)
-
-    output_mp3, output_srt, tags = save_mp3_and_srt(
-        lead_in=lead_in,
-        lead_out=lead_out,
-        main_audio=main_audio,
-        exercise_no=exercise_no,
-        mp3_out_dir=mp3_out_dir,
-        srt_out_dir=srt_out_dir,
-        first_new_challenge=first_new_challenge,
-        first_review_challenge=first_review_challenge,
-        last_new_challenge=last_new_challenge,
-        last_review_challenge=last_review_challenge,
-        srt_entries=srt_entries,
-        end_note=end_note or ""
-    )
-
-    if cfg.create_mp4:
-        # Put graphic related stuff in subfolder
-        img_out_dir: str = os.path.join(out_dir, "img")
-        os.makedirs(img_out_dir, exist_ok=True)
-
-        # Put MP4 related stuff in subfolder
-        mp4_out_dir: str = os.path.join(out_dir, "mp4")
-        os.makedirs(mp4_out_dir, exist_ok=True)
-
-        # Generate graphic for MP4
-        output_png = save_mp4_graphic(
-            tags=tags,
-            exercise_no=exercise_no,
-            img_out_dir=img_out_dir,
-            introduced_count=introduced_count,
-            hidden_count=hidden_count,
-            end_note=end_note
-        )
-        # FIXME: should this be unused?
-        output_mp4 = save_mp4(
-            tags=tags,
-            exercise_no=exercise_no,
-            mp4_out_dir=mp4_out_dir,
-            output_png=output_png,
-            output_mp3=output_mp3,
-            output_srt=output_srt
-        )
-    
-    return tags
 
 def introduce_new_card(
     cfg: Config,
@@ -915,7 +385,7 @@ def append_audio_for_review_card(cfg: Config, card: AudioCard, *, main_audio: Au
 
     return main_audio, srt_entries, first_review_challenge, last_review_challenge
 
-def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_deck: LeitnerAudioDeck):
+def create_audio_lessons(cfg: Config, *, dataset:str, util: CardUtils, out_dir: str, main_deck: LeitnerAudioDeck):
     discards_deck: LeitnerAudioDeck = LeitnerAudioDeck()
     finished_deck: LeitnerAudioDeck = LeitnerAudioDeck()
     active_deck: LeitnerAudioDeck = LeitnerAudioDeck()
@@ -948,17 +418,17 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
 
         lead_in: AudioSegment = AudioSegment.silent(750, LESSON_HZ).set_channels(1)
         # Exercise set title
-        lead_in = lead_in.append(prompts[DATASET])
+        lead_in = lead_in.append(prompts[dataset])
         lead_in = lead_in.append(AudioSegment.silent(750))
 
         if exercise_no == 0:
             # Description of exercise set
-            if DATASET + "-about" in prompts:
-                lead_in = lead_in.append(prompts[DATASET + "-about"])
+            if dataset + "-about" in prompts:
+                lead_in = lead_in.append(prompts[dataset + "-about"])
                 lead_in = lead_in.append(AudioSegment.silent(750))
 
-            if DATASET + "-notes" in prompts:
-                lead_in = lead_in.append(prompts[DATASET + "-about"])
+            if dataset + "-notes" in prompts:
+                lead_in = lead_in.append(prompts[dataset + "-about"])
                 lead_in = lead_in.append(AudioSegment.silent(750))
 
             # Pre-lesson verbiage
@@ -1030,7 +500,6 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
         last_review_challenge: str = ""
 
         srt_entries: list[SrtEntry] = list()
-        srt_entry: SrtEntry
 
         while (lead_in.duration_seconds
                 + lead_out.duration_seconds
@@ -1142,11 +611,13 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
               f" Hidden new cards: {hidden_count:,}.")
 
         tags = save_audio_lesson(cfg,
+            dataset=dataset,
             out_dir=out_dir,
             lead_in=lead_in,
             lead_out=lead_out,
             main_audio=main_audio,
             exercise_no=exercise_no,
+            review_count=review_count,
             introduced_count=introduced_count,
             hidden_count=hidden_count,
             first_new_challenge=first_new_challenge,
@@ -1202,11 +673,12 @@ def main() -> None:
     main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
     if RESORT_BY_LENGTH:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
+    
     save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
 
     # good abstraction
     create_card_audio(cfg, main_deck)
-    _exercise_set, end_notes_by_track, metadata_by_track, finished_deck = create_audio_lessons(cfg, util=util, out_dir=out_dir, main_deck=main_deck)
+    _exercise_set, end_notes_by_track, metadata_by_track, finished_deck = create_audio_lessons(cfg, dataset=DATASET, util=util, out_dir=out_dir, main_deck=main_deck)
 
     info_out_dir: str = os.path.join(out_dir, "info")
     os.makedirs(info_out_dir, exist_ok=True)
