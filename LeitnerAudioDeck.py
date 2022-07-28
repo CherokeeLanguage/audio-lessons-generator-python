@@ -58,7 +58,7 @@ class AudioData:
         return tmp
 
     @card_id.setter
-    def card_id(self, card_id: str) -> None:
+    def card_id(self, card_id: str | int) -> None:
         tmp: str = str(card_id)
         while len(tmp) < 4:
             tmp = "0" + tmp
