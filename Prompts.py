@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Dict
 from pydub import AudioSegment
 
 from tts import en_audio
@@ -6,9 +7,9 @@ from tts import en_audio
 AMZ_VOICE_INSTRUCTOR: str = "Matthew"
 
 
-def create_prompts() -> dict[str, AudioSegment]:
+def create_prompts() -> Dict[str, AudioSegment]:
     print("Creating instructor prompts")
-    prompts: dict[str, AudioSegment] = dict()
+    prompts: Dict[str, AudioSegment] = dict()
     voice: str = AMZ_VOICE_INSTRUCTOR
 
     tag: str = "also_hear"
