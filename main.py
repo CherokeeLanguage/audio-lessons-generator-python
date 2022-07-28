@@ -437,9 +437,6 @@ def skip_new(card: AudioCard) -> bool:
     return pbound_counts[bp] > 2 and vstem_counts[vs] > 4
 
 
-max_review_cards_this_session: int = 0
-
-
 def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
 
     jsonpickle.load_backend('simplejson', 'dumps', 'loads', ValueError)
@@ -723,7 +720,8 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
                 discards_deck=discards_deck,
                 finished_deck=finished_deck,
                 prev_card_id=prev_card_id,
-                max_new_reached=max_new_reached
+                max_new_reached=max_new_reached,
+                max_review_cards_this_session=max_review_cards_this_session
             )
             if not card:
                 # we have done all available cards
@@ -1023,7 +1021,7 @@ def create_audio_lessons(cfg: Config, *, util: CardUtils, out_dir: str, main_dec
 
 
 def main() -> None:
-    global review_count, max_review_cards_this_session
+    global review_count
     deck_source: str
 
     util: CardUtils = CardUtils()
@@ -1117,6 +1115,7 @@ def next_card(
     exercise_set: int,
     prev_card_id: str,
     max_new_reached: bool,
+    max_review_cards_this_session: int,
     ) -> AudioCard | None:
     global review_count # FIXME: put this state somewhere
     bump_completed(discards_deck=discards_deck, finished_deck=finished_deck)
@@ -1137,7 +1136,8 @@ def next_card(
                 finished_deck=finished_deck,
                 exercise_set=exercise_set,
                 prev_card_id=prev_card_id,
-                max_new_reached=max_new_reached
+                max_new_reached=max_new_reached,
+                max_review_cards_this_session=max_review_cards_this_session
             )
 
     if finished_deck.next_show_time <= 0 and finished_deck.has_cards and review_count < max_review_cards_this_session:
