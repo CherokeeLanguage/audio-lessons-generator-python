@@ -96,7 +96,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||go:hwe:l jigowhtí|||||go:hwe:li jigowhtíha|I see a sheet of paper.|||
 
 ||wě:s ga:ji:gowhtí|||||wě:sa ga:ji:gowhtíha|I see cats.|||
-||gu:le de:jigowhtí|||||digo:hwe:li de:jigowhtíha|I see acorns.|||
+||gu:le de:jigowhtí|||||gu:le de:jigowhtíha|I see acorns.|||
 
 ||ahwi hi:gowhtí|||||ahawi hi:gowhtíha|You see a deer.|||
 ||tǔ:ya higowhtí|||||tǔ:ya higowhtíha|You see a bean.|||
@@ -378,7 +378,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||wahya de:jaká|||||wahaya de:jakáha|“You have wolves.”|||
 
 ||hla di:sadv́:d yidǔ:ha|||||vhla di:sadv́:di yidǔ:ha|“He doesn't have traps.”|||
-|||||||vhla nǔ:na yidù:nǐ:ha|“They don't potatoes.”|||
+|||||||vhla nǔ:na yidù:nǐ:ha|“They don't have potatoes.”|||
 |||||||vhla nv̀:ya yida:giha|“I don't have rocks.”|||
 |||||||vhla gu:le yidi:jaha|“You don't have acorns.”|||
 ||hla gi:hli yidù:wa:ká|||||vhla gi:hli yidù:wa:káha|“He doesn't have dogs.”|||
