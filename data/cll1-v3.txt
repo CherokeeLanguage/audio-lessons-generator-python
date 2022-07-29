@@ -21,10 +21,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||go:hű:sd; gő:sdi; gő:sd|||||go:hű:sdi|Something.|||
 
-|||||||donada:go:hv:ɂi|let us two see each other again later.|||
-|||||||dodada:go:hv:ɂi|let us all see each other again later.|||
+|||||||donada:go:hv:ɂi|Let's both see each other again later.|||
+|||||||dodada:go:hv:ɂi|Let's all see each other again later.|||
 
-||u:yő ada|||||u:yő:ɂi ada|Bad wood|||
+||u:yő ada|||||u:yő:ɂi ada|Bad wood.|||
 |||||||ni! a̋ɂda|Look! A young animal.|||
 |||||||ayv:wi|A person.|||
 ||yó:ne:g; yv́:wúne:ga; yv́:wúne:g|||||yó:ne:ga|An English or White person.|||
@@ -46,8 +46,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||u:ne̋:g ada|||||u:ne̋:ga ada|White wood.|||
 
-|||||||tigo:lǐ:ya.|let you read them.|||
-|||||||tatv:dà:sda|let you listen to them.||Complete the lesson material through the end of chapter 4.|
+|||||||tigo:lǐ:ya.|Read them.|||
+|||||||tatv:dà:sda|Listen to them.||Complete the lesson material through the end of chapter 4.|
 
 #Chapter 5|||
 ||hisgi:ne̋ agě:hya|||||hisgi:ne̋:ɂi agě:hya|A fifth woman.|||
@@ -72,7 +72,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||sǔ:dáli:ne̋ achű:j|||||sǔ:dáli:ne̋:ɂi achű:ja|A sixth boy.|||
 ||gahlgwǒ:gi:ne̋ salǒ:l|||||gahlgwǒ:gi:ne̋:ɂi salǒ:li|A seventh squirrel.|||
 
-|||||||nitadv̀:ga|let you do them.|||
+|||||||nitadv̀:ga|Do them.|||
 |||||||to:hwe:lv̀:ga|Write them.||Complete the lesson material through the end of chapter 5.|
 
 #Chapter 6|||
