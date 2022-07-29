@@ -122,9 +122,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||U:sdi̋ desgì:kà:si.; U:sdi̋ desgì:kà.|Hand me the baby.|||
 |||||||U:sdi̋ hì:kà:si.; U:sdi̋ hì:kà.|Hand him the baby.|||
 |||||||U:sdi̋ gahì:kà:si.; U:sdi̋ gahì:kà.|Hand them the baby.|||
-|||||||Go:hwe:la desgi:nv̀:si.; Go:hwe:la desgi:nv̀.|Hand me the paper.|||
-|||||||Go:hwe:la hi:nv̀:si.; Go:hwe:la hi:nv̀.|Hand him the paper.|||
-|||||||Go:hwe:la digahi:nv̀:si.; Go:hwe:la digahi:nv̀.|Hand them the paper.|||
+|||||||Go:hwe:li desgi:nv̀:si.; Go:hwe:li desgi:nv̀.; Go:hwe:la desgi:nv̀:si.; Go:hwe:la desgi:nv̀.|Hand me the paper.|||
+|||||||Go:hwe:li hi:nv̀:si.; Go:hwe:li hi:nv̀.; Go:hwe:la hi:nv̀:si.; Go:hwe:la hi:nv̀.|Hand him the paper.|||
+|||||||Go:hwe:li digahi:nv̀:si.; Go:hwe:li digahi:nv̀.; Go:hwe:la digahi:nv̀:si.; Go:hwe:la digahi:nv̀.|Hand them the paper.|||
 |||||||Gv:no:sásdi desgi:dì:si.|Hand me a broom.|||
 |||||||Gv:no:sásdi hi:dì:si.|Hand him a broom.|||
 |||||||Gv:no:sásdi gahi:dì:si.|Hand them the broom.|||
@@ -141,7 +141,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
 |||||||À:gwadu:líha.; À:wadu:líha.; À:wadu:líɂa.; À:wadu:lí.; À:gwadu:líɂa.; À:gwadu:lí.|I want.|||
 |||||||Jadu:líha.; Jadu:líɂa.; Jadu:lí.|You want.|||
-|||||||Ù:du:líha.; Ù:du:lí.|He or she wants.|||
+|||||||Ù:du:líha.; Ù:du:lí.|He wants.|||
 |||||||Ù:nadu:líha.; Ù:nadu:lí.|They want.|||
 |||||||Agǐ:gáge.; Agǐ:ge.|Red.|||
 |||||||U:gù:ku.|An owl. Owls.|||
@@ -253,23 +253,23 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 |||||||Ù:hyv:dla.; Ù:hyv:dl.|It is cold.|||
 |||||||U:gǎ:nowa; U:gǎ:nowi; U:gǎ:no|It is warm.|||
-|||||||Ǔ:hyv́:dla.|North.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi; Jǔ:hyv́:dlv̋.; Ǔ:hyv́:dla̋.|North.|||
 |||||||Jǔ:gá:nawv̋:ɂi.; Jǔ:gá:nawv̋.|South.|||
 
-|||||||Jǔ:hyv́:dlv̋:ɂi dò:dalv̋:ɂi.; Jǔ:hyv́:dlv̋ dò:dalv̋.; Uhyv̀:dlv́ dò:dalv̋.|The mountains are in the North.|||
-|||||||Dò:dalv̋:ɂi jù:hyv:dla.; Dò:dalv̋ jù:hyv:dla.; Dò:dala jù:hyv́:dlā.|The mountains are cold.|||
-|||||||Jǔ:gá:nawv̋:ɂi dò:dalv̋:ɂi.; Jǔ:gá:nawv̋ dò:dalv̋.; Ù:gà:nowá dò:dalv̋.; Ù:gà:nowá dò:dala.|The mountains are in the South.|||
-|||||||Dò:dalv̋:ɂi ju:gǎ:nawa.; Dò:dalv̋ ju:gǎ:nawa.; Dò:dala jugá:nà:wī.|The mountains are warm.|||
-|||||||Ù:hyv:dla jǔ:hyv́:dlv̋ɂi.; Ù:hyv:dla jǔ:hyv́:dlv̋.; Uhyv̀:dlā ù:hyv̀:dlv̋.|It is cold in the North.|||
-|||||||Ù:hyv:dlv̌:ɂi jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌ jǔ:hyv́:dlv̋.; Uhyv̀:dlv̄ ù:hyv̀:dlv̋.|It was cold in the North.|||
-|||||||U:gǎ:nawa jǔ:gá:nawv̋:ɂi.; U:gǎ:nawa jǔ:gá:nawv̋.; Ù:gà:nowá ugà:nà:wv̋.|It is warm in the South.|||
-|||||||U:gǎ:nawv̌ɂi jǔ:gá:nawv̋:ɂi.; U:gǎ:nawv̌ jǔ:gá:nawv̋.; Ù:gà:nowv́ ugà:nò:wv̋.|It was warm in the South.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi dò:dalv̋:ɂi.; Jǔ:hyv́:dlv̋ dò:dalv̋.|The mountains are in the North.|||
+|||||||Dò:dalv̋:ɂi jù:hyv:dla.; Dò:dalv̋ jù:hyv:dla.|The mountains are cold.|||
+|||||||Jǔ:gá:nawv̋:ɂi dò:dalv̋:ɂi.; Jǔ:gá:nawv̋ dò:dalv̋.|The mountains are in the South.|||
+|||||||Dò:dalv̋:ɂi ju:gǎ:nawa.; Dò:dalv̋ ju:gǎ:nawa.|The mountains are warm.|||
+|||||||Ù:hyv:dla jǔ:hyv́:dlv̋ɂi.; Ù:hyv:dla jǔ:hyv́:dlv̋.|It is cold in the North.|||
+|||||||Ù:hyv:dlv̌:ɂi jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌ jǔ:hyv́:dlv̋.|It was cold in the North.|||
+|||||||U:gǎ:nawa jǔ:gá:nawv̋:ɂi.; U:gǎ:nawa jǔ:gá:nawv̋..|It is warm in the South.|||
+|||||||U:gǎ:nawv̌ɂi jǔ:gá:nawv̋:ɂi.; U:gǎ:nawv̌ jǔ:gá:nawv̋.|It was warm in the South.|||
 |||||||Jǔ:hyv́:dlv̋:ɂi e̋:hi.; Jǔ:hyv́:dlv̋ e̋:hi.; Uhyv̀:dlv́ e̋:hi.|A Northerner.|||
 |||||||Jǔ:gá:nawv̋:ɂi e̋:hi.; Jǔ:gá:nawv̋ e̋:hi.; Ugà:nà:wv́ e̋:hi.|A Southerner.|||
-|||||||Jǔ:hyv́:dlv̋:ɂi gě:dô:a.; Jǔ:hyv́:dlv̋ gě:dô.; Ù:hyv:dlv́ gě:dô.|I am in the North.|||
-|||||||Jǔ:gá:nawv̋:ɂi gě:dô:a.; Jǔ:gá:nawv̋ gě:dô.; Ù:gà:nawv́ gě:dô.|I am in the South.|||
-|||||||À:gihyv́:dlv̋:ɂi.; À:gihyv́:dlv̋.; Agihyv́:dlv̄.|I am a Republican|||
-|||||||À:gigá:nawv̋:ɂi.; À:gigá:nawv̋.; Agiga̋:nà:wv̄.|I am a Democrat.|||
+|||||||Jǔ:hyv́:dlv̋:ɂi gě:dô:a.; Jǔ:hyv́:dlv̋ gě:dô.|I am in the North.|||
+|||||||Jǔ:gá:nawv̋:ɂi gě:dô:a.; Jǔ:gá:nawv̋ gě:dô.|I am in the South.|||
+|||||||À:gihyv́:dlv̋:ɂi.; À:gihyv́:dlv̋.|I am a Republican|||
+|||||||À:gigá:nawv̋:ɂi.; À:gigá:nawv̋.|I am a Democrat.|||
 
 |||||||E:lohi.; E:lo.|The World.|||
 |||||||U:galǒ:ga.; U:galǒ.|A leaf.|||
@@ -298,7 +298,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 # === 8
 
-|||||||Ganaji.; Ganaj.|Kanuche. Hominy hickory nut soup.|||
+|||||||Gana̋:ji.; Gana̋:j.|Kanuche. Hominy hickory nut soup.|||
 |||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas.|||
 |||||||Disdayo:hi.|Santa Claus.|||
 |||||||Adǎ:hnehdi.; Adǎ:hne.;|A gift.|||
@@ -329,10 +329,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ù:hwasga.|He is buying it.|||
 |||||||Ù:nihwasga.|They are buying it.|||
 
-|||||||Jì:neha.|I am gifting it.|||
-|||||||Hì:neha.|You are gifting it.|||
-|||||||À:hneha.|He is gifting it.|||
-|||||||À:nihneha.|They are gifting it.|||
+|||||||Jì:neha.|I am giving it.|||
+|||||||Hì:neha.|You are giving it.|||
+|||||||À:hneha.|He is giving it.|||
+|||||||À:nihneha.|They are giving it.|||
 
 |||||||À:gi:káha.|I have something alive.|||
 |||||||Jakáha.|You have something alive.|||
@@ -370,7 +370,59 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Na.|That|||
 |||||||Naɂvɂi.; Naɂv.|Close by. Near.|||
 |||||||Nanaɂi.; Nanā.|Over there.|||
+
+# Exercise 5
+*|||||||Go:hwe:li à:gináɂa.; Go:hwe:la à:giná.|I have a piece of paper.|||
+*|||||||Ajv̋sdohdi jaha.; Ajv̋sdohd jaha.|You have a lightbulb.|||
+*|||||||Gù:gu ù:néha.; Gù:gu ù:néɂa.|He has a bottle containing a liquid.|||
+*|||||||U:gù:ku ù:nikáha.|They have an owl.|||
+*|||||||A:gwe:hlu:sdi à:gináɂa.; A:gwe:hlu:sdi à:giná.|I have a ribbon.|||
+*|||||||Ǔ:gáma janéɂa.; Ǔ:gám jané.|You have soup.|||
+*|||||||Nǔ:na ǔ:ha.; Nǔ:n ǔ:ha.|He has a potato.|||
+*|||||||Uwo:dű:ne̋:ga kama:ma ù:nikáha.; Uwo:dű:hi u:ne̋:ga kama:ma ù:nikáha.|They have a pretty white butterfly.|||
+*|||||||Gù:gu ǔ:ha.|He has a bottle.|||
+*|||||||Di:de:hyǒ:hvsgi, go:hí i:ga ő:sda:dv̀ di:sésdi go:lì:ga!|Teacher, I understand numbers well today!|||
+
+# Exercise 6
+
+*|||||||Hiɂv̀:si ajv̋sdohdi.; Hiɂv̀:si ajv̋sdi.|Hand him a lightbulb.|||
+*|||||||Hi:dì:si astayostohdi.|Hand him a firecracker.|||
+*|||||||Adǎ:hnehdi à:wadu:líɂa.; Adǎ:hnehdi à:gwadu:líɂa.; Adǎ:hnehdi à:wadu:lí.; Adǎ:hnehdi à:gwadu:lí.|I want a gift.|||
+*|||||||Adǎ:hnehdi à:kiwásga.|I am buying a gift.|||
+*|||||||Gv:no:sásdi hi:dì:si Lu:ga.; Gv:no:sásdi Lu:ga hi:dì:si.|Hand Luke the broom.|||
+*|||||||Ju:ni:là:wisdi gé:ga u:nali:he:lísdi.; Ju:ni:là:wisdi gé:ga u:li:he:lísdi.|I am going to church Thanksgiving.|||
+*|||||||Gù:gu à:nihneha Lu:ga|They are giving Luke a bottle.|||
+*|||||||Digo:hwe:li à:niwásga Maga.|They are buying Mark a book.|||
+*|||||||Ahljadő:hvsgi, di:de:hyǒ:hvsgi áhni analsdâ:yv:hv́sga.|The minister and teacher are having dinner here.|||
+*|||||||Me:li ale Go:gi áhani analsdâ:yv:hv́sga.; Me:li Go:gi áhani analsdâ:yv:hv́sga.|Mary and Summer are having dinner here.|||
+*|||||||Go:hwe:li ù:du:líha Ma:ga, à:díɂa.|He says Mark wants a piece of paper.|||
+*|||||||Di:jv̋ysdi dù:du:líha go:hí i:ga.; Dijv̋sdohdi dù:du:líha go:hí i:ga.|He wants lightbulbs today.|||
+*|||||||Ahljadő:hvsgi, digo:hwe:li hi:nv̀:si.|Hand him the book, Pastor.|||
+*|||||||Á:ma gahiɂv̀:si.|Hand them the salt.|||
+*|||||||Ama gahineɂv̀:si.|Hand them the water.|||
+*|||||||Ga̋:du ale go:hlv:hnv̋ dè:skv̀:si.; Ga̋:du go:hlv:hnv̋ dè:skv̀:si.|Hand me the bread and butter.
+
+# Exercise 7
+*||||||Ꮎ ᎥᎴ ᎠᎭᎳᏓ.|Na v:le ahala̋:da.|That locust is a loudmouth.
+*||||||ᎪᎵ ᏧᏴᏢ ᎤᏴᏜ.; ᏧᏴᏢ ᎪᎵ ᎤᏴᏜ.|Gő:la jǔ:hyv́:dlv ù:hyv:dla.; Jǔ:hyv́:dlv gő:la ù:hyv:dla.|Winter in the north is cold.|||
+*||||||ᎤᎾᎢ ᎨᎦ.|Nanaɂi gé:ga.|I am going over there.|||
+*||||||ᎪᎵᎦ. ᏂᎯᎾᎲ?|Go:lì:ga. Nihinahv?|I understand. But what about you?|||
+*||||||ᎤᏁᎦ ᎠᎴ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.; ᎤᏁᎦ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.|U:ne̋:ga ale agv̌:hnáge̋ hiɂa kama:ma.; U:ne̋:ga agv̌:hnáge̋ hiɂa kama:ma.|This butterfly is black and white.
+
+# Exercise 8
+*||||||Ꮒ! ᎹᎦ.|Ni! Ma:ga.|Look at Mark!|||
+ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ|A black and white turkey is near.
+ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ -ᎢᎦ-|The locusts are rejoicing today.
+ᎤᎦᎹ ᎤᏁᎠ|He has soup.
+ᏄᎾ ᎤᎭ|He has a potato.
+ᎠᎩᎦᎨ ᎤᎦᎶᎦ ᎤᎾᎠ|He has a red leaf.
+ᎤᎭᎸᎾ ᎨᎢ|A bell is over there.
+ᎠᎭᏂ ᎠᎬᏂᎨ ᎫᎫ|Here is a black bottle.
+ᎦᎸᎶᎯ ᎩᎦᎨ|The sky is red.
+ᏅᎩ ᎧᎹᎹ ᎠᎾᎵᏍᏔᏴᎲᏍᎦ|Four butterflies are feeding.
+
 *|||||||Chuně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
+
 
 # === 9
 
