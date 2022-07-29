@@ -389,11 +389,11 @@ def fix_english_sex_genders(text_en) -> str:
     return tmp
 
 
-def create_card_audio(main_deck: LeitnerAudioDeck):
+def create_card_audio(deck: LeitnerAudioDeck):
     os.makedirs(CACHE_CHR, exist_ok=True)
     os.makedirs(CACHE_EN, exist_ok=True)
     print("Creating card audio")
-    for card in tqdm(main_deck.cards):
+    for card in tqdm(deck.cards):
         data: AudioData = card.data
         text_chr = data.challenge
         text_chr_alts = data.challenge_alts
@@ -420,11 +420,11 @@ vstem_counts: dict[str, int] = dict()
 pbound_counts: dict[str, int] = dict()
 
 
-def save_stem_counts(finished_deck) -> None:
+def save_stem_counts(deck: LeitnerAudioDeck) -> None:
     global vstem_counts, pbound_counts
     vstem_counts.clear()
     pbound_counts.clear()
-    for card in finished_deck.cards:
+    for card in deck.cards:
         data = card.data
         bp: str = data.bound_pronoun.strip()
         if not bp:
@@ -473,14 +473,14 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write("\n")
 
 
-def collect_audio(out_dir: str, main_deck: LeitnerAudioDeck) -> None:
+def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
     print("Collection audio for other projects to use.")
     dest_en = os.path.join(out_dir, "source", "en")
     os.makedirs(dest_en, exist_ok=True)
     dest_chr = os.path.join(out_dir, "source", "chr")
     os.makedirs(dest_chr, exist_ok=True)
     card: AudioCard
-    for card in tqdm(main_deck):
+    for card in tqdm(deck):
         data = card.data
         for file in data.challenge_files:
             shutil.copy(file.file, dest_chr)
