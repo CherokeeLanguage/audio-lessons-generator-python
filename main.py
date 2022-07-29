@@ -517,9 +517,10 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
 
 def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
     print("Collection audio for other projects to use.")
-    dest_en = os.path.join(out_dir, "source", "en")
+    dest_audio: str = os.path.join(out_dir, "source")
+    dest_en = os.path.join(dest_audio, "en")
     os.makedirs(dest_en, exist_ok=True)
-    dest_chr = os.path.join(out_dir, "source", "chr")
+    dest_chr = os.path.join(dest_audio, "chr")
     os.makedirs(dest_chr, exist_ok=True)
     card: AudioCard
     for card in tqdm(deck):
@@ -530,6 +531,8 @@ def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
         for file in data.answer_files:
             shutil.copy(file.file, dest_en)
             file.file = os.path.basename(file.file)
+    # save deck *after* altering the file paths
+    save_deck(main_deck, pathlib.Path(dest_audio, f"{DATASET}-with-audio-file.json"))
 
 
 def main() -> None:
@@ -572,7 +575,6 @@ def main() -> None:
 
     if cfg.collect_audio:
         collect_audio(out_dir, main_deck)
-        save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-with-audio-file.json"))
 
     prompts = Prompts.create_prompts()
 
