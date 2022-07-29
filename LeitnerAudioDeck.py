@@ -21,12 +21,15 @@ rand: random.Random = random.Random(1234)
 @dataclass(slots=True)
 class AudioDataFile:
     file: str = ""
+    pronunciation: str = ""
+    voice: str = ""
     duration: float = 0.0
 
 
 @dataclass(slots=True)
 class AudioData:
     _sort_key: str = ""
+    syllabary: str = ""
     bound_pronoun: str = ""
     verb_stem: str = ""
     answer_files: list[AudioDataFile] = field(default_factory=list)

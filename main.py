@@ -26,6 +26,7 @@ from tqdm import tqdm
 from CardUtils import CardUtils
 from LeitnerAudioDeck import AudioCard
 from LeitnerAudioDeck import AudioData
+from LeitnerAudioDeck import AudioDataFile
 from LeitnerAudioDeck import LeitnerAudioDeck
 import Prompts
 import tts
@@ -33,12 +34,12 @@ from SrtEntry import SrtEntry
 from config import Config
 
 # DATASET: str = "osiyo-tohiju-then-what"
-# DATASET: str = "cll1-v3"
+DATASET: str = "cll1-v3"
 # DATASET: str = "cll1-v3-cram"
 # DATASET: str = "animals"
 # DATASET: str = "bound-pronouns"
 # DATASET: str = "ced-sentences"
-DATASET: str = "beginning-cherokee"
+# DATASET: str = "beginning-cherokee"
 
 MP3_QUALITY: int = 3
 MP3_HZ: int = 48_000
@@ -325,6 +326,9 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
                     to_en_data.challenge_alts.append(alt)
+            syllabary: str = fields[IX_SYLLABARY]
+            if syllabary:
+                to_en_data.syllabary = syllabary
 
     # Fix casing if needed.
     for to_en_card in chr2en_deck:
@@ -397,8 +401,18 @@ def create_card_audio(main_deck: LeitnerAudioDeck):
         for voice in IMS_VOICES:
             tts.tts_chr(voice, text_chr, cfg.alpha)
             for alt in text_chr_alts:
+                data_file: AudioDataFile = AudioDataFile()
+                data_file.file = tts.get_mp3_chr(voice, alt, cfg.alpha)
+                data_file.voice = voice
+                data_file.pronunciation = alt
+                data.challenge_files.append(data_file)
                 tts.tts_chr(voice, alt, cfg.alpha)
         for voice in AMZ_VOICES:
+            data_file: AudioDataFile = AudioDataFile()
+            data_file.file = tts.get_mp3_en(voice, text_en)
+            data_file.voice = voice
+            data_file.pronunciation = text_en
+            data.answer_files.append(data_file)
             tts.tts_en(voice, text_en)
 
 
@@ -459,6 +473,23 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write("\n")
 
 
+def collect_audio(out_dir: str, main_deck: LeitnerAudioDeck) -> None:
+    print("Collection audio for other projects to use.")
+    dest_en = os.path.join(out_dir, "source", "en")
+    os.makedirs(dest_en, exist_ok=True)
+    dest_chr = os.path.join(out_dir, "source", "chr")
+    os.makedirs(dest_chr, exist_ok=True)
+    card: AudioCard
+    for card in tqdm(main_deck):
+        data = card.data
+        for file in data.challenge_files:
+            shutil.copy(file.file, dest_chr)
+            file.file = os.path.basename(file.file)
+        for file in data.answer_files:
+            shutil.copy(file.file, dest_en)
+            file.file = os.path.basename(file.file)
+
+
 def main() -> None:
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
@@ -490,6 +521,11 @@ def main() -> None:
     save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
 
     create_card_audio(main_deck)
+
+    if cfg.collect_audio:
+        collect_audio(out_dir, main_deck)
+        save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-with-audio-file.json"))
+
     prompts = Prompts.create_prompts()
 
     _exercise_set: int = 0

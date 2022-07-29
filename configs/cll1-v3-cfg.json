@@ -2,6 +2,7 @@
     "alpha": 1.3,
     "create_mp4": false,
     "break_on_end_note": false,
+    "collect_audio": true,
     "create_all_sessions": true,
     "data_dir": "walc1",
     "debug_deck": false,
