@@ -2,16 +2,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 #Chapters 1-4|||
 
-||Síyo|||||o:síyo|Hello.|||
+||Síyo||||ᎣᏏᏲ; ᏏᏲ|o:síyo|Hello.|||
 
-||v:ɂ.|||||v:ɂv.|Yes.|||
-||hla; tla|||||vhla.|No. Not.|||
-|||||||howa|Okay.|||
-|||||||ayo!|Ouch!|||
+||v:ɂ.||||ᎥᎥ|v:ɂv.|Yes.|||
+||hla; tla||||ᎥᏝ; Ꮭ; Ꮭ|vhla.|No. Not.|||
+||||||ᎰᏩ|howa|Okay.|||
+||||||ᎠᏲ|ayo!|Ouch!|||
 
-|||||||tò:hi̋|“Peaceful. Well in health.”|||
-|||||||tò:hi̋:ju?|It is well. Right?|||
-||tò:hi̋:s?|||||tò:hi̋:sgo?|Is it well?|||
+||||||ᏙᎯ|tò:hi̋|“Peaceful. Well in health.”|||
+||||||ᏙᎯᏧ?|tò:hi̋:ju?|It is well. Right?|||
+||tò:hi̋:s?||||ᏙᎯᏍᎪ?; ᏙᎯᏍ?|tò:hi̋:sgo?|Is it well?|||
 ||v:ɂ. tò:hi̋:gwu.|||||v:ɂv. tò:hi̋:gwu.|Yes, it's just well.|||
 ||v:ɂ. ő:sda.|||||v:ɂv. ő:sda.|Yes, it is good.|||
 ||hla ő:sd yi̋gi.; hla ő:sd yi̋g.; hlahv ő:sd yi̋gi.|||||v̀:hla ő:sda yi̋gi.|It's not good.|||
