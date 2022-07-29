@@ -8,6 +8,11 @@ exit $?
 ''"""
 from __future__ import annotations
 
+import argparse
+import dataclasses
+import random
+from typing import Optional
+
 import jsonpickle
 import os
 import pathlib
@@ -89,6 +94,35 @@ previous_voice: str = ""
 amz_previous_voice: str = ""
 
 cfg: Config | None = None
+
+
+@dataclasses.dataclass
+class Options:
+    dataset: str = ""
+    mp4: bool | None = None
+
+
+def parse_args() -> Options:
+    options: Options = Options()
+    parser: argparse.ArgumentParser = argparse.ArgumentParser(description="Build challenge response audio sessions.")
+    parser.add_argument("--dataset", type=str, required=True)
+    parser.add_argument("--mp4", dest="mp4", action="store_const", const=True, required=False, help="""
+    Enable mp4 generation. Use --no-mp4 to disable mp4 generation.
+    Overrides value provided in dataset configuration file.
+    """, default=None)
+    parser.add_argument("--no-mp4", dest="mp4", action="store_const", const=False, required=False, help="""
+        Enable mp4 generation. Use --no-mp4 to disable mp4 generation.
+        Overrides value provided in dataset configuration file.
+        """, default=None)
+    args: argparse.Namespace = parser.parse_args()
+    if args.mp4 is not None:
+        options.mp4 = args.mp4
+        if args.mp4:
+            print(f"Forcing mp4 generation.")
+        else:
+            print(f"Skipping mp4 generation.")
+    options.dataset = args.dataset
+    return options
 
 
 def next_ims_voice(gender: str = "") -> str:
@@ -461,7 +495,6 @@ max_review_cards_this_session: int = 0
 
 
 def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
-
     jsonpickle.load_backend('simplejson', 'dumps', 'loads', ValueError)
     jsonpickle.set_preferred_backend('simplejson')
     jsonpickle.set_encoder_options('simplejson', ensure_ascii=False)
@@ -491,14 +524,20 @@ def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
 
 
 def main() -> None:
+    random.seed(0)  # Make output idempotent for consecutive runs on the same day.
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
+    global DATASET
     deck_source: str
 
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
 
+    options: Options = parse_args()
+    DATASET = options.dataset
     load_config()
+    if options.mp4 is not None:
+        cfg.create_mp4 = options.mp4
 
     out_dir: str
 
@@ -639,10 +678,8 @@ def main() -> None:
         srt_entries: list[SrtEntry] = list()
         srt_entry: SrtEntry
 
-        while (lead_in.duration_seconds
-                + lead_out.duration_seconds
-                + main_audio.duration_seconds
-                < cfg.session_max_duration):
+        while (
+                lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
@@ -1015,7 +1052,7 @@ def main() -> None:
             cmd.append("stillimage")
             save_title = tags["title"]
             if tags["album"]:
-                tags["title"] = tags["title"] + " (" + tags["album"]+")"
+                tags["title"] = tags["title"] + " (" + tags["album"] + ")"
             for k, v in tags.items():
                 cmd.append("-metadata")
                 cmd.append(f"{k}={v}")
