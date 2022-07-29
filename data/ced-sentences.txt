@@ -44,7 +44,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||U:hyv̋:dlas hihné:gi?|||||U:hyv̋:dlasgo hihné:gi?|Do you vote Republican?||
 |||||||U:jő:sdi dù:wo:hwě:la̋.|His handwriting is confusing.||
 ||Uwe:la gv:hnisdí.|||||Uwe:la gv:hnisdíha.|He is cooking liver.||
-|||||||V:dali ì:nasǔ:hnú:ga.|Let's go fishing at the pond.||
+|||||||V:dali ì:nasǔ:hnú:ga.|Let's both go fishing at the pond.||
 ||À:da:ně:lv ga:de:yoha.; À:da:ně:lv̋ ga:de:yo.|||||À:da:ně:lv̋:ɂi ga:de:yoha.|I am circling a building.||
 ||Amáhldi̋ gà:sgǒ:sga.|||||Amáhldi̋:ɂi gà:sgǒ:sga.|I am digging a water well.||
 ||Ayv:wi:ya̋ à:je:lv:sga.|||||Ayv:wi:ya̋:ɂi à:je:lv:sga.|He is acting like an Indian.||
@@ -54,7 +54,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ada:geyhdi ulsge̋:da.|Love is important.||
 |||||||Ahli:lő:sdi e:sgi:dì:si.|Hand me a ruler.||
 |||||||Halsaladv̀:ga hle̋:ga.|Raise up awhile.||
-||Ì:na:liɂǐ:da ahyelsdi.|||||Ì:na:liɂǐ:da hayelsdi.|Let's trade knives.||
+||Ì:na:liɂǐ:da ahyelsdi.|||||Ì:na:liɂǐ:da hayelsdi.|Let's both trade knives.||
 ||Jalagis hiwó:ni:sgi?|||||Jalagisgo hiwó:ni:sgi?|Are you a Cherokee speaker?||
 ||U:ka:hyő:dv̋ há:ɂi:sésdi.|||||U:ka:hyő:dv̋:ɂi há:ɂi:sésdi.|Walk on a dry place.||
 ||U:nǐ:si ù:tvhistanv́.|||||U:nǐ:si ù:tvhistanv́:ɂi.|His grandfather raised him.||
@@ -71,7 +71,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Galv̌:ládige̋ hwiɂlò:ga.|||||Galv̌:ládige̋:ɂi hwiɂlò:ga.|Climb up higher.||
 ||Ù:hnv́:si:yv̋ hale:hv̀:ga.|||||Ù:hnv́:si:yv̋:ɂi hale:hv̀:ga.|Go stand in the corner.||
 |||||||U:naksú:ti anǐ:nayè:gi.|Diamondback rattlers are dangerous.||
-||U:nalà:sgáhldi̋ ì:dè:na.|||||U:nalà:sgáhldi̋:ɂi ì:dè:na.|Let's go to the ball field.||
+||U:nalà:sgáhldi̋ ì:dè:na.|||||U:nalà:sgáhldi̋:ɂi ì:dè:na.|Let's all go to the ball field.||
 |||||||U:ni:hnà:sǔ:ga de:gadé:ɂa.|She's picking some possum grapes.||
 ||U:sgwo:hli̋ à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yé.|||||U:sgwo:hli̋:ɂi à:sgo:lǐ:yéɂa.|He's rubbing his stomach.||
 ||De:hiktahas di:sésdi?|||||De:hiktahasgo di:sésdi?|Do you know your numbers?||
@@ -83,8 +83,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Ù:hlǐ:sdi̋ dù:wu:ktánv́.|||||Ù:hlǐ:sdi̋ dù:wu:ktánv́:ɂi.|He decided too quickly.||
 |||||||Dakwsáni dijalv̌:kwdi?|Do you like turnips?||
 ||Galo:hisdi̋ wù:ktv́:le:sv̌.|||||Galo:hisdi̋:ɂi wù:ktv́:le:sv̌:ɂi.|He went through the doorway.||
-|||||||Jí:sdv:na dì:gihyalú:ga.|Let's go look for crawdads.||
-|||||||Kilágwu wida:dilúhji.|We'll get there pretty soon.||
+|||||||Jí:sdv:na dì:gihyalú:ga.|Let's all go look for crawdads.||
+|||||||Kilágwu wida:dilúhji.|We'll all get there pretty soon.||
 ||Gadò:hv́ dù:nagale:nv:hé?|||||Gadò:hv́ dù:nagale:nv:hé:ɂi?|Why did they separate?||
 ||Jalv̌:kwdis jadawò:sdi?|||||Jalv̌:kwdisgo jadawò:sdi?|Do you like to swim?||
 |||||||Ù:di:hlehgigwu ù:katv̋:ɂhi.|His face is just hot.||
@@ -96,7 +96,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Gà:salě:nis tinâ:wi:dv:hi?|||||Gà:salě:nisgo tinâ:wi:dv:hi?|Are you going to take a coat?||
 ||Digo:hwe:li de:jigo:lǐ:yé.|||||Digo:hwe:li de:jigo:lǐ:yéɂa.|I am reading a book.||
 |||||||Di:liyè:su:lo dà:giyo:hǔ:sī.|I lost some gloves.||
-|||||||Nvwhto:hi:yada ì:dihé:sdi.|Let's live in peace.||
+|||||||Nvwhto:hi:yada ì:dihé:sdi.|Let's all live in peace.||
 ||Uwǒ:tida à:gitsgwalv:tv̋.|||||Uwǒ:tida à:gitsgwalv:tv̋:ɂi.|My ankle is swollen.||
 |||||||Gá:gō de:jakà:no:wadǐ:dô:ha?|Who is looking after you?||
 ||Gà:hi:sgaɂihó:ɂis ju:ganò:ji?; Gà:hi:sgaɂihó:sgo ju:ganò:ji?; Gà:hi:sgaɂihó:s ju:ganò:ji?|||||Gà:hi:sgaɂihó:ɂisgo ju:ganò:ji?|Are you afraid of centipedes?||
@@ -144,7 +144,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||Gő:sdi u:yő:ɂi à:sv̂:ga.; Go:hű:sdi u:yő à:sv̂:ga.; Gő:sdi u:yő à:sv̂:ga.; Go:hű:sd u:yő à:sv̂:ga.; Gő:sd u:yő à:sv̂:ga.|||||Go:hű:sdi u:yő:ɂi à:sv̂:ga.|Something smells bad.||
 ||Gù:gu dè:gwà:yo:dè:sdi gi:hli.|||||Gù:gu dè:gwà:yo:dè:sdi:ha gi:hli.|Ticks are making the dog itch.||
 ||Gu:le dà:nigî:sgó salǒ:li.|||||Gu:le dà:nigî:sgó:ɂi salǒ:li.|Squirrels eat acorns.||
-|||||||Jo:gi dí:dla i:nè:na.|Let's go upstream.||
+|||||||Jo:gi dí:dla i:nè:na.|Let's both go upstream.||
 ||U:tani̋ hiɂi ahnawo.|||||U:tani̋ hiɂa ahnawo.|This shirt is too big.||
 |||||||Ada uwe̋:ti ù:go:sga.|The old wood is decaying.||
 ||Gadò dù:do u:du:ji?; Dò dù:do u:du:ji?|||||Gadò dù:do:ɂa u:du:ji?|What's his uncle's name?||
