@@ -433,8 +433,17 @@ def create_card_audio(deck: LeitnerAudioDeck):
         text_chr_alts = data.challenge_alts
         text_en = data.answer
         for voice in IMS_VOICES:
+            data_file: AudioDataFile = AudioDataFile()
+            data_file.file = tts.get_mp3_chr(voice, text_chr, cfg.alpha)
+            data_file.voice = voice
+            data_file.pronunciation = text_chr
+            data.challenge_files.append(data_file)
             tts.tts_chr(voice, text_chr, cfg.alpha)
             for alt in text_chr_alts:
+                if alt == text_chr:
+                    # don't add another entry to challenge files if we the same
+                    # pronounciation has already been added
+                    continue
                 data_file: AudioDataFile = AudioDataFile()
                 data_file.file = tts.get_mp3_chr(voice, alt, cfg.alpha)
                 data_file.voice = voice
