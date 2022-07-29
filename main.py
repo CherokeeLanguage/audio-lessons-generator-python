@@ -10,31 +10,29 @@ from __future__ import annotations
 
 import argparse
 import dataclasses
-import random
-from typing import Optional
-
-import jsonpickle
 import os
 import pathlib
+import random
 import re
 import shutil
 import subprocess
 import unicodedata
 from datetime import date
 from datetime import datetime
+from random import Random
 
+import jsonpickle
 import simplejson
 from pydub import AudioSegment
-from random import Random
 from tqdm import tqdm
 
+import Prompts
+import tts
 from CardUtils import CardUtils
 from LeitnerAudioDeck import AudioCard
 from LeitnerAudioDeck import AudioData
 from LeitnerAudioDeck import AudioDataFile
 from LeitnerAudioDeck import LeitnerAudioDeck
-import Prompts
-import tts
 from SrtEntry import SrtEntry
 from config import Config
 
@@ -441,8 +439,8 @@ def create_card_audio(deck: LeitnerAudioDeck):
             tts.tts_chr(voice, text_chr, cfg.alpha)
             for alt in text_chr_alts:
                 if alt == text_chr:
-                    # don't add another entry to challenge files if we the same
-                    # pronounciation has already been added
+                    # don't add another entry to challenge files if we have the same
+                    # pronunciation has already been added
                     continue
                 data_file: AudioDataFile = AudioDataFile()
                 data_file.file = tts.get_mp3_chr(voice, alt, cfg.alpha)
@@ -689,8 +687,8 @@ def main() -> None:
         srt_entries: list[SrtEntry] = list()
         srt_entry: SrtEntry
 
-        while (
-                lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds < cfg.session_max_duration):
+        while (lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds
+               < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
             card: AudioCard = next_card(_exercise_set, prev_card_id)
             if not card:
