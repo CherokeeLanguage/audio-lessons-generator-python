@@ -14,7 +14,7 @@ class Config:
     create_mp4: bool = True
     break_on_end_note: bool = True
 
-    collect_audio: bool = False  # whether to actually collect the audio in use for other projects.
+    collect_audio: bool = True  # whether to actually collect the audio in use for other projects.
 
     final_review_session_count: int = 0
     data_dir: str = "walc1"
