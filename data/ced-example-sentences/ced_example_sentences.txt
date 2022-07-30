@@ -65,14 +65,14 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᏓᏟᎶᏍᏗᎭ|2|Yona duhlilostanvi|ᏲᎾ ᏚᏟᎶᏍᏔᏅᎢ?|He drew a picture of a bear.|Yǒ:na dù:hli:ló:stanv̌:ɂi.; Yǒ:na dù:hli:ló:stanv̌.
 *|ᎠᎹᏱ|2|Amayi witahltaduga.|ᎠᎹᏱ ᏫᏔᎵᏔᏚᎦ.|Jump into the water.|Amǎ:yi witáhltadù:ga.
 *|ᎠᏚᎩᏍᏗ|2|Atugisdi unehnelvi.|ᎠᏚᎩᏍᏗ ᎤᏁᏁᎸᎢ.|He gave him an alcoholic drink.|Atǔ:gi̋:sdi ù:ne:hně:lv́:ɂi.; Atǔ:gi̋:sdi ù:ne:hně:lv́.
-*|ᎠᏖᎵᏙ|2|Ditelido degvdiyea.|ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|She is washing plates.|Di:te:lǐ:do de:gv́:dǐ:yéɂa.; Di:te:lǐ:do de:gv́:dǐ:yé.
+*|ᎠᏖᎵᏙ|2|Ditelido degvdiyea.|ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|He is washing plates.|Di:te:lǐ:do de:gv́:dǐ:yéɂa.; Di:te:lǐ:do de:gv́:dǐ:yé.
 *|ᏓᏓᏂᎸᎦ|2|Dodvdanilvjis heli?|ᏚᏛᏓᏂᎸᏥᏍ ᎮᎵ?|Do you think he is going to accept?|Do:dv:dani:lv́:jisgo he:líɂa?; Do:dv:dani:lv́:jisgo he:lí?; Do:dv:dani:lv́:jis he:lí?;
 *|ᎦᎶᏇ|2|Galogwe ganvgaliha.|ᎦᎶᏇ ᎦᏅᎦᎵᎭ.|He is cleaning a gun.|Galò:gwe ganv:galíha.; Galò:gwe ganv:galí.
 *|ᎦᎸᎳᏗᎨᎢ|2|Galvladige hwiloga.|ᎦᎸᎳᏗᎨ ᏫᎶᎦ.|Climb up higher.|Galv̌:ládige̋:ɂi hwiɂlò:ga.; Galv̌:ládige̋ hwiɂlò:ga.
 *|ᎤᏅᏏᏴᎢ|2|Uhnvsiyv hwalehvga.|ᎤᏅᏏᏴ ᏩᎴᎲᎦ.|Go stand in the corner.|Ù:hnv́:si:yv̋:ɂi hale:hv̀:ga.; Ù:hnv́:si:yv̋ hale:hv̀:ga.
 *|ᎤᎦᏑᏘ|2|Unaksuti aninayegi.|ᎤᎾᎦᏑᏘ ᎠᏂᎾᏰᎩ.|Diamondback rattlers are dangerous.|U:naksú:ti anǐ:nayè:gi.
 *|ᎤᎾᎳᏍᎦᎵᏗᎢ|2|Unalasgahldi idena.|ᎤᎾᎳᏍᎦᎸᏗ ᎢᏕᎾ.|Let's all go to the ball field.|U:nalà:sgáhldi̋:ɂi ì:dè:na.; U:nalà:sgáhldi̋ ì:dè:na.
-*|ᎤᎿᏑᎦ|2|Unihnasuga degadea.|ᎤᏂᎿᏑᎦ ᏕᎦᏕᎠ.|She's picking some possum grapes.|U:ni:hnà:sǔ:ga de:gadé:ɂa.
+*|ᎤᎿᏑᎦ|2|Unihnasuga degadea.|ᎤᏂᎿᏑᎦ ᏕᎦᏕᎠ.|He's picking some possum grapes.|U:ni:hnà:sǔ:ga de:gadé:ɂa.
 *|ᎤᏍᏉᏟᎢ|2|Usgwohli asgoliyea.|ᎤᏍᏉᏟ ᎠᏍᎪᎵᏰᎠ.|He's rubbing his stomach.|U:sgwo:hli̋:ɂi à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yéɂa.; U:sgwo:hli̋ à:sgo:lǐ:yé.
 *|ᏗᏎᏍᏗ|2|Dehiktahas disesdi?|ᏕᎯᎦᏔᎭᏍ ᏗᏎᏍᏗ?|Do you know your numbers?|De:hiktahasgo di:sésdi?; De:hiktahas di:sésdi?
 *|ᎦᏅᎦ|2|Eladigwu jinvgesdi.|ᎡᎳᏗᏊ ᏥᏅᎨᏍᏗ.|I'll just lie on the floor.|E:ladigwu jinv́:gé:sdi.
@@ -106,12 +106,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎤᏞᎦ|2|Udlejv ajilonuehla.|ᎤᏞᏨ ᎠᏥᎶᏄᎡᏝ.|He took revenge when he was cheated.|ù:dlé:jv̌:ɂi à:jilo:nu:hě:hla.; ù:dlé:jv̌ à:jilo:nu:hě:hla.
 *|ᏄᎳ|2|Nula, daginigohniyojis.|ᏄᎳ, ᏓᎩᏂᎪᏂᏲᏥᏍ.|Hurry. Will we be late?|nű:la. da:ginigo:hnǐ:yô:jisgo?; nű:la. da:ginigo:hnǐ:yô:jis?
 *|ᎠᏕᎶᎰᏍᎦ|2|Udelohosv ajilonuesgvi.|ᎤᏕᎶᎰᏒ ᎠᏥᎶᏄᎡᏍᎬᎢ.|He found out that he was being cheated.|ù:de:loho:sv̌:ɂi à:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌:ɂi.; ù:de:loho:sv̌ a`:jilo:nu:hě:sgv̌.
-*|ᎦᏛᏍᎦ|2|Didahlilostanv gatvsga.|ᏗᏓᏟᎶᏍᏔᏅ ᎦᏛᏍᎦ.|She's hanging up a picture.|Di:da:hli:lò:stanv̋:ɂi gatv́sga.; Di:da:hli:lò:stanv̋ gatv́sga.
+*|ᎦᏛᏍᎦ|2|Didahlilostanv gatvsga.|ᏗᏓᏟᎶᏍᏔᏅ ᎦᏛᏍᎦ.|He's hanging up a picture.|Di:da:hli:lò:stanv̋:ɂi gatv́sga.; Di:da:hli:lò:stanv̋ gatv́sga.
 *|ᎤᏴᏥᏅᏗᎦ|2|Hlesdi jichayvhjinvtsi.|ᏞᏍᏗ ᏥᏣᏴᏥᏅᏘᏏ.|Don't choke on it.|Hlè:sdi ji:chayvhjinv:tgi.; Hè:sdi ji:chayvhjinv:tgi.; Hlè:sdi ji:chayvhjinv:tsi.; Hè:sdi ji:chayvhjinv:tsi.
 *|ᏓᎿᏬᎠ|2|Judanvgalvda tahnawoja.|ᏧᏓᏅᎦᎸᏓ ᏔᎿᏬᏣ.|Put on some clean clothes.|Ju:danv:galv̋:da tahnáwo:ja.
 *|ᎦᏰᎪᎩ|2|Gayhgogi kanohehlidohoi.|ᎦᏴᎪᎩ ᎧᏃᎮᏟᏙᎰᎢ.|He goes around telling lies.|Gayhgò:gi kano:hě:hlǐ:dô:hó:ɂi.
 *|ᎠᎴᏫᏍᏙᏗᎭ|2|Halehwisdohda dagwalela.|ᎭᎴᏫᏍᏙᏓ ᏓᏆᎴᎳ.|Stop the car.|Hale:hwisdohda dagwalé:la.
-*|ᎠᏕᎰᎯᏍᏗᎭ|2|Udehohisdohdi anehldiha.|ᎤᏕᎰᎯᏍᏙᏗ ᎠᏁᏟᏗᎭ.|She's trying to embarrass him.|U:de:hǒ:hísdohdi á:nehldíha.; U:de:hǒ:hísdohdi á:nehldí.
+*|ᎠᏕᎰᎯᏍᏗᎭ|2|Udehohisdohdi anehldiha.|ᎤᏕᎰᎯᏍᏙᏗ ᎠᏁᏟᏗᎭ.|He's trying to embarrass him.|U:de:hǒ:hísdohdi á:nehldíha.; U:de:hǒ:hísdohdi á:nehldí.
 *|ᎠᏴᏓᏆᎶᎠ|2|Hatvgias ahyvdagwalosgv?|ᎭᏛᎩᎠᏍ ᎠᏴᏓᏆᎶᏍᎬ?|Do you hear it thundering?|À:tv:gí:ɂasgo à:hyv:dagwálô:sgv?; À:tv:gí:ɂas à:hyv:dagwálô:sgv?
 *|ᎠᎵᏥᏈᏍᎦ|2|Hlesdi hyaljikwidohesdi.|ᏞᏍᏗ ᏯᎵᏥᏈᏙᎮᏍᏗ.|Don't go around spitting.|Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.; Hlè:sdi hyaljí:kwǐ:dô:hé:sdi.
 *|ᏚᏴᏍᏙᏯᏍᎦ|2|Kosdu dakiyvsdoysdisgoi.|ᎪᏍᏚ ᏓᎩᏴᏍᏙᏯᏍᏗᏍᎪᎢ.|Dust makes me sneeze.|Kò:sdu dà:kiyv̌:sdô:ysdi:sgó:ɂi.; Kò:sdu dà:kiyv̌:sdô:ysdi:sgó.
@@ -165,13 +165,13 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 *|ᎬᎫᏍᏗᎭ|3|Isa gvgusdiha eji.|ᎢᏌ ᎬᎫᏍᏗᎭ ᎡᏥ.|Mother is sifting flour.|I:sa gv:gǔ:sdíha e:ji.; I:sa gv:gǔ:sdí e:ji.
 *|ᏔᏬᏗ|3|Ketv ukila tawodi.|ᎨᏛ ᎤᎩᎳ ᏔᏬᏗ.|A hawk is sitting on a post.|Gé:tvsdi u:kiɂla tawǒ:di.; Ké:tv u:kiɂla tawǒ:di.
 *|ᎠᏥᏍᏕᎠ|3|Selu gadu utsdevi.|ᏎᎷ ᎦᏚ ᎤᏥᏍᏕᎥᎢi.|He took a bite of cornbread.|Sě:lu ga̋:du ù:tsdé:ɂv̌:ɂi.; Sě:lu ga̋:du ù:tsdé:sv̌:ɂi.; Sě:lu ga̋:du ù:tsdé:ɂv̌.; Sě:lu ga̋:du ù:tsdé:sv̌.
-*|ᎠᎫᎩᎠ|3|Svdoni akugia ama.|ᏒᏙᏂ ᎠᎫᎩᎠ ᎠᎹ.|She's dipping water from a bucket.|Sv:do:ni à:kǔ:gíɂa ama.
+*|ᎠᎫᎩᎠ|3|Svdoni akugia ama.|ᏒᏙᏂ ᎠᎫᎩᎠ ᎠᎹ.|He's dipping water from a bucket.|Sv:do:ni à:kǔ:gíɂa ama.
 *|ᎤᏣᎠ|3|Wesa kanesai ujaa.|ᏪᏌ ᎧᏁᏌᎢ ᎤᏣᎠ.|The cat is inside the box.|Wě:sa kanè:sáɂi ù:jáa.; Wě:sa kanè:sá ù:jáa.; Wě:sa kanè:sá ù:já.
 *|ᏣᏁᎳ, ᏧᏁᎳ|3|Chanel adelv tivsi.|ᏣᏁᎳ ᎠᏕᎸ ᏘᎥᏏ.|Give him eight dollars.|Chaně:la áde:lv̋:ɂi tiɂvsi.; Chaně:l áde:lv̋ tiɂvsi.; Chuně:la áde:lv̋:ɂi tiɂvsi.; Chuně:l áde:lv̋ tiɂvsi.
 *|ᎤᏩᏅᎦ|3|Gado niga jvnvga?|ᎦᏙ ᏂᎦ ᏨᏅᎦ?|Why are you in such a hurry?|Gadò niga̋ jv:nv́:ga?
 *|ᎾᎯᏳᎢ|3|Nahiyuis kila tesi?|ᎾᎯᏳᎢᏍ ᎩᎳ ᏖᏏ?|You're not going until then?|Nà:hiyű:ɂisgo kila té:si?; Nà:hiyű:ɂis kila té:si?; Nà:hiyű:s kila té:si?
 *|ᎠᏟᎭ|3|Ama adliha svdonii.|ᎠᎹ ᎠᏟᎭ ᏒᏙᏂᎢ.|He's drawing water from the barrel.|Ama à:dlǐ:ha sv:do:ni.; Ama à:dlǐ sv:do:ni.
-*|ᎤᏙᏓ|3|Gado advnehi udoda?|ᎦᏙ ᎠᏛᏁᎯ ᎤᏙᏓ?|What does her father do?|Gadò a:dvne:hi u:do:da?; Dò a:dvne:hi u:do:da?
+*|ᎤᏙᏓ|3|Gado advnehi udoda?|ᎦᏙ ᎠᏛᏁᎯ ᎤᏙᏓ?|What does his father do?|Gadò a:dvne:hi u:do:da?; Dò a:dvne:hi u:do:da?
 *|ᎠᎯᏙᎭ|3|Gado usdi hihidoha?|ᎦᏙ ᎤᏍᏗ ᎯᎯᏙᎭ?|What do you have in your hand?|Gadō u:sdi hihǐ:dô:ha?; Dō u:sdi hihǐ:dô?
 *|ᎪᏢᏍᎦ|3|Gado usdi hohlvsga?|ᎦᏙ ᎤᏍᏗ ᎰᏢᏍᎦ?|What are you making?|Gadō u:sdi hò:hlv:sga?; Dō u:sd hò:hlv:sga?
 *|ᎬᏂᏍᏗᎭ|3|Gado usdi jvhnisdi?|ᎦᏙ ᎤᏍᏗ ᏨᏂᏍᏗ?|What do you have cooking?|Gadō u:sdi chv:hnisdíha?; Dō u:sdi chv:hnisdíha?; Gadō u:sd chv:hnisdí?; Dō u:sd chv:hnisdí?
@@ -237,24 +237,24 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 
 |ᎢᏤᎢ|3|Anije tuya dinadesuga.|ᎠᏂᏤ ᏚᏯ ᏗᎾᏕᏑᎦ.|Let's both go pick some green beans.|
 |ᎠᏯ, ᎠᏴ|3|Ayas agwenvsdi jaduli?|ᎠᏯᏍ ᎠᏇᏅᏍᏗ ᏣᏚᎵ?|Do you want me to go?|
-|ᎦᏅᏗᎢ|3|Ganvdi asdvvsga usdii.|ᎦᏅᏗ ᎠᏍᏛᎥᏍᎦ ᎤᏍᏗᎢ.|She's feeding a baby on her breast.|
+|ᎦᏅᏗᎢ|3|Ganvdi asdvvsga usdii.|ᎦᏅᏗ ᎠᏍᏛᎥᏍᎦ ᎤᏍᏗᎢ.|xShe's feeding a baby on xher breast.|
 |ᎧᎹᎹ|3|Kamama ukila jahnuwvi.|ᎧᎹᎹ ᎤᎩᎳ ᏣᏄᏮᎢ.|There's a butterfly on your shirt.|
 |ᏑᎾᎴᎢ ᏗᏜ|3|Sunale didla hiluhjvi.|ᏑᎾᎴ ᏗᏜ ᎯᎷᏨᎢ.|Come in the morning.|
-|ᎤᎪᏗ|3|Ugodi unvdi ganadegoi.|ᎤᎪᏗ ᎤᏅᏗ ᎦᎾᏕᎪᎢ.|She sells a lot of milk.|
+|ᎤᎪᏗ|3|Ugodi unvdi ganadegoi.|ᎤᎪᏗ ᎤᏅᏗ ᎦᎾᏕᎪᎢ.|He sells a lot of milk.|
 |ᎤᏴᏜ|3|Uhyvdla ama aktadegia.|ᎤᏴᏜ ᎠᎹ ᎠᎩᏔᏕᎩᎠ.|I'm thirsty for cold water.|
 |ᎤᏰᎸᎭᎢ|3|Uyelvha udawov uweyvi.|ᎤᏰᎸᎭ ᎤᏓᏬᎥ ᎤᏪᏴᎢ.|He swam naked in the creek.|
 |ᎠᏰᏟ|3|Ahani ayehli johlesdi.|ᎠᎭᏂ ᎠᏰᏟ ᏦᏞᏍᏗ.|Sit here in the middle.|
 |ᎠᎴᎲᏍᎦ|3|Ahani ayehli halehvga.|ᎠᎭᏂ ᎠᏰᎵ ᎭᎴᎲᎦ.|Stand here in the middle.|
 |ᎠᏴᏫᏗᎭ|3|Hadlv dehiyvhwidi ada?|ᎭᏢ ᏕᎯᏴᏫᏗ ᎠᏓ?|Where are you taking the wood?|
 |ᎦᏁᎠ|3|Hadlv janese jalsdulo?|ᎭᏢ ᏣᏁᏎ ᏣᎵᏍᏚᎶ?|Where did you get your cap?|
-|ᎤᏠᎩ|3|Hadlv wiganela uhlogi?|ᎭᏢ ᏫᎦᏁᎳ ᎤᏠᎩ?|Where does her aunt live?|
+|ᎤᏠᎩ|3|Hadlv wiganela uhlogi?|ᎭᏢ ᏫᎦᏁᎳ ᎤᏠᎩ?|Where does his aunt live?|
 |ᎦᏂᏝᏗᎠ|3|Hatlv iyv dajinihladi?|ᎭᏢ ᎢᏴ ᏓᏥᏂᏝᏗ?|Where shall I set up the bed?|
 |ᎧᏁᏌᎢ|3|Hia dikanesai jusihwa.|ᎯᎠ ᏗᎧᏁᏌᎢ ᏧᏏᏩ.|These boxes are empty.|
 |ᎠᏈᏴᎡᎭ|3|Hila iga hiyagwiyvele?|ᎯᎳ ᎢᎦ ᎯᏯᏈᏴᎡᎴ?|How much did you pay him?|
 |ᏗᏖᏍᏗ|3|Hla yateyvsga ditesdi.|Ꮭ ᏯᏖᏴᏍᎦ ᏗᏖᏍᏗ.|The iron isn't heating up.|
 |ᎠᏚᎩᎠ|3|Hla yulvkwdi utugisdi.|Ꮭ ᏳᎸᏉᏗ ᎤᏚᎩᏍᏗ.|He doesn't like to take a drink.|
 |ᎧᏃᎨ|3|Jitaga kanoge asdigia.|ᏥᏔᎦ ᎧᏃᎨ ᎠᏍᏗᎩᎠ.|He's eating a chicken wing.|
-|ᎤᏌᏃ|3|Nigada jusano datesga.|ᏂᎦᏓ ᏧᏌᏃ ᏓᏖᏍᎦ.|She's ironing all of her dresses.|
+|ᎤᏌᏃ|3|Nigada jusano datesga.|ᏂᎦᏓ ᏧᏌᏃ ᏓᏖᏍᎦ.|xShe's ironing all of xher dresses.|
 |ᎦᎧᏁᎭ|3|Sagwu wesa jiyakaneha.|ᏌᏊ ᏪᏌ ᏥᏯᎧᏁᎭ.|I am giving him one cat.|
 |ᎬᏟᎭ|3|Sis hvhdliha galuysdi?|ᏏᏍ ᎲᏟᎭ ᎦᎷᏯᏍᏗ?|Are you still sharpening the axe?|
 |ᎦᏁᎩᎡᎭ|3|Unvdi ganegieha wahga.|ᎤᏅᏗ ᎦᏁᎩᎡᎭ ᏩᎦ.|He's milking a cow.|
@@ -262,7 +262,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎬᎿ|3|Usegajv gvhna anadiha.|ᎤᏎᎦᏨ ᎬᎿ ᎠᎾᏗᎭ.|They say he is barely alive.|
 |ᎠᏥᎳ ᎪᏢᏗ|3|Ajila gohlvhdi sgidisi.|ᎠᏥᎳ ᎪᏢᏗ ᏍᎩᏗᏏ.|Give me a match.|
 |ᎠᎹᏰᏟ|3|Amayehli digwenvsv ayv.|ᎠᎹᏰᏟ ᏗᏇᏅᏒ ᎠᏴ.|My home is in the United States.|
-|ᎠᏥᎸᏍᎩ|3|Anijilvsgi dunvsi kiloi|ᎠᏂᏥᎸᏍᎩ ᏚᏅᏏ ᎩᎶᎢ|Someone gave her some flowers.|
+|ᎠᏥᎸᏍᎩ|3|Anijilvsgi dunvsi kiloi|ᎠᏂᏥᎸᏍᎩ ᏚᏅᏏ ᎩᎶᎢ|Someone gave him some flowers.|
 |ᏗᎧᎸᎬᎢ|3|Dikalvgv didla wulosvi.|ᏗᎧᎸᎬ ᏗᏜ ᏭᎶᏒᎢ.|He went toward the east.|
 |ᎦᏣᏄᎵ|3|Gajanuli dagwalela uha.|ᎦᏣᏄᎵ ᏓᏆᎴᎳ ᎤᎭ.|He has a fast car.|
 |ᎢᏅᎯ|3|Invhi wedoha tstvgodii.|ᎢᏅᎯ ᏪᏙᎭ ᏣᏛᎪᏗᎢ.|He's too far away to hear you.|
@@ -287,7 +287,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏰᎦ|3|Hiyegi agosela, uyejvi.|ᎯᏰᎩ ᎠᎪᏎᎳ, ᎤᏰᏨᎢ.|When he was told to wake up, he woke up.|
 |ᎤᏥᎸᎢ|3|Ilvhiyuis ujilv jadeda?|ᎢᎸᎯᏳᎢᏍ ᎤᏥᎸ ᏣᏕᏓ?|Have you ever picked cotton?|
 |ᎦᎸᎳᏗ|3|Jiyu galvladi ganohili.|ᏥᏳ ᎦᎸᎳᏗ ᎦᏃᎯᎵ.|The airplane is flying high.|
-|ᎤᏓᎨᏳᎭ|3|Udohiyu ase udageyusei.|ᎤᏙᎯᏳ ᎠᏎ ᎤᏓᎨᏳᏎᎢ.|I guess he really loved her.|
+|ᎤᏓᎨᏳᎭ|3|Udohiyu ase udageyusei.|ᎤᏙᎯᏳ ᎠᏎ ᎤᏓᎨᏳᏎᎢ.|I guess he really loved him.|
 |ᎠᏏᏔᏗᎠ|3|Unalii ganvwo usitadvi.|ᎤᎾᎵᎢ ᎦᏅᏬ ᎤᏏᏔᏛᎢ.|He placed his hand on his friend's shoulder.|
 |ᎢᏳᏍᏗ|3|Vsgi iyusdi agwaduliha.|ᎥᏍᎩ ᎢᏳᏍᏗ ᎠᏆᏚᎵᎭ.|I want one like it.|
 |ᎦᏅᏆᎶᎠ|3|Yvgi gahatv ganvgwaloa.|ᏴᎩ ᎦᎭᏛ ᏓᏅᏆᎶᎠ.|He's hammering on a nail.|
@@ -305,7 +305,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᎾᎶᎢᏓ|3|Unaloidas ahnawo tinesi?|ᎤᎾᎶᎢᏓᏍ ᎠᎿᏬ ᏘᏁᏏ?|Are you going to get a plaid shirt?|
 |ᎤᏅᏗ|3|Unvdi ulvgwdi uditasdii.|ᎤᏅᏗ ᎤᎸᏉᏗ ᎤᏗᏔᏍᏗᎢ.|He likes to drink milk.|
 |ᎤᏏᏩ|3|Usihwa talugisgi eskvsi.|ᎤᏏᏩ ᏔᎷᎩᏍᎩ ᎡᏍᎬᏏ.|Hand me an empty can.|
-|ᎤᏚᎩ|3|Utugi agwvha jiyatvgodii|ᎤᏚᎩ ᎠᏋᎭ ᏥᏯᏛᎪᏗᎢ.|I hope to hear from her.|
+|ᎤᏚᎩ|3|Utugi agwvha jiyatvgodii|ᎤᏚᎩ ᎠᏋᎭ ᏥᏯᏛᎪᏗᎢ.|I hope to hear from him.|
 |ᎤᏬᏗᎨᎢ|3|Uwodige dagwalela natli.|ᎤᏬᏗᎨ ᏓᏆᎴᎳ ᎾᏟ.|There goes a brown car.|
 |ᎤᏩᏂᏒᎢ|3|Aniwsvgis unvnsv dejaha?|ᎠᏂᏩᏒᎩᏍ ᎤᏅᏂᏒ ᏕᏣᎭ?|Do you have any ripe cantaloupes?|
 |ᎠᏎᏛ|3|Dagutahnis helia? Asedv.|ᏓᎫᏔᏂᏍ ᎮᎵᎠ? ᎠᏎᏛ.|Do you think it's going to snow? Maybe.|
@@ -328,7 +328,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᎳᏗᎠ|3|Udlawadv uladv hayelsdi.|ᎤᏜᏩᏛ ᎤᎳᏛ ᎭᏰᎵᏍᏗ.|He put the knife in his pocket.|
 |ᎤᏓᏣᏘᏗ|3|Udohiyu udajatdi achuja.|ᎤᏙᎯᏳ ᎤᏓᏣᏘᏗ ᎠᏧᏣ.|He's really a reckless boy.|
 |ᎧᏫ|3|Uhyvsdi kahwi agilvkwdi.|ᎤᏴᏍᏗ ᎧᏫ ᎠᎩᎸᏉᏗ.|I like strong coffee.|
-|ᎠᏍᏕᏲᎭ|3|Ustihgv asdeyo agehyuja.|ᎤᏍᏘᎬ ᎠᏍᏕᏲ ᎠᎨᏳᏣ.|The girl is braiding her hair.|
+|ᎠᏍᏕᏲᎭ|3|Ustihgv asdeyo agehyuja.|ᎤᏍᏘᎬ ᎠᏍᏕᏲ ᎠᎨᏳᏣ.|The girl is braiding his hair.|
 |ᎦᎵᎥᏂᎭ|3|Uweji achuja ulivhnilvi.|ᎤᏪᏥ ᎠᏧᏣ ᎤᎵᎥᏂᎸᎢ.|He spanked his son.|
 |ᎠᎦᎾᎦᏘ|3|Aganakti uyvsdi wijiyavi.|ᎠᎦᎾᎦᏘ ᎤᏴᏍᏗ ᏫᏥᏯᎥᎢ.|I was in the doctor's office.|
 |ᎠᏎᎩ|3|Asegi agwadanhdadv hlega.|ᎠᏎᎩ ᎠᏆᏓᏅᏓᏛ ᏞᎦ.|I felt peculiar for awhile.|
@@ -340,7 +340,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏍᎪᏂ|3|Skoni digadoga disuhvsga.|ᏍᎪᏂ ᏗᎦᏙᎦ ᏗᏑᎲᏍᎦ.|He's standing on the other side fishing.|
 |ᏐᎯ|3|Sohi deguesgo uligohvsdi.|ᏐᎯ ᏕᎫᎡᏍᎪ ᎤᎵᎪᎲᏍᏗ.|He picks hickory nuts in the fall.|
 |ᏒᏃᏱ|3|Svnoyi ayehli daganeladi.|ᏒᏃᏱ ᎠᏰᏟ ᏓᎦᏁᎳᏗ.|At midnight I will leave.|
-|ᎤᏕᎰᏌᏘ|3|Udehosati achuja uwakaha.|ᎤᏕᎰᏌᏘ ᎠᏧᏣ ᎤᏩᎧᎭ.|She has a bashful boy.|
+|ᎤᏕᎰᏌᏘ|3|Udehosati achuja uwakaha.|ᎤᏕᎰᏌᏘ ᎠᏧᏣ ᎤᏩᎧᎭ.|He has a bashful boy.|
 |ᎤᎭᏠᎨᎭ|3|Uhahloge gahlvsgv iyusdi.|ᎤᎭᏠᎨ ᎦᏢᏍᎬ ᎢᏳᏍᏗ.|He's yawning because he's sleepy.|
 |ᎤᏒᏕᎾ|3|Usvdena ujeli ganvgaliha.|ᎤᏒᏕᎾ ᎤᏤᎵ ᎦᏅᎦᎵᎭ.|He's cleaning his shotgun.|
 |ᎤᏔᎾ|3|Utana gahljode ahnesgeha.|ᎤᏔᎾ ᎦᎵᏦᏕ ᎠᏁᏍᎨᎭ.|He is building a big house.|
@@ -362,7 +362,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏂᏏᎭ|3|Inada ulihwojv unisahnvi.|ᎢᎾᏓ ᎤᎵᏬᏨ ᎤᏂᏓᏅᎢ.|He buried a dead snake|
 |ᎪᎰᏍᎦ|3|Jolani gatinvtv uwohosvi.|ᏦᎳᏂ ᎦᏘᏅᏛ ᎤᏬᎰᏒᎢ.|The window pane fell.|
 |ᎦᎵᏙᏗ|3|Kalseji gahldohdi eskvsi.|ᎧᎵᏎᏥ ᎦᎵᏙᏗ ᎡᏍᎬᏏ.|Hand me the sugar bowl.|
-|ᎤᏩᎾᏫᎠ|3|Kanawogv iyusdi uwanawia.|ᎧᎾᏬᎬ ᎢᏳᏍᏗ ᎤᏩᎾᏫᎠ.|She's shivering because she's cold.|
+|ᎤᏩᎾᏫᎠ|3|Kanawogv iyusdi uwanawia.|ᎧᎾᏬᎬ ᎢᏳᏍᏗ ᎤᏩᎾᏫᎠ.|He's shivering because He's cold.|
 |ᎡᎵᎠ|3|Kilagwu dvaniluhji gelia.|ᎩᎳᏊ ᏛᎠᏂᎷᏥ ᎨᎵᎠ.|They're coming back shortly, I think.|
 |ᎦᎵᏉᎩᏁᎢ|3|Nihi gahlgwogine gesesdi.|ᏂᎯ ᎦᎵᏉᎩᏁ ᎨᏎᏍᏗ.|You will be the seventh.|
 |ᏓᎵᏲᏏᎭ|3|Taliyosa digadulida dejaliyohvi.|ᏔᎵᏲᏌ ᏗᎦᏚᎵᏓ ᏕᏣᎵᏲᎲᎢ.|Change your wet socks.|
@@ -406,7 +406,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎥᏳᎩ|3|Usgasehdi vhyugi uniyvhvi.|ᎤᏍᎦᏎᏗ ᎥᏳᎩ ᎤᏂᏴᎲᎢ.|He caught a bad disease.|
 |ᎠᎵᏰᏑᏍᏙ|3|Utana aliyesusto gohlvsga.|ᎤᏔᎾ ᎠᎵᏰᏑᏍᏙ ᎪᎸᏍᎦ.|I am making a big ring.|
 |Ꮲ, ᎢᎸᏢᎢ|3|Wiganvhnv dlv jidegadlosv.|ᏫᎦᏅᏅ Ꮲ ᏥᏕᎦᏠᏒ.|We all met somewhere down the road.|
-|ᎠᏕᎳᏧᏢᎢ|3|Adeljuhlv uwenvsdi uduliha.|ᎠᏕᎵᏧᏢ ᎤᏪᏅᏍᏗ ᎤᏚᎵᎭ.|She wants to go to California.|
+|ᎠᏕᎳᏧᏢᎢ|3|Adeljuhlv uwenvsdi uduliha.|ᎠᏕᎵᏧᏢ ᎤᏪᏅᏍᏗ ᎤᏚᎵᎭ.|He wants to go to California.|
 |ᎠᎪᏕᏍᏗ|3|Akodesdi guhahldi gohlvsga.|ᎠᎪᏕᏍᏗ ᎫᎭᏟᏗ ᎪᏢᏍᎦ.|He's making a handle for a shovel.|
 |ᏓᎿᏪᎠ|3|Deganiwea aksvsdi ugvwahli.|ᏕᎦᏂᏪᎠ ᎠᎩᏒᏍᏗ ᎤᎬᏩᏟ.|I am undressing to go to sleep.|
 |ᎠᏏᏁᎦ|3|Hasinuga gadvnv, hasinesvi.|ᎭᏏᏄᎦ ᎦᏛᏅ, ᎭᏏᏁᏒᎢ.|When I say back up, back up.|
@@ -434,32 +434,32 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏍᏓᏅᏅᎢ|3|Hia dasdanvhnv tisdawaduga.|ᎯᎠ ᏓᏍᏓᏅᏅ ᏘᏍᏓᏩᏚᎦ.|Follow these lines.|
 |ᎢᏧᏕᏘᏴᏓ|3|Hila ijudetiyvda uhneladei?|ᎯᎳ ᎢᏧᏕᏘᏴᏓ ᎤᏁᎳᏕᎢ?|How many years was he gone?|
 |ᎨᎵᏍᏘᎩ|3|Hila jugvwahldi digelistgi?|ᎯᎳ ᏣᎬᏩᎶᏗ ᏗᎨᎵᏍᏘᎩ.|How much are the pies?|
-|ᎤᎯᏐᏓᏁᎭ|3|Hla yulvkwdi uhisohdanehdi.|Ꮭ ᏳᎸᏉᏗ ᎤᎯᏐᏓᏁᏗ.|She doesn’t like to get lonesome.|
+|ᎤᎯᏐᏓᏁᎭ|3|Hla yulvkwdi uhisohdanehdi.|Ꮭ ᏳᎸᏉᏗ ᎤᎯᏐᏓᏁᏗ.|He doesn’t like to get lonesome.|
 |ᎠᏖᎸᎲᏍᎦ|3|Hlesdi jihitelvhni ayvhdlo.|ᏞᏍᏗ ᏥᎯᏖᎸᏂ ᎠᏴᏠ.|Don't shake the ladder.|
 |ᏓᎴᎯᏏᎭ|3|Junidlvgi wayav dalehisiha.|ᏧᏂᏢᎩ ᏩᏯᎥ ᏓᎴᎯᏏᎭ.|He's recuperating in a hospital.|
 |ᏜᎢᏓ|3|Kilo dlaida nigvnhdesidoha.|ᎩᎶ ᏜᎢᏓ ᏂᎬᎾᏕᏏᏙᎭ.|Someone is gathering poke.|
 |ᏚᏍᏓᏃᏴᎦ|3|Kilo dusdanohyvhgv gatvgia.|ᎩᎶ ᏚᏍᏓᏃᏴᎬ ᎦᏛᎩᎠ.|I hear someone making footsteps.|
 |ᎠᏍᎳᏗᎠ|3|Sogwili gehyahtahi usladvi.|ᏐᏈᎵ ᎨᏯᏔᎯ ᎤᏍᎳᏛᎢ.|He roped a wild horse.|
 |ᏑᏗ|3|Taliha disuhdi dagwaduliha.|ᏔᎵᎭ ᏗᏑᏗ ᏓᏆᏚᎵᎭ.|I want two fishhooks.|
-|ᎠᏍᏆᏄᏥᎦ|3|Tamahli uwansv asgwanutsga.|ᏔᎹᏟ ᎤᏩᏅᏒ ᎠᏍᏆᏄᏥᎦ.|She's sucking on a ripe tomato.|
-|ᎤᎸᏉᏗ|3|Udanhtiyv iyusdi jilvgwodi.|ᎤᏓᏅᏘᏴ ᎢᏳᏍᏗ ᏥᎸᏉᏗ.|I like her because she's friendly.|
+|ᎠᏍᏆᏄᏥᎦ|3|Tamahli uwansv asgwanutsga.|ᏔᎹᏟ ᎤᏩᏅᏒ ᎠᏍᏆᏄᏥᎦ.|He's sucking on a ripe tomato.|
+|ᎤᎸᏉᏗ|3|Udanhtiyv iyusdi jilvgwodi.|ᎤᏓᏅᏘᏴ ᎢᏳᏍᏗ ᏥᎸᏉᏗ.|I like him because he's friendly.|
 |ᎤᏓᏅᏘ|3|Udoyu udanhti ahlinohedodi.|ᎤᏙᏳ ᎤᏓᏅᏘ ᎠᏟᏃᎮᏙᏗ.|He is very pleasant to talk with.|
 |ᎠᏐᎸᏓᎩᎠ|3|Unalii ulosa usolvdagielvi.|ᎤᎾᎵᎢ ᎤᎶᏌ ᎤᏐᎸᏓᎩᎡᎸᎢ.|When his friend passed by, he waved to him.|
 |ᎠᏓᏁᎸᎢ|3|Unole uyostanohnv adanelvi.|ᎤᏃᎴ ᎤᏲᏍᏔᏃᏅ ᎠᏓᏁᎸᎢ.|A tornado destroyed a building.|
 |ᎠᏓᏰᏍᎩ|3|Adahyesgi udlvgv ajinvwanvi.|ᎠᏓᏰᏍᎩ ᎤᏢᎬ ᎠᏥᏅᏩᏅᎢ.|He was cured of his cancer.|
-|ᎠᏤᎵᏍᏛᎢ|3|Ajelisdv duhlvnv anijilvsgi.|ᎠᏤᎵᏍᏛ ᏚᎸᏅ ᎠᏂᏥᎸᏍᎩ.|She put flowers on the grave.|
+|ᎠᏤᎵᏍᏛᎢ|3|Ajelisdv duhlvnv anijilvsgi.|ᎠᏤᎵᏍᏛ ᏚᎸᏅ ᎠᏂᏥᎸᏍᎩ.|He put flowers on the grave.|
 |ᎠᎧᏍᎨᏂ|3|Akasgeni uwehisdanelv unvja.|ᎠᎧᏍᎨᏂ ᎤᏪᎯᏍᏓᏁᎸ ᎤᏅᏣ.|He hurt his hip when he fell.|
 |ᎪᏕᏍᎩ, ᎠᎪᏕᏍᎩ|3|Anikodesgi gohusdi digwvhni.|ᎠᏂᎪᏕᏍᎩ ᎪᎱᏍᏗ ᏗᏋᏂ.|The Spades are my cousins.|
 |ᎠᏏᏴᏫ|3|Asiyvwi uwonisv danadlosgvi.|ᎠᏏᏴᏫ ᎤᏬᏂᏒ ᏓᎾᏠᏍᎬᎢ.|One person spoke at the meeting.|
 |ᎠᎦᏔᎭ|3|Hiktahas Jalagi jawonihisdi?|ᎯᎦᏔᎭᏍ ᏣᎳᎩ ᏣᏬᏂᎯᏍᏗ?|Do you know how to speak Cherokee?|
-|ᏧᏅᎩᎶᏍᏗ|3|Junhgilosdi iga dekgilosgoi.|ᏧᏅᎩᎶᏍᏗ ᎢᎦ ᏕᎬᎩᎶᏍᎪᎢ.|She does her laundry on Fridays.|
+|ᏧᏅᎩᎶᏍᏗ|3|Junhgilosdi iga dekgilosgoi.|ᏧᏅᎩᎶᏍᏗ ᎢᎦ ᏕᎬᎩᎶᏍᎪᎢ.|He does his laundry on Fridays.|
 |ᎤᎨᏓᎵᏴᎢ|3|Ukedaliyv adanela juwenvsvi.|ᎤᎨᏓᎵᏴ ᎠᏓᏁᎳ ᏧᏪᏅᏒᎢ.|His house is in the valley.|
 |ᎤᎵᏦᎯᏓ|3|Ulijohida nigvnhde hawiyohi.|ᎤᎵᏦᎯᏓ ᏂᎬᏅᏕ ᎭᏫᏲᎯ.|He's taking the fat off the meat.|
 |ᎤᏁᏍᏓᎳ|3|Unesdala uhyaluga digaduhvi.|ᎤᏁᏍᏓᎳ ᎤᏯᎷᎦ ᏗᎦᏚᎲᎢ.|He went to town after some ice.|
 |ᏩᏯ, ᏩᎭᏯ|3|Wahya yiduniyosi aninayegoi.|ᏩᏯ ᏱᏚᏂᏲᏏ ᎠᏂᎾᏰᎪᎢ.|Wolves are dangerous when they're hungry.|
 |ᎦᏯᏢᎢ|3|Ahnawo gahyadlv nadvnhdesda.|ᎠᎿᏬ ᎦᏯᏢ ᎾᏛᎾᏕᏍᏓ|The collar on the shirt just came off.|
 |ᎠᏴᏍᎩᏱᎭ|3|Ahnawo gahyadlv uhyvsgiyiha.|ᎠᎿᏬ ᎦᏯᏢ ᎤᏴᏍᎩᏱᎭ.|The shirt collar is choking him.|
-|ᎠᎪᏕᎠ|3|Anijilvsgi juwakohdi akodea.|ᎠᏂᏥᎸᏍᎩ ᏧᏩᎪᏗ ᎠᎪᏕᎠ.|She's shoveling a place to set out flowers.|
+|ᎠᎪᏕᎠ|3|Anijilvsgi juwakohdi akodea.|ᎠᏂᏥᎸᏍᎩ ᏧᏩᎪᏗ ᎠᎪᏕᎠ.|He's shoveling a place to set out flowers.|
 |ᎠᏖᎳᏗᎠ|3|Aniyosgi uteladisdi uduliha.|ᎠᏂᏲᏍᎩ ᎤᏖᎳᏗᏍᏗ ᎤᏚᎵᎭ.|He wants to join the military service.|
 |ᏂᎬᏅᏗᎭ|3|Daksi nuwanhtanv galohisdii.|ᏓᎩᏏ ᏄᏩᏅᏔᏅ ᎦᎶᎯᏍᏗᎢ.|He put a lock on the door.|
 |ᎫᏘᎭ|3|Danisdayohihv iga uwutahnvi.|ᏓᏂᏍᏓᏲᎯᎲ ᎢᎦ ᎤᏭᏔᏅᎢ.|It snowed on Christmas day.|
@@ -474,7 +474,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᏄᏩ|3|Juhloyiha dunahnuwo aniyosgi|ᏧᏠᏱᎭ ᏚᏀᏄᏬ ᎠᏂᏲᏍᎩ|Soldiers wear uniforms.|
 |ᎢᎦᎷᎦ|3|Kiladv igaluhga usuhnidolvi.|ᎩᎳᏛ ᎢᎦᎷᎦ ᎤᏑᏂᏙᎸᎢ.|He's just returning from fishing.|
 |ᏕᎦᎸᏛᏂᏍᏗᎭ|3|Sdudi dulvdvnistanv unvgoja.|ᏍᏚᏗ ᏚᎸᏛᏂᏍᏔᏅ ᎤᏅᎪᏣ.|He slammed the door when he went out.|
-|ᎤᎵᎩᏏ|3|Sihgwa juliksi deganvgaliha.|ᏏᏆ ᏧᎵᎩᏏ ᏕᎦᏅᎦᎵᎭ.|She's cleaning some hog intestines.|
+|ᎤᎵᎩᏏ|3|Sihgwa juliksi deganvgaliha.|ᏏᏆ ᏧᎵᎩᏏ ᏕᎦᏅᎦᎵᎭ.|He's cleaning some hog intestines.|
 |ᎦᏍᎩᎶ|3|Talsgo digasgilo dijisgilada|ᏔᎵᏍᎪ ᏗᎦᏍᎩᎶ ᏗᏥᏍᎩᎳᏓ.|Set up twenty chairs.|
 |ᏧᎦᏙᏴᎢᏍᏗ|3|Udohiyu juktoyvisdi agaliha.|ᎤᏙᎯᏳ ᏧᎦᏙᏴᎢᏍᏗ ᎠᎦᎵᎭ.|The sunshine is very blinding.|
 |ᎤᎶᎩᎳ|3|Ugahnanidena iyusdi ulogila.|ᎤᎦᎿᏂᏕᎾ ᎢᏳᏍᏗ ᎤᎶᎩᎳ.|It's cloudy like it's going to rain.|
@@ -504,11 +504,11 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏙᎩᏯᎠ|3|Gago yidadakiya yisdatohgiya?|ᎦᎪ ᏱᏓᏓᎩᏯ ᏱᏍᏓᏙᎩᏯ?|Who would win if you two raced?|
 |ᎠᏥᎸᏍᎦ|3|Gogeyi anijilvsgo anijilvsgi.|ᎪᎨᏱ ᎠᏂᏥᎸᏍᎪ ᎠᏂᏥᎸᏍᎩ.|Flowers bloom in the spring.|
 |ᎠᏙᏯᏩᏍᎦ|3|Gohusdi atoyawsgv jigowhtiha.|ᎪᎱᏍᏗ ᎠᏙᏯᏩᏍᎬ ᏥᎪᏩᏘᎭ.|I see something flashing.|
-|ᎤᎩᏔ|3|Gvgisdi unikta dalsinhdisgoi.|ᎬᎩᏍᏗ ᎤᏂᎩᏔ ᏓᎵᏏᏅᏗᏍᎪᎢ.|She saves watermelon seeds.|
+|ᎤᎩᏔ|3|Gvgisdi unikta dalsinhdisgoi.|ᎬᎩᏍᏗ ᎤᏂᎩᏔ ᏓᎵᏏᏅᏗᏍᎪᎢ.|He saves watermelon seeds.|
 |ᎾᏂᎠ|3|Hisgi nania junilvhwisdanehi.|ᎯᏍᎩ ᎾᏂᎠ ᏧᏂᎸᏫᏍᏓᏁᎯ.|There are five workers.|
 |ᎠᏞᎢᏍᏗ|3|Hlesdi adleisdi yijahyohesdi.|ᏞᏍᏗ ᎠᏞᎢᏍᏗ ᏱᏣᏲᎮᏍᏗ.|Don't be looking for revenge.|
 |ᏧᎾᏓᏍᏚᏗᎢ, ᏗᏓᏍᏚᏗᎢ|3|Ije junadasdudi dvnahnesgehi.|ᎢᏤ ᏧᎾᏓᏍᏚᏗ ᏛᎾᏁᏍᎨᎯ.|They are going to build a new jail.|
-|ᎠᎪᏍᏓᎩᏍᏗ|3|Jisdu gvwsvhnelv agosdagisdi.|ᏥᏍᏚ ᎬᏩᏒᏁᎸ ᎠᎪᏍᏓᎩᏍᏗ.|Rabbits ate up her lettuce.|
+|ᎠᎪᏍᏓᎩᏍᏗ|3|Jisdu gvwsvhnelv agosdagisdi.|ᏥᏍᏚ ᎬᏩᏒᏁᎸ ᎠᎪᏍᏓᎩᏍᏗ.|Rabbits ate up his lettuce.|
 |ᎠᎭᏬᏍᏗᎭ|3|Jolani daksduhna jiawostanvi.|ᏦᎳᏂ ᏓᎦᏍᏚᎿ ᏥᎠᏬᏍᏔᏅᎢ.|When I closed the window, I smothered it.|
 |ᎠᏫᏗᎭ|3|Juwenvsv uhwidvhv sgwahlesdi.|ᏧᏪᏅᏒ ᎤᏫᏛᎲ ᏍᏆᏞᏍᏗ.|He took the ball home with him.|
 |ᏔᎵᏁᎢ|3|Kawohni taline agwadetiyisgi.|ᎧᏬᏂ ᏔᎵᏁ ᎠᏆᏕᏘᏱᏍᎩ.|My birthday is on April second.|
@@ -516,7 +516,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏧᏪᏅᏒᎢ|3|Oginalii juwenvsv widagedoli.|ᎣᎩᎾᎵᎢ ᏧᏪᏅᏒ ᏫᏓᎨᏙᎵ.|I am going to my friend's house.|
 |ᎤᏒᎢ|3|Oginalii usv dulvhwisdanehoi.|ᎣᎩᎾᎵᎢ ᎤᏒ ᏚᎸᏫᏍᏓᏁᎰᎢ.|My friend works during nights.|
 |ᎠᎵᏍᏓᏴᎲᏍᎦ|3|Svhiyeyi utana alsdayvhvsgoi.|ᏒᎯᏰᏱ ᎤᏔᎾ ᎠᎵᏍᏓᏴᎲᏍᎪᎢ.|In the evening, he eats a big meal.|
-|ᎫᎯᏍᏗᎭ|3|Svkta deganosgisgv guhisdiha.|ᏒᎦᏔ ᏕᎦᏃᏍᎩᏍᎬ ᎫᎯᏍᏗᎭ.|She's accusing him of stealing apples.|
+|ᎫᎯᏍᏗᎭ|3|Svkta deganosgisgv guhisdiha.|ᏒᎦᏔ ᏕᎦᏃᏍᎩᏍᎬ ᎫᎯᏍᏗᎭ.|He's accusing him of stealing apples.|
 |ᎤᏗᏆᎸᏕᏱᏓ|3|Tisdayida na judigwalvdeyida.|ᏘᏍᏓᏱᏓ Ꮎ ᏧᏗᏆᎸᏕᏱᏓ.|Tighten those bolts.|
 |ᎠᎳᏍᏛᏍᎦ|3|Tsgoya adasini. Hiyalasdvvga!|ᏥᎪᏯ ᎠᏓᏏᏂ. ᎯᏯᎳᏍᏛᎥᎦ!|There's a bug crawling. Step on it!|
 |ᎠᎿᏪᎠ|3|Uganawosa, uhnawesv gasaleni.|ᎤᎦᎾᏬᏌ, ᎤᎿᏪᏒ ᎦᏌᎴᏂ.|When it got warm, he took off his coat.|
@@ -532,12 +532,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏍᏚᎢᏍᏗ|3|Sduisdi galohisdi asduisdohdi.|ᏍᏚᎢᏍᏗ ᎦᎶᎯᏍᏗ ᎠᏍᏚᎢᏍᏙᏗ.|A key is for unlocking a door.|
 |ᏭᏕᎵᎬᎢ|3|Wudeligv ididla digalogiladia.|ᏭᏕᎵᎬ ᎢᏗᏜ ᏗᎦᎶᎩᎳᏗᎠ.|Clouds are forming in the west.|
 |ᎠᏕᎰᏍᎦ|3|Agehyuja uktasdanela udehosvi.|ᎠᎨᏳᏣ ᎤᎦᏔᏍᏓᏁᎳ ᎤᏕᎰᏒᎢ.|When the girl winked at him, he got embarrassed.|
-|ᎠᏲᏓᏝᎲᎢ|3|Ama ujewasdohtanv ayodahlahvi.|ᎠᎹ ᎤᏤᏩᏍᏙᏔᏅ ᎠᏲᏓᏝᎲᎢ.|She accidently spilled water on the floor.|
-|ᎠᏍᏓᎦᏴᏗᎭ|3|Anineli juhnawo dasdagayhdiha.|ᎠᏂᏁᎵ ᏧᎿᏬ ᏓᏍᏓᎦᏴᏗᎭ.|She's starching her husband's shirts.|
+|ᎠᏲᏓᏝᎲᎢ|3|Ama ujewasdohtanv ayodahlahvi.|ᎠᎹ ᎤᏤᏩᏍᏙᏔᏅ ᎠᏲᏓᏝᎲᎢ.|He accidently spilled water on the floor.|
+|ᎠᏍᏓᎦᏴᏗᎭ|3|Anineli juhnawo dasdagayhdiha.|ᎠᏂᏁᎵ ᏧᎿᏬ ᏓᏍᏓᎦᏴᏗᎭ.|He's starching his husband's shirts.|
 |ᎠᏁᎯᎭ|3|Aniyvwiya unilvkwdi unahnesdi.|ᎠᏂᏴᏫᏯ ᎤᏂᎸᏉᏗ ᎤᎾᏁᏍᏗ.|Indians like to wrestle.|
 |ᏗᏓᏟᎶᏍᏗᏍᎩ|3|Didahlilosdisgi uluhjv analasgalisgvi|ᏗᏓᏟᎶᏍᏗᏍᎩ ᎤᎷᏨ ᎠᎾᎳᏍᎦᎵᏍᎬᎢ|A photographer came to the ball game.|
 |ᎠᏰᏠᎭ|3|Didahyehlohi udlvgi ahyehloha.|ᏗᏓᏰᏠᎯ ᎤᏢᎩ ᎠᏰᏠᎭ.|The surgeon is operating on the patient.|
-|ᏓᎦᏔᎾᏩᏍᎦ|3|Duklanesv iyusdi daktanawsgvi.|ᏚᎦᎳᏁᏒ ᎢᏳᏍᏗ ᏓᎦᏔᎾᏩᏍᎬᎢ.|She was blinking because she had tears in her eyes.|
+|ᏓᎦᏔᎾᏩᏍᎦ|3|Duklanesv iyusdi daktanawsgvi.|ᏚᎦᎳᏁᏒ ᎢᏳᏍᏗ ᏓᎦᏔᎾᏩᏍᎬᎢ.|He was blinking because he had tears in his eyes.|
 |ᎠᏴᎯᎭ|3|Gahljode agiyvhlv ugahnanihla.|ᎦᎵᏦᏕ ᎠᎩᏴᏢ ᎤᎦᎿᏂᏝ.|I entered the house when the rain came.|
 |ᎠᏍᏕᎵᎭ|3|Gahljode ahnesgesgv jisdeliha.|ᎦᎵᏦᏕ ᎠᏁᏍᎨᏍᎬ ᏥᏍᏕᎵᎭ.|I am helping him build a house.|
 |ᎠᏓᏅᏖᎯᎶᎠ|3|Gosdi jinohiselv adanhtehiloa.|ᎪᏍᏗ ᏥᏃᎯᏎᎸ ᎠᏓᏅᏖᎯᎶᎠ.|He's considering something I told him.|
@@ -549,12 +549,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏓᏃᏲ|3|Udihlehga. Hudalvvga adahnoyo.|ᎤᏗᏞᎦ. ᎱᏓᎸᎥᎦ ᎠᏓᏃᏲ.|It's hot. Plug in the fan.|
 |ᎧᏁᏉᎦ|3|Udlvgi udihlehvsgv kanehgwoga.|ᎤᏢᎩ ᎤᏗᏞᎲᏍᎬ ᎧᏁᏉᎦ.|The patient's fever is increasing.|
 |ᎠᎵᏔᏬᏍᏗ|3|Ahltawosdi akiwahisdi agwaduli.|ᎠᎵᏔᏬᏍᏗ ᎠᎩᏩᎯᏍᏗ ᎠᏆᏚᎵ.|I want to buy a comb|
-|ᏗᎦᎾᏐᏗᎢ|3|Digansodi widuhlanv digelistgi.|ᏗᎦᎾᏐᏗ ᏫᏚᏝᏅᏗᎨᎵᏍᏘᎩ.|She put the pies in the pantry.|
+|ᏗᎦᎾᏐᏗᎢ|3|Digansodi widuhlanv digelistgi.|ᏗᎦᎾᏐᏗ ᏫᏚᏝᏅᏗᎨᎵᏍᏘᎩ.|He put the pies in the pantry.|
 |ᏗᏟᏃᎮᏗᎢ, ᏧᎾᏟᏃᎮᏗᎢ|3|Dihlinohehdis unohyvhgv hatvgi?|ᏗᏟᏃᎮᏗᏍ ᎤᏃᏴᎬ ᎭᏛᎩ?|Do you hear a telephone ringing?|
 |ᏗᏆᏲᏗ|3|Dikwayodi dejikwayovsgo juweji.|ᏗᏆᏲᏗ ᏕᏥᏆᏲᎥᏍᎪ ᏧᏪᏥ.|I put pepper on my eggs.|
 |ᎡᎵᏊ|3|Eligwus digaduhv yuwisgikahvga?|ᎡᎵᏊᏍ ᏗᎦᏚᎲ ᏳᏫᏍᎩᎧᎲᎦ?|Can you take me to town?|
 |ᎦᏖᏌᏗ|3|Gatesadi uhyoha didasdayvhvsgi.|ᎦᏖᏌᏗ ᎤᏲᎭ ᏗᏓᏍᏓᏴᎲᏍᎩ.|The cook is looking for a cooking pan.|
-|ᎨᏥᎪᎵᏰᏗᎢ|3|Gejigoliyedi wuwedasdi sunalei.|ᎨᏥᎪᎵᏰᏗ ᏭᏪᏍᏓᏍᏗ ᏑᎾᎴᎢ.|She has to go to the clinic tomorrow.|
+|ᎨᏥᎪᎵᏰᏗᎢ|3|Gejigoliyedi wuwedasdi sunalei.|ᎨᏥᎪᎵᏰᏗ ᏭᏪᏍᏓᏍᏗ ᏑᎾᎴᎢ.|He has to go to the clinic tomorrow.|
 |ᎬᏩᏚᏫᏓ|3|Gvwatuhwida nunadvhnv aniyosgi.|ᎬᏩᏚᏫᏓ ᏄᎾᏛᏅ ᎠᏂᏲᏍᎩ.|Soldiers were all around.|
 |ᎤᎵᏓᏍᏗᎭ|3|Jalidasdisgesdi vsgi nihiwesvi.|ᏣᎵᏓᏍᏗᏍᎨᏍᏗ ᎥᏍᎩ ᏂᎯᏪᏒᎢ.|You'll be making a mistake if you say that.|
 |ᏦᎢᏁᎢ|3|Joine uganhdadv hwihyvhgwidagi.|ᏦᎢᏁ ᎤᎦᏅᏓᏛ ᏫᏴᏈᏓᎩ.|Turn to the third page.|
@@ -562,10 +562,10 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎧᎾᏥᏍᏕᏥ|3|Kanajisdeji aninohilidoha doyi.|ᎧᎾᏥᏍᏕᏥ ᎠᏂᏃᎯᎵᏙᎭ ᏙᏱ.|There are wasps flying around outside.|
 |ᎧᏄᎦᏟ|3|Kanugahli agwadesdi agwaduliha.|ᎧᏄᎦᏟ ᎠᏆᏕᏍᏗ ᎠᏆᏚᎵᎭ.|I want to pick blackberries.|
 |ᎠᎦᏘᏯ|3|Sgiktiyesdi. Kilagwu dvjiluhji.|ᏍᎩᎦᏘᏰᏍᏗ. ᎩᎳᏊ ᏛᏥᎷᏥ.|Wait for me. I'll be right back.|
-|ᏒᎩ|3|Svgi yidunegalvha udloysdisgoi.|ᏒᎩ ᏱᏚᏁᎦᎸᎭ ᎤᏠᏱᏍᏗᏍᎪᎢ.|When she peels onions it makes her cry.|
+|ᏒᎩ|3|Svgi yidunegalvha udloysdisgoi.|ᏒᎩ ᏱᏚᏁᎦᎸᎭ ᎤᏠᏱᏍᏗᏍᎪᎢ.|When he peels onions it makes him cry.|
 |ᎤᏕᎰᎯᏍᏗ|3|Udehohisdi gohlvsga jinadvneha.|ᎤᏕᎰᎯᏍᏗ ᎪᏢᏍᎦ ᏥᎾᏛᏁᎭ.|He's causing embarrassment by doing that.|
 |ᎤᏬᎵᏗ|3|Uwohldi kanohehlvsga utvsohnvi.|ᎤᏬᎵᏗ ᎧᏃᎮᏢᏍᎦ ᎤᏛᏐᏅᎢ.|The old man is telling funny stories.|
-|ᎠᎵᏒᏍᏗᎭ|3|Anijilvsgi julsvsdohdi ulvkwdi.|ᎠᏂᏥᎸᏍᎩ ᏧᎵᏒᏍᏙᏗ ᎤᎸᏉᏗ.|She likes to smell flowers.|
+|ᎠᎵᏒᏍᏗᎭ|3|Anijilvsgi julsvsdohdi ulvkwdi.|ᎠᏂᏥᎸᏍᎩ ᏧᎵᏒᏍᏙᏗ ᎤᎸᏉᏗ.|He likes to smell flowers.|
 |ᏔᎵᏁ ᎢᎦ|3|Dodajalvhwisdanelis Taline Iga?|ᏙᏓᏣᎸᏫᏍᏓᏁᎵᏍ ᏔᎵᏁ ᎢᎦ?|Are you going to work on Tuesday?|
 |ᎦᎾᏌᏁᎠ|3|Eligwus dagwalela yisginsanesi?|ᎡᎵᏊᏍ ᏓᏆᎴᎳ ᏱᏍᎩᎾᏌᏁᏏ?|Can you pull a car for me?|
 |ᎠᏁᏦᏍᎦ|3|Ganulvhi anahnejosga diniyohli.|ᎦᏄᎸᎯ ᎠᎾᏁᏦᏍᎦ ᏗᏂᏲᏟ.|The children are frolicking in the grass|
@@ -581,7 +581,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏧᎾᎵᏍᏓᏴᏗᎢ|3|Junalsdayhdi ajinahlaa oginalii.|ᏧᎾᎵᏍᏓᏴᏗ ᎠᏥᎾᏝᎠ ᎣᎩᎾᎵᎢ.|My friend is employed at a restaurant.|
 |ᎤᏌᎨᎢ|3|Jusage dihnawosdohdi duhnawosdi.|ᏧᏌᎨ ᏗᎿᏬᏍᏙᏗ ᏚᎿᏬᏍᏗ.|He has on thin covers.|
 |ᏔᎷᎩᏍᎩ ᏗᎧᏅᏬᏙᏗ|3|Talugisgi dikanvwodohi utsvhvsi.|ᏔᎷᎩᏍᎩ ᏗᎧᏅᏬᏙᎯ ᎤᏨᎲᏏ.|He ran out of solder.|
-|ᏚᎴᏥ|3|Tuleji nidagvnhdaelv junidlvgii.|ᏚᎴᏥ ᏂᏓᎬᏅᏓᎡᎸ ᏧᏂᏢᎩᎢ.|She had her tonsils taken out at the hospital.|
+|ᏚᎴᏥ|3|Tuleji nidagvnhdaelv junidlvgii.|ᏚᎴᏥ ᏂᏓᎬᏅᏓᎡᎸ ᏧᏂᏢᎩᎢ.|He had his tonsils taken out at the hospital.|
 |ᏧᎦᏔᏥᏍᏓᏟ|3|Ale juktajisdahli nijiyalasdvda.|ᎠᎴ ᏧᎦᏔᏥᏍᏓᏟ ᏂᏥᏯᎳᏍᏛᏓ.|I almost stepped on a copperhead.|
 |ᎤᎩᏓᏟ|3|Aniyvwiya jugidahli dunadihlgoi.|ᎠᏂᏴᏫᏯ ᏧᎩᏓᏟ ᏚᎾᏗᎵᎪᎢ.|Indians wear feathers on their heads.|
 |ᎬᏍᎦᏢᏍᎦ|3|Dagwalela ganosgida gvsgahlvsga.|ᏓᏆᎴᎳ ᎦᏃᏍᎩᏓ ᎬᏍᎦᏢᏍᎦ.|He is hiding a stolen car.|
@@ -599,7 +599,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎬᏍᏉᎠ|3|Wesa yulsdayvhnohna agvsgwosgoi.|ᏪᏌ ᏳᎵᏍᏓᏴᏃᎿ ᎠᎬᏍᏉᏍᎪᎢ.|A cat washes its face after it eats.|
 |ᎠᏓᏠᏍᏗ|3|Adadlosdi aginesv Danisdayohihvi.|ᎠᏓᏠᏍᏗ ᎠᎩᏁᏒ ᏓᏂᏍᏓᏲᎯᎲᎢ.|I got a belt for Christmas.|
 |ᎠᏓᏙᎵᏍᏗ|3|Adadolisdi utayohlv ahljadohvsgi.|ᎠᏓᏙᎵᏍᏗ ᎤᏔᏲᏢ ᎠᎵᏣᏙᎲᏍᎩ.|The preacher asked for prayers.|
-|ᎠᎵᏍᏓᏴᏗ|3|Alsdayhdi udananesvhvsdi uduliha.|ᎠᎵᏍᏓᏴᏗ ᎤᏓᎾᏁᏒᎲᏍᏗ ᎤᏚᎵᎭ.|She wants to shop for groceries.|
+|ᎠᎵᏍᏓᏴᏗ|3|Alsdayhdi udananesvhvsdi uduliha.|ᎠᎵᏍᏓᏴᏗ ᎤᏓᎾᏁᏒᎲᏍᏗ ᎤᏚᎵᎭ.|He wants to shop for groceries.|
 |ᏗᏴᎩᏍᏗ|3|Dihyvgisdi niduwanhdi dulasuhlvi.|ᏗᏴᎩᏍᏗ ᏂᏚᏩᏅᏗ ᏚᎳᏑᏢᎢ.|He has spurs on his boots.|
 |ᎧᏁᎦ|3|Kanegis chiyalinohehdisgv, hlake?|ᎧᏁᎩᏍ ᏥᏯᎵᏃᎮᏗᏍᎬ, ᏝᎨ?|Did he answer when you were speaking to him, or not?|
 |ᏐᏁᎵᏁᎢ|3|Sohnelineis yijalsdohdi jaduliha?|ᏐᏁᎵᏁᎢᏍ ᏱᏣᎵᏍᏙᏗ ᏣᏚᎵᎭ?|Do you want to be the ninth?|
@@ -621,13 +621,13 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏠᏗ|3|Dihlohdi digwanehldohdi agilvkwdi.|ᏗᏠᏗ ᏗᏆᏁᏟᏙᏗ ᎠᎩᎸᏉᏗ.|I like to play records.|
 |ᎦᏃᎭᎵᏙᎯ|3|Ganohalidohi nidunadiwidi dlogesi.|ᎦᏃᎭᎵᏙᎯ ᏂᏚᎾᏗᏫᏍᏗ ᏠᎨᏏ.|A hunter is going across a field.|
 |ᎧᎾᎷᏍᎬᎢ|3|Kanalusgv ulehwisdanelv dagwalela.|ᎧᎾᎷᏍᎬ ᎤᎴᏫᏍᏓᏁᎸ ᏓᏆᎴᎳ.|His car stalled going uphill.|
-|ᎤᏍᏓᏴᎲᏍᎩ|3|Usdayvhvsgi udetiyisgv usdayvhnvi.|ᎤᏍᏓᏴᎲᏍᎩ ᎤᏕᏘᏱᏍᎬ ᎤᏍᏓᏴᏅᎢ.|He cooked for his wife on her birthday.|
+|ᎤᏍᏓᏴᎲᏍᎩ|3|Usdayvhvsgi udetiyisgv usdayvhnvi.|ᎤᏍᏓᏴᎲᏍᎩ ᎤᏕᏘᏱᏍᎬ ᎤᏍᏓᏴᏅᎢ.|He cooked for his wife on his birthday.|
 |ᎦᏗᏆᎸᏕᏯᏍᏗᎭ|3|Eligwus hyidigwalvdeysda gagwatvi?|ᎡᎵᏊᏍ ᏱᏗᏆᎸᏕᏯᏍᏓ ᎦᏆᏛᎢ?|Can you spin the wheel?|
 |ᎦᏬᎯᎵᏴᎠ|3|Gohusdi ejatvdvhnv, hawohiliyvsvi.|ᎪᎱᏍᏗ ᎡᏣᏛᏛᏅ, ᎭᏬᎯᎵᏴᏒᎢ.|When you're asked a question, answer.|
 |ᎧᏃᎮᎭ|3|Hlesdi jihihnohehli nulstanidolvi.|ᏞᏍᏗ ᏥᎯᏃᎮᏟ ᏄᎵᏍᏔᏂᏙᎸᎢ.|Don't tell what happened.|
 |ᎬᏃᏌᏍᎦ|3|Hyahteno hvnosahvi nijahnigidagwu.|ᏯᏖᏃ ᎲᏃᏌᎲᎢ ᏂᏣᏂᎩᏓᏊ.|Sweep the floor before you go.|
-|ᎠᎾᏓᎪᎾᏘᏗᏍᎬᎢ|3|Junoduhi anadagonatdisgv uteladvi.|ᏧᏃᏚᎯ ᎠᎾᏓᎪᎾᏘᏗᏍᎬ ᎤᏖᎳᏛᎢ.|She entered a beauty contest.|
-|ᎠᏛᎯᏍᏗᎭ|3|Junoduhi anijilvsgi datvhisdisgoi.|ᏧᏃᏚᎯ ᎠᏂᏥᎸᏍᎩ ᏓᏛᎯᏍᏗᏍᎪᎢ.|She grows beautiful flowers.|
+|ᎠᎾᏓᎪᎾᏘᏗᏍᎬᎢ|3|Junoduhi anadagonatdisgv uteladvi.|ᏧᏃᏚᎯ ᎠᎾᏓᎪᎾᏘᏗᏍᎬ ᎤᏖᎳᏛᎢ.|He entered a beauty contest.|
+|ᎠᏛᎯᏍᏗᎭ|3|Junoduhi anijilvsgi datvhisdisgoi.|ᏧᏃᏚᎯ ᎠᏂᏥᎸᏍᎩ ᏓᏛᎯᏍᏗᏍᎪᎢ.|He grows beautiful flowers.|
 |ᎪᏍᏛᏂᎭ|3|Sgwahlesdi uniyohuselv uwosdvnila.|ᏍᏆᏞᏍᏗ ᎤᏂᏲᎱᏎᎸ ᎤᏬᏍᏛᏂᎳ.|They lost the ball when he batted.|
 |ᎠᏍᏆᏞᎠ|3|Sgwahlesdi wagadinela usgwahlesvi.|ᏍᏆᏞᏍᏗ ᏩᎦᏗᏁᎳ ᎤᏍᏆᏞᏒᎢ.|When the ball was thrown to him, he caught it.|
 |ᏗᏓᏅᏙᏍᏗ|3|Utvsohnv didanhtosdi deganvgaliha.|ᎤᏛᏐᏅ ᏗᏓᏅᏙᏍᏗ ᏕᎦᏅᎦᎵᎠᎭ.|An old man is cleaning some dentures.|
@@ -641,7 +641,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎬᎭᎷᏯᏍᎦ|3|Juganhdena gvhnisdohdi higvhaluhya.|ᏧᎦᏅᏕᎾ ᎬᏂᏍᏙᏗ ᎯᎬᎭᎷᏯ.|Chop up some cabbage to cook.|
 |ᏗᎧᏃᎩᏍᏗ|3|Dikanogisdi danhdisgo yidunihnogisa.|ᏗᎧᏃᎩᏍᏗ ᏓᏅᏗᏍᎪ ᏱᏚᏂᏃᎩᏌ.|They use musical instruments when they sing.|
 |ᏙᏓᏉᏅᎢ|3|Dodagwahnv svnadodagwasdi dvgaluhji.|ᏙᏓᏆᏅ ᏒᎾᏙᏓᏆᏍᏗ ᏛᎦᎷᏥ.|He's returning a week from Monday.|
-|ᏓᏕᏲᎲᏍᎦ|3|Gogi danadehlohgwasgv dadehyohvsgoi.|ᎪᎩ ᏓᎾᏕᏠᏆᏍᎬ ᏓᏕᏲᎲᏍᎪᎢ.|She teaches summer school.|
+|ᏓᏕᏲᎲᏍᎦ|3|Gogi danadehlohgwasgv dadehyohvsgoi.|ᎪᎩ ᏓᎾᏕᏠᏆᏍᎬ ᏓᏕᏲᎲᏍᎪᎢ.|He teaches summer school.|
 |ᎤᎵᏥᏍᏆᏁᏓ|3|Josdadahnvhli ulijisgwaneda ustihga.|ᏦᏍᏓᏓᏅᏟ ᎤᎵᏥᏍᏆᏁᏓ ᎤᏍᏘᎦ.|My brother has curly hair.|
 |ᏓᎴᏗᎭ|3|Unulvhvsgesdi julehdi dehiyaletanvi.|ᎤᏄᎸᎲᏍᎨᏍᏗ ᏧᎴᏗ ᏕᎯᏯᎴᏔᏅᎢ.|If he can't get up, help him up.|
 |ᎠᎵᏍᏕᎸᏙᏗ|3|Alsdehldohdi utayohlv didehlohgwasgi.|ᎠᎵᏍᏕᎸᏙᏗ ᎤᏔᏲᏢ ᏗᏕᎶᏆᏍᎩ.|The student asked for assistance.|
@@ -653,12 +653,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏚᏓᏘᎿᎥᎢ|3|Dinalasgalisgv dutihnvsv dudatihnavi.|ᏗᎾᎳᏍᎦᎵᏍᎬ ᏚᏘᏅᏒ ᏚᏓᏘᎿᎥᎢ.|He took his family to a ball game.|
 |ᎤᏪᎯᏍᏓᏁᎭ|3|Yidusihtvnila, uwoyeni uwehisdanehoi.|ᏱᏚᏏᏛᏂᎳ, ᎤᏪᏲᏂ ᎤᏪᎯᏍᏓᏁᎰᎢ.|When he applauds, his hand hurts.|
 |ᎫᏩᏲᎢ|3|Kuwayo widulvhwisdaneho josdadahnvhli.|ᎫᏩᏲ ᏫᏚᎸᏫᏍᏓᏁᎰ ᏦᏍᏓᏓᏅᏟ.|My brother works at Pryor.|
-|ᎠᏂᏁᎵ|3|Junadehlohgwasdi dadehyohvsgo anineli.|ᏧᎾᏕᏠᏆᏍᏗ ᏓᏕᏲᎲᏍᎪ ᎠᏂᏁᎵ.|Her husband teaches at school.|
+|ᎠᏂᏁᎵ|3|Junadehlohgwasdi dadehyohvsgo anineli.|ᏧᎾᏕᏠᏆᏍᏗ ᏓᏕᏲᎲᏍᎪ ᎠᏂᏁᎵ.|His husband teaches at school.|
 |ᏕᎧᏃᎩᎠ|3|Uhljvdagwada dunihnogisv dinihnogisgi.|ᎤᎵᏨᏓᏆᏓ ᏚᏂᏃᎩᏒ ᏗᏂᏃᎩᏍᎩ.|The singers sang all night.|
 |ᎠᏕᎳᏗᏗᎢ, ᎠᏕᎳᏧᏂᏗᎢ|3|Yijadulas adeldiyhdi dijalvhwisdanhdi?|ᏱᏣᏚᎳᏍ ᎠᏕᎵᏗᏗ ᏗᏣᎸᏫᏍᏓᏁᏗ?|Would you like to work in a bank?|
 |ᎤᏛᏓᏍᏗ|3|Ahyvdagwalosgv akwtvdasdohdi agilvkwdi.|ᎠᏴᏓᏆᎶᏍᎬ ᎠᏆᏛᏓᏍᏙᏗ ᎠᎩᎸᏉᏗ.|I like to listen to thunder.|
 |ᎤᏙᏓᏈᏕᎾ, ᎤᎾᏙᏓᏈᏕᎾ|3|Iyvdaha Unadodagwidena dagilvhwisdanehoi.|ᎢᏴᏓᎭ ᎤᎾᏙᏓᏈᏕᎾ ᏓᎩᎸᏫᏍᏓᏁᎰᎢ.|Sometimes I work on Saturday.|
-|ᏕᎬᏗᏰᎠ|3|Yunalsdayvhnohnagwu degvdiyesgo ditelidoi.|ᏳᎾᎵᏍᏓᏰᏃᎿᏊ ᏕᎬᏗᏰᏍᎪ ᏗᏖᎵᏙᎢ.|She washes the dishes immediately after they finish eating.|
+|ᏕᎬᏗᏰᎠ|3|Yunalsdayvhnohnagwu degvdiyesgo ditelidoi.|ᏳᎾᎵᏍᏓᏰᏃᎿᏊ ᏕᎬᏗᏰᏍᎪ ᏗᏖᎵᏙᎢ.|He washes the dishes immediately after they finish eating.|
 |ᎤᏓᏩᏗᏍᎬᎢ|3|Udawadisgv unadawesolvsdi junilvhwisdanehi.|ᎤᏓᏩᏗᏍᎬ ᎤᎾᏓᏪᏐᎸᏍᏗ ᏧᏂᎸᏫᏍᏓᏁᎯ.|The workers are resting in the shade.|
 |ᎤᏙᏓᏉᏅᎢ, ᎤᎾᏙᏓᏉᏅᎢ|3|Unadodagwohnv dvnalenvhi danadehlohgwasgvi.|ᎤᎾᏙᏓᏉᏅ ᏛᎾᎴᏅᎯ ᏓᎾᏕᏠᏆᏍᎬᎢ.|They're going to start school Monday.|
 |ᎠᏑᎳᎢᏴᎠ|3|Dlogesi yidodayulvhwisdaneli, asulaiyvsgoi.|ᏠᎨᏏ ᏱᏙᏓᏳᎸᏫᏍᏓᏁᎵ, ᎠᏑᎳᎢᏴᏍᎪᎢ.|Whenever he is going to work in the garden, he changes his pants.|
@@ -695,7 +695,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏓᏗ|4|Hila nuwetiya na gadadi?|ᎯᎳ ᏄᏪᏘᏯ Ꮎ ᎦᏓᏗ?|How old is that flag?|
 |ᎤᎵᏍᏗ|4|Hla udohiyu ulisdi yigi.|Ꮭ ᎤᏙᎯᏳ ᎤᎵᏍᏗ ᏱᎩ.|He's not too weak.|
 |ᎰᏩ|4|Let's both go swimming. Okay.|ᎢᎾᏓᏬᎤᎦ. ᎰᏩ.|Inadawouga. Howa.|
-|ᎤᏰᎢ|4|Na agehya uhyehi uhyoha.|Ꮎ ᎠᎨᏯ ᎤᏰᎢ ᎤᏲᎭ.|That woman's husband is looking for her.|
+|ᎤᏰᎢ|4|Na agehya uhyehi uhyoha.|Ꮎ ᎠᎨᏯ ᎤᏰᎢ ᎤᏲᎭ.|That woman's husband is looking for xher.|
 |ᎦᏂᏍᏓ|4|Udli wijaduga na gansda.|ᎤᏟ ᏫᏣᏚᎦ Ꮎ ᎦᏲᏍᏓ.|Throw that stick away.|
 |ᎠᎪᏍᏗ|4|Agosd hawiya ugv hlvdaji.|ᎠᎪᏍᏗ ᎭᏫᏯ ᎤᎬ ᏢᏓᏥ.|The lion ate some raw meat.|
 |ᎠᎵᎢ|4|Alii ulsgeda yvwi anehvi.|ᎠᎵᎢ ᎤᎵᏍᎨᏓ ᏴᏫ ᎠᏁᎲᎢ.|Friendship is important in the lives of people.|
@@ -734,7 +734,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎦᏔ|4|Akta ayelvhi akahna sagwui.|ᎠᎦᏔ ᎠᏰᎸᎯ ᎠᎧᎿ ᏌᏊᎢ.|He has one artificial eye.|
 |ᎠᏂᏍᏆᏂᎢ|4|Anisgwani dagesi gogi iyvi.|ᎠᏂᏍᏆᏂ ᏓᎨᏏ ᎪᎩ ᎢᏴᎢ.|I'm going to Mexico in the summer.|
 |ᎠᏐᏴᎢ|4|Asohyv ukila jitaga achvya.|ᎠᏐᏴ ᎤᎩᎳ ᏥᏔᎦ ᎠᏨᏯ.|The rooster is sitting on the fence.|
-|ᎠᎱᏗᎠ|4|Ama alidlisgv dahudia selu.|ᎠᎹ ᎠᎵᏟᏍᎬ ᏓᎱᏗᎠ ᏎᎷ.|She's putting some corn in the boiling water.|
+|ᎠᎱᏗᎠ|4|Ama alidlisgv dahudia selu.|ᎠᎹ ᎠᎵᏟᏍᎬ ᏓᎱᏗᎠ ᏎᎷ.|He's putting some corn in the boiling water.|
 |ᎠᏥᎳ|4|Amayi ehi ajila igihyaluga.|ᎠᎹᏱ ᎡᎯ ᎠᏥᎳ ᎢᎩᏯᎷᎦ.|Let's all go look for some watercress.|
 |ᎦᏙᏍᎦ|4|Asiladv gadv ahnawo udosvi.|ᎠᏏᎳᏛ ᎦᏛ ᎠᎿᏩ ᎤᏙᏒᎢ.|The shirt fell from the line.|
 |ᎠᏰᎸᎢ|4|Ayehli iyv ayelv duleyvsvi.|ᎠᏰᏟ ᎢᏴ ᎠᏰᎸ ᏚᎴᏴᏒᎢ.|He burned half of his body.|
@@ -755,8 +755,8 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏙᎦ|4|Saloli gatohga gadaa getvi.|ᏌᎶᎵ ᎦᏙᎦ ᎦᏓᎠ ᎨᏛᎢ.|There is a squirrel tail hanging on a pole.|
 |ᎪᏎᎭ|4|Siyo adiha hiyoselv higovi.|ᏏᏲ ᎠᏗᎭ ᎯᏲᏎᎸ ᎯᎪᎥᎢ.|Tell him I said hello when you see him.|
 |ᎤᎨᏳᎿᎢ|4|Udohiyu ugeyuhna na asgaya.|ᎤᏙᎯᏳ ᎤᎨᏳᎿ Ꮎ ᎠᏍᎦᏯ.|That man is really stingy.|
-|ᎧᏃᏰᎭ|4|Usdi ujeli kanoyeha udajii.|ᎤᏍᏗ ᎤᏤᎵ ᎧᏃᏰᎭ ᎤᏓᏥᎢ.|The mother is fanning her baby.|
-|ᏕᎦᎵᏗ|4|Degahldi kali duwutesv sohi.|ᏕᎦᎵᏗ ᎧᎵ ᏚᏭᏖᏒ ᏐᎢ.|She picked a sack full of hickory nuts.|
+|ᎧᏃᏰᎭ|4|Usdi ujeli kanoyeha udajii.|ᎤᏍᏗ ᎤᏤᎵ ᎧᏃᏰᎭ ᎤᏓᏥᎢ.|The mother is fanning xher baby.|
+|ᏕᎦᎵᏗ|4|Degahldi kali duwutesv sohi.|ᏕᎦᎵᏗ ᎧᎵ ᏚᏭᏖᏒ ᏐᎢ.|He picked a sack full of hickory nuts.|
 |ᎡᎵᏍᏗ|4|Elisdi yikanohvla uhna egvi.|ᎡᎵᏍᏗ ᏱᎧᏃᎲᎳ ᎤᎿ ᎡᎬᎢ.|It seems like he would say where he is going.|
 |ᎦᎶᏅᏗᎭ|4|Hilonhda tsgoya nunv jukila.|ᎯᎶᏅᏓ ᏥᎪᏯ ᏄᏅ ᏧᎩᎳ.|Knock the bug off the potato.|
 |ᏧᎳᏍᎩ|4|Julasgi usgahljv hia asgaya.|ᏧᎳᏍᎩ ᎤᏍᎦᎵᏨ ᎯᎠ ᎠᏍᎦᏯ.|This man was bitten by an alligator.|
@@ -823,9 +823,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏡᏍᎦ|4|Nvya junasdi uwatlunv nvnohi.|ᏅᏯ ᏧᎾᏍᏗ ᎤᏩᏡᏅ ᏅᏃᎯ.|He piled the gravel on the road.|
 |ᎦᎴᏴᏍᎦ|4|Sdayi unolvna, hlgv uleyvsvi.|ᏍᏓᏱ ᎤᏃᎸᎾ, ᏡᎬ ᎤᎴᏴᏒᎢ.|When the wind blew hard, the tree fell.|
 |ᎠᏴᏍᏙᏗᎢ|4|Sdudi ktoa ayvsdohdi dlogesi.|ᏍᏚᏗ ᎬᏙᎠ ᎠᏴᏍᏙᏗ ᏠᎨᏏ.|There is a gate at the entrance to the pasture.|
-|ᎦᏁᎩᎠ|4|Suhliloda iga unvdi unegisvi.|ᏑᏟᎶᏓ ᎢᎦ ᎤᏅᏗ ᎤᏁᎩᏒᎢ.|She got a gallon of milk.|
-|ᏌᎶᎵ|4|Talijone gvhdi jiyolv saloli.|ᏔᎵᏦᏁ ᎬᏗ ᏥᏲᎸ ᏌᎶᎵ.|I shot a squirrel with a. 22 rifle.|
-|ᏓᎦᏘᏅᏕᎠ|4|Yiduktinvdesa hla osda yagowhtisgoi.|ᏱᏚᎦᏘᏅᏕᏌ Ꮭ ᎣᏍᏓ ᏯᎪᏩᏘᏍᎪᎢ.|When she takes off her glasses, she doesn't see well.|
+|ᎦᏁᎩᎠ|4|Suhliloda iga unvdi unegisvi.|ᏑᏟᎶᏓ ᎢᎦ ᎤᏅᏗ ᎤᏁᎩᏒᎢ.|He got a gallon of milk.|
+|ᏌᎶᎵ|4|Talijone gvhdi jiyolv saloli.|ᏔᎵᏦᏁ ᎬᏗ ᏥᏲᎸ ᏌᎶᎵ.|I shot a squirrel with a 22 rifle.|
+|ᏓᎦᏘᏅᏕᎠ|4|Yiduktinvdesa hla osda yagowhtisgoi.|ᏱᏚᎦᏘᏅᏕᏌ Ꮭ ᎣᏍᏓ ᏯᎪᏩᏘᏍᎪᎢ.|When he takes off his glasses, he doesn't see well.|
 |ᎤᏍᎧ|4|Yvwi uska uhwahtvhv asgosgvi.|ᏴᏫ ᎤᏍᎧ ᎤᏩᏛᎲ ᎠᏍᎪᏍᎬᎢ.|He found a human skull while digging.|
 |ᏚᏙᎠ|4|"Chief" dudoa gihli agwajelii.|"Chief" ᏚᏙᎠ ᎩᏟ ᎠᏆᏤᎵᎢ.|My dog's name is "Chief."|
 |ᎠᏗᏙᏗ|4|Aditohdi gvhdi aditasga ugama.|ᎠᏗᏙᏗ ᎬᏗ ᎠᏗᏔᏍᎦ ᎤᎦᎹ.|He's drinking soup with a spoon.|
@@ -843,7 +843,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎬᎭᎸᏓ|4|Gadu uganasda agvhalvda skvsi.|ᎦᏚ ᎤᎦᎾᏍᏓ ᎠᎬᎭᎸᏓ ᏍᎬᏏ.|Give me a piece of cake.|
 |ᎫᎭᏢᏍᎦ|4|Gago uwuhahlanei hia galogodi.|ᎦᎪ ᎤᏭᎭᏝᏁᎢ ᎯᎠᎦᎶᎪᏗ.|Who put a handle on this hoe?|
 |ᎧᏄᎾ|4|Gahlida gvhdi dayohiha kanuna.|ᎦᏟᏓ ᎬᏗ ᏓᏲᎯᎭ ᎧᏄᎾ.|He's shooting bullfrogs with arrows.|
-|ᎦᏰᏫᏍᎦ|4|Gayewsgi gvhdi gayewsga asano.|ᎦᏰᏫᏍᎩ ᎬᏗ ᎦᏰᏫᏍᎦ ᎠᏌᏃ.|She's sewing a dress with a sewing machine.|
+|ᎦᏰᏫᏍᎦ|4|Gayewsgi gvhdi gayewsga asano.|ᎦᏰᏫᏍᎩ ᎬᏗ ᎦᏰᏫᏍᎦ ᎠᏌᏃ.|He's sewing a dress with a sewing machine.|
 |ᏑᎵ|4|Gohusdi ulihwojv anihyea suli.|ᎪᎱᏍᏗ ᎤᎵᏬᏨ ᎠᏂᏰᎠ ᏑᎵ.|The buzzards are eating something dead.|
 |ᎠᎫᎩᏍᏗ|4|Hadlv akugisdi? Ama aktadegia.|ᎭᏢ ᎠᎫᎩᏍᏗ? ᎠᎹ ᎠᎩᏔᏕᎩᎠ.|Where is the dipper? I'm thirsty (for water)|
 |ᎦᎾᏩᏘᎭ|4|hadlv janawhtvhe na adadlosdi?|ᎭᏢ ᏣᎾᏩᏛᎮ Ꮎ ᎠᏓᏠᏍᏗ?|Where did you find the belt?|
@@ -869,8 +869,8 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏎᎷ ᎢᏌ|4|Selu isa ganhdv ujewasdohtanvi.|ᏎᎷ ᎢᏌ ᎦᏅᏛ ᎤᏤᏩᏍᏙᏔᏅᎢ.|He accidentally spilled a sack of corn meal.|
 |ᎤᏴᏍᏗ|4|Uhyvsdi kahwi uditasdi ulvkwdi.|ᎤᏴᏍᏗ ᎧᏫ ᎤᏗᏔᏍᏗ ᎤᎸᏉᏗ.|He likes to drink strong coffee.|
 |ᎤᏃᎴ|4|Unole uhilvstanv utana gaduhvi.|ᎤᏃᎴ ᎤᎯᎸᏍᏔᏅ ᎤᏔᎾ ᎦᏚᎲᎢ.|A tornado went through a big city.|
-|ᎤᏩᏂ|4|Uwani gohlvhtanv ahnawo uhnuwa.|ᎤᏩᏂ ᎪᏢᏔᏅ ᎠᎿᏬ ᎤᏄᏩ.|She's wearing a sweater made from wool.|
-|ᏩᏂᎨᎢ|4|Wanige akwsdo uwhdohdi ulvkwdi.|ᏩᏂᎨ ᎠᏆᏍᏙ ᎤᏮᏙᏗ ᎤᎸᏉᏗ.|She likes to use a soft pillow.|
+|ᎤᏩᏂ|4|Uwani gohlvhtanv ahnawo uhnuwa.|ᎤᏩᏂ ᎪᏢᏔᏅ ᎠᎿᏬ ᎤᏄᏩ.|He's wearing a sweater made from wool.|
+|ᏩᏂᎨᎢ|4|Wanige akwsdo uwhdohdi ulvkwdi.|ᏩᏂᎨ ᎠᏆᏍᏙ ᎤᏮᏙᏗ ᎤᎸᏉᏗ.|He likes to use a soft pillow.|
 |ᎠᎦᏘᏱ|4|Adela diyhdi aktiyi agasuyesvi.|ᎠᏕᎳ ᏗᏗ ᎠᎦᏘᏱ ᎠᎦᏑᏰᏒᎢ.|He was chosen to be a guard at the bank.|
 |ᎨᎻᎵ|4|Diganihlv ganvsga ujeli kemili.|ᏗᎦᏂᏢ ᎦᏅᏍᎦ ᎤᏤᎵ ᎨᎻᎵ.|He's sending his camel to bed.|
 |ᎠᏍᏗᎩᏍᏗ|4|Digohwelodi hla asdigisdi yigi.|ᏗᎪᏪᎶᏗ Ꮭ ᎠᏍᏗᎩᏍᏗ ᏱᎩ.|A pencil is not something to eat.|
@@ -901,12 +901,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |Ꮲ|4|Dlv sgohi iywahnilv widajiluhji.|Ꮲ ᏍᎪᎢ ᎢᏳᏩᏂᎸ ᏫᏓᏥᎷᏥ.|I will get there about ten o'clock.|
 |ᏥᏔᎦ|4|Jitaga gvjahlanv ulvkwdi ugisdi.|ᏥᏔᎦ ᎬᏣᏝᎾ ᎤᎸᏉᏗ ᎤᎩᏍᏗ.|He likes to eat fried chicken.|
 |ᏎᎷ ᎤᏓ|4|Selu juda jukahyoda dagohvsdiha.|ᏎᎷ ᏧᏓ ᏧᎧᏲᏓ ᏓᎪᎲᏍᏗᎭ.|He's burning some dry corncobs.|
-|ᎤᎾᎵᎪᏗ|4|Unalikdi unaligosv jijigov kohi.|ᎤᎾᎵᎪᏗ ᎤᎾᎵᎪᏒ ᏥᏥᎪᎥ ᎪᎯ.|I saw her with her boyfriend a while ago.|
+|ᎤᎾᎵᎪᏗ|4|Unalikdi unaligosv jijigov kohi.|ᎤᎾᎵᎪᏗ ᎤᎾᎵᎪᏒ ᏥᏥᎪᎥ ᎪᎯ.|I saw him with his boyfriend a while ago.|
 |ᎤᏥᏈᏍᏗ|4|Utsgwisdi ugahnanv svhi jigesvi.|ᎤᏥᏈᏍᏗ ᎤᎦᎿᏅ ᏒᎯ ᏥᎨᏒᎢ.|It rained a lot yesterday.|
 |ᏩᎦ ᎭᏫᏯ|4|Wahga hawiya agilvkwdi agigisdi.|ᏩᎦ ᎭᏫᏯ ᎠᎩᎸᏉᏗ ᎠᎩᎩᏍᏗ|I like to eat beef.|
 |ᎠᎩᏍᏗ|4|Aganakti dikisdi duhnelv udlvgi.|ᎠᎦᎾᎩᏘ ᏗᎩᏍᏗ ᏚᏁᎸ ᎤᏢᎩ.|The doctor gave the patient some pills.|
-|ᏓᏆᏲᎥᏍᎦ|4|Ama dakwayovsga dihnawo jutesdi.|ᎠᎹ ᏓᏆᏲᎥᏍᎦ ᏗᎿᏬ ᏧᏖᏍᏗ.|She is sprinkling water on the clothes she is going to iron.|
-|ᎠᏫᏍᎦ|4|Anijilvsgi duhwisv adanelv navi.|ᎠᏂᏥᎸᏍᎩ ᏚᏫᏒ ᎠᏓᏁᎸ ᎾᎥᎢ.|She planted flowers near the building.|
+|ᏓᏆᏲᎥᏍᎦ|4|Ama dakwayovsga dihnawo jutesdi.|ᎠᎹ ᏓᏆᏲᎥᏍᎦ ᏗᎿᏬ ᏧᏖᏍᏗ.|He is sprinkling water on the clothes he is going to iron.|
+|ᎠᏫᏍᎦ|4|Anijilvsgi duhwisv adanelv navi.|ᎠᏂᏥᎸᏍᎩ ᏚᏫᏒ ᎠᏓᏁᎸ ᎾᎥᎢ.|He planted flowers near the building.|
 |ᎢᎾ|4|Aniyosgi jijiyav ina wagwedolvi.|ᎠᏂᏲᏍᎩ ᏥᏥᏯᎥ ᎢᎾ ᏩᏇᏙᎸᎢ.|When I was in the military service, I went far away.|
 |ᎠᏍᎦᏟᎦ|4|Asgaya usgalsdi unehltanv gihli.|ᎠᏍᎦᏯ ᎤᏍᎦᎵᏍᏗ ᎤᏁᏟᏔᏅ ᎩᏟ.|The dog tried to bite the man.|
 |ᎤᏠᏱ|4|Dagwalela uhv uhloyi agwaduliha.|ᏓᏆᎴᎳ ᎤᎲ ᎤᏠᏱ ᎠᏆᏚᎵᎭ.|I want the same kind of car he has.|
@@ -935,7 +935,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏛᎩᎠ|4|Sdaya yigawonisa kila atvgisgoi.|ᏍᏓᏯ ᏱᎦᏬᏂᏌ ᎩᎳ ᎠᏛᎩᏍᎪᎢ.|He hears only when you speak loud.|
 |ᎠᏰᏗᎭ|4|Sogwil uniyvsdi uyhtanv sogwili.|ᏐᏈᎵ ᎤᏂᏴᏍᏗ ᎤᏴᏔᏅ ᏐᏈᎵ.|He put the horse inside the barn.|
 |ᎠᏚᎢᏍᏗᎭ|4|Soi kalesdi uwedasdi utuistanvi.|ᏐᎢ ᎧᎴᏍᏗ ᎤᏪᏓᏍᏗ ᎤᏚᎢᏍᏔᏅᎢ.|He promised to come over next month.|
-|ᎠᏰᎦᏢᏍᎦ|4|Unega ujilv gvhdi uhyehgahlanvi.|ᎤᏁᎦ ᎤᏥᎸ ᎬᏗ ᎤᏰᎦᏝᏅᎢ.|She quilted it with white cotton.|
+|ᎠᏰᎦᏢᏍᎦ|4|Unega ujilv gvhdi uhyehgahlanvi.|ᎤᏁᎦ ᎤᏥᎸ ᎬᏗ ᎤᏰᎦᏝᏅᎢ.|He quilted it with white cotton.|
 |ᎠᏣᏅᏍᎦ|4|Utana digaduhv yuwena ajanvsgoi.|ᎤᏔᎾ ᏗᎦᏚᎲ ᏳᏪᎾ ᎠᏣᏅᏍᎪᎢ.|When he goes to the city, he dresses up.|
 |ᎠᎨᎮᎦ|4|Wahga yidugoha gihli, dakehegoi.|ᏩᎦ ᏱᏚᎪᎭ ᎩᏟ, ᏓᎨᎮᎪᎢ.|When the dog sees cows, he chases them.|
 |ᎠᏤᏍᏙ|4|Ajesdo ganav anahnehihv anichuja.|ᎠᏤᏍᏙ ᎦᎾᎥ ᎠᎾᏁᎯᎲ ᎠᏂᏧᏣ.|The boys are wrestling on the mattress.|
@@ -953,9 +953,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏐᏅᏍᎦ|4|Dahnawa ahlihv ajisonvhne asgaya.|ᏓᎿᏩ ᎠᏟᎲ ᎠᏥᏐᏅᏁ ᎠᏍᎦᏯ.|The man was wounded fighting in a war.|
 |ᎠᏔᎴᏍᎦ|4|Ditalesdi gvhdi utalesv hyahtena.|ᏗᏔᎴᏍᏗ ᎬᏗ ᎤᏔᎴᏒ ᏯᏖᎾ.|He drilled a hole in the board with a drill.|
 |ᏔᎷᏣ|4|Gado usdi dehohlvhdisgo ditaluja?|ᎦᏙ ᎤᏍᏗ ᏕᎰᏢᏗᏍᎪ ᏗᏔᎷᏣ?|What do you make baskets out of?|
-|ᎦᏚᎲᏍᎦ|4|Gadu uganasda uwatdi advnvisdiha.|ᎦᏚ ᎤᎦᎾᏍᏓ ᎤᏩᏘᏗ ᎠᏛᏅᎢᏍᏗᎭ.|She's getting ready to bake a cake.|
+|ᎦᏚᎲᏍᎦ|4|Gadu uganasda uwatdi advnvisdiha.|ᎦᏚ ᎤᎦᎾᏍᏓ ᎤᏩᏘᏗ ᎠᏛᏅᎢᏍᏗᎭ.|He's getting ready to bake a cake.|
 |ᎠᎵᏍᏛᏡᏍᎦ|4|Gawonisgi gadogv nav ulsdvhlunvi.|ᎦᏬᏂᏍᎩ ᎦᏙᎬ ᎾᎥ ᎤᎵᏍᏛᏡᏅᎢ.|He sat down close to where the speaker was standing.|
-|ᎠᎵᏍᏚᎴᎭ|4|Hila igohid ahilidoho yulsduleha?|ᎯᎳ ᎢᎪᎯᏓ ᎠᎯᎵᏙᎰ ᏳᎵᏍᏚᎴᎭ?|How long does it take when she washes her hair?|
+|ᎠᎵᏍᏚᎴᎭ|4|Hila igohid ahilidoho yulsduleha?|ᎯᎳ ᎢᎪᎯᏓ ᎠᎯᎵᏙᎰ ᏳᎵᏍᏚᎴᎭ?|How long does it take when he washes his hair?|
 |ᎬᏩᏢᏍᎦ|4|Hila igohida dejvwahlane dihnawo?|ᎯᎳ ᎢᎪᎯᏓ ᏕᏨᏩᎳᏁ ᏗᎿᏬ?|How long did you soak the clothes?|
 |ᏧᏂᏢᎩᎢ|4|Hila igohida hwinhgei junidlvgii?|ᎯᎳ ᎢᎪᎯᏓ ᏫᏅᎨᎢ ᏧᏂᏢᎩᎢ?|How long were you in the hospital?|
 |ᎤᏜᏏᏛᎡᎯ|4|Hila nania unadlasitvehi anedoha?|ᎯᎳ ᎾᏂᎠ ᎤᎾᏜᏏᏛᎡᎯ ᎠᏁᏙᎭ?|How many nonbelievers are here?|
@@ -988,7 +988,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᎿᏬ|4|Uhnawo ayosda asiladv ganuyvhihvi.|ᎤᎿᏬ ᎠᏲᏍᏓ ᎠᏏᎳᏛ ᎦᏄᏴᎯᎲᎢ.|He tore his shirt going under a fence.|
 |ᎤᏴᏍᏕᏓ|4|Uhyvsdeda asgaya jaisv jigowhtiha.|ᎤᏴᏍᏕᏓ ᎠᏍᎦᏯ ᏣᎢᏒ ᏥᎪᏩᏘᎭ.|I see a drunk man waling this way.|
 |ᎤᏦᎾᏘ|4|Unajonati aninela age jijusdagala.|ᎤᎾᏦᎾᏘ ᎠᏂᏁᎳ ᎠᎨ ᏥᏧᏍᏓᎦᎳ.|Rattlesnakes live in that cave over there.|
-|ᏚᎦᏘᏅᏔ|4|Agalisgv yedo julsihgi duktinvtoi.|ᎠᎦᎵᏍᎬ ᏰᏙ ᏧᎵᏏᎩ ᎤᎦᏘᏅᏙᎢ.|When she's out in the sun, she wears dark glasses.|
+|ᏚᎦᏘᏅᏔ|4|Agalisgv yedo julsihgi duktinvtoi.|ᎠᎦᎵᏍᎬ ᏰᏙ ᏧᎵᏏᎩ ᎤᎦᏘᏅᏙᎢ.|When he's out in the sun, he wears dark glasses.|
 |ᏓᎳᏑᎴᎠ|4|Aktisi didla jalasuhlv halasulagi.|ᎠᎦᏘᏏ ᏗᏜ ᏣᎳᏑᏢ ᎭᎳᏑᎳᎩ.|Take your right shoe off.|
 |ᎠᎳᏍᎬᎠ|4|Ayouhli asgaya uksesdi alasgvsgoi.|ᎠᏲᎤᏟ ᎠᏍᎦᏯ ᎤᎦᏎᏍᏗ ᎠᎳᏍᎬᏍᎪᎢ.|A crippled man takes a step carefully.|
 |ᎠᏓᎨᎭ|4|Dlv uwenvsdi yadvnvisdi adakesgoi.|Ꮲ ᎤᏪᏅᏍᏗ ᏯᏛᏅᎢᏍᏗ ᎠᏓᎨᏍᎪᎢ.|When he's getting ready to go somewhere, he uses a mirror.|
@@ -1010,7 +1010,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎩᎸᏗᎭ|4|Tali digagwati ukilvdohdi ulvkwdi.|ᏔᎵ ᏗᎦᏆᏘ ᎤᎩᎸᏙᏗ ᎤᎸᏉᏗ.|He likes to ride a bicycle.|
 |ᎠᎾᎦᎵᎭ|4|Tsgwisdi anagaliha doyi dinehldii.|ᏥᏈᏍᏗ ᎠᎾᎦᎵᎭ ᏙᏱ ᏗᏁᎶᏗᎢ.|It's lightening too much to play outside.|
 |ᎠᏍᎪᎸᎦ|4|Uwoduhi ulsuhwisv ahnawo asgolvga.|ᎤᏬᏚᎯ ᎤᎵᏑᏫᏒ ᎠᎿᏬ ᎠᏍᎪᎸᎦ.|The pretty color on the shirt is fading.|
-|ᎠᏓᏍᏓᏴᏗᎢ|4|Adasdayhdi ayaa ditelido degvdiyea.|ᎠᏓᏍᏓᏴᏗ ᎠᏯᎠ ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|She's in the kitchen washing dishes.|
+|ᎠᏓᏍᏓᏴᏗᎢ|4|Adasdayhdi ayaa ditelido degvdiyea.|ᎠᏓᏍᏓᏴᏗ ᎠᏯᎠ ᏗᏖᎵᏙ ᏕᎬᏗᏰᎠ.|He's in the kitchen washing dishes.|
 |ᎠᏍᎪᎩᎠ|4|Asgogisgv galeyvsdisgo dluhgv doya.|ᎠᏍᎪᎩᏍᎬ ᎦᎴᏴᏍᏗᏍᎪ ᏡᎬ ᏙᏯ.|A beaver makes a tree fall by gnawing it.|
 |ᎢᎦᏓ|4|Igada analasgalisgi hla yuniluhjei.|ᎢᎦᏓ ᎠᎾᎳᏍᎦᎵᏍᎩ Ꮭ ᏳᏂᎷᏤᎢ.|Some of the ball players didn't come.|
 |ᏧᏣᏲᏍᏗ|4|Jujayosdi uyanv asiladvsga dlogesv.|ᏧᏣᏲᏍᏗ ᎤᏯᏅ ᎠᏏᎳᏛᏍᎦ ᏠᎨᏒ.|He's putting up barbed wire fence around the pasture.|
@@ -1018,10 +1018,10 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᏙᎯᏳ|4|Udohiyu osda hnadvga ejagoliyesgvi.|ᎤᏙᎯᏳ ᎣᏍᏓ ᎿᏛᎦ ᎡᏣᎪᎵᏰᏍᎬᎢ.|You did very well on your exam.|
 |ᎤᏚᏚ|4|Ududu kanohehlvsgv utvdasdi achuja.|ᎤᏚᏚ ᎧᏃᎮᏢᏍᎬ ᎤᏛᏓᏍᏗ ᎠᏧᏣ.|The boy is listening to his grandfather tell stories.|
 |ᎤᎦᎾᏩ|4|Uganawas na atohgiyasgi jigawoniha?|ᎤᎦᎾᏩᏍ Ꮎ ᎠᏙᎩᏯᏍᎩ ᏥᎦᏬᏂᎭ?|Is the candidate who is speaking a Democrat?|
-|ᎤᏬᏚᎯ|4|Uwoduhi dagwalela ajinelv dusgwada.|ᎤᏬᏚᎯ ᏓᏆᎴᎳ ᎠᏥᏁᎸ ᏚᏍᏆᏓ.|She was given a pretty car when she graduated.|
+|ᎤᏬᏚᎯ|4|Uwoduhi dagwalela ajinelv dusgwada.|ᎤᏬᏚᎯ ᏓᏆᎴᎳ ᎠᏥᏁᎸ ᏚᏍᏆᏓ.|He was given a pretty car when he graduated.|
 |ᏩᎱᎯ|4|Wahuhi wusdehldi agehyuja jiyoligi.|ᏩᎱᎯ ᏭᏍᏕᎵᏗ ᎠᎨᏳᏣ ᏥᏲᎵᎩ.|I know a girl whose last name is Owl.|
 |ᏕᎦᏐᎦ|4|Amego dagisohjv aniyosgi jijiyavɂi.|ᎠᎺᏉ ᏓᎩᏐᏨ ᎠᏂᏲᏍᎩ ᏥᏥᏯᎥᎢ.|I crossed the ocean when I was in the military service.|
-|ᎧᏂᎨᏂ|4|Ansgvti jikalv ajiyehlalv kanigeni.|ᎠᏂᏍᎬᏘ ᏥᎧᎸ ᎠᏥᏰᏝᎸ ᎧᏂᎨᏂ.|She had surgery on her knee last May.|
+|ᎧᏂᎨᏂ|4|Ansgvti jikalv ajiyehlalv kanigeni.|ᎠᏂᏍᎬᏘ ᏥᎧᎸ ᎠᏥᏰᏝᎸ ᎧᏂᎨᏂ.|He had surgery on his knee last May.|
 |ᎤᏛᏐᏅᎢ|4|Asgaya yutvsohna utvsohnv anosehoi.|ᎠᏍᎦᏯ ᏳᏛᏐᎿ ᎤᏛᏐᏅ ᎠᏃᏎᎰᎢ.|When a man becomes fully grown, they call him an old man.|
 |ᎠᏓᏕᎦ|4|Ayouhlia asgaya adadegv jigowhtiha.|ᎠᏲᎤᏟᎠ ᎠᏍᎦᏯ ᎠᏓᏕᎬ ᏥᎪᏮᏘᎭ.|I see a lame man limping.|
 |ᎤᎵᏑᏫᏓ|4|Dalonige ulsuhwida dagwalela agiha.|ᏓᎶᏂᎨ ᎤᎵᏑᏫᏓ ᏓᏆᎴᎳ ᎠᎩᎭ.|I have a yellow colored car.|
@@ -1041,18 +1041,18 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏥᏍᏚ|4|Josdadahnvhli ulvkwdi jisdu juysdii|ᏦᏍᏓᏓᏅᏟ ᎤᎸᏉᏗ ᏥᏍᏚ ᏧᏲᏍᏗᎢ.|My brother likes to hunt rabbits.|
 |ᎤᎿᏍᏕᏜ|4|Kansdaji uhnasdedla aganv aditasga.|ᎧᎾᏍᏓᏥ ᎤᎿᏍᏕᏜ ᎠᎦᏅ ᎠᏗᏔᏍᎦ.|He's drinking tea made from sassafras root.|
 |ᎠᎦᏟᏱ|4|Nigohilv agahliyi geso udasdehldii.|ᏂᎪᎯᎸ ᎠᎦᏟᏱ ᎨᏐ ᎤᏓᏍᏕᏟᏗᎢ.|He's always eager to help.|
-|ᎤᏍᏘᎬᎢ|4|Nigohilv udanvgalvda geso ustihgvi.|ᏂᎪᎯᎸ ᎤᏓᏅᎦᎸᏓ ᎨᏐ ᎤᏍᏘᎬᎢ.|Her hair is always clean.|
+|ᎤᏍᏘᎬᎢ|4|Nigohilv udanvgalvda geso ustihgvi.|ᏂᎪᎯᎸ ᎤᏓᏅᎦᎸᏓ ᎨᏐ ᎤᏍᏘᎬᎢ.|His hair is always clean.|
 |ᎦᎶᎾᏍᏗᎭ|4|nuksesdvna yigi kilo galonasdisgoi.|ᏄᎦᏎᏍᏛᎾ ᏱᎩ ᎩᎶ ᎦᎶᎾᏍᏗᏍᎪᎢ.|Whenever someone is not alert, he tricks him.|
 |ᏚᎷᎦ|4|Nvhgi ilasihdi idiganvhida duhlgvi.|ᏅᎩ ᎢᎳᏏᏗ ᎢᏗᎦᏅᎯᏓ ᏚᎷᎬᎢ.|It had horns four feet long.|
 |ᎢᏯᏔᏬᏍᏔᏅᎢ|4|Sgohi iyatahwostanv ulosvsdi nvhgi.|ᏍᎪᎯ ᎢᏯᏔᏬᏍᏔᏅ ᎤᎶᏒᏍᏗ ᏅᎩ.|It's ten minutes past four.|
 |ᎤᎦᏅᏓᏛᎢ|4|Taline uganhdadv gohwela kanogisdi.|ᏔᎵᏁ ᎤᎦᏅᏓᏛ ᎪᏪᎳ ᎧᏃᎩᏍᏗ.|The song is on the second page.|
 |ᏅᏬᏘ|4|Uhyvdla oniyisgv nvwoti agwaduliha.|ᎤᏴᏜ ᎣᏂᎣᏍᎬ ᏅᏬᏘ ᎠᏆᏚᎵᎭ.|I want medicine for a cold.|
 |ᏌᎵ|4|Unajetsdi sali junigisdi unilvkwdi.|ᎤᎾᏤᏥᏍᏗ ᏌᎵ ᏧᏂᎩᏍᏗ ᎤᏂᎸᏉᏗ.|Possums like to eat persimmons.|
-|ᎠᏓᎨᏗ|4|Utana adakehdi nuwanhdi disehisdii.|ᎤᏔᎾ ᎠᏓᎨᏗ ᏄᏩᏅᏗ ᏗᏎᎯᏍᏗᎢ.|She has a big mirror on the dresser.|
-|ᎠᏯᏟᏗ|4|Uwoduhi ahyahldi ugisv udetiyisgvi.|ᎤᏬᏚᎯ ᎠᏯᏟᏗ ᎤᎩᏒ ᎤᏕᏘᏱᏍᎬᎢ.|She received a pretty necklace for her birthday.|
+|ᎠᏓᎨᏗ|4|Utana adakehdi nuwanhdi disehisdii.|ᎤᏔᎾ ᎠᏓᎨᏗ ᏄᏩᏅᏗ ᏗᏎᎯᏍᏗᎢ.|He has a big mirror on the dresser.|
+|ᎠᏯᏟᏗ|4|Uwoduhi ahyahldi ugisv udetiyisgvi.|ᎤᏬᏚᎯ ᎠᏯᏟᏗ ᎤᎩᏒ ᎤᏕᏘᏱᏍᎬᎢ.|He received a pretty necklace for his birthday.|
 |ᎠᏓᏅᏙ|4|Adanhdo yulehwistana, ayohusgo yvwi.|ᎠᏓᏅᏙ ᏳᎴᏫᏍᏔᎾ, ᎠᏲᎱᏍᎪ ᏴᏫ.|When the heart stops, a person dies.|
 |ᎠᎹᏳᏟᏗ|4|Amayuhldi daginawhtvhv hia dilasulo.|ᎠᎹᏳᏟᏗ ᏓᎩᎾᏩᏛᎲ ᎯᎠ ᏗᎳᏑᎶ.|I found these shoes by the shore.|
-|ᎠᏘᏟᏗ|4|Atihldi uwohlvhnv anineli uhnawosdi.|ᎠᏘᏟᏗ ᎤᏬᏢᏅ ᎠᏂᏁᎵ ᎤᎿᏬᏍᏗ.|She made a shirt for her husband to wear.|
+|ᎠᏘᏟᏗ|4|Atihldi uwohlvhnv anineli uhnawosdi.|ᎠᏘᏟᏗ ᎤᏬᏢᏅ ᎠᏂᏁᎵ ᎤᎿᏬᏍᏗ.|He made a shirt for his husband to wear.|
 |ᎠᏲᎤᏟ|4|Ayouhli asgaya adolanvsdi utayohlvi.|ᎠᏲᎤᏟ ᎠᏍᎦᏯ ᎠᏙᎳᏅᏍᏗ ᎤᏔᏲᎸᎢ.|a crippled man asked for a walking cane.|
 |ᎦᏓᏆᎳ|4|Gadagwala gohlvhtanv ganvnowa uwaya.|ᎦᏓᏆᎳ ᎪᏢᏔᎾ ᎦᏅᏃᏩ ᎤᏩᏯ.|He has a pipe made of clay.|
 |ᎦᏄᎪᎬᎢ|4|Ganugogv dojikugisgo ama ogaditasdi.|ᎦᏄᎪᎬ ᏙᏥᎬᎩᏍᎪ ᎠᎹ ᎣᎦᏗᏔᏍᏗ.|They and I get our drinking water from a spring.|
@@ -1064,12 +1064,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏓᏄᏖᏲᎭ|4|Agaluga uwahnila hlgvi udanuteyolvi.|ᎠᎦᎷᎦ ᎤᏩᏂᎳ ᏡᎬᎢ ᎤᏓᏄᏖᏲᎸᎢ.|When the twister hit the tree, it twisted.|
 |ᏗᏠᎯᏍᏗᎢ|4|Agwadlohjv uhna gohlvsv didlohisdii.|ᎠᏆᏠᏨ ᎤᎿ ᎪᏢᏒ ᏗᏠᎯᏍᏗᎢ.|I couldn't find the meeting place.|
 |ᎠᏲᏍᏗᎭ|4|Ama adlisdohdi ulvsadi uyosdohtanvi.|ᎠᎹ ᎠᏟᏍᏙᏗ ᎤᎸᏌᏗ ᎤᏲᏍᏙᏔᏅᎢ.|He accidently broke a water glass.|
-|ᎤᏬᏕᏫᏓ|4|Asiladv duhlvnv juwodehwida dihnawo.|ᎠᏏᎳᏛ ᏚᎸᏅ ᏧᏬᏕᏫᏓ ᏗᎿᏬ.|She hung the damp clothes on the line.|
+|ᎤᏬᏕᏫᏓ|4|Asiladv duhlvnv juwodehwida dihnawo.|ᎠᏏᎳᏛ ᏚᎸᏅ ᏧᏬᏕᏫᏓ ᏗᎿᏬ.|He hung the damp clothes on the line.|
 |ᎬᎫᏍᎦ|4|Gahljode gahljotv gvgusgo yugahnana.|ᎦᎵᏦᏕ ᎦᎵᏦᏛ ᎬᎪᏍᎪ ᏳᎦᎿᎾ.|The roof on the house leaks when it rains.|
 |ᎠᏓᏲᏁᏗ|4|Galvkwdi gohweli asgaga adahyonehdi.|ᎦᎸᏉᏗ ᎪᏪᎵ ᎠᏍᎦᎦ ᎠᏓᏲᏁᏗ.|The Bible reproves adultery.|
 |ᎪᎰᏅᏗᎭ|4|Gasgilv ahlahv waji uwohonhdohtanvi.|ᎦᏍᎩᎸ ᏝᎲ ᏩᏣ ᎤᏬᎰᏅᏙᏔᏅᎢ|He accidently dropped the clock from the table.|
 |ᏗᏓᎿᏫᏓ, ᏧᏓᎿᏫᏓ|4|Igada dajelisdv judahnawida degetoi.|ᎢᎦᏓ ᏓᏤᎵᏍᏛ ᏧᏓᎿᏫᏓ ᏕᎨᏙᎢ.|Some graves have crosses.|
-|ᎦᏍᎩᎶ ᎠᎵᏍᏓᏴᏗᎢ|4|Ije gasgilo alsdayhdi uhyoha.|ᎢᏤ ᎦᏍᎩᎶ ᎠᎵᏍᏓᏴᏗ ᎤᏲᎭ.|She's looking for a new dining table.|
+|ᎦᏍᎩᎶ ᎠᎵᏍᏓᏴᏗᎢ|4|Ije gasgilo alsdayhdi uhyoha.|ᎢᏤ ᎦᏍᎩᎶ ᎠᎵᏍᏓᏴᏗ ᎤᏲᎭ.|He's looking for a new dining table.|
 |ᏗᏁᎵᏙᏗ|4|Jadulisgvis iyusd dinehldohd jagise?|ᏣᏚᎵᏍᎬᎢᏍ ᎢᏳᏍᏗ ᏗᏁᎵᏙᏗ ᏣᎩᏎ?|Did you get the toy you wanted?|
 |ᎠᏓ|4|Jitaga anida jutvhisdohdi adanhteha.|ᏥᏔᎦ ᎠᏂᏓ ᏧᏛᎯᏍᏙᏗ ᎠᏓᏅᏖᎭ.|He's thinking about raising chicks.|
 |ᎠᏲᎢᏍᏗᎭ|4|Junsdi anichuja anahlihv uyoistanvi.|ᏧᎾᏍᏗ ᎠᏂᏧᏣ ᎠᎾᏟᎲ ᎤᏲᎢᏍᏔᏅᎢ.|He broke up a fight between the little boys.|
@@ -1084,7 +1084,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏟᎩᎠ|4|Tsgwisdi ulsdayvhnv yigi ahligisgoi.|ᏥᏈᏍᏗ ᎤᎵᏍᏓᏴᏅ ᏱᎩ ᎠᏟᎩᏍᎪᎢ.|When he has eaten a lot, he has a nightmare.|
 |ᎠᏴᏭᏁᎦ, ᎠᏲᏁᎦ|4|Tstvganvis ayonega Jalagi gawonisgv?|ᏣᏛᎦᏅᎢᏍ ᎠᏲᏁᎦ ᏣᎳᎩ ᎦᏬᏂᏍᎬ?|Have you heard a white person speak Cherokee?|
 |ᎠᏎᏏᎭ|4|Ugvwiyuhi yigalsdisgi gesv usesvhvi.|ᎤᎬᏫᏳᎯ ᏱᎦᎵᏍᏗᏍᎩ ᎨᏒ ᎤᏎᏒᎲᎢ.|He withdrew his candidacy for president.|
-|ᎠᏔᏪᏙᎥᏍᎦ|4|Uweji agehyuja agvdageni utawedonvi.|ᎤᏪᏥ ᎠᎨᏳᏣ ᎠᎬᏓᎨᏂ ᎤᏔᏪᏙᏅᎢ.|She kissed her daughter on the forehead.|
+|ᎠᏔᏪᏙᎥᏍᎦ|4|Uweji agehyuja agvdageni utawedonvi.|ᎤᏪᏥ ᎠᎨᏳᏣ ᎠᎬᏓᎨᏂ ᎤᏔᏪᏙᏅᎢ.|He kissed his daughter on the forehead.|
 |ᎠᏔᏃᎴᎦ|4|Wigvlidisgi yatotana ama atanolegoi.|ᏫᎬᎵᏗᏍᎩ ᏯᏙᏔᎾ ᎠᎹ ᎠᏔᏃᎴᎪᎢ.|When you heat water to its boiling point, it steams.|
 |ᎦᏃᎱᎩᎠ|4|Yvdaha Jisdvnoyi uweyv ganohugisgoi.|ᏴᏓᎭ ᏥᏍᏛᏃᏱ ᎤᏪᏴ ᎦᏃᎱᎩᏍᎪᎢ.|Sometimes Spring Creek floods.|
 |ᏓᎩᏏ|4|Daksi nvnohi dunadiwsidisv jigowahta.|ᏓᎩᏏ ᏅᏃᎯ ᏚᎾᏗᏫᏏᏗᏒ ᏥᎪᏩᏔ.|I saw a terrapin crossing the road.|
@@ -1106,7 +1106,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎴᏫᏍᏗᎭ|4|Kilo uhyanisgv utvgana, ulehwistanvi.|ᎩᎶ ᎤᏯᏂᏍᎬ ᎤᏛᎦᎾ, ᎤᎴᏫᏍᏔᏅᎢ.|When he heard someone calling him, he stopped.|
 |ᎠᏧᏣ|4|Na anichuja sgwahlesdi dananelohvsga.|Ꮎ ᎠᏂᏧᏣ ᏍᏆᏞᏍᏗ ᏓᎾᏁᎶᎲᏍᎦ.|The boys are playing ball.|
 |ᎤᏓᏅᎦᎸᏓ|4|Nigohilv udanvgalvda nuwahno uyvsdii.|ᏂᎪᎯᎸ ᎤᏓᏅᎦᎸᏓ ᏄᏩᏃ ᎤᏴᏍᏗᎢ.|He always keeps his room clean.|
-|ᎦᏟᏏᎭ|4|Sohi degahlisiha ganvji uwohlvhdohdi.|ᏐᎯ ᏕᎦᏟᏏᎭ ᎦᏅᏥ ᎤᏬᏢᏙᏗ.|She's gathering hickory nuts to make kanuchi.|
+|ᎦᏟᏏᎭ|4|Sohi degahlisiha ganvji uwohlvhdohdi.|ᏐᎯ ᏕᎦᏟᏏᎭ ᎦᏅᏥ ᎤᏬᏢᏙᏗ.|He's gathering hickory nuts to make kanuchi.|
 |ᎢᏳᏩᏂᎸᎢ|4|Taldu iyuwahnilv jigesv julohistanvi.|ᏔᎵᏚ ᎢᏳᏩᏂᎸ ᏥᎨᏒ ᏧᎶᎯᏍᏔᏅᎢ.|He stopped by at twelve o'clock.|
 |ᎠᏂ|4|Tsgwisdi ani anatvhisdisgo Sdilaweli.|ᏥᏈᏍᏗ ᎠᏂ ᎠᎾᏛᎯᏍᏗᏍᎪ ᏍᏗᎳᏪᎵ.|They grow a lot of strawberries in Stilwell.|
 |ᎠᏍᎦᏰᎬᏍᏓ|4|"Asgayegvsda osdineli," udvhnv agehya.|"ᎠᏍᎦᏰᎬᏍᏓ ᎣᏍᏗᏁᎵ," ᎤᏛᏅ ᎠᎨᏯ.|The woman said, "My husband is handsome."|
@@ -1114,7 +1114,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᎭᏘᏗ|4|Digahatdi duwhtanv getvsdi dasdlusgvi.|ᏗᎦᎭᏘᏗ ᏚᏭᏔᏅ ᎨᏛᏍᏗ ᏓᏍᏡᏍᎬᎢ.|He used wedges in splitting posts.|
 |ᏥᏍᏛᎾ ᎠᏓᏨᏯᏍᎩ|4|Jisdvna adajvysgi uwajvhyv ulasihdeni.|ᏥᏍᏛᎾ ᎠᏓᏧᏯᏍᎩ ᎤᏩᏨᏴ ᎤᎳᏍᎢᏕᏂ.|A scorpion stung him on his foot.|
 |ᎫᏩᏧᏁᎦ|4|Kuwajunega dluhgv uwahnilv anagalisgi.|ᎫᏩᏧᏁᎦ ᏡᎬ ᎤᏩᏂᎸ ᎠᎾᎦᎵᏍᎩ.|Lighting struck a sycamore tree.|
-|ᏑᎨᏓ|4|Sugeda uwohlvhnohna, digatdi wuhlanvi.|ᏑᎨᏓ ᎤᏬᏢᏃᎿ, ᏗᎦᏘᏗ ᏭᏝᏅᎢ.|After she made the dough, she put it in the oven.|
+|ᏑᎨᏓ|4|Sugeda uwohlvhnohna, digatdi wuhlanvi.|ᏑᎨᏓ ᎤᏬᏢᏃᎿ, ᏗᎦᏘᏗ ᏭᏝᏅᎢ.|After he made the dough, he put it in the oven.|
 |ᏩᏥᎳ|4|Wajila yvkisga vtlisv, doyaweisdisgoi.|ᏩᏥᎳ ᏴᎩᏍᎦ ᎥᏟᏒ, ᏙᏯᏪᎢᏍᏗᏍᎪᎢ.|If you swallow saliva while running, it tires you out.|
 |ᎦᏆᏘᏗ|4|Amayi wudelijv gagwatdi udagwadestana.|ᎠᎹᏱ ᏭᏕᎵᏨ ᎦᏆᏘᏗ ᎤᏓᏆᏕᏍᏔᎾ.|The wheel went into the water when it came off.|
 |ᏦᎳᏂ|4|Disduida igesesdi jolani, dehisduhnvi.|ᏗᏍᏚᎢᏓ ᎢᎨᏎᏍᏗ ᏦᎳᏂ, ᏕᎯᏍᏚᏅᎢ.|If the windows happen to be open, close them.|
@@ -1148,7 +1148,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏛᎦ|4|Hisduhvga galohisdii, tvhga dehiyhdiha.|ᎯᏍᏚᎲᎦ ᎦᎶᎯᏍᏗᎢ, ᏛᎦ ᏕᎯᏴᏗᎭ.|Close the door, you're letting the flies in.|
 |ᎤᏢᏓᎸᏓ|4|Hyahtena udlvdalvda ujayoha ulasihdeni.|ᏯᏖᎾ ᎤᏢᏓᎸᏓ ᎤᏣᏲᎭ ᎤᎳᏏᏕᏂ.|A splinter from a board stuck him in his foot.|
 |ᎠᏓᏟᏁᏌᎵᏗ|4|Ije adahlinesahldi unvnelv usdayvhvsgi.|ᎢᏤ ᎠᏓᏟᏁᏌᎵᏗ ᎤᏅᏁᎸ ᎤᏍᏓᏴᎲᏍᎩ.|He gave his wife a new purse.|
-|ᏗᏕᏲᎲᏍᎩ|4|Ilvsgi judetiyvda didehyohvsgi nigesoi.|ᎢᎸᏍᎩ ᏧᏕᏘᏴᏓ ᏗᏕᏲᎲᏍᎩ ᏂᎨᏐᎢ.|She's been a teacher for a few years.|
+|ᏗᏕᏲᎲᏍᎩ|4|Ilvsgi judetiyvda didehyohvsgi nigesoi.|ᎢᎸᏍᎩ ᏧᏕᏘᏴᏓ ᏗᏕᏲᎲᏍᎩ ᏂᎨᏐᎢ.|He's been a teacher for a few years.|
 |ᏓᎦᏨᏍᏗᎭ|4|Junilawisdi degegachvstanv soi jikalvi.|ᏧᏂᎳᏫᏍᏗ ᏕᎨᎦᏨᏍᏔᏅ ᏐᎢ ᏥᎧᎸᎢ.|They were married in a chapel last month.|
 |ᎦᏅᏤᎦ|4|Junilvhwisgane unaditasdi ama jinvjega.|ᏧᏂᎸᏫᏍᏓᏁ ᎤᎾᏗᏔᏍᏗ ᎠᎹ ᏥᏅᏤᎦ.|I am taking some drinking water for the workers.|
 |ᎠᏁᎳᏗᎠ|4|Neladugwu nudetiyvha uneladvi oginalii.|ᏁᎳᏚᏊ ᏄᏕᏘᏴᎭ ᎤᏁᎳᏛᎢ ᎣᎩᎾᎵᎢ.|My friend got married as soon as he turned eighteen.|
@@ -1176,10 +1176,10 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏓᎾᏅᎢ|4|Adananv dagilvhwisdaneho gogi yinulstana.|ᎠᏓᎾᏅ ᏓᎩᎸᏫᏍᏓᏁᎰ ᎪᎩ ᏱᏄᎵᏍᏔᎾ.|I work in a store in the summer.|
 |ᎡᎳᏗ|4|Eladi ulsdvhlunvi. Eladis hiluhgi?|ᎡᎳᏗ ᎤᎵᏍᏛᎷᏅᎢ. ᎡᎳᏗᏍ ᎯᎷᎩ?|He sat down. Did you come on foot?|
 |ᎤᏜᏏᏛᎡᎭ|4|Jadlasitvehas eligwu yigvgwadvnhdi gesvi?|ᏣᏜᏏᏛᎡᎭᏍ ᎡᎵᏊ ᏱᎬᏆᏛᏁᏗ ᎨᏒᎢ?|Don't you believe I can do it?|
-|ᎤᏙ|4|Udo uhwahtvhidoha svnadodagwasdi igohida.|ᎤᏙ ᎤᏩᏛᎯᏙᎭ ᏒᎾᏙᏓᏆᏍᏗ ᎢᎪᎯᏓ.|Her brother is visiting her for one week.|
+|ᎤᏙ|4|Udo uhwahtvhidoha svnadodagwasdi igohida.|ᎤᏙ ᎤᏩᏛᎯᏙᎭ ᏒᎾᏙᏓᏆᏍᏗ ᎢᎪᎯᏓ.|xHer brother is visiting xher for one week.|
 |ᎤᏅᏉᎳᏛᎢ|4|Uhnvkwolatv usgolvjv ulogilv uhlgaliyvha.|ᎤᏅᏉᎳᏛ ᎤᏍᎪᎸᏨ ᎤᎶᎩᎸ ᎤᎵᎦᎵᏴᎭ.|The rainbow faded when the cloud cleared up.|
 |ᎤᏥᏆᎸᏛᎢ|4|Utsgwalvtv ulsgwalselv hlgv dojuhltadina.|ᎤᏥᏆᎸᏛ ᎤᎵᏍᏆᎵᏎᎸ ᏡᎬ ᏙᏧᎵᏔᏗᎾ.|He broke his ankle when he jumped from a tree.|
-|ᎦᏰᏫᏍᎩᎢ|4|Anagalisgi uhnigisdisgi gayewsgi uduliha.|ᎠᎾᎦᎵᏍᎩ ᎤᏂᎩᏍᏗᏍᎩ ᎦᏰᏫᏍᎩ ᎤᏚᎵᎭ.|She wants an electric sewing machine.|
+|ᎦᏰᏫᏍᎩᎢ|4|Anagalisgi uhnigisdisgi gayewsgi uduliha.|ᎠᎾᎦᎵᏍᎩ ᎤᏂᎩᏍᏗᏍᎩ ᎦᏰᏫᏍᎩ ᎤᏚᎵᎭ.|He wants an electric sewing machine.|
 |ᏓᏂᎳᏫᎦ|4|Anijalagi Unadodagwidena usv danilawigoi.|ᎠᏂᏣᎳᎩ ᎤᏙᏓᏈᏕᎾ ᎤᏒ ᏓᏂᎳᏫᎪᎢ.|Cherokee hold church services on Saturday nights.|
 |ᎠᏴᏖᎠ|4|Askoli galvladidla uhyvhtesdi unehltanvi.|ᎠᏍᎪᎵ ᎦᎸᎳᏗᏜ ᎤᏴᏖᏍᏗ ᎤᏁᏟᏔᏅᎢ.|He tried to kick above his head.|
 |ᎠᏩᏘᎭ|4|Gohusdi yagvsgalanela, ahida ahwahtisgoi.|ᎪᎱᏍᏗ ᏯᎬᏍᎦᎳᏁᎳ, ᎠᎯᏓ ᎠᏩᏘᏍᎪᎢ.|When something is hidden from him, he finds it easily|
@@ -1188,7 +1188,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎦᏖᏃᎭ|4|Hla gohusdi yagwaduli. Jigatenolidohagwu.|Ꮭ ᎪᎱᏍᏗ ᏯᏆᏚᎵ. ᏥᎦᏖᏃᎵᏙᎭᏊ.|I don't want anything. I'm just looking around.|
 |ᎦᏣᏲᎯᎭ|4|Uhyvdla jaginiyisgv aganakti agijayohlvi.|ᎤᏴᏜ ᏣᎩᏂᏱᏍᎬ ᎠᎦᎾᎦᏘ ᎠᎩᏣᏲᏢᎢ.|When I had a cold, a doctor gave me an injection.|
 |ᎠᏨᏍᏗ|4|Unagalvha, anagalisgi dijvysdi duhdlosvi.|ᎤᎾᎦᎸᎭ, ᎠᎾᎦᎵᏍᎩ ᏗᏨᏍᏗ ᏚᏠᏒᎢ.|When lightning flashed, the electric lights went out.|
-|ᎫᎯᎶᎠ|4|Yiduhyahketsohna nana amohi deguhilosgoi.|ᏱᏚᏯᎨᏦᎿ ᎾᎾ ᎠᎼᎯ ᏕᎫᎯᎶᏍᎪᎢ.|When she finishes peeling potatoes, she washes them in water.|
+|ᎫᎯᎶᎠ|4|Yiduhyahketsohna nana amohi deguhilosgoi.|ᏱᏚᏯᎨᏦᎿ ᎾᎾ ᎠᎼᎯ ᏕᎫᎯᎶᏍᎪᎢ.|When he finishes peeling potatoes, he washes them in water.|
 |ᏓᎴᎲᏍᎦ|4|Dijalehvga gadvnv nigad dejalehnvi.|ᏗᏣᎴᎲᎦ ᎦᏛᏅ, ᏂᎦᏓ ᏕᏣᎴᏅᎢ.|When I say stand up, everyone stand up.|
 |ᎤᏩᏒᎯ|4|Juwasvhi nidulstanv juwoyeni duhyvdladela.|ᏧᏩᏒᎯ ᏂᏚᎵᏍᏔᏅ ᏧᏬᏰᏂ ᏚᏴᏜᏕᎳ.|His hands became numb when they became cold.|
 |ᏏᏅᏓ|4|Sinvda unihilidolv gahljode anahnesgesgvi.|ᏏᏅᏓ ᎤᏂᎯᎵᏙᎸ ᎦᎵᏦᏕ ᎠᏀᏁᏍᎨᏍᎬᎢ.|They took one month in building the house.|
@@ -1209,7 +1209,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏍᎬᏓᎨᏂ|4|Disgvdageni dusgoliyev ulehwistana atlisvi.|ᏗᏍᎬᏓᎨᏂ ᏚᏍᎪᎵᏰᎥ ᎤᎴᏫᏍᏔᎾ ᎠᏟᏒᎢ.|He rubbed his shins when he stopped running.|
 |ᎦᏅᏆᎶᏍᏗ|4|Ganvgwalosdi jigi dihnesgesgi uwhtanidasdi.|ᎦᏅᏆᎶᏍᏗ ᏥᎩ ᏗᏁᏍᎨᏍᎩ ᎤᏮᏔᏂᏓᏍᏗ.|A hammer is a carpenter's tool.|
 |ᎦᏍᎩᎶ ᏗᎯᎵᎨᏍᎩ|4|Gasgilo dihlihgesgi uwohlvhnv eduji.|ᎦᏍᎩᎶ ᏗᏟᎨᏍᎩ ᎤᏬᏢᏅ ᎡᏚᏥ.|My uncle made a rocking chair.|
-|ᎧᎵᏎᏥ|4|Kalseji uhwahi kalseji juwohlvhdodi.|ᎧᏎᏥ ᎤᏩᎯ ᎧᏎᏥ ᏧᏬᏢᏙᏗ.|She bought sugar to make candy.|
+|ᎧᎵᏎᏥ|4|Kalseji uhwahi kalseji juwohlvhdodi.|ᎧᏎᏥ ᎤᏩᎯ ᎧᏎᏥ ᏧᏬᏢᏙᏗ.|He bought sugar to make candy.|
 |ᏍᏗᎩᏓ|4|Sdikida duniyawegvi sgwalesdi dunanelohnvi.|ᏍᏗᎩᏓ ᏚᏂᏯᏪᎬᎢ ᏍᏆᎴᏍᏗ ᏚᎾᏁᎶᏅᎢ.|They were a little tired from playing ball.|
 |ᏱᏂᎦᎵᏍᏗᎭᏊ ᎩᎶ|4|Yinigalsdihagwu kilo hiyasuyesdi tsdelisgi.|ᏱᏂᎦᎵᏍᏗᎭᏊ ᎩᎶ ᎯᏯᏑᏰᏍᏗ ᏣᏍᏕᎵᏍᎩ.|You may choose anyone to help you.|
 |ᎬᏙᏌᏗᎠ|4|Aginohalidolv iagiluhja akwtosadvi galogwe.|ᎠᎩᏃᎭᎵᏙᎸ ᎢᎠᎩᎷᏣ ᎠᏋᏙᏌᏛᎢ ᎦᎶᏇ.|When I returned from hunting, I hung up my gun.|
@@ -1237,9 +1237,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎨᏯᏔᎯ|4|Janehltanvis sogwili gehyahtahi hiysladisdii?|ᏣᏁᎵᏔᏅᎢᏍ ᏍᏈᎵ ᎨᏯᏔᎯ ᎯᏴᏍᎳᏗᏍᏗᎢ?|Have you ever tried to rope a wild horse?|
 |ᎦᏃᏴᏟᏍᏗᎭ|4|Uhalvni unohyvhlistana danilawigv udalenvhvi.|ᎤᎭᎸᏂ ᎤᏃᏴᏟᏍᏔᎾ ᏓᏂᎳᏫᎬ ᎤᏓᎴᏅᎲᎢ.|When he rang the bell, church services started.|
 |ᎤᏜᏅᏓ|4|Dihnawo junohlvhdi udlanvda digalvhwisdanhdii.|ᏗᎿᏬ ᏧᏃᏢᏗ ᎤᏜᏅᏓ ᏗᎦᎸᏫᏍᏓᏁᏗᎢ.|There is a job opening at the clothing manufacturers.|
-|ᎦᏨᏩᏍᏗᎭ|4|Duhgiloohnidi ase, degajvwasdihahehno dihnawo.|ᏚᎩᎶᎣᏂᏗ ᎠᏎ, ᏕᎦᏨᏩᏍᏗᎭᎮᏃ ᏗᎿᏬ.|I guess she's just about finished washing because she is wringing the clothes.|
+|ᎦᏨᏩᏍᏗᎭ|4|Duhgiloohnidi ase, degajvwasdihahehno dihnawo.|ᏚᎩᎶᎣᏂᏗ ᎠᏎ, ᏕᎦᏨᏩᏍᏗᎭᎮᏃ ᏗᎿᏬ.|I guess he's just about finished washing because he is wringing the clothes.|
 |ᏕᎨᏛᏍᎦ|4|Udodagwada duwetinv udihlehgi dulvhwisdanehvi.|ᎤᏙᏓᏆᏓ ᏚᏪᏘᏅ ᎤᏗᏞᎩ ᏚᎸᏫᏍᏓᏁᎲᎢ.|He endured working in the heat all day.|
-|ᏝᏬᏚᎯ|4|Yugahnana, hlawotuhi nidegalsdisgo deganvhnvi.|ᏳᎦᎿᎾ, ᏝᏬᏚᎯ ᏂᏁᏕᎦᎵᏗᏍᎪ ᏕᎦᏅᏅᎢ.|She fell in the mud when she slipped.|
+|ᏝᏬᏚᎯ|4|Yugahnana, hlawotuhi nidegalsdisgo deganvhnvi.|ᏳᎦᎿᎾ, ᏝᏬᏚᎯ ᏂᏁᏕᎦᎵᏗᏍᎪ ᏕᎦᏅᏅᎢ.|He fell in the mud when he slipped.|
 |ᎦᎵᏉᎩ|4|Gahlgwogi jusvhida svnadodagwasdi nigalsdisgoi.|ᎦᎵᏉᎩ ᏧᏒᎯᏓ ᏒᎾᏙᏓᏆᏍᏗ ᏂᎦᎵᏍᏗᏍᎪᎢ.|Seven days make one week.|
 |ᎠᏗᏆᎸᏕᏲᎭ|4|Ayanuli adigwalvdeyoha gagwtv alehwisdohdohdii.|ᎠᏯᏄᎵ ᎠᏗᏆᎸᏕᏲᎭ ᎦᏉᏛ ᎠᎴᏫᏍᏙᏙᏗᎢ.|The wheel is spinning too fast to stop.|
 |ᏓᎬᏩᎶᏗᎭ|4|Nigalstanvgwu iga dehigvwahltanv gvyagwiyvelvi.|ᏂᎦᎵᏍᏔᏅᏊ ᎢᎦ ᏕᎯᎬᏩᎶᏔᏅ ᎬᏯᏈᏴᎡᎸᎢ.|Whatever price you set, I'll pay you.|
@@ -1250,12 +1250,12 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎧᏁᏉᎠ|4|Uhnehgwov julvhwisdanhdi usgwada dadehlohgwasgvi.|ᎤᏁᏉᎥ ᏧᎸᏫᏍᏓᏁᏗ ᎤᏍᏆᏓ ᏓᏕᏠᏆᏍᎬᎢ.|He increased his work load when he finished school.|
 |ᎠᎵᎬᏚᎶ|4|Dinhdladisgi dilsdehldohdi diligvdulo danhdisgoi.|ᏗᏅᏜᏗᏍᎩ ᏗᎵᏍᏕᎸᏙᏗ ᏗᎵᎬᏚᎶ ᏓᎾᏗᏍᎪᎢ.|Firemen use protective masks.|
 |ᎤᏜᏅᏓᏕᎭ|4|Soi kalesdi agwadlanvdadehesdi wigvwahtvhidasdii.|ᏐᎢ ᎧᎴᏍᏗ ᎠᏆᏜᏅᏓᏕᎮᏍᏗ ᏫᎬᏩᏛᎯᏓᏍᏗᎢ.|I'll have time to come to visit you next month.|
-|ᎠᏞᏌᏙ|4|Adlesado adlesadvysgo adasdayhdi yidulvhwisdanela.|ᎠᏞᏌᏙ ᎠᏞᏌᏛᎢᏍᎪ ᎠᏓᏍᏓᏴᏗ ᏱᏚᎸᏫᏍᏓᏁᎳ.|She puts on an apron when she works in the kitchen.|
+|ᎠᏞᏌᏙ|4|Adlesado adlesadvysgo adasdayhdi yidulvhwisdanela.|ᎠᏞᏌᏙ ᎠᏞᏌᏛᎢᏍᎪ ᎠᏓᏍᏓᏴᏗ ᏱᏚᎸᏫᏍᏓᏁᎳ.|He puts on an apron when he works in the kitchen.|
 |ᏚᎵᏰᏑᎳ|4|Hla yagilvkwdi digwaliyesulodi yidagilvhwisdaneha.|Ꮭ ᏯᎩᎸᏉᏗ ᏗᏆᎵᏰᏑᎶᏗ ᏱᏓᎩᎸᏫᏍᏓᏁᎭ.|I don't like to wear gloves when I'm working.|
 |ᎠᏓᎴᏂᎭ|4|Unalasgahldi yuhliilohla adalenisgo analasgalisgvi.|ᎤᎾᎳᏍᎦᎵᏗ ᏳᏟᎢᎶᏝ ᎠᏓᎴᏂᏍᎪ ᎠᎾᎳᏍᎦᎵᏍᎬᎢ.|When it's time for them to play ball, the ball game begins.|
 |ᎡᏙᎭ|4|Nidunalasuhlvna anedoha. Anedohas dejadatihnav?|ᏂᏚᎾᎳᏑᏢᎾ ᎠᏁᏙᎭ. ᎠᏁᏙᎭᏍ ᏕᏣᏓᏘᎿᎥ?|They are walking around barefoot. Is your family here?|
 |ᎦᏅᏠᏍᏗ|4|Ganvhlosdi hwinsanagi. Diganvhlosdi dutsvhnelvi.|ᎦᏅᏠᏍᏗ ᏫᎾᏌᎾᎩ. ᏗᎦᏅᏠᏍᏗ ᏚᏨᏁᎸᎢ.|Pull the brake! He ran out of brakes.|
-|ᎤᎵᏰᏑᏍᏔᎦ|4|Degegachvsdisgv unaliyesustosdi aliyesusto uliyesustgvi.|ᏕᎨᎦᏨᏍᏗᏍᎬ ᎤᎾᎵᏰᏑᏍᏙᏍᏗ ᎠᎵᏰᏑᏍᏙ ᎤᎵᏰᏑᏍᏘᎬᎢ.|She was wearing a wedding ring.|
+|ᎤᎵᏰᏑᏍᏔᎦ|4|Degegachvsdisgv unaliyesustosdi aliyesusto uliyesustgvi.|ᏕᎨᎦᏨᏍᏗᏍᎬ ᎤᎾᎵᏰᏑᏍᏙᏍᏗ ᎠᎵᏰᏑᏍᏙ ᎤᎵᏰᏑᏍᏘᎬᎢ.|He was wearing a wedding ring.|
 |ᎪᎯᏳᏓᏁᎭ|4|Jiyoiyhdane nigawesgvi. Sgwohiyhdanehdi agwaduliha.|ᏥᏲᎢᏴᏓᏁ ᏂᎦᏪᏍᎬᏒᎢ. ᏍᏉᎯᏴᏓᏁᏗ ᎠᏆᏚᎵᎭ.|I agree with what he says. I want you to vouch for me.|
 |Ꮭ ᎢᎸᏢ, Ꮭ Ꮲ|5|Hla ilvhdlv yidagesi kohi iga.|Ꮭ ᎢᎸᏢ ᏱᏓᎨᏏ ᎪᎯ ᎢᎦ.|I am going nowhere today.|
 |ᎤᎵᏍᎨᏓ|5|Hla ase ulsgeda yiges ei.|Ꮭ ᎠᏎ ᎤᎵᏍᎨᏓ ᏱᎨᏍ ᎡᎢ.|I guess it wasn't important.|
@@ -1263,7 +1263,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏓᎠ|5|Gado usdi na jigadaa getvi?|ᎦᏙ ᎤᏍᏗ Ꮎ ᏥᎦᏓᎠ ᎨᏛᎢ?|What's that hanging on the post?|
 |ᎢᎦ|5|Usv nigesvna yigi iga gesoi.|ᎤᏒ ᏂᎨᏒᎾ ᏱᎩ ᎢᎦ ᎨᏐᎢ.|If it isn't night, it's day.|
 |ᎢᎬᏱ|5|Igvyis hiluhgi sihnv ayv gesv?|ᎢᎬᏱᏍ ᎯᎷᎩ ᏏᏅ ᎠᏴ ᎨᏒ?|Did you get here before I did?|
-|ᎠᏟᎠ|5|Gado usdi adlia. Ama, unvdike?|ᎦᏙ ᎤᏍᏗ ᎠᏟᎠ. ᎠᎹ, ᎤᏅᏗᎨ?|What is she pouring? Milk or water?|
+|ᎠᏟᎠ|5|Gado usdi adlia. Ama, unvdike?|ᎦᏙ ᎤᏍᏗ ᎠᏟᎠ. ᎠᎹ, ᎤᏅᏗᎨ?|What is he pouring? Milk or water?|
 |ᎠᏍᎩᏘᏍᎦ|5|Gado usdi tsgitse usv jigesvi?|ᎦᏙ ᎤᏍᏗ ᏣᏍᎩᏘᏎ ᎤᏒ ᏥᎨᏒᎢ?|What did you dream about last night?|
 |ᎧᏅᏑᎸᎢ|5|Gado usdi kanvsulv ayaa udlvgi?|ᎦᏙ ᎤᏍᏗ ᎧᏅᏑᎸ ᎠᏯᎠ ᎤᏢᎩ?|Which room is the patient in?|
 |ᏂᎦᏪᎠ|5|Gayulas jvkewsa nuwesvi? Wesa nigawea.|ᎦᏳᎳᏍ ᏨᎨᏫᏎ ᏄᏪᏒᎢ? ᏪᏌ ᏂᎦᏪᎠ.|Have you already forgotten what he said? A cat is meowing.|
@@ -1306,7 +1306,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᏩᎢᏢᎢ|5|Duwaihlv udli didla udisgahla kiloi.|ᏚᏩᎢᏢ ᎤᏟ ᏗᏜ ᎤᏗᏍᎦᏝ ᎩᎶᎢ.|Someone is hiding behind the bushes.|
 |ᏅᏓᎩ|5|Nvdagi wagwedolv toi gedohv igohida.|ᏅᏓᎩ ᏩᏇᏙᎸ ᏙᎢ ᎨᏙᎲ ᎢᎪᎯᏓ.|I went to Texas during my vacation.|
 |ᎤᏲᎢ|5|Uyo ganvhnv uyochelv tali digagwati.|ᎤᏲ ᎦᏅᏅ ᎤᏲᏤᎸ ᏔᎵ ᏗᎦᏆᏘ.|His bicycle broke down on a bad road.|
-|ᏩᏐᏝ|5|Wasohla uwelisv asehnv kamama gesvi.|ᏩᏐᏝ ᎤᏪᎵᏒ ᎠᏎᏅ ᎧᎹᎹ ᎨᏒᎢ.|She thought it was a moth, but it was a butterfly.|
+|ᏩᏐᏝ|5|Wasohla uwelisv asehnv kamama gesvi.|ᏩᏐᏝ ᎤᏪᎵᏒ ᎠᏎᏅ ᎧᎹᎹ ᎨᏒᎢ.|He thought it was a moth, but it was a butterfly.|
 |ᏓᎳᏑᏢᏍᎦ|5|Dije dilasula julasuhldi uduli Wili.|ᏗᏤ ᏗᎳᏑᎶ ᏧᎳᏑᏢᏗ ᎤᏚᎵ ᏫᎵ.|Bill wants to put on some new shoes.|
 |ᎠᏓᏪᎯ|5|Doyu anidawehi geso igada Anijalagi.|ᏙᏳ ᎠᏂᏓᏪᎯ ᎨᏐ ᎢᎦᏓ ᎠᏂᏣᎳᎩ.|Some Cherokees are very magical.|
 |ᏭᏩᎪᏛᎢ|5|Gado digwvnhdi jaduli wunvkdv adela?|ᎦᏙ ᏗᏋᏁᏗ ᏣᏚᎵ ᏭᏅᎦᏗ ᎠᏕᎳ?|What do you want me to do with the rest of the money?|
@@ -1324,9 +1324,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎥᎴ|5|Vle anosda digahyesdi anadisgo igada.|ᎥᎴ ᎠᏃᏍᏓ ᏗᎦᏰᏍᏗ ᎠᎾᏗᏍᎪ ᎢᎦᏓ.|Some say that locusts are good to eat|
 |ᎤᏉᎴᎦ|5|Ahwi duhyalvsv svhi asehnv ukwolvsvi.|ᎠᏫ ᏚᏯᎸᏒ ᏒᎯ ᎠᏎᏅ ᎤᏉᎸᏒᎢ.|He went deer hunting yesterday but he had no luck.|
 |ᎠᏥᏍᎸᏍᎦ|5|Ajil gohlvhdi gvhdi ujislanvi goksdi.|ᎠᏥᎳ ᎪᏢᏗ ᎬᏗ ᎤᏥᏍᎳᏅᎢ ᎪᎩᏍᏗ.|He lit the cigarette with a match.|
-|ᎠᏟᏍᏗᎭ|5|Gado usdi adlisdiha? Ulvsadis guguke?|ᎦᏙ ᎤᏍᏗ ᎠᏟᏍᏗᎭ? ᎤᎸᏌᏗᏍ ᎫᎫᎨ?|What is she pouring it into? A glass or a bottle?|
+|ᎠᏟᏍᏗᎭ|5|Gado usdi adlisdiha? Ulvsadis guguke?|ᎦᏙ ᎤᏍᏗ ᎠᏟᏍᏗᎭ? ᎤᎸᏌᏗᏍ ᎫᎫᎨ?|What is he pouring it into? A glass or a bottle?|
 |ᎦᎸᏍᎦ|5|Gadohi atalesv ulvnv inada ulihwojvi.|ᎦᏙᎯ ᎠᏔᎴᏒ ᎤᎸᏅ ᎢᎾᏓ ᎤᎵᏬᏨᎢ.|He put the dead snake in a hole in the ground|
-|ᏫᎦᏁᎲᏍᎦ|5|Gahljode wunehnv ama adlisdv ulvsadi.|ᎦᎵᏦᏕ ᏭᏁᏅ ᎠᎹ ᎠᏟᏍᏛ ᎤᎸᏌᏗ.|She took the glass of water inside.|
+|ᏫᎦᏁᎲᏍᎦ|5|Gahljode wunehnv ama adlisdv ulvsadi.|ᎦᎵᏦᏕ ᏭᏁᏅ ᎠᎹ ᎠᏟᏍᏛ ᎤᎸᏌᏗ.|He took the glass of water inside.|
 |ᎠᏲᎯᎭ|5|Ganohalido gahlida gvhdi uyohlv ahwi.|ᎦᏃᎭᎵᏙ ᎦᏟᏓ ᎬᏗ ᎤᏲᏢ ᎠᏫ.|The hunter shot a deer with an arrow.|
 |ᎠᎦᏑᏰᏓ|5|Hia asgaya ase agasuyeda uwonihisdii.|ᎯᎠ ᎠᏍᎦᏯ ᎠᏎ ᎠᎦᏑᏰᏓ ᎤᏬᏂᎯᏍᏗᎢ.|This man is a specially selected speaker.|
 |ᎠᎩᏍᏙᎠ|5|Na agehya nigohilv jilali agisdosgoi.|Ꮎ ᎠᎨᏯ ᏂᎪᎯᎸ ᏥᎳᎵ ᎠᎩᏍᏙᏍᎪᎢ.|The woman always chews gum.|
@@ -1337,7 +1337,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏍᎦᎦ|5|Achuja jolani uyostana, udoda usgajvi.|ᎠᏧᏣ ᏦᎳᏂ ᎤᏲᏍᏔᎾ, ᎤᏙᏓ ᎤᏍᎦᏨᎢ.|When the boy broke the window, his father reprimanded him.|
 |ᎠᏑᏫᏍᎦ|5|Gado usdi ulsuhwida tisuhwis gahljode?|ᎦᏙ ᎤᏍᏗ ᎤᎵᏑᏫᏓ ᏘᏑᏫᏍ ᎦᎵᏦᏕ?|What color are you going to paint the house?|
 |ᎠᏓᏴᎳᏛᏍᎩ|5|Hadlv jagise na ulsuhwid adayvlatvsgi?|ᎭᏢ ᏣᎩᏎ Ꮎ ᎤᎵᏑᏫᏓ ᎠᏓᏴᎳᏛᏍᎩ?|Where did you get the color television?|
-|ᎫᎲᏍᎦ|5|Joiha juweji duwuhnv sunale junigisdi.|ᏦᎢᎭ ᏧᏪᏥ ᏚᏭᏅ ᏑᎾᎴ ᏧᏂᎩᏍᏗ.|She boiled three eggs for breakfast.|
+|ᎫᎲᏍᎦ|5|Joiha juweji duwuhnv sunale junigisdi.|ᏦᎢᎭ ᏧᏪᏥ ᏚᏭᏅ ᏑᎾᎴ ᏧᏂᎩᏍᏗ.|He boiled three eggs for breakfast.|
 |ᎤᏴᏍᏕᏍᎩ|5|Kilo uhyvsdesgi uhnawojv gola jigesvi.|ᎩᎶ ᎤᏴᏍᏕᏍᎩ ᎤᎿᏬᏨ ᎪᎳ ᏥᎨᏒᎢ.|Some drunkard froze to death last winter.|
 |ᎠᏴᏩᏘᎭ|5|Na achuja ije gosdvnisdi uyvhwahtvhvi.|Ꮎ ᎠᏧᏣ ᎢᏤ ᎪᏍᏛᏂᏍᏗ ᎤᏴᏩᏛᎲᎢ.|The boy found a new bat.|
 |ᎠᏍᏆᎵᏍᎦ|5|Na asgaya galuysdi guhahldi usgwalsvi.|Ꮎ ᎠᏍᎦᏯ ᎦᎷᏯᏍᏗ ᎫᎭᏟᏗ ᎤᏍᏆᎵᏒᎢ.|The man broke an axe handle.|
@@ -1359,7 +1359,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎩᎠ|5|Selu gadu unigisdi unilvkwdi Anijalagi.|ᏎᎷ ᎦᏚ ᎤᏂᎩᏍᏗ ᎤᏂᎸᏉᏗ ᎠᏂᏣᎳᎩ.|The Cherokees like to eat corn bread.|
 |ᎦᎪᏗ|5|Sgohi nidekdvv svgi digakohdi duhwasvi.|ᏍᎪᎯ ᏂᏕᎦᏛᎥ ᏒᎩ ᏗᎦᎪᏗ ᏚᏩᏒᎢ.|He bought ten bundles of young onion plants.|
 |ᎦᏁᎭ|5|Talsgo anohweli usvdena galogwe ganeha.|ᏔᎳᏍᎪ ᎠᏃᏪᎵ ᎤᏒᏕᎾ ᎦᎶᏇ ᎦᏁᎭ.|He is holding a 20-guage shotgun.|
-|ᎦᏂᏝᏗᏍᏗ|5|Uji ujeli iyulstanv ganihladisdi uwaya.|ᎤᏥ ᎤᏤᎵ ᎢᏳᎵᏍᏔᏅ ᎦᏂᏝᏗᏍᏗ ᎤᏩᏯ.|She has a bedstead that belonged to her mother.|
+|ᎦᏂᏝᏗᏍᏗ|5|Uji ujeli iyulstanv ganihladisdi uwaya.|ᎤᏥ ᎤᏤᎵ ᎢᏳᎵᏍᏔᏅ ᎦᏂᏝᏗᏍᏗ ᎤᏩᏯ.|He has a bedstead that belonged to his mother.|
 |ᎠᏒᏢᎢ|5|Unohugana igada dasvhdlv duyostanv ama.|ᎤᏃᎱᎦᎾ ᎢᎦᏓ ᏓᏒᏢ ᏚᏲᏍᏔᏅ ᎠᎹ.|When it flooded, the water destroyed some of the bridges.|
 |ᎤᏗᏴᏓᏛᎢ|5|Usdiki uhnuwv iyusdi udiyvdadv uksatvi.|ᎤᏍᏗᎩ ᎤᏄᏮ ᎢᏳᏍᏗ ᎤᏗᏴᏓᏛ ᎤᎦᏌᏛᎢ.|His shirt was so small his navel was showing.|
 |ᎠᏒᏂᎭ|5|Uwoyeni uleyvsv udihlehgi osi usvhnila.|ᎤᏬᏰᏂ ᎤᎴᏴᏒ ᎤᏗᏞᎩ ᎣᏏ ᎤᏒᏂᎳ.|He burned his hand when he touched a hot stove.|
@@ -1373,7 +1373,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᎦᏐᏍᎦ|5|Ganvhida aksosgv aksosgo ama yunegisena.|ᎦᏅᎯᏓ ᎠᎦᏐᏍᎬ ᎠᎦᏐᏍᎪ ᎠᎹ ᏳᏁᎩᏎᎾ.|He goes down a long hill when he goes after water.|
 |ᎤᏴᏜ ᎤᏂᏱᎭ|5|Hla osda yagwadanhta. Uhyvdla aginiyiha.|Ꮭ ᎣᏍᏓ ᏯᏆᏓᏅᏔ. ᎤᏴᏜ ᎠᎩᏂᏱᎭ.|I don't feel good. I have a cold.|
 |ᏓᎾᏩ|5|Ilvhiyuis toi nidagalstani heli dahnawa?|ᎢᎸᎯᏳᎢᏍ ᏙᎢ ᏂᏓᎦᎵᏍᏔᏂ ᎮᎵ ᏓᎿᏩ?|Do you think that war will ever cease?|
-|ᎪᎨᏱ|5|Soi gogeyi iyv dvsuligoji dadehyohvsgvi.|ᏐᎢ ᎪᎨᏱ ᎢᏴ ᏛᏑᎵᎪᏥ ᏓᏕᏲᎲᏍᎬᎢ.|She's going to quit teaching next spring.|
+|ᎪᎨᏱ|5|Soi gogeyi iyv dvsuligoji dadehyohvsgvi.|ᏐᎢ ᎪᎨᏱ ᎢᏴ ᏛᏑᎵᎪᏥ ᏓᏕᏲᎲᏍᎬᎢ.|He's going to quit teaching next spring.|
 |ᎤᏩᎨᏓ|5|Juhwageda dihnawo duhnvsv juhyvdlv uwena.|ᏧᏩᎨᏓ ᏗᎿᏬ ᏚᏅᏒ ᏧᏴᏢ ᎤᏪᎾ.|He took some thick clothing when he went up north.|
 |ᏅᏯ ᎠᏛᏓᏅᎢ|5|Nvya ditvdanvi ahnekstanv adanelv ganela.|ᏅᏯ ᏗᏛᏓᏅᎢ ᎠᏁᏍᎨᏔᏅ ᎠᏓᏁᎸ ᎦᏁᎳ.|He lives in a house made of bricks.|
 |ᏙᎢ|5|To nijadvga duwosela, ehlawe nunalstanvi.|Ꮩ ᏂᏣᏛᎦ ᏚᏬᏎᎳ, ᎡᏝᏪ ᏄᎾᎵᏍᏔᏅᎢ.|When he told them to be still, they became quiet.|
@@ -1422,7 +1422,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏴᏤᏂ|5|Ahyvhjeni dajiyolisv jisdu asehnv dejinvdvi.|ᎠᏴᏤᏂ ᏓᏥᏲᎵᏒ ᏥᏍᏚ ᎠᏎᏅ ᏕᏥᏅᏛᎢ.|I was going to shoot a rabbit in his throat but I missed.|
 |ᎤᎴᎾᎯᎭ|5|Ulenahlv hlahehno yaktahe ididla wulohisdii.|ᎤᎴᏀᎸ ᏝᎮᏃ ᏯᎧᏔᎮ ᎢᏗᏜ ᏭᎶᎯᏍᏗᎢ.|He got lost because he didn't know which way to go.|
 |ᎤᏪᎵᎯᏍᏗ|5|Uwelihisdi udanhdadvi utvgana udoda udlvgvi.|ᎤᏪᎵᎯᏍᏗ ᎤᏓᏅᏓᏛᎢ ᎤᏛᎦᎾ ᎤᏙᏓ ᎤᏢᎬᎢ.|He felt worried when he heard that his father was sick.|
-|ᎧᏅᏐᎸᏍᏗᎭ|5|Ahnawo gvhdi kanvsolvsdisgo kansdaji aganvi.|ᎠᎿᏬ ᎬᏗ ᎧᏅᏐᎸᏍᏗᏍᎪ ᎧᎾᏍᏓᏥ ᎠᎦᏅᎢ.|She strains sassafras tea with a cloth.|
+|ᎧᏅᏐᎸᏍᏗᎭ|5|Ahnawo gvhdi kanvsolvsdisgo kansdaji aganvi.|ᎠᎿᏬ ᎬᏗ ᎧᏅᏐᎸᏍᏗᏍᎪ ᎧᎾᏍᏓᏥ ᎠᎦᏅᎢ.|He strains sassafras tea with a cloth.|
 |ᎦᏃᏍᎩᎠ|5|Dagwalela unosgisv iyusdi junadasgugi wayaa.|ᏓᏆᎴᎳ ᎤᏃᏍᎩᏒ ᎢᏳᏍᏗ ᏧᎾᏓᏍᎫᎩ ᏩᏯᎠ.|He's in jail for stealing a car.|
 |ᎦᏙᎦ|5|Doyi didla danidogv dinadaniyisgi wagiluhja.|ᏙᏱ ᏗᏜ ᏓᏂᏙᎬ ᏗᎾᏓᏂᏱᏍᎩ ᏩᎩᎷᏣ.|The policemen were standing outside when I got there.|
 |ᎠᏍᏉᎭᎸᏂᎭ|5|Gihli duktilena gansda gvhdi usgwohalvnilvi.|ᎩᏟ ᏚᎦᏘᎴᎾ ᎦᎾᏍᏓ ᎬᏗ ᎤᏍᏉᎭᎸᏂᎸᎢ.|When the dog attacked him, he hit it in the stomach with a stick.|
@@ -1434,7 +1434,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏍᏆᏞᏍᏗ, ᏍᏆᏞᏍᏗ|5|Na diniyohli sgwalesdi junanehldi unaduliha.|Ꮎ ᏗᏂᏲᏟ ᏍᏆᎴᏍᏗ ᏧᎾᏁᎶᏗ ᎤᎾᏚᎵᎭ.|The children want to play ball.|
 |ᎭᏫᏯ|5|Sihgwa junihisdi gayohlige dagvwahld hawiya.|ᏏᏆ ᏧᏂᎯᏍᏗ ᎦᏲᏟᎨ ᏓᎬᏩᎶᏙ ᎭᏫᏯ.|Meat is less expensive at slaughter houses.|
 |ᎬᏂᎨᏒᎢ|5|Udisgahla elisgv asehnv kvhnigesv dagadogvi.|ᎤᏗᏍᎦᏝ ᎡᎵᏍᎬ ᎠᏎᏅ ᎬᏂᎨᏒ ᏓᎦᏙᎬᎢ.|I thought he was hiding, but he was standing in view.|
-|ᎠᏓᏠᎯᎭ|5|Uwoduhi adadlosdi udadlohlvi digaduhv uwena.|ᎤᏬᏚᎯ ᎠᏓᏠᏍᏗ ᎤᏓᏠᏢᎢ ᏗᎦᏚᎲ ᎤᏪᎾ.|She put on a pretty belt when she went to town.|
+|ᎠᏓᏠᎯᎭ|5|Uwoduhi adadlosdi udadlohlvi digaduhv uwena.|ᎤᏬᏚᎯ ᎠᏓᏠᏍᏗ ᎤᏓᏠᏢᎢ ᏗᎦᏚᎲ ᎤᏪᎾ.|He put on a pretty belt when he went to town.|
 |ᏧᎧᏅᏍᏕᎾ|5|Wahga jukanvsdena dilsdisgi nulstanv unalii.|ᏩᎦ ᏧᎧᏅᏍᏕᎾ ᏗᎵᏍᏗᏍᎩ ᏄᎵᏍᏔᏅ ᎤᎾᎵᎢ.|His friend became a bullfighter.|
 |ᏓᏫᏍᎦᎳ|5|Dawisgala gohlvhtanv gahlida uska uhwahtvhvi.|ᏓᏫᏍᎦᎳ ᎪᏢᏔᏅ ᎦᏟᏓ ᎤᏍᎧ ᎤᏩᏛᎲᎢ|He found an arrowhead made out of flint.|
 |ᎧᏴᏐᎵ|5|Kayvsoli adanegali udihlehgi agalisgv iyusdi.|ᎧᏴᏐᎵ ᎠᏓᏁᎦᎵ ᎤᏗᏞᎩ ᎠᎦᎵᏍᎬ ᎢᏳᏍᏗ.|His nose is peeling due to the hot sun.|
@@ -1443,8 +1443,8 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏗᏓᏂᏐᏗᎢ, ᏧᎾᏓᏂᏐᏗᎢ|5|Didanisohdi dunilvhwisdane anisgay ganulv anigalsga.|ᏗᏓᏂᏐᏗ ᏚᏂᎸᏫᏍᏓᏁ ᎠᏂᏍᎦᏯ ᎦᏄᎸ ᎠᏂᎦᎵᏍᎦ.|Some men are working in the cemetery mowing grass.|
 |ᎠᎯᎭ|5|Gahlgwogi iyanii saloli degajilv aginohalena.|ᎦᎵᏉᎩ ᎢᏯᏂᎢ ᏌᎶᎵ ᏕᎦᏥᎸ ᎠᎩᏃᎭᎴᎾ.|I killed seven squirrels when I went hunting.|
 |ᎠᏔᏍᎩᏍᎩ|5|Ganayego goksdi ditasgisgi dasgwanigodv navi.|ᎦᎾᏰᎪ ᎪᎦᏍᏗ ᏗᏔᏍᎩᏍᎩ ᏓᏍᏆᏂᎪᏛ ᎾᎥᎢ.|It's dangerous to smoke near a place where explosives are stored.|
-|ᏓᏟᎨᎭ|5|Gasgilo dihlihgesgi uwasa dahlihgesgv ugohvi.|ᎦᏍᎩᎶ ᏗᏟᎨᏍᎩ ᎤᏩᏌ ᏓᏟᎨᏍᎬ ᎤᎪᎲᎢ.|She saw a rocking chair rocking by itself.|
-|ᎣᏏ ᎠᏓᏍᏓᏴᏗᎢ|5|Ije osi adasdayhdi udasvhnv anadagonatdisgvi.|ᎢᏤ ᎣᏏ ᎠᏓᏍᏓᏴᏗ ᎤᏓᏒᏅ ᎠᎾᏓᎪᎾᏘᏗᏍᎬᎢ.|She won a new range in a contest.|
+|ᏓᏟᎨᎭ|5|Gasgilo dihlihgesgi uwasa dahlihgesgv ugohvi.|ᎦᏍᎩᎶ ᏗᏟᎨᏍᎩ ᎤᏩᏌ ᏓᏟᎨᏍᎬ ᎤᎪᎲᎢ.|He saw a rocking chair rocking by itself.|
+|ᎣᏏ ᎠᏓᏍᏓᏴᏗᎢ|5|Ije osi adasdayhdi udasvhnv anadagonatdisgvi.|ᎢᏤ ᎣᏏ ᎠᏓᏍᏓᏴᏗ ᎤᏓᏒᏅ ᎠᎾᏓᎪᎾᏘᏗᏍᎬᎢ.|He won a new range in a contest.|
 |ᏥᎳᎵ|5|Sagwu nidegaladisdv jilali dehiyvhvi, howaju?|ᏌᏊ ᏂᏕᎦᎳᏗᏍᏛ ᏥᎳᎵ ᏕᎯᏴᎲᎢ, ᎰᏩᏧ?|Get one package of chewing gum, okay?|
 |ᎢᎬᎾᏕᎾ|5|Sgohitsgwa iyuhliloda igvnadena duhwisa selu.|ᏍᎪᎯᏥᏆ ᎢᏳᏟᎶᏓ ᎢᎬᎾᏕᎾ ᏚᏫᏌ ᏎᎷ.|He has corn planted in an area of one hundred acres.|
 |ᎠᏴᏠ|5|Sudal ilasihdi iganvhida ahyvhdlo uwohlvhnvi.|ᏑᏓᎵ ᎢᎳᏏᏗ ᎢᎦᏅᎯᏓ ᎠᏴᏠ ᎤᏬᏢᏅᎢ.|He made a six-foot ladder.|
@@ -1456,7 +1456,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏁᎦᎵᎭ|5|Nidunegalvdagwu dasdigisgo gagama iga julvkwdi|ᏂᏚᏁᎦᎳᎸᏓᏊ ᏓᏍᏗᎩᏍᎪ ᎦᎦᎹ ᎢᎦ ᏧᎸᏉᏗ.|He likes cucumbers so well, he eats them without peeling them.|
 |ᏐᏁᎳ|5|Sohnela iyuwahnilv sunale jigowhtvhdi ganakti.|ᏐᏁᎳ ᎢᏳᏩᏂᎸ ᏑᎾᎴ ᏥᎪᏮᏛᏗ ᎦᎾᎦᏘ.|I have to see the doctor tomorrow at nine o'clock.|
 |ᏒᎯ ᏒᎯᏰᏱ|5|Svhi svhiyeyi aksgwdv kanesga dejisdayhdisgvi.|ᏒᎯ ᏒᎯᏰᏱ ᎠᎩᏍᏆᏛ ᎧᏁᏍᎦ ᏕᏥᏍᏓᏴᏗᏍᎬᎢ.|I finished bailing hay yesterday evening.|
-|ᎤᏟᎠᏓ|5|Adela dalonige digohlvhtanv didliado dudliada.|ᎠᏕᎳ ᏓᎶᏂᎨ ᏗᎪᏢᏔᏅ ᏗᏟᎠᏙ ᏚᏟᎠᏓ.|She's wearing earrings made of gold.|
+|ᎤᏟᎠᏓ|5|Adela dalonige digohlvhtanv didliado dudliada.|ᎠᏕᎳ ᏓᎶᏂᎨ ᏗᎪᏢᏔᏅ ᏗᏟᎠᏙ ᏚᏟᎠᏓ.|He's wearing earrings made of gold.|
 |ᎠᏗᎦᎴᏲᎦ|5|Ahnawo uligvhaluhyv udigaleyojv sdaya unolvna.|ᎠᎿᏬ ᎤᎵᎬᎭᎷᏴ ᎤᏗᎦᎴᏲᏨ ᏍᏓᏯ ᎤᏃᎸᎾ.|Pieces of cloth scattered when the wind blew hard.|
 |ᎦᎧᎯᏯᎠ|5|Ale gihli nidajiyatihnuga asehnv dajiyakahiya.|ᎠᎴ ᎩᏟ ᏂᏓᏥᏯᏘᏄᎦ ᎠᏎᏅ ᏓᏥᏯᎧᎯᏯ.|I almost brought my dog, but l left it behind.|
 |ᎧᏁᏍᎦ|5|Gogi yinulstana, kanesga aninsanesgo anichuja.|ᎪᎩ ᏱᏄᎵᏍᏔᎾ, ᎧᏁᏍᎦ ᎠᏂᎾᏌᏁᏍᎪ ᎠᏂᏧᏣ.|In the summertime, the boys haul hay.|
@@ -1469,13 +1469,13 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏚᏏ|5|Saluyi unaksesdi gadusi danetvsgo junaktohdii.|ᏌᎷᏱ ᎤᎾᎦᏎᏍᏗ ᎦᏚᏏ ᏓᏁᏛᏍᎪ ᏧᎾᎦᏙᏗᎢ.|Forest rangers build lookout towers on hills.|
 |ᎢᏏᏔᏗᏍᏗ|5|Taldu isihtadisdi sagwu ilasihdi nigalsdisgoi.|ᏔᎵᏚ ᎢᏏᏔᏗᏍᏗ ᏌᏊ ᎢᎳᏏᏗ ᏂᎦᎵᏍᏗᏍᎪᎢ.|Twelve inches make one foot.|
 |ᎪᎦᏍᏗ|5|Talsgohi digokski degalo sagwu nidegakwenvsvi.|ᏔᏍᎵᏍᎪᎯ ᏗᎪᎦᏍᎩ ᏕᎦᎶ ᏌᏊ ᏂᏕᎦᏇᏅᏒᎢ.|There are twenty cigarettes in one package.|
-|ᎨᎳᏗᏙᎭ|5|Tsgwisdi yvwi nunadvhnv uhweladidasdi ulvkwdi.|ᏥᏈᏍᏗ ᏴᏫ ᏄᎾᏛᎲ ᎤᏪᎳᏗᏓᏍᏗ ᎤᎸᏉᏗ.|She likes to mingle with a lot of people.|
+|ᎨᎳᏗᏙᎭ|5|Tsgwisdi yvwi nunadvhnv uhweladidasdi ulvkwdi.|ᏥᏈᏍᏗ ᏴᏫ ᏄᎾᏛᎲ ᎤᏪᎳᏗᏓᏍᏗ ᎤᎸᏉᏗ.|He likes to mingle with a lot of people.|
 |ᎦᏌᏆᎸᎢ|5|Gasagwalv gasgilo alsdayhdi unisgila junenvsvi.|ᎦᏌᏆᎸ ᎦᏍᎩᎶ ᎠᎵᏍᏓᏴᏗ ᎤᏂᏍᎩᎳ ᏧᏁᏅᏒᎢ.|They have a round dinner table at home.|
 |ᏔᎷᎩᏍᎩ|5|Dahyasladisgo talugisgi yagohila ama yidalisdi.|ᏓᏯᏍᎳᏗᏍᎪ ᏔᎷᎩᏍᎩ ᏯᎪᎯᎳ ᎠᎹ ᏱᏓᎵᏍᏗ.|Cans get rusty if water is left in them too long.|
 |ᏓᏆᎴᎳ|5|Digaduhv wigaluhjv asgaya, dagwalela dayuhwasi.|ᏗᎦᏚᎲ ᏫᎦᎷᏨ ᎠᏍᎦᏯ, ᏓᏆᎴᎳ ᏓᏳᏩᏏ.|When he gets to town, the man is going to buy a car.|
 |ᎤᏕᎵᏍᎦᎸᎲᎢ|5|Eligwus yiksdela udelisgalvhv galesv dagwalela?|ᎡᎵᏊᏍ ᏱᏍᎩᏍᏕᎳ ᎤᏕᎵᏍᎦᎸᎲ ᎦᎴᏒ ᏓᏆᎴᎳ?|Can you help me get my car out of a ditch?|
 |ᎦᏄᎪᎢᏍᏙᏗᎢ|5|Eligwus yiskinohis uhna gohlvsv ganugoisdohdii?|ᎡᎵᏊᏍ ᏱᏍᎩᏃᎯᏍ ᎤᎿ ᎪᏢᏒ ᎦᏄᎪᎢᏍᏙᏗᎢ?|Can you tell me where the exit is?|
-|ᎬᏣᎬᎥᏍᎦ|5|Ganihli ayesdvdi ulesa dikayodisgii uwhjagvnvi.|ᎦᏂᏟ ᎠᏰᏍᏛᏗ ᎤᎴᏌ ᏗᎧᏲᏗᏍᎩᎢ ᎤᏮᏣᎬᏅᎢ.|When she took the sheet out of the dryer, she shook it.|
+|ᎬᏣᎬᎥᏍᎦ|5|Ganihli ayesdvdi ulesa dikayodisgii uwhjagvnvi.|ᎦᏂᏟ ᎠᏰᏍᏛᏗ ᎤᎴᏌ ᏗᎧᏲᏗᏍᎩᎢ ᎤᏮᏣᎬᏅᎢ.|When he took the sheet out of the dryer, he shook it.|
 |ᎠᏍᏆᎸᏂᎭ|5|Gosdvnisdi gvhdi usgwalvnisdi gihli unehltanvi.|ᎪᏍᏛᏂᏍᏗ ᎬᏗ ᎤᏍᏆᎸᏂᏍᏗ ᎩᏟ ᎤᏁᏟᏔᏅᎢ.|He tried to hit the dog on the head with a bat.|
 |ᏧᎬᏩᎶᏗ|5|Hla jugvwahldi yinigvhnisisgo alihelisdi gesvi.|Ꮭ ᏧᎬᏩᎶᏗ ᏱᏂᎬᎯᏏᏍᎪ ᎠᎴᎮᎵᏍᏗ ᎨᏒᎢ.|Wealth does not cause happiness.|
 |ᎤᏥᏯ|5|Igada anasuhnidohi unijiya danhdisgo yunasuhna.|ᎢᎦᏓ ᎠᎾᏑᏂᏙᎯ ᎤᏂᏥᏯ ᏓᏅᏗᏍᎪ ᏳᎾᏑᎿ.|Some fishermen use worms when they fish.|
@@ -1499,7 +1499,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏅᏆᎶᏍᎩᎢ|5|Ganvgwalosgii osda nidanvneho sogwili junalasulo.|ᎦᏅᏆᎶᏍᎩᎢ ᎣᏍᏓ ᏂᏓᏅᏁᎰ ᏐᏈᎵ ᏧᎾᎳᏑᎶ.|They fix horseshoes at a blacksmith shop.|
 |ᏝᏬᏚ|5|Hlawotu unvliyev ahnvwisgv kanajisdeji uwajvhyvi.|ᏝᏬᏚ ᎤᏅᎵᏰᎥ ᎠᏅᏫᏍᎬ ᎧᎾᏥᏍᏕᏥ ᎤᏩᏨᏴᎢ.|He doctored himself where a wasp stung him by rubbing mud on it.|
 |ᎤᎵᏍᏚᎢᏓ|5|Galohisdi ulsduida gesv agwadelohosa, wagiyvhlvi.|ᎦᎶᎯᏍᏗ ᎤᎵᏍᏚᎢᏓ ᎨᏒ ᎠᏆᏕᎶᎰᏌ, ᏩᎩᏴᎸᎢ.|When I found out the door was open, I went in.|
-|ᎠᎵᏰᏑᏍᏛᏍᎦ|5|Joitsgwa adelv jugvwahldi aliyesusto uliyesustga.|ᏦᎢᏥᏆ ᎠᏕᎸ ᏧᎬᏩᎵᏗ ᎠᎵᏰᏑᏍᏙ ᎤᎵᏰᏑᏍᏘᎦ.|She has a three hundred dollar ring on her finger.|
+|ᎠᎵᏰᏑᏍᏛᏍᎦ|5|Joitsgwa adelv jugvwahldi aliyesusto uliyesustga.|ᏦᎢᏥᏆ ᎠᏕᎸ ᏧᎬᏩᎵᏗ ᎠᎵᏰᏑᏍᏙ ᎤᎵᏰᏑᏍᏘᎦ.|He has a three hundred dollar ring on his finger.|
 |ᎦᏢᏍᎦ|5|Junilvhwisdanehi nvya danihlvsga gadohi atalesvi.|ᏧᏂᎸᏫᏍᏓᏁᎯ ᏅᏯ ᏓᏂᏢᏍᎦ ᎦᏙᎯ ᎠᏔᎴᏒᎢ.|The workers are putting some rocks in a hole in the ground.|
 |ᎠᏔᏍᎩᏍᏗᎭ|5|Kayegwona nvhgine ditasgisgi danhtasgidisgo yvwi.|ᎧᏰᏉᎾ ᏅᎩᏁ ᏗᏔᏍᎩᏍᎩ ᏓᏂᏔᏍᎩᏗᏍᎪ ᏴᏫ.|On July fourth people fire firecrackers.|
 |ᎠᎦᏴᎵᎨᎢ|5|Na agayvlige talsgohi nadetiya nidigvdehyohvsgoi.|Ꮎ ᎠᎦᏴᎵᎨ ᏔᎵᏍᎪᎯ ᎾᏕᏘᏯ ᏂᏗᎬᏕᏲᎲᏍᎪᎢ.|The old woman has been teaching for twenty years.|
@@ -1509,8 +1509,8 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏅᏠᎯᎭ|5|Wahga agina uslada dunvhlohlvi. Tinvhloga!|ᏩᎦ ᎠᎩᎾ ᎤᏍᎳᏓ ᏚᏅᏠᏢᎢ. ᏘᏅᏠᎦ!|When he roped the calf, he tied up its legs. Put your brakes on!|
 |ᏆᎾ|5|Hia digalogisgi kwana datvhisdisgo deganadegoihno.|ᎯᎠᏗᎦᎶᎩᏍᎩ ᏆᎾ ᏓᏛᎯᏍᏗᏍᎪ ᏕᎦᎾᏕᎪᎢᏃ.|This farmer raises peaches and sells them.|
 |ᏗᏓᏬᏍᎩ|5|Igvyi Dinadawosgi Junilawisdi ayatohihi nulstanvi.|ᎢᎬᏱ ᏗᎾᏓᏬᏍᎩ ᏧᏂᎳᏫᏍᏗ ᎠᏯᏙᎯᎯ ᏄᎵᏍᏔᏅᎢ.|He became a deacon in a First Baptist Church.|
-|ᎢᏳᎾᏙᏓᏆᏍᏗ|5|Joi iyunadodagwasdi igohida didolanvsdi duwhtanvi.|ᏦᎢ ᎢᏳᎾᏙᏓᏆᏍᏗ ᎢᎪᎯᏓ ᏗᏙᎳᏅᏍᏗ ᏚᏮᏔᏅᎢ.|She used crutches for three weeks.|
-|ᏗᎵᏍᏙᏰᏗ|5|Digosdayi dilsdoyhdi juwhdohdi ulvkwdi gayewsvsgvi.|ᏗᎪᏍᏓᏱ ᏗᎵᏍᏙᏰᏗ ᏧᏮᏙᏗ ᎤᎸᏉᏗ ᎦᎮᏫᏒᏍᎬᎢ.|She likes to use sharp scissors while sewing.|
+|ᎢᏳᎾᏙᏓᏆᏍᏗ|5|Joi iyunadodagwasdi igohida didolanvsdi duwhtanvi.|ᏦᎢ ᎢᏳᎾᏙᏓᏆᏍᏗ ᎢᎪᎯᏓ ᏗᏙᎳᏅᏍᏗ ᏚᏮᏔᏅᎢ.|He used crutches for three weeks.|
+|ᏗᎵᏍᏙᏰᏗ|5|Digosdayi dilsdoyhdi juwhdohdi ulvkwdi gayewsvsgvi.|ᏗᎪᏍᏓᏱ ᏗᎵᏍᏙᏰᏗ ᏧᏮᏙᏗ ᎤᎸᏉᏗ ᎦᎮᏫᏒᏍᎬᎢ.|He likes to use sharp scissors while sewing.|
 |ᎦᏅᏙᎩ|5|Dihnesgesgi nigohilv ganhdohgi kdisgo dahnesgesgvi.|ᏗᏁᏍᎨᏍᎩ ᏂᎪᎯᎸ ᎦᏅᏙᎩ ᎬᏗᏍᎪ ᏓᏁᏍᎨᏍᎬᎢ.|A carpenter always uses a saw when building houses.|
 |ᎠᏓᏪᎯ|5|Igada Anijalagi unilvkwdi anidawehi junihnohehdiɂi.|ᎢᎦᏓ ᎠᏂᏣᎳᎩ ᎤᏂᎸᏉᏗ ᎠᏂᏓᏪᎯ ᏧᏂᏃᎮᏗᎢ.|Some Cherokees like to talk about magicians.|
 |ᏗᎬᏜᏗᏍᎩ|5|Joiha dije dikdladisgi duniha dinhidladisgi.|ᏦᎢᎭ ᏗᏤ ᏗᎬᏜᏗᏍᎩ ᏚᏂᎭ ᏗᏅᏜᏗᏍᎩ.|The firemen have three new firetrucks.|
@@ -1563,17 +1563,17 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏁᏐᏯᏍᎦ|6|Sudetiyvsa jigesv kohi iga sdaya unesoysvi.|ᏚᏕᏘᏴᏌ ᏥᎨᏒ ᎪᎯ ᎢᎦ ᏍᏓᏯ ᎤᏁᏐᏯᏒᎢ.|One year ago today it hailed hard.|
 |ᎠᏕᎲᏍᎦ|6|Hisgi iyuwahnilv jigesv kohi sunale udehnvi.|ᎯᏍᎩ ᎢᏳᏩᏂᎸ ᏥᎨᏒ ᎪᎯ ᏑᎾᎴ ᎤᏕᏅᎢ.|He was born at five o'clock this morning.|
 |ᏎᏗ|6|Igada disehisdi sedi ada digohlvhtanv gesoi.|ᎢᎦᏓ ᏗᏎᎯᏍᏗ ᏎᏗ ᎠᏓ ᏗᎪᏢᏔᏅ ᎨᏐᎢ.|Some dressers are made of walnut.|
-|ᎠᎿᏬᎠ|6|Ije gasaleni ajinvnelv asehnv hla yuhnawoei.|ᎢᏤ ᎦᏌᎴᏂ ᎠᏥᏅᏁᎸ ᎠᏎᏅ Ꮭ ᏳᎿᏬᎡᎢ.|She was given a new coat, but she didn't wear it.|
+|ᎠᎿᏬᎠ|6|Ije gasaleni ajinvnelv asehnv hla yuhnawoei.|ᎢᏤ ᎦᏌᎴᏂ ᎠᏥᏅᏁᎸ ᎠᏎᏅ Ꮭ ᏳᎿᏬᎡᎢ.|He was given a new coat, but he didn't wear it.|
 |ᎡᏝᏪᎢ|6|Ehlawe gesv yvwi gawonisgi gawonisgv igohida.|ᎡᏝᏪ ᎨᏒ ᏴᏫ ᎦᏬᏂᏍᎩ ᎦᏬᏂᏍᎬ ᎢᎪᎯᏓ.|The people were quiet while the speaker spoke.|
-|ᎠᏓᏃᏰᎭ|6|Udahnoyehdi uduli asehnv hla adahnoyo yuwaya.|ᎤᏓᏃᏰᏗ ᎤᏚᎵ ᎠᏎᏅ Ꮭ ᎠᏓᏃᏲ ᏳᏩᏯ.|She wants to fan herself, but she has no fan.|
+|ᎠᏓᏃᏰᎭ|6|Udahnoyehdi uduli asehnv hla adahnoyo yuwaya.|ᎤᏓᏃᏰᏗ ᎤᏚᎵ ᎠᏎᏅ Ꮭ ᎠᏓᏃᏲ ᏳᏩᏯ.|He wants to fan herself, but he has no fan.|
 |ᎤᏂᏡᎬᎢ|6|Uhnihlgvigwu iga uhlinohiya na utana jihlgvi.|ᎤᏂᏡᎬᎢᏊ ᎢᎦ ᎤᏟᏃᎯᏯ Ꮎ ᎤᏔᎾ ᏥᏡᎬᎢ.|A stump is all that's left of the big tree.|
 |ᎠᎾᏟᏅᏟ|6|Hia hisgi iyanii anichuja nigada anahlinvdli.|ᎯᎠ ᎯᏍᎩ ᎢᏯᏂᎢ ᎠᏂᏧᏣ ᏂᎦᏓ ᎠᎾᏟᏅᏟ.|These five boys are all brothers.|
 |ᏗᎦᎳᏫᏍᏗᎢ, ᏧᏂᎳᏫᏍᏗᎢ|6|Hila iga degohlv junilawisdi Daligwa gaduhvi?|ᎯᎳ ᎢᎦ ᏕᎪᏢ ᏧᏂᎳᏫᏍᏗ ᏓᎵᏆ ᎦᏚᎲᎢ?|How many churches are there in the city of Tahlequah?|
 |ᎠᏓᏍᏓᏴᎲᏍᎦ|6|Hla ase jadasdayhdi yigi, hlaheno yagigosiha.|Ꮭ ᎠᏎ ᏣᏓᏍᏓᏴᏗ ᏱᎩ, ᏝᎮᏃ ᏯᎩᎪᏏᎭ.|You don't have to cook, because I'm not hungry.|
 |ᎠᎪᏩᏛᏗ|6|Ije ganulvsv dohiyu uwoduhi agowhtvhdi gesoi.|ᎢᏤ ᎦᏄᎸᏒ ᏙᎯᏳ ᎤᏬᏚᎯ ᎠᎪᏩᏛᏗ ᎨᏐᎢ.|The green grass is really a beautiful sight.|
-|ᎤᎸᏌᏗ|6|Sudali iga ama judlisdohdi julvsadi duhwasvi.|ᏑᏓᎵ ᎢᎦ ᎠᎹ ᏧᏟᏍᏙᏗ ᏧᎸᏌᏗ ᏚᏩᏒᎢ.|She bought six water glasses.|
+|ᎤᎸᏌᏗ|6|Sudali iga ama judlisdohdi julvsadi duhwasvi.|ᏑᏓᎵ ᎢᎦ ᎠᎹ ᏧᏟᏍᏙᏗ ᏧᎸᏌᏗ ᏚᏩᏒᎢ.|He bought six water glasses.|
 |ᎦᏬᏂᎭ|6|Tsgwisdi gawoniha, asehnv hla gohusdi yadiha.|ᏥᏈᏍᏗ ᎦᏬᏂᎭ, ᎠᏎᏅ Ꮭ ᎪᎱᏍᏗ ᏯᏗᎭ.|He's talking a lot, but he's not saying anything.|
-|ᏕᎬᏙᎯᎠ|6|Tuyunsdi degvtohia. Hila iga sohi dotvtohisi?|ᏚᏳᎾᏍᏗ ᏕᎬᏙᎯᎠ. ᎯᎳ ᎢᎦ ᏐᎯ ᏙᏛᏙᎯᏏ?|She's shelling peas. How many hickory nuts are you going to shell?|
+|ᏕᎬᏙᎯᎠ|6|Tuyunsdi degvtohia. Hila iga sohi dotvtohisi?|ᏚᏳᎾᏍᏗ ᏕᎬᏙᎯᎠ. ᎯᎳ ᎢᎦ ᏐᎯ ᏙᏛᏙᎯᏏ?|He's shelling peas. How many hickory nuts are you going to shell?|
 |ᏫᎦᏅᎥᏍᎦ|6|Adela jutayosela uweji talsgo adelv wunvnelvi.|ᎠᏕᎳ ᏧᏔᏲᏎᎳ ᎤᏪᏥ ᏔᎵᏍᎪ ᎠᏕᎸ ᏭᏅᏁᎸᎢ.|When his son asked him for some money, he sent him a twenty dollar bill.|
 |ᎭᏫᏂ|6|Eligwu tali iyatahwostanv yigeda amayi hawini.|ᎡᎵᏊ ᏔᎵ ᎢᏯᏔᏬᏍᏔᏅ ᏱᎨᏓ ᎠᎹᏱ ᎭᏫᏂ.|I can stay under water for two minutes.|
 |ᎤᏁᎦ|6|Gigvha nulstanv unega uhnuwv giga duhyvsgwola.|ᎩᎬᎭ ᏄᎵᏍᏔᏅ ᎤᏁᎦ ᎤᏄᏮ ᎩᎦ ᏚᏴᏍᏉᎳ.|His white shirt got bloody when his nose started bleeding.|
@@ -1585,7 +1585,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᏒᏙᏂ|6|Ama juwedasdi jusvdoni dunesdaladv usv jigesvi.|ᎠᎹ ᏧᏪᏓᏍᏗ ᏧᏒᏙᏂ ᏚᏁᏍᏓᎳᏛ ᎤᏒ ᏥᎨᏒᎢ.|The water pipes froze last night.|
 |ᏚᏠᏍᎦ|6|Hla kilo yulvkwdi uyo adanhdadisdi judlohisdii.|Ꮭ ᎩᎶ ᎤᎸᏉᏗ ᎤᏲ ᎠᏓᏅᏓᏗᏍᏗ ᏧᏠᎯᏍᏗᎢ.|No one likes to be confronted with a bad feeling.|
 |ᎤᏁᏝᏅᎯ, ᎤᏁᏝᏅᎯ|6|Yihowa dudoa Unehlanvhi adiha Galvkwdi Gohweli.|ᏱᎰᏩ ᏚᏙᎠ ᎤᏁᏝᏅᎯ ᎠᏗᎭ ᎦᎸᏉᏗ ᎪᏪᎵ.|The Bible says God's name is Jehovah.|
-|ᎦᏚ ᎤᎦᎾᏍᏓ|6|Gadu uganasda uwaduhnv uweji achuja udetiyisgvi.|ᎦᏚ ᎤᎦᎾᏍᏓ ᎤᏩᏚᏅ ᎤᏪᏥ ᎠᏧᏣ ᏚᏕᏘᏱᏍᎬᎢ.|She baked a cake for her son's birthday.|
+|ᎦᏚ ᎤᎦᎾᏍᏓ|6|Gadu uganasda uwaduhnv uweji achuja udetiyisgvi.|ᎦᏚ ᎤᎦᎾᏍᏓ ᎤᏩᏚᏅ ᎤᏪᏥ ᎠᏧᏣ ᏚᏕᏘᏱᏍᎬᎢ.|He baked a cake for his son's birthday.|
 |ᏐᎢ|6|Soi dikanvsulv wayvha. Sigwu soi jiskvsi.|ᏐᎢ ᏗᎧᏅᏑᎸ ᏩᏴᎭ. ᏏᏊ ᏐᎢ ᏥᏍᎬᏏ.|He went in another room. Give me another one.|
 |ᏑᏓᎵ|6|Sudali iyuwahnilv sunale didla uyeisdosgoi waji.|ᏑᏓᎵ ᎢᏳᏩᏂᎸ ᏑᎾᎴ ᏗᏜ ᎤᏰᎢᏍᏙᏍᎪᎢ ᏩᏥ.|The alarm clock wakes him up at six o'clock in the morning.|
 |ᎠᏓᏩᏛᎯᏙᎭ|6|Hla ayv agwenvsv yigi ahani. Gadawahtvhidohagwu.|Ꮭ ᎠᏴ ᎠᏇᏅᏒ ᏱᎩ ᎠᎭᏂ. ᎦᏓᏩᏛᎯᏙᎭᏊ.|This isn't my home. I'm just visiting.|
@@ -1609,7 +1609,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏗᎦᎴᏯᎠ|6|Digohwel gasgilv duhlav dudigaleyv digohwelod uhyala.|ᏗᎪᏪᎵ ᎦᏍᎩᎸ ᏚᏝᎥ ᏚᏗᎦᎴᏴ ᏗᎪᏪᎶᏓ ᎤᏯᎳ.|He scattered the papers on the table when he looked for his pencil.|
 |ᏧᎬᏩᎶᏗ|6|Galvladi jugvwahldi igesesdi hla yidvkiwasi dagwalela|ᎦᎸᎳᏗ ᏧᎬᏩᎶᏗ ᎢᎨᏎᏍᏗ, Ꮭ ᏱᏛᎩᏩᏏ ᏓᏆᎴᎳ|If the price is too high, I'm not going to buy the car.|
 |ᏅᎩᏁᎢ|6|Kuyegwona nvhgine toi anedoho igada junilvhwisdanehi.|ᎫᏰᏉᎾ ᏅᎩᏁ ᏙᎢ ᎠᏁᏙᎰ ᎢᎦᏓ ᏧᏂᎸᏫᏍᏓᏁᎯ.|Some workers have a day off on the fourth of July.|
-|ᎠᎵᏔᏬᎠ|6|Nigohilv ahltawosgo, vsgihnv iyusdi uwoduhi justihga.|ᏂᎪᎯᎸ ᎠᎵᏔᏬᏍᎪ, ᎥᏍᎩᏅ ᎢᏳᏍᏗ ᎤᏬᏚᎯ ᏧᏍᏘᎦ.|She combs her hair all the time, and that's why she has pretty hair.|
+|ᎠᎵᏔᏬᎠ|6|Nigohilv ahltawosgo, vsgihnv iyusdi uwoduhi justihga.|ᏂᎪᎯᎸ ᎠᎵᏔᏬᏍᎪ, ᎥᏍᎩᏅ ᎢᏳᏍᏗ ᎤᏬᏚᎯ ᏧᏍᏘᎦ.|He combs his hair all the time, and that's why he has pretty hair.|
 |ᎠᏰᎭ|6|Sgohi adelv jugvwahldi sagwu iyanadanhtehdi dahyehvi.|ᏍᎪᎯ ᎠᏕᎸ ᏧᎬᏩᏟᏗ ᏌᏊ ᎢᏯᎾᏓᏅᏖᏗ ᏓᏰᎲᎢ.|He had ten dollars worth of pennies in his hand.|
 |ᏩᎲᏍᎦ|6|Vsgihyi talsgo nvhgine wuhnv Danisdayohihv adahnehdi.|ᎥᏍᎩᏱ ᏔᎵᏍᎪ ᏅᎩᏁ ᏭᏅ ᏓᏂᏍᏓᏲᎯᎲ ᎠᏓᏁᏗ.|He sent the Christmas gift on December the 24th.|
 |ᏗᎦᎶᎩᏍᎩ|6|Digalogisgi uhwisvnv ukayosohnv nagasgvna gesv iyusdi.|ᏗᎦᎶᎩᏍᎩ ᎤᏫᏒᏅ ᎤᎧᏲᏐᏅ ᎾᎦᏍᎬᎾ ᎨᏒ ᎢᏳᏍᏗ.|The farmer's crop became dry because of no rain.|
@@ -1619,9 +1619,9 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏧᎿᏦᏍᏗ|6|Gohidi udihlehgv yigane unvdi juhnajosdi nigalsdisgoi.|ᎪᎯᏗ ᎤᏗᏞᎬ ᏱᎦᏁ ᎤᏅᏗ, ᏧᎿᏦᏍᏗ ᏂᎦᎵᏍᏗᏍᎪᎢ.|If milk is left out in the heat too long, it becomes sour.|
 |ᎠᎵᏣᏙᎲᏍᎩ|6|Joi iyanii juweji anichuja anahljadohvsgi nunalstanvi.|ᏦᎢ ᎢᏯᏂᎢ ᏧᏪᏥ ᎠᏂᏧᏣ ᎠᎾᎵᏣᏙᎲᏍᎩ ᏄᎾᎵᏍᏔᏅᎢ.|Three of his sons became preachers.|
 |ᎤᏪᏴᎢ|6|Aginulvhnv digisohisdi uweyvi sdayi ganohugisgv iyusdi.|ᎠᎩᏄᎸᏅ ᏗᎩᏐᎯᏍᏗ ᎤᏪᏴᎢ ᏍᏓᏱ ᎦᏃᎱᎩᏍᎬ ᎢᏳᏍᏗ.|I couldn't cross the river because it was too swift.|
-|ᎦᎴᎠ|6|Ayehli ulesv udlawadvi. Dihnawo dulesv talujohi.|ᎠᏰᏟ ᎤᎴᏒ ᎤᏜᏩᏛᎢ. ᏗᎿᏬ ᏚᎴᏒ ᏔᎷᏦᎯ.|He took a half dollar out of his pocket. She took some clothes out of a basket|
+|ᎦᎴᎠ|6|Ayehli ulesv udlawadvi. Dihnawo dulesv talujohi.|ᎠᏰᏟ ᎤᎴᏒ ᎤᏜᏩᏛᎢ. ᏗᎿᏬ ᏚᎴᏒ ᏔᎷᏦᎯ.|He took a half dollar out of his pocket. He took some clothes out of a basket|
 |ᎦᏪᏐᎸᏍᏗᎭ|6|Ina yiduhilena wahga ilvsgi iyuwakdi degawesolvsdisgoi.|ᎢᎾ ᏱᏚᎯᎴᎾ ᏩᎦ ᎢᎸᏍᎩ ᎢᏳᏩᎦᏗ ᏕᎦᏪᏐᎸᏍᏗᏍᎪᎢ.|When he drives the cattle for a long distance he rests them a few times.|
-|ᎤᏪᏥ ᎠᎨᏯ|6|Na udaji uwejihnv agehya unihloyi digegaganhdii.|Ꮎ ᎤᏓᏥ ᎤᏪᏥᏅ ᎠᎨᏯ ᎤᏂᏠᏱ ᏗᎨᎦᎦᏅᏗᎢ.|The mother and her daughter look alike.|
+|ᎤᏪᏥ ᎠᎨᏯ|6|Na udaji uwejihnv agehya unihloyi digegaganhdii.|Ꮎ ᎤᏓᏥ ᎤᏪᏥᏅ ᎠᎨᏯ ᎤᏂᏠᏱ ᏗᎨᎦᎦᏅᏗᎢ.|The mother and xher daughter look alike.|
 |ᏑᏟᎶᏓ|6|Tali iyuhliloda uhilidolv suhliloda kanugahli gadesgvi.|ᏔᎵ ᎢᏳᏟᎶᏓ ᎤᎯᎵᏙᎸ ᏑᏟᎶᏓ ᎧᏄᎦᏟ ᎦᏕᏍᎬᎢ.|It took him two hours to pick a gallon of blackberries.|
 |ᎠᏍᏆᏂᎪᏍᎦ|6|Usgwanigosv nahidiyv udehlohgwav ugoliyedi uweji achuja.|ᎤᏍᏆᏂᎪᏒ ᎾᎯᏗᏴ ᎤᏕᏠᏆᎥ ᎤᎪᎵᏰᏗ ᎤᏪᏥ ᎠᏧᏣ.|He was amazed at how fast his son learned to read.|
 |ᎠᎳᏍᏓᎡᎭ|6|Alasdaesgv uhlv inada. Nigohilv yvwi dalasdaesgoi.|ᎠᎳᏍᏓᎡᏍᎬ ᎤᏢ ᎢᎾᏓ. ᏂᎪᎯᎸ ᏴᏫ ᏓᎳᏍᏓᎡᏍᎪᎢ.|He killed the snake by tromping on it. He always speaks badly of people.|
@@ -1632,13 +1632,13 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏓᏁᏗ|6|Danisdayohihv nav yigi, didahnehdi anadaneanesvhvsgo yvwi.|ᏓᏂᏍᏓᏲᎯᎲ ᎾᎥ ᏱᎩ, ᏗᏓᏁᏗ ᎠᎾᏓᏁᎠᏁᏒᎲᏍᎪ ᏴᏫ.|When it's close to Christmas, people shop for gifts.|
 |ᎠᎬᏓᎨᏂ|6|Ganiyisgi sgwahlesdi ganiyisgv dunvda agvdageni uwahnilvi.|ᎦᏂᏱᏍᎩ ᏍᏆᏞᏍᏗ ᎦᏂᏱᏍᎬ ᏚᏅᏓ ᎠᎬᏓᎨᏂ ᎤᏩᏂᎸᎢ.|When the catcher missed catching the ball, it hit him on his forehead.|
 |ᎦᏌᏙᏍᎦ|6|Suhliloda iyudanvhida uwasadohyv dagwalela kila uhnigisvi.|ᏑᏟᎶᏓ ᎢᏳᏓᏅᎯᏓ ᎤᏩᏌᏙᏴ ᏓᏆᎴᎳ ᎩᎳ ᎤᏂᎩᏒᎢ.|He pushed the car for a mile before it started.|
-|ᎦᎶᏁᎠ|6|Dodajiloneisv gayewsgi asehnv gayula juloneda gesvi.|ᏙᏓᏥᎶᏁᎢᏒ ᎦᏰᏫᏍᎩ ᎠᏎᏅ ᎦᏳᎳ ᏧᎶᏁᏓ ᎦᏒᎢ.|I was going to oil the sewing machine, but she had already oiled it.|
+|ᎦᎶᏁᎠ|6|Dodajiloneisv gayewsgi asehnv gayula juloneda gesvi.|ᏙᏓᏥᎶᏁᎢᏒ ᎦᏰᏫᏍᎩ ᎠᏎᏅ ᎦᏳᎳ ᏧᎶᏁᏓ ᎦᏒᎢ.|I was going to oil the sewing machine, but he had already oiled it.|
 |ᎦᏐᏆᏘ|6|Gachinosda nalsdvhlusgvna gesv iyusdi gasohgwati nulstanvi.|ᎦᏥᏃᏍᏓ ᎾᎵᏍᏛᏡᏍᎬᎾ ᎨᏒ ᎢᏳᏍᏗ ᎦᏐᏆᏘ ᏄᎵᏍᏔᏅᎢ.|He became humpbacked because he wouldn't sit up straight.|
 |ᎦᎷᏯᏍᏗ|6|Judanvgalvda nidowahnvna yigi dijesdo galuysdi yanhkilvvga.|ᏧᏓᏅᎦᎸᏓ ᏂᏙᏩᏅᎾ ᏱᎩ ᏗᏤᏍᏙ ᎦᎷᏯᏍᏗ ᏯᎾᎩᎸᎥᎦ.|If you don't keep the mattresses clean, bed bugs will get on them.|
 |ᎠᏍᏚᎲᏍᎦ|6|Hisduhvga galohisdii. Uhyvsdeda yigi kilo asduhvsgoi.|ᎯᏍᏚᎲᎦ ᎦᎶᎯᏍᏗᎢ. ᎤᏴᏍᏕᏓ ᏱᎩ ᎩᎶ ᎠᏍᏚᎲᏍᎪᎢ.|Close the door. If someone is drunk, he jails him.|
 |ᏓᎦᏘᏅᏛᏍᎦ|6|Igada agalisgv yanedoha julsihgi diktinvtdi danaktinvtvsgoi.|ᎢᎦᏓ ᎠᎦᎵᏍᎬ ᏯᏁᏙᎭ ᏧᎵᏏᎩ ᏗᎦᏘᏅᏘᏗ ᏓᎾᎦᏘᏅᏛᏍᎪᎢ.|When some people are in the sun, they put on dark glasses.|
-|ᎠᏓᎾᏁᏒᎲᏍᎦ|6|Tsgwisdi udananesvhvsdi uduli asehnv tsgwisdi dagvwahldidana.|ᏥᏈᏍᏗ ᎤᏓᎾᏁᏒᎲᏍᏗ ᎤᏚᎵ ᎠᏎᏅ ᏥᏈᏍᏗ ᏓᎬᏩᎶᏗᏓᎾ.|She wants to do a lot of shopping, but the prices are too high.|
-|ᏂᎬᎢ|6|Nikv uwehisdanelidoha adiha. Nikv uwedolidasdi ulvkwdi.|ᏂᎬ ᎤᏪᎯᏍᏓᏁᎵᏙᎭ ᎠᏗᎭ. ᏂᎬ ᎤᏪᏙᎵᏓᏍᏗ ᎤᎸᏉᏗ.|She says she hurts all over. She likes to go everywhere.|
+|ᎠᏓᎾᏁᏒᎲᏍᎦ|6|Tsgwisdi udananesvhvsdi uduli asehnv tsgwisdi dagvwahldidana.|ᏥᏈᏍᏗ ᎤᏓᎾᏁᏒᎲᏍᏗ ᎤᏚᎵ ᎠᏎᏅ ᏥᏈᏍᏗ ᏓᎬᏩᎶᏗᏓᎾ.|He wants to do a lot of shopping, but the prices are too high.|
+|ᏂᎬᎢ|6|Nikv uwehisdanelidoha adiha. Nikv uwedolidasdi ulvkwdi.|ᏂᎬ ᎤᏪᎯᏍᏓᏁᎵᏙᎭ ᎠᏗᎭ. ᏂᎬ ᎤᏪᏙᎵᏓᏍᏗ ᎤᎸᏉᏗ.|He says he hurts all over. He likes to go everywhere.|
 |ᏍᏊ, ᎥᏍᏊ|6|Kohi iga dagilvhwisdaneha, sunalehnv vsgwu dodvgilvhwisdaneli.|ᎪᎯ ᎢᎦ ᏓᎩᎸᏫᏍᏓᏁᎭ, ᏑᎾᎴᏅ ᎥᏍᏊ ᏙᏛᎩᎸᏫᏍᏓᏁᎵ.|I am working today, and I will work tomorrow also.|
 |ᎤᎦᎶᎦ|6|Uligohvsdi iyv jugaloga judalehnvda julisuhwida nidodagalstani.|ᎤᎵᎪᎲᏍᏗ ᎢᏴ ᏧᎦᎶᎦ ᏧᏓᎴᏅᏓ ᏧᎵᏑᏫᏓ ᏂᏙᏓᎦᎵᏍᏔᏂ.|In the fall the leaves will turn into different colors.|
 |ᏓᏒᏍᏗᎭ|6|Unadodagwohnv usv uwonihisdi dusvstanvi gvwhtayosela uwonihisdii.|ᎤᎾᏙᏓᏉᏅ ᎤᏒ ᎤᏬᏂᎯᏍᏗ ᏚᏒᏍᏔᏅᎢ ᎬᏩᏔᏲᏎᎳ ᎤᏬᏂᎯᏍᏗᎢ.|He scheduled his speech for Monday night when asked to speak.|
@@ -1657,7 +1657,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᎧᏲᏓ|7|Nelagi jugahnanv svhi, gayula ukahyoda igi gadohi.|ᏁᎳᎩ ᏧᎦᎿᏅ ᏒᎯ, ᎦᏳᎳ ᎤᎧᏲᏓ ᎢᎩ ᎦᏙᎯ.|Although it rained yesterday, the ground is already dry.|
 |ᎦᏅᏃᏩ|7|Selu uda gohlvhtanv ganvnowa goksdisgi gesvi edudu.|ᏎᎷ ᎤᏓ ᎪᏢᏔᏅ ᎦᏅᏃᏩ ᎪᎦᏍᏗᏍᎩ ᎨᏒᎢ ᎡᏚᏚ.|My grandfather used to smoke a corncob pipe.|
 |ᎤᏍᏗ|7|Jusdi dagwalela ugodi dagilvgwdi sihnv jutana gesvi.|ᏧᏍᏗ ᏓᏆᎴᎳ ᎤᎪᏗ ᏓᎩᎸᏉᏗ ᏏᏅ ᏧᏔᎾ ᎨᏒᎢ.|I like small cars better than big ones.|
-|ᏅᏲᎯ|7|Nvyohi Odalv dudov ganela. Nvyohi uwohlvhnv dlogesi.|ᏅᏲᎯ ᎣᏓᎸ ᏚᏙᎥ ᎦᏁᎳ. ᏅᏲᎯ ᎤᏬᏢᏅ ᏠᎨᏏ.|She lives in a place called Rocky Mountain. He made a garden in a rocky place.|
+|ᏅᏲᎯ|7|Nvyohi Odalv dudov ganela. Nvyohi uwohlvhnv dlogesi.|ᏅᏲᎯ ᎣᏓᎸ ᏚᏙᎥ ᎦᏁᎳ. ᏅᏲᎯ ᎤᏬᏢᏅ ᏠᎨᏏ.|He lives in a place called Rocky Mountain. He made a garden in a rocky place.|
 |ᎤᎫᎫ|7|Igada udalehi anelisgo uguku yinigawea adanelv navi.|ᎢᎦᏓ ᎤᏓᎴᎯ ᎠᏁᎵᏍᎪ ᎤᎫᎫ ᏱᏂᎦᏪᎠ ᎠᏓᏁᎸ ᎾᎥᎢ.|Some people think it is a bad omen to hear a hoot owl close to a building.|
 |Ꮭ ᎢᎸᎯᏳ|7|Igada yvwi hla ilvhiyu junadasdudi uniyvhlv yigesoi.|ᎢᎦᏓ ᏴᏫ Ꮭ ᎢᎸᎯᏳ ᏧᎾᏓᏍᏚᏗ ᏱᎨᏐᎢ.|Some people have never been in jail.|
 |ᏗᏓᏰᏠᎯ|7|Na usdi achuja didahyehlohi iyulsdohdi uduli atvsvi.|Ꮎ ᎤᏍᏗ ᎠᏧᏣ ᏗᏓᏰᏠᎯ ᎢᏳᎵᏍᏙᏗ ᎤᏚᎵ ᎠᏛᏒᎢ.|That little boy wants to become a surgeon when he grows up.|
@@ -1672,7 +1672,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎤᏓᎴᎯ|7|Koga nigawesgv yatvgana usv, udalehi anadisgo Anijalagi.|ᎪᎦ ᏂᎦᏪᏍᎬ ᏯᏛᎦᎾ ᎤᏒ, ᎤᏓᎴᎯ ᎠᎾᏗᏍᎪ ᎠᏂᏣᎳᎩ.|Cherokees say that if you hear a crow at night, it's a bad omen.|
 |ᎠᎵᎬᏓᏃᏍᏙᏗ|7|Na ganvhida ustihgi jigi Ayvwiya aligvdanosdohdi uduliha.|Ꮎ ᎦᏅᎯᏓ ᎤᏍᏘᎩ ᏥᎩ ᎠᏴᏫᏯ ᎠᎵᎬᏓᏃᏍᏙᏗ ᎤᏚᎵᎭ.|The Indian with the long hair wants a headband.|
 |ᎠᏒᎲᏍᎦ|7|Suhliloda goi usvhnvi. Ulvsadi kali unvdi usvhnvi.|ᏑᏟᎶᏓ ᎪᎢ ᎤᏒᏅᎢ. ᎤᎸᏌᏗ ᎧᎵ ᎤᏅᏗ ᎤᏒᏅᎢ.|It used up one gallon of oil. He drank up a glass full of milk.|
-|ᎤᏲᏨᎢ|7|Ulvsadi uyojv gutea. Udohiyu uyojv ayohli uwekaha.|ᎤᎸᏌᏗ ᎤᏲᏨ ᎫᏖᎠ. ᎤᏙᎯᏳ ᎤᏲᏨ ᎠᏲᏟ ᎤᏪᎧᎭ.|He's picking up a broken glass. She has a very spoiled child.|
+|ᎤᏲᏨᎢ|7|Ulvsadi uyojv gutea. Udohiyu uyojv ayohli uwekaha.|ᎤᎸᏌᏗ ᎤᏲᏨ ᎫᏖᎠ. ᎤᏙᎯᏳ ᎤᏲᏨ ᎠᏲᏟ ᎤᏪᎧᎭ.|He's picking up a broken glass. He has a very spoiled child.|
 |ᏆᏄᎾᏍᏗᎢ|7|Gogi yinulstana kwanunsdii degadesgo eji ale degahldisgoi.|ᎪᎩ ᏱᏄᎵᏍᏔᎾ ᏆᏄᎾᏍᏗᎢ ᏕᎦᏕᏍᎪ ᎡᏥ ᎠᎴ ᏕᎦᎶᏗᏍᎪᎢ.|Every summer my mother picks plums and cans them.|
 |ᎠᎩᏏ|7|Sgohi iyanii jitaga anigisi dejigowhtiha, sagwuhnv achvya.|ᏍᎪᎯ ᎢᏯᏂᎢ ᏥᏔᎦ ᎠᏂᎩᏏ ᏕᏥᎪᏩᏘᎭ, ᏌᏊᏅ ᎠᏨᏯ.|I see ten hens and one rooster.|
 |ᎠᏓᏅᎠ|7|Sgohi judetiyvda uneladvi Daligwa, kila uduluhv udanvsdii.|ᏍᎪᎯ ᏧᏕᏘᏴᏓ ᎤᏁᎳᏛᎢ ᏓᎵᏆ, ᎩᎳ ᎤᏚᎷᎲ ᎤᏓᏅᏍᏗᎢ.|He lived in Tahlequah for ten years, the he wanted to move.|
@@ -1696,26 +1696,26 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎠᏟᎠᏙ|7|Juwoduhi didliado duniha Anijalagi Unohlvhnvnv Unadananvi Daligwa.|ᏧᏬᏚᎯ ᏗᏟᎠᏙ ᏚᏂᎭ ᎠᏂᏣᎳᎩ ᎤᏃᏢᏅᏅ ᎤᎾᏓᎾᏅᎢ ᏓᎵᏆ.|They have some pretty earrings at the Cherokee Arts and Crafts in Tahlequah.|
 |ᎬᏜᏗᎭ|7|Hvhdlada gotvi; doyu udihlehga. Dajvstv duwhladv anagalisgi.|ᎲᏜᏓ ᎪᏛᎢ; ᏙᏳ ᎤᏗᏞᎦ. ᏓᏨᏍᏛ ᏚᏮᎳᏛ ᎠᎾᎦᎵᏍᎩ.|Put out the fire; it's too hot. The lightning put the lights out.|
 |ᎤᎨᏳᎭ|7|Ugeyuha waji hlale kilo yvgvtolsda. Higeyusesdi tsdayvhvsgi.|ᎤᎨᏳᎭ ᏩᏥ ᏝᎴ ᎩᎶ ᏴᎬᏙᎵᏍᏓ. ᎯᎨᏳᏎᏍᏗ ᏣᏍᏓᏴᎲᏍᎩ.|He's stingy with his watch and won't loan it to anyone. Love your wife.|
-|ᎬᏗ|7|Ganvgwalosdi gvhdi uwahnilv yvgi. Jalagi gvhdi duhlinohehhri.|ᎦᏅᏆᎶᏍᏗ ᎬᏗ ᎤᏩᏂᎸ ᏴᎩ. ᏣᎳᎩ ᎬᏗ ᏚᎵᏃᎮᏢᎢ|He hit the nail with a hammer. She conversed by means of Cherokee.|
+|ᎬᏗ|7|Ganvgwalosdi gvhdi uwahnilv yvgi. Jalagi gvhdi duhlinohehhri.|ᎦᏅᏆᎶᏍᏗ ᎬᏗ ᎤᏩᏂᎸ ᏴᎩ. ᏣᎳᎩ ᎬᏗ ᏚᎵᏃᎮᏢᎢ|He hit the nail with a hammer. He conversed by means of Cherokee.|
 |ᎦᏓᎷᎩᎠ|7|Gohigiyv jigese dinilogisgi sogwili danhdisge danidalugisgv dlogesi.|ᎪᎯᎩᏴ ᏥᎨᏎ ᏗᏂᎶᎩᏍᎩ ᏐᏈᎵ ᏓᏅᏗᏍᎨ ᏓᏂᏓᎷᎩᏍᎬ ᏠᎨᏏ.|Long ago the farmers used horses for plowing the fields.|
 |ᎬᏂᎭ|7|Gosdvnihi sdayi uwahnilv sgwahlesdi. Kilo gvhniha galohisdii.|ᎪᏍᏛᏂᎯ ᏍᏓᏱ ᎤᏩᏂᎸ ᏍᏆᏞᏍᏗ. ᎩᎶ ᎬᏂᎭ ᎦᎶᎯᏍᏗᎢ.|The batter hit the ball hard. Someone is knocking at the door.|
 |ᎧᏃᎯᏰᎩ|7|Joi iyanvda iyudali Kanohiyegi analsdayvhvsgo Anijalagi Dinadawosgi.|ᏦᎢ ᎢᏯᏅᏓ ᎢᏳᏓᎵ ᎧᏃᎯᏰᎩ ᎠᎾᎵᏍᏓᏴᎲᏍᎪ ᎠᏂᏣᎳᎩ ᏗᎾᏓᏬᏍᎩ.|Cherokee Baptists eat Passover Supper every three months.|
 |ᏗᎦᎴᏅᎯᏓ|7|Digalenvhida gihli digalenvhida asiladv uwudalvchelv galeni ganvhisv.|ᏗᎦᎴᏅᎯᏓ ᎩᏟ ᏗᎦᎴᏅᎯᏓ ᎠᏏᎳᏛ ᎤᏭᏓᎸᏤᎸ ᎦᎴᏂ ᎦᏅᎯᏒ.|The long-eared hound dog got his ear caught in the fence because his ear was so long.|
 |ᎢᏳᏟᎶᏓ|7|Joi iyuhliloda iyudanvhida uhwidvhv tali iyuhliloda kanugahli.|ᏦᎢ ᎢᏳᏟᎶᏓ ᎢᏳᏓᏅᎯᏓ ᎤᏫᏛᎲ ᏔᎵ ᎢᏳᏟᎶᏓ ᎧᏄᎦᏟ.|He carried two gallons of blackberries for three miles.|
 |ᏍᎪᎯ|7|Sgohi iyuwahnilv nidulsihnisv gagatosdisgo kanoheda adayvlatvsgi agihvi.|ᏍᎪᎯ ᎢᏳᏩᏂᎸ ᏂᏚᎵᏏᏂᏒ ᎦᎦᏙᏍᏗᏍᎪ ᎧᏃᎮᏓ ᎠᏓᏴᎳᏛᏍᎩ ᎠᎩᎲᎢ.|I watch the news at ten o'clock each night on my television set.|
-|ᏥᏈᏍᏗ|7|Tsgwisdi gawonisgo osda yudanhta. Tsgwisdi aniyonega gajigowhtiha.|ᏥᏈᏍᏗ ᎦᏬᏂᏍᎪ ᎣᏍᏓ ᏳᏓᏅᏔ. ᏥᏈᏍᏗ ᎠᏂᏲᏁᎦ ᎦᏥᎪᏮᏘᎭ.|She talks a lot when she feels well. I see many white men.|
+|ᏥᏈᏍᏗ|7|Tsgwisdi gawonisgo osda yudanhta. Tsgwisdi aniyonega gajigowhtiha.|ᏥᏈᏍᏗ ᎦᏬᏂᏍᎪ ᎣᏍᏓ ᏳᏓᏅᏔ. ᏥᏈᏍᏗ ᎠᏂᏲᏁᎦ ᎦᏥᎪᏮᏘᎭ.|He talks a lot when he feels well. I see many white men.|
 |ᏗᏂᏓᎿᏫ|7|Gadohv dinidahnawi nunalstanei? Dinidahnawi jaisv wugoha, ulitisvi.|ᎦᏙᎲ ᏗᏂᏓᎿᏫ ᏄᎾᎵᏍᏔᏁᎢ? ᏗᏂᏓᎿᏫ ᏣᎢᏒ ᏭᎪᎭ, ᎤᎵᏘᏒᎢ.|Why did they become enemies? When he saw his enemy coming, he ran away.|
 |ᎠᎵᏍᏇᏚᎲᏍᎦ|7|Digaduhv yuwena judanvgalvda dahnawosgoi osdahno alsgwetuwo alsgwetuhvsgoi.|ᏗᎦᏚᎲ ᏳᏪᎾ ᏧᏓᏅᎦᎸᏓ ᏓᎿᏬᏍᎪᎢ ᎣᏍᏓᏃ ᎠᎵᏍᏇᏚᏬ ᎠᎵᏍᏇᏚᎲᏍᎪᎢ.|When he goes to town, he puts on clean clothes and a good hat.|
 |ᎠᎦᏔᎲᎠ|7|Kilo uhyanisgv utvgana uktahvsvi. Winuluhjvnagwu uktahvsdi udulvhvi.|ᎩᎶ ᎤᏯᏂᏍᎬ ᎤᏛᎦᎾ ᎤᎦᏔᎲᏒᎢ. ᏫᏄᎷᏨᎾᏊ ᎤᎦᏔᎲᏍᏗ ᎤᏚᎸᎲᎢ.|When he heard someone calling him, he turned around. He wanted to turn back before he got there.|
 |ᎫᏓᎸᏍᎦ|7|Sogwili unadudalvdi uwudalvnv sogwili ujelii. Degudalvvgas anagalisgi?|ᏐᏈᎵ ᎤᎾᏚᏓᎸᏗ ᎤᏩᏓᎸᏅ ᏐᏈᎵ ᎤᏣᎵᎢ. ᏕᎫᏓᎸᎢᎦᏍ ᎠᎾᎦᎵᏍᎩ?|He hitched up his horse at the hitching post. Did he hook up the battery?|
-|ᎠᏛᏅᎢᏍᏗᎭ|7|Dlv agwenvsdi gadvnvisdiha. Tsgwisdi alsdayhdi advnvisdisgo Danisdayohihvi.|Ꮲ ᎠᏇᏅᏍᏗ ᎦᏛᏅᎢᏍᏗᎭ. ᏥᏈᏍᏗ ᎠᎵᏍᏓᏴᏗ ᎠᏛᏅᎢᏍᏗᏍᎪ ᏓᏂᏍᏓᏲᎯᎲᎢ.|I'm getting ready to go somewhere. She prepares a lot of food at Christmas.|
+|ᎠᏛᏅᎢᏍᏗᎭ|7|Dlv agwenvsdi gadvnvisdiha. Tsgwisdi alsdayhdi advnvisdisgo Danisdayohihvi.|Ꮲ ᎠᏇᏅᏍᏗ ᎦᏛᏅᎢᏍᏗᎭ. ᏥᏈᏍᏗ ᎠᎵᏍᏓᏴᏗ ᎠᏛᏅᎢᏍᏗᏍᎪ ᏓᏂᏍᏓᏲᎯᎲᎢ.|I'm getting ready to go somewhere. He prepares a lot of food at Christmas.|
 |ᎤᏢᎦ|8|Svhi jigesv akdlvgv asehnv osigwu igi kohi iga.|ᏒᎯ ᏥᎨᏒ ᎠᎩᏢᎬ ᎠᏎᏅ ᎣᏏᏊ ᎢᎩ ᎪᎯ ᎢᎦ.|I was sick yesterday, but I'm all right today.|
 |ᎦᏬᎠ|8|Chuhga yigvwala gihli gawosgoi. Sgohi iyanii yvwi duwovi.|ᏧᎦ ᏱᎬᏩᎳ ᎩᏟ ᎦᏬᏍᎪᎢ. ᏍᎪᎯ ᎢᏯᏂᎢ ᏴᏫ ᏚᏬᎥᎢ.|If the dog has fleas, he bathes it. He baptized ten people.|
 |ᎦᏃᏴᎦ|8|1. Na jiyu ganoyvga. 2. Hila iyv ganoyvgesdi?|1. ᏥᏳ ᎦᏃᏴᎦ. 2. ᎯᎳ ᎢᏴ ᎦᏃᏴᎨᏍᏗ?|1. The boat is sinking. 2. When will he be buried?|
 |ᎬᏅᎢ|8|Na asgaya yvwi uhlvi gvnvi igohida ajisdudi dudukdasi.|Ꮎ ᎠᏍᎦᏯ ᏴᏫ ᎤᏢᎢ ᎬᏅᎢ ᎢᎪᎯᏓ ᎠᏥᏍᏚᏗ ᏚᏚᎪᏓᏏ.|The murderer was sentenced to life imprisonment.|
 |ᎤᎵᏍᏆᎷᏓ|8|Kilo jolani ulsgwaluda asehnv hla yagwanhta vsgi gesvi.|ᎩᎶ ᏦᎳᏂ ᎤᎵᏍᏆᎷᏓ ᎠᏎᏅ Ꮭ ᏯᏆᏅᏔ ᎥᏍᎩ ᎨᏒᎢ.|Someone is sticking his head out of the window, but I don't know who it is.|
 |ᎪᎵᎦ|8|Vsgwu sgohi nadetiya gvwagohv yigi kilo, ahida gohlgoi.|ᎥᏍᏊ ᏍᎪᎯ ᎾᏕᏘᏯ ᎬᏩᎪᎲ ᏱᎩ ᎩᎶ, ᎠᎯᏓ ᎪᎵᎪᎢ.|Even if it's been ten years since he has seen someone, he recognizes him easily.|
-|ᏫᎦᎧᎲᏍᎦ|8|Dlv yega, nav ijunadali diganelv wigakahvsgo uweji ayohli.|Ꮲ ᏰᎦ, ᎾᎥ ᎢᏧᎾᏓᎵ ᏗᎦᏁᎸ ᏫᎦᎧᎲᏍᎪᎢ ᎤᏪᏥ ᎠᏲᏟ.|Whenever she goes somewhere, she takes her child to her neighbor.|
+|ᏫᎦᎧᎲᏍᎦ|8|Dlv yega, nav ijunadali diganelv wigakahvsgo uweji ayohli.|Ꮲ ᏰᎦ, ᎾᎥ ᎢᏧᎾᏓᎵ ᏗᎦᏁᎸ ᏫᎦᎧᎲᏍᎪᎢ ᎤᏪᏥ ᎠᏲᏟ.|Whenever he goes somewhere, he takes his child to his neighbor.|
 |ᎩᎳ|8|Kila usv agihlvhnv usv jigesvi. Kila wijisduhvga jolani.|ᎩᎳ ᎤᏒ ᎠᎩᏢᏅ ᎤᏒ ᏥᎨᏒᎢ. ᎩᎳ ᏫᏥᏍᏚᎲᎦ ᏦᎳᏂ.|I went to sleep early last night. I have just closed the window.|
 |ᎥᏍᎩᏅ ᎢᏳᏍᏗ|8|Tsgwisdi jugvwahldi gesv gahljode; vsgihnv iyusdi hla yakiwasei.|ᏥᏈᏍᏗ ᏧᎬᏩᎶᏗ ᎨᏒ ᎦᎵᏦᏕ; ᎥᏍᎩᏅ ᎢᏳᏍᏗ Ꮭ ᏯᎩᏩᏎᎢ.|The house cost too much; therefore I didn't buy it.|
 |ᏥᎩᎵᎵ|8|Jigilili yinigawe adanelv nav, kilo dagaluhji anadisgo Anijalagi.|ᏥᎩᎵᎵ ᏱᏂᎦᏪ ᎠᏓᏁᎸ ᎾᎥ, ᎩᎶ ᏓᎦᎷᏥ ᎠᎾᏗᏍᎪ ᎠᏂᏣᎳᎩ.|When a chickadee sings near a house, Cherokees say that someone will come.|
@@ -1724,19 +1724,19 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᎦᏓᎭᎢ|8|Hla yudulvhe gadaha dagwalela uhilvsdi, vsgihnv iyusdi unvgalvhvi.|Ꮭ ᏳᏚᎸᎮ ᎦᏓᎭ ᏓᏆᎴᎳ ᎤᎯᎸᏍᏗ, ᎥᏍᎩᏅ ᎢᏳᏍᏗ ᎤᏅᎦᎸᎲᎢ.|He didn't want to drive a dirty car, so he washed it.|
 |ᎠᏓᏲᏁᎯ|8|Jani osda kanohedv chaneline ayatohlv ajineisdi adahyonehi agehya.|ᏣᏂ ᎣᏍᏓ ᎧᏃᎮᏛ ᏣᏁᎵᏁ ᎠᏯᏙᏢ ᎠᏥᏁᎢᏍᏗ ᎠᏓᏲᏁᎯ ᎠᎨᏯ.|An adulteress is mentioned in chapter eight of the book of John.|
 |ᎦᎶᏍᎦ|8|Gosdi nudvhnvna ulosv ojidonav navi. Ahida ulosv ajigoliyea.|ᎪᏍᏗ ᏄᏛᏅᎾ ᎤᎶᏒ ᎣᏥᏙᎾᎥ ᎾᎥᎢ. ᎠᎯᏓ ᎤᎶᏒ ᎠᏥᎪᎵᏰᎠ.|He passed by them and me without even saying anything. He passed easily when he was tested.|
-|ᎬᎾᏬᏍᎦ|8|Gvnawosgi gohlvhtanv ulvsadi uwanawosv udihlehg ama adlisdv wuhlana.|ᎬᎾᏬᏍᎩ ᎪᏢᏔᏅ ᎤᎸᏌᏗ ᎤᏩᎾᏬᏒ ᎤᏗᏞᎩ ᎠᎹ ᎠᏟᏍᏛ ᏭᏝᎾ.|A glass made of plastic melted when she put it in some hot water.|
-|ᎠᏱᎭ|8|Hisgi dije digohwelodi duyvhv didananvi. Eladi waya digohwelodi.|ᎯᏍᎩ ᏗᏤ ᏗᎪᏪᎶᏗ ᏚᏴᎲ ᏗᏓᎾᏅᎢ. ᎡᎳᏗ ᏩᏯ ᏗᎪᏪᎶᏗ.|He got five new pencils from the store. She picked up a pencil from the ground.|
-|ᎠᎬᎭᎵᎭ|8|Asano uwohlvhdi ugvhalvhvi. Hayelsdi gvhdi agvhali gadu uganasda.|ᎠᏌᏃ ᎤᏬᏢᏗ ᎤᎬᎭᎸᎲᎢ. ᎭᏰᎵᏍᏗ ᎬᏗ ᎠᎬᎭᎵ ᎦᏚ ᎤᎦᎾᏍᏓ.|She cut a pattern for a dress. She's slicing the cake with a knife.|
+|ᎬᎾᏬᏍᎦ|8|Gvnawosgi gohlvhtanv ulvsadi uwanawosv udihlehg ama adlisdv wuhlana.|ᎬᎾᏬᏍᎩ ᎪᏢᏔᏅ ᎤᎸᏌᏗ ᎤᏩᎾᏬᏒ ᎤᏗᏞᎩ ᎠᎹ ᎠᏟᏍᏛ ᏭᏝᎾ.|A glass made of plastic melted when he put it in some hot water.|
+|ᎠᏱᎭ|8|Hisgi dije digohwelodi duyvhv didananvi. Eladi waya digohwelodi.|ᎯᏍᎩ ᏗᏤ ᏗᎪᏪᎶᏗ ᏚᏴᎲ ᏗᏓᎾᏅᎢ. ᎡᎳᏗ ᏩᏯ ᏗᎪᏪᎶᏗ.|He got five new pencils from the store. He picked up a pencil from the ground.|
+|ᎠᎬᎭᎵᎭ|8|Asano uwohlvhdi ugvhalvhvi. Hayelsdi gvhdi agvhali gadu uganasda.|ᎠᏌᏃ ᎤᏬᏢᏗ ᎤᎬᎭᎸᎲᎢ. ᎭᏰᎵᏍᏗ ᎬᏗ ᎠᎬᎭᎵ ᎦᏚ ᎤᎦᎾᏍᏓ.|He cut a pattern for a dress. He's slicing the cake with a knife.|
 |ᎠᎵᏘᎠ|8|Jisdu jiniyvhvi svhi asehnv agwalitielvi. Junadasdudi ayav ulitisvi.|ᏥᏍᏚ ᏥᏂᏴᎲᎢ ᏒᎯ ᎠᏎᏅ ᎠᏆᎵᏘᎡᎸᎢ. ᏧᎾᏓᏍᏚᏗ ᎠᏯᎥ ᎤᎵᏘᏒᎢ.|I caught a rabbit yesterday, but it ran away from me. He escaped from jail.|
 |ᏓᎾᏠᏍᎦ|8|Tsgwisdi Anijalagi dunadlosv Daligwa ugvwiyuhi gawonisgv unatvgodi uniyelvsvi.|ᏥᏈᏍᏗ ᎠᏂᏣᎳᎩ ᏚᎾᏠᏒ ᏓᎵᏆ ᎤᎬᏫᏴᎯ ᎦᏬᏂᏍᎬ ᎤᎾᏛᎪᏗ ᎤᏂᏰᎸᏒᎢ.|A lot of Cherokees met at Tahlequah in order to hear the chief speak.|
 |ᎠᎪᎵᏰᎠ|8|Oginalii nidayunvnv gohwel jigoliyea. Aganakti ugoliyedi udulisgv udlvgi.|ᎣᎩᎾᎵᎢ ᏂᏓᏳᏅᏅ ᎪᏪᎵ ᏥᎪᎵᏰᎠ. ᎠᎦᎾᎦᏘ ᎤᎪᎵᏰᏗ ᎤᏚᎵᏍᎬ ᎤᏢᎩ.|I am reading a letter from a friend. The patient wanted a doctor to examine him.|
-|ᎦᏌᏁᎾᏛᏍᎦ|8|Asti gasanenadvsga yvgii. Juksvsdi uwasanenadvnv uweti dagwalela udanawstana|ᎠᏍᏘ ᎦᏌᏁᎾᏛᏍᎦ ᏴᎩᎢ. ᏧᎦᏒᏍᏗ ᎤᏩᏌᏁᎾᏛᏅ ᎤᏪᏘ ᏓᏆᎴᎳ ᎤᏓᎾᏫᏍᏔᎾ.|She's threading a needle. The old car left a trail of smoke as it took off.|
+|ᎦᏌᏁᎾᏛᏍᎦ|8|Asti gasanenadvsga yvgii. Juksvsdi uwasanenadvnv uweti dagwalela udanawstana|ᎠᏍᏘ ᎦᏌᏁᎾᏛᏍᎦ ᏴᎩᎢ. ᏧᎦᏒᏍᏗ ᎤᏩᏌᏁᎾᏛᏅ ᎤᏪᏘ ᏓᏆᎴᎳ ᎤᏓᎾᏫᏍᏔᎾ.|He's threading a needle. The old car left a trail of smoke as it took off.|
 |ᎧᏃᎮᏓ|8|Kanoheda kanohesgi kanoheda kanoheha. Ahljadohvsgi kanoheda duhljadohnelv yvwi.|ᎧᏃᎮᏓ ᎧᏃᎮᏍᎩ ᎧᏃᎮᏓ ᎧᏃᎮᎭ. ᎠᎵᏣᏙᎲᏍᎩ ᎧᏃᎮᏓ ᏚᎵᏣᏙᏁᎸ ᏴᏫ.|The newscaster is telling the news. A preacher preached the gospel to the people.|
 |ᎨᏡᎲᏍᎦ|8|Wahya yidutvgana gihli gehluhvsgoi. Unaligosv unadahlosa, unehluhnv analasgalisgi.|ᏩᏯ ᏱᏚᏛᎦᎾ ᎩᏟ ᎨᏡᎲᏍᎪᎢ. ᎤᎾᎵᎪᏒ ᎤᎾᏓᏠᏌ, ᎤᏁᏡᏅ ᎠᎾᎳᏍᎦᎵᏍᎩ.|The dog howls when he hears the wolves. When their team won, the ballplayers yelled.|
 |ᏎᏓᏂ|9|Sedani dijadlosv nigesvna yigi kohi iga, eligwu ijulaha yisdai.|ᏎᏓᏂ ᏗᏣᏠᏒ ᏂᎨᏒᎾ ᏱᎩ ᎪᎯ ᎢᎦ, ᎡᎵᏊ ᎢᏣᎳᎭ ᏱᏍᏓᎢ.|If you haven't been confronted by Satan today, it's possible you two are walking in the same direction.|
-|ᎬᏕᎦ|9|Hila iyv jigesv uwhdeje anineli? Hla yagwanhte nehvna gesvi.|ᎯᎳ ᎢᏴ ᏥᎨᏒ ᎤᏮᏕᏤ ᎠᏂᏁᎵ? Ꮭ ᏯᏆᏅᏖ ᏁᎲᎾ ᎨᏒᎢ.|When did her husband part with her? I didn't know he was not living.|
+|ᎬᏕᎦ|9|Hila iyv jigesv uwhdeje anineli? Hla yagwanhte nehvna gesvi.|ᎯᎳ ᎢᏴ ᏥᎨᏒ ᎤᏮᏕᏤ ᎠᏂᏁᎵ? Ꮭ ᏯᏆᏅᏖ ᏁᎲᎾ ᎨᏒᎢ.|When did his husband part with him? I didn't know he was not living.|
 |ᎠᏯᏂᎭ|9|Wahga uhyona gvhdi ahyaniha gihli. Hadlv hiyanvhe hia gihli?|ᏩᎦ ᎤᏲᎾ ᎬᏗ ᎠᏯᏂᎭ ᎩᏟ. ᎭᏢ ᎯᏯᏅᎮ ᎯᎠ ᎩᏟ?|He's calling the dog with a cow horn. Where did you get this dog?|
-|ᎠᎦᎳᏍᎦ|9|Na agehyuja ustihgv ugalsdi uduli. Juwoyeni gvhdi ugalsv asti.|Ꮎ ᎠᎨᏳᏣ ᎤᏍᏘᎬ ᎤᎦᎳᏍᏗ ᎤᏚᎵ. ᏧᏬᏰᏂ ᎬᏗ ᎤᎦᎳᏒ ᎠᏍᏘ.|The girl wants to cut her hair. He broke the string with his hands.|
+|ᎠᎦᎳᏍᎦ|9|Na agehyuja ustihgv ugalsdi uduli. Juwoyeni gvhdi ugalsv asti.|Ꮎ ᎠᎨᏳᏣ ᎤᏍᏘᎬ ᎤᎦᎳᏍᏗ ᎤᏚᎵ. ᏧᏬᏰᏂ ᎬᏗ ᎤᎦᎳᏒ ᎠᏍᏘ.|The girl wants to cut xher hair. He broke the string with his hands.|
 |ᏏᏊ|9|Svhi aktvganv sigwu digawonisisv kohi iga. Sigwu agwaduli ama.|ᏒᎯ ᎠᏆᏛᎦᏅ ᏏᏊ ᏗᎦᏬᏂᏏᏒ ᎪᎯ ᎢᎦ. ᏏᏊ ᎠᏆᏚᎵ ᎠᎹ.|I heard yesterday that he was supposed to speak again today. I want more water.|
 |ᎤᏍᎦᏃᎵ|9|Igada unisganoli geso unadvnvisdohdii. Usganoli galohi nigvwsdi kohi iga.|ᎢᎦᏓ ᎤᏂᏍᎦᏃᎵ ᎨᏐ ᎤᎾᏛᏅᎢᏍᏙᏗᎢ. ᎤᏍᎦᏃᎵ ᎦᎶᎯ ᏂᎬᏩᏍᏗ ᎪᎯ ᎢᎦ.|Some people are slow to get ready. Today seemed to go by slow.|
 |ᎠᏯᏙᎯᎯ|9|Galohni talsgo hisgine, sohneladu isgohitsgwa gahlgwasgo joi ayatohihi nulstanvi.|ᎦᎶᏂ ᏔᎵᏍᎪ ᎯᏍᎩᏁ, ᏐᏁᎳᏚ ᎢᏍᎪᎯᏥᏆ ᎦᏟᏆᏍᎪ ᏦᎢ ᎠᏯᏙᎯᎯ ᏄᎵᏍᏔᏅᎢ.|He became a deacon on August 25, 1973.|
@@ -1745,7 +1745,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏅᏓ|10|Iga ehi nvda ugodi utana sihnv svnoyi ehi nvda gesvi.|ᎢᎦ ᎡᎯ ᏅᏓ ᎤᎪᏗ ᎤᏔᎾ ᏏᏅ ᏒᏃᏱ ᎡᎯ ᏅᏓ ᎨᏒᎢ.|The sun is bigger than the moon.|
 |ᎤᎵᏍᏓᏁᎭ|10|Gosdi ulsdahnelv dlv wedohv. Hla yiuluhjei. Gado ulsdahne na gihli?|ᎪᏍᏗ ᎤᎵᏍᏓᏁᎸ Ꮲ ᏪᏙᎲ. Ꮭ ᏱᎤᎷᏤᎢ. ᎦᏙ ᎤᎵᏍᏓᏁ Ꮎ ᎩᏟ?|Something happened to him while he was away. He didn't come back. What's wrong with that dog?|
 |ᎦᏙ ᎤᏍᏗ|10|Gado usdi higowhtiha? Ijeiyusdi digohwelodi. Gado usdi jaduliha? ksdehldi agwaduli.|ᎦᏙ ᎤᏍᏗ ᎯᎪᏩᏘᎭ? ᎢᏤ ᎢᏳᏍᏗ ᏗᎪᏪᎶᏗ. ᎦᏙ ᎤᏍᏗ ᏣᏚᎵᎭ? ᏍᎩᏍᏕᎸᏗ ᎠᏆᏚᎵ.|What do you see? A green pencil. What do you want? I want you to help me.|
-|ᎠᏓᎨᎢ|10|Anidage tuya anije duhwasv didananvi. Adage ayohli unvdigwu iga aditasgoi.|ᎠᏂᏓᎨ ᏚᏯ ᎠᏂᏤ ᏚᏩᏒ ᏗᏓᎾᏅᎢ. ᎠᏓᎨ ᎠᏲᏟ ᎤᏅᏗᏊ ᎢᎦ ᎠᏗᏔᏍᎪᎢ.|She bought tender green beans at the store. A very young child drinks only milk.|
+|ᎠᏓᎨᎢ|10|Anidage tuya anije duhwasv didananvi. Adage ayohli unvdigwu iga aditasgoi.|ᎠᏂᏓᎨ ᏚᏯ ᎠᏂᏤ ᏚᏩᏒ ᏗᏓᎾᏅᎢ. ᎠᏓᎨ ᎠᏲᏟ ᎤᏅᏗᏊ ᎢᎦ ᎠᏗᏔᏍᎪᎢ.|He bought tender green beans at the store. A very young child drinks only milk.|
 |ᎠᎴ|10|Anisgaya ale anigehya gajigowhtiha. Jenvsdi yijaduli, ale hla yigi osigwu.|ᎠᏂᏍᎦᏯ ᎠᎴ ᎠᏂᎨᏯ ᎦᏥᎪᏩᏘᎭ. ᏤᏅᏍᏗ ᏱᏣᏚᎵ, ᎠᎴ Ꮭ ᏱᎩ ᎣᏏᏊ.|I see men and women. If you want to go or not, that's just fine.|
 |ᎠᏂᎩᎠ|10|Svhi sunale jigesv juhnigisvi. Ije anagalisgi uhlana, ahida uhnigisv dagwalela.|ᏒᎯ ᏑᎾᎴ ᏥᎨᏒ ᏧᏂᎩᏒᎢ. ᎢᏤ ᎠᎾᎦᎵᏍᎩ ᎤᏝᎾ, ᎠᎯᏓ ᎤᏂᎩᏒ ᏓᏆᎴᎳ.|He left yesterday morning. When he put a new battery in the car, it started up easily.|
 |ᎧᏅᏫᎠ|10|Didahnvwisgi uhnvwanv achuj galeni uwesdanehvi. Julasgi atalesv kanvwia talugisgi dikanvwisgi.|ᏗᏓᏅᏫᏍᎩ ᎤᏅᏩᏅ ᎠᏧᏣ ᎦᎴᏂ ᎤᏪᏍᏓᏁᎲᎢ. ᏧᎳᏍᎩ ᎠᏔᎴᏍᏒ ᎧᏅᏫᎠ ᏔᎷᎩᏍᎩ ᏗᎧᏅᏫᏍᎩ.|A medicine man cured the boy's earache. A welder is welding a hole in a cast iron pot.|
@@ -1754,7 +1754,7 @@ valid|entry|cnt_words|pronounce|syllabary|english|mco
 |ᏧᏂᏒᏍᏗᎢ|11|Sohneladu isgohitsgwa gahlgwasgo nvhgi udetiyvsadisv ije junisvsdi unahnesgehv Anijalagi Daligwa navi.|ᏐᏁᎳᏚ ᎢᏍᎪᎯᏥᏆ ᎦᎵᏆᏍᎪ ᏅᎩ ᎤᏕᏘᏴᏌᏗᏒ ᎢᏤ ᏧᏂᏒᏍᏗ ᎤᎾᏁᏍᎨᎲ ᎠᏂᏣᎳᎩ ᏓliᏆ ᏅᎥᎢ.|In the year 1974, the Cherokees built a new motel near Tahlequah.|
 |ᎫᏓᎴᎠ|11|Hiyudalagi sogwili unelagi walsdayvhnida. Uhnigisa dawalela uwudalesv unadadesvda. Adayvlatvsgi gudalesgo yanagalia.|ᎯᏳᏓᎳᎩ ᏐᏈᎵ ᎤᏁᎳᎩ ᏩᎵᏍᏓᏴᏂᏓ. ᎤᏂᎩᏌ ᏓᏆᎴᎳ ᎤᏭᏓᎴᏒ ᎤᎾᏓᏕᏒᏓ. ᎠᏓᏴᎳᏛᏍᎩ ᎫᏓᎴᏍᎪ ᏯᎾᎦᎵᎠ.|Unhitch the horse and let him graze. He unhooked the chain when the car started. He unplugs the television when it's lightening.|
 
--|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when she left.|Ù:hi:sohdv̌:ɂi
+-|ᎤᎯᏐᏗ|2|Uhisohdv uhnelada.|ᎤᎯᏐᏛ ᎤᏁᎳᏓ.|It was lonesome when he left.|Ù:hi:sohdv̌:ɂi
 -|ᏯᏂᏌ|2|Yansa unatsvhnidi.|ᏯᏂᏌ ᎤᎾᏨᏂᏗ.|The buffalo is almost extinct.|Yansa
 -|ᏄᏓᏅᏛᎾ|2|Doyu nijadanhtvna.|ᏙᏳ ᏂᏣᏓᏅᏛᎾ.|You are really crazy.|Do:yű
 -|ᏚᏳᎪᏛᎢ|2|Duyukdv gvnohiseha.|ᏚᏳᎪᏛ ᎬᏃᎯᏎᎭ.|I am telling you the truth.|Dù:yu:kdv̋:ɂi
