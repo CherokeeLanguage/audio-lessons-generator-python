@@ -137,7 +137,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Galì:sdâ:yv:hv́sga.; Galì:sdâ:yv:hv́.|I am eating a meal.|||
 |||||||Halsdâ:yv:hv́sga.; Halsdâ:yv:hv́.|You are eating a meal.|||
 |||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
-|||||||Analsdâ:yv:hv́sga.; Analsdâ:yv:hv́.|They are eating a meal.|||
+|||||||À:nalsdâ:yv:hv́sga.; À:nalsdâ:yv:hv́.|They are eating a meal.|||
 |||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
 |||||||À:gwadu:líha.; À:wadu:líha.; À:wadu:líʔa.; À:wadu:lí.; À:gwadu:líʔa.; À:gwadu:lí.|I want.|||
 |||||||Jadu:líha.; Jadu:líʔa.; Jadu:lí.|You want.|||
@@ -369,7 +369,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Kǒ:la.; Kǒ:li.; Kǒ:l.|A bone.|||
 |||||||Na.|That|||
 |||||||Naʔvʔi.; Naʔv.|Close by. Near.|||
-|||||||Nanaʔi.; Nanā.|Over there.|||
+|||||||Á:ge.; Nanaʔi.; Nanā.|Over there.|||
 
 # Exercise 5
 *|||||||Go:hwe:li à:gináʔa.; Go:hwe:la à:giná.|I have a piece of paper.|||
@@ -413,13 +413,13 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *||||||Ꮒ! ᎹᎦ.|Ni! Ma:ga.|Look at Mark!|||
 *||||||ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.; ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.|U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔvʔi.; U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔv.|A black and white turkey is near.|||
 *||||||ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ ᎢᎦ.|V:le à:nali:hě:lî:ga go:hí i:ga.|The locusts are rejoicing today.|||
-ᎤᎦᎹ ᎤᏁᎠ|He has soup.
-ᏄᎾ ᎤᎭ|He has a potato.
-ᎠᎩᎦᎨ ᎤᎦᎶᎦ ᎤᎾᎠ|He has a red leaf.
-ᎤᎭᎸᎾ ᎨᎢ|A bell is over there.
-ᎠᎭᏂ ᎠᎬᏂᎨ ᎫᎫ|Here is a black bottle.
-ᎦᎸᎶᎯ ᎩᎦᎨ|The sky is red.
-ᏅᎩ ᎧᎹᎹ ᎠᎾᎵᏍᏔᏴᎲᏍᎦ|Four butterflies are feeding.
+*||||||ᎤᎦᎹ ᎤᏁᎠ.; ᎤᎦᎹ ᎤᏁᎭ.|Ǔ:gáma ù:néha.; Ǔ:gáma ù:néʔa.|He has soup.|||
+*||||||ᏄᎾ ᎤᎭ.|Nǔ:na ǔ:ha.|He has a potato.|||
+*||||||ᎠᎩᎦᎨ ᎤᎦᎶᎦ ᎤᎾᎠ|Gǐ:gáge u:galǒ:ga ù:náʔa.; Gǐ:ge u:galǒ:ga ù:náʔa.|He has a red leaf.|||
+*||||||ᎤᎭᎸᏂ ᎠᎨ.; ᎤᎭᎸᏂ ᎾᎾᎢ.|U:halv:ni á:ge.; U:halv:ni nanaʔi.|A bell is over there.|||
+*||||||ᎠᏂ ᎬᎿᎨ ᎫᎫ.; ᎠᎭᏂ ᎬᎿᎨ ᎫᎫ.|Áhni gv̌:hnáge̋ gù:gu.; Áhani gv̌:hnáge̋ gù:gu.|Here is a black bottle.|||
+*||||||ᎦᎸᎶ ᎩᎦᎨ.; ᎦᎸᎶ ᎩᎨ.|Galv:lő gǐ:gáge.; Galv:lő gǐ:ge.|The sky is red.|||
+*||||||ᏅᎩ ᎧᎹᎹ ᎠᎾᎵᏍᏓᏴᎲᏍᎦ.|Nvhgi kama:ma à:nalsdâ:yv:hv́sga.|Four butterflies are feeding.|||
 
 *|||||||Chuně:li:ne̋ʔi Jalagi go:hwe:lv̋:ʔi.; Chaně:li:ne̋ʔi Jalagi go:hwe:lv̋:ʔi.; Chuně:li:ne̋ Jalagi go:hwe:lv̋:ʔi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ʔi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
 
