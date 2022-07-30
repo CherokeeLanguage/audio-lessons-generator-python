@@ -61,7 +61,7 @@ a, e, i, o, u, v - These are short vowels.
 
 #### Pausing
 
-ɂ - A dotless question mark indicates a brief pause in speaking. This is called a glottal stop.Examples of this brief pause can be found in the middle of the English words: “kitten”, “mitten”, “uh-oh”, “stoplight”, and “workload”.⚠ Glottal stops are important.
+ʔ - A dotless question mark indicates a brief pause in speaking. This is called a glottal stop.Examples of this brief pause can be found in the middle of the English words: “kitten”, “mitten”, “uh-oh”, “stoplight”, and “workload”.⚠ Glottal stops are important.
 
 #### Miscellaneous
 
@@ -94,15 +94,15 @@ Example pronunciation guide entries, including entries that change meaning based
 
 ᎠᏓ [ada] Wood.
 
-ᎠᏓ [a̋ɂda] Young animal.
+ᎠᏓ [a̋ʔda] Young animal.
 
 ᎠᎹ [ama] Water.
 
 ᎠᎹ [á:ma] Salt.
 
-ᎬᏍᎦᎳᏗᎠ [gv:sgaládíɂa] He is hiding a long object.
+ᎬᏍᎦᎳᏗᎠ [gv:sgaládíʔa] He is hiding a long object.
 
-ᎬᏍᎦᎳᏗᎠ [gv̀:sgaládíɂa] I am hiding a long object.
+ᎬᏍᎦᎳᏗᎠ [gv̀:sgaládíʔa] I am hiding a long object.
 
 ### Things of note
 

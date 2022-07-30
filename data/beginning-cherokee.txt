@@ -5,11 +5,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ő:sda.|Good.|||
 |||||||Ő:sda:dv̀.|Definitely good.|||
 |||||||Wado.|Thanks.|||
-|||||||V:ɂv.; V:ɂ.|Yes.|||
-|||||||V̀:ɂhla.; Hla:ɂhv.; Hla.|No. Not.|||
-|||||||Donada:go:hv:ɂi.; Donada:go:hv̄.|We both will see each other again, later.|||
-|||||||Dodada:go:hv:ɂi.; Dodada:go:hv̄.|We'll see each other again, later.|||
-|||||||Igv:yi̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Igv:yi̋ Jalagi go:hwe:lv̋:ɂi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
+|||||||V:ʔv.; V:ʔ.|Yes.|||
+|||||||V̀:ʔhla.; Hla:ʔhv.; Hla.|No. Not.|||
+|||||||Donada:go:hv:ʔi.; Donada:go:hv̄.|We both will see each other again, later.|||
+|||||||Dodada:go:hv:ʔi.; Dodada:go:hv̄.|We'll see each other again, later.|||
+|||||||Igv:yi̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Igv:yi̋ Jalagi go:hwe:lv̋:ʔi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
 
 # === 2
 
@@ -17,11 +17,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Tlv̀:wasga.|Maple.|||
 |||||||Áhni.; Áhani.|Here.|||
 |||||||U:hyv:dla.; U:hyv:dlv.|Cold.|||
-|||||||Taɂli:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Taɂli:ne̋ Jalagi go:hwe:lv̋:ɂi.|Second Cherokee lesson.|||
+|||||||Taʔli:ne̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Taʔli:ne̋ Jalagi go:hwe:lv̋:ʔi.|Second Cherokee lesson.|||
 #||||||| | |||
 |||||||Di:dihnó:gi.|Let's all sing.|||
 |||||||Waló:si.; Waló:s.; Waló.|A frog. Frogs.|||
-|||||||Joɂi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Joɂi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
+|||||||Joʔi:ne̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Joʔi:ne̋ Jalagi go:hwe:lv̋:ʔi.|Third Cherokee lesson.||Complete the written material through the end of Lesson 3.|
 
 # === 4
 
@@ -32,8 +32,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Di:sésdi nidì:níwi.; Di:sésdi nidì:níwa.|Let's both say the numbers.|||
 #||||||| | |||
 |||||||Sà:wű.; Sà:gwű.|One.|||
-|||||||Táɂli.; Táɂl.|Two.|||
-|||||||Joɂi.; Jo.|Three.|||
+|||||||Táʔli.; Táʔl.|Two.|||
+|||||||Joʔi.; Jo.|Three.|||
 |||||||Nvhgi.; Nvhg.|Four.|||
 |||||||Hisgi.; Hisg.|Five.|||
 |||||||Sǔ:dáli.; Sǔ:dál.|Six.|||
@@ -42,45 +42,45 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Sóhně:la.; Sóhně:l.|Nine.|||
 |||||||Sgǒ:hi.; Sgǒ.|Ten.|||
 #||||||| | |||
-|||||||Igv:yi̋:ɂi.; Igv:yi̋.|First.|||
-|||||||Taɂli:ne̋:ɂi.; Taɂli:ne̋.|Second. Again.|||
-|||||||Joɂi:ne̋:ɂi.; Joɂi:ne̋.|Third.|||
-|||||||Nvhgi:ne̋:ɂi.; Nvhgi:ne̋.|Fourth.|||
-|||||||Hisgi:ne̋:ɂi.; Hisgi:ne̋.|Fifth.|||
-|||||||Su:dali:ne̋:ɂi.; Su:dali:ne̋.|Sixth.|||
-|||||||Galigwo:gi:ne̋:ɂi.; Galigwo:gi:ne̋.|Seventh.|||
-|||||||Chuně:li:ne̋:ɂi.; Chaně:li:ne̋:ɂi.; Chuně:li:ne̋.; Chaně:li:ne̋.|Eighth.|||
-|||||||Sóhně:li:ne̋:ɂi.; Sóhně:li:ne̋.|Ninth.|||
-|||||||Sgo:hi:ne̋:ɂi.; Sgo:hi:ne̋.|Tenth.|||
+|||||||Igv:yi̋:ʔi.; Igv:yi̋.|First.|||
+|||||||Taʔli:ne̋:ʔi.; Taʔli:ne̋.|Second. Again.|||
+|||||||Joʔi:ne̋:ʔi.; Joʔi:ne̋.|Third.|||
+|||||||Nvhgi:ne̋:ʔi.; Nvhgi:ne̋.|Fourth.|||
+|||||||Hisgi:ne̋:ʔi.; Hisgi:ne̋.|Fifth.|||
+|||||||Su:dali:ne̋:ʔi.; Su:dali:ne̋.|Sixth.|||
+|||||||Galigwo:gi:ne̋:ʔi.; Galigwo:gi:ne̋.|Seventh.|||
+|||||||Chuně:li:ne̋:ʔi.; Chaně:li:ne̋:ʔi.; Chuně:li:ne̋.; Chaně:li:ne̋.|Eighth.|||
+|||||||Sóhně:li:ne̋:ʔi.; Sóhně:li:ne̋.|Ninth.|||
+|||||||Sgo:hi:ne̋:ʔi.; Sgo:hi:ne̋.|Tenth.|||
 #||||||| | |||
 |||||||Go:hwe:lv̋.|A letter of the alphabet.|||
 |||||||Dego:hwe:lv̋.|Letters of the alphabet.|||
 |||||||A:sésdi.|A number. A count.|||
 |||||||Disésdi.|Numbers. Counts.|||
-|||||||Gadíɂa.; Gadíha.|I'm saying.|||
-|||||||Hadíɂa.; Hadíha.|You are saying.|||
-|||||||À:díɂa.; À:díha.|He is saying.|||
-|||||||À:nadíɂa.; À:nadíha.|They are saying.|||
+|||||||Gadíʔa.; Gadíha.|I'm saying.|||
+|||||||Hadíʔa.; Hadíha.|You are saying.|||
+|||||||À:díʔa.; À:díha.|He is saying.|||
+|||||||À:nadíʔa.; À:nadíha.|They are saying.|||
 #||||||| | |||
-|||||||Dù:danv:hnv̋:ɂi digaloɂgwasdohdi.; Dù:danv:hnv̋ digaloɂgwasdohdi.|Rows of the alphabet.|||
+|||||||Dù:danv:hnv̋:ʔi digaloʔgwasdohdi.; Dù:danv:hnv̋ digaloʔgwasdohdi.|Rows of the alphabet.|||
 |||||||È:gi.|Maggie.|||
-|||||||Géɂi.|Far off in place or time.|||
-|||||||Goɂi.|Grease. Oil.|||
+|||||||Géʔi.|Far off in place or time.|||
+|||||||Goʔi.|Grease. Oil.|||
 |||||||Go:gi.; Go:g.|Summer.|||
 |||||||Gù:gu.|A bottle. Bottles.|||
 |||||||Ayo!|Ouch!|||
 
 # exercise 4
-*|||||||Sà:gwű, táɂli, joɂi.; Sà:wű, táɂli, joɂi.; Sà:wű, táɂl, jo.|One, two, three.|||
+*|||||||Sà:gwű, táʔli, joʔi.; Sà:wű, táʔli, joʔi.; Sà:wű, táʔl, jo.|One, two, three.|||
 *|||||||Tò:hi̋:ju? È:gi.|Isn't it well? Maggie.|||
-*|||||||Gadí:ɂa sgǒ:hi.|I am saying ten.|||
-*|||||||Hadí:ɂa joɂi.|You are saying three.|||
-*|||||||À:diha hisgi.; À:diɂa hisgi.|He is saying five.|||
-*|||||||À:nadiha sóhně:la gù:gu.; À:nadiɂa sóhně:la gù:gu.; À:nadiha sóhně:l gù:gu.|They are saying nine bottles.|||
-*|||||||Joɂi gù:gu.; Jo gù:gu.|Three bottles.|||
-*|||||||Sà:gwű go:hwe:lv̋:ɂi.; Sà:wű go:hwe:lv̋:ɂi.|One lessons.|||
+*|||||||Gadí:ʔa sgǒ:hi.|I am saying ten.|||
+*|||||||Hadí:ʔa joʔi.|You are saying three.|||
+*|||||||À:diha hisgi.; À:diʔa hisgi.|He is saying five.|||
+*|||||||À:nadiha sóhně:la gù:gu.; À:nadiʔa sóhně:la gù:gu.; À:nadiha sóhně:l gù:gu.|They are saying nine bottles.|||
+*|||||||Joʔi gù:gu.; Jo gù:gu.|Three bottles.|||
+*|||||||Sà:gwű go:hwe:lv̋:ʔi.; Sà:wű go:hwe:lv̋:ʔi.|One lessons.|||
 
-*|||||||Nvhgi:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Nvhgi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
+*|||||||Nvhgi:ne̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Nvhgi:ne̋ Jalagi go:hwe:lv̋:ʔi.|Fourth Cherokee lesson.||Complete the written material through the end of Lesson 4.|
 
 # === 5
 
@@ -93,31 +93,31 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||É:ga.; É.|He or it goes.|||
 |||||||À:né:ga.; À:né.|They go.|||
 |||||||Ju:ni:là:wisdi gé:ga.; Ju:ni:là:wisdi gé.|I am going to church.|||
-|||||||Digwé:nv̀:sv̋:ɂi gé:ga.; Digwé:nv̀:sv̋ gé:ga.; Digwé:nv̀:sv̋ gé.|I am going home.|||
-|||||||Dijé:nv̀:sv̋:ɂi hé:ga.; Dijé:nv̀:sv̋ hé:ga.; Dijé:nv̀:sv̋ hé.|You are going home.|||
-|||||||Juwé:nv̀:sv̋:ɂi é:ga.; Juwé:nv̀:sv̋ é:ga.; Juwé:nv̀:sv̋ é.|He is going home.|||
-|||||||Juné:nv̀:sv̋:ɂi à:né:ga.; Juné:nv̀:sv̋ à:né:ga.; Juné:nv̀:sv̋ à:né.|They are going home.|||
+|||||||Digwé:nv̀:sv̋:ʔi gé:ga.; Digwé:nv̀:sv̋ gé:ga.; Digwé:nv̀:sv̋ gé.|I am going home.|||
+|||||||Dijé:nv̀:sv̋:ʔi hé:ga.; Dijé:nv̀:sv̋ hé:ga.; Dijé:nv̀:sv̋ hé.|You are going home.|||
+|||||||Juwé:nv̀:sv̋:ʔi é:ga.; Juwé:nv̀:sv̋ é:ga.; Juwé:nv̀:sv̋ é.|He is going home.|||
+|||||||Juné:nv̀:sv̋:ʔi à:né:ga.; Juné:nv̀:sv̋ à:né:ga.; Juné:nv̀:sv̋ à:né.|They are going home.|||
 |||||||U:nali:he:lísdi à:lsdàyhdi.; U:li:he:lísdi à:lsdàyhdi.|Thanksgiving meal.|||
 |||||||Ga̋:du.|Bread.|||
-|||||||Go:hlv:hnv̋:ɂi.; Go:hlv:hnv̋.|Butter.|||
+|||||||Go:hlv:hnv̋:ʔi.; Go:hlv:hnv̋.|Butter.|||
 |||||||Sě:lu.|Corn.|||
 |||||||Sě:lu ga̋:du.|Corn bread.|||
 |||||||Gv́:na.; Gv́:n.|A turkey. Turkeys.|||
 |||||||Hawi:ya.|Meat.|||
-|||||||Asǔ:yanaɂi.; Asǔ:yana.|Stuffing.|||
+|||||||Asǔ:yanaʔi.; Asǔ:yana.|Stuffing.|||
 |||||||Asú:sdi.; Asú.|Gravy.|||
 |||||||Nǔ:na.; Nǔ:ni.; Nǔ:n.|A potato. Potatoes.|||
 |||||||Nǔ:na aninv:hi̋:da.; Nǔ:na aninv:hi̋:d.|A sweet or long potato. Sweet or long potatoes.|||
 |||||||I:ya ge:li̋:sgi.; I:ya ge:li̋.|A pumpkin pie.|||
 |||||||Udadlv̌:da.; Udadlv̌:di.; Udadlv̌:d.|Cream.|||
 
-|||||||U:galǒ:ga gò:hlv̌:tanv̋:ɂi.; U:galǒ:ga gò:hlv̌:tanv̋.|Tea.|||
+|||||||U:galǒ:ga gò:hlv̌:tanv̋:ʔi.; U:galǒ:ga gò:hlv̌:tanv̋.|Tea.|||
 
-|||||||Gv́:na à:wadu:líɂa.; Gv́:n à:wadu:lí.; Gv́:na à:gwadu:líɂa.; Gv́:n à:gwadu:lí.|I want turkey.|||
-|||||||Asǔ:yanaɂi à:wadu:líɂa.; Asǔ:yana à:wadu:lí.; Asǔ:yanaɂi à:gwadu:líɂa.; Asǔ:yana à:gwadu:lí.|I want stuffing.|||
-|||||||Asú:sdi à:wadu:líɂa.; Asú:sdi à:wadu:lí.; Asú:sdi à:gwadu:líɂa.; Asú:sdi à:gwadu:lí.|I want gravy|||
+|||||||Gv́:na à:wadu:líʔa.; Gv́:n à:wadu:lí.; Gv́:na à:gwadu:líʔa.; Gv́:n à:gwadu:lí.|I want turkey.|||
+|||||||Asǔ:yanaʔi à:wadu:líʔa.; Asǔ:yana à:wadu:lí.; Asǔ:yanaʔi à:gwadu:líʔa.; Asǔ:yana à:gwadu:lí.|I want stuffing.|||
+|||||||Asú:sdi à:wadu:líʔa.; Asú:sdi à:wadu:lí.; Asú:sdi à:gwadu:líʔa.; Asú:sdi à:gwadu:lí.|I want gravy|||
 |||||||Gv́:na dè:skv̀:si.; Gv́:n dè:skv̀.|Hand me the turkey.|||
-|||||||Asǔ:yanaɂi dè:skv̀:si.; Asǔ:yana dè:skv̀.|Hand me the stuffing.|||
+|||||||Asǔ:yanaʔi dè:skv̀:si.; Asǔ:yana dè:skv̀.|Hand me the stuffing.|||
 |||||||Asú:sdi desgi:nehv̀:si.; Asú:sdi desgi:nehv̀.|Hand me the gravy.|||
 |||||||U:sdi̋ desgì:kà:si.; U:sdi̋ desgì:kà.|Hand me the baby.|||
 |||||||U:sdi̋ hì:kà:si.; U:sdi̋ hì:kà.|Hand him the baby.|||
@@ -129,18 +129,18 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gv:no:sásdi hi:dì:si.|Hand him a broom.|||
 |||||||Gv:no:sásdi gahi:dì:si.|Hand them the broom.|||
 |||||||Gv́:na desgv̀:si.; Gv́:n desgv̀.|Hand me the turkey.|||
-|||||||Gv́:na hiɂv̀:si.; Gv́:n hiɂv̀.|Hand him the turkey.|||
-|||||||Gv́:na gahiɂv̀:si.; Gv́:n gahiɂv̀.|Hand them the turkey.|||
+|||||||Gv́:na hiʔv̀:si.; Gv́:n hiʔv̀.|Hand him the turkey.|||
+|||||||Gv́:na gahiʔv̀:si.; Gv́:n gahiʔv̀.|Hand them the turkey.|||
 |||||||Udadlv̌:da desgi:ne:hv̀:si.; Udadlv̌:di desgi:ne:hv̀:si.; Udadlv̌d desgi:ne:hv̀.|Hand me the cream.|||
-|||||||Udadlv̌:da hineɂv̀:si.; Udadlv̌:d hineɂv̀:.|Hand him the cream.|||
-|||||||Udadlv̌:da gahineɂv̀:si.; Udadlv̌:d gahineɂv̀:.|Hand them the cream.|||
+|||||||Udadlv̌:da hineʔv̀:si.; Udadlv̌:d hineʔv̀:.|Hand him the cream.|||
+|||||||Udadlv̌:da gahineʔv̀:si.; Udadlv̌:d gahineʔv̀:.|Hand them the cream.|||
 |||||||Galì:sdâ:yv:hv́sga.; Galì:sdâ:yv:hv́.|I am eating a meal.|||
 |||||||Halsdâ:yv:hv́sga.; Halsdâ:yv:hv́.|You are eating a meal.|||
 |||||||Alsdâ:yv:hv́sga.; Alsdâ:yv:hv́.|He is eating a meal.|||
 |||||||Analsdâ:yv:hv́sga.; Analsdâ:yv:hv́.|They are eating a meal.|||
 |||||||Aksdà:yv̌hv:sgi.; Aksdà:yv̌hv.|My wife.|||
-|||||||À:gwadu:líha.; À:wadu:líha.; À:wadu:líɂa.; À:wadu:lí.; À:gwadu:líɂa.; À:gwadu:lí.|I want.|||
-|||||||Jadu:líha.; Jadu:líɂa.; Jadu:lí.|You want.|||
+|||||||À:gwadu:líha.; À:wadu:líha.; À:wadu:líʔa.; À:wadu:lí.; À:gwadu:líʔa.; À:gwadu:lí.|I want.|||
+|||||||Jadu:líha.; Jadu:líʔa.; Jadu:lí.|You want.|||
 |||||||Ù:du:líha.; Ù:du:lí.|He wants.|||
 |||||||Ù:nadu:líha.; Ù:nadu:lí.|They want.|||
 |||||||Agǐ:gáge.; Agǐ:ge.|Red.|||
@@ -150,25 +150,25 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Go:hí.|This position in time.|||
 |||||||Go:hí i:ga.|This day. Today.|||
 |||||||Kó:ga.; Kó:gi.; Kóg.|A crow. Crows.|||
-|||||||Hiɂa.; Hiɂi.|This. These.|||
-|||||||Hiɂa kó:ga.; Hiɂi kó:ga.; Hiɂa kó:gi.; Hiɂi kó:gi.;Hiɂa kó:g.; Hiɂi kó:g.|This crow. These crows.|||
-*|||||||Hisgine̋:ɂi Jalagi go:hwe:lv:ɂi.; Hisgine̋ Jalagi go:hwe:lv:ɂi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
+|||||||Hiʔa.; Hiʔi.|This. These.|||
+|||||||Hiʔa kó:ga.; Hiʔi kó:ga.; Hiʔa kó:gi.; Hiʔi kó:gi.;Hiʔa kó:g.; Hiʔi kó:g.|This crow. These crows.|||
+*|||||||Hisgine̋:ʔi Jalagi go:hwe:lv:ʔi.; Hisgine̋ Jalagi go:hwe:lv:ʔi.|Fifth Cherokee Lesson.||Complete the written material through the end of Lesson 5.|
 
 # Exercise 4
-*|||||||U:galǒ:ga gò:hlv̌:tanv̋:ɂi desgi:nehv̀:si.|Hand me tea.|||
+*|||||||U:galǒ:ga gò:hlv̌:tanv̋:ʔi desgi:nehv̀:si.|Hand me tea.|||
 *|||||||Hawi:ya dè:skv̀:si.|Hand me meat.|||
 *|||||||Gv́:na desgì:kà:si.|Hand me a living turkey.|||
 *|||||||Ju:ni:là:wisdi à:né:ga u:nali:he:lísdi.|They are going to church Thanksgiving.|||
-*|||||||Go:hlv:hnv̋:ɂi u:du:líɂa.; Go:hlv:hnv̋:ɂi u:du:líha.; Go:hlv:hnv̋ u:du:lí.|He wants butter.|||
+*|||||||Go:hlv:hnv̋:ʔi u:du:líʔa.; Go:hlv:hnv̋:ʔi u:du:líha.; Go:hlv:hnv̋ u:du:lí.|He wants butter.|||
 *|||||||Ga̋:du dè:skv̀:si.|Hand me bread.|||
 
 # Exercise 5
-*|||||||U:galǒ:ga gò:hlv̌:tanv̋:ɂi hi:nehv̀:si.; U:galǒ:ga gò:hlv̌:tanv̋:ɂi hi:neɂv̀:si.|Hand him tea.|||
-*|||||||Asǔ:yanaɂi jadu:líha.; Asǔ:yanaɂi jadu:líɂa.; Asǔ:yana jadu:lí.|You are wanting stuffing.|||
-*|||||||I:ya ge:li̋:sgi ù:nadu:líha.; I:ya ge:li̋:sgi ù:nadu:líɂa.; I:ya ge:li̋ ù:nadu:lí.|They are wanting pumpkin pie.|||
-*|||||||Hiɂa kó:ga sě:lu ga̋:du u:du:líha.; Hiɂa kó:ga sě:lu ga̋:du u:du:líɂa.; Hiɂa kó:g sě:lu ga̋:du u:du:lí.|This crow wants corn bread.|||
+*|||||||U:galǒ:ga gò:hlv̌:tanv̋:ʔi hi:nehv̀:si.; U:galǒ:ga gò:hlv̌:tanv̋:ʔi hi:neʔv̀:si.|Hand him tea.|||
+*|||||||Asǔ:yanaʔi jadu:líha.; Asǔ:yanaʔi jadu:líʔa.; Asǔ:yana jadu:lí.|You are wanting stuffing.|||
+*|||||||I:ya ge:li̋:sgi ù:nadu:líha.; I:ya ge:li̋:sgi ù:nadu:líʔa.; I:ya ge:li̋ ù:nadu:lí.|They are wanting pumpkin pie.|||
+*|||||||Hiʔa kó:ga sě:lu ga̋:du u:du:líha.; Hiʔa kó:ga sě:lu ga̋:du u:du:líʔa.; Hiʔa kó:g sě:lu ga̋:du u:du:lí.|This crow wants corn bread.|||
 *|||||||Gǐ:ga gù:gu desgi:nehv̀:si.|Hand me a bottle of blood.|||
-*|||||||Agǐ:gáge u:gù:ku, "hu:ɂ, hu:ɂ," à:diha.; Agǐ:ge u:gù:ku, "hu:ɂ, hu:ɂ," à:diha.|A red owl says "hoo! hoo!".|||
+*|||||||Agǐ:gáge u:gù:ku, "hu:ʔ, hu:ʔ," à:diha.; Agǐ:ge u:gù:ku, "hu:ʔ, hu:ʔ," à:diha.|A red owl says "hoo! hoo!".|||
 *|||||||Nǔ:na u:du:líha.; Nǔ:n u:du:lí.|He wants a potato.|||
 
 # === 6
@@ -180,17 +180,17 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ha:dlv hině:la?; Ha:dlv hině:l?|Where do you live?|||
 |||||||Ha:dlv sdině:la?; Ha:dlv sdině:l?|Where do you two live?|||
 |||||||Ha:dlv ì:jině:la?; Ha:dlv ì:jině:l?|Where do you all live?|||
-|||||||Gadò dě:jádo:ɂa?; Dò dě:jádo?|What's your name?|||
-|||||female||Gweti dà:gwadó:ɂa.; Gweti dà:wadó:ɂa.; Gweti dà:wadó.|My name is Betty.|||
+|||||||Gadò dě:jádo:ʔa?; Dò dě:jádo?|What's your name?|||
+|||||female||Gweti dà:gwadó:ʔa.; Gweti dà:wadó:ʔa.; Gweti dà:wadó.|My name is Betty.|||
 |||||||U:sganő:li hiwò:nǐ:hi.; U:sganő hiwò:nǐ.|Speak slowly.|||
 |||||||Tla yigo:lì:ga.|I don't understand.|||
-|||||||Gadò:gi hadí:ɂa?; Dò:gi hadí?|What did you just say?|||
+|||||||Gadò:gi hadí:ʔa?; Dò:gi hadí?|What did you just say?|||
 |||||||Ha:dlv go:hwě:li dijanè:sdi?; Ha:dlv go:hwě:la dijanè:sdi?; Ha:dlv go:hwě:l dijanè:sdi?|What is your address?|||
-|||||||Go:hwě:li diganè:sdíɂi.; Go:hwě:l diganè:sdí.|My address is.|||
+|||||||Go:hwě:li diganè:sdíʔi.; Go:hwě:l diganè:sdí.|My address is.|||
 |||||||Gadō u:sdi?; Dō u:sd?|What is it?|||
-|||||||Gadō u:sdi jadu:líɂa?; Gadō u:sdi jadu:líha?; Dō u:sd jadu:lí?|What do you want?|||
-|||||||Gadō u:sdi sdadu:líɂa?; Gadō u:sdi sdadu:líha?; Dō u:sd sdadu:lí?|What do you two want?|||
-|||||||Gadō u:sdi ì:jadu:líɂa?; Gadō u:sdi ì:jadu:líha?; Dō u:sd ì:jadu:lí?|What do you all want?|||
+|||||||Gadō u:sdi jadu:líʔa?; Gadō u:sdi jadu:líha?; Dō u:sd jadu:lí?|What do you want?|||
+|||||||Gadō u:sdi sdadu:líʔa?; Gadō u:sdi sdadu:líha?; Dō u:sd sdadu:lí?|What do you two want?|||
+|||||||Gadō u:sdi ì:jadu:líʔa?; Gadō u:sdi ì:jadu:líha?; Dō u:sd ì:jadu:lí?|What do you all want?|||
 |||||||Nihinahv?|But what about you?|||
 |||||||Nihina?|What about you?|||
 |||||||Tla yà:gwanhta.; Tla yà:gwanht.|I don't know.|||
@@ -213,13 +213,13 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ale.|And. Or.|||
 |||||||V:le.|A locust. Locusts.|||
 |||||||Kaga?; Ka?; Gá:gō?|Who?|||
-|||||||Kilő:ɂi.; Kilő.|Someone.|||
-|||||||Hv:ɂ?|What did you say?|||
+|||||||Kilő:ʔi.; Kilő.|Someone.|||
+|||||||Hv:ʔ?|What did you say?|||
 |||||||Lu:ga.; Lu:g.|Luke.|||
-|||||||Galiɂě:lî:ga.; Galiɂě:lî.|I'm happy or grateful.|||
+|||||||Galiʔě:lî:ga.; Galiʔě:lî.|I'm happy or grateful.|||
 |||||||Halihě:lî:ga.; Halihě:lî.|You are happy or grateful.|||
 |||||||À:li:hě:lî:ga.; À:li:hě:lî.|He is happy or grateful.|||
-|||||||Anali:hě:lî:ga.; Anali:hě:lî.|They are happy or grateful.|||
+|||||||À:nali:hě:lî:ga.; À:nali:hě:lî.|They are happy or grateful.|||
 
 |||||||Ji:yo:lì:ga.|I recognize him.|||
 |||||||Go:lì:ga.|I understand it.|||
@@ -228,13 +228,13 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gohlga.|He understands it. He recognizes him.|||
 |||||||À:nohlga.|They understand it. They recognize him.|||
 
-*|||||||Su:dali:ne̋:ɂi Jalagi go:hwe:lv̋:ɂi.; Su:dali:ne̋ Jalagi go:hwe:lv̋:ɂi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
+*|||||||Su:dali:ne̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Su:dali:ne̋ Jalagi go:hwe:lv̋:ʔi.|Sixth Cherokee lesson.||Complete the written material through the end of Lesson 6.|
 
 # Exercise 5
 *|||||||Kaga é:ga go:hí i:ga?; Gá:gō é:ga go:hí i:ga?|Who is going today?|||
 *|||||||Lu:ga, È:gi, ale Go:gi à:né:ga.|Luke, Maggie, and Summer are going.|||
-*|||||||Hiɂa ahu:li gǐ:gáge.; Hiɂa ahu:li gǐ:ge.|This drum is red.|||
-*|||||||Kilő hiɂa Jalagi go:hwe:lv̋ gohlga.|Someone understands this Cherokee lesson.|||
+*|||||||Hiʔa ahu:li gǐ:gáge.; Hiʔa ahu:li gǐ:ge.|This drum is red.|||
+*|||||||Kilő hiʔa Jalagi go:hwe:lv̋ gohlga.|Someone understands this Cherokee lesson.|||
 *|||||||Go:lì:ga ahu:li.|I understand the drum.|||
 
 # === 7
@@ -246,30 +246,30 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||U:hyv̋:dla.|A republican. Coldness.|||
 |||||||U:gǎ:nawa.|He is warm.|||
 |||||||U:ga̋:nawa.|A Democrat. Warmth.|||
-|||||||Gadō gadv:neɂa?; Gadō gadv:neha?; Dō gadv:ne?|What am I doing?|||
-|||||||Gadō hadv:neɂa?; Gadō hadv:neha?; Dō hadv:ne?|What are you doing?|||
-|||||||Gadō adv:neɂa?; Gadō adv:neha?; Dō adv:ne?|What is he or she doing?|||
-|||||||Gadō anadv:neɂa?; Gadō anadv:neha?; Dō anadv:ne?|What are they doing?|||
+|||||||Gadō gadv:neʔa?; Gadō gadv:neha?; Dō gadv:ne?|What am I doing?|||
+|||||||Gadō hadv:neʔa?; Gadō hadv:neha?; Dō hadv:ne?|What are you doing?|||
+|||||||Gadō adv:neʔa?; Gadō adv:neha?; Dō adv:ne?|What is he or she doing?|||
+|||||||Gadō anadv:neʔa?; Gadō anadv:neha?; Dō anadv:ne?|What are they doing?|||
 
 |||||||Ù:hyv:dla.; Ù:hyv:dl.|It is cold.|||
 |||||||U:gǎ:nowa; U:gǎ:nowi; U:gǎ:no|It is warm.|||
-|||||||Jǔ:hyv́:dlv̋:ɂi; Jǔ:hyv́:dlv̋.; Ǔ:hyv́:dla̋.|North.|||
-|||||||Jǔ:gá:nawv̋:ɂi.; Jǔ:gá:nawv̋.|South.|||
+|||||||Jǔ:hyv́:dlv̋:ʔi; Jǔ:hyv́:dlv̋.; Ǔ:hyv́:dla̋.|North.|||
+|||||||Jǔ:gá:nawv̋:ʔi.; Jǔ:gá:nawv̋.|South.|||
 
-|||||||Jǔ:hyv́:dlv̋:ɂi dò:dalv̋:ɂi.; Jǔ:hyv́:dlv̋ dò:dalv̋.|The mountains are in the North.|||
-|||||||Dò:dalv̋:ɂi jù:hyv:dla.; Dò:dalv̋ jù:hyv:dla.|The mountains are cold.|||
-|||||||Jǔ:gá:nawv̋:ɂi dò:dalv̋:ɂi.; Jǔ:gá:nawv̋ dò:dalv̋.|The mountains are in the South.|||
-|||||||Dò:dalv̋:ɂi ju:gǎ:nawa.; Dò:dalv̋ ju:gǎ:nawa.|The mountains are warm.|||
-|||||||Ù:hyv:dla jǔ:hyv́:dlv̋ɂi.; Ù:hyv:dla jǔ:hyv́:dlv̋.|It is cold in the North.|||
-|||||||Ù:hyv:dlv̌:ɂi jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌ jǔ:hyv́:dlv̋.|It was cold in the North.|||
-|||||||U:gǎ:nawa jǔ:gá:nawv̋:ɂi.; U:gǎ:nawa jǔ:gá:nawv̋..|It is warm in the South.|||
-|||||||U:gǎ:nawv̌ɂi jǔ:gá:nawv̋:ɂi.; U:gǎ:nawv̌ jǔ:gá:nawv̋.|It was warm in the South.|||
-|||||||Jǔ:hyv́:dlv̋:ɂi e̋:hi.; Jǔ:hyv́:dlv̋ e̋:hi.; Uhyv̀:dlv́ e̋:hi.|A Northerner.|||
-|||||||Jǔ:gá:nawv̋:ɂi e̋:hi.; Jǔ:gá:nawv̋ e̋:hi.; Ugà:nà:wv́ e̋:hi.|A Southerner.|||
-|||||||Jǔ:hyv́:dlv̋:ɂi gě:dô:a.; Jǔ:hyv́:dlv̋ gě:dô.|I am in the North.|||
-|||||||Jǔ:gá:nawv̋:ɂi gě:dô:a.; Jǔ:gá:nawv̋ gě:dô.|I am in the South.|||
-|||||||À:gihyv́:dlv̋:ɂi.; À:gihyv́:dlv̋.|I am a Republican|||
-|||||||À:gigá:nawv̋:ɂi.; À:gigá:nawv̋.|I am a Democrat.|||
+|||||||Jǔ:hyv́:dlv̋:ʔi dò:dalv̋:ʔi.; Jǔ:hyv́:dlv̋ dò:dalv̋.|The mountains are in the North.|||
+|||||||Dò:dalv̋:ʔi jù:hyv:dla.; Dò:dalv̋ jù:hyv:dla.|The mountains are cold.|||
+|||||||Jǔ:gá:nawv̋:ʔi dò:dalv̋:ʔi.; Jǔ:gá:nawv̋ dò:dalv̋.|The mountains are in the South.|||
+|||||||Dò:dalv̋:ʔi ju:gǎ:nawa.; Dò:dalv̋ ju:gǎ:nawa.|The mountains are warm.|||
+|||||||Ù:hyv:dla jǔ:hyv́:dlv̋ʔi.; Ù:hyv:dla jǔ:hyv́:dlv̋.|It is cold in the North.|||
+|||||||Ù:hyv:dlv̌:ʔi jǔ:hyv́:dlv̋.; Ù:hyv:dlv̌ jǔ:hyv́:dlv̋.|It was cold in the North.|||
+|||||||U:gǎ:nawa jǔ:gá:nawv̋:ʔi.; U:gǎ:nawa jǔ:gá:nawv̋..|It is warm in the South.|||
+|||||||U:gǎ:nawv̌ʔi jǔ:gá:nawv̋:ʔi.; U:gǎ:nawv̌ jǔ:gá:nawv̋.|It was warm in the South.|||
+|||||||Jǔ:hyv́:dlv̋:ʔi e̋:hi.; Jǔ:hyv́:dlv̋ e̋:hi.; Uhyv̀:dlv́ e̋:hi.|A Northerner.|||
+|||||||Jǔ:gá:nawv̋:ʔi e̋:hi.; Jǔ:gá:nawv̋ e̋:hi.; Ugà:nà:wv́ e̋:hi.|A Southerner.|||
+|||||||Jǔ:hyv́:dlv̋:ʔi gě:dô:a.; Jǔ:hyv́:dlv̋ gě:dô.|I am in the North.|||
+|||||||Jǔ:gá:nawv̋:ʔi gě:dô:a.; Jǔ:gá:nawv̋ gě:dô.|I am in the South.|||
+|||||||À:gihyv́:dlv̋:ʔi.; À:gihyv́:dlv̋.|I am a Republican|||
+|||||||À:gigá:nawv̋:ʔi.; À:gigá:nawv̋.|I am a Democrat.|||
 
 |||||||E:lohi.; E:lo.|The World.|||
 |||||||U:galǒ:ga.; U:galǒ.|A leaf.|||
@@ -281,25 +281,25 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Me:li.|Mary.|||
 
 # Exercise 4
-*|||||female||È:gi dà:gwadó:ɂa.; È:gi dà:wadó:ɂa.|My name is Maggie.|||
+*|||||female||È:gi dà:gwadó:ʔa.; È:gi dà:wadó:ʔa.|My name is Maggie.|||
 *|||||||Go:gi u:gǎ:nowa.|Summer is warm.|||
 *|||||||Eeè, ù:hyv:dla.|Too bad it's cold.|||
 *|||||||Ő:sda. Ì:dalě:na.|Fine. Let's begin.|||
-*|||||||Iií. Ha:dlv goɂi?|Good heavens. Where is the machine oil?|||
-*|||||||V:ɂv, ő:sda:dv̀.|Yes, it's definitely all-right.|||
+*|||||||Iií. Ha:dlv goʔi?|Good heavens. Where is the machine oil?|||
+*|||||||V:ʔv, ő:sda:dv̀.|Yes, it's definitely all-right.|||
 *|||||||O:síyo, È:gi, Gadō hadv:neha?; O:síyo, È:gi, Dō hadv:ne?|Hello, Maggie. What are you doing?|||
-*|||||||Gù:gu géɂi.; Géɂi gù:gu.|Bartlesville is far away.|||
-*|||||male||Go:gi Ǔ:hyv́:dla dà:gwadó:ɂa.; Go:gi Ǔ:hyv́:dla dà:wadó:ɂa.|My name is Summer North.|||
+*|||||||Gù:gu géʔi.; Géʔi gù:gu.|Bartlesville is far away.|||
+*|||||male||Go:gi Ǔ:hyv́:dla dà:gwadó:ʔa.; Go:gi Ǔ:hyv́:dla dà:wadó:ʔa.|My name is Summer North.|||
 *|||||||Iií. U:hyv:dla gù:gu.|Oh. The bottle is cold.|||
 *|||||||È:gi é:ga.|Maggie is going.|||
 *|||||||Lu:ga go:hí i:ga à:li:hě:lî:ga.|Luke is happy today.|||
 
-*|||||||Galigwo:gi:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ɂi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
+*|||||||Galigwo:gi:ne̋ʔi Jalagi go:hwe:lv̋:ʔi.; Galigwo:gi:ne̋ Jalagi go:hwe:lv̋:ʔi.|Seventh Cherokee Lesson.||Complete the written material through the end of Lesson 7.|
 
 # === 8
 
 |||||||Gana̋:ji.; Gana̋:j.|Kanuche. Hominy hickory nut soup.|||
-|||||||Dà:ni:sdayo:hihv̋:ɂi; Dà:ni:sdayo:hihv̋.|Merry Christmas.|||
+|||||||Dà:ni:sdayo:hihv̋:ʔi; Dà:ni:sdayo:hihv̋.|Merry Christmas.|||
 |||||||Disdayo:hi.|Santa Claus.|||
 |||||||Adǎ:hnehdi.; Adǎ:hne.;|A gift.|||
 |||||||Di:dǎ:hnehdi.; Di:dǎ:hne.|Gifts.|||
@@ -318,10 +318,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ni!|Look! Behold!|||
 *|||||||Ni! Ujistalù:gi nokwsi.|Look! A shining star.|||
 |||||||Hila̋ dodajahwasi di:dǎ:hnehdi?; Hala̋ dodajahwasi di:dǎ:hnehdi?|How many gifts are you going to buy?|||
-|||||||Ijéɂiyű:sdi.; Ajéɂiyű:sdi.|Green.|||
+|||||||Ijéʔiyű:sdi.; Ajéʔiyű:sdi.|Green.|||
 |||||||Ajv̋sdohdi.; Ajv̋sdi.|A light.|||
 |||||||Di:jv̋ysdi.; Dijv̋sdohdi.|Lights.|||
-*|||||||Digǐ:gáge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.; Digǐ:ge ale dijéɂiyű:sdi dà:gi di:jv̋sdi.|I have some red and green lights.|||
+*|||||||Digǐ:gáge ale dijéʔiyű:sdi dà:gi di:jv̋sdi.; Digǐ:ge ale dijéʔiyű:sdi dà:gi di:jv̋sdi.|I have some red and green lights.|||
 |||||||Astayostohdi.|A firecracker.|||
 
 |||||||À:kiwásga.|I am buying it.|||
@@ -339,10 +339,10 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ù:we:káha.|He has something alive.|||
 |||||||Ù:nikáha.|They have something alive.|||
 
-|||||||À:gináɂa.|I have something flexible.|||
-|||||||Janáɂa|You have something flexible.|||
-|||||||Ù:náɂa.|He has something flexible.|||
-|||||||Ù:nináɂa.|They have something flexible.|||
+|||||||À:gináʔa.|I have something flexible.|||
+|||||||Janáʔa|You have something flexible.|||
+|||||||Ù:náʔa.|He has something flexible.|||
+|||||||Ù:nináʔa.|They have something flexible.|||
 
 |||||||À:giha.|I have it.|||
 |||||||Jaha.|You have it.|||
@@ -355,11 +355,11 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ù:nv̂:ya.|They have something long.|||
 
 |||||||À:ginéha.|I have some liquid.|||
-|||||||Janéɂa.|You have some liquid.|||
+|||||||Janéʔa.|You have some liquid.|||
 |||||||Ù:néha.|He has some liquid.|||
 |||||||Uninéha.|They have some liquid.|||
 
-|||||||Agv̌:hnáge̋:ɂi.; Agv̌:hnáge̋.|Black.|||
+|||||||Agv̌:hnáge̋:ʔi.; Agv̌:hnáge̋.|Black.|||
 |||||||Ahala̋:da.; Ahale̋:ni.; Ahale̋:na.|A loudmouth.|||
 |||||||Di:ni:hala̋:da.; Di:ni:hale̋:ni.; Di:ni:hale̋:na.|Loudmouths.|||
 |||||||Áhani.; Áhni.|Here.|||
@@ -368,16 +368,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Gő:la.; Gő:li.; Gő:l.|Winter|||
 |||||||Kǒ:la.; Kǒ:li.; Kǒ:l.|A bone.|||
 |||||||Na.|That|||
-|||||||Naɂvɂi.; Naɂv.|Close by. Near.|||
-|||||||Nanaɂi.; Nanā.|Over there.|||
+|||||||Naʔvʔi.; Naʔv.|Close by. Near.|||
+|||||||Nanaʔi.; Nanā.|Over there.|||
 
 # Exercise 5
-*|||||||Go:hwe:li à:gináɂa.; Go:hwe:la à:giná.|I have a piece of paper.|||
+*|||||||Go:hwe:li à:gináʔa.; Go:hwe:la à:giná.|I have a piece of paper.|||
 *|||||||Ajv̋sdohdi jaha.; Ajv̋sdohd jaha.|You have a lightbulb.|||
-*|||||||Gù:gu ù:néha.; Gù:gu ù:néɂa.|He has a bottle containing a liquid.|||
+*|||||||Gù:gu ù:néha.; Gù:gu ù:néʔa.|He has a bottle containing a liquid.|||
 *|||||||U:gù:ku ù:nikáha.|They have an owl.|||
-*|||||||A:gwe:hlu:sdi à:gináɂa.; A:gwe:hlu:sdi à:giná.|I have a ribbon.|||
-*|||||||Ǔ:gáma janéɂa.; Ǔ:gám jané.|You have soup.|||
+*|||||||A:gwe:hlu:sdi à:gináʔa.; A:gwe:hlu:sdi à:giná.|I have a ribbon.|||
+*|||||||Ǔ:gáma janéʔa.; Ǔ:gám jané.|You have soup.|||
 *|||||||Nǔ:na ǔ:ha.; Nǔ:n ǔ:ha.|He has a potato.|||
 *|||||||Uwo:dű:ne̋:ga kama:ma ù:nikáha.; Uwo:dű:hi u:ne̋:ga kama:ma ù:nikáha.|They have a pretty white butterfly.|||
 *|||||||Gù:gu ǔ:ha.|He has a bottle.|||
@@ -385,9 +385,9 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 # Exercise 6
 
-*|||||||Hiɂv̀:si ajv̋sdohdi.; Hiɂv̀:si ajv̋sdi.|Hand him a lightbulb.|||
+*|||||||Hiʔv̀:si ajv̋sdohdi.; Hiʔv̀:si ajv̋sdi.|Hand him a lightbulb.|||
 *|||||||Hi:dì:si astayostohdi.|Hand him a firecracker.|||
-*|||||||Adǎ:hnehdi à:wadu:líɂa.; Adǎ:hnehdi à:gwadu:líɂa.; Adǎ:hnehdi à:wadu:lí.; Adǎ:hnehdi à:gwadu:lí.|I want a gift.|||
+*|||||||Adǎ:hnehdi à:wadu:líʔa.; Adǎ:hnehdi à:gwadu:líʔa.; Adǎ:hnehdi à:wadu:lí.; Adǎ:hnehdi à:gwadu:lí.|I want a gift.|||
 *|||||||Adǎ:hnehdi à:kiwásga.|I am buying a gift.|||
 *|||||||Gv:no:sásdi hi:dì:si Lu:ga.; Gv:no:sásdi Lu:ga hi:dì:si.|Hand Luke the broom.|||
 *|||||||Ju:ni:là:wisdi gé:ga u:nali:he:lísdi.; Ju:ni:là:wisdi gé:ga u:li:he:lísdi.|I am going to church Thanksgiving.|||
@@ -395,24 +395,24 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *|||||||Digo:hwe:li à:niwásga Maga.|They are buying Mark a book.|||
 *|||||||Ahljadő:hvsgi, di:de:hyǒ:hvsgi áhni analsdâ:yv:hv́sga.|The minister and teacher are having dinner here.|||
 *|||||||Me:li ale Go:gi áhani analsdâ:yv:hv́sga.; Me:li Go:gi áhani analsdâ:yv:hv́sga.|Mary and Summer are having dinner here.|||
-*|||||||Go:hwe:li ù:du:líha Ma:ga, à:díɂa.|He says Mark wants a piece of paper.|||
+*|||||||Go:hwe:li ù:du:líha Ma:ga, à:díʔa.|He says Mark wants a piece of paper.|||
 *|||||||Di:jv̋ysdi dù:du:líha go:hí i:ga.; Dijv̋sdohdi dù:du:líha go:hí i:ga.|He wants lightbulbs today.|||
 *|||||||Ahljadő:hvsgi, digo:hwe:li hi:nv̀:si.|Hand him the book, Pastor.|||
-*|||||||Á:ma gahiɂv̀:si.|Hand them the salt.|||
-*|||||||Ama gahineɂv̀:si.|Hand them the water.|||
+*|||||||Á:ma gahiʔv̀:si.|Hand them the salt.|||
+*|||||||Ama gahineʔv̀:si.|Hand them the water.|||
 *|||||||Ga̋:du ale go:hlv:hnv̋ dè:skv̀:si.; Ga̋:du go:hlv:hnv̋ dè:skv̀:si.|Hand me the bread and butter.
 
 # Exercise 7
 *||||||Ꮎ ᎥᎴ ᎠᎭᎳᏓ.|Na v:le ahala̋:da.|That locust is a loudmouth.
 *||||||ᎪᎵ ᏧᏴᏢ ᎤᏴᏜ.; ᏧᏴᏢ ᎪᎵ ᎤᏴᏜ.|Gő:la jǔ:hyv́:dlv ù:hyv:dla.; Jǔ:hyv́:dlv gő:la ù:hyv:dla.|Winter in the north is cold.|||
-*||||||ᎤᎾᎢ ᎨᎦ.|Nanaɂi gé:ga.|I am going over there.|||
+*||||||ᎤᎾᎢ ᎨᎦ.|Nanaʔi gé:ga.|I am going over there.|||
 *||||||ᎪᎵᎦ. ᏂᎯᎾᎲ?|Go:lì:ga. Nihinahv?|I understand. But what about you?|||
-*||||||ᎤᏁᎦ ᎠᎴ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.; ᎤᏁᎦ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.|U:ne̋:ga ale agv̌:hnáge̋ hiɂa kama:ma.; U:ne̋:ga agv̌:hnáge̋ hiɂa kama:ma.|This butterfly is black and white.
+*||||||ᎤᏁᎦ ᎠᎴ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.; ᎤᏁᎦ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.|U:ne̋:ga ale agv̌:hnáge̋ hiʔa kama:ma.; U:ne̋:ga agv̌:hnáge̋ hiʔa kama:ma.|This butterfly is black and white.
 
 # Exercise 8
 *||||||Ꮒ! ᎹᎦ.|Ni! Ma:ga.|Look at Mark!|||
-ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ|A black and white turkey is near.
-ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ -ᎢᎦ-|The locusts are rejoicing today.
+*||||||ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.; ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.|U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔvʔi.; U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔv.|A black and white turkey is near.|||
+*||||||ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ ᎢᎦ.|V:le à:nali:hě:lî:ga go:hí i:ga.|The locusts are rejoicing today.|||
 ᎤᎦᎹ ᎤᏁᎠ|He has soup.
 ᏄᎾ ᎤᎭ|He has a potato.
 ᎠᎩᎦᎨ ᎤᎦᎶᎦ ᎤᎾᎠ|He has a red leaf.
@@ -421,25 +421,25 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ᎦᎸᎶᎯ ᎩᎦᎨ|The sky is red.
 ᏅᎩ ᎧᎹᎹ ᎠᎾᎵᏍᏔᏴᎲᏍᎦ|Four butterflies are feeding.
 
-*|||||||Chuně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ɂi Jalagi go:hwe:lv̋:ɂi.; Chuně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
+*|||||||Chuně:li:ne̋ʔi Jalagi go:hwe:lv̋:ʔi.; Chaně:li:ne̋ʔi Jalagi go:hwe:lv̋:ʔi.; Chuně:li:ne̋ Jalagi go:hwe:lv̋:ʔi.; Chaně:li:ne̋ Jalagi go:hwe:lv̋:ʔi.|Eighth Cherokee Lesson.||Complete the written material through the end of Lesson 8.|
 
 
 # === 9
 
-|||||||À:li:he:lísdi ije̋:ɂi ú:de:tiyv:sa:dǐ:sv̋:ɂi.; À:li:he:lísd ije̋ ú:de:tiyv:sa:dǐ:sv̋.|Happy New Year.|||
+|||||||À:li:he:lísdi ije̋:ʔi ú:de:tiyv:sa:dǐ:sv̋:ʔi.; À:li:he:lísd ije̋ ú:de:tiyv:sa:dǐ:sv̋.|Happy New Year.|||
 
-|||||||U:no:lv̀:tana kaɂla.; U:no:lv̀:tani kaɂla.; U:no:lv̀:tan kaɂla.|This month is January.|||
-|||||||Ka:gaɂli kaɂla.; Ka:gaɂl kaɂla.|This month is February.|||
-|||||||Anv:hyi kaɂla.|This month is March.|||
-|||||||Kawo:hni kaɂla.; Kawo:hn kaɂla.|This month is April.|||
-|||||||Ànsgv:ti kaɂla.; Ànsgv:t kaɂla.|This month is May.|||
-|||||||De:halǔ:yi kaɂla.; De:halǔ kaɂla.|This month is June.|||
-|||||||Kuye:gwǒ:na kaɂla.; Kuye:gwǒ:ni kaɂla.; Kuye:gwǒ:n kaɂla.|This month is July.|||
-|||||||Gaɂlo:hni kaɂla.; Gaɂlo:hn kaɂla.|This month is August.|||
-|||||||Du:lì:sdi kaɂla.; Du:lì:sd kaɂla.|This month is September.|||
-|||||||Dù:ninhdi kaɂla.; Dù:ninhd kaɂla.; Dù:ninvhdi kaɂla.; Dù:ninvhd kaɂla.|This month is October.|||
-|||||||Nv:dadě:gwa kaɂla.; Nv:dadě:wa kaɂla.|This month is November.|||
-|||||||V̌:sgíyi kaɂla.|This month is December.|||
+|||||||U:no:lv̀:tana kaʔla.; U:no:lv̀:tani kaʔla.; U:no:lv̀:tan kaʔla.|This month is January.|||
+|||||||Ka:gaʔli kaʔla.; Ka:gaʔl kaʔla.|This month is February.|||
+|||||||Anv:hyi kaʔla.|This month is March.|||
+|||||||Kawo:hni kaʔla.; Kawo:hn kaʔla.|This month is April.|||
+|||||||Ànsgv:ti kaʔla.; Ànsgv:t kaʔla.|This month is May.|||
+|||||||De:halǔ:yi kaʔla.; De:halǔ kaʔla.|This month is June.|||
+|||||||Kuye:gwǒ:na kaʔla.; Kuye:gwǒ:ni kaʔla.; Kuye:gwǒ:n kaʔla.|This month is July.|||
+|||||||Gaʔlo:hni kaʔla.; Gaʔlo:hn kaʔla.|This month is August.|||
+|||||||Du:lì:sdi kaʔla.; Du:lì:sd kaʔla.|This month is September.|||
+|||||||Dù:ninhdi kaʔla.; Dù:ninhd kaʔla.; Dù:ninvhdi kaʔla.; Dù:ninvhd kaʔla.|This month is October.|||
+|||||||Nv:dadě:gwa kaʔla.; Nv:dadě:wa kaʔla.|This month is November.|||
+|||||||V̌:sgíyi kaʔla.|This month is December.|||
 |||||||Gadō ű:sdi do:dáhno:gí:si?; Gadō ű:sdi dáhno:gí:si?; Dō ű:sd do:dáhno:gí:si?; Dō ű:sd dáhno:gí:si?|Which one will we sing?|||
 
 |||||||Dì:nihnó:gi.; Ì:nihnó:gi.|Let's both sing it.|||
@@ -447,7 +447,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Howa.|OK. Sure. Alright.|||
 
 |||||||Usdi̋.; Usd.|Something little.|||
-|||||||U:sdi̋:ɂi.; U:sdi̋.|A baby.|||
+|||||||U:sdi̋:ʔi.; U:sdi̋.|A baby.|||
 |||||||Jusdi̋.|Little things.|||
 |||||||Ju:nsdi̋.|Little ones. Babies.|||
 
@@ -465,16 +465,16 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ani:gě:hya.; Ani:gě.|Women.|||
 |||||||U:tvhisdv.; U:tvhisd.|An old man.|||
 |||||||Ju:natvhisdv.; Ju:natvhisd.|Old men.|||
-|||||||Agayv̌:líge̋:ɂi.; Agayv̌:líge̋.; Agayv̌:lí.|An old woman.|||
-|||||||Ani:gayv̌:líge̋:ɂi.; Ani:gayv̌:líge̋.; Ani:gayv̌:líg.|Old women.|||
+|||||||Agayv̌:líge̋:ʔi.; Agayv̌:líge̋.; Agayv̌:lí.|An old woman.|||
+|||||||Ani:gayv̌:líge̋:ʔi.; Ani:gayv̌:líge̋.; Ani:gayv̌:líg.|Old women.|||
 |||||||Agayv̋:li.|An old living thing.|||
 |||||||Ani:gayv̋:li.|Old living things.|||
 |||||||Uwe̋:ti.|An old or worn out object.|||
 |||||||Juwe̋:ti.|Old or worn out objects.|||
 |||||||Ayő:hli.|A child.|||
 |||||||Di:ni:yő:hli.|Children.|||
-|||||||À:diɂa.; À:di.; À:diha.|He is saying something.|||
-|||||||À:nadiɂa.; À:nadi.; À:nadiha.; À:ndiɂa.; À:ndi.|They are saying something.|||
+|||||||À:diʔa.; À:di.; À:diha.|He is saying something.|||
+|||||||À:nadiʔa.; À:nadi.; À:nadiha.; À:ndiʔa.; À:ndi.|They are saying something.|||
 
 |||||||Gadò gadv:neha?; Gadò gadv:ne?; Dò gadv:ne?|What I am doing?|||
 |||||||Gadò hadv:neha?; Gadò hadv:ne?; Dò hadv:ne?|What are you are doing?|||
@@ -487,14 +487,14 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Nà:nadv́:neha.; Nà:nadv́:ne.|They are doing it.|||
 
 *|||||||Uwo:dű:hi age:hyű:ja.; Uwo:dű age:hyű:ja.|A pretty girl.|||
-*|||||||Ju:no:dű:ɂi ani:ge:hyű:ja anili:hě:lî:ga.; Ju:no:dű ani:ge:hyű:j anili:hě:lî:ga.|The pretty little girls are happy.|||
-*|||||||Agv̌:níge̋:ɂi kama:ma à:lsdâ:yv:hv́sga.; Agv̌:níge̋ kama:m à:lsdâ:yv:hv́sga.|The black butterfly is feeding.|||
+*|||||||Ju:no:dű:ʔi ani:ge:hyű:ja anili:hě:lî:ga.; Ju:no:dű ani:ge:hyű:j anili:hě:lî:ga.|The pretty little girls are happy.|||
+*|||||||Agv̌:níge̋:ʔi kama:ma à:lsdâ:yv:hv́sga.; Agv̌:níge̋ kama:m à:lsdâ:yv:hv́sga.|The black butterfly is feeding.|||
 |||||||E̋:gwa.; E̋:gwv.; E̋:g.|Big. Huge. Large.|||
 |||||||Nǒ:gwu.|Right now.|||
 |||||||Kwana.; Kwan.|A  peach. Peaches.|||
 |||||||Gwagwu.; Gwag.|Robert.|||
 |||||||Gweni.; Gwen.|Benny.|||
 
-*|||||||Sóhne:li:ne̋ Jalagi go:hwe:lv̋:ɂi.|Ninth Cherokee Lesson.||Complete the written material through the end of Lesson 9.|
+*|||||||Sóhne:li:ne̋ Jalagi go:hwe:lv̋:ʔi.|Ninth Cherokee Lesson.||Complete the written material through the end of Lesson 9.|
 
 # === 10

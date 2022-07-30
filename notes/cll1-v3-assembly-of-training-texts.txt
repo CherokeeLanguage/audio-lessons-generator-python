@@ -6,7 +6,7 @@
 ᎹᎦᎵ [ma:gá:li] “Michael”
 ᎹᎦᏰᏘ [má:gaye:ti] “Margaret”
 ᎺᎵ [mé:li] “Mary”
-ᏆᏆᎠ [gwa:gwaɂa] “Barbara.”
+ᏆᏆᎠ [gwa:gwaʔa] “Barbara.”
 ᏑᏌᏃ [sú:sano] “Susan”
 ᏙᎹᏏ [tó:masi] “Thomas”
 ᏕᏫᏗ [dé:widi] “David”
@@ -51,13 +51,13 @@ chapter 9
 ᎫᎴ [gu:le] “An acorn. Acorns.”
 ᏚᏯ [tǔ:ya] “A bean. Beans.”
 ᏌᏛᏗ [sadv́:di] “A trap.”
-ᏡᎬᎢ [hlgv̋:ɂi] “A tree.”
+ᏡᎬᎢ [hlgv̋:ʔi] “A tree.”
 
 ᏗᏌᏛᏗ [di:sadv́:di] “Traps.”
 ᏗᎪᏪᎵ [digo:hwe:li] “Sheets of paper.”
-ᏕᏡᎬᎢ [dě:hlgv̋:ɂi] “Trees.”
+ᏕᏡᎬᎢ [dě:hlgv̋:ʔi] “Trees.”
 
-ᎯᎠ, ᎯᎢ [hiɂa, hiɂi] “He. She. They. This. These.”
+ᎯᎠ, ᎯᎢ [hiʔa, hiʔi] “He. She. They. This. These.”
 
 ᎥᏍᎩᎾ [v̀:sgina] “He. She. They. That. Those.” 
 ᎥᏍᎩ [v̀:sgi] - Alternate pronunciation.
