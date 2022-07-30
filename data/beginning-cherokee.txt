@@ -7,8 +7,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Wado.|Thanks.|||
 |||||||V:ʔv.; V:ʔ.|Yes.|||
 |||||||V̀:ʔhla.; Hla:ʔhv.; Hla.|No. Not.|||
-|||||||Donada:go:hv:ʔi.; Donada:go:hv̄.|We both will see each other again, later.|||
-|||||||Dodada:go:hv:ʔi.; Dodada:go:hv̄.|We'll see each other again, later.|||
+|||||||Donada:go:hv:ʔi.; Donada:go:hv̄.|Let's both see each other again, later.|||
+|||||||Dodada:go:hv:ʔi.; Dodada:go:hv̄.|Let's all see each other again, later.|||
 |||||||Igv:yi̋:ʔi Jalagi go:hwe:lv̋:ʔi.; Igv:yi̋ Jalagi go:hwe:lv̋:ʔi.|First Cherokee lesson.||Complete the written material through the end of Lesson 1.|
 
 # === 2
@@ -248,7 +248,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||U:ga̋:nawa.|A Democrat. Warmth.|||
 |||||||Gadō gadv:neʔa?; Gadō gadv:neha?; Dō gadv:ne?|What am I doing?|||
 |||||||Gadō hadv:neʔa?; Gadō hadv:neha?; Dō hadv:ne?|What are you doing?|||
-|||||||Gadō adv:neʔa?; Gadō adv:neha?; Dō adv:ne?|What is he or she doing?|||
+|||||||Gadō adv:neʔa?; Gadō adv:neha?; Dō adv:ne?|What is he doing?|||
 |||||||Gadō anadv:neʔa?; Gadō anadv:neha?; Dō anadv:ne?|What are they doing?|||
 
 |||||||Ù:hyv:dla.; Ù:hyv:dl.|It is cold.|||
@@ -346,7 +346,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 |||||||À:giha.|I have it.|||
 |||||||Jaha.|You have it.|||
-|||||||Ǔ:ha.|He or she has it.|||
+|||||||Ǔ:ha.|he has it.|||
 |||||||Ù:niha.|They have it.|||
 
 |||||||À:gwv̌:ya.|I have something long.|||
@@ -400,21 +400,21 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 *|||||||Ahljadő:hvsgi, digo:hwe:li hi:nv̀:si.|Hand him the book, Pastor.|||
 *|||||||Á:ma gahiʔv̀:si.|Hand them the salt.|||
 *|||||||Ama gahineʔv̀:si.|Hand them the water.|||
-*|||||||Ga̋:du ale go:hlv:hnv̋ dè:skv̀:si.; Ga̋:du go:hlv:hnv̋ dè:skv̀:si.|Hand me the bread and butter.
+*|||||||Ga̋:du ale go:hlv:hnv̋ dè:skv̀:si.; Ga̋:du go:hlv:hnv̋ dè:skv̀:si.|Hand me the bread and butter.|||
 
 # Exercise 7
-*||||||Ꮎ ᎥᎴ ᎠᎭᎳᏓ.|Na v:le ahala̋:da.|That locust is a loudmouth.
+*||||||Ꮎ ᎥᎴ ᎠᎭᎳᏓ.|Na v:le ahala̋:da.|That locust is a loudmouth.|||
 *||||||ᎪᎵ ᏧᏴᏢ ᎤᏴᏜ.; ᏧᏴᏢ ᎪᎵ ᎤᏴᏜ.|Gő:la jǔ:hyv́:dlv ù:hyv:dla.; Jǔ:hyv́:dlv gő:la ù:hyv:dla.|Winter in the north is cold.|||
 *||||||ᎤᎾᎢ ᎨᎦ.|Nanaʔi gé:ga.|I am going over there.|||
 *||||||ᎪᎵᎦ. ᏂᎯᎾᎲ?|Go:lì:ga. Nihinahv?|I understand. But what about you?|||
-*||||||ᎤᏁᎦ ᎠᎴ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.; ᎤᏁᎦ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.|U:ne̋:ga ale agv̌:hnáge̋ hiʔa kama:ma.; U:ne̋:ga agv̌:hnáge̋ hiʔa kama:ma.|This butterfly is black and white.
+*||||||ᎤᏁᎦ ᎠᎴ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.; ᎤᏁᎦ ᎠᎬᏂᎨ ᎯᎠ ᎧᎹᎹ.|U:ne̋:ga ale agv̌:hnáge̋ hiʔa kama:ma.; U:ne̋:ga agv̌:hnáge̋ hiʔa kama:ma.|This butterfly is black and white.|||
 
 # Exercise 8
 *||||||Ꮒ! ᎹᎦ.|Ni! Ma:ga.|Look at Mark!|||
 *||||||ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.; ᎤᏁᎦᎬᏂᎨ ᎬᎾ ᎾᎥᎢ.|U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔvʔi.; U:ne̋:gv:gv̌:hnáge̋ gv́:na naʔv.|A black and white turkey is near.|||
 *||||||ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ ᎢᎦ.|V:le à:nali:hě:lî:ga go:hí i:ga.|The locusts are rejoicing today.|||
 *||||||ᎤᎦᎹ ᎤᏁᎠ.; ᎤᎦᎹ ᎤᏁᎭ.|Ǔ:gáma ù:néha.; Ǔ:gáma ù:néʔa.|He has soup.|||
-*||||||ᏄᎾ ᎤᎭ.|Nǔ:na ǔ:ha.|He has a potato.|||
+# *||||||ᏄᎾ ᎤᎭ.|Nǔ:na ǔ:ha.|He has a potato.|||
 *||||||ᎠᎩᎦᎨ ᎤᎦᎶᎦ ᎤᎾᎠ|Gǐ:gáge u:galǒ:ga ù:náʔa.; Gǐ:ge u:galǒ:ga ù:náʔa.|He has a red leaf.|||
 *||||||ᎤᎭᎸᏂ ᎠᎨ.; ᎤᎭᎸᏂ ᎾᎾᎢ.|U:halv:ni á:ge.; U:halv:ni nanaʔi.|A bell is over there.|||
 *||||||ᎠᏂ ᎬᎿᎨ ᎫᎫ.; ᎠᎭᏂ ᎬᎿᎨ ᎫᎫ.|Áhni gv̌:hnáge̋ gù:gu.; Áhani gv̌:hnáge̋ gù:gu.|Here is a black bottle.|||
@@ -465,14 +465,18 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Ani:gě:hya.; Ani:gě.|Women.|||
 |||||||U:tvhisdv.; U:tvhisd.|An old man.|||
 |||||||Ju:natvhisdv.; Ju:natvhisd.|Old men.|||
-|||||||Agayv̌:líge̋:ʔi.; Agayv̌:líge̋.; Agayv̌:lí.|An old woman.|||
-|||||||Ani:gayv̌:líge̋:ʔi.; Ani:gayv̌:líge̋.; Ani:gayv̌:líg.|Old women.|||
+|||||||Agayv̌:líge̋:ʔi.; Agayv̌:líge̋.; Agayv̌:lí.|An old woman. An old person.|||
+|||||||Ani:gayv̌:líge̋:ʔi.; Ani:gayv̌:líge̋.; Ani:gayv̌:líg.|Old women. Old people.|||
+
+# pg 62
 |||||||Agayv̋:li.|An old living thing.|||
 |||||||Ani:gayv̋:li.|Old living things.|||
 |||||||Uwe̋:ti.|An old or worn out object.|||
 |||||||Juwe̋:ti.|Old or worn out objects.|||
+
 |||||||Ayő:hli.|A child.|||
 |||||||Di:ni:yő:hli.|Children.|||
+
 |||||||À:diʔa.; À:di.; À:diha.|He is saying something.|||
 |||||||À:nadiʔa.; À:nadi.; À:nadiha.; À:ndiʔa.; À:ndi.|They are saying something.|||
 
@@ -486,14 +490,34 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 |||||||Nà:dv́:neha.; Nà:dv́:ne.|He is doing it.|||
 |||||||Nà:nadv́:neha.; Nà:nadv́:ne.|They are doing it.|||
 
+# pg 63
 *|||||||Uwo:dű:hi age:hyű:ja.; Uwo:dű age:hyű:ja.|A pretty girl.|||
 *|||||||Ju:no:dű:ʔi ani:ge:hyű:ja anili:hě:lî:ga.; Ju:no:dű ani:ge:hyű:j anili:hě:lî:ga.|The pretty little girls are happy.|||
 *|||||||Agv̌:níge̋:ʔi kama:ma à:lsdâ:yv:hv́sga.; Agv̌:níge̋ kama:m à:lsdâ:yv:hv́sga.|The black butterfly is feeding.|||
+
+# pg 64
 |||||||E̋:gwa.; E̋:gwv.; E̋:g.|Big. Huge. Large.|||
 |||||||Nǒ:gwu.|Right now.|||
 |||||||Kwana.; Kwan.|A  peach. Peaches.|||
-|||||||Gwagwu.; Gwag.|Robert.|||
-|||||||Gweni.; Gwen.|Benny.|||
+|||||||Gwagwu.; Gwag.|Robert. Bob.|||
+|||||||Gweni.; Gwen.|Benny. Ben.|||
+
+# pg 65
+# Exercise 4
+*|||||||Age:hyű:ja, gadō ű:sdi jadu:lí?; Age:hyű:ja, gadō ű:sdi?|What do you want, little girl?|||
+*|||||||O:síyo, di:de:hyǒ:hvsgi, tò:hi̋:ju??|Hello, teacher. It's well. Isn't it?|||
+|||||||Gawó:niha.; Gawó:niʔa.; Gawó:ni.|He is speaking.|||
+|||||||À:niwó:niha.; À:niwó:niʔa.; À:niwó:ni.|They are speaking.|||
+|||||||Jiwó:niha.; Jiwó:niʔa.; Jiwó:ni.|I am speaking.|||
+|||||||Hiwó:niha.; Hiwó:niʔa.; Hiwó:ni.|You are speaking.|||
+
+*|||||||Ma:ga, u:sganő:li hiwó:niha.; Ma:ga, u:sganő:li hiwó:ni.|Mark, you are speaking slowly.|||
+*|||||||U:sdi̋ usdi̋ gù:gu usdi̋ ù:du:líha.; U:sdi̋ usdi̋ gù:gu usdi̋ ù:du:lí.|The little baby wants a small bottle.|||
+*|||||||Gadō u:sdi hiʔa?; Dō u:sd hiʔa?|What is this?|||
+*|||||||Gwagwu, wado. Donada:go:hv:ʔi.|Thanks Bob. Let's both see each other again later.|||
+*|||||||Howa. Dodada:go:hv̄ ani:chű:ja.|You're welcome. Let's all see each other again later, boys.|||
+*|||||||Gé:ga. Nihinahv?|I am going. But how about you?|||
+*|||||||Hisg ana̋:ta à:né:ga.|One, two, three, four, five. Five young woman are going.|||
 
 *|||||||Sóhne:li:ne̋ Jalagi go:hwe:lv̋:ʔi.|Ninth Cherokee Lesson.||Complete the written material through the end of Lesson 9.|
 
