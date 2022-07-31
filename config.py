@@ -17,10 +17,9 @@ class Config:
     collect_audio: bool = True  # whether to actually collect the audio in use for other projects.
 
     final_review_session_count: int = 0
-    data_dir: str = "walc1"
 
-    debug_deck: bool = False
-    debug_deck_size: int = 20
+    resort_by_length: bool = False  # For use with smaller fixed vocabulary sets like 'Animals.'
+
     sessions_to_create: int = 999
     create_all_sessions: bool = True
     extra_sessions: int = 2

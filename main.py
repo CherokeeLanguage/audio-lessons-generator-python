@@ -36,20 +36,10 @@ from LeitnerAudioDeck import LeitnerAudioDeck
 from SrtEntry import SrtEntry
 from config import Config
 
-# DATASET: str = "osiyo-tohiju-then-what"
-DATASET: str = "cll1-v3"
-# DATASET: str = "cll1-v3-cram"
-# DATASET: str = "animals"
-# DATASET: str = "bound-pronouns"
-# DATASET: str = "ced-sentences"
-# DATASET: str = "beginning-cherokee"
-
 MP3_QUALITY: int = 3
 MP3_HZ: int = 48_000
 
 RESORT_BY_LENGTH: bool = False
-if DATASET == "animals":
-    RESORT_BY_LENGTH = True
 
 IX_ALT_PRONOUNCE: int = 2
 IX_PRONOUN: int = 3
@@ -528,8 +518,8 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write("\n")
 
 
-def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
-    print("Collection audio for other projects to use.")
+def collect_audio(dataset: str, out_dir: str, deck: LeitnerAudioDeck) -> None:
+    print("Collecting audio for other projects to use.")
     dest_audio: str = os.path.join(out_dir, "source")
     dest_en = os.path.join(dest_audio, "en")
     os.makedirs(dest_en, exist_ok=True)
@@ -545,49 +535,48 @@ def collect_audio(out_dir: str, deck: LeitnerAudioDeck) -> None:
             shutil.copy(file.file, dest_en)
             file.file = os.path.basename(file.file)
     # save deck *after* altering the file paths
-    save_deck(main_deck, pathlib.Path(dest_audio, f"{DATASET}-with-audio-file.json"))
+    save_deck(main_deck, pathlib.Path(dest_audio, f"{dataset}-with-audio-file.json"))
 
 
 def main() -> None:
     random.seed(0)  # Make output idempotent for consecutive runs on the same day.
     global cfg, max_new_reached, review_count, max_review_cards_this_session
     global main_deck, discards_deck, finished_deck, active_deck
-    global DATASET
     deck_source: str
 
     util: CardUtils = CardUtils()
     os.chdir(os.path.dirname(__file__))
 
     options: Options = parse_args()
-    DATASET = options.dataset
-    load_config()
+    load_config(options.dataset)
+    dataset: str = options.dataset
     if options.mp4 is not None:
         cfg.create_mp4 = options.mp4
 
     out_dir: str
 
     if cfg.alpha and cfg.alpha != 1.0:
-        out_dir = os.path.join(os.path.realpath("."), "output", f"{DATASET}_{cfg.alpha:.2f}")
+        out_dir = os.path.join(os.path.realpath("."), "output", f"{dataset}_{cfg.alpha:.2f}")
     else:
-        out_dir = os.path.join(os.path.realpath("."), "output", DATASET)
+        out_dir = os.path.join(os.path.realpath("."), "output", dataset)
 
     if cfg.deck_source:
         deck_source = cfg.deck_source
     else:
-        deck_source = DATASET
+        deck_source = dataset
 
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
 
     main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
-    if RESORT_BY_LENGTH:
+    if cfg.resort_by_length:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
-    save_deck(main_deck, pathlib.Path("decks", f"{DATASET}-orig.json"))
+    save_deck(main_deck, pathlib.Path("decks", f"{dataset}-orig.json"))
 
     create_card_audio(main_deck)
 
     if cfg.collect_audio:
-        collect_audio(out_dir, main_deck)
+        collect_audio(dataset, out_dir, main_deck)
 
     prompts = Prompts.create_prompts()
 
@@ -617,17 +606,17 @@ def main() -> None:
 
         lead_in: AudioSegment = AudioSegment.silent(750, LESSON_HZ).set_channels(1)
         # Exercise set title
-        lead_in = lead_in.append(prompts[DATASET])
+        lead_in = lead_in.append(prompts[dataset])
         lead_in = lead_in.append(AudioSegment.silent(750))
 
         if _exercise_set == 0:
             # Description of exercise set
-            if DATASET + "-about" in prompts:
-                lead_in = lead_in.append(prompts[DATASET + "-about"])
+            if dataset + "-about" in prompts:
+                lead_in = lead_in.append(prompts[dataset + "-about"])
                 lead_in = lead_in.append(AudioSegment.silent(750))
 
-            if DATASET + "-notes" in prompts:
-                lead_in = lead_in.append(prompts[DATASET + "-about"])
+            if dataset + "-notes" in prompts:
+                lead_in = lead_in.append(prompts[dataset + "-about"])
                 lead_in = lead_in.append(AudioSegment.silent(750))
 
             # Pre-lesson verbiage
@@ -907,26 +896,26 @@ def main() -> None:
         challenge_start = unicodedata.normalize("NFC", challenge_start)
         challenge_stop = unicodedata.normalize("NFC", challenge_stop)
 
-        if DATASET == "cll1-v3":
+        if dataset == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
             tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "beginning-cherokee":
+        elif dataset == "beginning-cherokee":
             tags["album"] = "Beginning Cherokee - 2nd Edition"
             tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "animals":
+        elif dataset == "animals":
             tags["album"] = "Animals"
             tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "bound-pronouns":
+        elif dataset == "bound-pronouns":
             tags["album"] = "Bound Pronouns"
             tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "osiyo-tohiju-then-what":
+        elif dataset == "osiyo-tohiju-then-what":
             tags["album"] = "Osiyo, Tohiju? ... Then what?"
             tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
-        elif DATASET == "ced-sentences":
+        elif dataset == "ced-sentences":
             tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
             tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         else:
-            tags["album"] = DATASET
+            tags["album"] = dataset
             tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
@@ -978,7 +967,7 @@ def main() -> None:
             srt_entry.text = srt_entry.text[0].upper() + srt_entry.text[1:]
 
         # Output SRT file for use by ffmpeg mp4 creation process
-        srt_name: str = f"{DATASET}-{_exercise_set + 1:04}.srt"
+        srt_name: str = f"{dataset}-{_exercise_set + 1:04}.srt"
         output_srt: str = os.path.join(srt_out_dir, srt_name)
         with open(output_srt, "w") as srt:
             for srt_entry in srt_entries:
@@ -986,7 +975,7 @@ def main() -> None:
                 srt.write(srt_text)
 
         # Output mp3
-        mp3_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp3"
+        mp3_name: str = f"{dataset}-{_exercise_set + 1:04}.mp3"
         output_mp3: str = os.path.join(mp3_out_dir, mp3_name)
         minutes: int = int(combined_audio.duration_seconds // 60)
         seconds: int = int(combined_audio.duration_seconds) % 60
@@ -1024,12 +1013,12 @@ def main() -> None:
         svg_title = svg_title.replace("_new_", new_items)
         svg_title = svg_title.replace("_old_", old_items)
 
-        svg_name: str = f"{DATASET}-{_exercise_set + 1:04}.svg"
+        svg_name: str = f"{dataset}-{_exercise_set + 1:04}.svg"
         print(f"Creating {svg_name}.")
         output_svg: str = os.path.join(img_out_dir, svg_name)
         with open(output_svg, "w") as w:
             w.write(svg_title)
-        png_name: str = f"{DATASET}-{_exercise_set + 1:04}.png"
+        png_name: str = f"{dataset}-{_exercise_set + 1:04}.png"
         output_png: str = os.path.join(img_out_dir, png_name)
         cmd: list[str] = list()
         cmd.append("inkscape")
@@ -1045,7 +1034,7 @@ def main() -> None:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         if cfg.create_mp4:
-            mp4_name: str = f"{DATASET}-{_exercise_set + 1:04}.mp4"
+            mp4_name: str = f"{dataset}-{_exercise_set + 1:04}.mp4"
             output_mp4: str = os.path.join(mp4_out_dir, mp4_name)
 
             cmd: list[str] = list()
@@ -1123,13 +1112,13 @@ def main() -> None:
         simplejson.dump(metadata_by_track, w, indent=2, sort_keys=True, ensure_ascii=False)
         w.write("\n")
 
-    save_deck(finished_deck, pathlib.Path("decks", f"{DATASET}.json"))
+    save_deck(finished_deck, pathlib.Path("decks", f"{dataset}.json"))
 
 
-def load_config():
-    global cfg, DATASET
+def load_config(dataset: str):
+    global cfg
     os.makedirs("configs", exist_ok=True)
-    cfg_file: str = f"configs/{DATASET}-cfg.json"
+    cfg_file: str = f"configs/{dataset}-cfg.json"
     if os.path.exists(cfg_file):
         with open(cfg_file, "r") as f:
             cfg = Config.load(f)
