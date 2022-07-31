@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import dataclasses
+import pathlib
 import shutil
+import sys
+import tempfile
 
 import boto3
 import hashlib
@@ -18,6 +22,52 @@ from main import CACHE_CHR
 from main import CACHE_EN
 
 
+@dataclasses.dataclass
+class TTSBatchEntry:
+    voice: str | None = None
+    text: str = ""
+
+
+def tts_chr_batch(entries: list[TTSBatchEntry], alpha: float | None = None) -> None:
+    tmp_dir: pathlib.Path = pathlib.Path(tempfile.mkdtemp(prefix="audio-lessons-generator-"))
+    os.makedirs(tmp_dir, exist_ok=True)
+    batch_file: pathlib.Path = tmp_dir.joinpath("tts-batch.txt")
+    cnt: int = 0
+    with open(batch_file, "w") as w:
+        for entry in entries:
+            if has_mp3_chr(entry.voice, entry.text, alpha):
+                continue
+            mp3: str = os.path.realpath(get_mp3_chr(entry.voice, entry.text, alpha))
+            voice_path: str = os.path.realpath(os.path.join("ref", f"{entry.voice}.wav"))
+            w.write(f"chr|{entry.text}|{voice_path}|{mp3}.tmp\n")
+            cnt += 1
+    if not cnt:
+        return
+    cmd: list[str] = list()
+    cmd.append(os.path.expanduser("~/git/IMS-Toucan/run_tts_file.py"))
+    cmd.append("--text_file")
+    cmd.append(str(batch_file))
+    cmd.append("--alpha")
+    if alpha:
+        cmd.append(str(f"{alpha:.2f}"))
+    else:
+        cmd.append(str(f"1.3"))
+    result = subprocess.run(cmd, capture_output=False)
+    if result.returncode:
+        raise Exception("run_tts_file.py fail")
+    for entry in entries:
+        if has_mp3_chr(entry.voice, entry.text, alpha):
+            continue
+        mp3: str = get_mp3_chr(entry.voice, entry.text, alpha)
+        shutil.move(mp3 + ".tmp", mp3)
+    shutil.rmtree(tmp_dir, ignore_errors=True)
+
+
+def has_mp3_chr(voice, text_chr, alpha) -> bool:
+    mp3_chr: str = get_mp3_chr(voice, text_chr, alpha)
+    return os.path.exists(mp3_chr)
+
+
 def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> None:
     mp3_chr: str = get_mp3_chr(voice, text_chr, alpha)
     if os.path.exists(mp3_chr):
@@ -33,7 +83,7 @@ def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> Non
         cmd.append("--alpha")
         cmd.append(str(f"{alpha:.2f}"))
     cmd.append("--mp3")
-    cmd.append(mp3_chr+".tmp")
+    cmd.append(mp3_chr + ".tmp")
     cmd.append("--text")
     cmd.append(text_chr)
     result = subprocess.run(cmd, capture_output=True)
@@ -47,7 +97,7 @@ def tts_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> Non
         print()
         raise Exception("run_tts.py fail")
     else:
-        shutil.move(mp3_chr+".tmp", mp3_chr)
+        shutil.move(mp3_chr + ".tmp", mp3_chr)
 
 
 def get_mp3_chr(voice: str | None, text_chr: str, alpha: float | None = None) -> str:
@@ -74,9 +124,9 @@ def tts_en(voice: str, text_en: str):
                                               SampleRate=AMZ_HZ,  #
                                               LanguageCode="en-US",  #
                                               Engine="neural")
-    with open(mp3_en+".tmp", "wb") as w:
+    with open(mp3_en + ".tmp", "wb") as w:
         w.write(response["AudioStream"].read())
-    shutil.move(mp3_en+".tmp", mp3_en)
+    shutil.move(mp3_en + ".tmp", mp3_en)
 
 
 def get_mp3_en(voice: str | None, text_en: str) -> str:

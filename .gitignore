@@ -140,3 +140,4 @@ review-sheet-*.txt
 # Generated output file
 /data/ced-for-tts.txt
 decks/
+.gradle/

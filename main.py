@@ -424,19 +424,23 @@ def fix_english_sex_genders(text_en) -> str:
 def create_card_audio(deck: LeitnerAudioDeck):
     os.makedirs(CACHE_CHR, exist_ok=True)
     os.makedirs(CACHE_EN, exist_ok=True)
-    print("Creating card audio")
+    entries: list[tts.TTSBatchEntry] = list()
+    print("Scanning deck for cards needing Cherokee audio.")
     for card in tqdm(deck.cards):
         data: AudioData = card.data
         text_chr = data.challenge
         text_chr_alts = data.challenge_alts
-        text_en = data.answer
         for voice in IMS_VOICES:
             data_file: AudioDataFile = AudioDataFile()
             data_file.file = tts.get_mp3_chr(voice, text_chr, cfg.alpha)
             data_file.voice = voice
             data_file.pronunciation = text_chr
             data.challenge_files.append(data_file)
-            tts.tts_chr(voice, text_chr, cfg.alpha)
+            entry: tts.TTSBatchEntry = tts.TTSBatchEntry()
+            entry.text=text_chr
+            entry.voice=voice
+            entries.append(entry)
+            # tts.tts_chr(voice, text_chr, cfg.alpha)
             for alt in text_chr_alts:
                 if alt == text_chr:
                     # don't add another entry to challenge files if we have the same
@@ -447,7 +451,18 @@ def create_card_audio(deck: LeitnerAudioDeck):
                 data_file.voice = voice
                 data_file.pronunciation = alt
                 data.challenge_files.append(data_file)
-                tts.tts_chr(voice, alt, cfg.alpha)
+                entry: tts.TTSBatchEntry = tts.TTSBatchEntry()
+                entry.text = alt
+                entry.voice = voice
+                entries.append(entry)
+                # tts.tts_chr(voice, alt, cfg.alpha)
+    print("Creating Cherokee audio challenges.")
+    tts.tts_chr_batch(entries, cfg.alpha)
+
+    print("Creating English audio answers.")
+    for card in tqdm(deck.cards):
+        data: AudioData = card.data
+        text_en = data.answer
         for voice in AMZ_VOICES:
             data_file: AudioDataFile = AudioDataFile()
             data_file.file = tts.get_mp3_en(voice, text_en)
