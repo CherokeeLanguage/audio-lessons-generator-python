@@ -13,4 +13,6 @@ corrected file.
 
 The `lookup.csv` file is periodically committed by ᎹᎦᎵ to reflect any new entries that need fixing.
 
+**NOTE**:
 
+Running the `syllabary_lookup.py` script will rewrite all the Syllabary entries in the dataset files.
