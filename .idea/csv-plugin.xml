@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/syllabary_lookup/lookup-bad.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/syllabary_lookup/lookup.csv">
           <value>
             <Attribute>
