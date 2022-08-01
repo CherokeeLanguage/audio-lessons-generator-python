@@ -201,8 +201,7 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
 
             cherokee_text_alts: list[str] = list()
             cherokee_text = fields[IX_PRONOUNCE].strip()
-            if cherokee_text.startswith("#"):
-                continue
+            cherokee_text = re.sub("(?i)[ˀɁɂ]", "ʔ", cherokee_text)
             if not re.sub("(?i)[^a-z]", "", unicodedata.normalize("NFD", cherokee_text)):
                 print(f"Warning - no Cherokee text: {line}")
                 continue
@@ -340,11 +339,13 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     to_en_data.challenge_alts.append(cherokee_text)
                 for alt in alts:
                     alt = alt.strip()
+                    alt = re.sub("(?i)[ˀɁɂ]", "ʔ", alt)
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
                     to_en_data.challenge_alts.append(alt)
                 for alt in cherokee_text_alts:
                     alt = alt.strip()
+                    alt = re.sub("(?i)[ˀɁɂ]", "ʔ", alt)
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
                     to_en_data.challenge_alts.append(alt)
