@@ -19,6 +19,17 @@ def srt_ts(position: float) -> str:
     hours = int(position // (60 * 60))
     return f"{hours:02d}:{minutes:02d}:{seconds:02d},{ms:03d}"
 
+def ts_srt(serialized: str) -> float:
+    hours, minutes, seconds_msec = serialized.split(':')
+    seconds, msec = seconds_msec.split(',')
+    position = (
+        int(hours) * 60 * 60
+      + int(minutes) * 60
+      + int(seconds)
+      + int(msec) / 1000
+    )
+
+    return position
 
 @dataclasses.dataclass
 class SrtEntry:
@@ -29,3 +40,18 @@ class SrtEntry:
 
     def __str__(self) -> str:
         return f"{self.seq}\n{srt_ts(self.start)} --> {srt_ts(self.end)}\n{self.text}\n\n"
+    
+    @staticmethod
+    def deserialize(serialized: str) -> "SrtEntry":
+        lines = serialized.strip('\n').split('\n')
+        seq = int(lines[0].strip())
+        start_ts, end_ts = lines[1].split(' --> ')
+        start, end = ts_srt(start_ts), ts_srt(end_ts)
+        text = lines[2]
+        return SrtEntry(
+            seq=seq,
+            start=start,
+            end=end,
+            text=text
+        )
+
