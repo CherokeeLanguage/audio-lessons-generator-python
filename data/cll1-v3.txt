@@ -92,7 +92,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 #Chapter 7|||
 
 ||||||ᎩᏟ ᏥᎪwᏘᎭ; ᎩᏟ ᏥᎪwᏘ|gi:hli ji:gowhtíha; gi:hli ji:gowhtí|I see a dog.|||
-||||||ᎪᏪᎵ ᏥᎪwᏘᎭ; ᎪᏪꮅ ᏥᎪwᏘ|go:hwe:li jigowhtíha; go:hwe:l jigowhtí|I see a sheet of paper.|||
+||||||ᎪᏪᎵ ᏥᎪwᏘᎭ; ᎪᏪꮅ ᏥᎪwᏘ|go:hwe:li jigowhtíha; go:hwe:l jigowhtí|I see a piece of paper.|||
 
 ||||||ᏪᏌ ᎦᏥᎪwᏘᎭ; ᏪᏍ ᎦᏥᎪwᏘ|wě:sa ga:ji:gowhtíha; wě:s ga:ji:gowhtí|I see cats.|||
 ||||||ᎫᎴ ᏕᏥᎪwᏘᎭ; ᎫᎴ ᏕᏥᎪwᏘ|gu:le de:jigowhtíha; gu:le de:jigowhtí|I see acorns.|||
@@ -327,7 +327,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᏗᏤ ᏄᎾ|dije̋ nǔ:na|Green potatoes.|||
 ||||||ᏗᏤᎢᏳᏍᏗ ᏗᏌᏛᏗ|dijé:ʔiyű:sdi di:sadv́:di|green traps.|||
 ||||||ᏧᏁᎦ ᏕꮅᎬᎢ|ju:ne̋:ga dě:hlgv̋:ʔi|white trees.|||
-||||||ᏧᏬᏗᎨᎢ ᏗᎪᏪᎵ|juwǒ:díge̋:ʔi digo:hwe:li|Brown papers.|||
+||||||ᏧᏬᏗᎨᎢ ᏗᎪᏪᎵ|juwǒ:díge̋:ʔi digo:hwe:li|Brown papers. A brown book.|||
 ||||||ᏗᎩᎦᎨ ᎪᎱᏍᏗ; ᏗᎩᎦᎨ ᎪᏍᏗ|digǐ:gáge̋ go:hű:sdi; digǐ:gáge̋ gő:sdi|Red things.|||
 ||||||ᏗᎬᎿᎨ ᏅᏯ|digv̌:hnáge̋ nv̀:ya|Black rocks.|||
 ||||||ᏗᏌᎪᏂᎨ ᎫᎴ|disakǒ:níge̋ gu:le|blue acorns.|||
