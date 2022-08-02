@@ -3,8 +3,10 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional
 import os
+import unicodedata
 
 import jsonpickle
+import simplejson
 
 from LeitnerAudioDeck import LeitnerAudioDeck
 from SrtEntry import SrtEntry
@@ -21,8 +23,7 @@ def main(cfg: Config, dataset: str):
     os.makedirs(out_dir, exist_ok=True)
 
     terms_by_lesson = get_terms_by_lesson(Path(f"./data/{dataset}.txt"))
-    json.dump(terms_by_lesson, open(out_dir / "terms_by_lesson.json", "w"))
-
+    simplejson.dump(terms_by_lesson, open(out_dir / "terms_by_lesson.json", "w"), ensure_ascii=False) 
     # srt_dir = run_dir / "srt"
     # srts_by_exercise = load_srts(srt_dir)
 
@@ -40,6 +41,7 @@ def get_terms_by_lesson(source: Path) -> Dict[str, List[str]]:
     with open(source, "r") as r:
         first_line = True
         for line in r:
+            line = unicodedata.normalize("NFC", line)
             if first_line:
                 first_line = False
                 continue
