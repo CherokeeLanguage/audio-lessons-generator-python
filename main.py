@@ -692,6 +692,10 @@ def main() -> None:
         srt_entries: list[SrtEntry] = list()
         srt_entry: SrtEntry
 
+        new_cards: list[str] = list()
+        review_cards: list[str] = list()
+        hidden_cards: list[str] = list()
+
         while (lead_in.duration_seconds + lead_out.duration_seconds + main_audio.duration_seconds
                < cfg.session_max_duration):
             start_length: float = main_audio.duration_seconds
@@ -767,10 +771,24 @@ def main() -> None:
                     else:
                         last_review_challenge = data.challenge
             challenge: str
+            syllabary: str = data.syllabary
+            if ";" in syllabary:
+                syllabary=syllabary[:syllabary.index(";")].strip()
             if not data.challenge_alts or (new_card and introduce_card):
                 challenge = data.challenge
             else:
                 challenge = rand.choice(data.challenge_alts)
+            vocabulary_text = f"{data.challenge}|{data.answer}|{syllabary}"
+            if new_card:
+                if introduce_card:
+                    new_cards.append(vocabulary_text)
+                else:
+                    hidden_cards.append(vocabulary_text)
+            else:
+                if vocabulary_text not in review_cards \
+                        and vocabulary_text not in new_cards \
+                        and vocabulary_text not in hidden_cards:
+                            review_cards.append(vocabulary_text)
             srt_entry: SrtEntry = SrtEntry()
             srt_entries.append(srt_entry)
             srt_entry.text = challenge
@@ -940,6 +958,10 @@ def main() -> None:
         srt_out_dir: str = os.path.join(out_dir, "srt")
         os.makedirs(srt_out_dir, exist_ok=True)
 
+        # Track vocab by session
+        vocab_out_dir: str = os.path.join(out_dir, "vocab")
+        os.makedirs(vocab_out_dir, exist_ok=True)
+
         # Put graphic related stuff in subfolder
         img_out_dir: str = os.path.join(out_dir, "img")
         os.makedirs(img_out_dir, exist_ok=True)
@@ -974,6 +996,29 @@ def main() -> None:
             for srt_entry in srt_entries:
                 srt_text: str = unicodedata.normalize("NFC", str(srt_entry))
                 srt.write(srt_text)
+
+        # Output New Vocabulary, Hidden Vocabulary, and Review Vocabulary lists
+        vocab_name: str = f"{dataset}-{_exercise_set + 1:04}-vocab-new.txt"
+        output_vocab: str = os.path.join(vocab_out_dir, vocab_name)
+        with open(os.path.join(output_vocab), "w") as w:
+            for entry in new_cards:
+                w.write(f"{entry}\n")
+            if end_note:
+                w.write(f"# {end_note}\n")
+        vocab_name: str = f"{dataset}-{_exercise_set + 1:04}-vocab-hidden.txt"
+        output_vocab: str = os.path.join(vocab_out_dir, vocab_name)
+        with open(os.path.join(output_vocab), "w") as w:
+            for entry in hidden_cards:
+                w.write(f"{entry}\n")
+            if end_note:
+                w.write(f"# {end_note}\n")
+        vocab_name: str = f"{dataset}-{_exercise_set + 1:04}-vocab-review.txt"
+        output_vocab: str = os.path.join(vocab_out_dir, vocab_name)
+        with open(os.path.join(output_vocab), "w") as w:
+            for entry in review_cards:
+                w.write(f"{entry}\n")
+            if end_note:
+                w.write(f"# {end_note}\n")
 
         # Output mp3
         mp3_name: str = f"{dataset}-{_exercise_set + 1:04}.mp3"
