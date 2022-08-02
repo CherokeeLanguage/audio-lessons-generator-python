@@ -26,7 +26,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᎤᏲᎢ ᎠᏓ; ᎤᏲ ᎠᏓ|u:yő:ʔi ada; u:yő ada|Bad wood.|||
 ||||||Ꮒ! ᎠᏓ|ni! a̋ʔda|Look! A young animal.|||
 ||||||ᎠᏴᏫ|ayv:wi|A person.|||
-||||||ᏲᏁᎦ; ᏲᏁg; ᏴᏭᏁᎦ; ᏴᏭᏁg|yó:ne:ga; yó:ne:g; yv́:wúne:ga; yv́:wúne:g|An English or White person.|||
+||||||ᏲᏁᎦ; ᏲᏁg; ᏴᏭᏁᎦ; ᏴᏭᏁg|yó:ne:ga; yó:ne:g; yv́:wúne:ga; yv́:wúne:g|English. Of the white peoples.|||
 ||||||ᏅᎩᏁᎢ ᎠᏴᏫ; ᏅᎩᏁ ᎠᏴᏫ|nvhgi:ne̋:ʔi ayv:wi; nvhgi:ne̋ ayv:wi|A fourth person.|||
 
 ||||||ᎢᎬᏱᎢ ᎠᏕᏠᏆᏍᏗ; ᎢᎬᏱ ᎠᏕᏠᏆᏍᏗ|igv:yi̋:ʔi à:de:hlohgwà:sdi; igv:yi̋ à:de:hlohgwà:sdi|first lesson.|||
@@ -79,7 +79,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᏐᏈᎵ ᎠᏂᎪwᏘᎭ; ᏐᏈꮅ ᎠᏂᎪwᏘ|sǒ:gwíli à:nigowhtíha; sǒ:gwíl à:nigowhtí|They see a horse.|||
 ||||||ᎩᏟ ᏓᎪwᏘᎭ ᎠᏍᎦᏯ; ᎩᏟ ᏓᎪwᏘ ᎠᏍᎦᏯ|gi:hli dà:gowhtíha asgaya; gi:hli dà:gowhtí asgaya|A man sees dogs.|||
 ||||||ᎠᏂᏍᎦᏯ ᏲᎾ ᏓᏂᎪwᏘᎭ; ᎠᏂᏍᎦᏯ ᏲᎾ ᏓᏂᎪwᏘ|ani:sgaya yǒ:na dà:nigowhtíha; ani:sgaya yǒ:na dà:nigowhtí|The men see bears.|||
-||||||ᎩᏟ ᎠᎴ ᏪᏌ; ᎩᏟ ᎠᎴ ᏪᏍ|gi:hli ale wě:sa; gi:hli ale wě:s|A dog and a cat. Or. A dog or a cat.|||
+||||||ᎩᏟ ᎠᎴ ᏪᏌ; ᎩᏟ ᎠᎴ ᏪᏍ|gi:hli ale wě:sa; gi:hli ale wě:s|A dog and or a cat.|||
 
 ||||||ᎦᏙ ᏧᏍᏗ ᏄᎾ?; ᎦᏙ ᏧᏍd Ꮔn?; Ꮩ ᏧᏍd Ꮔn?|gadō jű:sdi nǔ:na?; gadō jű:sd nǔ:n?; dō jű:sd nǔ:n?|“Which potatoes?”|||
 ||||||ᎦᏙ ᏧᏍᏗ ᏅᏯ?; ᎦᏙ ᏧᏍd ᏅᏯ?; Ꮩ ᏧᏍd ᏅᏯ?|gadō jű:sdi nv̀:ya?; gadō jű:sd nv̀:ya?; dō jű:sd nv̀:ya?|“Which rocks?”|||
@@ -103,8 +103,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᏩᎭᏯ ᎦᎯᎪwᏘᎭ; ᏩᏯ ᎦᎯᎪwᏘ|wahaya ga:hi:gowhtíha; wahya ga:hi:gowhtí|You see wolves.|||
 ||||||ᏗᏌᏛᏗ ᏕᎯᎪwᏘᎭ; ᏗᏌᏛd ᏕᎯᎪwᏘ|di:sadv́:di de:higowhtíha; di:sadv́:d de:higowhtí|You see traps.|||
 
-||||||ᎠᎭᏂ ᎠᎴ ᎤᎿ; ᎠᏂ ᎠᎴ ᎤᎿ|áhani ale ù:hna̋; áhni ale ù:hna̋|Here and there. Or. Here or there.|||
-||||||ᎢᎾ ᎠᎴ ᎾᎥ|i̋:na ale naʔv|Far and near. Or. Far or near.|||
+||||||ᎠᎭᏂ ᎠᎴ ᎤᎿ; ᎠᏂ ᎠᎴ ᎤᎿ|áhani ale ù:hna̋; áhni ale ù:hna̋|Here and or there.|||
+||||||ᎢᎾ ᎠᎴ ᎾᎥ|i̋:na ale naʔv|Far and or near.|||
 
 ||||||ᏗᏍᏙᏪᎸᎦ|disdo:hwe:lv̀:ga|Let you two write them.|||
 ||||||ᏗᏍᏗᎪᎵᏯ.|disdigo:lǐ:ya.|let you two read them.||Complete the lesson material through the end of chapter 7.|
@@ -115,8 +115,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 
 ||||||ᎭᏢ ᎥᏍᎩᎾ; ᎭᏢ ᎥᏍᎩ; ᎭᏢ ᏍᎩᎾ; ᎭᏢ ᎾᏍᎩ|ha:dlv v̀:sgina; ha:dlv v̀:sgi; ha:dlv sgina; ha:dlv nà:sgi|Where is he? Where are they?|||
 
-||||||ᎭᏢ Ꮎ ꮅᎬᎢ|ha:dlv na hlgv̋:ʔi|Where is that tree? Where is the tree?|||
-||||||ᎭᏢ Ꮎ ᏕꮅᎬᎢ|ha:dlv na dě:hlgv̋:ʔi|Where are those trees? Where are the trees?|||
+||||||ᎭᏢ Ꮎ ꮅᎬᎢ|Ha:dlv na hlʔgv̋:ʔi?|Where is that tree? Where is the tree?|||
+||||||ᎭᏢ Ꮎ ᏕꮅᎬᎢ|Ha:dlv na dě:hlʔgv̋:ʔi?|Where are those trees? Where are the trees?|||
 
 ||||||ᎠᎨᏯ ᎯᎠ ᎠᎪwᏘᎭ; ᎠᎨᏯ ᎯᎠ ᎠᎪwᏘ; ᎠᎨᏯ ᎯᎢ ᎠᎪwᏘᎭ; ᎠᎨᏯ ᎯᎢ ᎠᎪwᏘ|agě:hya hiʔa à:gowhtíha; agě:hya hiʔa à:gowhtí; agě:hya hiʔi à:gowhtíha; agě:hya hiʔi à:gowhtí|A woman sees this.|||
 # |||||||na|“The. That.”|||
@@ -216,7 +216,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᎦᎩ?|gâ:gí?|“Who again?”|||
 ||||||ᎦᏙ?; Ꮩ?|gadò?; dò?|“What?”|||
 ||||||ᎦᏙᎩ?; ᏙᎩ?|gadògí?; dògí?|“What again?”|||
-||||||ᎦᏙ ᎤᏍᏗ?; Ꮩ ᎤᏍd?|gadō u:sdi?; dō u:sd?|“What?” Or. “What thing?”|||
+||||||ᎦᏙ ᎤᏍᏗ?; Ꮩ ᎤᏍd?|gadō u:sdi?; dō u:sd?|“What?” “What thing?”|||
 
 ||||||ᎦᏙᎲ|gadò:hv̋|“Why?”|||
 
@@ -239,7 +239,7 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᎠᏂᎩᎵᏏ; ᎠᏂᎩᎵᏍ|ani:gili:si; ani:gili:s|“English people.”|||
 ||||||ᎠᏣᎳᎩ; ᎠᏣᎳg|ajalagi; ajalag|“A Cherokee person.”|||
 ||||||ᎠᏃᏍᏓ ᎠᏂᏣᎳᎩ; ᎠᏃᏍd ᎠᏂᏣᎳg|à:nő:sda ani:jalagi; à:nő:sd ani:jalag|“Good cherokee people.”|||
-||||||ᎠᏲᏁᎦ; ᎠᏲᏁg|ayó:ne:ga; ayó:ne:g|“An English person.”|||
+||||||ᎠᏲᏁᎦ; ᎠᏲᏁg|ayó:ne:ga; ayó:ne:g|An English or white person.|||
 ||||||ᎤᏂᏲᎢ ᎠᏂᏲᏁᎦ; ᎤᏂᏲ ᎠᏂᏲᏁg|u:niyő:ʔi ani:yó:ne:ga; u:niyő ani:yó:ne:g|“Bad English people.”|||
 ||||||ᎠᏂᏴᏫ|ani:yv:wi|“People.”|||
 ||||||ᎠᏴᏫᏯᎢ; ᎠᏴᏫᏯ|ayv:wi:ya̋:ʔi; ayv:wi:ya̋|“A Native American.”|||
