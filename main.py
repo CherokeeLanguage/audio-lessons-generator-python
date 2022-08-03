@@ -209,13 +209,15 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if ";" in cherokee_text:
                 for text in cherokee_text.split(";"):
                     text = text.strip()
+                    if text[-1] not in ",.?!":
+                        text += "."
                     if text and text not in cherokee_text_alts:
-                        cherokee_text_alts.append(text)
+                        cherokee_text_alts.append(text[0].upper()+text[1:])
                 cherokee_text = cherokee_text[0:cherokee_text.index(";")].strip()
-
-            cherokee_text = cherokee_text[0].upper() + cherokee_text[1:]
             if cherokee_text[-1] not in ",.?!":
                 cherokee_text += "."
+            cherokee_text = cherokee_text[0].upper() + cherokee_text[1:]
+
             check_text = re.sub("(?i)[.,!?;]", "", cherokee_text).strip()
             if check_text in dupe_pronunciation_check:
                 print(f"[Line {line_no:,}] Duplicate pronunciation: {check_text}\n{fields}")
@@ -339,12 +341,18 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     to_en_data.challenge_alts.append(cherokee_text)
                 for alt in alts:
                     alt = alt.strip()
+                    if not alt:
+                        continue
+                    if alt[-1] not in ",.?!":
+                        alt += "."
                     alt = re.sub("(?i)[ˀɁɂ]", "ʔ", alt)
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
                     to_en_data.challenge_alts.append(alt)
                 for alt in cherokee_text_alts:
                     alt = alt.strip()
+                    if not alt:
+                        continue
                     alt = re.sub("(?i)[ˀɁɂ]", "ʔ", alt)
                     if not alt or alt in to_en_data.challenge_alts:
                         continue
@@ -814,7 +822,7 @@ def main() -> None:
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
 
                 # introduce alt pronunciations
-                if data.challenge_alts:
+                if len(data.challenge_alts) >  1:
                     if new_count < 6 and _exercise_set <= 2:
                         main_audio = main_audio.append(prompts["also_hear"])
                     else:
