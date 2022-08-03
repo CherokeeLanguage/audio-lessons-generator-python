@@ -209,6 +209,8 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
             if ";" in cherokee_text:
                 for text in cherokee_text.split(";"):
                     text = text.strip()
+                    if not text:
+                        continue
                     if text[-1] not in ",.?!":
                         text += "."
                     if text and text not in cherokee_text_alts:
