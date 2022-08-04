@@ -20,8 +20,8 @@ from chrutils import pronounce2syllabary
 
 def main() -> None:
     os.chdir(os.path.dirname(__file__))
-    in_file = Path("data").joinpath("raven-dictionary-edit-file-orig.csv")
-    out_file = Path("data").joinpath("raven-dictionary-edit-file.csv")
+    in_file = Path("cherokee-vocab-data").joinpath("raven-dictionary-edit-file-orig.csv")
+    out_file = Path("cherokee-vocab-data").joinpath("raven-dictionary-edit-file.csv")
 
     fieldnames: Sequence
     with open(in_file, "r", newline='') as r, open(out_file, "w", newline='') as w:

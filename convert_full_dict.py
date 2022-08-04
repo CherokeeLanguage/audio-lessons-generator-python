@@ -18,8 +18,8 @@ def main() -> None:
 
     os.chdir(Path(__file__).resolve().parent)
 
-    in_file: Path = Path("data").joinpath("full_dict_raw.txt")
-    out_file: Path = Path("data").joinpath("full_dict_mco.txt")
+    in_file: Path = Path("cherokee-vocab-data").joinpath("full_dict_raw.txt")
+    out_file: Path = Path("cherokee-vocab-data").joinpath("full_dict_mco.txt")
 
     idx_id: int = 0
     idx_definition: int = 1

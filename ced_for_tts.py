@@ -20,8 +20,8 @@ def main() -> None:
 
     voices: list[str] = ["en-345-m", "en-360-m", "en-333-f", "en-361-f"]
     # voices: list[str] = ["en-345-m"]
-    in_file: Path = Path("data/full_dict_mco.txt").resolve()
-    out_file: Path = Path("data/ced-for-tts.txt").resolve()
+    in_file: Path = Path("cherokee-vocab-data/full_dict_mco.txt").resolve()
+    out_file: Path = Path("cherokee-vocab-data/ced-for-tts.txt").resolve()
 
     already: set[str] = set()
     ced: list[tuple[str, str, str, str]] = list()

@@ -1,3 +1,6 @@
 [submodule "leitner-cards-python"]
 	path = leitner-cards-python
 	url = ../leitner-cards-python
+[submodule "cherokee-vocab-data"]
+	path = cherokee-vocab-data
+	url = ../../CherokeeLanguage/cherokee-vocab-data.git
