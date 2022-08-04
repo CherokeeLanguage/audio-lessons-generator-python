@@ -579,7 +579,7 @@ def main() -> None:
     shutil.rmtree(out_dir, ignore_errors=True)
     os.makedirs(out_dir, exist_ok=True)
 
-    main_deck = load_main_deck(os.path.join("data", deck_source + ".txt"))
+    main_deck = load_main_deck(os.path.join("cherokee-vocab-data", deck_source + ".txt"))
     if cfg.resort_by_length:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
     save_deck(main_deck, pathlib.Path("decks", f"{dataset}-orig.json"))
