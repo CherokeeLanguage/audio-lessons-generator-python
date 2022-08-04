@@ -156,8 +156,8 @@ ID|PSET|ALT_PRONOUNCE|PRONOUN|VERB|GENDER|SYLLABARY|PRONOUNCE|ENGLISH|INTRO NOTE
 ||||||ᏗᏣᏛᏓᏍᏓ|dì:jà:tv:dà:sda|let you all listen to them.||Complete the lesson material through the end of chapter 9.|
 
 #Chapter 10 ᏍᎪᎯᏁᎢ ᎠᏕᎶᏆᏍᏗ|||
-*||||||ᎺᎵ, ᏙᎾᏓᎪᎲᎢ|mé:li, donada:go:hv:ʔi|Mary, let us two see each other again later.”|||
-*||||||ᏂᎯ ᎠᎴ ᏑᏌᏃ, ᏙᏓᏓᎪᎲᎢ|nihi ale sú:sano, dodada:go:hv:ʔi|You and Susan, let us all see each other again later.|||
+*||||||ᎺᎵ, ᏙᎾᏓᎪᎲᎢ|mé:li, do:nada:go:hv:ʔi|Mary, let us two see each other again later.”|||
+*||||||ᏂᎯ ᎠᎴ ᏑᏌᏃ, ᏙᏓᏓᎪᎲᎢ|nihi ale sú:sano, do:dada:go:hv:ʔi|You and Susan, let us all see each other again later.|||
 
 ||||||ᎠᏂᎠᎭᏫ; ᎠᏂᎠᏫ|à:ni:ʔahawi; à:ni:ʔahwi|“The deer people.”|||
 ||||||ᎠᏂᎩᏟ|à:ni:gi:hli|“The dog people.”|||
