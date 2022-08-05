@@ -1047,7 +1047,7 @@ def main() -> None:
 
         # Generate graphic for MP4
         svg_title: str
-        with open("data/svg/title_template.svg", "r") as r:
+        with open("cherokee-vocab-data/svg/title_template.svg", "r") as r:
             svg_title = r.read()
         svg_title = svg_title.replace("_album_", tags["album"])
         title = tags["title"]
