@@ -756,25 +756,15 @@ def main() -> None:
                     print(f" - No more new cards this session.")
                 main_audio = main_audio.append(AudioSegment.silent(1_500))
                 card_stats.new_card = False
-                if new_count < 6 and _exercise_set == 0:
-                    if new_count == 1:
-                        first_new_phrase = prompts["first_phrase"]
-                        main_audio = main_audio.append(first_new_phrase)
-                    else:
-                        main_audio = main_audio.append(prompts["new_phrase"])
-                else:
-                    main_audio = main_audio.append(prompts["new_phrase_short"])
-                main_audio = main_audio.append(AudioSegment.silent(750))
-            else:
-                challenge_count += 1
+                if introduce_card:
+                    main_audio = append_introduce_phrase(main_audio, prompts, _exercise_set, new_count)
+            if not introduce_card:
+                if not new_card:
+                    challenge_count += 1
                 if extra_delay > 0:
                     _: int = int(1_000 * min(7.0, extra_delay))
                     main_audio = main_audio.append(AudioSegment.silent(_), crossfade=0)
-                if challenge_count < 16 and _exercise_set == 0:
-                    main_audio = main_audio.append(prompts["translate"])
-                else:
-                    main_audio = main_audio.append(prompts["translate_short"])
-                main_audio = main_audio.append(AudioSegment.silent(1_000))
+                main_audio = append_translate_phrase(main_audio, prompts, _exercise_set, challenge_count)
                 if not card_stats.shown:
                     if not first_review_challenge:
                         first_review_challenge = data.challenge
@@ -800,9 +790,9 @@ def main() -> None:
                         and vocabulary_text not in hidden_cards:
                             review_cards.append(vocabulary_text)
             srt_entry: SrtEntry = SrtEntry()
-            srt_entries.append(srt_entry)
             srt_entry.text = challenge
             srt_entry.start = main_audio.duration_seconds
+            srt_entries.append(srt_entry)
             data_file: AudioSegment = tts.chr_audio(next_ims_voice(data.sex), challenge, cfg.alpha)
             main_audio = main_audio.append(data_file, crossfade=0)
             srt_entry.end = main_audio.duration_seconds
@@ -862,9 +852,9 @@ def main() -> None:
                 main_audio = main_audio.append(_)
             # Provide answer.
             srt_entry: SrtEntry = SrtEntry()
-            srt_entries.append(srt_entry)
             srt_entry.text = data.answer
             srt_entry.start = main_audio.duration_seconds
+            srt_entries.append(srt_entry)
             main_audio = main_audio.append(answer_audio)
             srt_entry.end = main_audio.duration_seconds
             if _exercise_set == 0:
@@ -927,25 +917,25 @@ def main() -> None:
 
         if dataset == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
         elif dataset == "beginning-cherokee":
             tags["album"] = "Beginning Cherokee - 2nd Edition"
-            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
         elif dataset == "animals":
             tags["album"] = "Animals"
-            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
         elif dataset == "bound-pronouns":
             tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
         elif dataset == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? ... Then what?"
+            tags["album"] = "Osiyo, Tohiju? … Then what?"
             tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif dataset == "ced-sentences":
             tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
-            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
         else:
             tags["album"] = dataset
-            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
+            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
@@ -1169,6 +1159,28 @@ def main() -> None:
         w.write("\n")
 
     save_deck(finished_deck, pathlib.Path("decks", f"{dataset}.json"))
+
+
+def append_translate_phrase(main_audio, prompts, _exercise_set, challenge_count):
+    if challenge_count < 16 and _exercise_set == 0:
+        main_audio = main_audio.append(prompts["translate"])
+    else:
+        main_audio = main_audio.append(prompts["translate_short"])
+    main_audio = main_audio.append(AudioSegment.silent(1_000))
+    return main_audio
+
+
+def append_introduce_phrase(main_audio, prompts, _exercise_set, new_count):
+    if new_count < 6 and _exercise_set == 0:
+        if new_count == 1:
+            first_new_phrase = prompts["first_phrase"]
+            main_audio = main_audio.append(first_new_phrase)
+        else:
+            main_audio = main_audio.append(prompts["new_phrase"])
+    else:
+        main_audio = main_audio.append(prompts["new_phrase_short"])
+    main_audio = main_audio.append(AudioSegment.silent(750))
+    return main_audio
 
 
 def load_config(dataset: str):
