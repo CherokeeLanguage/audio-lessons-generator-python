@@ -612,7 +612,7 @@ def main() -> None:
             print()
             print()
 
-        print(f"=== SESSION: {_exercise_set + 1:04}")
+        print(f"=== DAY: {_exercise_set + 1:04}")
         print()
 
         lead_in: AudioSegment = AudioSegment.silent(750, LESSON_HZ).set_channels(1)
@@ -655,7 +655,7 @@ def main() -> None:
             lead_in = lead_in.append(prompts["begin"])
             lead_in = lead_in.append(AudioSegment.silent(750))
 
-        session_start: str = f"Session {_exercise_set + 1}."
+        session_start: str = f"Day {_exercise_set + 1}."
         lead_in = lead_in.append(tts.en_audio(Prompts.AMZ_VOICE_INSTRUCTOR, session_start))
         lead_in = lead_in.append(AudioSegment.silent(750))
 

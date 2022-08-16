@@ -99,10 +99,13 @@ def create_prompts() -> dict[str, AudioSegment]:
 
     tag = "intro_2"
     text = """
-        About the pronoun, "you". In English this pronoun can refer to 1 person, 2 people, or more people.
-        Cherokee has three different forms for, "you". A different word when referring to 1 person.
-        Another word when referring to 2 people. And another when referring to 3 or more people.
-        When you hear the word, "you", assume it refers to one person unless it is followed by
+        About the pronoun, "you". In English this pronoun can refer to
+        1 person, 2 people, or more people.
+        Cherokee has three different forms for, "you".
+        The different forms are determined by whether you mean
+        "one of you", "both of you", or "three or more of you".
+        When you hear the word, "you", assume it refers to one person
+        unless it is accompanied by
         the word, "both", or the word, "all".
         """
     prompts[tag] = en_audio(voice, text)
@@ -110,8 +113,18 @@ def create_prompts() -> dict[str, AudioSegment]:
     tag = "keep_going"
     text = """
     Do not become discouraged while doing these sessions.
-    It is normal to have to repeat them several times.
-    As you progress you will find the later sessions much easier.
+    Note: It is important to not do tomorrow's session today.
+    The learning method of graduated interval recall that this material uses
+    requires that you only do a single day's session each day.
+    You may repeat a day's session more than once in a day.
+    To reiterate.
+    On day one only do the session for day one.
+     You can repeat day one's session as many times as you like during the day.
+    On day two only do the session for day two.
+     You can repeat day two's session as many times as you like during the day.
+    On day three only do the session for day three.
+     You can repeat day three's session as many times as you like during the day.
+    And so forth.
     """
     prompts[tag] = en_audio(voice, text)
 
