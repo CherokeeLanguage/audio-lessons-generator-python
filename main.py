@@ -88,6 +88,7 @@ cfg: Config | None = None
 class Options:
     dataset: str = ""
     mp4: bool | None = None
+    only_assemble: bool = False
 
 
 def parse_args() -> Options:
@@ -102,6 +103,7 @@ def parse_args() -> Options:
         Enable mp4 generation. Use --no-mp4 to disable mp4 generation.
         Overrides value provided in dataset configuration file.
         """, default=None)
+    parser.add_argument("--only-assemble", dest="only_assemble", action="store_const", const=True, default=False)
     args: argparse.Namespace = parser.parse_args()
     if args.mp4 is not None:
         options.mp4 = args.mp4
@@ -109,6 +111,8 @@ def parse_args() -> Options:
             print(f"Forcing mp4 generation.")
         else:
             print(f"Skipping mp4 generation.")
+    if args.only_assemble:
+        options.only_assemble = True
     options.dataset = args.dataset
     return options
 
@@ -588,6 +592,8 @@ def main() -> None:
 
     if cfg.collect_audio:
         collect_audio(dataset, out_dir, main_deck)
+        if options.only_assemble:
+            return
 
     prompts = Prompts.create_prompts()
 
