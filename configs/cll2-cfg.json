@@ -7,7 +7,7 @@
     "deck_source": null,
     "extra_sessions": 0,
     "final_review_session_count": 0,
-    "new_card_max_tries": 6,
+    "new_card_max_tries": 7,
     "new_card_tries_decrement": 0,
     "new_cards_increment": 1,
     "new_cards_max_per_session": 21,

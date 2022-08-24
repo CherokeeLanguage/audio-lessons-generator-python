@@ -26,14 +26,14 @@ class Config:
     create_all_sessions: bool = True
     extra_sessions: int = 2
 
-    new_card_max_tries: int = 6
+    new_card_max_tries: int = 7
     new_card_tries_decrement: int = 0
 
     new_cards_max_per_session: int = 21
     new_cards_per_session: int = 14  # 14  # 7
     new_cards_increment: int = 1
 
-    review_card_max_tries: int = 6
+    review_card_max_tries: int = 5
     review_card_tries_decrement: int = 0
 
     review_cards_max_per_session: int = 21
