@@ -942,25 +942,28 @@ def main() -> None:
 
         if dataset == "cll1-v3":
             tags["album"] = "Cherokee Language Lessons 1 - 3rd Edition"
-            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"CLL 1 [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
+        elif dataset == "cll2":
+            tags["album"] = "Cherokee Language Lessons 2"
+            tags["title"] = f"CLL 2 [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
         elif dataset == "beginning-cherokee":
             tags["album"] = "Beginning Cherokee - 2nd Edition"
-            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"BC [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
         elif dataset == "animals":
             tags["album"] = "Animals"
-            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"Animals [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
         elif dataset == "bound-pronouns":
             tags["album"] = "Bound Pronouns"
-            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"BP [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
         elif dataset == "osiyo-tohiju-then-what":
-            tags["album"] = "Osiyo, Tohiju? … Then what?"
+            tags["album"] = "Osiyo, Tohiju?…Then what?"
             tags["title"] = f"Osiyo [{_exercise_set + 1:02d}] {challenge_start} ... {challenge_stop}"
         elif dataset == "ced-sentences":
             tags["album"] = "Example Sentences. Cherokee English Dictionary, 1st Edition"
-            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"C.E.D. Examples [{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
         else:
             tags["album"] = dataset
-            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start} … {challenge_stop}"
+            tags["title"] = f"[{_exercise_set + 1:02d}] {challenge_start}…{challenge_stop}"
 
         tags["composer"] = "Michael Conrad"
         tags["copyright"] = f"©{date.today().year} Michael Conrad CC-BY"
