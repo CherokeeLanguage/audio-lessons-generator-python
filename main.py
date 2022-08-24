@@ -611,8 +611,8 @@ def main() -> None:
     if cfg.review_deck:
         review_deck: LeitnerAudioDeck = load_review_deck(cfg.review_deck)
         for card in review_deck.cards:
-            main_deck.append(card)
-        save_deck(main_deck, pathlib.Path("decks", f"{dataset}-with-review-cards.json"))
+            finished_deck.append(card)
+        # save_deck(main_deck, pathlib.Path("decks", f"{dataset}-with-review-cards.json"))
 
     prompts = Prompts.create_prompts()
 
