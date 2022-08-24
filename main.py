@@ -533,6 +533,18 @@ def save_deck(deck: LeitnerAudioDeck, destination: pathlib.Path):
         w.write("\n")
 
 
+def load_review_deck(source: pathlib.Path) -> LeitnerAudioDeck:
+    deck: LeitnerAudioDeck
+    jsonpickle.load_backend('simplejson', 'dumps', 'loads', ValueError)
+    jsonpickle.set_preferred_backend('simplejson')
+    jsonpickle.set_encoder_options('simplejson', ensure_ascii=False)
+    if not os.path.exists(source):
+        raise RuntimeError(f"Review deck {source} not found.")
+    with open(source, "r") as r:
+        json_text = r.read()
+        return jsonpickle.loads(json_text)
+
+
 def collect_audio(dataset: str, out_dir: str, deck: LeitnerAudioDeck) -> None:
     print("Collecting audio for other projects to use.")
     dest_audio: str = os.path.join(out_dir, "source")
@@ -584,6 +596,7 @@ def main() -> None:
     os.makedirs(out_dir, exist_ok=True)
 
     main_deck = load_main_deck(os.path.join("cherokee-vocab-data", deck_source + ".txt"))
+
     if cfg.resort_by_length:
         main_deck.cards.sort(key=lambda c: c.data.sort_key)
     save_deck(main_deck, pathlib.Path("decks", f"{dataset}-orig.json"))
@@ -594,6 +607,12 @@ def main() -> None:
         collect_audio(dataset, out_dir, main_deck)
         if options.only_assemble:
             return
+
+    if cfg.review_deck:
+        review_deck: LeitnerAudioDeck = load_review_deck(cfg.review_deck)
+        for card in review_deck.cards:
+            main_deck.append(card)
+        save_deck(main_deck, pathlib.Path("decks", f"{dataset}-with-review-cards.json"))
 
     prompts = Prompts.create_prompts()
 
@@ -1101,33 +1120,50 @@ def main() -> None:
             cmd.append(output_png)
             cmd.append("-i")
             cmd.append(output_mp3)
-            cmd.append("-i")
-            cmd.append(output_srt)
-            cmd.append("-c:s")
-            cmd.append("mov_text")
+            cmd.append("-shortest")
             cmd.append("-q:a")
             cmd.append("3")
             cmd.append("-pix_fmt")
             cmd.append("yuv420p")
-            cmd.append("-shortest")
             cmd.append("-r")  # output frame rate
-            cmd.append("1")
-            # cmd.append("23.976")
+            cmd.append("23.976")
+            cmd.append("-x264-params")
+            cmd.append(f"keyint={int(23.976*3600+1)}:scenecut=0")
             cmd.append("-tune")
             cmd.append("stillimage")
-            save_title = tags["title"]
-            if tags["album"]:
-                tags["title"] = tags["title"] + " (" + tags["album"] + ")"
-            for k, v in tags.items():
+            cmd.append("-movflags")
+            cmd.append("+faststart")
+
+            cmd.append(output_mp4+".tmp.mp4")
+
+            print(f"Creating {mp4_name}.")
+            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+
+            cmd = list()
+            cmd.append("ffmpeg")
+            cmd.append("-nostdin")  # non-interactive
+            cmd.append("-y")  # overwrite
+            cmd.append("-i")
+            cmd.append(output_mp4+".tmp.mp4")
+            cmd.append("-i")
+            cmd.append(output_srt)
+            cmd.append("-c")
+            cmd.append("copy")
+            cmd.append("-c:s")
+            cmd.append("mov_text")
+            mp4_tags: dict[str, str] = tags.copy()
+            if mp4_tags["album"]:
+                mp4_tags["title"] = mp4_tags["title"] + " (" + mp4_tags["album"] + ")"
+            for k, v in mp4_tags.items():
                 cmd.append("-metadata")
                 cmd.append(f"{k}={v}")
-            tags["title"] = save_title
             cmd.append("-movflags")
             cmd.append("+faststart")
             cmd.append(output_mp4)
 
-            print(f"Creating {mp4_name}.")
+            print(f"Adding subtitles to {mp4_name}.")
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+            os.unlink(output_mp4+".tmp.mp4")
 
         # Bump counter
         _exercise_set += 1
