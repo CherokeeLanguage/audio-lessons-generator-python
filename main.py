@@ -7,7 +7,7 @@ exec python "$0" "$@"
 exit $?
 ''"""
 from __future__ import annotations
-
+from os.path import relpath
 import argparse
 import dataclasses
 import os
@@ -547,7 +547,7 @@ def load_review_deck(source: pathlib.Path) -> LeitnerAudioDeck:
 
 def collect_audio(dataset: str, out_dir: str, deck: LeitnerAudioDeck) -> None:
     print("Collecting audio for other projects to use.")
-    dest_audio: str = os.path.join(out_dir, "source")
+    dest_audio: pathlib.Path = pathlib.Path(os.path.join(out_dir, "source")).resolve()
     dest_en = os.path.join(dest_audio, "en")
     os.makedirs(dest_en, exist_ok=True)
     dest_chr = os.path.join(dest_audio, "chr")
@@ -563,7 +563,11 @@ def collect_audio(dataset: str, out_dir: str, deck: LeitnerAudioDeck) -> None:
             file.file = os.path.basename(file.file)
     # save deck *after* altering the file paths
     save_deck(main_deck, pathlib.Path(dest_audio, f"{dataset}-with-audio-file.json"))
-
+    cwd: str = os.getcwd()
+    os.chdir(dest_audio)
+    zip_file = pathlib.Path(dest_audio).with_stem(f"{dataset}-source").with_suffix(".zip")
+    subprocess.run(["zip", zip_file, "-r", relpath(dest_audio)])
+    os.chdir(cwd)
 
 def main() -> None:
     random.seed(0)  # Make output idempotent for consecutive runs on the same day.
