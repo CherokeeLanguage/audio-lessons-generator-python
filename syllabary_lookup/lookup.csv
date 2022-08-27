@@ -12,18 +12,30 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,a:lí:sa:gwe:ti ale énto:ni gv̀:gwadu:líha,ᎠᎵᏌᏇᏘ ᎠᎴ ᎡnᏙᏂ ᎬᏆᏚᎵᎭ
 ,a:lí:sa:gwe:ti dě:jádó:ʔa,ᎠᎵᏌᏇᏘ ᏕᏣᏙᎠ
 *,"a:lí:sa:gwe:ti, dv:sgini:go:hi, énto:ni ale ayv.","ᎠᎵᏌᏇᏘ, ᏛᏍᎩᏂᎪᎯ, ᎡnᏙᏂ ᎠᎴ ᎠᏴ."
+,a:ni:gi:hli,ᎠᏂᎩᏟ
+,a:ni:ʔahwi,ᎠᏂᎠᏫ
+*,a:niji:sd,ᎠᏂᏥᏍd
+,a:niji:sdu,ᎠᏂᏥᏍᏚ
 ,a:nijo ahwi,ᎠᏂᏦ ᎠᏫ
 ,a:nijoʔi ahawi,ᎠᏂᏦᎢ ᎠᎭᏫ
 *,a:nitáʔl iyáni ani:ge:hyű:j,ᎠᏂᏔꮅ ᎢᏯᏂ ᎠᏂᎨᏳj
 ,a:nitáʔl wě:sa,ᎠᏂᏔꮅ ᏪᏌ
 ,a:nitáʔli iyáni ani:ge:hyű:ja,ᎠᏂᏔᎵ ᎢᏯᏂ ᎠᏂᎨᏳᏣ
 ,a:nitáʔli wě:sa,ᎠᏂᏔᎵ ᏪᏌ
+,a:niwahaya,ᎠᏂᏩᎭᏯ
+,a:niwahya,ᎠᏂᏩᏯ
+,a:niwě:s,ᎠᏂᏪᏍ
+,a:niwě:sa,ᎠᏂᏪᏌ
+,a:niʔahawi,ᎠᏂᎠᎭᏫ
+*,a:nő:sd ani:jalag,ᎠᏃᏍd ᎠᏂᏣᎳg
+,a:nő:sda ani:jalagi,ᎠᏃᏍᏓ ᎠᏂᏣᎳᎩ
 *,"a:sé:hno, ji:sd ga:ji:ya:du:lí.","ᎠᏎᏃ, ᏥᏍd ᎦᏥᏯᏚᎵ."
 ,"a:sé:hno, ji:sdu ga:ji:ya:du:líha.","ᎠᏎᏃ, ᏥᏍᏚ ᎦᏥᏯᏚᎵᎭ."
 *,"a:sé:hnv, ji:sd ga:ji:ya:du:lí.","ᎠᏎᏅ, ᏥᏍd ᎦᏥᏯᏚᎵ."
 ,a:sésdi.,ᎠᏎᏍᏗ.
 *,achű:j.,ᎠᏧj.
 *,achű:ja hla yagigowhtíha,ᎠᏧᏣ Ꮭ ᏯᎩᎪwᏘᎭ
+*,achű:ja hla yagigowhtíha.,ᎠᏧᏣ Ꮭ ᏯᎩᎪwᏘᎭ.
 ,achű:ja.,ᎠᏧᏣ.
 ,achű:ji.,ᎠᏧᏥ.
 ,adaha:lige̋ ahwi,ᎠᏓᎭᎵᎨ ᎠᏫ
@@ -47,11 +59,14 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,age:hyű ale a:nijo yǒ:n,ᎠᎨᏳ ᎠᎴ ᎠᏂᏦ Ᏺn
 *,age:hyű:j.,ᎠᎨᏳj.
 *,age:hyű:ja agigowhtíha,ᎠᎨᏳᏣ ᎠᎩᎪwᏘᎭ
+*,age:hyű:ja agigowhtíha.,ᎠᎨᏳᏣ ᎠᎩᎪwᏘᎭ.
 ,age:hyű:ja ale a:nijoʔi yǒ:na,ᎠᎨᏳᏣ ᎠᎴ ᎠᏂᏦᎢ ᏲᎾ
 ,"age:hyű:ja, gadō ű:sdi jadu:lí?","ᎠᎨᏳᏣ, ᎦᏙ ᎤᏍᏗ ᏣᏚᎵ?"
 ,"age:hyű:ja, gadō ű:sdi?","ᎠᎨᏳᏣ, ᎦᏙ ᎤᏍᏗ?"
 ,age:hyű:ja.,ᎠᎨᏳᏣ.
+,agi:hli,ᎠᎩᏟ
 ,agido:da,ᎠᎩᏙᏓ
+*,agigowhtíha na age:hyű:ja.,ᎠᎩᎪwᏘᎭ Ꮎ ᎠᎨᏳᏣ.
 ,agiji,ᎠᎩᏥ
 ,agili:s,ᎠᎩᎵᏍ
 ,agili:s wě:s gè:sé,ᎠᎩᎵᏍ ᏪᏍ ᎨᏎ
@@ -88,8 +103,11 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ahale̋:na.,ᎠᎭᎴᎾ.
 ,ahale̋:ni.,ᎠᎭᎴᏂ.
 ,ahawi dù:wa:káha,ᎠᎭᏫ ᏚᏩᎧᎭ
+,ahawi dù:wa:káha.,ᎠᎭᏫ ᏚᏩᎧᎭ.
 *,ahawi hi:gowhtíha,ᎠᎭᏫ ᎯᎪwᏘᎭ
 ,ahawi à:gikáha,ᎠᎭᏫ ᎠᎩᎧᎭ
+,ahawi à:gikáha.,ᎠᎭᏫ ᎠᎩᎧᎭ.
+,ahawi.,ᎠᎭᏫ.
 ,ahawigwu.,ᎠᎭᏫᏊ.
 ,ahawis ga:hi:ya:du:lí?,ᎠᎭᏫᏍ ᎦᎯᏯᏚᎵ?
 ,ahawisgo ga:hi:ya:du:líha?,ᎠᎭᏫᏍᎪ ᎦᎯᏯᏚᎵᎭ?
@@ -99,13 +117,21 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ahljadő:hvsgi.,ᎠꮅᏣᏙᎲᏍᎩ.
 ,ahu:li.,ᎠᎱᎵ.
 ,ahwi dù:wa:ká,ᎠᏫ ᏚᏩᎧ
+,ahwi dù:wa:ká.,ᎠᏫ ᏚᏩᎧ.
 *,ahwi hi:gowhtí,ᎠᏫ ᎯᎪwᏘ
+,ahwi hla yida:giká.,ᎠᏫ Ꮭ ᏱᏓᎩᎧ.
 ,ahwi à:giká,ᎠᏫ ᎠᎩᎧ
+,ahwi à:giká.,ᎠᏫ ᎠᎩᎧ.
+,ahwi.,ᎠᏫ.
 ,ahwigwu.,ᎠᏫᏊ.
 ,ahő:li.,ᎠᎰᎵ.
 *,ajalag,ᎠᏣᎳg
 *,ajalag wě:s gè:sé.,ᎠᏣᎳg ᏪᏍ ᎨᏎ.
 ,ajalagi,ᎠᏣᎳᎩ
+*,aji:lv̋:sg,ᎠᏥᎸᏍg
+,aji:lv̋:sgi.,ᎠᏥᎸᏍᎩ.
+*,aji:sd,ᎠᏥᏍd
+,aji:sdu,ᎠᏥᏍᏚ
 ,ajina.,ᎠᏥᎾ.
 ,ajv̋sdi.,ᎠᏨᏍᏗ.
 *,ajv̋sdohd jaha.,ᎠᏨᏍᏙd ᏣᎭ.
@@ -122,8 +148,10 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ama.,ᎠᎹ.
 ,ana̋:ta.,ᎠᎾᏔ.
 *,ani:chű:j ge:jagowhtí,ᎠᏂᏧj ᎨᏣᎪwᏘ
+*,ani:chű:j ge:jagowhtí.,ᎠᏂᏧj ᎨᏣᎪwᏘ.
 *,ani:chű:j.,ᎠᏂᏧj.
 *,ani:chű:ja ge:jagowhtíha,ᎠᏂᏧᏣ ᎨᏣᎪwᏘᎭ
+*,ani:chű:ja ge:jagowhtíha.,ᎠᏂᏧᏣ ᎨᏣᎪwᏘᎭ.
 ,ani:chű:ja.,ᎠᏂᏧᏣ.
 ,ani:chű:ji.,ᎠᏂᏧᏥ.
 ,ani:daha:lige̋ wahaya,ᎠᏂᏓᎭᎵᎨ ᏩᎭᏯ
@@ -142,6 +170,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ani:gě:hya.,ᎠᏂᎨᏯ.
 ,ani:gǐ:gáge̋ ji:sdu,ᎠᏂᎩᎦᎨ ᏥᏍᏚ
 ,ani:je̋ tǔ:ya,ᎠᏂᏤ ᏚᏯ
+*,ani:ji:lv̋:sg,ᎠᏂᏥᎸᏍg
+,ani:ji:lv̋:sgi.,ᎠᏂᏥᎸᏍᎩ.
 ,ani:jé:ʔiyű:sdi do:ya,ᎠᏂᏤᎢᏳᏍᏗ ᏙᏯ
 ,ani:sakǒ:níge̋ salǒ:li,ᎠᏂᏌᎪᏂᎨ ᏌᎶᎵ
 *,ani:sgay.,ᎠᏂᏍᎦy.
@@ -158,6 +188,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ani:yv:wi:ya̋:ʔi,ᎠᏂᏴᏫᏯᎢ
 ,anv:hyi kaʔla.,ᎠᏅᏱ ᎧᎳ.
 ,asakǒ:níge̋ wě:s,ᎠᏌᎪᏂᎨ ᏪᏍ
+,asakǒ:níge̋ ù:sgǒ:lv̋ ahawi ahani gè:hv̌.,ᎠᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎠᎭᏫ ᎠᎭᏂ ᎨᎲ.
+,asakǒ:níge̋ ù:sgǒ:lv̋ ahwi ahni gè:hv̌.,ᎠᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎠᏫ ᎠᏂ ᎨᎲ.
 ,asakǒ:níge̋:ʔi wě:sa,ᎠᏌᎪᏂᎨᎢ ᏪᏌ
 ,asdǐ:gā,ᎠᏍᏗᎦ
 *,asgay.,ᎠᏍᎦy.
@@ -186,8 +218,14 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,asú:sdi à:wadu:líʔa.,ᎠᏑᏍᏗ ᎠᏩᏚᎵᎠ.
 ,asú:sdi.,ᎠᏑᏍᏗ.
 ,atade:gv̀:gā,ᎠᏔᏕᎬᎦ
+,awahaya,ᎠᏩᎭᏯ
+,awahya,ᎠᏩᏯ
 *,awi̋:n.,ᎠᏫn.
 ,awi̋:na.,ᎠᏫᎾ.
+,awě:s,ᎠᏪᏍ
+,awě:sa,ᎠᏪᏌ
+,awǒ:háʔli,ᎠᏬᎭᎵ
+,awǒ:háʔli.,ᎠᏬᎭᎵ.
 ,aya,ᎠᏯ
 ,aya:do:hlv̋,ᎠᏯᏙᏢ
 ,aya:do:hlv̋:ʔi,ᎠᏯᏙᏢᎢ
@@ -196,19 +234,29 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ayv:wi,ᎠᏴᏫ
 ,ayv:wi:ya̋,ᎠᏴᏫᏯ
 ,ayv:wi:ya̋:ʔi,ᎠᏴᏫᏯᎢ
+,ayvːwi hla ahawi uːnéːgihldi yàːdiha.,ᎠᏴᏫ Ꮭ ᎠᎭᏫ ᎤᏁᎩꮅᏗ ᏯᏗᎭ.
+,ayvːwi hla tǔːya juːnéːgihldi yàːdiha.,ᎠᏴᏫ Ꮭ ᏚᏯ ᏧᏁᎩꮅᏗ ᏯᏗᎭ.
 *,ayó:ne:g,ᎠᏲᏁg
 ,ayó:ne:ga,ᎠᏲᏁᎦ
 ,ayő:hli.,ᎠᏲᏟ.
+,aʔahawi,ᎠᎠᎭᏫ
+,aʔahwi,ᎠᎠᏫ
 ,a̋:ta.,ᎠᏔ.
 ,chaně:l,ᏣᏁꮅ
+*,chaně:l ale gahlgwǒ:g sgiga:ʔd ǐ:g.,ᏣᏁꮅ ᎠᎴ ᎦꮅᏉg ᏍᎩᎦd Ꭲg.
 ,chaně:la,ᏣᏁᎳ
+,chaně:la ale gahlgwǒ:gi sgiga:ʔdu ǐ:gi.,ᏣᏁᎳ ᎠᎴ ᎦꮅᏉᎩ ᏍᎩᎦᏚ ᎢᎩ.
 ,chaně:li:ne̋ jalagi go:hwe:lv̋:ʔi.,ᏣᏁᎵᏁ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,chaně:li:ne̋.,ᏣᏁᎵᏁ.
 ,chaně:li:ne̋:ʔi.,ᏣᏁᎵᏁᎢ.
 ,chaně:li:ne̋ʔi jalagi go:hwe:lv̋:ʔi.,ᏣᏁᎵᏁᎢ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,chawásga.,ᏣᏩᏍᎦ.
+,chu:l,Ꮷꮅ
+,chu:la.,ᏧᎳ.
 ,chuně:l,ᏧᏁꮅ
+*,chuně:l ale gahlgwǒ:g sgiga:ʔd ǐ:g.,ᏧᏁꮅ ᎠᎴ ᎦꮅᏉg ᏍᎩᎦd Ꭲg.
 ,chuně:la,ᏧᏁᎳ
+,chuně:la ale gahlgwǒ:gi sgiga:ʔdu ǐ:gi.,ᏧᏁᎳ ᎠᎴ ᎦꮅᏉᎩ ᏍᎩᎦᏚ ᎢᎩ.
 ,chuně:li:ne̋ jalagi go:hwe:lv̋:ʔi.,ᏧᏁᎵᏁ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,chuně:li:ne̋.,ᏧᏁᎵᏁ.
 ,chuně:li:ne̋:ʔi.,ᏧᏁᎵᏁᎢ.
@@ -219,6 +267,10 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dagò:wahtā,ᏓᎪᏩᏔ
 ,daha:lige̋ nǔ:na,ᏓᎭᎵᎨ ᏄᎾ
 ,daha:lige̋:ʔi nǔ:na,ᏓᎭᎵᎨᎢ ᏄᎾ
+*,daks,ᏓkᏍ
+*,daksi.,ᏓkᏏ.
+,dala:l,ᏓᎳꮅ
+,dala:la.,ᏓᎳᎳ.
 ,dalǒ:níge̋ nv̀:ya,ᏓᎶᏂᎨ ᏅᏯ
 ,dalǒ:níge̋ ù:sgǒ:lv̋ tǔ:ya,ᏓᎶᏂᎨ ᎤᏍᎪᎸ ᏚᏯ
 ,dalǒ:níge̋:ʔi nv̀:ya,ᏓᎶᏂᎨᎢ ᏅᏯ
@@ -320,6 +372,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,de:jago:hv̌,ᏕᏣᎪᎲ
 ,de:jago:hv̌:ʔi,ᏕᏣᎪᎲᎢ
 ,de:jaha,ᏕᏣᎭ
+,de:jaha gu:le.,ᏕᏣᎭ ᎫᎴ.
 ,de:jahv̌,ᏕᏣᎲ
 ,de:jahv̌:ʔi,ᏕᏣᎲᎢ
 ,de:jahyá:ʔv̌,ᏕᏣᏯᎥ
@@ -327,7 +380,9 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,de:jahé:sdi,ᏕᏣᎮᏍᏗ
 ,de:jahó,ᏕᏣᎰ
 ,de:jahó:ʔi,ᏕᏣᎰᎢ
+,de:jaká wahya.,ᏕᏣᎧ ᏩᏯ.
 ,de:jakáha,ᏕᏣᎧᎭ
+,de:jakáha wahaya.,ᏕᏣᎧᎭ ᏩᎭᏯ.
 ,de:jane:hé:sdi,ᏕᏣᏁᎮᏍᏗ
 ,de:jane:hó,ᏕᏣᏁᎰ
 ,de:jane:hó:ʔi,ᏕᏣᏁᎰᎢ
@@ -418,6 +473,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,de:sdì:sdí:gv̌:ʔi,ᏕᏍᏗᏍᏗᎬᎢ
 ,de:sdù:di:tahv̌,ᏕᏍᏚᏗᏔᎲ
 ,de:sdù:di:tahv̌:ʔi,ᏕᏍᏚᏗᏔᎲᎢ
+,de:wa.,ᏕᏩ.
 ,dego:hwe:lv̋.,ᏕᎪᏪᎸ.
 ,di:de:hyǒ:hv.,ᏗᏕᏲᎲ.
 ,"di:de:hyǒ:hvsgi, go:hí i:ga ő:sda:dv̀ di:sésdi go:lì:ga!","ᏗᏕᏲᎲᏍᎩ, ᎪᎯ ᎢᎦ ᎣᏍᏓᏛ ᏗᏎᏍᏗ ᎪᎵᎦ!"
@@ -427,14 +483,18 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,di:dǎ:hnehdi.,ᏗᏓᏁᏗ.
 *,di:jv̋ysdi dù:du:líha go:hí i:ga.,ᏗᏨyᏍᏗ ᏚᏚᎵᎭ ᎪᎯ ᎢᎦ.
 *,di:jv̋ysdi.,ᏗᏨyᏍᏗ.
+,di:l,Ꮧꮅ
+,di:li.,ᏗᎵ.
 ,di:ni:hala̋:da.,ᏗᏂᎭᎳᏓ.
 ,di:ni:hale̋:na.,ᏗᏂᎭᎴᎾ.
 ,di:ni:hale̋:ni.,ᏗᏂᎭᎴᏂ.
 ,di:ni:yő:hli.,ᏗᏂᏲᏟ.
 *,di:sadv́:d de:higowhtí,ᏗᏌᏛd ᏕᎯᎪwᏘ
 *,di:sadv́:d dǔ:ha,ᏗᏌᏛd ᏚᎭ
+*,di:sadv́:d dǔ:ha.,ᏗᏌᏛd ᏚᎭ.
 *,di:sadv́:di de:higowhtíha,ᏗᏌᏛᏗ ᏕᎯᎪwᏘᎭ
 ,di:sadv́:di dǔ:ha,ᏗᏌᏛᏗ ᏚᎭ
+,di:sadv́:di dǔ:ha.,ᏗᏌᏛᏗ ᏚᎭ.
 ,di:sésdi nidì:díwa.,ᏗᏎᏍᏗ ᏂᏗᏗᏩ.
 ,di:sésdi nidì:díwi.,ᏗᏎᏍᏗ ᏂᏗᏗᏫ.
 ,di:sésdi nidì:níwa.,ᏗᏎᏍᏗ ᏂᏗᏂᏩ.
@@ -495,6 +555,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,digo:hwe:la nidì:níwa.,ᏗᎪᏪᎳ ᏂᏗᏂᏩ.
 ,digo:hwe:la nidì:níwi.,ᏗᎪᏪᎳ ᏂᏗᏂᏫ.
 ,digo:hwe:li à:niwásga maga.,ᏗᎪᏪᎵ ᎠᏂᏩᏍᎦ ᎹᎦ.
+*,digoːhweːl juwoːdű àgwanht.,ᏗᎪᏪꮅ ᏧᏬᏚ ᎠᏆnt.
+*,digoːhweːli juwoːdűːhi àgwanhta.,ᏗᎪᏪᎵ ᏧᏬᏚᎯ ᎠᏆnᏔ.
 ,digv̌:hnáge̋ nv̀:ya,ᏗᎬᎿᎨ ᏅᏯ
 ,digwe:hlu:sdi.,ᏗᏇᏡᏍᏗ.
 ,digwe:lu:sdi.,ᏗᏇᎷᏍᏗ.
@@ -581,11 +643,26 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,disdì:hlǐ:sa,ᏗᏍᏗᏟᏌ
 *,disdì:tdi,ᏗᏍᏗtᏗ
 ,disésdi.,ᏗᏎᏍᏗ.
+,dla:me:ha.,ᏜᎺᎭ.
+,dla:nú:si.,ᏜᏄᏏ.
+*,dluhgv̋ jigowhtí,ᏡᎬ ᏥᎪwᏘ
+*,dluhgv̋:ʔi jigowhtíha,ᏡᎬᎢ ᏥᎪwᏘᎭ
 ,do:hiyű.,ᏙᎯᏳ.
+,do:s,ᏙᏍ
+,do:sa.,ᏙᏌ.
+,do:sv̌:dáʔl,ᏙᏒᏓꮅ
+,do:sv̌:dáʔli.,ᏙᏒᏓᎵ.
+*,do:y,Ꮩy
 ,do:ya dù:ni:ká,ᏙᏯ ᏚᏂᎧ
+,do:ya dù:ni:ká.,ᏙᏯ ᏚᏂᎧ.
 ,do:ya dù:ni:káha,ᏙᏯ ᏚᏂᎧᎭ
+,do:ya dù:ni:káha.,ᏙᏯ ᏚᏂᎧᎭ.
+,do:ya hla yà:gikáha.,ᏙᏯ Ꮭ ᏯᎩᎧᎭ.
 ,do:ya jaká,ᏙᏯ ᏣᎧ
+,do:ya jaká.,ᏙᏯ ᏣᎧ.
 ,do:ya jakáha,ᏙᏯ ᏣᎧᎭ
+,do:ya jakáha.,ᏙᏯ ᏣᎧᎭ.
+,do:ya.,ᏙᏯ.
 ,do:yű.,ᏙᏳ.
 ,dodada:go:hv:ʔi,ᏙᏓᏓᎪᎲᎢ
 ,dodada:go:hv:ʔi.,ᏙᏓᏓᎪᎲᎢ.
@@ -632,6 +709,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dà:gigo:hv̌,ᏓᎩᎪᎲ
 ,dà:gigo:hv̌:ʔi,ᏓᎩᎪᎲᎢ
 ,dà:giha,ᏓᎩᎭ
+,dà:giha nv̀:ya.,ᏓᎩᎭ ᏅᏯ.
 ,dà:gihv̌,ᏓᎩᎲ
 ,dà:gihv̌:ʔi,ᏓᎩᎲᎢ
 ,dà:gihyá:ʔv̌,ᏓᎩᏯᎥ
@@ -639,7 +717,9 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dà:gihé:sdi,ᏓᎩᎮᏍᏗ
 ,dà:gihó,ᏓᎩᎰ
 ,dà:gihó:ʔi,ᏓᎩᎰᎢ
+*,dà:giká ji:sd.,ᏓᎩᎧ ᏥᏍd.
 ,dà:gikáha,ᏓᎩᎧᎭ
+,dà:gikáha ji:sdu.,ᏓᎩᎧᎭ ᏥᏍᏚ.
 ,dà:gine:hv̌,ᏓᎩᏁᎲ
 ,dà:gine:hv̌:ʔi,ᏓᎩᏁᎲᎢ
 ,dà:gine:hé:sdi,ᏓᎩᏁᎮᏍᏗ
@@ -650,6 +730,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dà:gináé:sdi,ᏓᎩᎾᎡᏍᏗ
 ,dà:gináó,ᏓᎩᎾᎣ
 ,dà:gináó:ʔi,ᏓᎩᎾᎣᎢ
+*,dà:gwadó énto:ni,ᏓᏆᏙ ᎡnᏙᏂ
 *,dà:gwanhta,ᏓᏆnᏔ
 *,dà:gwanhtv̌,ᏓᏆnᏛ
 *,dà:gwanhtv̌:ʔi,ᏓᏆnᏛᎢ
@@ -693,6 +774,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dà:nì:hlǐ:sā,ᏓᏂᏟᏌ
 ,dà:nì:sdǐ:gíʔa,ᏓᏂᏍᏗᎩᎠ
 ,dàsdǐ:gíʔa,ᏓᏍᏗᎩᎠ
+,"dè:jádó dé:widi, chá:li, ale já:ni","ᏕᏣᏙ ᏕᏫᏗ, ᏣᎵ, ᎠᎴ ᏣᏂ"
 ,dé:da:dǐ:tā,ᏕᏓᏗᏔ
 ,dé:dada:dohlga,ᏕᏓᏓᏙꮅᎦ
 ,dé:dada:dohlgó,ᏕᏓᏓᏙꮅᎪ
@@ -905,6 +987,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dò:gadadu:lv:hv̌,ᏙᎦᏓᏚᎸᎲ
 ,dò:gadadu:lv:hv̌:ʔi,ᏙᎦᏓᏚᎸᎲᎢ
 ,dò:gadadu:líha,ᏙᎦᏓᏚᎵᎭ
+*,"dò:gadó má:gaye:t, mé:l, ale gwa:gwa","ᏙᎦᏙ ᎹᎦᏰt, Ꮊꮅ, ᎠᎴ ᏆᏆ"
 ,dò:gadǔ:lā,ᏙᎦᏚᎳ
 *,dò:ganhta,ᏙᎦnᏔ
 ,dò:gi hadí?,ᏙᎩ ᎭᏗ?
@@ -919,6 +1002,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dò:gi:hó,ᏙᎩᎰ
 ,dò:gi:hó:ʔi,ᏙᎩᎰᎢ
 ,dò:gi:káha,ᏙᎩᎧᎭ
+*,dò:gi:nadó lí:nid ale ma:gá:l,ᏙᎩᎾᏙ ᎵᏂd ᎠᎴ ᎹᎦꮅ
 ,dò:gi:ne:hv̌,ᏙᎩᏁᎲ
 ,dò:gi:ne:hv̌:ʔi,ᏙᎩᏁᎲᎢ
 ,dò:gi:ne:hó,ᏙᎩᏁᎰ
@@ -991,6 +1075,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dò:gù:di:tahv̌,ᏙᎫᏗᏔᎲ
 ,dò:gù:di:tahv̌:ʔi,ᏙᎫᏗᏔᎲᎢ
 ,"dò:gī""v",ᏙᎩᎥ
+,dò:hv̋?,ᏙᎲ?
 ,dò:ja:dǐ:tā,ᏙᏣᏗᏔ
 ,dò:jada:dohlga,ᏙᏣᏓᏙꮅᎦ
 ,dò:jada:dohlgó,ᏙᏣᏓᏙꮅᎪ
@@ -1054,6 +1139,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dù:nadadu:lv:hv̌,ᏚᎾᏓᏚᎸᎲ
 ,dù:nadadu:lv:hv̌:ʔi,ᏚᎾᏓᏚᎸᎲᎢ
 ,dù:nadadu:líha,ᏚᎾᏓᏚᎵᎭ
+,"dù:nadó salǒ:li, sǒ:gwíli, ale yǒ:na","ᏚᎾᏙ ᏌᎶᎵ, ᏐᏈᎵ, ᎠᎴ ᏲᎾ"
 *,dù:nanhté:sdi,ᏚᎾnᏖᏍᏗ
 ,dù:ni:go:hv̌,ᏚᏂᎪᎲ
 ,dù:ni:go:hv̌:ʔi,ᏚᏂᎪᎲᎢ
@@ -1065,7 +1151,9 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dù:ni:hé:sdi,ᏚᏂᎮᏍᏗ
 ,dù:ni:hó,ᏚᏂᎰ
 ,dù:ni:hó:ʔi,ᏚᏂᎰᎢ
+,dù:ni:ká do:ya.,ᏚᏂᎧ ᏙᏯ.
 ,dù:ni:káha,ᏚᏂᎧᎭ
+,dù:ni:káha do:ya.,ᏚᏂᎧᎭ ᏙᏯ.
 ,dù:ni:ne:hv̌,ᏚᏂᏁᎲ
 ,dù:ni:ne:hv̌:ʔi,ᏚᏂᏁᎲᎢ
 ,dù:ni:ne:hó,ᏚᏂᏁᎰ
@@ -1097,15 +1185,27 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,dù:nù:di:tahv̌,ᏚᏄᏗᏔᎲ
 ,dù:nù:di:tahv̌:ʔi,ᏚᏄᏗᏔᎲᎢ
 ,"dù:nī""v",ᏚᏂᎥ
+*,dù:nǐ:ha na nǔ:n.,ᏚᏂᎭ Ꮎ Ꮔn.
+,dù:nǐ:ha na nǔ:na.,ᏚᏂᎭ Ꮎ ᏄᎾ.
 ,dù:sdí:gv̌,ᏚᏍᏗᎬ
 ,dù:sdí:gv̌:ʔi,ᏚᏍᏗᎬᎢ
 ,dù:tǔ:gî:sv̌,ᏚᏚᎩᏒ
 ,dù:tǔ:gî:sv̌:ʔi,ᏚᏚᎩᏒᎢ
+,dù:wa:ká ahwi.,ᏚᏩᎧ ᎠᏫ.
+,dù:wa:káha ahawi.,ᏚᏩᎧᎭ ᎠᎭᏫ.
+*,dě:dluhgv̋ dà:nigowhtí,ᏕᏡᎬ ᏓᏂᎪwᏘ
+*,dě:dluhgv̋:ʔi dà:nigowhtíha,ᏕᏡᎬᎢ ᏓᏂᎪwᏘᎭ
 *,dě:hlgv̋ dà:nigowhtí,ᏕꮅᎬ ᏓᏂᎪwᏘ
 *,dě:hlgv̋:ʔi dà:nigowhtíha,ᏕꮅᎬᎢ ᏓᏂᎪwᏘᎭ
+*,dě:hluʔgv̋ dà:nigowhtí,ᏕᏡᎬ ᏓᏂᎪwᏘ
+*,dě:hluʔgv̋:ʔi dà:nigowhtíha,ᏕᏡᎬᎢ ᏓᏂᎪwᏘᎭ
+*,dě:hlʔgv̋ dà:nigowhtí,ᏕꮅᎬ ᏓᏂᎪwᏘ
+*,dě:hlʔgv̋:ʔi dà:nigowhtíha,ᏕꮅᎬᎢ ᏓᏂᎪwᏘᎭ
+,dě:jádó a:lí:sa:gwe:ti,ᏕᏣᏙ ᎠᎵᏌᏇᏘ
 *,dě:jádó:ʔas dé:wid ji:sd?,ᏕᏣᏙᎠᏍ ᏕᏫd ᏥᏍd?
 ,dě:jádó:ʔasgo dé:widi ji:sdu?,ᏕᏣᏙᎠᏍᎪ ᏕᏫᏗ ᏥᏍᏚ?
 *,dě:jádós dé:wid ji:sd?,ᏕᏣᏙᏍ ᏕᏫd ᏥᏍd?
+,dě:sdádó sú:sano ale tó:masi,ᏕᏍᏓᏙ ᏑᏌᏃ ᎠᎴ ᏙᎹᏏ
 ,dō adv:ne?,Ꮩ ᎠᏛᏁ?
 ,dō anadv:ne?,Ꮩ ᎠᎾᏛᏁ?
 ,dō dě:jádó,Ꮩ ᏕᏣᏙ
@@ -1123,6 +1223,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,dō u:sd ì:jadu:lí?,Ꮩ ᎤᏍd ᎢᏣᏚᎵ?
 *,dō u:sd?,Ꮩ ᎤᏍd?
 *,dō u:sdi higowhtí?,Ꮩ ᎤᏍᏗ ᎯᎪwᏘ?
+,dō u:sdi?,Ꮩ ᎤᏍᏗ?
 *,dō à:dv́:ne achű:j?,Ꮩ ᎠᏛᏁ ᎠᏧj?
 *,dō à:dv́:ne age:hyű:j?,Ꮩ ᎠᏛᏁ ᎠᎨᏳj?
 *,dō à:na:dv́:ne ani:chű:j?,Ꮩ ᎠᎾᏛᏁ ᎠᏂᏧj?
@@ -1130,14 +1231,21 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,dō ű:sd do:dáhno:gí:si?,Ꮩ ᎤᏍd ᏙᏓᏃᎩᏏ?
 *,dō ű:sd dáhno:gí:si?,Ꮩ ᎤᏍd ᏓᏃᎩᏏ?
 *,dō ű:sd?,Ꮩ ᎤᏍd?
+,dō ű:sdi?,Ꮩ ᎤᏍᏗ?
 *,dō űnsd ani:sgaya?,Ꮩ ᎤnᏍd ᎠᏂᏍᎦᏯ?
+*,dō űnsd?,Ꮩ ᎤnᏍd?
 *,dō űnsdi ani:gě:hya?,Ꮩ ᎤnᏍᏗ ᎠᏂᎨᏯ?
+*,dō űnsdi?,Ꮩ ᎤnᏍᏗ?
 ,"dū""v",ᏚᎥ
+*,dǔ:ha na di:sadv́:d.,ᏚᎭ Ꮎ ᏗᏌᏛd.
+,dǔ:ha na di:sadv́:di.,ᏚᎭ Ꮎ ᏗᏌᏛᏗ.
 ,e:do:da,ᎡᏙᏓ
 ,e:ji,ᎡᏥ
 ,e:lo.,ᎡᎶ.
+,e:logwa.,ᎡᎶᏆ.
 ,e:lohi.,ᎡᎶᎯ.
 ,"eeè, ù:hyv:dla.","ᎡᎡᎡ, ᎤᏴᏜ."
+,ehli.,ᎡᏟ.
 *,e̋:g.,Ꭱg.
 ,e̋:gwa.,ᎡᏆ.
 ,e̋:gwv.,ᎡᏋ.
@@ -1168,6 +1276,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gadò à:nadv́:neha?,ᎦᏙ ᎠᎾᏛᏁᎭ?
 ,gadò:gi hadí:ʔa?,ᎦᏙᎩ ᎭᏗᎠ?
 ,gadò:hv̋,ᎦᏙᎲ
+,gadò:hv̋?,ᎦᏙᎲ?
 ,gadò?,ᎦᏙ?
 ,gadògí?,ᎦᏙᎩ?
 ,gadā,ᎦᏓ
@@ -1218,6 +1327,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,gadō űnsd ani:sgaya?,ᎦᏙ ᎤnᏍd ᎠᏂᏍᎦᏯ?
 *,gadō űnsdi ani:gě:hya?,ᎦᏙ ᎤnᏍᏗ ᎠᏂᎨᏯ?
 *,gadō űnsdi ani:sgaya?,ᎦᏙ ᎤnᏍᏗ ᎠᏂᏍᎦᏯ?
+*,gadō űnsdi?,ᎦᏙ ᎤnᏍᏗ?
 ,gadō?,ᎦᏙ?
 ,gadǐ:sgó,ᎦᏗᏍᎪ
 ,gadǐ:sgó:ʔi,ᎦᏗᏍᎪᎢ
@@ -1240,7 +1350,13 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gahi:yo:lí:sdi,ᎦᎯᏲᎵᏍᏗ
 ,gahlgwǎ:du,ᎦꮅᏆᏚ
 ,gahlgwǎ:sgǒ:hi,ᎦꮅᏆᏍᎪᎯ
+*,gahlgwǒ:g ale joʔga:ʔd táʔlsgǒ ǐ:g.,ᎦꮅᏉg ᎠᎴ ᏦᎦd ᏔꮅᏍᎪ Ꭲg.
+*,gahlgwǒ:g ale sà:gwű chaně:l ǐ:g.,ᎦꮅᏉg ᎠᎴ ᏌᏊ ᏣᏁꮅ Ꭲg.
+*,gahlgwǒ:g ale sà:gwű chuně:l ǐ:g.,ᎦꮅᏉg ᎠᎴ ᏌᏊ ᏧᏁꮅ Ꭲg.
 *,gahlgwǒ:g ani:ge:hyű:j,ᎦꮅᏉg ᎠᏂᎨᏳj
+,gahlgwǒ:gi ale joʔga:ʔdu táʔlsgǒ:hi ǐ:gi.,ᎦꮅᏉᎩ ᎠᎴ ᏦᎦᏚ ᏔꮅᏍᎪᎯ ᎢᎩ.
+,gahlgwǒ:gi ale sà:gwű chaně:la ǐ:gi.,ᎦꮅᏉᎩ ᎠᎴ ᏌᏊ ᏣᏁᎳ ᎢᎩ.
+,gahlgwǒ:gi ale sà:gwű chuně:la ǐ:gi.,ᎦꮅᏉᎩ ᎠᎴ ᏌᏊ ᏧᏁᎳ ᎢᎩ.
 ,gahlgwǒ:gi ani:ge:hyű:ja,ᎦꮅᏉᎩ ᎠᏂᎨᏳᏣ
 ,gahlgwǒ:gi:ne̋ salǒ:l,ᎦꮅᏉᎩᏁ ᏌᎶꮅ
 ,gahlgwǒ:gi:ne̋:ʔi salǒ:li,ᎦꮅᏉᎩᏁᎢ ᏌᎶᎵ
@@ -1282,8 +1398,10 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,gawò:nǐ:hísd,ᎦᏬᏂᎯᏍd
 ,gawò:nǐ:hísdi,ᎦᏬᏂᎯᏍᏗ
 ,gawó:ni.,ᎦᏬᏂ.
+*,gawó:ni:sgv́ à:ktahv.́,ᎦᏬᏂᏍᎬ ᎠkᏔᎲ.
 *,gawó:ni:sgv́ à:ktahv́,ᎦᏬᏂᏍᎬ ᎠkᏔᎲ
 *,gawó:ni:sgv́:ʔi à:ktahv́:ʔi,ᎦᏬᏂᏍᎬᎢ ᎠkᏔᎲᎢ
+*,gawó:ni:sgv́:ʔi à:ktahv́:ʔi.,ᎦᏬᏂᏍᎬᎢ ᎠkᏔᎲᎢ.
 ,gawó:niha.,ᎦᏬᏂᎭ.
 ,gawó:niʔa.,ᎦᏬᏂᎠ.
 ,gaʔdǔ:gía,ᎦᏚᎩᎠ
@@ -1334,7 +1452,9 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ge:gà:gà:tǒ:stánv̌:ʔi,ᎨᎦᎦᏙᏍᏔᏅᎢ
 ,ge:jadǔ:la,ᎨᏣᏚᎳ
 ,ge:jadǔ:lā,ᎨᏣᏚᎳ
+*,ge:jagowhtí na ani:chű:j.,ᎨᏣᎪwᏘ Ꮎ ᎠᏂᏧj.
 *,ge:jagowhtíha,ᎨᏣᎪwᏘᎭ
+*,ge:jagowhtíha na ani:chű:ja.,ᎨᏣᎪwᏘᎭ Ꮎ ᎠᏂᏧᏣ.
 *,ge:jagowhtǐ:sgó,ᎨᏣᎪwᏘᏍᎪ
 *,ge:jagowhtǐ:sgóʔi,ᎨᏣᎪwᏘᏍᎪᎢ
 ,ge:jagà:tǒ:sda,ᎨᏣᎦᏙᏍᏓ
@@ -1380,10 +1500,15 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,gi:hli dà:gowhtíha asgaya,ᎩᏟ ᏓᎪwᏘᎭ ᎠᏍᎦᏯ
 ,gi:hli ga:ji:ya:du:lí,ᎩᏟ ᎦᏥᏯᏚᎵ
 ,gi:hli ga:ji:ya:du:líha,ᎩᏟ ᎦᏥᏯᏚᎵᎭ
+,gi:hli hla yidù:wa:ká.,ᎩᏟ Ꮭ ᏱᏚᏩᎧ.
+,gi:hli hla yù:wa:káha.,ᎩᏟ Ꮭ ᏳᏩᎧᎭ.
 *,gi:hli ji:gowhtí,ᎩᏟ ᏥᎪwᏘ
 *,gi:hli ji:gowhtíha,ᎩᏟ ᏥᎪwᏘᎭ
 ,gi:hli ù:wa:ká,ᎩᏟ ᎤᏩᎧ
+,gi:hli ù:wa:ká.,ᎩᏟ ᎤᏩᎧ.
 ,gi:hli ù:wa:káha,ᎩᏟ ᎤᏩᎧᎭ
+,gi:hli ù:wa:káha.,ᎩᏟ ᎤᏩᎧᎭ.
+,gi:hli.,ᎩᏟ.
 ,gi:hlis?,ᎩᏟᏍ?
 ,gi:hlisgo?,ᎩᏟᏍᎪ?
 ,gili:s,ᎩᎵᏍ
@@ -1531,19 +1656,27 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gohlgā,ᎪꮅᎦ
 ,goʔi.,ᎪᎢ.
 ,gu:le de:jaha,ᎫᎴ ᏕᏣᎭ
+,gu:le de:jaha.,ᎫᎴ ᏕᏣᎭ.
 *,gu:le de:jigowhtí,ᎫᎴ ᏕᏥᎪwᏘ
 *,gu:le de:jigowhtíha,ᎫᎴ ᏕᏥᎪwᏘᎭ
+,gu:le hla yidi:jaha.,ᎫᎴ Ꮭ ᏱᏗᏣᎭ.
 ,gu:le ǔ:ha,ᎫᎴ ᎤᎭ
+,gu:le ǔ:ha.,ᎫᎴ ᎤᎭ.
+*,guːle dǐːso àgwanht.,ᎫᎴ ᏗᏐ ᎠᏆnt.
+*,guːle dǐːsoʔi àgwanhta.,ᎫᎴ ᏗᏐᎢ ᎠᏆnᏔ.
 ,gv:do:da,ᎬᏙᏓ
 ,gv:gigo:hv̌,ᎬᎩᎪᎲ
 ,gv:gigo:hv̌:ʔi,ᎬᎩᎪᎲᎢ
+*,gv:gigowhtí na wahya.,ᎬᎩᎪwᏘ Ꮎ ᏩᏯ.
 *,gv:gigowhtíha,ᎬᎩᎪwᏘᎭ
+*,gv:gigowhtíha na wahaya.,ᎬᎩᎪwᏘᎭ Ꮎ ᏩᎭᏯ.
 *,gv:gowhtv́hdi,ᎬᎪwᏛᏗ
 *,gv:gowhtíha,ᎬᎪwᏘᎭ
 ,gv:gwadu:líha,ᎬᏆᏚᎵᎭ
 ,gv:gwadǔ:lā,ᎬᏆᏚᎳ
 ,gv:gwo:hlísdi,ᎬᏉᏟᏍᏗ
 ,gv:gwohlga,ᎬᏉꮅᎦ
+,gv:he.,ᎬᎮ.
 ,gv:ji,ᎬᏥ
 ,gv:no:sásdi desgi:dì:si.,ᎬᏃᏌᏍᏗ ᏕᏍᎩᏗᏏ.
 ,gv:no:sásdi gahi:dì:si.,ᎬᏃᏌᏍᏗ ᎦᎯᏗᏏ.
@@ -1558,6 +1691,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gv:yo:li:jv̌,ᎬᏲᎵᏨ
 ,gv:yo:li:jv̌:ʔi,ᎬᏲᎵᏨᎢ
 ,gv:yo:lí:sdi,ᎬᏲᎵᏍᏗ
+*,gv́:n,Ꭼn
 *,gv́:n desgv̀.,Ꭼn ᏕᏍᎬ.
 *,gv́:n dè:skv̀.,Ꭼn ᏕᏍᎬ.
 *,gv́:n gahiʔv̀.,Ꭼn ᎦᎯᎥ.
@@ -1597,12 +1731,16 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gálè:gó,ᎦᎴᎪ
 ,gálè:gó:ʔi,ᎦᎴᎪᎢ
 ,gâ:gí?,ᎦᎩ?
+,gè:hv̋,ᎨᎲ
+,gè:hv̋:ʔi,ᎨᎲᎢ
 ,gè:hv̌,ᎨᎲ
 ,gè:hv̌:gi,ᎨᎲᎩ
 ,gè:hv̌:ʔi,ᎨᎲᎢ
 ,gè:hé,ᎨᎮ
 ,gè:hé:ʔi,ᎨᎮᎢ
 ,gè:nā,ᎨᎾ
+,gè:sv̋,ᎨᏒ
+,gè:sv̋:ʔi,ᎨᏒᎢ
 ,gè:sv̌,ᎨᏒ
 *,gè:sv̌:g,ᎨᏒg
 ,gè:sv̌:gi,ᎨᏒᎩ
@@ -1637,6 +1775,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,gù:gu ù:néha.,ᎫᎫ ᎤᏁᎭ.
 ,gù:gu ù:néʔa.,ᎫᎫ ᎤᏁᎠ.
 ,gù:gu.,ᎫᎫ.
+*,gùːgu dalǒːníge̋ ùːsgǒːlv̋ ùnhta.,ᎫᎫ ᏓᎶᏂᎨ ᎤᏍᎪᎸ ᎤnᏔ.
 ,gő:l.,Ꭺꮅ.
 ,gő:la jǔ:hyv́:dlv ù:hyv:dla.,ᎪᎳ ᏧᏴᏢ ᎤᏴᏜ.
 ,gő:la.,ᎪᎳ.
@@ -1665,8 +1804,20 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ha:dlv hině:la?,ᎭᏢ ᎯᏁᎳ?
 *,ha:dlv na a:nijo yǒ:n?,ᎭᏢ Ꮎ ᎠᏂᏦ Ᏺn?
 ,ha:dlv na a:nijoʔi yǒ:na?,ᎭᏢ Ꮎ ᎠᏂᏦᎢ ᏲᎾ?
+,ha:dlv na dluhgv̋:ʔi?,ᎭᏢ Ꮎ ᏡᎬᎢ?
+,ha:dlv na dluhgv̋?,ᎭᏢ Ꮎ ᏡᎬ?
+,ha:dlv na dě:dluhgv̋:ʔi?,ᎭᏢ Ꮎ ᏕᏡᎬᎢ?
+,ha:dlv na dě:dluhgv̋?,ᎭᏢ Ꮎ ᏕᏡᎬ?
 ,ha:dlv na dě:hlgv̋:ʔi,ᎭᏢ Ꮎ ᏕꮅᎬᎢ
+,ha:dlv na dě:hluʔgv̋:ʔi?,ᎭᏢ Ꮎ ᏕᏡᎬᎢ?
+,ha:dlv na dě:hluʔgv̋?,ᎭᏢ Ꮎ ᏕᏡᎬ?
+,ha:dlv na dě:hlʔgv̋:ʔi?,ᎭᏢ Ꮎ ᏕꮅᎬᎢ?
+,ha:dlv na dě:hlʔgv̋?,ᎭᏢ Ꮎ ᏕꮅᎬ?
 ,ha:dlv na hlgv̋:ʔi,ᎭᏢ Ꮎ ꮅᎬᎢ
+,ha:dlv na hluʔgv̋:ʔi?,ᎭᏢ Ꮎ ᏡᎬᎢ?
+,ha:dlv na hluʔgv̋?,ᎭᏢ Ꮎ ᏡᎬ?
+,ha:dlv na hlʔgv̋:ʔi?,ᎭᏢ Ꮎ ꮅᎬᎢ?
+,ha:dlv na hlʔgv̋?,ᎭᏢ Ꮎ ꮅᎬ?
 ,ha:dlv nihi?,ᎭᏢ ᏂᎯ?
 ,ha:dlv nà:sgi,ᎭᏢ ᎾᏍᎩ
 ,ha:dlv sdině:l?,ᎭᏢ ᏍᏗᏁꮅ?
@@ -1730,6 +1881,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,hiksgǒ:hi,ᎯkᏍᎪᎯ
 ,hila̋ dodajahwasi di:dǎ:hnehdi?,ᎯᎳ ᏙᏓᏣᏩᏏ ᏗᏓᏁᏗ?
 ,hila̋ gi:hli?,ᎯᎳ ᎩᏟ?
+,hila̋ iyv̋:ʔi?,ᎯᎳ ᎢᏴᎢ?
+,hila̋ iyv̋?,ᎯᎳ ᎢᏴ?
 ,hila̋ iyáni gi:hli?,ᎯᎳ ᎢᏯᏂ ᎩᏟ?
 ,hila̋ nǔ:na?,ᎯᎳ ᏄᎾ?
 ,hila̋ ǐ:ga̋ nǔ:na?,ᎯᎳ ᎢᎦ ᏄᎾ?
@@ -1738,9 +1891,11 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,hilù:ga,ᎯᎷᎦ
 ,hilù:gā,ᎯᎷᎦ
 ,hisdǐ:ga,ᎯᏍᏗᎦ
+*,hisg ale sóhně:l niga:ʔd ǐ:g.,ᎯᏍg ᎠᎴ ᏐᏁꮅ ᏂᎦd Ꭲg.
 *,hisg ana̋:ta à:né:ga.,ᎯᏍg ᎠᎾᏔ ᎠᏁᎦ.
 *,hisg do:ya,ᎯᏍg ᏙᏯ
 *,hisg.,ᎯᏍg.
+,hisgi ale sóhně:la niga:ʔdu ǐ:gi.,ᎯᏍᎩ ᎠᎴ ᏐᏁᎳ ᏂᎦᏚ ᎢᎩ.
 ,hisgi do:ya,ᎯᏍᎩ ᏙᏯ
 ,hisgi.,ᎯᏍᎩ.
 ,hisgi:ne̋ agě:hya,ᎯᏍᎩᏁ ᎠᎨᏯ
@@ -1764,6 +1919,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,hiʔa kó:ga sě:lu ga̋:du u:du:líʔa.,ᎯᎠ ᎪᎦ ᏎᎷ ᎦᏚ ᎤᏚᎵᎠ.
 ,hiʔa kó:ga.,ᎯᎠ ᎪᎦ.
 ,hiʔa kó:gi.,ᎯᎠ ᎪᎩ.
+*,hiʔa sà:gwű u:yő ji:sd.,ᎯᎠ ᏌᏊ ᎤᏲ ᏥᏍd.
+,hiʔa sà:gwű u:yő ji:sdu.,ᎯᎠ ᏌᏊ ᎤᏲ ᏥᏍᏚ.
 ,hiʔa u:yő,ᎯᎠ ᎤᏲ
 ,hiʔa.,ᎯᎠ.
 ,hiʔagwu.,ᎯᎠᏊ.
@@ -1786,38 +1943,82 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,hiʔv̀:si ajv̋sdi.,ᎯᎥᏏ ᎠᏨᏍᏗ.
 ,hiʔv̀:si ajv̋sdohdi.,ᎯᎥᏏ ᎠᏨᏍᏙᏗ.
 ,hla,Ꮭ
+*,hla achű:ja yagigowhtíha.,Ꮭ ᎠᏧᏣ ᏯᎩᎪwᏘᎭ.
 *,hla agě:hya yi̋:g. asgai.,Ꮭ ᎠᎨᏯ Ᏹg. ᎠᏍᎦᎢ.
 ,hla agě:hya yi̋:gi. asgaya.,Ꮭ ᎠᎨᏯ ᏱᎩ. ᎠᏍᎦᏯ.
 ,hla ahwi yida:giká,Ꮭ ᎠᏫ ᏱᏓᎩᎧ
+,hla ahwi yida:giká.,Ꮭ ᎠᏫ ᏱᏓᎩᎧ.
 *,hla ani:ge:hyű:j yigv:gigowhtí,Ꮭ ᎠᏂᎨᏳj ᏱᎬᎩᎪwᏘ
+*,hla ani:ge:hyű:j yigv:gigowhtí.,Ꮭ ᎠᏂᎨᏳj ᏱᎬᎩᎪwᏘ.
+*,hla asgai yi̋:g. agě:hya.,Ꮭ ᎠᏍᎦᎢ Ᏹg. ᎠᎨᏯ.
+,hla asgaya yi̋:gi. agě:hya.,Ꮭ ᎠᏍᎦᏯ ᏱᎩ. ᎠᎨᏯ.
 *,hla di:sadv́:d yidǔ:ha,Ꮭ ᏗᏌᏛd ᏱᏚᎭ
 ,hla do:ya yidi:jaká,Ꮭ ᏙᏯ ᏱᏗᏣᎧ
+,hla do:ya yidi:jaká.,Ꮭ ᏙᏯ ᏱᏗᏣᎧ.
 ,hla do:ya yà:gikáha,Ꮭ ᏙᏯ ᏯᎩᎧᎭ
+,hla do:ya yà:gikáha.,Ꮭ ᏙᏯ ᏯᎩᎧᎭ.
 ,hla gi:hli yidù:wa:ká,Ꮭ ᎩᏟ ᏱᏚᏩᎧ
+,hla gi:hli yidù:wa:ká.,Ꮭ ᎩᏟ ᏱᏚᏩᎧ.
 *,hla gi:hli yi̋:g. wě:s.,Ꮭ ᎩᏟ Ᏹg. ᏪᏍ.
 ,hla gi:hli yi̋:gi. wě:sa.,Ꮭ ᎩᏟ ᏱᎩ. ᏪᏌ.
 ,hla gi:hli yù:wa:káha,Ꮭ ᎩᏟ ᏳᏩᎧᎭ
+,hla gi:hli yù:wa:káha.,Ꮭ ᎩᏟ ᏳᏩᎧᎭ.
 *,hla go:hű:sd,Ꮭ ᎪᎱᏍd
 ,hla go:hű:sdi,Ꮭ ᎪᎱᏍᏗ
+*,hla goːhweːl só yùnhta.,Ꮭ ᎪᏪꮅ Ꮠ ᏳnᏔ.
+*,hla goːhweːli sóʔi yùnhta.,Ꮭ ᎪᏪᎵ ᏐᎢ ᏳnᏔ.
 ,hla gu:le yǔ:ha,Ꮭ ᎫᎴ ᏳᎭ
+*,hla gùːgu juːnéːgihld yigaːdí,Ꮭ ᎫᎫ ᏧᏁᎩꮅd ᏱᎦᏗ
 *,hla gő:sd,Ꮭ ᎪᏍd
 ,hla gő:sdi,Ꮭ ᎪᏍᏗ
+,hla gǐːge̋ gùːgu gǎːtíːyő yiːgèːsé.,Ꮭ ᎩᎨ ᎫᎫ ᎦᏘᏲ ᏱᎨᏎ.
+,hla gǐːgáge̋ gùːgu gǎːtíːyőːʔi yiːgèːsé.,Ꮭ ᎩᎦᎨ ᎫᎫ ᎦᏘᏲᎢ ᏱᎨᏎ.
 ,hla ji:sdu yijakáha,Ꮭ ᏥᏍᏚ ᏱᏣᎧᎭ
+,hla ji:sdu yijakáha.,Ꮭ ᏥᏍᏚ ᏱᏣᎧᎭ.
+,hla juːnoːdű wěːs gǎːtíːyő yiːgèːsé.,Ꮭ ᏧᏃᏚ ᏪᏍ ᎦᏘᏲ ᏱᎨᏎ.
+,hla juːnoːdűːhi wěːsa gǎːtíːyőːʔi yiːgèːséːʔi.,Ꮭ ᏧᏃᏚᎯ ᏪᏌ ᎦᏘᏲᎢ ᏱᎨᏎᎢ.
+*,hla na di:sadv́:d yidǔ:ha.,Ꮭ Ꮎ ᏗᏌᏛd ᏱᏚᎭ.
+,hla na gu:le yǔ:ha.,Ꮭ Ꮎ ᎫᎴ ᏳᎭ.
 ,hla nv̀:ya yijaha,Ꮭ ᏅᏯ ᏱᏣᎭ
+,hla nv̀:ya yijaha.,Ꮭ ᏅᏯ ᏱᏣᎭ.
+*,hla nv̀ːya juːnéːgihld yigaːdí.,Ꮭ ᏅᏯ ᏧᏁᎩꮅd ᏱᎦᏗ.
+,hla nv̀ːya juːnéːgihldi yigaːdía.,Ꮭ ᏅᏯ ᏧᏁᎩꮅᏗ ᏱᎦᏗᎠ.
 *,hla nà:sgi yiji:gowhtí,Ꮭ ᎾᏍᎩ ᏱᏥᎪwᏘ
 ,hla nǔ:na yà:giha,Ꮭ ᏄᎾ ᏯᎩᎭ
+,hla nǔ:na yà:giha.,Ꮭ ᏄᎾ ᏯᎩᎭ.
 ,hla sadv́:di yù:nǐ:ha,Ꮭ ᏌᏛᏗ ᏳᏂᎭ
+,hla sadv́:di yù:nǐ:ha.,Ꮭ ᏌᏛᏗ ᏳᏂᎭ.
+,hla sakǒːníge̋ ùːsgǒːlv̋ gùːgu soʔǐːyi yi̋ːgi.,Ꮭ ᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎫᎫ ᏐᎢᏱ ᏱᎩ.
 *,hla salǒ:l yige:jagowhtí,Ꮭ ᏌᎶꮅ ᏱᎨᏣᎪwᏘ
+*,hla salǒ:l yige:jagowhtí.,Ꮭ ᏌᎶꮅ ᏱᎨᏣᎪwᏘ.
+,hla salǒːl uwoːdű yàːdiha.,Ꮭ ᏌᎶꮅ ᎤᏬᏚ ᏯᏗᎭ.
+,hla salǒːli uwoːdűːhi yàːdiha.,Ꮭ ᏌᎶᎵ ᎤᏬᏚᎯ ᏯᏗᎭ.
 *,hla sgina yiji:gowhtí,Ꮭ ᏍᎩᎾ ᏱᏥᎪwᏘ
+*,hla só ahwi soʔǐːyi yi̋ːg.,Ꮭ Ꮠ ᎠᏫ ᏐᎢᏱ Ᏹg.
+,hla sóʔi ahawi soʔǐːyi yi̋ːgi.,Ꮭ ᏐᎢ ᎠᎭᏫ ᏐᎢᏱ ᏱᎩ.
 *,hla tò:hi̋ yi̋g.,Ꮭ ᏙᎯ Ᏹg.
 ,hla tò:hi̋ yi̋gi.,Ꮭ ᏙᎯ ᏱᎩ.
 *,hla v̀:sgi yiji:gowhtí,Ꮭ ᎥᏍᎩ ᏱᏥᎪwᏘ
 *,hla v̀:sgina yiji:gowhtí,Ꮭ ᎥᏍᎩᎾ ᏱᏥᎪwᏘ
 ,hla wě:s yidù:ni:ká,Ꮭ ᏪᏍ ᏱᏚᏂᎧ
+,hla wě:sa yidù:ni:ká.,Ꮭ ᏪᏌ ᏱᏚᏂᎧ.
 ,hla wě:sa yù:ni:káha,Ꮭ ᏪᏌ ᏳᏂᎧᎭ
+,hla wě:sa yù:ni:káha.,Ꮭ ᏪᏌ ᏳᏂᎧᎭ.
+*,hla yagigowhtíha na achű:ja.,Ꮭ ᏯᎩᎪwᏘᎭ Ꮎ ᎠᏧᏣ.
+,hla yidi:jaká do:ya.,Ꮭ ᏱᏗᏣᎧ ᏙᏯ.
+*,hla yijagowhtíha na yǒ:na.,Ꮭ ᏱᏣᎪwᏘᎭ Ꮎ ᏲᎾ.
+,hla yijaha na nv̀:ya.,Ꮭ ᏱᏣᎭ Ꮎ ᏅᏯ.
+,hla yijakáha ji:sdu.,Ꮭ ᏱᏣᎧᎭ ᏥᏍᏚ.
 *,hla yiji:gowhtíha,Ꮭ ᏱᏥᎪwᏘᎭ
+,hla yà:giha na nǔ:na.,Ꮭ ᏯᎩᎭ Ꮎ ᏄᎾ.
+,hla yà:gikáha do:ya.,Ꮭ ᏯᎩᎧᎭ ᏙᏯ.
+,hla yù:ni:káha wě:sa.,Ꮭ ᏳᏂᎧᎭ ᏪᏌ.
+,hla yù:nǐ:ha na sadv́:di.,Ꮭ ᏳᏂᎭ Ꮎ ᏌᏛᏗ.
+,hla yù:wa:káha gi:hli.,Ꮭ ᏳᏩᎧᎭ ᎩᏟ.
 *,hla yǒ:n áhni yi̋:g,Ꮭ Ᏺn ᎠᏂ Ᏹg
 *,hla yǒ:na yijagowhtíha,Ꮭ ᏲᎾ ᏱᏣᎪwᏘᎭ
+*,hla yǒ:na yijagowhtíha.,Ꮭ ᏲᎾ ᏱᏣᎪwᏘᎭ.
+,hla yǔ:ha na gu:le.,Ꮭ ᏳᎭ Ꮎ ᎫᎴ.
 *,hla áhni yi̋:g,Ꮭ ᎠᏂ Ᏹg
 *,hla ő:sd yi̋:g,Ꮭ ᎣᏍd Ᏹg
 *,hla ő:sd yi̋g.,Ꮭ ᎣᏍd Ᏹg.
@@ -1832,7 +2033,14 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,hlasgo ahawi yi̋:gi,ᏝᏍᎪ ᎠᎭᏫ ᏱᎩ
 *,hlgv̋ jigowhtí,ꮅᎬ ᏥᎪwᏘ
 *,hlgv̋:ʔi jigowhtíha,ꮅᎬᎢ ᏥᎪwᏘᎭ
+*,hluʔgv̋ jigowhtí,ᏡᎬ ᏥᎪwᏘ
+*,hluʔgv̋:ʔi jigowhtíha,ᏡᎬᎢ ᏥᎪwᏘᎭ
+*,hlv:daj,ᏢᏓj
+,hlv:daji.,ᏢᏓᏥ.
 ,hlási,ᏝᏏ
+,hlási.,ᏝᏏ.
+*,hlʔgv̋ jigowhtí,ꮅᎬ ᏥᎪwᏘ
+*,hlʔgv̋:ʔi jigowhtíha,ꮅᎬᎢ ᏥᎪwᏘᎭ
 ,hnadv:ne.,ᎿᏛᏁ.
 ,hnadv:neha.,ᎿᏛᏁᎭ.
 ,ho:lì:ga.,ᎰᎵᎦ.
@@ -1876,6 +2084,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,ijé:ʔiyű:sdis yǒ:n?,ᎢᏤᎢᏳᏍᏗᏍ Ᏺn?
 ,ijé:ʔiyű:sdisgo yǒ:na?,ᎢᏤᎢᏳᏍᏗᏍᎪ ᏲᎾ?
 ,ijéʔiyű:sdi.,ᎢᏤᎢᏳᏍᏗ.
+,inò:l,ᎢᏃꮅ
+,inò:li.,ᎢᏃᎵ.
 ,i̋:ga,ᎢᎦ
 ,i̋:gi,ᎢᎩ
 ,i̋:na ale naʔv,ᎢᎾ ᎠᎴ ᎾᎥ
@@ -1898,9 +2108,11 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,jago:hv̌:ʔi,ᏣᎪᎲᎢ
 *,jagowhtv́hdi,ᏣᎪwᏛᏗ
 *,jagowhtíha,ᏣᎪwᏘᎭ
+*,jagowhtíha salǒ:li.,ᏣᎪwᏘᎭ ᏌᎶᎵ.
 *,jagowhtǐ:sgó,ᏣᎪwᏘᏍᎪ
 *,jagowhtǐ:sgóʔi,ᏣᎪwᏘᏍᎪᎢ
 ,jaha,ᏣᎭ
+,jaha nǔ:na.,ᏣᎭ ᏄᎾ.
 ,jaha.,ᏣᎭ.
 ,jahv̌:ʔi,ᏣᎲᎢ
 ,jahyè:sdi,ᏣᏰᏍᏗ
@@ -1912,6 +2124,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,jakahé:sdi,ᏣᎧᎮᏍᏗ
 ,jakahó:ʔi,ᏣᎧᎰᎢ
 *,jaktǒ:sdā,ᏣkᏙᏍᏓ
+,jaká do:ya.,ᏣᎧ ᏙᏯ.
+,jakáha do:ya.,ᏣᎧᎭ ᏙᏯ.
 ,jakáha.,ᏣᎧᎭ.
 ,jalv̀:sdi,ᏣᎸᏍᏗ
 ,jalv̂:sv̌,ᏣᎸᏒ
@@ -1937,10 +2151,15 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,ji:gowhtv́hdi,ᏥᎪwᏛᏗ
 *,ji:gowhtíha,ᏥᎪwᏘᎭ
 ,ji:ji,ᏥᏥ
+*,ji:sd,ᏥᏍd
 *,ji:sd age:hyű:j,ᏥᏍd ᎠᎨᏳj
 *,ji:sd dà:giká,ᏥᏍd ᏓᎩᎧ
+*,ji:sd dà:giká.,ᏥᏍd ᏓᎩᎧ.
 ,ji:sdu age:hyű:ja,ᏥᏍᏚ ᎠᎨᏳᏣ
 ,ji:sdu dà:gikáha,ᏥᏍᏚ ᏓᎩᎧᎭ
+,ji:sdu dà:gikáha.,ᏥᏍᏚ ᏓᎩᎧᎭ.
+,ji:sdu hla yijakáha.,ᏥᏍᏚ Ꮭ ᏱᏣᎧᎭ.
+,ji:sdu.,ᏥᏍᏚ.
 ,ji:yadu:lv:hv̌,ᏥᏯᏚᎸᎲ
 ,ji:yadu:lv:hv̌:ʔi,ᏥᏯᏚᎸᎲᎢ
 ,ji:yadu:líha,ᏥᏯᏚᎵᎭ
@@ -1962,16 +2181,22 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,jigà:tahó:ʔi,ᏥᎦᏔᎰᎢ
 ,jisdǐ:gā,ᏥᏍᏗᎦ
 ,jitade:gv̀:gā,ᏥᏔᏕᎬᎦ
+*,jitǎ:g,ᏥᏔg
+,jitǎ:ga.,ᏥᏔᎦ.
 ,jiwó:ni.,ᏥᏬᏂ.
 ,jiwó:niha.,ᏥᏬᏂᎭ.
 ,jiwó:niʔa.,ᏥᏬᏂᎠ.
 ,jiyagā,ᏥᏯᎦ
+,jiyo,ᏥᏲ
 ,jiyé:sgó,ᏥᏰᏍᎪ
 ,jiyé:sgó:ʔi,ᏥᏰᏍᎪᎢ
 ,jiyé:ʔa,ᏥᏰᎠ
 ,jo gù:gu.,Ꮶ ᎫᎫ.
 ,jo nǔ:na,Ꮶ ᏄᎾ
+,jo ǐ:ga̋ dě:dluhgv̋,Ꮶ ᎢᎦ ᏕᏡᎬ
 ,jo ǐ:ga̋ dě:hlgv̋,Ꮶ ᎢᎦ ᏕꮅᎬ
+,jo ǐ:ga̋ dě:hluʔgv̋,Ꮶ ᎢᎦ ᏕᏡᎬ
+,jo ǐ:ga̋ dě:hlʔgv̋,Ꮶ ᎢᎦ ᏕꮅᎬ
 ,jo.,Ꮶ.
 ,jo:hlísdi,ᏦᏟᏍᏗ
 ,johlga,ᏦꮅᎦ
@@ -1982,7 +2207,10 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,joʔga:ʔdu ani:ge:hyű:ja áhani.,ᏦᎦᏚ ᎠᏂᎨᏳᏣ ᎠᎭᏂ.
 ,joʔi gù:gu.,ᏦᎢ ᎫᎫ.
 ,joʔi nǔ:na,ᏦᎢ ᏄᎾ
+,joʔi ǐ:ga̋ dě:dluhgv̋:ʔi,ᏦᎢ ᎢᎦ ᏕᏡᎬᎢ
 ,joʔi ǐ:ga̋ dě:hlgv̋:ʔi,ᏦᎢ ᎢᎦ ᏕꮅᎬᎢ
+,joʔi ǐ:ga̋ dě:hluʔgv̋:ʔi,ᏦᎢ ᎢᎦ ᏕᏡᎬᎢ
+,joʔi ǐ:ga̋ dě:hlʔgv̋:ʔi,ᏦᎢ ᎢᎦ ᏕꮅᎬᎢ
 ,joʔi.,ᏦᎢ.
 ,joʔi:ne̋ jalagi go:hwe:lv̋:ʔi.,ᏦᎢᏁ ᏣᎳᎩ ᎪᏪᎸᎢ.
 *,joʔi:ne̋ nohj,ᏦᎢᏁ Ꮓj
@@ -1997,15 +2225,24 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,ju:gowhtv́hdi,ᏧᎪwᏛᏗ
 *,ju:ktǒ:sdóhdi,ᏧkᏙᏍᏙᏗ
 ,ju:liʔi,ᏧᎵᎢ
+*,ju:là:sg,ᏧᎳᏍg
+,ju:là:sgi.,ᏧᎳᏍᎩ.
+,ju:lì:sdana:l,ᏧᎵᏍᏓᎾꮅ
+,ju:lì:sdana:li.,ᏧᎵᏍᏓᎾᎵ.
 *,ju:natvhisd.,ᏧᎾᏛᎯᏍd.
 ,ju:natvhisdv.,ᏧᎾᏛᎯᏍᏛ.
+,ju:ne̋:ga dě:dluhgv̋:ʔi,ᏧᏁᎦ ᏕᏡᎬᎢ
 ,ju:ne̋:ga dě:hlgv̋:ʔi,ᏧᏁᎦ ᏕꮅᎬᎢ
+,ju:ne̋:ga dě:hluʔgv̋:ʔi.,ᏧᏁᎦ ᏕᏡᎬᎢ.
+,ju:ne̋:ga dě:hlʔgv̋:ʔi.,ᏧᏁᎦ ᏕꮅᎬᎢ.
 ,ju:ni:là:wisdi gé.,ᏧᏂᎳᏫᏍᏗ Ꭸ.
 ,ju:ni:là:wisdi gé:ga u:li:he:lísdi.,ᏧᏂᎳᏫᏍᏗ ᎨᎦ ᎤᎵᎮᎵᏍᏗ.
 ,ju:ni:là:wisdi gé:ga u:nali:he:lísdi.,ᏧᏂᎳᏫᏍᏗ ᎨᎦ ᎤᎾᎵᎮᎵᏍᏗ.
 ,ju:ni:là:wisdi gé:ga.,ᏧᏂᎳᏫᏍᏗ ᎨᎦ.
 ,ju:ni:là:wisdi à:né:ga u:nali:he:lísdi.,ᏧᏂᎳᏫᏍᏗ ᎠᏁᎦ ᎤᎾᎵᎮᎵᏍᏗ.
 ,ju:ni:là:wisdi.,ᏧᏂᎳᏫᏍᏗ.
+,ju:ni:lì:sdana:l,ᏧᏂᎵᏍᏓᎾꮅ
+,ju:ni:lì:sdana:li.,ᏧᏂᎵᏍᏓᎾᎵ.
 *,ju:no:dű ani:ge:hyű:j anili:hě:lî:ga.,ᏧᏃᏚ ᎠᏂᎨᏳj ᎠᏂᎵᎮᎵᎦ.
 ,ju:no:dű:ʔi ani:ge:hyű:ja anili:hě:lî:ga.,ᏧᏃᏚᎢ ᎠᏂᎨᏳᏣ ᎠᏂᎵᎮᎵᎦ.
 *,ju:nsdi̋.,ᏧnᏍᏗ.
@@ -2023,9 +2260,13 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,juné:nv̀:sv̋:ʔi à:né:ga.,ᏧᏁᏅᏒᎢ ᎠᏁᎦ.
 ,jusdi̋.,ᏧᏍᏗ.
 ,juwe̋:ti.,ᏧᏪᏘ.
+*,juwoːdű gùːg dàːgi.,ᏧᏬᏚ Ꭻg ᏓᎩ.
+,juwoːdűːhi gùːgu dàːgiha.,ᏧᏬᏚᎯ ᎫᎫ ᏓᎩᎭ.
 ,juwé:nv̀:sv̋ é.,ᏧᏪᏅᏒ Ꭱ.
 ,juwé:nv̀:sv̋ é:ga.,ᏧᏪᏅᏒ ᎡᎦ.
 ,juwé:nv̀:sv̋:ʔi é:ga.,ᏧᏪᏅᏒᎢ ᎡᎦ.
+*,juwě:j,ᏧᏪj
+,juwě:ji.,ᏧᏪᏥ.
 *,juwőhld digo:hwe:l,ᏧᏬꮅd ᏗᎪᏪꮅ
 ,juwőhldi digo:hwe:li,ᏧᏬꮅᏗ ᏗᎪᏪᎵ
 ,juwǒ:díge̋:ʔi digo:hwe:li,ᏧᏬᏗᎨᎢ ᏗᎪᏪᎵ
@@ -2123,20 +2364,36 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ka?,Ꭷ?
 ,kaga é:ga go:hí i:ga?,ᎧᎦ ᎡᎦ ᎪᎯ ᎢᎦ?
 ,kaga?,ᎧᎦ?
+*,kama:m,ᎧᎹm
 ,kama:ma.,ᎧᎹᎹ.
+*,kanajì:sdě:j,ᎧᎾᏥᏍᏕj
+,kanajì:sdě:ji.,ᎧᎾᏥᏍᏕᏥ.
+*,kanaʔně:sg,ᎧᎾᏁᏍg
+,kanaʔně:sgi.,ᎧᎾᏁᏍᎩ.
+*,kanu:n,ᎧᏄn
+,kanu:na.,ᎧᏄᎾ.
+,kanǐ:gida,ᎧᏂᎩᏓ
 *,kawo:hn kaʔla.,ᎧᏬn ᎧᎳ.
 ,kawo:hni kaʔla.,ᎧᏬᏂ ᎧᎳ.
+*,kawǒ:n,ᎧᏬn
+,kawǒ:nu.,ᎧᏬᏄ.
 ,kilő hiʔa jalagi go:hwe:lv̋ gohlga.,ᎩᎶ ᎯᎠ ᏣᎳᎩ ᎪᏪᎸ ᎪꮅᎦ.
 ,kilő.,ᎩᎶ.
 ,kilő:ʔi.,ᎩᎶᎢ.
+*,kiyû:g,ᎩᏳg
+,kiyû:ga.,ᎩᏳᎦ.
 *,kuye:gwǒ:n kaʔla.,ᎫᏰᏉn ᎧᎳ.
 ,kuye:gwǒ:na kaʔla.,ᎫᏰᏉᎾ ᎧᎳ.
 ,kuye:gwǒ:ni kaʔla.,ᎫᏰᏉᏂ ᎧᎳ.
+,kv̌:hli.,ᎬᏟ.
 *,kwan.,Ꮖn.
 ,kwana.,ᏆᎾ.
+*,kó:g,Ꭺg
 ,kó:ga.,ᎪᎦ.
 ,kó:gi.,ᎪᎩ.
 *,kóg.,Ꭺg.
+,kě:míl,ᎨᎻꮅ
+,kě:míli.,ᎨᎻᎵ.
 ,kǒ:l.,Ꭺꮅ.
 ,kǒ:la.,ᎪᎳ.
 ,kǒ:li.,ᎪᎵ.
@@ -2148,6 +2405,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,"lí:nid ale ma:gá:l, dv:sdv:go:hi","ᎵᏂd ᎠᎴ ᎹᎦꮅ, ᏛᏍᏛᎪᎯ"
 *,"lí:nid ale ma:gá:l, dv:sgini:go:hi","ᎵᏂd ᎠᎴ ᎹᎦꮅ, ᏛᏍᎩᏂᎪᎯ"
 ,lí:nida ale ma:gá:li dò:gi:nadó:a,ᎵᏂᏓ ᎠᎴ ᎹᎦᎵ ᏙᎩᎾᏙᎠ
+,lí:nida ale ma:gá:li dò:gi:nadó:ʔa,ᎵᏂᏓ ᎠᎴ ᎹᎦᎵ ᏙᎩᎾᏙᎠ
 ,"lí:nida ale ma:gá:li, dv:sdv:go:hi","ᎵᏂᏓ ᎠᎴ ᎹᎦᎵ, ᏛᏍᏛᎪᎯ"
 ,"lí:nida ale ma:gá:li, dv:sgini:go:hi","ᎵᏂᏓ ᎠᎴ ᎹᎦᎵ, ᏛᏍᎩᏂᎪᎯ"
 ,"ma:ga, u:sganő:li hiwó:ni.","ᎹᎦ, ᎤᏍᎦᏃᎵ ᎯᏬᏂ."
@@ -2162,26 +2420,43 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,má:gaye:ti wě:s dù:du:lí,ᎹᎦᏰᏘ ᏪᏍ ᏚᏚᎵ
 ,má:gaye:ti wě:sa dù:du:líha,ᎹᎦᏰᏘ ᏪᏌ ᏚᏚᎵᎭ
 ,"má:gaye:ti, mé:li, ale gwa:gwaʔa dò:gadó:a","ᎹᎦᏰᏘ, ᎺᎵ, ᎠᎴ ᏆᏆᎠ ᏙᎦᏙᎠ"
+,"má:gaye:ti, mé:li, ale gwa:gwaʔa dò:gadó:ʔa","ᎹᎦᏰᏘ, ᎺᎵ, ᎠᎴ ᏆᏆᎠ ᏙᎦᏙᎠ"
 ,mé:li jadu:lí,ᎺᎵ ᏣᏚᎵ
 ,mé:li jadu:líha,ᎺᎵ ᏣᏚᎵᎭ
+,"mé:li, do:nada:go:hv:ʔi","ᎺᎵ, ᏙᎾᏓᎪᎲᎢ"
 ,"mé:li, donada:go:hv:ʔi","ᎺᎵ, ᏙᎾᏓᎪᎲᎢ"
+*,na a:nidalǒ:níge̋ ji:sd ù:hna gè:sv̌:g.,Ꮎ ᎠᏂᏓᎶᏂᎨ ᏥᏍd ᎤᎿ ᎨᏒg.
+,na a:nidalǒ:níge̋ ji:sdu ù:hna gè:sv̌:gi.,Ꮎ ᎠᏂᏓᎶᏂᎨ ᏥᏍᏚ ᎤᎿ ᎨᏒᎩ.
 *,na a:nijo yǒ:n,Ꮎ ᎠᏂᏦ Ᏺn
 *,na a:nijo yǒ:n ù:hna̋.,Ꮎ ᎠᏂᏦ Ᏺn ᎤᎿ.
 ,na a:nijoʔi yǒ:na,Ꮎ ᎠᏂᏦᎢ ᏲᎾ
 ,na a:nijoʔi yǒ:na ù:hna̋.,Ꮎ ᎠᏂᏦᎢ ᏲᎾ ᎤᎿ.
 ,na agě:hya à:gwadu:lí,Ꮎ ᎠᎨᏯ ᎠᏆᏚᎵ
 ,na agě:hya à:gwadu:líha,Ꮎ ᎠᎨᏯ ᎠᏆᏚᎵᎭ
+*,na ani:ge:hyű:j hla yigv:gigowhtí.,Ꮎ ᎠᏂᎨᏳj Ꮭ ᏱᎬᎩᎪwᏘ.
 ,na ani:sgaya ge:jadu:lí.,Ꮎ ᎠᏂᏍᎦᏯ ᎨᏣᏚᎵ.
 ,na ani:sgaya ge:jadu:líha.,Ꮎ ᎠᏂᏍᎦᏯ ᎨᏣᏚᎵᎭ.
+*,na di:sadv́:d hla yidǔ:ha.,Ꮎ ᏗᏌᏛd Ꮭ ᏱᏚᎭ.
 *,na do:ya ulsǔ:hwid uwǒ:díge̋,Ꮎ ᏙᏯ ᎤꮅᏑᏫd ᎤᏬᏗᎨ
 ,na do:ya ulsǔ:hwida uwǒ:díge̋:ʔi,Ꮎ ᏙᏯ ᎤꮅᏑᏫᏓ ᎤᏬᏗᎨᎢ
 *,na doyű uwo:dű ajin.,Ꮎ ᏙᏳ ᎤᏬᏚ ᎠᏥn.
 ,na doyű uwo:dű ajina.,Ꮎ ᏙᏳ ᎤᏬᏚ ᎠᏥᎾ.
 ,na go:hű:sdi julsǔ:hwida didaha:lige̋:ʔi,Ꮎ ᎪᎱᏍᏗ ᏧꮅᏑᏫᏓ ᏗᏓᎭᎵᎨᎢ
+,na gu:le hla yǔ:ha.,Ꮎ ᎫᎴ Ꮭ ᏳᎭ.
+,na gv̌:hnáge̋ do:ya ahani gè:sé:ʔi.,Ꮎ ᎬᎿᎨ ᏙᏯ ᎠᎭᏂ ᎨᏎᎢ.
+,na gv̌:hnáge̋ do:ya ahni gè:sé.,Ꮎ ᎬᎿᎨ ᏙᏯ ᎠᏂ ᎨᏎ.
 *,na gő:sd julsǔ:hwid didaha:lige̋,Ꮎ ᎪᏍd ᏧꮅᏑᏫd ᏗᏓᎭᎵᎨ
 *,na ji:sd u:nalsǔ:hwid u:ni:ne̋:g,Ꮎ ᏥᏍd ᎤᎾꮅᏑᏫd ᎤᏂᏁg
 ,na ji:sdu u:nalsǔ:hwida u:ni:ne̋:ga,Ꮎ ᏥᏍᏚ ᎤᎾꮅᏑᏫᏓ ᎤᏂᏁᎦ
 *,na nvhg gi:hli ga:hi:ya:du:lí,Ꮎ Ꮕg ᎩᏟ ᎦᎯᏯᏚᎵ
+,na nǔ:na ga:sgilv̋,Ꮎ ᏄᎾ ᎦᏍᎩᎸ
+,na nǔ:na ga:sgilv̋:ʔi,Ꮎ ᏄᎾ ᎦᏍᎩᎸᎢ
+,na nǔ:na hla yidù:nǐ:ha.,Ꮎ ᏄᎾ Ꮭ ᏱᏚᏂᎭ.
+*,na salǒ:l hla yige:jagowhtí.,Ꮎ ᏌᎶꮅ Ꮭ ᏱᎨᏣᎪwᏘ.
+,na sǎ:lol u:wǒ:díge̋ gè:sv̌.,Ꮎ ᏌᎶꮅ ᎤᏬᏗᎨ ᎨᏒ.
+,na sǎ:loli u:wǒ:díge̋ gè:sv̌:ʔi.,Ꮎ ᏌᎶᎵ ᎤᏬᏗᎨ ᎨᏒᎢ.
+*,na sǒ:gwíl uwǒ:díge̋ gè:sé:sd.,Ꮎ ᏐᏈꮅ ᎤᏬᏗᎨ ᎨᏎᏍd.
+,na sǒ:gwíli uwǒ:díge̋ gè:sé:sdi.,Ꮎ ᏐᏈᎵ ᎤᏬᏗᎨ ᎨᏎᏍᏗ.
 ,na u:niyő ani:yv:wi gè:sv̌:gi,Ꮎ ᎤᏂᏲ ᎠᏂᏴᏫ ᎨᏒᎩ
 ,na u:yő gè:sv̌:gi,Ꮎ ᎤᏲ ᎨᏒᎩ
 ,na u:yő sǒ:gwíl.,Ꮎ ᎤᏲ ᏐᏈꮅ.
@@ -2189,7 +2464,11 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,na u:yő:ʔi sǒ:gwíli.,Ꮎ ᎤᏲᎢ ᏐᏈᎵ.
 ,na u:yő:ʔi!,Ꮎ ᎤᏲᎢ!
 ,na v:le ahala̋:da.,Ꮎ ᎥᎴ ᎠᎭᎳᏓ.
+*,na wahaya gv:gigowhtíha.,Ꮎ ᏩᎭᏯ ᎬᎩᎪwᏘᎭ.
+*,na wahya gv:gigowhtí.,Ꮎ ᏩᏯ ᎬᎩᎪwᏘ.
 *,na wě:s à:nő:sd.,Ꮎ ᏪᏍ ᎠᏃᏍd.
+*,na yǒ:n dalǒ:níge̋ ù:sgǒ:lv̋ i̋:g.,Ꮎ Ᏺn ᏓᎶᏂᎨ ᎤᏍᎪᎸ Ꭲg.
+,na yǒ:na dalǒ:níge̋ ù:sgǒ:lv̋ i̋:gi.,Ꮎ ᏲᎾ ᏓᎶᏂᎨ ᎤᏍᎪᎸ ᎢᎩ.
 *,na yǒ:n achű:j já:ni dù:dó,Ꮎ Ᏺn ᎠᏧj ᏣᏂ ᏚᏙ
 ,na yǒ:na achű:ja já:ni dù:dó:ʔa,Ꮎ ᏲᎾ ᎠᏧᏣ ᏣᏂ ᏚᏙᎠ
 ,na.,Ꮎ.
@@ -2197,6 +2476,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,naj.,Ꮎj.
 *,naju sadv́:d jadu:lí?,ᎾᏧ ᏌᏛd ᏣᏚᎵ?
 ,naju sadv́:di jadu:líha?,ᎾᏧ ᏌᏛᏗ ᏣᏚᎵᎭ?
+,naju.,ᎾᏧ.
 ,nanaʔi gé:ga.,ᎾᎾᎢ ᎨᎦ.
 ,nanaʔi.,ᎾᎾᎢ.
 ,nanā.,ᎾᎾ.
@@ -2223,6 +2503,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,"niga̋:da nihi, dv:ʔì:sgi:go:hi","ᏂᎦᏓ ᏂᎯ, ᏛᎢᏍᎩᎪᎯ"
 ,nihi,ᏂᎯ
 ,nihi ale ayv.,ᏂᎯ ᎠᎴ ᎠᏴ.
+,"nihi ale sú:sano, do:dada:go:hv:ʔi","ᏂᎯ ᎠᎴ ᏑᏌᏃ, ᏙᏓᏓᎪᎲᎢ"
 ,"nihi ale sú:sano, dodada:go:hv:ʔi","ᏂᎯ ᎠᎴ ᏑᏌᏃ, ᏙᏓᏓᎪᎲᎢ"
 *,nihi na u:yő ji:sd!,ᏂᎯ Ꮎ ᎤᏲ ᏥᏍd!
 ,nihi na u:yő:ʔi ji:sdu!,ᏂᎯ Ꮎ ᎤᏲᎢ ᏥᏍᏚ!
@@ -2233,6 +2514,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,nihinahv?,ᏂᎯᎾᎲ?
 ,nitadv̀:ga,ᏂᏔᏛᎦ
 *,nokwsi.,ᏃkwᏏ.
+*,nv:d,Ꮕd
+,nv:da.,ᏅᏓ.
 ,nv:dadě:gwa kaʔla.,ᏅᏓᏕᏆ ᎧᎳ.
 ,nv:dadě:wa kaʔla.,ᏅᏓᏕᏩ ᎧᎳ.
 *,nvhg wahya,Ꮕg ᏩᏯ
@@ -2248,21 +2531,29 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,nvhgi:ne̋:ʔi.,ᏅᎩᏁᎢ.
 *,nvksgǒ:hi,ᏅkᏍᎪᎯ
 ,nv̀:ya dà:giha,ᏅᏯ ᏓᎩᎭ
+,nv̀:ya dà:giha.,ᏅᏯ ᏓᎩᎭ.
+,nv̀:ya hla yida:giha.,ᏅᏯ Ꮭ ᏱᏓᎩᎭ.
+,nv̀:ya hla yijaha.,ᏅᏯ Ꮭ ᏱᏣᎭ.
 ,nà:dv́:ne.,ᎾᏛᏁ.
 ,nà:dv́:neha.,ᎾᏛᏁᎭ.
 ,nà:nadv́:ne.,ᎾᎾᏛᏁ.
 ,nà:nadv́:neha.,ᎾᎾᏛᏁᎭ.
 ,nà:sgi,ᎾᏍᎩ
 ,nà:sgi ga:ji:ya:du:lí,ᎾᏍᎩ ᎦᏥᏯᏚᎵ
+,nà:sgigwu.,ᎾᏍᎩᏊ.
 ,nà:sgihv?,ᎾᏍᎩᎲ?
+,nà:sgis?,ᎾᏍᎩᏍ?
+,nà:sgisgo?,ᎾᏍᎩᏍᎪ?
 ,nélsgǒ:hi,ᏁꮅᏍᎪᎯ
 *,nò:t,Ꮓt
+*,nó:t,Ꮓt
 ,ně:la:du,ᏁᎳᏚ
 ,"nű:la, sú:sano jadu:lí","ᏄᎳ, ᏑᏌᏃ ᏣᏚᎵ"
 ,"nű:la, sú:sano jadu:líha","ᏄᎳ, ᏑᏌᏃ ᏣᏚᎵᎭ"
 ,nű:la. nű:la.,ᏄᎳ. ᏄᎳ.
 ,nǒ:gwu.,ᏃᏊ.
 *,nǔ:n dù:nǐ:ha,Ꮔn ᏚᏂᎭ
+*,nǔ:n dù:nǐ:ha.,Ꮔn ᏚᏂᎭ.
 *,nǔ:n u:du:lí.,Ꮔn ᎤᏚᎵ.
 *,nǔ:n ǔ:ha.,Ꮔn ᎤᎭ.
 *,nǔ:n à:gwadu:lí,Ꮔn ᎠᏆᏚᎵ
@@ -2270,14 +2561,19 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,nǔ:na aninv:hi̋:d.,ᏄᎾ ᎠᏂᏅᎯd.
 ,nǔ:na aninv:hi̋:da.,ᏄᎾ ᎠᏂᏅᎯᏓ.
 ,nǔ:na dù:nǐ:ha,ᏄᎾ ᏚᏂᎭ
+,nǔ:na dù:nǐ:ha.,ᏄᎾ ᏚᏂᎭ.
 ,nǔ:na ga:sgilv̋,ᏄᎾ ᎦᏍᎩᎸ
 ,nǔ:na ga:sgilv̋:ʔi,ᏄᎾ ᎦᏍᎩᎸᎢ
+,nǔ:na hla yà:giha.,ᏄᎾ Ꮭ ᏯᎩᎭ.
 ,nǔ:na jaha,ᏄᎾ ᏣᎭ
+,nǔ:na jaha.,ᏄᎾ ᏣᎭ.
 ,nǔ:na u:du:líha.,ᏄᎾ ᎤᏚᎵᎭ.
 ,nǔ:na ǔ:ha.,ᏄᎾ ᎤᎭ.
 ,nǔ:na à:gwadu:líha,ᏄᎾ ᎠᏆᏚᎵᎭ
 ,nǔ:na.,ᏄᎾ.
 ,nǔ:ni.,ᏄᏂ.
+*,o:gan,ᎣᎦn
+,o:gana.,ᎣᎦᎾ.
 ,o:gi:do:da,ᎣᎩᏙᏓ
 ,o:gi:ji,ᎣᎩᏥ
 ,o:gini:do:da,ᎣᎩᏂᏙᏓ
@@ -2287,19 +2583,29 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,"o:síyo, è:gi, dō hadv:ne?","ᎣᏏᏲ, ᎡᎩ, Ꮩ ᎭᏛᏁ?"
 ,"o:síyo, è:gi, gadō hadv:neha?","ᎣᏏᏲ, ᎡᎩ, ᎦᏙ ᎭᏛᏁᎭ?"
 ,o:síyo.,ᎣᏏᏲ.
+,sa:s,ᏌᏍ
+,sa:sa.,ᏌᏌ.
 ,sa:ʔdu,ᏌᏚ
 *,sadv́:d à:gowhtí,ᏌᏛd ᎠᎪwᏘ
+,sadv́:di hla yù:nǐ:ha.,ᏌᏛᏗ Ꮭ ᏳᏂᎭ.
 ,sadv́:di à:giha,ᏌᏛᏗ ᎠᎩᎭ
+,sadv́:di à:giha.,ᏌᏛᏗ ᎠᎩᎭ.
 *,sadv́:di à:gowhtíha,ᏌᏛᏗ ᎠᎪwᏘᎭ
 *,sakǒ:níge̋ sadv́:d,ᏌᎪᏂᎨ ᏌᏛd
 ,sakǒ:níge̋:ʔi sadv́:di,ᏌᎪᏂᎨᎢ ᏌᏛᏗ
+,salǒ:l,ᏌᎶꮅ
 ,"salǒ:l, sǒ:gwíl, ale yǒ:na dù:nadó","ᏌᎶꮅ, ᏐᏈꮅ, ᎠᎴ ᏲᎾ ᏚᎾᏙ"
 ,"salǒ:l, sǒ:gwíl, ale yǒ:na íʔì:jě:dô:lv:ʔi","ᏌᎶꮅ, ᏐᏈꮅ, ᎠᎴ ᏲᎾ ᎢᎢᏤᏙᎸᎢ"
+,"salǒ:l, sǒ:gwíl, ale yǒ:na. íʔì:jě:dô:lv:ʔi","ᏌᎶꮅ, ᏐᏈꮅ, ᎠᎴ ᏲᎾ. ᎢᎢᏤᏙᎸᎢ"
 ,"salǒ:l, íhě:dô:lv:ʔi","ᏌᎶꮅ, ᎢᎮᏙᎸᎢ"
+,salǒ:l. íhě:dô:lv:ʔi,ᏌᎶꮅ. ᎢᎮᏙᎸᎢ
 *,salǒ:li jagowhtíha,ᏌᎶᎵ ᏣᎪwᏘᎭ
+*,salǒ:li jagowhtíha.,ᏌᎶᎵ ᏣᎪwᏘᎭ.
 ,"salǒ:li, sǒ:gwíli, ale yǒ:na dù:nadó:ʔa","ᏌᎶᎵ, ᏐᏈᎵ, ᎠᎴ ᏲᎾ ᏚᎾᏙᎠ"
 ,"salǒ:li, sǒ:gwíli, ale yǒ:na íʔì:jě:dô:lv:ʔi","ᏌᎶᎵ, ᏐᏈᎵ, ᎠᎴ ᏲᎾ ᎢᎢᏤᏙᎸᎢ"
+,"salǒ:li, sǒ:gwíli, ale yǒ:na. íʔì:jě:dô:lv:ʔi","ᏌᎶᎵ, ᏐᏈᎵ, ᎠᎴ ᏲᎾ. ᎢᎢᏤᏙᎸᎢ"
 ,"salǒ:li, íhě:dô:lv:ʔi","ᏌᎶᎵ, ᎢᎮᏙᎸᎢ"
+,salǒ:li.,ᏌᎶᎵ.
 ,sda:di:tasdi,ᏍᏓᏗᏔᏍᏗ
 ,sda:dǐ:ta,ᏍᏓᏗᏔ
 ,sda:dǐ:tā,ᏍᏓᏗᏔ
@@ -2376,8 +2682,11 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,sgina,ᏍᎩᎾ
 ,sgina ga:ji:ya:du:lí,ᏍᎩᎾ ᎦᏥᏯᏚᎵ
 ,sginadǔ:la,ᏍᎩᎾᏚᎳ
+,sginagwu.,ᏍᎩᎾᏊ.
 ,sginagà:tǒ:sdóhdi,ᏍᎩᎾᎦᏙᏍᏙᏗ
 ,sginahv?,ᏍᎩᎾᎲ?
+,sginas?,ᏍᎩᎾᏍ?
+,sginasgo?,ᏍᎩᎾᏍᎪ?
 ,sgini:do:da,ᏍᎩᏂᏙᏓ
 ,sgini:gò:wahta,ᏍᎩᏂᎪᏩᏔ
 ,sgini:ji,ᏍᎩᏂᏥ
@@ -2397,10 +2706,15 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,si,Ꮟ
 ,si! na a:nijo yǒ:na áhni,Ꮟ! Ꮎ ᎠᏂᏦ ᏲᎾ ᎠᏂ
 ,si! na a:nijoʔi yǒ:na áhani,Ꮟ! Ꮎ ᎠᏂᏦᎢ ᏲᎾ ᎠᎭᏂ
+,si.,Ꮟ.
+*,sihgw,Ꮟgw
+,sihgwa.,ᏏᏆ.
 ,su:dali:ne̋ jalagi go:hwe:lv̋:ʔi.,ᏑᏓᎵᏁ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,su:dali:ne̋.,ᏑᏓᎵᏁ.
 ,su:dali:ne̋:ʔi jalagi go:hwe:lv̋:ʔi.,ᏑᏓᎵᏁᎢ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,su:dali:ne̋:ʔi.,ᏑᏓᎵᏁᎢ.
+,su:l,Ꮡꮅ
+,su:li.,ᏑᎵ.
 ,sà:gwű go:hwe:lv̋:ʔi.,ᏌᏊ ᎪᏪᎸᎢ.
 ,sà:gwű nv̀:ya,ᏌᏊ ᏅᏯ
 *,sà:gwű u:yő ji:sd.,ᏌᏊ ᎤᏲ ᏥᏍd.
@@ -2415,6 +2729,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,síyo dé:wid,ᏏᏲ ᏕᏫd
 ,síyo dé:widi,ᏏᏲ ᏕᏫᏗ
 ,síyo.,ᏏᏲ.
+*,só salǒːl gǎːtíːyő gèːséːsd.,Ꮠ ᏌᎶꮅ ᎦᏘᏲ ᎨᏎᏍd.
 ,sóhne:li:ne̋ jalagi go:hwe:lv̋:ʔi.,ᏐᏁᎵᏁ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,sóhnélsgǒ:hi,ᏐᏁꮅᏍᎪᎯ
 ,sóhně:l,ᏐᏁꮅ
@@ -2424,14 +2739,23 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,sóhně:li:ne̋.,ᏐᏁᎵᏁ.
 ,sóhně:li:ne̋:ʔi.,ᏐᏁᎵᏁᎢ.
 ,sóhněla:du,ᏐᏁᎳᏚ
+,sóʔi salǒːli gǎːtíːyőːʔi gèːséːsdi.,ᏐᎢ ᏌᎶᎵ ᎦᏘᏲᎢ ᎨᏎᏍᏗ.
 *,sú:san ale tó:mas dě:sdádó,ᏑᏌn ᎠᎴ ᏙᎹᏍ ᏕᏍᏓᏙ
 ,sú:sano ale tó:masi dě:sdádó:ʔa,ᏑᏌᏃ ᎠᎴ ᏙᎹᏏ ᏕᏍᏓᏙᎠ
 ,sě:lu ga̋:du.,ᏎᎷ ᎦᏚ.
 ,sě:lu.,ᏎᎷ.
+,sǒ:gwíl,ᏐᏈꮅ
 ,"sǒ:gwíl ale yǒ:na, ísdě:dô:lv:ʔi","ᏐᏈꮅ ᎠᎴ ᏲᎾ, ᎢᏍᏕᏙᎸᎢ"
+,sǒ:gwíl ale yǒ:na. ísdě:dô:lv:ʔi,ᏐᏈꮅ ᎠᎴ ᏲᎾ. ᎢᏍᏕᏙᎸᎢ
+*,sǒ:gwíl di:niʔlě:nv́:hi:d,ᏐᏈꮅ ᏗᏂᎴᏅᎯd
+*,sǒ:gwíl digaʔlě:nv́:hi:d,ᏐᏈꮅ ᏗᎦᎴᏅᎯd
 *,sǒ:gwíl à:nigowhtí,ᏐᏈꮅ ᎠᏂᎪwᏘ
 ,"sǒ:gwíli ale yǒ:na, ísdě:dô:lv:ʔi","ᏐᏈᎵ ᎠᎴ ᏲᎾ, ᎢᏍᏕᏙᎸᎢ"
+,sǒ:gwíli ale yǒ:na. ísdě:dô:lv:ʔi,ᏐᏈᎵ ᎠᎴ ᏲᎾ. ᎢᏍᏕᏙᎸᎢ
+,sǒ:gwíli di:niʔlě:nv́:hi:da.,ᏐᏈᎵ ᏗᏂᎴᏅᎯᏓ.
+,sǒ:gwíli digaʔlě:nv́:hi:da.,ᏐᏈᎵ ᏗᎦᎴᏅᎯᏓ.
 *,sǒ:gwíli à:nigowhtíha,ᏐᏈᎵ ᎠᏂᎪwᏘᎭ
+,sǒ:gwíli.,ᏐᏈᎵ.
 ,sǔ:dál ji:sdu,ᏑᏓꮅ ᏥᏍᏚ
 ,sǔ:dál.,ᏑᏓꮅ.
 ,sǔ:dáli ji:sdu,ᏑᏓᎵ ᏥᏍᏚ
@@ -2441,8 +2765,12 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,sǔ:dálsgǒ:hi,ᏑᏓꮅᏍᎪᎯ
 ,ta:dǐ:ta,ᏔᏗᏔ
 *,taktǒ:sda,ᏔkᏙᏍᏓ
+*,tala:d,ᏔᎳd
+,tala:du.,ᏔᎳᏚ.
 ,tatv:dà:sda,ᏔᏛᏓᏍᏓ
 ,tatǔ:gi,ᏔᏚᎩ
+*,tawǒ:d,ᏔᏬd
+,tawǒ:di.,ᏔᏬᏗ.
 ,taʔldu,ᏔꮅᏚ
 ,taʔli dide:hlohgwà:sdi,ᏔᎵ ᏗᏕᏠᏆᏍᏗ
 ,taʔli:ne̋ ahwi,ᏔᎵᏁ ᎠᏫ
@@ -2451,21 +2779,32 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,taʔli:ne̋:ʔi ahwi,ᏔᎵᏁᎢ ᎠᏫ
 ,taʔli:ne̋:ʔi jalagi go:hwe:lv̋:ʔi.,ᏔᎵᏁᎢ ᏣᎳᎩ ᎪᏪᎸᎢ.
 ,taʔli:ne̋:ʔi.,ᏔᎵᏁᎢ.
+*,tehg,Ꮦg
+,tehga.,ᏖᎦ.
 ,tigo:lǐ:ya.,ᏘᎪᎵᏯ.
 ,tigò:wahta,ᏘᎪᏩᏔ
 ,tihyaga,ᏘᏯᎦ
+*,tin,Ꮨn
+,tina.,ᏘᎾ.
+*,tinè:gw,ᏘᏁgw
+,tinè:gwa.,ᏘᏁᏆ.
 ,tisdǐ:ga,ᏘᏍᏗᎦ
+,tiyǒ:háʔl,ᏘᏲᎭꮅ
+,tiyǒ:háʔli.,ᏘᏲᎭᎵ.
 ,tla,Ꮭ
 ,tla yigo:lì:ga.,Ꮭ ᏱᎪᎵᎦ.
 *,tla yà:gwanht.,Ꮭ ᏯᏆnt.
 *,tla yà:gwanhta.,Ꮭ ᏯᏆnᏔ.
 ,tlv̀:wasga.,ᏢᏩᏍᎦ.
+,tlv̌:dé:gwa.,ᏢᏕᏆ.
 ,to:hwe:lv̀:ga,ᏙᏪᎸᎦ
 ,tohlgi,ᏙꮅᎩ
 *,tssdǐ:gî:sdi,tᏍᏍᏗᎩᏍᏗ
 *,tstade:gí,tᏍᏔᏕᎩ
 *,tstade:gí:ʔa,tᏍᏔᏕᎩᎠ
 *,tstadě:gô:di,tᏍᏔᏕᎪᏗ
+*,tvhg,Ꮫg
+,tvhga.,ᏛᎦ.
 ,táʔl.,Ꮤꮅ.
 ,táʔli digo:hwe:li,ᏔᎵ ᏗᎪᏪᎵ
 ,táʔli.,ᏔᎵ.
@@ -2479,9 +2818,14 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,tò:hi̋:ju? è:gi.,ᏙᎯᏧ? ᎡᎩ.
 ,tò:hi̋:s?,ᏙᎯᏍ?
 ,tò:hi̋:sgo?,ᏙᎯᏍᎪ?
+*,tóːmas wahya uːniːnéːgihld àːdi.,ᏙᎹᏍ ᏩᏯ ᎤᏂᏁᎩꮅd ᎠᏗ.
+*,tóːmasi hla yǒːn uwoːdű yùnhta.,ᏙᎹᏏ Ꮭ Ᏺn ᎤᏬᏚ ᏳnᏔ.
+*,tóːmasi hla yǒːna uwoːdűːhi yùnhta.,ᏙᎹᏏ Ꮭ ᏲᎾ ᎤᏬᏚᎯ ᏳnᏔ.
+,tóːmasi wahaya uːniːnéːgihldi àːdiha.,ᏙᎹᏏ ᏩᎭᏯ ᎤᏂᏁᎩꮅᏗ ᎠᏗᎭ.
 *,tǔ:ya higowhtí,ᏚᏯ ᎯᎪwᏘ
 *,tǔ:ya higowhtíha,ᏚᏯ ᎯᎪwᏘᎭ
 ,tǔ:ya ù:nǐ:ha,ᏚᏯ ᎤᏂᎭ
+,tǔ:ya ù:nǐ:ha.,ᏚᏯ ᎤᏂᎭ.
 ,tǔ:yas de:jadu:lí,ᏚᏯᏍ ᏕᏣᏚᎵ
 ,tǔ:yasgo de:jadu:líha,ᏚᏯᏍᎪ ᏕᏣᏚᎵᎭ
 ,u:di:tasdi,ᎤᏗᏔᏍᏗ
@@ -2497,6 +2841,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,u:galǒ:ga gò:hlv̌:tanv̋:ʔi.,ᎤᎦᎶᎦ ᎪᏢᏔᏅᎢ.
 ,u:galǒ:ga.,ᎤᎦᎶᎦ.
 ,u:ga̋:nawa.,ᎤᎦᎾᏩ.
+*,u:gù:k,ᎤᎫk
 ,u:gù:ku ù:nikáha.,ᎤᎫᎫ ᎤᏂᎧᎭ.
 ,u:gù:ku.,ᎤᎫᎫ.
 ,u:gǎ:nawa jǔ:gá:nawv̋..,ᎤᎦᎾᏩ ᏧᎦᎾᏮ..
@@ -2516,8 +2861,17 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,u:hyv:dla.,ᎤᏴᏜ.
 ,u:hyv:dlv.,ᎤᏴᏢ.
 ,u:hyv̋:dla.,ᎤᏴᏜ.
+*,u:je̋:tsd,ᎤᏤtᏍd
+*,u:je̋:tsdi.,ᎤᏤtᏍᏗ.
 ,u:ji,ᎤᏥ
+,u:ji:ya.,ᎤᏥᏯ.
+*,u:ksò:ja:ne̋:d,ᎤkᏐᏣᏁd
+*,u:ksò:ja:ne̋:da.,ᎤkᏐᏣᏁᏓ.
 *,u:li:he:lísdi à:lsdàyhdi.,ᎤᎵᎮᎵᏍᏗ ᎠꮅᏍᏓyᏗ.
+*,u:naje̋:tsd,ᎤᎾᏤtᏍd
+*,u:naje̋:tsdi.,ᎤᎾᏤtᏍᏗ.
+*,u:naksò:jane̋:d,ᎤᎾkᏐᏣᏁd
+*,u:naksò:jane̋:da.,ᎤᎾkᏐᏣᏁᏓ.
 *,u:nali:he:lísdi à:lsdàyhdi.,ᎤᎾᎵᎮᎵᏍᏗ ᎠꮅᏍᏓyᏗ.
 *,u:ne̋:g ada,ᎤᏁg ᎠᏓ
 *,u:ne̋:g.,ᎤᏁg.
@@ -2529,8 +2883,13 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,u:ne̋:gv:gv̌:hnáge̋ gv́:na naʔvʔi.,ᎤᏁᎬᎬᎿᎨ ᎬᎾ ᎾᎥᎢ.
 *,u:nhta,ᎤnᏔ
 ,u:ni:do:da,ᎤᏂᏙᏓ
+*,u:ni:gù:k,ᎤᏂᎫk
+,u:ni:gù:ku.,ᎤᏂᎫᎫ.
 ,u:ni:ji,ᎤᏂᏥ
+,u:ni:ji:ya.,ᎤᏂᏥᏯ.
 ,u:ni:ne̋:ga yǒ:na,ᎤᏂᏁᎦ ᏲᎾ
+*,u:ni:nò:de̋:n,ᎤᏂᏃᏕn
+,u:ni:nò:de̋:na.,ᎤᏂᏃᏕᎾ.
 ,u:niyő ani:yv:wi áhni,ᎤᏂᏲ ᎠᏂᏴᏫ ᎠᏂ
 *,u:niyő ani:yv:wi áhni yi̋:g,ᎤᏂᏲ ᎠᏂᏴᏫ ᎠᏂ Ᏹg
 *,u:niyő ani:yó:ne:g,ᎤᏂᏲ ᎠᏂᏲᏁg
@@ -2539,6 +2898,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 *,u:no:lv̀:tan kaʔla.,ᎤᏃᎸᏔn ᎧᎳ.
 ,u:no:lv̀:tana kaʔla.,ᎤᏃᎸᏔᎾ ᎧᎳ.
 ,u:no:lv̀:tani kaʔla.,ᎤᏃᎸᏔᏂ ᎧᎳ.
+*,u:nò:de̋:n,ᎤᏃᏕn
+,u:nò:de̋:na.,ᎤᏃᏕᎾ.
 ,u:sdi̋ desgì:kà.,ᎤᏍᏗ ᏕᏍᎩᎧ.
 ,u:sdi̋ desgì:kà:si.,ᎤᏍᏗ ᏕᏍᎩᎧᏏ.
 ,u:sdi̋ gahì:kà.,ᎤᏍᏗ ᎦᎯᎧ.
@@ -2570,6 +2931,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ugà:nà:wv́ e̋:hi.,ᎤᎦᎾᏮ ᎡᎯ.
 ,uhyv̀:dlv́ e̋:hi.,ᎤᏴᏢ ᎡᎯ.
 ,ujistalù:gísgi.,ᎤᏥᏍᏔᎷᎩᏍᎩ.
+*,ukte:n,ᎤkᏖn
+*,ukte:na.,ᎤkᏖᎾ.
 ,uninéha.,ᎤᏂᏁᎭ.
 *,usd.,ᎤᏍd.
 ,usdi̋.,ᎤᏍᏗ.
@@ -2582,11 +2945,19 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,uwo:dű:hi u:ne̋:ga kama:ma ù:nikáha.,ᎤᏬᏚᎯ ᎤᏁᎦ ᎧᎹᎹ ᎤᏂᎧᎭ.
 ,uwo:dű:hi.,ᎤᏬᏚᎯ.
 ,uwo:dű:ne̋:ga kama:ma ù:nikáha.,ᎤᏬᏚᏁᎦ ᎧᎹᎹ ᎤᏂᎧᎭ.
+*,uwoːdű gőːsdi higowhtí.,ᎤᏬᏚ ᎪᏍᏗ ᎯᎪwᏘ.
+*,uwoːdűːhi goːhűːsdi higowhtíha.,ᎤᏬᏚᎯ ᎪᎱᏍᏗ ᎯᎪwᏘᎭ.
+*,uwě:j,ᎤᏪj
+,uwě:ji.,ᎤᏪᏥ.
 *,uwőhld go:hwe:l,ᎤᏬꮅd ᎪᏪꮅ
 ,uwőhldi go:hwe:li,ᎤᏬꮅᏗ ᎪᏪᎵ
 ,uwǎ:sa,ᎤᏩᏌ
 ,uwǒ:díge̋ nǔ:nagwu,ᎤᏬᏗᎨ ᏄᎾᏊ
 ,uwǒ:díge̋ʔi nǔ:nagwu,ᎤᏬᏗᎨᎢ ᏄᎾᏊ
+*,uːnéːgihld jiːsd jakáha.,ᎤᏁᎩꮅd ᏥᏍd ᏣᎧᎭ.
+*,uːnéːgihld sǒːgwíl jiːgowhtí.,ᎤᏁᎩꮅd ᏐᏈꮅ ᏥᎪwᏘ.
+,uːnéːgihldi jiːsdu jakáha.,ᎤᏁᎩꮅᏗ ᏥᏍᏚ ᏣᎧᎭ.
+*,uːnéːgihldi sǒːgwíli jiːgowhtíha.,ᎤᏁᎩꮅᏗ ᏐᏈᎵ ᏥᎪwᏘᎭ.
 ,ǔ:hyv́:dla̋.,ᎤᏴᏜ.
 ,v:le à:nali:hě:lî:ga go:hí i:ga.,ᎥᎴ ᎠᎾᎵᎮᎵᎦ ᎪᎯ ᎢᎦ.
 ,v:le.,ᎥᎴ.
@@ -2598,18 +2969,39 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,v:ʔv. tò:hi̋:gwu.,ᎥᎥ. ᏙᎯᏊ.
 ,v:ʔv. ő:sda.,ᎥᎥ. ᎣᏍᏓ.
 ,vhla ahawi yida:gikáha,ᎥᏝ ᎠᎭᏫ ᏱᏓᎩᎧᎭ
+,vhla ahawi yida:gikáha.,ᎥᏝ ᎠᎭᏫ ᏱᏓᎩᎧᎭ.
 *,vhla ani:ge:hyű:ja yigv:gigowhtíha,ᎥᏝ ᎠᏂᎨᏳᏣ ᏱᎬᎩᎪwᏘᎭ
+*,vhla ani:ge:hyű:ja yigv:gigowhtíha.,ᎥᏝ ᎠᏂᎨᏳᏣ ᏱᎬᎩᎪwᏘᎭ.
 ,vhla di:sadv́:di yidǔ:ha,ᎥᏝ ᏗᏌᏛᏗ ᏱᏚᎭ
 ,vhla do:ya yidi:jakáha,ᎥᏝ ᏙᏯ ᏱᏗᏣᎧᎭ
+,vhla do:ya yidi:jakáha.,ᎥᏝ ᏙᏯ ᏱᏗᏣᎧᎭ.
 ,vhla gi:hli yidù:wa:káha,ᎥᏝ ᎩᏟ ᏱᏚᏩᎧᎭ
+,vhla gi:hli yidù:wa:káha.,ᎥᏝ ᎩᏟ ᏱᏚᏩᎧᎭ.
 ,vhla gu:le yidi:jaha,ᎥᏝ ᎫᎴ ᏱᏗᏣᎭ
+,vhla gu:le yidi:jaha.,ᎥᏝ ᎫᎴ ᏱᏗᏣᎭ.
+,vhla na di:sadv́:di yidǔ:ha.,ᎥᏝ Ꮎ ᏗᏌᏛᏗ ᏱᏚᎭ.
+,vhla na nǔ:na yidù:nǐ:ha.,ᎥᏝ Ꮎ ᏄᎾ ᏱᏚᏂᎭ.
 ,vhla nv̀:ya yida:giha,ᎥᏝ ᏅᏯ ᏱᏓᎩᎭ
+,vhla nv̀:ya yida:giha.,ᎥᏝ ᏅᏯ ᏱᏓᎩᎭ.
 ,vhla nǔ:na yidù:nǐ:ha,ᎥᏝ ᏄᎾ ᏱᏚᏂᎭ
 *,vhla salǒ:li yige:jagowhtíha,ᎥᏝ ᏌᎶᎵ ᏱᎨᏣᎪwᏘᎭ
+*,vhla salǒ:li yige:jagowhtíha.,ᎥᏝ ᏌᎶᎵ ᏱᎨᏣᎪwᏘᎭ.
 ,vhla wě:sa yidù:ni:káha,ᎥᏝ ᏪᏌ ᏱᏚᏂᎧᎭ
+,vhla wě:sa yidù:ni:káha.,ᎥᏝ ᏪᏌ ᏱᏚᏂᎧᎭ.
+,vhla yida:giha nv̀:ya.,ᎥᏝ ᏱᏓᎩᎭ ᏅᏯ.
+,vhla yida:gikáha ahawi.,ᎥᏝ ᏱᏓᎩᎧᎭ ᎠᎭᏫ.
+,vhla yidi:jaha gu:le.,ᎥᏝ ᏱᏗᏣᎭ ᎫᎴ.
+,vhla yidi:jakáha do:ya.,ᎥᏝ ᏱᏗᏣᎧᎭ ᏙᏯ.
+,vhla yidù:ni:káha wě:sa.,ᎥᏝ ᏱᏚᏂᎧᎭ ᏪᏌ.
+,vhla yidù:nǐ:ha na nǔ:na.,ᎥᏝ ᏱᏚᏂᎭ Ꮎ ᏄᎾ.
+,vhla yidù:wa:káha gi:hli.,ᎥᏝ ᏱᏚᏩᎧᎭ ᎩᏟ.
+,vhla yidǔ:ha na di:sadv́:di.,ᎥᏝ ᏱᏚᎭ Ꮎ ᏗᏌᏛᏗ.
+*,vhla yige:jagowhtíha na salǒ:li.,ᎥᏝ ᏱᎨᏣᎪwᏘᎭ Ꮎ ᏌᎶᎵ.
+*,vhla yigv:gigowhtíha na ani:ge:hyű:ja.,ᎥᏝ ᏱᎬᎩᎪwᏘᎭ Ꮎ ᎠᏂᎨᏳᏣ.
 ,vhla yǒ:na áhani yi̋:gi,ᎥᏝ ᏲᎾ ᎠᎭᏂ ᏱᎩ
 ,vhla.,ᎥᏝ.
 ,vhlási,ᎥᏝᏏ
+,vhlási.,ᎥᏝᏏ.
 *,v̀:gigowhtíha,ᎥᎩᎪwᏘᎭ
 *,v̀:gigowhtǐ:sgó,ᎥᎩᎪwᏘᏍᎪ
 *,v̀:gigowhtǐ:sgóʔi,ᎥᎩᎪwᏘᏍᎪᎢ
@@ -2625,23 +3017,40 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,v̀:sgihv?,ᎥᏍᎩᎲ?
 ,v̀:sgina,ᎥᏍᎩᎾ
 ,v̀:sgina ga:ji:ya:du:lí,ᎥᏍᎩᎾ ᎦᏥᏯᏚᎵ
+,v̀:sginagwu.,ᎥᏍᎩᎾᏊ.
 ,v̀:sginahv?,ᎥᏍᎩᎾᎲ?
+,v̀:sginas?,ᎥᏍᎩᎾᏍ?
+,v̀:sginasgo?,ᎥᏍᎩᎾᏍᎪ?
+,v̀:sgis?,ᎥᏍᎩᏍ?
+,v̀:sgisgo?,ᎥᏍᎩᏍᎪ?
 ,v̀:ʔhla.,ᎥᏝ.
+,v̀hla gùːgu juːnéːgihldi yigaːdía,ᎥᏝ ᎫᎫ ᏧᏁᎩꮅᏗ ᏱᎦᏗᎠ
 ,v̌:sgíyi kaʔla.,ᎥᏍᎩᏱ ᎧᎳ.
 ,wa:dǐ:ta,ᏩᏗᏔ
 ,wado,ᏩᏙ
 ,wado.,ᏩᏙ.
+,wahaya a:nigv̌:hnáge̋ ù:nisgǒ:lv̋ gè:só:ʔi.,ᏩᎭᏯ ᎠᏂᎬᎿᎨ ᎤᏂᏍᎪᎸ ᎨᏐᎢ.
 ,wahaya de:jakáha,ᏩᎭᏯ ᏕᏣᎧᎭ
+,wahaya de:jakáha.,ᏩᎭᏯ ᏕᏣᎧᎭ.
 ,wahaya dù:dó:ʔa,ᏩᎭᏯ ᏚᏙᎠ
 *,wahaya ga:hi:gowhtíha,ᏩᎭᏯ ᎦᎯᎪwᏘᎭ
 *,wahaya gv:gigowhtíha,ᏩᎭᏯ ᎬᎩᎪwᏘᎭ
+,wahaya.,ᏩᎭᏯ.
+,wahayagwuju?,ᏩᎭᏯᏊᏧ?
 ,wahayaju?,ᏩᎭᏯᏧ?
+*,wahg,Ꮹg
+,wahga.,ᏩᎦ.
+,wahya a:nigv̌:hnáge̋ ù:nisgǒ:lv̋ gè:só.,ᏩᏯ ᎠᏂᎬᎿᎨ ᎤᏂᏍᎪᎸ ᎨᏐ.
 ,wahya de:jaká,ᏩᏯ ᏕᏣᎧ
+,wahya de:jaká.,ᏩᏯ ᏕᏣᎧ.
 ,wahya dù:dó,ᏩᏯ ᏚᏙ
 *,wahya ga:hi:gowhtí,ᏩᏯ ᎦᎯᎪwᏘ
 *,wahya gv:gigowhtí,ᏩᏯ ᎬᎩᎪwᏘ
+,wahya.,ᏩᏯ.
+,wahyagwuju?,ᏩᏯᏊᏧ?
 ,wahyaju,ᏩᏯᏧ
 ,waló.,ᏩᎶ.
+,waló:s,ᏩᎶᏍ
 ,waló:s.,ᏩᎶᏍ.
 ,waló:si.,ᏩᎶᏏ.
 ,watade:gv̀,ᏩᏔᏕᎬ
@@ -2719,9 +3128,16 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,wijò:sdì:du:hv̀,ᏫᏦᏍᏗᏚᎲ
 ,wijò:sdì:du:hv̀:ga,ᏫᏦᏍᏗᏚᎲᎦ
 ,wijò:sdì:hlǐ:sa,ᏫᏦᏍᏗᏟᏌ
+,wo:i,ᏬᎢ
+,wo:yi.,ᏬᏱ.
 ,wà:giyò:sǐ:sa,ᏩᎩᏲᏏᏌ
 ,wà:jigò:wahta,ᏩᏥᎪᏩᏔ
 ,wà:na:dǐ:ta,ᏩᎾᏗᏔ
+,wá:du:lí:s,ᏩᏚᎵᏍ
+,wá:du:lí:si.,ᏩᏚᎵᏏ.
+,wá:le:l,ᏩᎴꮅ
+,wá:le:la.,ᏩᎴᎳ.
+,wá:so:hla.,ᏩᏐᏝ.
 ,wì:gohlgi,ᏫᎪꮅᎩ
 ,wì:jv:yagà:tǒ:sda,ᏫᏨᏯᎦᏙᏍᏓ
 ,wò:gohlgi,ᏬᎪꮅᎩ
@@ -2733,20 +3149,34 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,wò:sdi:sdǐ,ᏬᏍᏗᏍᏗ
 ,wò:sdi:sdǐ:ga,ᏬᏍᏗᏍᏗᎦ
 ,wò:sdè:na,ᏬᏍᏕᎾ
+,wě:s,ᏪᏍ
 *,wě:s ga:ji:gowhtí,ᏪᏍ ᎦᏥᎪwᏘ
 ,wě:s ù:ni:ká,ᏪᏍ ᎤᏂᎧ
+,wě:s ù:ni:ká.,ᏪᏍ ᎤᏂᎧ.
 *,wě:sa ga:ji:gowhtíha,ᏪᏌ ᎦᏥᎪwᏘᎭ
+,wě:sa hla yidù:ni:ká.,ᏪᏌ Ꮭ ᏱᏚᏂᎧ.
+,wě:sa hla yù:ni:káha.,ᏪᏌ Ꮭ ᏳᏂᎧᎭ.
 ,wě:sa ù:ni:káha,ᏪᏌ ᎤᏂᎧᎭ
+,wě:sa ù:ni:káha.,ᏪᏌ ᎤᏂᎧᎭ.
+,wě:sa.,ᏪᏌ.
 ,wě:sas? hla! nà:sgi táʔli gi:hli,ᏪᏌᏍ? Ꮭ! ᎾᏍᎩ ᏔᎵ ᎩᏟ
 ,wě:sas? hla! sgina táʔli gi:hli,ᏪᏌᏍ? Ꮭ! ᏍᎩᎾ ᏔᎵ ᎩᏟ
 ,wě:sas? hla! v̀:sgina táʔli gi:hli,ᏪᏌᏍ? Ꮭ! ᎥᏍᎩᎾ ᏔᎵ ᎩᏟ
 ,wě:sasgo? vhla! v̀:sgi a:nitáʔli gi:hli,ᏪᏌᏍᎪ? ᎥᏝ! ᎥᏍᎩ ᎠᏂᏔᎵ ᎩᏟ
+*,wǎ:dádǔ:g,ᏩᏓᏚg
+,wǎ:dádǔ:ga.,ᏩᏓᏚᎦ.
+*,yansa.,ᏯnᏌ.
 ,yi̋:gi,ᏱᎩ
+*,yǒ:na hla yijagowhtíha.,ᏲᎾ Ꮭ ᏱᏣᎪwᏘᎭ.
 ,yv:wi,ᏴᏫ
+*,yvːwi hla ahwi uːnéːgihld yàːdi.,ᏴᏫ Ꮭ ᎠᏫ ᎤᏁᎩꮅd ᏯᏗ.
+*,yvːwi hla tǔːya juːnéːgihld yàːdiha.,ᏴᏫ Ꮭ ᏚᏯ ᏧᏁᎩꮅd ᏯᏗᎭ.
 *,yv́:wúne:g,ᏴᏭᏁg
 ,yv́:wúne:ga,ᏴᏭᏁᎦ
 *,yó:ne:g,ᏲᏁg
 ,yó:ne:ga,ᏲᏁᎦ
+*,yǒ:n,Ᏺn
+,yǒ:na.,ᏲᎾ.
 ,yǒ:nana,ᏲᎾᎾ
 ,yǒ:nana a:nijo?,ᏲᎾᎾ ᎠᏂᏦ?
 ,yǒ:nana a:nijoʔi?,ᏲᎾᎾ ᎠᏂᏦᎢ?
@@ -2777,6 +3207,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,à:gigá:nawv̋.,ᎠᎩᎦᎾᏮ.
 ,à:gigá:nawv̋:ʔi.,ᎠᎩᎦᎾᏮᎢ.
 ,à:giha,ᎠᎩᎭ
+,à:giha sadv́:di.,ᎠᎩᎭ ᏌᏛᏗ.
 ,à:giha.,ᎠᎩᎭ.
 ,à:gihv̌,ᎠᎩᎲ
 ,à:gihv̌:ʔi,ᎠᎩᎲᎢ
@@ -2784,6 +3215,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,à:gihyv́:dlv̋:ʔi.,ᎠᎩᏴᏢᎢ.
 ,à:gihé:sdi,ᎠᎩᎮᏍᏗ
 ,à:gihó:ʔi,ᎠᎩᎰᎢ
+,à:giká ahwi.,ᎠᎩᎧ ᎠᏫ.
+,à:gikáha ahawi.,ᎠᎩᎧᎭ ᎠᎭᏫ.
 ,à:gikóhdi,ᎠᎩᎪᏗ
 ,à:gilv̀:sdi,ᎠᎩᎸᏍᏗ
 ,à:gilv̂:sv̌,ᎠᎩᎸᏒ
@@ -2930,15 +3363,18 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,áhani gv̌:hnáge̋ gù:gu.,ᎠᎭᏂ ᎬᎿᎨ ᎫᎫ.
 ,áhani ǐ:gá:da ama.,ᎠᎭᏂ ᎢᎦᏓ ᎠᎹ.
 ,áhani ǐ:gá:da á:ma.,ᎠᎭᏂ ᎢᎦᏓ ᎠᎹ.
+,áhani ji:sdu.,ᎠᎭᏂ ᏥᏍᏚ.
 ,áhani sà:gwű sǒ:gwíli.,ᎠᎭᏂ ᏌᏊ ᏐᏈᎵ.
 ,áhani.,ᎠᎭᏂ.
 ,áhni ale ù:hna̋,ᎠᏂ ᎠᎴ ᎤᎿ
 ,áhni gv̌:hnáge̋ gù:gu.,ᎠᏂ ᎬᎿᎨ ᎫᎫ.
 *,áhni ǐ:gá:d ama.,ᎠᏂ ᎢᎦd ᎠᎹ.
 *,áhni ǐ:gá:d á:ma.,ᎠᏂ ᎢᎦd ᎠᎹ.
+*,áhni ji:sd.,ᎠᏂ ᏥᏍd.
 ,áhni ji:sdu,ᎠᏂ ᏥᏍᏚ
 ,áhni sà:gwű sǒ:gwíl.,ᎠᏂ ᏌᏊ ᏐᏈꮅ.
 ,áhni.,ᎠᏂ.
+,áʔni.,ᎠᏂ.
 ,è:dadǔ:la,ᎡᏓᏚᎳ
 ,è:dadǔ:lā,ᎡᏓᏚᎳ
 ,è:dagà:tǒ:sda,ᎡᏓᎦᏙᏍᏓ
@@ -3023,6 +3459,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,é:ga.,ᎡᎦ.
 *,énto:n dà:gwadó,ᎡnᏙn ᏓᏆᏙ
 *,énto:ni dà:gwadó:a,ᎡnᏙᏂ ᏓᏆᏙᎠ
+*,énto:ni dà:gwadó:ʔa,ᎡnᏙᏂ ᏓᏆᏙᎠ
 ,ì:da:dǐ:ta,ᎢᏓᏗᏔ
 ,ì:da:dǐ:tā,ᎢᏓᏗᏔ
 ,ì:dada,ᎢᏓᏓ
@@ -3403,6 +3840,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ù:hna̋ sà:gwű sǒ:gwíl.,ᎤᎿ ᏌᏊ ᏐᏈꮅ.
 ,ù:hna̋ sà:gwű sǒ:gwíli.,ᎤᎿ ᏌᏊ ᏐᏈᎵ.
 *,"ù:hna̋, ő:sda sà:gwű jigowhtíha","ᎤᎿ, ᎣᏍᏓ ᏌᏊ ᏥᎪwᏘᎭ"
+*,ù:hna̋. ő:sda sà:gwű jigowhtíha!,ᎤᎿ. ᎣᏍᏓ ᏌᏊ ᏥᎪwᏘᎭ!
 *,ù:hna̋s a:nijo yǒ:n?,ᎤᎿᏍ ᎠᏂᏦ Ᏺn?
 ,ù:hna̋sgo a:nijoʔi yǒ:na?,ᎤᎿᏍᎪ ᎠᏂᏦᎢ ᏲᎾ?
 ,ù:hv̌:ʔi,ᎤᎲᎢ
@@ -3454,7 +3892,9 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ù:ni:hé:sdi,ᎤᏂᎮᏍᏗ
 ,ù:ni:hó,ᎤᏂᎰ
 ,ù:ni:hó:ʔi,ᎤᏂᎰᎢ
+,ù:ni:ká wě:s.,ᎤᏂᎧ ᏪᏍ.
 ,ù:ni:káha,ᎤᏂᎧᎭ
+,ù:ni:káha wě:sa.,ᎤᏂᎧᎭ ᏪᏌ.
 ,ù:ni:lv̀:sdi,ᎤᏂᎸᏍᏗ
 ,ù:ni:lv̂:sv̌,ᎤᏂᎸᏒ
 ,ù:ni:lv̂:sv̌:ʔi,ᎤᏂᎸᏒᎢ
@@ -3483,6 +3923,7 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ù:nì:sdí:gv̌:ʔi,ᎤᏂᏍᏗᎬᎢ
 ,ù:nù:di:tahv̌,ᎤᏄᏗᏔᎲ
 ,ù:nù:di:tahv̌:ʔi,ᎤᏄᏗᏔᎲᎢ
+,ù:nǐ:ha tǔ:ya.,ᎤᏂᎭ ᏚᏯ.
 ,ù:sdí:gv̌,ᎤᏍᏗᎬ
 ,ù:sdí:gv̌:ʔi,ᎤᏍᏗᎬᎢ
 ,ù:sdǐ:gî:sdi,ᎤᏍᏗᎩᏍᏗ
@@ -3495,6 +3936,8 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ù:tadě:gô:di,ᎤᏔᏕᎪᏗ
 ,ù:wa:kahó,ᎤᏩᎧᎰ
 ,ù:wa:kahó:ʔi,ᎤᏩᎧᎰᎢ
+,ù:wa:ká gi:hli.,ᎤᏩᎧ ᎩᏟ.
+,ù:wa:káha gi:hli.,ᎤᏩᎧᎭ ᎩᏟ.
 ,ù:we:káha.,ᎤᏪᎧᎭ.
 ,ù:we:nv̀:sdi,ᎤᏪᏅᏍᏗ
 ,ù:we:nv́:sv̌,ᎤᏪᏅᏒ
@@ -3524,10 +3967,17 @@ NEEDS_FIXING,PRONOUNCE,SYLLABARY
 ,ő:sda. ì:dalě:na.,ᎣᏍᏓ. ᎢᏓᎴᎾ.
 ,ő:sda:dv̀.,ᎣᏍᏓᏛ.
 ,ő:sdagwu,ᎣᏍᏓᏊ
+*,ǐ:nád,ᎢᎾd
+,ǐ:náda.,ᎢᎾᏓ.
+,ǐ:náge̋,ᎢᎾᎨ
+,ǐ:náge̋:ʔi.,ᎢᎾᎨᎢ.
 *,ǔ:gám jané.,ᎤᎦm ᏣᏁ.
 *,ǔ:gám.,ᎤᎦm.
 ,ǔ:gáma janéʔa.,ᎤᎦᎹ ᏣᏁᎠ.
 ,ǔ:gáma ù:néha.,ᎤᎦᎹ ᎤᏁᎭ.
 ,ǔ:gáma ù:néʔa.,ᎤᎦᎹ ᎤᏁᎠ.
 ,ǔ:gáma.,ᎤᎦᎹ.
+,ǔ:ha gu:le.,ᎤᎭ ᎫᎴ.
 ,ǔ:ha.,ᎤᎭ.
+,ǔːhas só gùːgu méːli?,ᎤᎭᏍ Ꮠ ᎫᎫ ᎺᎵ?
+,ǔːhasgo sóʔi gùːgu méːli?,ᎤᎭᏍᎪ ᏐᎢ ᎫᎫ ᎺᎵ?

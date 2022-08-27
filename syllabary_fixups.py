@@ -54,9 +54,9 @@ def main() -> None:
                     continue
                 syllabary_lookup[pronounce] = syllabary
 
-    backup_dir: pathlib.Path = pathlib.Path("data/backup")
+    backup_dir: pathlib.Path = pathlib.Path("cherokee-vocab-data/backup")
     backup_dir.mkdir(exist_ok=True)
-    for dataset in glob.glob("data/*.txt"):
+    for dataset in glob.glob("cherokee-vocab-data/*.txt"):
         shutil.copy(dataset, backup_dir)
         with open(dataset, "r") as r:
             line = r.readline().strip()
