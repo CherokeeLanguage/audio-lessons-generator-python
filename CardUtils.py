@@ -7,7 +7,6 @@ from dataclasses import dataclass
 
 @dataclass
 class CardUtils:
-
     pimsleur_intervals: list[float] = field(default_factory=list)
     sm2_intervals: list[float] = field(default_factory=list)
     sm2_intervals_days: list[int] = field(default_factory=list)
@@ -36,13 +35,13 @@ class CardUtils:
     def next_pimsleur_interval(self, correct_in_a_row: int) -> float:
         if correct_in_a_row < 0:
             correct_in_a_row = 0
-        if correct_in_a_row > len(self.pimsleur_intervals) - 1 :
+        if correct_in_a_row > len(self.pimsleur_intervals) - 1:
             correct_in_a_row = len(self.pimsleur_intervals) - 1
         return self.pimsleur_intervals[correct_in_a_row]
 
     def next_session_interval_secs(self, box: int) -> float:
         if box >= len(self.sm2_intervals):
-            box = len(self.sm2_intervals) -1
+            box = len(self.sm2_intervals) - 1
         if box < 0:
             box = 0
         return self.sm2_intervals[box]

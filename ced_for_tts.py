@@ -15,7 +15,6 @@ from pathlib import Path
 
 
 def main() -> None:
-
     os.chdir(os.path.dirname(__file__))
 
     voices: list[str] = ["en-345-m", "en-360-m", "en-333-f", "en-361-f"]

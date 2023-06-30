@@ -250,8 +250,9 @@ def load_main_deck(source_file: str) -> LeitnerAudioDeck:
                     if english_text:
                         english_text += " Or. "
                     english_text += text
-            if "v.t." in english_text or "v.i." in english_text:
-                english_text = english_text.replace("v.t.", "").replace("v.i.", "")
+            if "v. t." in english_text or "v.t." in english_text or "v. i." in english_text or "v.i." in english_text:
+                english_text = english_text.replace("v.t.", "").replace("v.i.", "")\
+                    .replace("v. t.", "").replace("v. i.", "")
             if "1." in english_text:
                 english_text = english_text.replace("1.", "")
                 english_text = english_text.replace("2.", ". Or, ")
