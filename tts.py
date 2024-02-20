@@ -1,18 +1,17 @@
 from __future__ import annotations
 
 import dataclasses
-import pathlib
-import shutil
-import sys
-import tempfile
-
-import boto3
 import hashlib
 import os
+import pathlib
 import re
+import shutil
 import subprocess
+import tempfile
 import textwrap
 import unicodedata
+
+import boto3
 from boto3_type_annotations.polly import Client as Polly
 from pydub import AudioSegment
 from pydub import effects
@@ -118,12 +117,14 @@ def tts_en(voice: str, text_en: str):
     if os.path.exists(mp3_en):
         return
     polly_client: Polly = boto3.Session().client("polly")
-    response = polly_client.synthesize_speech(OutputFormat="mp3",  #
-                                              Text=text_en,  #
-                                              VoiceId=voice,  #
-                                              SampleRate=AMZ_HZ,  #
-                                              LanguageCode="en-US",  #
-                                              Engine="neural")
+    response = polly_client.synthesize_speech(
+        OutputFormat="mp3",  #
+        Text=text_en,  #
+        VoiceId=voice,  #
+        SampleRate=AMZ_HZ,  #
+        LanguageCode="en-US",  #
+        Engine="neural"
+        )
     with open(mp3_en + ".tmp", "wb") as w:
         w.write(response["AudioStream"].read())
     shutil.move(mp3_en + ".tmp", mp3_en)
