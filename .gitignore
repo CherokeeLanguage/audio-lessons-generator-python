@@ -141,3 +141,4 @@ review-sheet-*.txt
 /data/ced-for-tts.txt
 decks/
 .gradle/
+.opencode/
