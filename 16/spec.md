@@ -79,11 +79,13 @@ cache class, not the deliverable. The srt/vocab/img pipelines are unchanged.
   (`.mp3` → `.m4a`); the directory layout (`mp3/` session directory, `img/`,
   `mp4/`, `srt/`, `vocab/`) and all non-audio outputs stay unchanged.
 
-**Cross-repo consumer:** the site conversion of the CLL-1 audio-exercises
-page consumes the same recommended settings inline in its own spec
-(CherokeeLessons#54) — this ticket is the owning definition of the encoder
-settings; a settings change here revises that spec's conversion parameters
-too.
+**Cross-repo consumer:** the site conversions of the lesson-audio pages
+consume the same recommended settings inline in their own spec
+(CherokeeLessons#54 — CLL-1's 23 sessions and animal-names' 9) — this ticket
+is the owning definition of the encoder settings; a settings change here
+revises that spec's conversion parameters too. The animal-names set (9 short
+tracks, every file far under the cap) projects to ≈ 31 MB, all at the 128k
+rung.
 
 ## Success criteria
 
@@ -100,7 +102,7 @@ too.
 
 - The TTS per-sentence clip cache format (`tts.py`, mp3).
 - Regenerating historical decks beyond the SC-1 verification run.
-- The site-side conversion of the CLL-1 audio-exercises page
+- The site-side conversions of the lesson-audio pages
   (CherokeeLessons#54 — consumes these settings).
 - YouTube upload/mirror work for the mp4 outputs.
 
