@@ -83,9 +83,10 @@ cache class, not the deliverable. The srt/vocab/img pipelines are unchanged.
 consume the same recommended settings inline in their own spec
 (CherokeeLessons#54 — CLL-1's 23 sessions and animal-names' 9) — this ticket
 is the owning definition of the encoder settings; a settings change here
-revises that spec's conversion parameters too. The animal-names set (9 short
-tracks, every file far under the cap) projects to ≈ 31 MB, all at the 128k
-rung.
+revises that spec's conversion parameters too. The animal-names set (9
+tracks, 12.8–29.9 min, 2.1–4.5 MB per file at source — every file far under
+the cap) projects to ≈ 76 MB at the 128k rung (encoder-measured ≈ 2.3–2.4×
+the mp3 sizes; no rung fallback).
 
 ## Success criteria
 
