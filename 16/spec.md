@@ -19,9 +19,9 @@ narrow-band mono speech, not a CBR rate. Measured consequences:
 - no mp3 setting both preserves the current effective rate and clears the
   cap with margin.
 
-Transcode trials on the real tracks (2026-11-15, ffmpeg; two representative
-sessions including the 59.7-minute worst case `0022`; see
-[research/bitrate-trials.md](research/bitrate-trials.md)) settled the
+Transcode trials on the real tracks (2026-11-15, ffmpeg; three representative
+tracks — `0001` 13.8 min, `0009` 42.8 min, and the 59.7-minute worst case
+`0022`; see [research/bitrate-trials.md](research/bitrate-trials.md)) settled the
 recommended deliverable: **AAC-LC**.
 
 - Universal platform playback: every browser `<audio>` implementation
@@ -115,9 +115,13 @@ config and probes the outputs.
 ## Impact
 
 Consumers: the site's audio-exercise pages gain deployable, cap-compliant
-session audio (~250 MB total across 23 tracks, max ~21 MB/file) with better
-speech quality-per-byte than the current mp3 export and no browser
-compatibility gaps. Risk: low-medium — the export change is mechanical
+session audio with better speech quality-per-byte than the current mp3 export
+and no browser compatibility gaps. Projected payload across the 23 CLL-1
+tracks (from the trials' measured rung rates; the implement-time ladder
+transcript replaces the projection with measured outcomes): ≈ 432 MB total,
+ladder outcome 15 tracks at the 128k rung / 8 dropping to the 112k rung /
+none reaching the 96k rung, max file 23.9 MB — every file ≤ 24 MiB by
+construction. Risk: low-medium — the export change is mechanical
 (codec/container/filename plus a size-gated retry loop), deck regeneration
 is deterministic from the existing assembly pipeline, and the mp4 mux
 simplifies to a stream copy. Rollback: revert the commit; decks re-generate
