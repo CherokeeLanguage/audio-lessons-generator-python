@@ -66,7 +66,9 @@ cache class, not the deliverable. The srt/vocab/img pipelines are unchanged.
   then 96 kb/s**, until the output passes the cap. The check is per session
   file and encode-and-measure — the native AAC encoder undershoots the
   nominal target on quiet mono speech, so final size, not nominal rate,
-  decides the step. (Cap rationale: 24 MiB leaves margin under the site's
+  decides the step. The export path SHALL record, per track, its ladder
+  transcript — the rungs attempted, the measured size at each rung, and the
+  chosen rung. (Cap rationale: 24 MiB leaves margin under the site's
   25 MiB asset cap for encoder and tooling rounding.)
 - **R-3 — mp4 mux to stream copy.** `create_mp4` SHALL use the produced
   `.m4a` as its audio input and stream-copy the audio (`-c:a copy`),
@@ -90,8 +92,9 @@ too.
 | SC-1 | A generator run produces session audio as `.m4a` (the production CLL-1 config yields 23 files named `cll1-v3-NNNN.m4a`) | behavioral | run the documented entry (`main.py`) against `configs/cll1-v3-cfg.json` in the repo's environment; glob the session output directory for `cll1-v3-*.m4a` and count = 23 |
 | SC-2 | Each session `.m4a` is AAC-LC, mono, 48 kHz, in an MP4 container | behavioral | `ffprobe` each file: `codec_name= aac`, `channels= 1`, `sample_rate= 48000`, `format_name` contains `mov`/`mp4` |
 | SC-3 | Every session file is ≤ 24 MiB | structural | `stat -c %s` ≤ 25,165,824 bytes per file |
-| SC-4 | Produced mp4s carry the session audio as AAC, stream-copied from the .m4a | behavioral | `ffprobe` an mp4: audio stream `codec_name= aac` |
+| SC-4 | The mp4 mux stream-copies the session `.m4a` audio — no audio re-encode in the mux | structural | the mux command construction in `main.py` passes `-c:a copy` for the audio input and no longer carries the `-q:a`/`3` re-encode flags; `ffprobe` on a produced mp4: audio stream `codec_name= aac` |
 | SC-5 | The repo's build gate passes with the change in place | structural | `./gradlew build` exit 0 |
+| SC-6 | Each session file's final encode is the highest ladder rung (128 → 112 → 96 kb/s) whose encoded output measured ≤ 24 MiB — the ladder is actually exercised per track, never globally pre-lowered | behavioral | the export run's per-track ladder transcript (rungs attempted, measured sizes, chosen rung); cross-check per file: its `ffprobe` `bit_rate` corresponds to the recorded chosen rung |
 
 ## Out of scope
 
